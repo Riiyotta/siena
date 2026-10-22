@@ -1,0 +1,48 @@
+Ask Siena "omg do you ship to canada??? �" @335,1849 320x47 [op,x,y,sx,sy,blur] [0,-159.9,80,1,1,0] -> [1,-159.9,0,1,1,0] start 336ms t50 791ms end 1486ms overshoot -1.2
+Prompt "Yes! We ship everywhere across" @346,1923 306x75 [op,x,y,sx,sy,blur] [0,-153,80,1,1,0] -> [1,-153,0,1,1,0] start 805ms t50 985ms end 1784ms overshoot -1.2
+01 "I need it in every flavour" @804,1979 227x47 [op,x,y,sx,sy,blur] [0,0,80,1,1,0] -> [1,0,0,1,1,0] start 336ms t50 791ms end 1486ms overshoot -1.2
+Prompt "True Sea MossYessss, you’re go" @828,1961 253x98 [op,x,y,sx,sy,blur] [0,-126.5,80,1,1,0] -> [1,-126.5,0,1,1,0] start 805ms t50 985ms end 1784ms overshoot -1.2
+Donut "@itssam.orders$$$ bUY fOlloWer" @531,4203 228x78 [op,x,y,sx,sy,blur] [0,0,90,1,1,0] -> [1,0,0,1,1,0] start 826ms t50 1349ms end 1834ms overshoot 0.0
+DIV "" @578,4252 128x1 [op,x,y,sx,sy,blur] [0,-90,0,1,1,0] -> [1,0,0,1,1,0] start 2034ms t50 2201ms end 2434ms overshoot 0.0
+Donut "@itssam.ordersUgly  🤮" @531,4102 228x78 [op,x,y,sx,sy,blur] [0,0,111.1,1,1,0] -> [1,0,-38.9,1,1,0] start 336ms t50 791ms end 935ms overshoot 0.0
+DIV "" @578,4152 56x1 [op,x,y,sx,sy,blur] [0,-90,0,1,1,0] -> [1,0,0,1,1,0] start 2234ms t50 2401ms end 2636ms overshoot 0.0
+SPAN "↳" @770,4106 12x18 [op,x,y,sx,sy,blur] [0.001,0,10,1,1,10] -> [1,0,0,1,1,0] start 336ms t50 791ms end 1035ms overshoot 0.0
+SPAN "H" @782,4106 9x18 [op,x,y,sx,sy,blur] [0.001,0,10,1,1,10] -> [1,0,0,1,1,0] start 336ms t50 791ms end 1085ms overshoot 0.0
+SPAN "a" @791,4106 6x18 [op,x,y,sx,sy,blur] [0.001,0,10,1,1,10] -> [1,0,0,1,1,0] start 336ms t50 826ms end 1138ms overshoot 0.0
+SPAN "r" @797,4106 5x18 [op,x,y,sx,sy,blur] [0.001,0,10,1,1,10] -> [1,0,0,1,1,0] start 336ms t50 887ms end 1193ms overshoot 0.0
+SPAN "m" @802,4106 11x18 [op,x,y,sx,sy,blur] [0.001,0,10,1,1,10] -> [1,0,0,1,1,0] start 826ms t50 919ms end 1237ms overshoot 0.0
+SPAN "f" @813,4106 4x18 [op,x,y,sx,sy,blur] [0.001,0,10,1,1,10] -> [1,0,0,1,1,0] start 826ms t50 972ms end 1285ms overshoot 0.0
+SPAN "u" @817,4106 7x18 [op,x,y,sx,sy,blur] [0.001,0,10,1,1,10] -> [1,0,0,1,1,0] start 919ms t50 1021ms end 1349ms overshoot 0.0
+SPAN "l" @824,4106 3x18 [op,x,y,sx,sy,blur] [0.001,0,10,1,1,10] -> [1,0,0,1,1,0] start 972ms t50 1068ms end 1386ms overshoot 0.0
+Donut "@itssam.ordersoverpriced for w" @529,4004 228x78 [op,x,y,sx,sy,blur] [0,0,150,1,1,0] -> [1,0,0,1,1,0] start 220ms t50 791ms end 791ms overshoot 0.0
+DIV "" @576,4054 168x1 [op,x,y,sx,sy,blur] [0,-150,0,1,1,0] -> [1,0,0,1,1,0] start 336ms t50 791ms end 1035ms overshoot 0.0
+SPAN "↳" @770,4009 12x18 [op,x,y,sx,sy,blur] [0.001,0,10,1,1,10] -> [1,0,0,1,1,0] start 254ms t50 791ms end 791ms overshoot 0.0
+SPAN "K" @782,4009 8x18 [op,x,y,sx,sy,blur] [0.001,0,10,1,1,10] -> [1,0,0,1,1,0] start 336ms t50 791ms end 791ms overshoot 0.0
+SPAN "e" @790,4009 7x18 [op,x,y,sx,sy,blur] [0.001,0,10,1,1,10] -> [1,0,0,1,1,0] start 336ms t50 791ms end 887ms overshoot 0.0
+SPAN "y" @797,4009 6x18 [op,x,y,sx,sy,blur] [0.001,0,10,1,1,10] -> [1,0,0,1,1,0] start 336ms t50 791ms end 887ms overshoot 0.0
+SPAN "w" @803,4009 9x18 [op,x,y,sx,sy,blur] [0.001,0,10,1,1,10] -> [1,0,0,1,1,0] start 336ms t50 791ms end 935ms overshoot 0.0
+SPAN "o" @813,4009 7x18 [op,x,y,sx,sy,blur] [0.001,0,10,1,1,10] -> [1,0,0,1,1,0] start 336ms t50 791ms end 985ms overshoot 0.0
+SPAN "r" @820,4009 5x18 [op,x,y,sx,sy,blur] [0.001,0,10,1,1,10] -> [1,0,0,1,1,0] start 336ms t50 791ms end 1035ms overshoot 0.0
+SPAN "d" @824,4009 7x18 [op,x,y,sx,sy,blur] [0.001,0,10,1,1,10] -> [1,0,0,1,1,0] start 336ms t50 791ms end 1085ms overshoot 0.0
+SPAN """ @834,4009 5x18 [op,x,y,sx,sy,blur] [0.001,0,10,1,1,10] -> [1,0,0,1,1,0] start 336ms t50 805ms end 1138ms overshoot 0.0
+SPAN "o" @838,4009 7x18 [op,x,y,sx,sy,blur] [0.001,0,10,1,1,10] -> [1,0,0,1,1,0] start 336ms t50 887ms end 1193ms overshoot 0.0
+SPAN "v" @845,4009 6x18 [op,x,y,sx,sy,blur] [0.001,0,10,1,1,10] -> [1,0,0,1,1,0] start 826ms t50 919ms end 1237ms overshoot 0.0
+SPAN "e" @852,4009 7x18 [op,x,y,sx,sy,blur] [0.001,0,10,1,1,10] -> [1,0,0,1,1,0] start 826ms t50 955ms end 1285ms overshoot 0.0
+SPAN "r" @858,4009 5x18 [op,x,y,sx,sy,blur] [0.001,0,10,1,1,10] -> [1,0,0,1,1,0] start 919ms t50 1021ms end 1349ms overshoot 0.0
+SPAN "p" @863,4009 7x18 [op,x,y,sx,sy,blur] [0.001,0,10,1,1,10] -> [1,0,0,1,1,0] start 972ms t50 1068ms end 1386ms overshoot 0.0
+SPAN "r" @870,4009 5x18 [op,x,y,sx,sy,blur] [0.001,0,10,1,1,10] -> [1,0,0,1,1,0] start 1021ms t50 1118ms end 1437ms overshoot 0.0
+SPAN "i" @875,4009 3x18 [op,x,y,sx,sy,blur] [0.001,0,10,1,1,10] -> [1,0,0,1,1,0] start 1068ms t50 1168ms end 1486ms overshoot 0.0
+SPAN "c" @878,4009 6x18 [op,x,y,sx,sy,blur] [0.001,0,10,1,1,10] -> [1,0,0,1,1,0] start 1118ms t50 1208ms end 1538ms overshoot 0.0
+SPAN "e" @884,4009 7x18 [op,x,y,sx,sy,blur] [0.001,0,10,1,1,10] -> [1,0,0,1,1,0] start 1168ms t50 1268ms end 1585ms overshoot 0.0
+SPAN "d" @891,4009 7x18 [op,x,y,sx,sy,blur] [0.001,0,10,1,1,10] -> [1,0,0,1,1,0] start 1222ms t50 1304ms end 1635ms overshoot 0.0
+SPAN """ @898,4009 5x18 [op,x,y,sx,sy,blur] [0.001,0,10,1,1,10] -> [1,0,0,1,1,0] start 1268ms t50 1371ms end 1687ms overshoot 0.0
+SPAN "↳" @770,4206 12x18 [op,x,y,sx,sy,blur] [0.001,0,10,1,1,10] -> [1,0,0,1,1,0] start 935ms t50 1021ms end 1353ms overshoot 0.0
+SPAN "S" @782,4206 7x18 [op,x,y,sx,sy,blur] [0.001,0,10,1,1,10] -> [1,0,0,1,1,0] start 985ms t50 1068ms end 1401ms overshoot 0.0
+SPAN "p" @789,4206 7x18 [op,x,y,sx,sy,blur] [0.001,0,10,1,1,10] -> [1,0,0,1,1,0] start 1035ms t50 1118ms end 1437ms overshoot 0.0
+SPAN "a" @797,4206 6x18 [op,x,y,sx,sy,blur] [0.001,0,10,1,1,10] -> [1,0,0,1,1,0] start 1085ms t50 1168ms end 1503ms overshoot 0.0
+SPAN "m" @803,4206 11x18 [op,x,y,sx,sy,blur] [0.001,0,10,1,1,10] -> [1,0,0,1,1,0] start 1138ms t50 1208ms end 1553ms overshoot 0.0
+Rectangle 2223 "" @709,6349 22x22 [op,x,y,sx,sy,blur] [0.992,0,0,1.002,1.002,0] -> [0.166,0,0,1.226,1.226,0] start 9ms t50 336ms end 3501ms overshoot -0.1
+SPAN "" @542,7510 2x14 [op,x,y,sx,sy,blur] [0,0,0,1,1,0] -> [1,0,0,1,1,0] start 826ms t50 1437ms end 3484ms overshoot 0.0
+Rectangle 2223 "" @499,9607 37x37 [op,x,y,sx,sy,blur] [0.992,0,0,1.002,1.002,0] -> [0.166,0,0,1.226,1.226,0] start 9ms t50 336ms end 3501ms overshoot -0.1
+Rectangle 2223 "" @499,9651 37x37 [op,x,y,sx,sy,blur] [0.992,0,0,1.002,1.002,0] -> [0.166,0,0,1.226,1.226,0] start 9ms t50 336ms end 3501ms overshoot -0.1
+Rectangle 2223 "" @499,9695 37x37 [op,x,y,sx,sy,blur] [0.992,0,0,1.002,1.002,0] -> [0.166,0,0,1.226,1.226,0] start 9ms t50 336ms end 3501ms overshoot -0.1

@@ -1,0 +1,21 @@
+{
+  "registryId": "primitive.divider",
+  "version": "1.0.0",
+  "category": "structure",
+  "description": "1px hairline (Framer ::after border) in the quiet border colour; FAQ items use a 3px rule.",
+  "props": {
+    "weight": {
+      "enum": [
+        "hairline",
+        "faq-rule"
+      ]
+    }
+  },
+  "tokens": [
+    "{color.border.quiet}"
+  ],
+  "measuredFrom": [
+    "spec.featureitem",
+    "spec.faq.item"
+  ]
+}

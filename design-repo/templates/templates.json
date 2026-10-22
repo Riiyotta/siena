@@ -1,0 +1,2473 @@
+{
+  "$description": "One template per distinct page shape (27 shapes for 35 routes). Every node carries exactly section, variants, required and repeatable; the semantic validator matches PageSpec nodes on (section, variant) against this list, in order. sourceStatusAtExtraction 'in-flight' marks product pages that other agents were still building while this repo was extracted: those templates are grounded in the Playwright-measured specs (evidence spec-measured) and must be re-diffed against src/ before relying on them.",
+  "routing": {
+    "navOverrides": {
+      "/careers": {
+        "ctaLabel": "See open roles",
+        "ctaHref": "/careers#open-roles"
+      },
+      "/about-us": {
+        "forceScrolled": true
+      },
+      "/social-agent": {
+        "forceScrolled": true
+      },
+      "/ai-lab": {
+        "hideNav": true
+      },
+      "/pricing": {
+        "hideChrome": true
+      },
+      "/book-a-demo": {
+        "hideChrome": true
+      }
+    },
+    "defaultNavCta": {
+      "label": "Book a demo",
+      "href": "/book-a-demo"
+    },
+    "outOfScopePrefixes": [
+      "/blog",
+      "/customer-stories",
+      "/integrations",
+      "/product-updates",
+      "/webinars",
+      "/terms-of-services"
+    ],
+    "outOfScopeNote": "Blog, customer stories, integrations, product updates, webinars and previous-terms pages were removed on purpose and must NOT be recreated. Links to them are absolute https://www.siena.cx URLs (src/routes.js siteHref).",
+    "externalHostAllowlist": [
+      "www.siena.cx",
+      "www.linkedin.com",
+      "x.com",
+      "jobs.ashbyhq.com",
+      "idiomatic.io",
+      "sienaai.trust.site",
+      "luma.com",
+      "www.youtube.com"
+    ],
+    "cite": [
+      "src.routes.overrides",
+      "src.routes.sitehref",
+      "src.routes.scope",
+      "src.routes.list"
+    ]
+  },
+  "templates": {
+    "template.home": {
+      "id": "template.home",
+      "version": "1.0.0",
+      "name": "Homepage",
+      "routes": [
+        "/"
+      ],
+      "routeKind": "static",
+      "evidence": "measured",
+      "sourceStatusAtExtraction": "built",
+      "description": "Brand homepage: hero with tickers, testimonial slider, sticky pillar story, metrics, stories carousel, lottie feature grid, integrations, closing CTA.",
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.home",
+          "variants": [
+            "home"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "testimonials.slider",
+          "variants": [
+            "titled"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "feature.sticky-scroll",
+          "variants": [
+            "home"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "stats.metrics",
+          "variants": [
+            "home"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "stories.carousel",
+          "variants": [
+            "home"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "features.lottie-grid",
+          "variants": [
+            "home"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "integrations.logo-grid",
+          "variants": [
+            "home"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cta.main",
+          "variants": [
+            "cream-fade"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "constraints": {
+        "testimonialSet": {
+          "source": "verified",
+          "expectedCount": 11,
+          "note": "Same 11 slides, order and copy as the homepage (CLONE_SPEC 3)."
+        }
+      },
+      "cite": [
+        "src.home",
+        "spec.home.order",
+        "spec.mobile.sections"
+      ]
+    },
+    "template.insights-landing": {
+      "id": "template.insights-landing",
+      "version": "1.0.0",
+      "name": "Insights product landing",
+      "routes": [
+        "/insights",
+        "/insights/sentiment-analysis-online",
+        "/insights/voice-of-customer-software",
+        "/insights/customer-feedback-analytics-software"
+      ],
+      "routeKind": "static",
+      "evidence": "measured",
+      "sourceStatusAtExtraction": "built",
+      "description": "One template for /insights and three /insights/* subpages (not a blog index/article split).",
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.insights",
+          "variants": [
+            "landing",
+            "subpage"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "banner.announcement-strip",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "logos.static-row",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "feature.media-row",
+          "variants": [
+            "insights"
+          ],
+          "required": true,
+          "repeatable": true
+        },
+        {
+          "section": "integrations.logo-grid",
+          "variants": [
+            "insights"
+          ],
+          "required": false,
+          "repeatable": false
+        },
+        {
+          "section": "testimonial.centered-quote",
+          "variants": [
+            "standard"
+          ],
+          "required": false,
+          "repeatable": false
+        },
+        {
+          "section": "feature.agent-promo",
+          "variants": [
+            "insights"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cta.demo-form",
+          "variants": [
+            "insights"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "constraints": {
+        "repeatCounts": {
+          "feature.media-row": [
+            3,
+            6
+          ]
+        },
+        "routeVariants": {
+          "/insights": {
+            "hero.insights": "landing"
+          },
+          "/insights/sentiment-analysis-online": {
+            "hero.insights": "subpage"
+          },
+          "/insights/voice-of-customer-software": {
+            "hero.insights": "subpage"
+          },
+          "/insights/customer-feedback-analytics-software": {
+            "hero.insights": "subpage"
+          }
+        },
+        "routeNodeRules": {
+          "/insights/customer-feedback-analytics-software": {
+            "forbid": [
+              "integrations.logo-grid",
+              "testimonial.centered-quote"
+            ]
+          },
+          "/insights": {
+            "require": [
+              "integrations.logo-grid",
+              "testimonial.centered-quote"
+            ]
+          },
+          "/insights/sentiment-analysis-online": {
+            "require": [
+              "integrations.logo-grid",
+              "testimonial.centered-quote"
+            ]
+          },
+          "/insights/voice-of-customer-software": {
+            "require": [
+              "integrations.logo-grid",
+              "testimonial.centered-quote"
+            ]
+          }
+        }
+      },
+      "cite": [
+        "spec.t1",
+        "spec.t1.notes",
+        "src.page.insights",
+        "jsx.insights.routes"
+      ]
+    },
+    "template.conversations-index": {
+      "id": "template.conversations-index",
+      "version": "1.0.0",
+      "name": "Conversations index",
+      "routes": [
+        "/conversations"
+      ],
+      "routeKind": "static",
+      "evidence": "measured",
+      "sourceStatusAtExtraction": "built",
+      "description": "Index of CX-leader conversations (card grid) + newsletter.",
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.conversation-index",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cta.newsletter",
+          "variants": [
+            "conversations"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "constraints": {},
+      "cite": [
+        "spec.t2",
+        "src.page.conversations"
+      ],
+      "quirks": [
+        "phone-grid-overflow"
+      ]
+    },
+    "template.conversation-detail": {
+      "id": "template.conversation-detail",
+      "version": "1.0.0",
+      "name": "Conversation detail (transcript)",
+      "routes": [
+        "/conversations/thrive-causemetics-ai-customer-service-automation",
+        "/conversations/prose-ai-customer-service-automation",
+        "/conversations/spanx-kylah-field-real-work-ai-customer-experience"
+      ],
+      "routeKind": "static",
+      "evidence": "measured",
+      "sourceStatusAtExtraction": "built",
+      "description": "Interview page: header, YouTube embed (the only external request), summary/takeaways/chapters/transcript/FAQ (prose placeholder).",
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.conversation-article",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cta.newsletter",
+          "variants": [
+            "conversations"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "constraints": {},
+      "cite": [
+        "spec.t3",
+        "src.page.convdetail",
+        "jsx.conv.article"
+      ]
+    },
+    "template.legal": {
+      "id": "template.legal",
+      "version": "1.0.0",
+      "name": "Legal document",
+      "routes": [
+        "/terms-of-service",
+        "/privacy-policy"
+      ],
+      "routeKind": "static",
+      "evidence": "measured",
+      "sourceStatusAtExtraction": "built",
+      "description": "Terms / privacy: title, last-updated row, rich-text body (structure real, body placeholder).",
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.legal-document",
+          "variants": [
+            "terms",
+            "privacy"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "constraints": {
+        "routeVariants": {
+          "/terms-of-service": {
+            "content.legal-document": "terms"
+          },
+          "/privacy-policy": {
+            "content.legal-document": "privacy"
+          }
+        }
+      },
+      "cite": [
+        "spec.t4",
+        "src.page.terms",
+        "src.page.privacy"
+      ]
+    },
+    "template.about": {
+      "id": "template.about",
+      "version": "1.0.0",
+      "name": "About us",
+      "routes": [
+        "/about-us"
+      ],
+      "routeKind": "static",
+      "evidence": "measured",
+      "sourceStatusAtExtraction": "built",
+      "description": "Mission statement hero, horizontal scroll story, team, investors grid, CTA.",
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "variants": [
+            "forced-scrolled"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.statement-image",
+          "variants": [
+            "about"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "story.horizontal-scroll",
+          "variants": [
+            "about"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "team.founders",
+          "variants": [
+            "about"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "integrations.logo-grid",
+          "variants": [
+            "about-investors"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cta.main",
+          "variants": [
+            "no-fade"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "constraints": {},
+      "cite": [
+        "jsx.about",
+        "spec.a1",
+        "spec.co.nav"
+      ]
+    },
+    "template.careers": {
+      "id": "template.careers",
+      "version": "1.0.0",
+      "name": "Careers",
+      "routes": [
+        "/careers"
+      ],
+      "routeKind": "static",
+      "evidence": "measured",
+      "sourceStatusAtExtraction": "built",
+      "description": "Careers: hero, founders letter, people, how we work, open roles, email CTA.",
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "variants": [
+            "careers-cta"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.careers",
+          "variants": [
+            "careers"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "letter.founders",
+          "variants": [
+            "careers"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "people.quote-grid",
+          "variants": [
+            "careers"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "features.icon-grid",
+          "variants": [
+            "careers"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "roles.open-roles",
+          "variants": [
+            "careers"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cta.main",
+          "variants": [
+            "white-fade"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "constraints": {},
+      "cite": [
+        "jsx.careers",
+        "spec.c1",
+        "spec.co.nav"
+      ]
+    },
+    "template.customers": {
+      "id": "template.customers",
+      "version": "1.0.0",
+      "name": "Customers",
+      "routes": [
+        "/customers"
+      ],
+      "routeKind": "static",
+      "evidence": "measured",
+      "sourceStatusAtExtraction": "built",
+      "description": "Customer stories grid with filter, wall of love, CTA.",
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.title-underline",
+          "variants": [
+            "customers"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "stories.filter-grid",
+          "variants": [
+            "customers"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "testimonials.wall-of-love",
+          "variants": [
+            "customers"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cta.main",
+          "variants": [
+            "no-fade"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "constraints": {},
+      "cite": [
+        "jsx.customers",
+        "spec.u1"
+      ]
+    },
+    "template.community": {
+      "id": "template.community",
+      "version": "1.0.0",
+      "name": "Community",
+      "routes": [
+        "/community"
+      ],
+      "routeKind": "static",
+      "evidence": "measured",
+      "sourceStatusAtExtraction": "built",
+      "description": "Single hero with invite form and logo ticker; no CTA section.",
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.community-invite",
+          "variants": [
+            "community"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "constraints": {},
+      "cite": [
+        "jsx.community",
+        "spec.m1"
+      ]
+    },
+    "template.events": {
+      "id": "template.events",
+      "version": "1.0.0",
+      "name": "Events",
+      "routes": [
+        "/events"
+      ],
+      "routeKind": "static",
+      "evidence": "measured",
+      "sourceStatusAtExtraction": "built",
+      "description": "Events title, empty-state list, newsletter signup.",
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.title-underline",
+          "variants": [
+            "events"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "events.empty-list",
+          "variants": [
+            "events"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cta.newsletter",
+          "variants": [
+            "events"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "constraints": {},
+      "cite": [
+        "jsx.events",
+        "spec.e1"
+      ]
+    },
+    "template.partner": {
+      "id": "template.partner",
+      "version": "1.0.0",
+      "name": "Partner with Siena",
+      "routes": [
+        "/partner-with-siena"
+      ],
+      "routeKind": "static",
+      "evidence": "measured",
+      "sourceStatusAtExtraction": "built",
+      "description": "Partner hero + benefits, partner logo groups, partner testimonials (placeholder quotes), CTA, modal form.",
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.partner",
+          "variants": [
+            "partner"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "integrations.logo-grid",
+          "variants": [
+            "partner-groups"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "testimonials.slider",
+          "variants": [
+            "panel"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cta.main",
+          "variants": [
+            "metrics-image"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "overlay.partner-modal",
+          "variants": [
+            "partner"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "constraints": {},
+      "cite": [
+        "jsx.partner",
+        "spec.p1"
+      ]
+    },
+    "template.refer": {
+      "id": "template.refer",
+      "version": "1.0.0",
+      "name": "Refer a friend",
+      "routes": [
+        "/refer-a-friend"
+      ],
+      "routeKind": "static",
+      "evidence": "measured",
+      "sourceStatusAtExtraction": "built",
+      "description": "Referral hero + form, criteria, homepage testimonials, CTA.",
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.referral",
+          "variants": [
+            "refer"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "features.icon-grid",
+          "variants": [
+            "refer"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "testimonials.slider",
+          "variants": [
+            "panel"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cta.main",
+          "variants": [
+            "no-fade"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "constraints": {
+        "testimonialSet": {
+          "source": "verified",
+          "expectedCount": 11,
+          "note": "Same 11 slides, order and copy as the homepage (CLONE_SPEC 3)."
+        }
+      },
+      "cite": [
+        "jsx.refer",
+        "spec.r1"
+      ]
+    },
+    "template.lead-gen": {
+      "id": "template.lead-gen",
+      "version": "1.0.0",
+      "name": "Lead-gen landing",
+      "routes": [
+        "/pricing",
+        "/book-a-demo"
+      ],
+      "routeKind": "static",
+      "evidence": "measured",
+      "sourceStatusAtExtraction": "built",
+      "description": "Pricing / book-a-demo: logo header, hero + multi-step static form, (pricing only: how pricing works, enterprise), homepage testimonials, legal row. Global nav and footer hidden.",
+      "nodes": [
+        {
+          "section": "shell.lead-header",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.lead-form",
+          "variants": [
+            "pricing",
+            "book"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "features.icon-grid",
+          "variants": [
+            "pricing"
+          ],
+          "required": false,
+          "repeatable": false
+        },
+        {
+          "section": "testimonials.slider",
+          "variants": [
+            "panel",
+            "titled"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "trust.enterprise",
+          "variants": [
+            "pricing"
+          ],
+          "required": false,
+          "repeatable": false
+        },
+        {
+          "section": "shell.legal-row",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "constraints": {
+        "testimonialSet": {
+          "source": "verified",
+          "expectedCount": 11,
+          "note": "Same 11 slides, order and copy as the homepage (CLONE_SPEC 3)."
+        },
+        "routeVariants": {
+          "/pricing": {
+            "hero.lead-form": "pricing",
+            "testimonials.slider": "panel"
+          },
+          "/book-a-demo": {
+            "hero.lead-form": "book",
+            "testimonials.slider": "titled"
+          }
+        },
+        "routeNodeRules": {
+          "/pricing": {
+            "require": [
+              "features.icon-grid",
+              "trust.enterprise"
+            ]
+          },
+          "/book-a-demo": {
+            "forbid": [
+              "features.icon-grid",
+              "trust.enterprise"
+            ]
+          }
+        }
+      },
+      "cite": [
+        "spec.cv.1",
+        "spec.cv.2",
+        "jsx.pricing",
+        "jsx.book",
+        "src.routes.overrides"
+      ]
+    },
+    "template.compare": {
+      "id": "template.compare",
+      "version": "1.0.0",
+      "name": "Competitor compare",
+      "routes": [
+        "/compare/siena-ai-vs-gorgias-ai",
+        "/compare/siena-ai-vs-kustomer-ai"
+      ],
+      "routeKind": "static",
+      "evidence": "measured",
+      "sourceStatusAtExtraction": "built",
+      "description": "Siena vs competitor: hero, compare testimonials, comparison table, intelligence title, 4-block sticky story, metrics, integrations, FAQ, CTA.",
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.compare",
+          "variants": [
+            "compare"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "testimonials.slider",
+          "variants": [
+            "compare"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "comparison.table",
+          "variants": [
+            "compare"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "heading.section-title",
+          "variants": [
+            "compare-intelligence"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "feature.sticky-scroll",
+          "variants": [
+            "compare"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "stats.metrics",
+          "variants": [
+            "home"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "integrations.logo-grid",
+          "variants": [
+            "compare"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "faq.accordion",
+          "variants": [
+            "compare"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cta.main",
+          "variants": [
+            "no-fade"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "constraints": {},
+      "cite": [
+        "spec.cv.3",
+        "src.page.compare",
+        "jsx.comparetemplate"
+      ],
+      "phoneOrder": {
+        "order": [
+          "shell.navbar",
+          "hero.compare",
+          "testimonials.slider",
+          "comparison.table",
+          "heading.section-title",
+          "feature.sticky-scroll",
+          "stats.metrics",
+          "faq.accordion",
+          "cta.main",
+          "integrations.logo-grid",
+          "shell.footer"
+        ],
+        "cite": "spec.cv.3.12",
+        "note": "Phone renders Integrations after the CTA (live quirk; title clipped). DOM/desktop order is the node list."
+      },
+      "quirks": [
+        "compare-phone-integrations",
+        "kustomer-phone-headline",
+        "cta-narrow-phone"
+      ]
+    },
+    "template.ai-native-vs-addons": {
+      "id": "template.ai-native-vs-addons",
+      "version": "1.0.0",
+      "name": "AI-native vs add-ons landing",
+      "routes": [
+        "/ai-native-customer-service-vs-help-desk-ai-add-ons"
+      ],
+      "routeKind": "static",
+      "evidence": "measured",
+      "sourceStatusAtExtraction": "built",
+      "description": "Short landing (not an article): hero, 3-block sticky story, metrics, phone-only empty block (quirk), features, CTA.",
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.home",
+          "variants": [
+            "addons"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "feature.sticky-scroll",
+          "variants": [
+            "addons"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "stats.metrics",
+          "variants": [
+            "addons"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "quirk.phone-empty-block",
+          "variants": [
+            "addons"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "features.lottie-grid",
+          "variants": [
+            "addons"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cta.main",
+          "variants": [
+            "no-fade"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "constraints": {},
+      "cite": [
+        "spec.cv.6",
+        "jsx.addons"
+      ],
+      "quirks": [
+        "addons-phone-empty-block"
+      ]
+    },
+    "template.shopping-agent": {
+      "id": "template.shopping-agent",
+      "version": "1.0.0",
+      "name": "Shopping Agent",
+      "routes": [
+        "/shopping-agent"
+      ],
+      "routeKind": "static",
+      "evidence": "spec-measured",
+      "sourceStatusAtExtraction": "in-flight",
+      "description": "Shopping agent product page.",
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.product-split",
+          "variants": [
+            "shopping"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "testimonials.slider",
+          "variants": [
+            "panel"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "heading.section-title",
+          "variants": [
+            "product"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "feature.sticky-scroll",
+          "variants": [
+            "shopping-steps"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "agents.expert-team",
+          "variants": [
+            "shopping"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "media.reveal-pair",
+          "variants": [
+            "shopping"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cta.main",
+          "variants": [
+            "no-fade"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "constraints": {},
+      "cite": [
+        "spec.pa.order.shopping",
+        "src.page.shopping"
+      ]
+    },
+    "template.social-agent": {
+      "id": "template.social-agent",
+      "version": "1.0.0",
+      "name": "Social Agent",
+      "routes": [
+        "/social-agent"
+      ],
+      "routeKind": "static",
+      "evidence": "spec-measured",
+      "sourceStatusAtExtraction": "in-flight",
+      "description": "Social agent product page (nav forced scrolled).",
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "variants": [
+            "forced-scrolled"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.product-split",
+          "variants": [
+            "social"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "logos.ticker-block",
+          "variants": [
+            "two-row"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "feature.pill-nav-blocks",
+          "variants": [
+            "social"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "bento.grid",
+          "variants": [
+            "social"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "faq.accordion",
+          "variants": [
+            "product"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "integrations.logo-grid",
+          "variants": [
+            "product"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "trust.enterprise",
+          "variants": [
+            "product"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cta.main",
+          "variants": [
+            "dark-fade"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "constraints": {},
+      "cite": [
+        "spec.pa.order.social",
+        "src.page.social",
+        "src.routes.overrides"
+      ]
+    },
+    "template.reviews-agent": {
+      "id": "template.reviews-agent",
+      "version": "1.0.0",
+      "name": "Reviews Agent",
+      "routes": [
+        "/ai-review-management"
+      ],
+      "routeKind": "static",
+      "evidence": "spec-measured",
+      "sourceStatusAtExtraction": "in-flight",
+      "description": "Reviews agent product page (homepage testimonial set).",
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.product-split",
+          "variants": [
+            "reviews"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "logos.ticker-block",
+          "variants": [
+            "two-row"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "feature.sticky-scroll",
+          "variants": [
+            "product"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "testimonials.slider",
+          "variants": [
+            "panel"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "feature.timer-list",
+          "variants": [
+            "reviews"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "bento.grid",
+          "variants": [
+            "reviews"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cta.main",
+          "variants": [
+            "cream-fade"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "constraints": {
+        "testimonialSet": {
+          "source": "verified",
+          "expectedCount": 11,
+          "note": "Same 11 slides, order and copy as the homepage (CLONE_SPEC 3)."
+        }
+      },
+      "cite": [
+        "spec.pa.order.reviews",
+        "spec.pa.3.4"
+      ]
+    },
+    "template.qa-agent": {
+      "id": "template.qa-agent",
+      "version": "1.0.0",
+      "name": "QA Agent",
+      "routes": [
+        "/qa-agent"
+      ],
+      "routeKind": "static",
+      "evidence": "spec-measured",
+      "sourceStatusAtExtraction": "in-flight",
+      "description": "QA agent product page (two static testimonials).",
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.product-split",
+          "variants": [
+            "qa"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "logos.ticker-block",
+          "variants": [
+            "two-row"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "coverage.criteria",
+          "variants": [
+            "qa"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "testimonials.slider",
+          "variants": [
+            "panel-static"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "leaderboard.static",
+          "variants": [
+            "qa"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cards.hover-media",
+          "variants": [
+            "qa"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "mockup.ask-siena",
+          "variants": [
+            "qa"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "comparison.before-after",
+          "variants": [
+            "qa"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "testimonials.slider",
+          "variants": [
+            "panel-static"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "faq.accordion",
+          "variants": [
+            "product"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cta.main",
+          "variants": [
+            "white-fade"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "constraints": {},
+      "cite": [
+        "spec.pa.order.qa"
+      ],
+      "phoneOrder": {
+        "order": [
+          "shell.navbar",
+          "hero.product-split",
+          "logos.ticker-block",
+          "coverage.criteria",
+          "testimonials.slider",
+          "leaderboard.static",
+          "mockup.ask-siena",
+          "cards.hover-media",
+          "comparison.before-after",
+          "testimonials.slider",
+          "faq.accordion",
+          "cta.main",
+          "shell.footer"
+        ],
+        "cite": "spec.pa.order.qa",
+        "note": "Ask Siena block precedes 'Act on what matters' at 390."
+      }
+    },
+    "template.topics-explorer": {
+      "id": "template.topics-explorer",
+      "version": "1.0.0",
+      "name": "Topics Explorer",
+      "routes": [
+        "/topics-explorer"
+      ],
+      "routeKind": "static",
+      "evidence": "spec-measured",
+      "sourceStatusAtExtraction": "in-flight",
+      "description": "Topics Explorer product page.",
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.product-split",
+          "variants": [
+            "topics"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "logos.ticker-block",
+          "variants": [
+            "two-row"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "heading.section-title",
+          "variants": [
+            "product"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "feature.media-row",
+          "variants": [
+            "topics"
+          ],
+          "required": true,
+          "repeatable": true
+        },
+        {
+          "section": "testimonials.slider",
+          "variants": [
+            "panel-static"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "mockup.ask-siena",
+          "variants": [
+            "topics"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cards.hover-media",
+          "variants": [
+            "topics"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "comparison.before-after",
+          "variants": [
+            "topics"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "faq.accordion",
+          "variants": [
+            "product"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cta.main",
+          "variants": [
+            "white-fade"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "constraints": {
+        "repeatCounts": {
+          "feature.media-row": [
+            2,
+            2
+          ]
+        }
+      },
+      "cite": [
+        "spec.pa.order.topics",
+        "spec.pa.5.3"
+      ],
+      "phoneOrder": {
+        "order": [
+          "shell.navbar",
+          "hero.product-split",
+          "logos.ticker-block",
+          "heading.section-title",
+          "feature.media-row",
+          "testimonials.slider",
+          "cards.hover-media",
+          "comparison.before-after",
+          "mockup.ask-siena",
+          "faq.accordion",
+          "cta.main",
+          "shell.footer"
+        ],
+        "cite": "spec.pa.order.topics",
+        "note": "Alerts -> Comparison -> Ask Siena at 390."
+      }
+    },
+    "template.ask-siena": {
+      "id": "template.ask-siena",
+      "version": "1.0.0",
+      "name": "Ask Siena",
+      "routes": [
+        "/ask-siena"
+      ],
+      "routeKind": "static",
+      "evidence": "spec-measured",
+      "sourceStatusAtExtraction": "in-flight",
+      "description": "Ask Siena product page.",
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.product-split",
+          "variants": [
+            "ask"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "logos.ticker-block",
+          "variants": [
+            "two-row"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "nav.chip-anchor",
+          "variants": [
+            "ask"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "feature.sticky-scroll",
+          "variants": [
+            "product"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "feature.skills-workspace",
+          "variants": [
+            "ask"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "capabilities.customer-intelligence",
+          "variants": [
+            "ask"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "carousel.playbooks",
+          "variants": [
+            "ask"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "showcase.slack",
+          "variants": [
+            "ask"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "integrations.logo-grid",
+          "variants": [
+            "product"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "trust.enterprise",
+          "variants": [
+            "product"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cta.main",
+          "variants": [
+            "dark-fade"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "constraints": {},
+      "cite": [
+        "spec.pa.order.ask"
+      ]
+    },
+    "template.memory": {
+      "id": "template.memory",
+      "version": "1.0.0",
+      "name": "Memory",
+      "routes": [
+        "/memory"
+      ],
+      "routeKind": "static",
+      "evidence": "spec-measured",
+      "sourceStatusAtExtraction": "in-flight",
+      "description": "Memory product page.",
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.product-photo",
+          "variants": [
+            "memory"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "feature.media-row",
+          "variants": [
+            "memory"
+          ],
+          "required": true,
+          "repeatable": true
+        },
+        {
+          "section": "steps.how-it-works",
+          "variants": [
+            "memory"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "carousel.memory-in-action",
+          "variants": [
+            "memory"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cta.main",
+          "variants": [
+            "sand-fade"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "constraints": {
+        "repeatCounts": {
+          "feature.media-row": [
+            2,
+            2
+          ]
+        }
+      },
+      "cite": [
+        "spec.pb.1"
+      ]
+    },
+    "template.video": {
+      "id": "template.video",
+      "version": "1.0.0",
+      "name": "Video",
+      "routes": [
+        "/video"
+      ],
+      "routeKind": "static",
+      "evidence": "spec-measured",
+      "sourceStatusAtExtraction": "in-flight",
+      "description": "Video product page.",
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.video-mock",
+          "variants": [
+            "video"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "feature.sticky-scroll",
+          "variants": [
+            "product"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "steps.how-it-works",
+          "variants": [
+            "video"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "quirk.phone-empty-block",
+          "variants": [
+            "video"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cta.main",
+          "variants": [
+            "no-fade"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "constraints": {},
+      "cite": [
+        "spec.pb.2",
+        "spec.pb.2.4"
+      ],
+      "quirks": [
+        "video-phone-empty-block",
+        "cta-narrow-phone"
+      ]
+    },
+    "template.order-tracking": {
+      "id": "template.order-tracking",
+      "version": "1.0.0",
+      "name": "Order Tracking",
+      "routes": [
+        "/order-tracking"
+      ],
+      "routeKind": "static",
+      "evidence": "spec-measured",
+      "sourceStatusAtExtraction": "in-flight",
+      "description": "Order tracking product page.",
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.order-orbits",
+          "variants": [
+            "order-tracking"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "logos.ticker-block",
+          "variants": [
+            "single-row"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "feature.sticky-scroll",
+          "variants": [
+            "product"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "feature.pipeline",
+          "variants": [
+            "order-tracking"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "faq.accordion",
+          "variants": [
+            "product"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cta.main",
+          "variants": [
+            "white-fade"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "constraints": {},
+      "cite": [
+        "spec.pb.3"
+      ]
+    },
+    "template.docs": {
+      "id": "template.docs",
+      "version": "1.0.0",
+      "name": "Docs",
+      "routes": [
+        "/products/docs"
+      ],
+      "routeKind": "static",
+      "evidence": "spec-measured",
+      "sourceStatusAtExtraction": "in-flight",
+      "description": "Docs product page.",
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.docs",
+          "variants": [
+            "docs"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "feature.sticky-scroll",
+          "variants": [
+            "docs-single"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "feature.change-once",
+          "variants": [
+            "docs"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "bento.grid",
+          "variants": [
+            "docs"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "comparison.before-after",
+          "variants": [
+            "docs"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "testimonials.slider",
+          "variants": [
+            "panel-static"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "faq.accordion",
+          "variants": [
+            "product"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cta.main",
+          "variants": [
+            "white-fade"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "constraints": {},
+      "cite": [
+        "spec.pb.4"
+      ]
+    },
+    "template.ai-lab": {
+      "id": "template.ai-lab",
+      "version": "1.0.0",
+      "name": "AI Lab",
+      "routes": [
+        "/ai-lab"
+      ],
+      "routeKind": "static",
+      "evidence": "spec-measured",
+      "sourceStatusAtExtraction": "in-flight",
+      "description": "AI Lab events page with its own dark nav.",
+      "nodes": [
+        {
+          "section": "shell.lab-nav",
+          "variants": [
+            "dark"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.lab",
+          "variants": [
+            "lab"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "lab.statement",
+          "variants": [
+            "intro"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "lab.statement",
+          "variants": [
+            "what-is"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "steps.how-it-works",
+          "variants": [
+            "lab"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "lab.practitioner",
+          "variants": [
+            "lab"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "lab.last-event",
+          "variants": [
+            "lab"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "lab.who-attend",
+          "variants": [
+            "lab"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cta.lab-newsletter",
+          "variants": [
+            "lab"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "constraints": {},
+      "cite": [
+        "spec.pb.5",
+        "spec.pb.5.0",
+        "src.routes.overrides"
+      ]
+    },
+    "template.roi-calculator": {
+      "id": "template.roi-calculator",
+      "version": "1.0.0",
+      "name": "ROI calculator",
+      "routes": [
+        "/roi-calculator"
+      ],
+      "routeKind": "static",
+      "evidence": "spec-measured",
+      "sourceStatusAtExtraction": "in-flight",
+      "description": "ROI calculator page (homepage testimonial set).",
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.roi",
+          "variants": [
+            "roi"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "testimonials.slider",
+          "variants": [
+            "titled"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cta.main",
+          "variants": [
+            "no-fade"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "constraints": {
+        "testimonialSet": {
+          "source": "verified",
+          "expectedCount": 11,
+          "note": "Same 11 slides, order and copy as the homepage (CLONE_SPEC 3)."
+        }
+      },
+      "cite": [
+        "spec.pb.6"
+      ],
+      "quirks": [
+        "roi-phone-slider-row"
+      ]
+    }
+  }
+}

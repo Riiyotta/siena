@@ -1,0 +1,214 @@
+{
+  "repositoryId": "siena-cx-clone",
+  "designFamily": "siena",
+  "repositoryVersion": "1.0.0",
+  "status": "design-review-pending",
+  "productionApproved": false,
+  "localReferenceOnly": true,
+  "supportedPlatforms": [
+    "web"
+  ],
+  "defaultTheme": "light",
+  "schemaValidatedThemes": [
+    "light"
+  ],
+  "generationApprovedThemes": [
+    "light"
+  ],
+  "pageSpecVersion": "1.0.0",
+  "tokenVersion": "1.0.0",
+  "tokenCatalogVersion": "1.0.0",
+  "tokenPolicyVersion": "1.0.0",
+  "sectionRegistryVersion": "1.0.0",
+  "componentRegistryVersion": "1.0.0",
+  "assetRegistryVersion": "1.0.0",
+  "allowlistVersion": "1.0.0",
+  "versionFieldNote": "Machine-checked by extraction/verify_all.py: allowlistVersion (must equal tokens/llm/component-allowlist.json version), tokenCatalogVersion, tokenPolicyVersion, assetRegistryVersion and the whole counts block (recomputed from disk; the README counts marker too). Documentation-only, hand-maintained, nothing verifies them: repositoryVersion, pageSpecVersion, tokenVersion, sectionRegistryVersion, componentRegistryVersion.",
+  "sourceStack": {
+    "note": "DOCUMENTATION ONLY. Recorded so a reader knows where the evidence came from; nothing in token names, section ids, schema fields or validator logic depends on it.",
+    "liveOrigin": "https://www.siena.cx/ (originally a Framer site)",
+    "clone": "React 18 + Vite 5 + Tailwind CSS 3 + react-router-dom 6; lottie-web; cobe (package.json). Clean install of the clone: npm ci."
+  },
+  "sourceProject": {
+    "name": "Siena clone (local reference copy of siena.cx)",
+    "description": "Study clone of a REAL, live company's marketing site. Logos, customer logos, people photos, fonts (Feature Deck, Tiempos are commercially licensed to Siena) and long-form content are not licensed for reuse; see assets/asset-roles.json. Local reference only: do not deploy the clone publicly and do not publish this repository.",
+    "measuredBreakpoints": [
+      1440,
+      390
+    ],
+    "unmeasuredBreakpoints": "Tablet 810-1199.98px was never measured on any route (fluid desktop).",
+    "evidenceLedger": "extraction/measured-values.json"
+  },
+  "scope": {
+    "modelledTemplates": [
+      "template.about",
+      "template.ai-lab",
+      "template.ai-native-vs-addons",
+      "template.ask-siena",
+      "template.careers",
+      "template.community",
+      "template.compare",
+      "template.conversation-detail",
+      "template.conversations-index",
+      "template.customers",
+      "template.docs",
+      "template.events",
+      "template.home",
+      "template.insights-landing",
+      "template.lead-gen",
+      "template.legal",
+      "template.memory",
+      "template.order-tracking",
+      "template.partner",
+      "template.qa-agent",
+      "template.refer",
+      "template.reviews-agent",
+      "template.roi-calculator",
+      "template.shopping-agent",
+      "template.social-agent",
+      "template.topics-explorer",
+      "template.video"
+    ],
+    "routes": [
+      "/",
+      "/about-us",
+      "/ai-lab",
+      "/ai-native-customer-service-vs-help-desk-ai-add-ons",
+      "/ai-review-management",
+      "/ask-siena",
+      "/book-a-demo",
+      "/careers",
+      "/community",
+      "/compare/siena-ai-vs-gorgias-ai",
+      "/compare/siena-ai-vs-kustomer-ai",
+      "/conversations",
+      "/conversations/prose-ai-customer-service-automation",
+      "/conversations/spanx-kylah-field-real-work-ai-customer-experience",
+      "/conversations/thrive-causemetics-ai-customer-service-automation",
+      "/customers",
+      "/events",
+      "/insights",
+      "/insights/customer-feedback-analytics-software",
+      "/insights/sentiment-analysis-online",
+      "/insights/voice-of-customer-software",
+      "/memory",
+      "/order-tracking",
+      "/partner-with-siena",
+      "/pricing",
+      "/privacy-policy",
+      "/products/docs",
+      "/qa-agent",
+      "/refer-a-friend",
+      "/roi-calculator",
+      "/shopping-agent",
+      "/social-agent",
+      "/terms-of-service",
+      "/topics-explorer",
+      "/video"
+    ],
+    "deliberatelyNotModelled": "Blog, customer stories, integrations, product updates, webinars and previous-terms pages: removed from the clone on purpose (src/routes.js) and linked to live https://www.siena.cx. They must NOT be recreated; the validator rejects them as routes or local hrefs.",
+    "inFlightAtExtraction": [
+      "template.ai-lab",
+      "template.ask-siena",
+      "template.docs",
+      "template.memory",
+      "template.order-tracking",
+      "template.qa-agent",
+      "template.reviews-agent",
+      "template.roi-calculator",
+      "template.shopping-agent",
+      "template.social-agent",
+      "template.topics-explorer",
+      "template.video"
+    ],
+    "inFlightNote": "Product A/B page components were being built by other agents while this repo was extracted. Their templates are grounded in specs/product-a.md and specs/product-b.md (Playwright-measured) and were re-checked against the current src/ before release; re-diff them after any further product-page change."
+  },
+  "counts": {
+    "primitives": 12,
+    "components": 24,
+    "sections": 79,
+    "templates": 27,
+    "routes": 35,
+    "tokens": 298,
+    "typographyRoles": 22,
+    "motionRecipes": 20,
+    "assetRoles": 17,
+    "graphRules": 27,
+    "examplePageSpecs": 2,
+    "citations": 354,
+    "verifiedQuotes": 24,
+    "registeredQuirks": 10
+  },
+  "entryPoints": {
+    "generation": [
+      "tokens/llm/token-catalog.json",
+      "tokens/llm/component-allowlist.json",
+      "tokens/llm/token-policy.json",
+      "assets/asset-roles.json",
+      "schema/pagespec.schema.json",
+      "templates/templates.json",
+      "compatibility/graph.json"
+    ],
+    "validation": [
+      "schema/semantic_validate.py",
+      "extraction/verify_all.py",
+      "extraction/prove_drift.py",
+      "schema/tests/adversarial_test.py"
+    ],
+    "examples": [
+      "schema/example.pagespec.json",
+      "schema/examples/insights.pagespec.json"
+    ],
+    "evidence": [
+      "extraction/measured-values.json",
+      "extraction/style-histogram.json",
+      "assets/verified-quotes.json"
+    ],
+    "build": [
+      "tokens/build_catalog.py",
+      "schema/build_schema.py",
+      "extraction/build_histogram.py",
+      "extraction/build_verified_quotes.py"
+    ],
+    "humanOnboarding": "README.md",
+    "changeHistory": "CHANGELOG.md"
+  },
+  "fileClassification": {
+    "canonicalTokenSources": [
+      "tokens/00-foundation/*.json",
+      "tokens/10-semantic/*.json",
+      "tokens/20-component/*.json",
+      "tokens/30-layout/*.json"
+    ],
+    "themeAliasMappings": [
+      "tokens/themes/light.json"
+    ],
+    "designContracts": [
+      "primitives/*.json",
+      "components/*.json",
+      "sections/*.json",
+      "templates/templates.json",
+      "compatibility/graph.json",
+      "assets/asset-roles.json"
+    ],
+    "generatedFiles": [
+      "tokens/llm/token-catalog.json (tokens/build_catalog.py)",
+      "schema/pagespec.schema.json (schema/build_schema.py)",
+      "extraction/style-histogram.json (extraction/build_histogram.py, needs sibling recon/)",
+      "assets/verified-quotes.json (extraction/build_verified_quotes.py, needs sibling src/)"
+    ]
+  },
+  "excludedFromPackage": [
+    "__pycache__",
+    ".DS_Store",
+    "__MACOSX",
+    "*.zip (design-repo.zip is a build artifact: regenerate last, never commit)"
+  ],
+  "dependencies": {
+    "python": ">=3.9",
+    "packages": [
+      "jsonschema>=4"
+    ],
+    "note": "No node tooling needed for this repo. Install with: python3 -m pip install jsonschema"
+  }
+}

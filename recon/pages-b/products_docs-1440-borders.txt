@@ -1,0 +1,41 @@
+y832 x912 User Message 174x140 1px 1px 1px 1px solid #E4E6E7 r:12px txt:
+y967 x934 Chip/Filter 74x35 1px 1px 1px 1px solid #E4E6E7 r:50px txt:Verified
+y594 x638 User Message 183x160 1px 1px 1px 1px solid #E4E6E7 r:12px txt:internal playbookLead with the solution.
+y698 x637 Chip/Filter 74x41 1px 1px 1px 1px solid #E4E6E7 r:50px txt:Verified
+y574 x338 User Message 178x154 1px 1px 1px 1px solid #E4E6E7 r:12px txt:Policy DocumentRefunds are processed wit
+y685 x348 Chip/Filter 74x37 1px 1px 1px 1px solid #E4E6E7 r:50px txt:Verified
+y673 x492 User Message 180x156 1px 1px 1px 1px solid #E4E6E7 r:12px txt:data table (size/SKU)S / M / L / XL — ch
+y797 x516 Chip/Filter 74x38 1px 1px 1px 1px solid #E4E6E7 r:50px txt:Verified
+y573 x908 Icon 28x28 1px 1px 1px 1px solid #FFFFFF/0.2 r:5px txt:
+y600 x917 User Message 171x128 1px 1px 1px 1px solid #E4E6E7 r:12px txt:Hi, I ordered the Signature Hoodie last 
+y720 x935 Chip/Filter 76x35 1px 1px 1px 1px solid #E4E6E7 r:50px txt:Pending
+y957 x372 Chip/Filter 77x50 1px 1px 1px 1px solid #E4E6E7 r:50px txt:Pending
+y572 x409 Docs-card 622x395 0px 0px 1px 0px solid #24242B/0.08 r:24px txt:help.brand.comDocsGetting StartedRetur
+y908 x618 Chip/Filter 71x23 1px 1px 1px 1px solid #E4E6E7 r:50px txt:Verified
+y678 x889 Tag 62x28 1px 1px 1px 1px solid #CDBCA0 r:20px txt:23 Cited
+y767 x867 Chip/Filter 57x23 1px 1px 1px 1px solid #E4E6E7 r:50px txt:61Views
+y767 x947 Chip/Filter 63x23 1px 1px 1px 1px solid #E4E6E7 r:50px txt:12Agents
+y1304 x219 Docs-card 424x353 0px 0px 1px 0px solid #24242B/0.08 r:24px txt:● 118 verified · 7 in reviewTone of Voic
+y1461 x1440 User Message 130x102 1px 1px 1px 1px solid #E4E6E7 r:12px txt:Lead with the solution. Offer the refund
+y1461 x1608 User Message 129x102 1px 1px 1px 1px solid #E4E6E7 r:12px txt:Refunds are processed within 3–5 busines
+y1536 x1803 Chip/Filter 73x23 1px 1px 1px 1px solid #E4E6E7 r:50px txt:Pending
+y1996 x480 Card/Gallery 776x516 0px 0px 1px 0px solid #24242B/0.08 r:24px txt:"We're extending returns from 30 to 60 d
+y2216 x714 Chip/Filter 75x23 1px 1px 1px 1px solid #000000/0.2 r:50px txt:3 docs found
+y2376 x715 User Message 67x72 1px 1px 1px 1px solid #E4E6E7 r:8px txt:…within 30 days of the original purchase
+y2456 x739 Chip/Filter 68x23 1px 1px 1px 1px solid #E4E6E7 r:50px txt:Accept
+y2458 x811 Chip/Filter 21x20 1px 1px 1px 1px solid #E4E6E7 r:50px txt:
+y2376 x891 User Message 67x73 1px 1px 1px 1px solid #E4E6E7 r:8px txt:…within 30 days of the original purchase
+y3161 x144 Docs-card 524x207 0px 0px 1px 0px solid #24242B/0.08 r:24px txt:Return PolicyHeather tones may appear li
+y3255 x253 User Message 73x62 1px 1px 1px 1px solid #E4E6E7 r:6px txt:Heather tones may appear lighter in prod
+y3282 x251 Chip/Filter 37x18 1px 1px 1px 1px solid #E4E6E7 r:25px txt:Verified
+y3247 x361 User Message 89x74 1px 1px 1px 1px solid #E4E6E7 r:6px txt:Customers may exchange for size or color
+y3276 x370 Chip/Filter 38x24 1px 1px 1px 1px solid #E4E6E7 r:25px txt:Verified
+y3320 x521 Chip/Filter 123x23 1px 1px 1px 1px solid #E4E6E7 r:50px txt:Approve 3 Updates
+y3431 x554 Container 134x142 0px 0px 1px 0px solid #24242B/0.08 r:24px txt:
+y3431 x1162 1 134x142 0px 0px 1px 0px solid #24242B/0.08 r:24px txt:Return PolicyHeather tones may appear li
+y3477 x1188 User Message 88x74 1px 1px 1px 1px solid #E4E6E7 r:6px txt:Confirm order is within the 30-day windo
+y3523 x1196 Chip/Filter 55x30 1px 1px 1px 1px solid #E4E6E7 r:25px txt:Verified and live
+y4831 x563 Secondary / md 137x48 1px 1px 1px 1px solid #A7A092 r:12px txt:Read full story
+y6891 x0 Desktop 1440x434 0px 0px 1px 0px solid #000000/0.2 r:0px txt:cOMPANYAbout UsCareersCustomersSecurit
+y7019 x148 Secondary / md 46x48 1px 1px 1px 1px solid #FFFFFF/0.2 r:12px txt:
+y7019 x202 Secondary / md 48x48 1px 1px 1px 1px solid #FFFFFF/0.2 r:12px txt:

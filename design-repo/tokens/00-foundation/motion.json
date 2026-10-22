@@ -1,0 +1,540 @@
+{
+  "$description": "Motion primitives. Every value is measured (rAF sampling or the Framer page module config).",
+  "foundation": {
+    "duration": {
+      "100": {
+        "$type": "duration",
+        "$value": "100ms",
+        "$extensions": {
+          "cite": [
+            "spec.faq.behavior"
+          ]
+        }
+      },
+      "120": {
+        "$type": "duration",
+        "$value": "120ms",
+        "$extensions": {
+          "cite": [
+            "spec.stories.behavior"
+          ]
+        }
+      },
+      "150": {
+        "$type": "duration",
+        "$value": "150ms",
+        "$extensions": {
+          "cite": [
+            "spec.storygrid.hover"
+          ]
+        }
+      },
+      "200": {
+        "$type": "duration",
+        "$value": "200ms",
+        "$extensions": {
+          "cite": [
+            "spec.nav.megamenu",
+            "spec.leadform.label"
+          ]
+        }
+      },
+      "240": {
+        "$type": "duration",
+        "$value": "240ms",
+        "$extensions": {
+          "cite": [
+            "spec.roles.panel"
+          ]
+        }
+      },
+      "250": {
+        "$type": "duration",
+        "$value": "250ms",
+        "$extensions": {
+          "cite": [
+            "spec.nav.scrolled"
+          ]
+        }
+      },
+      "300": {
+        "$type": "duration",
+        "$value": "300ms",
+        "$extensions": {
+          "cite": [
+            "spec.testimonial.behavior",
+            "spec.stories.hover"
+          ]
+        }
+      },
+      "400": {
+        "$type": "duration",
+        "$value": "400ms",
+        "$extensions": {
+          "cite": [
+            "spec.springx",
+            "spec.careers.photo"
+          ]
+        }
+      },
+      "500": {
+        "$type": "duration",
+        "$value": "500ms",
+        "$extensions": {
+          "cite": [
+            "spec.chat.entrance"
+          ]
+        }
+      },
+      "550": {
+        "$type": "duration",
+        "$value": "550ms",
+        "$extensions": {
+          "cite": [
+            "spec.hscroll.mapping"
+          ]
+        }
+      },
+      "600": {
+        "$type": "duration",
+        "$value": "600ms",
+        "$extensions": {
+          "cite": [
+            "spec.chat.entrance"
+          ]
+        }
+      },
+      "700": {
+        "$type": "duration",
+        "$value": "700ms",
+        "$extensions": {
+          "cite": [
+            "spec.motion.appear"
+          ]
+        }
+      },
+      "1000": {
+        "$type": "duration",
+        "$value": "1000ms",
+        "$extensions": {
+          "cite": [
+            "spec.pb.reveal"
+          ]
+        }
+      },
+      "1500": {
+        "$type": "duration",
+        "$value": "1500ms",
+        "$extensions": {
+          "cite": [
+            "spec.metrics.counter",
+            "spec.pb.autoplay"
+          ]
+        }
+      },
+      "9000": {
+        "$type": "duration",
+        "$value": "9000ms",
+        "$extensions": {
+          "cite": [
+            "spec.pa.timer"
+          ]
+        }
+      }
+    },
+    "easing": {
+      "appear-lead": {
+        "$type": "cubicBezier",
+        "$value": "cubic-bezier(0, 0.91, 0.14, 0.85)",
+        "$description": "Hero H1 appear.",
+        "$extensions": {
+          "cite": [
+            "spec.motion.appear"
+          ]
+        }
+      },
+      "appear-follow": {
+        "$type": "cubicBezier",
+        "$value": "cubic-bezier(0, 0.91, 0.78, 1)",
+        "$description": "Hero subtitle/CTA appear.",
+        "$extensions": {
+          "cite": [
+            "spec.motion.appear"
+          ]
+        }
+      },
+      "slide": {
+        "$type": "cubicBezier",
+        "$value": "cubic-bezier(0.45, 0, 0.55, 1)",
+        "$description": "Testimonial slide.",
+        "$extensions": {
+          "cite": [
+            "spec.testimonial.behavior"
+          ]
+        }
+      },
+      "chat-fade": {
+        "$type": "cubicBezier",
+        "$value": "cubic-bezier(.22,1,.36,1)",
+        "$description": "Chat bubble opacity.",
+        "$extensions": {
+          "cite": [
+            "spec.chat.entrance"
+          ]
+        }
+      },
+      "chat-spring": {
+        "$type": "cubicBezier",
+        "$value": "cubic-bezier(.34,1.2,.64,1)",
+        "$description": "Chat bubble rise with overshoot.",
+        "$extensions": {
+          "cite": [
+            "spec.chat.entrance"
+          ]
+        }
+      },
+      "card-spring": {
+        "$type": "cubicBezier",
+        "$value": "cubic-bezier(.34,1.3,.64,1)",
+        "$description": "Story card hover padding.",
+        "$extensions": {
+          "cite": [
+            "spec.stories.hover"
+          ]
+        }
+      },
+      "menu": {
+        "$type": "cubicBezier",
+        "$value": "cubic-bezier(.2,.8,.2,1)",
+        "$description": "Mega-menu height.",
+        "$extensions": {
+          "cite": [
+            "spec.nav.megamenu"
+          ]
+        }
+      },
+      "form-label": {
+        "$type": "cubicBezier",
+        "$value": "cubic-bezier(.4,0,.2,1)",
+        "$description": "Floating label.",
+        "$extensions": {
+          "cite": [
+            "spec.leadform.label"
+          ]
+        }
+      },
+      "photo-appear": {
+        "$type": "cubicBezier",
+        "$value": "cubic-bezier(0.94,0,0,1)",
+        "$description": "Careers founders photo fade.",
+        "$extensions": {
+          "cite": [
+            "spec.careers.photo"
+          ]
+        }
+      },
+      "ease-in-out": {
+        "$type": "cubicBezier",
+        "$value": "ease-in-out",
+        "$description": "Nav scrolled state, crossfades.",
+        "$extensions": {
+          "cite": [
+            "spec.nav.scrolled"
+          ]
+        }
+      },
+      "linear": {
+        "$type": "cubicBezier",
+        "$value": "linear",
+        "$description": "Tickers, FAQ accordion.",
+        "$extensions": {
+          "cite": [
+            "spec.ticker.speed",
+            "spec.faq.behavior"
+          ]
+        }
+      }
+    },
+    "delay": {
+      "0": {
+        "$type": "duration",
+        "$value": "0ms",
+        "$extensions": {
+          "cite": [
+            "spec.chat.entrance"
+          ]
+        }
+      },
+      "200": {
+        "$type": "duration",
+        "$value": "200ms",
+        "$extensions": {
+          "cite": [
+            "spec.motion.appear"
+          ]
+        }
+      },
+      "300": {
+        "$type": "duration",
+        "$value": "300ms",
+        "$extensions": {
+          "cite": [
+            "spec.motion.appear"
+          ]
+        }
+      },
+      "400": {
+        "$type": "duration",
+        "$value": "400ms",
+        "$extensions": {
+          "cite": [
+            "spec.motion.appear"
+          ]
+        }
+      },
+      "500": {
+        "$type": "duration",
+        "$value": "500ms",
+        "$extensions": {
+          "cite": [
+            "spec.chat.entrance"
+          ]
+        }
+      },
+      "1000": {
+        "$type": "duration",
+        "$value": "1000ms",
+        "$extensions": {
+          "cite": [
+            "spec.chat.entrance"
+          ]
+        }
+      },
+      "1500": {
+        "$type": "duration",
+        "$value": "1500ms",
+        "$extensions": {
+          "cite": [
+            "spec.chat.entrance"
+          ]
+        }
+      },
+      "2000": {
+        "$type": "duration",
+        "$value": "2000ms",
+        "$extensions": {
+          "cite": [
+            "spec.chat.entrance"
+          ]
+        }
+      },
+      "2500": {
+        "$type": "duration",
+        "$value": "2500ms",
+        "$extensions": {
+          "cite": [
+            "spec.chat.entrance"
+          ]
+        }
+      }
+    },
+    "distance": {
+      "appear": {
+        "$type": "dimension",
+        "$value": "200px",
+        "$description": "Appear primitive start offset (y).",
+        "$extensions": {
+          "cite": [
+            "spec.motion.appear",
+            "css.appear"
+          ]
+        }
+      },
+      "chat": {
+        "$type": "dimension",
+        "$value": "50px",
+        "$description": "Chat bubble start offset.",
+        "$extensions": {
+          "cite": [
+            "spec.chat.entrance"
+          ]
+        }
+      },
+      "chat-first": {
+        "$type": "dimension",
+        "$value": "80px",
+        "$description": "First chat row start offset.",
+        "$extensions": {
+          "cite": [
+            "spec.chat.entrance"
+          ]
+        }
+      },
+      "spring-x": {
+        "$type": "dimension",
+        "$value": "150px",
+        "$description": "Form-card appear start offset (x).",
+        "$extensions": {
+          "cite": [
+            "spec.springx"
+          ]
+        }
+      },
+      "tile": {
+        "$type": "dimension",
+        "$value": "150px",
+        "$description": "AI Lab pixel tiles start offset (y).",
+        "$extensions": {
+          "cite": [
+            "spec.pb.tiles"
+          ]
+        }
+      }
+    },
+    "speed": {
+      "ticker": {
+        "$type": "number",
+        "$value": 30,
+        "$description": "Horizontal logo ticker, px/s.",
+        "$extensions": {
+          "cite": [
+            "spec.ticker.speed",
+            "spec.pb.ticker"
+          ]
+        }
+      },
+      "ticker-compare": {
+        "$type": "number",
+        "$value": 45,
+        "$description": "Compare-page single ticker, px/s.",
+        "$extensions": {
+          "cite": [
+            "spec.compare.ticker"
+          ]
+        }
+      },
+      "ticker-criteria": {
+        "$type": "number",
+        "$value": 35,
+        "$description": "QA criteria gallery, px/s.",
+        "$extensions": {
+          "cite": [
+            "spec.pa.criteria-ticker"
+          ]
+        }
+      },
+      "ticker-vertical": {
+        "$type": "number",
+        "$value": 10,
+        "$description": "Customers wall-of-love columns, px/s.",
+        "$extensions": {
+          "cite": [
+            "spec.wall.ticker"
+          ]
+        }
+      },
+      "orbit": {
+        "$type": "number",
+        "$value": -18,
+        "$description": "Order-tracking inner orbit, deg/s.",
+        "$extensions": {
+          "cite": [
+            "spec.pb.orbit"
+          ]
+        }
+      },
+      "star-turn": {
+        "$type": "duration",
+        "$value": "10000ms",
+        "$description": "Mobile banner star, one full turn.",
+        "$extensions": {
+          "cite": [
+            "spec.mobile.star"
+          ]
+        }
+      },
+      "type-char": {
+        "$type": "duration",
+        "$value": "65ms",
+        "$description": "Typewriter per character.",
+        "$extensions": {
+          "cite": [
+            "spec.pa.typewriter"
+          ]
+        }
+      },
+      "delete-char": {
+        "$type": "duration",
+        "$value": "17ms",
+        "$description": "Typewriter delete per character.",
+        "$extensions": {
+          "cite": [
+            "spec.pa.typewriter"
+          ]
+        }
+      },
+      "letter-stagger": {
+        "$type": "duration",
+        "$value": "50ms",
+        "$description": "Per-letter blur reveal stagger.",
+        "$extensions": {
+          "cite": [
+            "spec.pb.lettermotion"
+          ]
+        }
+      }
+    },
+    "spring": {
+      "form": {
+        "$type": "spring",
+        "$value": {
+          "type": "spring",
+          "duration": 0.4,
+          "bounce": 0.2
+        },
+        "$description": "Form-card / modal panel appear.",
+        "$extensions": {
+          "cite": [
+            "spec.springx"
+          ]
+        }
+      },
+      "reveal": {
+        "$type": "spring",
+        "$value": {
+          "type": "spring",
+          "duration": 1,
+          "bounce": 0.2
+        },
+        "$description": "Product scroll-reveal.",
+        "$extensions": {
+          "cite": [
+            "spec.pb.reveal"
+          ]
+        }
+      }
+    },
+    "threshold": {
+      "nav-scroll": {
+        "$type": "dimension",
+        "$value": "160px",
+        "$description": "scrollY where the nav pill switches to the On Scroll state.",
+        "$extensions": {
+          "cite": [
+            "spec.nav.scrolled"
+          ]
+        }
+      },
+      "reveal": {
+        "$type": "number",
+        "$value": 0.5,
+        "$description": "IntersectionObserver amount for product scroll-reveals.",
+        "$extensions": {
+          "cite": [
+            "spec.pb.reveal"
+          ]
+        }
+      }
+    }
+  }
+}

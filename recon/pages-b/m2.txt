@@ -1,0 +1,17 @@
+##### 9 / Hair Type
+div "9 / Hair Type" [-3069,3612,248x330] flex-column gap:24px jc:flex-start ai:flex-start p:24px bg:#FFFFFF r:24px z:1
+  div [-3045,3636,200x232] flex-column gap:12px jc:center ai:center p:0px 0px 24px ov:hidden
+    div [-3045,3636,200x20] flex-column gap:normal jc:flex-start ai:normal op:0.8 z:1
+      p [-3045,3636,200x20] TEXT"" {Font Awesome 6 Sharp Light 400 20px/20px ls:normal #122023 left}
+    div [-3045,3668,200x34] flex-column gap:normal jc:flex-start ai:normal z:1
+      h3 [-3045,3668,200x34] TEXT"Hair type" {Feature Deck Web Regular 400 24px/33.6px ls:normal #122023 left}
+    div [-3045,3713,200x130] flex-column gap:normal jc:flex-start ai:normal op:0.8 z:1
+      p [-3045,3713,200x117] TEXT"Capture interest in styling options for straight hair, specifically inquiring about achieving waves." {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #122023 left}
+  div "13" [-3045,3891,101x20] flex-row gap:10px jc:center ai:center ov:hidden
+    div "Logos-10" [-3045,3891,101x20]
+      div [-3045,3891,101x20]
+        svg [-3045,3891,101x20] ov:hidden svg col:#000000
+##### Certifi-bg@0@3
+div "Certifi-bg" [-102,3093,1643x1377] absolute(t:-195px r:-101px b:500.141px l:-102px) z:0
+  div [-102,3093,1643x1377] absolute(t:0px r:0px b:0px l:0px)
+    img [-102,3093,1643x1377] ov:clip src:vOpdH6bt6rHWgyec84XjbD1Lbgc.webp fit:cover pos:50% 50%

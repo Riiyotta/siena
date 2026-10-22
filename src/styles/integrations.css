@@ -1,0 +1,26 @@
+/* CLONE_SPEC §8 Integrations; phone values per §11; tablet/phone logo sizes + inner height from saved original CSS. */
+
+/* Phone (base): 2 cols x 4 rows */
+.integrations-grid {
+  grid-template-columns: repeat(2, minmax(50px, 1fr));
+  grid-template-rows: repeat(4, minmax(0, 1fr));
+}
+.integration-tile { padding: 14px; }
+.integration-logo-0 { width: 121px; aspect-ratio: 129 / 37; }
+.integration-logo-5 { width: 142px; aspect-ratio: 187 / 37; }
+
+@media (min-width: 810px) {
+  .integrations-grid {
+    grid-template-columns: repeat(4, minmax(50px, 1fr));
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+  }
+  .integration-tile { padding: 72px 16px; }
+  .integration-logo-0 { width: 129px; }
+  .integration-logo-5 { width: 157px; height: 31px; aspect-ratio: auto; }
+  .integrations-inner { height: 616px; overflow: clip; }
+}
+
+@media (min-width: 1200px) {
+  .integration-tile { padding: 72px 0; }
+  .integration-logo-5 { width: 187px; height: 37px; }
+}

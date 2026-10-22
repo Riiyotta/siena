@@ -1,0 +1,67 @@
+{
+  "id": "section.quirk.phone-empty-block",
+  "registryId": "section.quirk.phone-empty-block",
+  "typeId": "quirk.phone-empty-block",
+  "version": "1.0.0",
+  "category": "quirk",
+  "purpose": "Deliberately replicated live phone quirk: an empty 1000px white block between Metrics and Features on the add-ons page (a Framer component that renders nothing at phone width). Hidden on desktop. Allowed ONLY where registered in templates.json quirks.",
+  "evidenceLevel": "measured",
+  "variants": {
+    "addons": "390x1000 white between Metrics and Features, phone only.",
+    "video": "390x1000 white frame before the CTA, phone only."
+  },
+  "composes": [],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "heightPx": {
+        "const": 1000
+      },
+      "visibleAt": {
+        "const": "phone-only"
+      }
+    },
+    "required": [
+      "heightPx",
+      "visibleAt"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Renders an empty 1000px white block."
+    },
+    {
+      "at": "{foundation.breakpoint.tablet-min}",
+      "change": "Not rendered."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "allowedTemplatesOnly": [
+      "template.ai-native-vs-addons",
+      "template.video"
+    ]
+  },
+  "measuredFrom": [
+    "spec.cv.6.7",
+    "jsx.addons",
+    "css.addons.empty",
+    "css.video.quirk"
+  ],
+  "knownQuirks": [
+    "Exists only for pixel parity with the live site; never place it on a generated page."
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "id": "section.hero.product-split",
+  "registryId": "section.hero.product-split",
+  "typeId": "hero.product-split",
+  "version": "1.0.0",
+  "category": "hero",
+  "purpose": "Product hero: copy (H1 with optional italic word + swash, subtitle, demo CTA) left, layered product mock visual right.",
+  "evidenceLevel": "spec-measured",
+  "variants": {
+    "shopping": "Hero sand, tickers inside the hero, bottom fade.",
+    "social": "White; 'LIVE ON' Instagram/Facebook chips; mock entrance springs; nav forced scrolled.",
+    "reviews": "White; review mock; photo spring.",
+    "qa": "White; QA mock; photo spring.",
+    "topics": "White; WebGL bubble canvas (approximated); no swash, no hero motion.",
+    "ask": "White; blurred rotated video + typewriter prompt loop; no hero motion."
+  },
+  "composes": [
+    "primitive.text",
+    "primitive.button",
+    "primitive.image",
+    "component.chat-mock"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "headline": {
+        "type": "string",
+        "maxWords": 8,
+        "description": "Plain text; wrap at most one phrase in *asterisks* to render it in the display italic cut.",
+        "pattern": "^[^*]*(\\*[^*]+\\*[^*]*)?$"
+      },
+      "subtitle": {
+        "type": "string",
+        "maxWords": 35
+      },
+      "cta": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string",
+            "maxWords": 4
+          },
+          "href": {
+            "type": "string",
+            "pattern": "^(/[a-z0-9/#-]*|#[a-z0-9-]+|https://[a-zA-Z0-9.-]+(/[^\\s]*)?|mailto:[a-z.]+@siena\\.cx)$"
+          },
+          "style": {
+            "enum": [
+              "xlg-dark"
+            ]
+          }
+        },
+        "required": [
+          "label",
+          "href",
+          "style"
+        ],
+        "additionalProperties": false
+      },
+      "swash": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "const": "illustration.swash"
+          },
+          "assetRef": {
+            "type": "string",
+            "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 24
+          }
+        },
+        "required": [
+          "assetRole",
+          "assetRef"
+        ],
+        "additionalProperties": false
+      },
+      "liveOn": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "assetRole": {
+              "const": "logo.integration"
+            },
+            "assetRef": {
+              "type": "string",
+              "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+            },
+            "alt": {
+              "type": "string",
+              "maxWords": 24
+            }
+          },
+          "required": [
+            "assetRole",
+            "assetRef"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 2,
+        "maxItems": 2
+      },
+      "typewriterPhrases": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "maxWords": 8
+        },
+        "minItems": 2,
+        "maxItems": 8
+      },
+      "visual": {
+        "type": "object",
+        "properties": {
+          "variant": {
+            "enum": [
+              "shopping",
+              "social",
+              "reviews",
+              "qa",
+              "topics",
+              "ask"
+            ]
+          },
+          "assets": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "assetRole": {
+                  "enum": [
+                    "product.ui-mock-image",
+                    "photo.editorial-scene",
+                    "illustration.abstract-glow",
+                    "video.decorative-loop",
+                    "logo.customer"
+                  ]
+                },
+                "assetRef": {
+                  "type": "string",
+                  "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+                },
+                "alt": {
+                  "type": "string",
+                  "maxWords": 24
+                }
+              },
+              "required": [
+                "assetRole",
+                "assetRef"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 1,
+            "maxItems": 12
+          },
+          "bubbles": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "speaker": {
+                  "enum": [
+                    "customer",
+                    "siena"
+                  ]
+                },
+                "text": {
+                  "type": "string",
+                  "maxWords": 40
+                }
+              },
+              "required": [
+                "speaker",
+                "text"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 0,
+            "maxItems": 4
+          }
+        },
+        "required": [
+          "variant",
+          "assets"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "required": [
+      "headline",
+      "subtitle",
+      "cta",
+      "visual"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "appear-rise",
+      "scroll-reveal-spring",
+      "typewriter-loop",
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Copy centered above the visual; H1 56/56; visual 342 wide."
+    },
+    {
+      "at": "{foundation.breakpoint.tablet-min}",
+      "change": "Unmeasured."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustFollowNav": true
+  },
+  "measuredFrom": [
+    "spec.pa.1.1",
+    "spec.pa.2.1",
+    "spec.pa.5.1",
+    "spec.pa.6.1",
+    "spec.pa.8",
+    "spec.pa.9"
+  ]
+}

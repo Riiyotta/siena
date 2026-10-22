@@ -1,0 +1,93 @@
+{
+  "id": "section.shell.navbar",
+  "registryId": "section.shell.navbar",
+  "typeId": "shell.navbar",
+  "version": "1.0.0",
+  "category": "shell",
+  "purpose": "Global fixed navigation: announcement bar + pill (desktop >= 768) or the banner bar (phone). One instance per page, first node. Route-specific behaviour (forced scrolled state, careers CTA) comes from the route override table, never from page copy.",
+  "evidenceLevel": "measured",
+  "variants": {
+    "standard": "Transparent at top, cream + layered shadow after scrollY 160.",
+    "forced-scrolled": "Cream + shadow from scrollY 0 (/about-us, /social-agent).",
+    "careers-cta": "CTA reads 'See open roles' -> /careers#open-roles."
+  },
+  "composes": [
+    "component.announcement-bar",
+    "component.nav-pill",
+    "component.mega-menu",
+    "component.mobile-nav"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "state": {
+        "enum": [
+          "auto",
+          "forced-scrolled"
+        ]
+      },
+      "cta": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string",
+            "maxWords": 4
+          },
+          "href": {
+            "type": "string",
+            "pattern": "^(/[a-z0-9/#-]*|#[a-z0-9-]+|https://[a-zA-Z0-9.-]+(/[^\\s]*)?|mailto:[a-z.]+@siena\\.cx)$"
+          }
+        },
+        "required": [
+          "label",
+          "href"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "required": [
+      "state",
+      "cta"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ],
+    "builtIn": [
+      "nav scrolled-state transition (~250ms ease-in-out)",
+      "mega-menu open (stiff spring)",
+      "mobile banner star rotate 10s (paused under reduced motion is NOT implemented in the clone; contract requires it)"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.nav-mobile-max}",
+      "change": "Desktop pill + announcement hidden; mobile bar 113px tall (banner with spinning star + logo + 52px menu button); open state instant."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustBeFirst": true
+  },
+  "measuredFrom": [
+    "src.routes.overrides",
+    "jsx.nav.scroll",
+    "jsx.nav.cta",
+    "jsx.nav.force",
+    "spec.nav.scrolled",
+    "spec.co.nav",
+    "spec.mobile.nav",
+    "src.app.chrome"
+  ],
+  "knownQuirks": [
+    "Mega-menu Resources links are copied verbatim from the live HTML and several point at unrelated pages (see component.mega-menu)."
+  ]
+}

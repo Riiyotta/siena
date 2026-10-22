@@ -1,0 +1,9 @@
+SPAN "" @1130,587 2x24 [op,x,y,sx,sy,blur] [0,0,0,1,1,0] -> [1,0,0,1,1,0] start 288ms t50 318ms end 3251ms overshoot 0.0
+Ask Siena "BFCM prep call transcripyourb" @795,3447 421x63 [op,x,y,sx,sy,blur] [0,-209.9,46,1,1,0] -> [0,0,80,1,1,0] start 22ms t50 335ms end 503ms overshoot -210.6
+Bars "BFCM prep call transcrip" @1026,3511 40x40 [op,x,y,sx,sy,blur] [0,0,50,1,1,0] -> [0,-20,50,1,1,0] start 22ms t50 351ms end 503ms overshoot -151.0
+Bars "Returns SOP.pdfConfirm order i" @1082,3508 43x43 [op,x,y,sx,sy,blur] [0,-43.5,50,1,1,0] -> [0,0,28.5,1,1,0] start 22ms t50 318ms end 484ms overshoot -98.7
+DIV "Verified and live" @1076,3534 54x12 [op,x,y,sx,sy,blur] [1,-32.5,0,1,1,0] -> [1,-27.2,0,1,1,0] start 22ms t50 78ms end 484ms overshoot 0.0
+Card/Nav/Regular "Return handling policy" @776,5159 448x62 [op,x,y,sx,sy,blur] [0,0,100,1,1,0] -> [1,0,0,1,1,0] start 436ms t50 733ms end 1416ms overshoot 0.0
+Card/Nav/Regular "Social Media DM & Comments po" @776,5231 448x62 [op,x,y,sx,sy,blur] [0,0,100,1,1,0] -> [1,0,0,1,1,0] start 436ms t50 733ms end 1416ms overshoot 0.0
+Card/Nav/Regular "Set up QA evals for return ha" @776,5330 448x42 [op,x,y,sx,sy,blur] [0,0,100,1,1,0] -> [1,0,0,1,1,0] start 22ms t50 335ms end 1016ms overshoot 0.0
+Card/Nav/Regular "Review bundle discount skill c" @776,5382 448x42 [op,x,y,sx,sy,blur] [0,0,100,1,1,0] -> [1,0,0,1,1,0] start 22ms t50 335ms end 1016ms overshoot 0.0

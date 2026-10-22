@@ -1,0 +1,105 @@
+{
+  "id": "section.features.icon-grid",
+  "registryId": "section.features.icon-grid",
+  "typeId": "features.icon-grid",
+  "version": "1.0.0",
+  "category": "feature",
+  "purpose": "Grid of icon + title + body items with top hairlines.",
+  "evidenceLevel": "measured",
+  "variants": {
+    "careers": "H2 left, 3x2 grid.",
+    "refer": "Eyebrow + centered italic H2, 3 items.",
+    "pricing": "Hero-sand section, eyebrow 'What to expect' + centered H2, 3 items."
+  },
+  "composes": [
+    "component.feature-item"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "eyebrow": {
+        "type": "string",
+        "maxWords": 5
+      },
+      "title": {
+        "type": "string",
+        "maxWords": 8,
+        "description": "Plain text; wrap at most one phrase in *asterisks* to render it in the display italic cut.",
+        "pattern": "^[^*]*(\\*[^*]+\\*[^*]*)?$"
+      },
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "icon": {
+              "type": "object",
+              "properties": {
+                "assetRole": {
+                  "const": "icon.glyph"
+                },
+                "codepoint": {
+                  "type": "string",
+                  "pattern": "^U\\+[0-9A-F]{4}$"
+                }
+              },
+              "required": [
+                "assetRole",
+                "codepoint"
+              ],
+              "additionalProperties": false
+            },
+            "title": {
+              "type": "string",
+              "maxWords": 6
+            },
+            "body": {
+              "type": "string",
+              "maxWords": 30
+            }
+          },
+          "required": [
+            "icon",
+            "title",
+            "body"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 3,
+        "maxItems": 6
+      }
+    },
+    "required": [
+      "title",
+      "items"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Single column, gap 32; title 28/33.6; body 14/21."
+    }
+  ],
+  "constraints": {
+    "maxPerPage": 1
+  },
+  "measuredFrom": [
+    "spec.c4",
+    "spec.r2",
+    "spec.cv.1.3",
+    "spec.featureitem",
+    "jsx.howpricing"
+  ]
+}

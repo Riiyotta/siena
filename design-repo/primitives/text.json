@@ -1,0 +1,61 @@
+{
+  "registryId": "primitive.text",
+  "version": "1.0.0",
+  "category": "type",
+  "description": "Text run rendered in one semantic typography role. Display headings may carry one *italic* emphasis span (Feature Deck Light Italic).",
+  "props": {
+    "role": {
+      "enum": [
+        "h1-hero",
+        "h2-section",
+        "eyebrow",
+        "sub-20",
+        "body-serif",
+        "h3-feature",
+        "h4-form",
+        "h-card",
+        "h-card-sm",
+        "quote",
+        "metric-hero",
+        "metric-stat",
+        "bubble",
+        "tag-mono",
+        "role-sm",
+        "field-label",
+        "rich-body",
+        "legal-body"
+      ]
+    },
+    "text": {
+      "type": "string"
+    },
+    "align": {
+      "enum": [
+        "left",
+        "center"
+      ]
+    },
+    "opacity": {
+      "enum": [
+        "1",
+        "0.82",
+        "0.8"
+      ],
+      "description": "Subtitle wrappers are dimmed to 0.82 or 0.8 on many routes (measured)."
+    }
+  },
+  "tokens": [
+    "{typography.h1-hero}",
+    "{typography.h2-section}",
+    "{typography.eyebrow}",
+    "{typography.sub-20}",
+    "{typography.body-serif}",
+    "{color.text.primary}",
+    "{color.text.secondary}"
+  ],
+  "measuredFrom": [
+    "spec.company.shorthands",
+    "spec.hero.type",
+    "spec.eyebrow.h2"
+  ]
+}

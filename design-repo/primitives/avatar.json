@@ -1,0 +1,30 @@
+{
+  "registryId": "primitive.avatar",
+  "version": "1.0.0",
+  "category": "media",
+  "description": "Round avatar (people photos are photo.person-real; the Siena avatar is brand.siena-glyph on an ink circle).",
+  "props": {
+    "assetRole": {
+      "enum": [
+        "photo.person-real",
+        "brand.siena-glyph"
+      ]
+    },
+    "size": {
+      "enum": [
+        "32",
+        "40",
+        "48",
+        "50",
+        "52"
+      ]
+    }
+  },
+  "tokens": [
+    "{radius.round}"
+  ],
+  "measuredFrom": [
+    "spec.chat.gradient",
+    "spec.wallcard"
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "id": "section.hero.community-invite",
+  "registryId": "section.hero.community-invite",
+  "typeId": "hero.community-invite",
+  "version": "1.0.0",
+  "category": "hero",
+  "purpose": "Community hero: H1, sub, star bullets left; 'Request an invite' static form in a rainbow ring right; masked logo ticker at the bottom.",
+  "evidenceLevel": "measured",
+  "variants": {
+    "community": "No Main CTA on this page."
+  },
+  "composes": [
+    "component.form-card",
+    "component.logo-ticker"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "headline": {
+        "type": "string",
+        "maxWords": 8
+      },
+      "subtitle": {
+        "type": "string",
+        "maxWords": 30
+      },
+      "bullets": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "maxWords": 10
+        },
+        "minItems": 3,
+        "maxItems": 3
+      },
+      "form": {
+        "type": "object",
+        "properties": {
+          "heading": {
+            "type": "string",
+            "maxWords": 4
+          },
+          "fields": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "label": {
+                  "type": "string",
+                  "maxWords": 3
+                },
+                "control": {
+                  "enum": [
+                    "text",
+                    "email",
+                    "tel"
+                  ]
+                },
+                "placeholder": {
+                  "type": "string",
+                  "maxWords": 4
+                }
+              },
+              "required": [
+                "label",
+                "control",
+                "placeholder"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 6,
+            "maxItems": 6
+          },
+          "submitLabel": {
+            "type": "string",
+            "maxWords": 3
+          },
+          "submitBehavior": {
+            "const": "none"
+          }
+        },
+        "required": [
+          "heading",
+          "fields",
+          "submitLabel",
+          "submitBehavior"
+        ],
+        "additionalProperties": false
+      },
+      "tickerLogos": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "assetRole": {
+              "const": "logo.customer"
+            },
+            "assetRef": {
+              "type": "string",
+              "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+            },
+            "alt": {
+              "type": "string",
+              "maxWords": 24
+            }
+          },
+          "required": [
+            "assetRole",
+            "assetRef"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 10,
+        "maxItems": 32
+      }
+    },
+    "required": [
+      "headline",
+      "subtitle",
+      "bullets",
+      "form",
+      "tickerLogos"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "appear-spring-x",
+      "appear-rise"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ],
+    "builtIn": [
+      "ticker-horizontal (always on)"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Stacked; fields single column; submit full width; ticker gap 40."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustFollowNav": true
+  },
+  "measuredFrom": [
+    "spec.m1",
+    "jsx.community",
+    "spec.co.forms"
+  ]
+}

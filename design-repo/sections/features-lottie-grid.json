@@ -1,0 +1,113 @@
+{
+  "id": "section.features.lottie-grid",
+  "registryId": "section.features.lottie-grid",
+  "typeId": "features.lottie-grid",
+  "version": "1.0.0",
+  "category": "feature",
+  "purpose": "Six-card platform grid (3 rows x 2) with looping Lottie animations.",
+  "evidenceLevel": "measured",
+  "variants": {
+    "home": "Title 64/64.",
+    "addons": "Title 80/80, different card copy."
+  },
+  "composes": [
+    "component.lottie-feature-card"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string",
+        "maxWords": 6,
+        "description": "Plain text; wrap at most one phrase in *asterisks* to render it in the display italic cut.",
+        "pattern": "^[^*]*(\\*[^*]+\\*[^*]*)?$"
+      },
+      "cards": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string",
+              "maxWords": 10
+            },
+            "body": {
+              "type": "string",
+              "maxWords": 36
+            },
+            "layout": {
+              "enum": [
+                "padded",
+                "flush"
+              ]
+            },
+            "animation": {
+              "type": "object",
+              "properties": {
+                "assetRole": {
+                  "const": "animation.lottie"
+                },
+                "assetRef": {
+                  "type": "string",
+                  "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+                },
+                "alt": {
+                  "type": "string",
+                  "maxWords": 24
+                }
+              },
+              "required": [
+                "assetRole",
+                "assetRef"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "title",
+            "body",
+            "layout",
+            "animation"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 6,
+        "maxItems": 6
+      }
+    },
+    "required": [
+      "title",
+      "cards"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ],
+    "builtIn": [
+      "Lottie loop (autoplay, svg renderer)"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Single column, cards 342 wide, padding 32, Lottie 278x216 (padded) / 342x265 (flush); H3 28/33.6."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "spec.features",
+    "spec.lottie",
+    "jsx.features",
+    "spec.cv.6.4"
+  ]
+}

@@ -1,0 +1,436 @@
+{
+  "id": "page.insights",
+  "route": "/insights",
+  "template": "template.insights-landing",
+  "theme": "light",
+  "head": {
+    "title": "Siena Insights, formerly Idiomatic - Customer feedback analysis with AI"
+  },
+  "nodes": [
+    {
+      "id": "nav",
+      "type": "shell.navbar",
+      "variant": "standard",
+      "content": {
+        "state": "auto",
+        "cta": {
+          "label": "Book a demo",
+          "href": "/book-a-demo"
+        }
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero.insights",
+      "variant": "landing",
+      "motion": {
+        "pattern": "appear-rise",
+        "reducedMotionFallback": "static"
+      },
+      "content": {
+        "eyebrow": "Siena Insights, formerly Idiomatic",
+        "headline": "Turn feedback into insights you can trust",
+        "subtitle": {
+          "text": "Stay in tune with the voice lorem ipsum dolor sit amet consectetur adipiscing elit sed.",
+          "copySource": "real-opening-placeholder-tail"
+        },
+        "buttons": [
+          {
+            "label": "Book a demo",
+            "href": "/",
+            "style": "xlg-dark"
+          }
+        ],
+        "media": {
+          "assetRole": "product.ui-mock-image",
+          "assetRef": "assets/VKHdNmxFVDSgMwwUTZNi0WmJ4k.svg"
+        }
+      }
+    },
+    {
+      "id": "announcement",
+      "type": "banner.announcement-strip",
+      "variant": "standard",
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "content": {
+        "text": "Idiomatic is now Siena Insights, with the same great features plus more innovation and support."
+      }
+    },
+    {
+      "id": "logos",
+      "type": "logos.static-row",
+      "variant": "standard",
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "content": {
+        "logos": [
+          {
+            "assetRole": "logo.customer",
+            "assetRef": "assets/RcdtrxM5jv83GuYPt3fegafLYE.svg",
+            "alt": "Instacart"
+          },
+          {
+            "assetRole": "logo.customer",
+            "assetRef": "assets/r2W6as2bHWbtrfk5iuHQjFsp1R8.svg",
+            "alt": "HubSpot"
+          },
+          {
+            "assetRole": "logo.customer",
+            "assetRef": "assets/qvKxkoZLyMmJdvAE9tNTPqFq5hQ.svg",
+            "alt": "Upwork"
+          },
+          {
+            "assetRole": "logo.customer",
+            "assetRef": "assets/3DYeO3vzL0aossMXlU9JfDBK8f0.svg",
+            "alt": "SmugMug"
+          }
+        ]
+      }
+    },
+    {
+      "id": "row-1",
+      "type": "feature.media-row",
+      "variant": "insights",
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "content": {
+        "heading": "Find what to focus on in seconds",
+        "paragraphs": [
+          {
+            "text": "Get a clear overview of customer lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore.",
+            "copySource": "real-opening-placeholder-tail"
+          }
+        ],
+        "media": {
+          "assetRole": "product.ui-mock-image",
+          "assetRef": "assets/HfktNRmsAoNia3x1j5mJvxcdL0Q.svg"
+        },
+        "mediaSide": "left"
+      }
+    },
+    {
+      "id": "row-2",
+      "type": "feature.media-row",
+      "variant": "insights",
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "content": {
+        "heading": "Stay in the loop when things change fast",
+        "paragraphs": [
+          {
+            "text": "Get instant Slack alerts when feedback lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis.",
+            "copySource": "real-opening-placeholder-tail"
+          }
+        ],
+        "media": {
+          "assetRole": "product.ui-mock-image",
+          "assetRef": "assets/det6EhIvWp8r7Ya2JlpMeyK5R8.png"
+        },
+        "mediaSide": "right"
+      }
+    },
+    {
+      "id": "row-3",
+      "type": "feature.media-row",
+      "variant": "insights",
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "content": {
+        "heading": "Your customer data, now in plain English",
+        "paragraphs": [
+          {
+            "text": "Chat with your data like you're lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna.",
+            "copySource": "real-opening-placeholder-tail"
+          }
+        ],
+        "media": {
+          "assetRole": "product.ui-mock-image",
+          "assetRef": "assets/RUoFYDLGaRP5h1vQu2qaSeuBAjw.png"
+        },
+        "mediaSide": "left",
+        "cta": {
+          "label": "Book a demo",
+          "href": "/",
+          "style": "xlg-dark"
+        }
+      }
+    },
+    {
+      "id": "row-4",
+      "type": "feature.media-row",
+      "variant": "insights",
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "content": {
+        "heading": "Sentiment analysis made simple",
+        "paragraphs": [
+          {
+            "text": "Stay on top of customer feelings, lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt.",
+            "copySource": "real-opening-placeholder-tail"
+          }
+        ],
+        "media": {
+          "assetRole": "product.ui-mock-image",
+          "assetRef": "assets/7c9xveioz1zbxWxFVO2t6p1XhY.png"
+        },
+        "mediaSide": "right"
+      }
+    },
+    {
+      "id": "row-5",
+      "type": "feature.media-row",
+      "variant": "insights",
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "content": {
+        "heading": "Know what every ticket costs",
+        "paragraphs": [
+          {
+            "text": "Track the true cost of resolving lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim.",
+            "copySource": "real-opening-placeholder-tail"
+          }
+        ],
+        "media": {
+          "assetRole": "product.ui-mock-image",
+          "assetRef": "assets/oRcxQbBbFEDD9rKRlVasJbMjX0.png"
+        },
+        "mediaSide": "left"
+      }
+    },
+    {
+      "id": "integrations",
+      "type": "integrations.logo-grid",
+      "variant": "insights",
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "content": {
+        "eyebrow": "Integrate with your existing platforms",
+        "title": "See your customers across every channel",
+        "groups": [
+          {
+            "tiles": [
+              {
+                "logo": {
+                  "assetRole": "logo.integration",
+                  "assetRef": "svg/insights-integration-salesforce.svg",
+                  "alt": "Salesforce"
+                }
+              },
+              {
+                "logo": {
+                  "assetRole": "logo.integration",
+                  "assetRef": "svg/insights-integration-zendesk.svg",
+                  "alt": "Zendesk"
+                }
+              },
+              {
+                "logo": {
+                  "assetRole": "logo.integration",
+                  "assetRef": "svg/insights-integration-qualtrics.svg",
+                  "alt": "Qualtrics"
+                }
+              },
+              {
+                "logo": {
+                  "assetRole": "logo.integration",
+                  "assetRef": "svg/insights-integration-looker.svg",
+                  "alt": "Looker"
+                }
+              },
+              {
+                "logo": {
+                  "assetRole": "logo.integration",
+                  "assetRef": "svg/insights-integration-discord.svg",
+                  "alt": "Discord"
+                }
+              },
+              {
+                "logo": {
+                  "assetRole": "logo.integration",
+                  "assetRef": "svg/insights-integration-tableau.svg",
+                  "alt": "Tableau"
+                }
+              },
+              {
+                "logo": {
+                  "assetRole": "logo.integration",
+                  "assetRef": "svg/insights-integration-typeform.svg",
+                  "alt": "Typeform"
+                }
+              },
+              {
+                "label": "...and many more"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "testimonial",
+      "type": "testimonial.centered-quote",
+      "variant": "standard",
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "content": {
+        "title": "What our customers say",
+        "quote": {
+          "text": "Siena Insights gave us the customer voice insights we needed to improve support operations while eliminating the need for manual reviews.",
+          "source": "verified"
+        },
+        "company": "Upwork",
+        "team": "Customer Support Team",
+        "avatar": {
+          "assetRole": "logo.customer",
+          "assetRef": "assets/PGTIAdOBFUHqD4uWC2d28jqi9I.png"
+        }
+      }
+    },
+    {
+      "id": "promo",
+      "type": "feature.agent-promo",
+      "variant": "insights",
+      "motion": {
+        "pattern": "chat-stagger",
+        "reducedMotionFallback": "static"
+      },
+      "content": {
+        "eyebrow": "Siena AI agent",
+        "heading": "Insights is just the beginning",
+        "body": "Take the next step with our AI agent that blends empathy and automation to deliver exceptional customer experiences at scale.",
+        "cta": {
+          "label": "Learn more",
+          "href": "/",
+          "style": "xlg-dark"
+        },
+        "background": {
+          "assetRole": "image.card-background",
+          "assetRef": "assets/OS7uIQBhEtXd5l7MXZ0qAcM0Lg.png"
+        },
+        "chat": [
+          {
+            "speaker": "customer",
+            "text": "hey! i need help with an order i placed yesterday—i forgot to apply my discount code."
+          },
+          {
+            "speaker": "siena",
+            "text": "no worries! i’ve got your order pulled up. i can apply the code “WELCOME15” and refund the difference—ready to go?"
+          },
+          {
+            "speaker": "customer",
+            "text": "yes please! appreciate it."
+          },
+          {
+            "speaker": "siena",
+            "text": "done. also noticed you’ve bought from our skincare line twice—our new serum just dropped and it’s a perfect match. want me to add it to your cart with 10% off?"
+          },
+          {
+            "speaker": "customer",
+            "text": "omg yes! that sounds amazing."
+          }
+        ]
+      }
+    },
+    {
+      "id": "demo-form",
+      "type": "cta.demo-form",
+      "variant": "insights",
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "content": {
+        "heading": "Book a personalized demo now",
+        "submitLabel": "Submit",
+        "submitBehavior": "none",
+        "anchorId": "book-a-demo",
+        "fields": [
+          {
+            "label": "Full name*",
+            "control": "text",
+            "placeholder": "John Smith"
+          },
+          {
+            "label": "Work email*",
+            "control": "email",
+            "placeholder": "john.smith@business.com"
+          },
+          {
+            "label": "Company website*",
+            "control": "text",
+            "placeholder": "www.mywebsite.com"
+          },
+          {
+            "label": "Help desk*",
+            "control": "select",
+            "options": [
+              "Gorgias",
+              "Zendesk",
+              "Kustomer",
+              "Gladly",
+              "Intercom",
+              "Salesforce",
+              "Other"
+            ]
+          },
+          {
+            "label": "Monthly average tickets*",
+            "control": "select",
+            "options": [
+              "<5,000",
+              "5,000-10,000",
+              "10,000-20,000",
+              "20,000-30,000",
+              "Over 30,000"
+            ]
+          },
+          {
+            "label": "Where did you hear about us?*",
+            "control": "textarea",
+            "placeholder": "Write us something..."
+          }
+        ]
+      }
+    },
+    {
+      "id": "footer",
+      "type": "shell.footer",
+      "variant": "standard",
+      "content": {
+        "linkSet": "global",
+        "complianceBadge": {
+          "assetRole": "badge.compliance",
+          "assetRef": "assets/HB4OWZgksTQCHf8uTWf7S6EYSlE.webp",
+          "alt": "SOC 2 Type II"
+        }
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    }
+  ]
+}

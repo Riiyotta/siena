@@ -1,0 +1,1095 @@
+{
+ "pre": [
+  {
+   "n": "A",
+   "ap": null,
+   "y": -78,
+   "x": 8,
+   "w": 188,
+   "h": 43,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, 0, -86)",
+   "txt": "Skip to main content"
+  },
+  {
+   "n": "DIV",
+   "ap": "1ugji18",
+   "y": 160,
+   "x": 24,
+   "w": 342,
+   "h": 168,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, 0, 0)",
+   "txt": "The OS for your brand's knowledge"
+  },
+  {
+   "n": "DIV",
+   "ap": "10c00us",
+   "y": 368,
+   "x": 24,
+   "w": 342,
+   "h": 67,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, 0, 0)",
+   "txt": "Siena Docs is one home for everything your team kn"
+  },
+  {
+   "n": "DIV",
+   "ap": "1he21py",
+   "y": 459,
+   "x": 116,
+   "w": 157,
+   "h": 58,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, 0, 0)",
+   "txt": "Book a demo"
+  },
+  {
+   "n": "Docs / Item",
+   "ap": null,
+   "y": 778,
+   "x": 236,
+   "w": 217,
+   "h": 242,
+   "op": "0",
+   "tf": "matrix(0.984808, -0.173648, 0.173648, 0.984808, 70, -50)",
+   "txt": "Shopify  Verified"
+  },
+  {
+   "n": "Docs / Item",
+   "ap": null,
+   "y": 543,
+   "x": 151,
+   "w": 232,
+   "h": 253,
+   "op": "1",
+   "tf": "matrix(0.965926, 0.258819, -0.258819, 0.965926, 0, 0)",
+   "txt": "Brand Voice Playbook  INTERNAL PLAYBOOK  Lead with"
+  },
+  {
+   "n": "Docs / Item",
+   "ap": null,
+   "y": 523,
+   "x": 27,
+   "w": 223,
+   "h": 246,
+   "op": "1",
+   "tf": "matrix(0.978148, 0.207912, -0.207912, 0.978148, 0, 0)",
+   "txt": "Refund & Returns Policy  POLICY DOCUMENT  Refunds "
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 704,
+   "x": 55,
+   "w": 132,
+   "h": 50,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -65, 0)",
+   "txt": "Verified"
+  },
+  {
+   "n": "Docs / Item",
+   "ap": null,
+   "y": 638,
+   "x": 9,
+   "w": 226,
+   "h": 249,
+   "op": "1",
+   "tf": "matrix(0.97437, -0.224951, 0.224951, 0.97437, 0, 0)",
+   "txt": "Sizing & Fit Guide  DATA TABLE (SIZE/SKU)  S / M /"
+  },
+  {
+   "n": "Docs / Item",
+   "ap": null,
+   "y": 565,
+   "x": 166,
+   "w": 217,
+   "h": 242,
+   "op": "1",
+   "tf": "matrix(0.984808, -0.173648, 0.173648, 0.984808, 0, 0)",
+   "txt": "  Mail  Hi, I ordered the Signature Hoodie last w"
+  },
+  {
+   "n": "Docs / Item",
+   "ap": null,
+   "y": 723,
+   "x": -104,
+   "w": 252,
+   "h": 268,
+   "op": "0",
+   "tf": "matrix(0.920505, -0.390731, 0.390731, 0.920505, -110, -70)",
+   "txt": "Customer Conversations  Hi there! Since your order"
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 869,
+   "x": -14,
+   "w": 142,
+   "h": 119,
+   "op": "0",
+   "tf": "matrix(1, 0, 0, 1, 0, 50)",
+   "txt": "Hi there! Since your order shipped 12 days ago, yo"
+  },
+  {
+   "n": "Border",
+   "ap": null,
+   "y": 869,
+   "x": -15,
+   "w": 142,
+   "h": 118,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, 0, -38.2812)",
+   "txt": "Hi there! Since your order shipped 12 days ago, yo"
+  },
+  {
+   "n": "Review",
+   "ap": null,
+   "y": 869,
+   "x": -36,
+   "w": 103,
+   "h": 74,
+   "op": "0",
+   "tf": "matrix(1, 0, 0, 1, 0, 50)",
+   "txt": "The color of this hoodie is not what I expected, a"
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 655,
+   "x": 24,
+   "w": 342,
+   "h": 399,
+   "op": "0",
+   "tf": "matrix(1, 0, 0, 1, -171, -149.5)",
+   "txt": "help.brand.com      Docs  Getting Started  Retur"
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 669,
+   "x": 26,
+   "w": 338,
+   "h": 28,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -169, 0)",
+   "txt": "help.brand.com  "
+  },
+  {
+   "n": "Chip/Filter",
+   "ap": null,
+   "y": 669,
+   "x": 139,
+   "w": 112,
+   "h": 28,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -55.8125, -14)",
+   "txt": "help.brand.com  "
+  },
+  {
+   "n": "Line chart",
+   "ap": null,
+   "y": 773,
+   "x": 474,
+   "w": 163,
+   "h": 156,
+   "op": "0",
+   "tf": "matrix(1, 0, 0, 1, 0, 50)",
+   "txt": "Document usage  23 Cited  61  Views  12  Agents"
+  },
+  {
+   "n": "Tag",
+   "ap": "5a09g2",
+   "y": 812,
+   "x": 506,
+   "w": 62,
+   "h": 28,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, 0, 0)",
+   "txt": "23 Cited"
+  },
+  {
+   "n": "Frame 2087325258",
+   "ap": null,
+   "y": 1672,
+   "x": -31,
+   "w": 487,
+   "h": 520,
+   "op": "0.36",
+   "tf": "matrix(0.587785, 0.809017, -0.809017, 0.587785, 0, 0)",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 1598,
+   "x": 26,
+   "w": 341,
+   "h": 12,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -170.5, 0)",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 1643,
+   "x": 26,
+   "w": 341,
+   "h": 24,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -170.5, 0)",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 1897,
+   "x": 26,
+   "w": 341,
+   "h": 14,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -170.5, 0)",
+   "txt": "● 118 VERIFIED · 7 IN REVIEW"
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 1681,
+   "x": -122,
+   "w": 661,
+   "h": 162,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, 0, -81)",
+   "txt": "Tone of Voice  Lead with the solution. Offer the r"
+  },
+  {
+   "n": "UL",
+   "ap": null,
+   "y": 1681,
+   "x": -132,
+   "w": 661,
+   "h": 162,
+   "op": "0",
+   "tf": "matrix(1, 0, 0, 1, -10, 0)",
+   "txt": "Tone of Voice  Lead with the solution. Offer the r"
+  },
+  {
+   "n": "BG",
+   "ap": null,
+   "y": 2205,
+   "x": -220,
+   "w": 788,
+   "h": 790,
+   "op": "0.3",
+   "tf": "matrix(0.656059, -0.75471, 0.75471, 0.656059, 0, 0)",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 2546,
+   "x": 41,
+   "w": 308,
+   "h": 129,
+   "op": "0",
+   "tf": "matrix(1, 0, 0, 1, -153.898, 80)",
+   "txt": "\"We're extending returns from 30 to 60 days for th"
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 2638,
+   "x": 24,
+   "w": 342,
+   "h": 334,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -171, 0)",
+   "txt": "Returns Journey  …within 30 days of the original p"
+  },
+  {
+   "n": "Bars",
+   "ap": null,
+   "y": 2890,
+   "x": 24,
+   "w": 166,
+   "h": 162,
+   "op": "0",
+   "tf": "matrix(1, 0, 0, 1, 0, 80)",
+   "txt": "Returns Journey  …within 30 days of the original p"
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3019,
+   "x": 62,
+   "w": 93,
+   "h": 23,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -46.5469, 0)",
+   "txt": "Accept  "
+  },
+  {
+   "n": "Bars",
+   "ap": null,
+   "y": 2718,
+   "x": 24,
+   "w": 166,
+   "h": 162,
+   "op": "0",
+   "tf": "matrix(1, 0, 0, 1, 0, 80)",
+   "txt": "Returns Policy  …within 30 days of the original pu"
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 2847,
+   "x": 62,
+   "w": 93,
+   "h": 23,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -46.5469, 0)",
+   "txt": "Accept  "
+  },
+  {
+   "n": "Bars",
+   "ap": null,
+   "y": 2890,
+   "x": 200,
+   "w": 166,
+   "h": 162,
+   "op": "0",
+   "tf": "matrix(1, 0, 0, 1, 0, 80)",
+   "txt": "Returns SOP  …within 30 days of the original purch"
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3019,
+   "x": 238,
+   "w": 93,
+   "h": 23,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -46.5469, 0)",
+   "txt": "Accept  "
+  },
+  {
+   "n": "Bars",
+   "ap": null,
+   "y": 2718,
+   "x": 200,
+   "w": 166,
+   "h": 162,
+   "op": "0",
+   "tf": "matrix(1, 0, 0, 1, 0, 80)",
+   "txt": ""
+  },
+  {
+   "n": "Frame 2087325258",
+   "ap": null,
+   "y": 3570,
+   "x": -18,
+   "w": 460,
+   "h": 482,
+   "op": "0.36",
+   "tf": "matrix(0.587785, 0.809017, -0.809017, 0.587785, 0, 0)",
+   "txt": ""
+  },
+  {
+   "n": "Bars",
+   "ap": null,
+   "y": 3720,
+   "x": 63,
+   "w": 99,
+   "h": 85,
+   "op": "0",
+   "tf": "matrix(0.984808, 0.173648, -0.173648, 0.984808, 0, 50)",
+   "txt": "Return Policy  Heather tones may appear lighter in"
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3775,
+   "x": 75,
+   "w": 66,
+   "h": 23,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -32.5, 0)",
+   "txt": "Verified"
+  },
+  {
+   "n": "Bars",
+   "ap": null,
+   "y": 3720,
+   "x": 131,
+   "w": 99,
+   "h": 85,
+   "op": "0",
+   "tf": "matrix(0.984808, -0.173648, 0.173648, 0.984808, 0, 50)",
+   "txt": "Refund Timeline  Heather tones may appear lighter "
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3775,
+   "x": 151,
+   "w": 66,
+   "h": 23,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -32.5, 0)",
+   "txt": "Verified"
+  },
+  {
+   "n": "Bars",
+   "ap": null,
+   "y": 3714,
+   "x": 182,
+   "w": 107,
+   "h": 97,
+   "op": "0",
+   "tf": "matrix(0.939693, 0.34202, -0.34202, 0.939693, 0, 50)",
+   "txt": "Exchange Process  Customers may exchange for size "
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3769,
+   "x": 194,
+   "w": 65,
+   "h": 34,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -32.5, 0)",
+   "txt": "Verified"
+  },
+  {
+   "n": "Bars",
+   "ap": null,
+   "y": 4070,
+   "x": 117,
+   "w": 157,
+   "h": 148,
+   "op": "0",
+   "tf": "matrix(1, 0, 0, 1, 0, 50)",
+   "txt": "Brand Policies  Refunds are processed within 3–5 b"
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 4185,
+   "x": 130,
+   "w": 130,
+   "h": 23,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -65, 0)",
+   "txt": "Verified"
+  },
+  {
+   "n": "Line chart",
+   "ap": null,
+   "y": 4258,
+   "x": 96,
+   "w": 199,
+   "h": 178,
+   "op": "0",
+   "tf": "matrix(1, 0, 0, 1, 0, 50)",
+   "txt": "Document usage  23 Cited  61  Views  12  Agents"
+  },
+  {
+   "n": "Tag",
+   "ap": "1qh878j",
+   "y": 4301,
+   "x": 154,
+   "w": 62,
+   "h": 28,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, 0, 0)",
+   "txt": "23 Cited"
+  },
+  {
+   "n": "Bars",
+   "ap": null,
+   "y": 4777,
+   "x": 219,
+   "w": 102,
+   "h": 102,
+   "op": "0",
+   "tf": "matrix(0.984808, 0.173648, -0.173648, 0.984808, 0, 50)",
+   "txt": "Return Policy  Heather tones may appear lighter in"
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 4849,
+   "x": 231,
+   "w": 66,
+   "h": 23,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -32.5, 0)",
+   "txt": "Verified"
+  },
+  {
+   "n": "Bars",
+   "ap": null,
+   "y": 4777,
+   "x": 223,
+   "w": 102,
+   "h": 102,
+   "op": "0",
+   "tf": "matrix(0.984808, -0.173648, 0.173648, 0.984808, 0, 50)",
+   "txt": "Refund Timeline  Heather tones may appear lighter "
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 4849,
+   "x": 247,
+   "w": 66,
+   "h": 23,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -32.5, 0)",
+   "txt": "Verified"
+  },
+  {
+   "n": "Bars",
+   "ap": null,
+   "y": 4772,
+   "x": 225,
+   "w": 113,
+   "h": 113,
+   "op": "0",
+   "tf": "matrix(0.939693, 0.34202, -0.34202, 0.939693, 0, 50)",
+   "txt": "Process a Return  Confirm order is within the 30-d"
+  },
+  {
+   "n": "Response too generic",
+   "ap": null,
+   "y": 4828,
+   "x": 240,
+   "w": 67,
+   "h": 31,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -34.2734, 0)",
+   "txt": "Used 4 times this month"
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 4844,
+   "x": 242,
+   "w": 55,
+   "h": 30,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -27.1875, 0)",
+   "txt": "Verified and live"
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 7603,
+   "x": 48,
+   "w": 294,
+   "h": 24,
+   "op": "0",
+   "txt": "Yes. Give Ask Siena any live URL and it fetches th"
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 7750,
+   "x": 48,
+   "w": 294,
+   "h": 24,
+   "op": "0",
+   "txt": "Siena Docs is built for the teams and AI that run "
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 7873,
+   "x": 48,
+   "w": 294,
+   "h": 24,
+   "op": "0",
+   "txt": "Most teams that move their knowledge into Siena Do"
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 7996,
+   "x": 48,
+   "w": 294,
+   "h": 24,
+   "op": "0",
+   "txt": "Yes. Siena Docs is part of your Siena plan at no e"
+  }
+ ],
+ "appearIds": [
+  {
+   "id": "gx6vnk",
+   "n": "Vector 77",
+   "y": 213,
+   "txt": "DIV"
+  },
+  {
+   "id": "1ugji18",
+   "n": null,
+   "y": 160,
+   "txt": "The OS for your brand's knowledge"
+  },
+  {
+   "id": "10c00us",
+   "n": null,
+   "y": 368,
+   "txt": "Siena Docs is one home for everything your team knows. Every"
+  },
+  {
+   "id": "1he21py",
+   "n": null,
+   "y": 459,
+   "txt": "Book a demo"
+  },
+  {
+   "id": "5a09g2",
+   "n": "Tag",
+   "y": 812,
+   "txt": "23 Cited"
+  },
+  {
+   "id": "1qh878j",
+   "n": "Tag",
+   "y": 4301,
+   "txt": "23 Cited"
+  },
+  {
+   "id": "1fhkyth",
+   "n": "1",
+   "y": 5269,
+   "txt": "Before    Manual article writing, hours per piece    Dupli"
+  },
+  {
+   "id": "odeoqy",
+   "n": "1",
+   "y": 5648,
+   "txt": "With Siena    Any source → structured article in under a mi"
+  }
+ ],
+ "tickers": [
+  {
+   "y": 1681,
+   "h": 162,
+   "n": 4,
+   "gap": "10px",
+   "speed": 0,
+   "mask": "none",
+   "items": [
+    [
+     158,
+     162,
+     "bg",
+     "Bars"
+    ],
+    [
+     157,
+     162,
+     "bg",
+     "Bars"
+    ],
+    [
+     158,
+     162,
+     "bg",
+     "Bars"
+    ],
+    [
+     158,
+     162,
+     "bg",
+     "Bars"
+    ]
+   ]
+  }
+ ],
+ "post": [
+  {
+   "n": "A",
+   "y": 8844,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, 0, -86)",
+   "txt": "Skip to main content"
+  },
+  {
+   "n": "DIV",
+   "y": 160,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, 0, 0)",
+   "txt": "The OS for your brand's knowledge"
+  },
+  {
+   "n": "DIV",
+   "y": 368,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, 0, 0)",
+   "txt": "Siena Docs is one home for everything yo"
+  },
+  {
+   "n": "DIV",
+   "y": 459,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, 0, 0)",
+   "txt": "Book a demo"
+  },
+  {
+   "n": "Docs / Item",
+   "y": 828,
+   "op": "1",
+   "tf": "matrix(0.984808, -0.173648, 0.173648, 0.984808, 0, 0)",
+   "txt": "Shopify  Verified"
+  },
+  {
+   "n": "Docs / Item",
+   "y": 543,
+   "op": "1",
+   "tf": "matrix(0.965926, 0.258819, -0.258819, 0.965926, 0, 0)",
+   "txt": "Brand Voice Playbook  INTERNAL PLAYBOOK "
+  },
+  {
+   "n": "Docs / Item",
+   "y": 523,
+   "op": "1",
+   "tf": "matrix(0.978148, 0.207912, -0.207912, 0.978148, 0, 0)",
+   "txt": "Refund & Returns Policy  POLICY DOCUMENT"
+  },
+  {
+   "n": "DIV",
+   "y": 704,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -65, 0)",
+   "txt": "Verified"
+  },
+  {
+   "n": "Docs / Item",
+   "y": 638,
+   "op": "1",
+   "tf": "matrix(0.97437, -0.224951, 0.224951, 0.97437, 0, 0)",
+   "txt": "Sizing & Fit Guide  DATA TABLE (SIZE/SKU"
+  },
+  {
+   "n": "Docs / Item",
+   "y": 565,
+   "op": "1",
+   "tf": "matrix(0.984808, -0.173648, 0.173648, 0.984808, 0, 0)",
+   "txt": "  Mail  Hi, I ordered the Signature Hoo"
+  },
+  {
+   "n": "Docs / Item",
+   "y": 793,
+   "op": "1",
+   "tf": "matrix(0.920505, -0.390731, 0.390731, 0.920505, 0, 0)",
+   "txt": "Customer Conversations  Hi there! Since "
+  },
+  {
+   "n": "Border",
+   "y": 893,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, 0, -38.2812)",
+   "txt": "Hi there! Since your order shipped 12 da"
+  },
+  {
+   "n": "DIV",
+   "y": 605,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -171, -199.5)",
+   "txt": "help.brand.com      Docs  Getting Star"
+  },
+  {
+   "n": "DIV",
+   "y": 619,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -169, 0)",
+   "txt": "help.brand.com  "
+  },
+  {
+   "n": "Chip/Filter",
+   "y": 619,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -55.8125, -14)",
+   "txt": "help.brand.com  "
+  },
+  {
+   "n": "Line chart",
+   "y": 723,
+   "op": "0",
+   "tf": "matrix(1, 0, 0, 1, 0, 50)",
+   "txt": "Document usage  23 Cited  61  Views  12 "
+  },
+  {
+   "n": "Tag",
+   "y": 762,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, 0, 0)",
+   "txt": "23 Cited"
+  },
+  {
+   "n": "Frame 2087325258",
+   "y": 1672,
+   "op": "0.36",
+   "tf": "matrix(0.587785, 0.809017, -0.809017, 0.587785, 0, 0)",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 1598,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -170.5, 0)",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 1643,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -170.5, 0)",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 1897,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -170.5, 0)",
+   "txt": "● 118 VERIFIED · 7 IN REVIEW"
+  },
+  {
+   "n": "DIV",
+   "y": 1681,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, 0, -81)",
+   "txt": "Tone of Voice  Lead with the solution. O"
+  },
+  {
+   "n": "BG",
+   "y": 2205,
+   "op": "0.3",
+   "tf": "matrix(0.656059, -0.75471, 0.75471, 0.656059, 0, 0)",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 2466,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -153.898, 0)",
+   "txt": "\"We're extending returns from 30 to 60 d"
+  },
+  {
+   "n": "DIV",
+   "y": 2638,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -171, 0)",
+   "txt": "Returns Journey  …within 30 days of the "
+  },
+  {
+   "n": "DIV",
+   "y": 2939,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -46.5469, 0)",
+   "txt": "Accept  "
+  },
+  {
+   "n": "DIV",
+   "y": 2767,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -46.5469, 0)",
+   "txt": "Accept  "
+  },
+  {
+   "n": "DIV",
+   "y": 2939,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -46.5469, 0)",
+   "txt": "Accept  "
+  },
+  {
+   "n": "Frame 2087325258",
+   "y": 3570,
+   "op": "0.36",
+   "tf": "matrix(0.587785, 0.809017, -0.809017, 0.587785, 0, 0)",
+   "txt": ""
+  },
+  {
+   "n": "Bars",
+   "y": 3670,
+   "op": "1",
+   "tf": "matrix(0.984808, 0.173648, -0.173648, 0.984808, 0, 0)",
+   "txt": "Return Policy  Heather tones may appear "
+  },
+  {
+   "n": "DIV",
+   "y": 3725,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -32.5, 0)",
+   "txt": "Verified"
+  },
+  {
+   "n": "Bars",
+   "y": 3670,
+   "op": "1",
+   "tf": "matrix(0.984808, -0.173648, 0.173648, 0.984808, 0, 0)",
+   "txt": "Refund Timeline  Heather tones may appea"
+  },
+  {
+   "n": "DIV",
+   "y": 3725,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -32.5, 0)",
+   "txt": "Verified"
+  },
+  {
+   "n": "Bars",
+   "y": 3664,
+   "op": "1",
+   "tf": "matrix(0.939693, 0.34202, -0.34202, 0.939693, 0, 0)",
+   "txt": "Exchange Process  Customers may exchange"
+  },
+  {
+   "n": "DIV",
+   "y": 3719,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -32.5, 0)",
+   "txt": "Verified"
+  },
+  {
+   "n": "DIV",
+   "y": 4135,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -65, 0)",
+   "txt": "Verified"
+  },
+  {
+   "n": "Tag",
+   "y": 4251,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, 0, 0)",
+   "txt": "23 Cited"
+  },
+  {
+   "n": "Bars",
+   "y": 4727,
+   "op": "1",
+   "tf": "matrix(0.984808, 0.173648, -0.173648, 0.984808, 0, 0)",
+   "txt": "Return Policy  Heather tones may appear "
+  },
+  {
+   "n": "DIV",
+   "y": 4799,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -32.5, 0)",
+   "txt": "Verified"
+  },
+  {
+   "n": "Bars",
+   "y": 4727,
+   "op": "1",
+   "tf": "matrix(0.984808, -0.173648, 0.173648, 0.984808, 0, 0)",
+   "txt": "Refund Timeline  Heather tones may appea"
+  },
+  {
+   "n": "DIV",
+   "y": 4799,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -32.5, 0)",
+   "txt": "Verified"
+  },
+  {
+   "n": "Bars",
+   "y": 4722,
+   "op": "1",
+   "tf": "matrix(0.939693, 0.34202, -0.34202, 0.939693, 0, 0)",
+   "txt": "Process a Return  Confirm order is withi"
+  },
+  {
+   "n": "Response too generic",
+   "y": 4778,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -34.2734, 0)",
+   "txt": "Used 4 times this month"
+  },
+  {
+   "n": "DIV",
+   "y": 4794,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -27.1875, 0)",
+   "txt": "Verified and live"
+  },
+  {
+   "n": "DIV",
+   "y": 7603,
+   "op": "0",
+   "txt": "Yes. Give Ask Siena any live URL and it "
+  },
+  {
+   "n": "DIV",
+   "y": 7750,
+   "op": "0",
+   "txt": "Siena Docs is built for the teams and AI"
+  },
+  {
+   "n": "DIV",
+   "y": 7873,
+   "op": "0",
+   "txt": "Most teams that move their knowledge int"
+  },
+  {
+   "n": "DIV",
+   "y": 7996,
+   "op": "0",
+   "txt": "Yes. Siena Docs is part of your Siena pl"
+  }
+ ],
+ "sticky": [],
+ "videos": [],
+ "iframes": [],
+ "lottie": [],
+ "slideshows": [],
+ "svgs": [
+  {
+   "file": "products-docs-star-four-light-1-889050.svg",
+   "n": "star-four-light 1",
+   "y": 1405,
+   "w": 16,
+   "h": 16,
+   "count": 3
+  },
+  {
+   "file": "products-docs-Icon-Black-2bb9ed.svg",
+   "n": "Icon-Black",
+   "y": 3721,
+   "w": 25,
+   "h": 25,
+   "count": 1
+  },
+  {
+   "file": "products-docs-Container-5c9c4b.svg",
+   "n": "Container",
+   "y": 4503,
+   "w": 70,
+   "h": 78,
+   "count": 1
+  },
+  {
+   "file": "products-docs--c7837d.svg",
+   "n": "“",
+   "y": 6519,
+   "w": 30,
+   "h": 24,
+   "count": 1
+  },
+  {
+   "file": "products-docs-siena-320693.svg",
+   "n": "siena",
+   "y": 9662,
+   "w": 122,
+   "h": 32,
+   "count": 1
+  }
+ ],
+ "H": 9766
+}

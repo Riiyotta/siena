@@ -1,0 +1,214 @@
+##### STEP1
+div [752,160,499x733] p:3px bgi:linear-gradient(209deg, rgb(41, 79, 186) 0%, rgb(46, 121, 216) 15.92%, rgb(130, 122, 204) 34.17%, rgb(251, 86, 70) 66.13%, rgb(254, 199, 150) 90.23%, rgb(242, 2 r:16px
+  div [755,163,493x727] p:40px bg:rgb(243, 240, 235) r:14px
+    div [795,203,413x647]
+      div [795,203,413x80] m:0px 0px 16px TEXT"Plug in your numbers & forecast your future" {"Feature Deck" 400 36px/40px rgb(18, 32, 35) ls:-0.3px}
+      p [795,299,413x61] p:0px 0px 20px m:0px 0px 28px border-b:1px rgba(0, 0, 0, 0.19) TEXT"Use our ROI calculator to see how we make magic happen. It's quick, easy, and kinda satisfying!" {"Instrument Sans" 400 16px/normal rgb(18, 32, 35) ls:normal}
+      div [795,388,413x94] flex-row gap:16px jc:normal ai:normal m:0px 0px 8px
+        div [795,388,199x78] m:0px 0px 16px
+          label [795,388,199x18] flex-row gap:3px jc:normal ai:center m:0px 0px 4px TEXT"Annual Tickets Volume" {"Instrument Sans" 600 14px/normal rgb(0, 0, 0) ls:normal}
+            p [949,397,0x0] op:0.2
+          input [795,410,199x56] p:0px 16px bg:rgb(255, 255, 255) border:1px solid rgb(205, 188, 160) r:16px input type=number value="" ph="" font:sans-serif 15px rgb(18, 32, 35) ta:start
+        div [1010,388,199x78] m:0px 0px 16px
+          label [1010,388,199x18] flex-row gap:3px jc:normal ai:center m:0px 0px 4px TEXT"Number of Agents" {"Instrument Sans" 600 14px/normal rgb(0, 0, 0) ls:normal}
+            p [1133,397,0x0] op:0.2
+          input [1010,410,199x56] p:0px 16px bg:rgb(255, 255, 255) border:1px solid rgb(205, 188, 160) r:16px input type=number value="" ph="" font:sans-serif 15px rgb(18, 32, 35) ta:start
+      div [795,490,413x94] flex-row gap:16px jc:normal ai:normal m:0px 0px 8px
+        div [795,490,413x78] m:0px 0px 16px
+          label [795,490,413x18] flex-row gap:3px jc:normal ai:center m:0px 0px 4px TEXT"Annual In-House Customer Service Team Cost" {"Instrument Sans" 600 14px/normal rgb(0, 0, 0) ls:normal}
+            p [1102,499,0x0] op:0.2
+          input [795,512,413x56] p:0px 16px bg:rgb(255, 255, 255) border:1px solid rgb(205, 188, 160) r:16px input type=number value="" ph="" font:sans-serif 15px rgb(18, 32, 35) ta:start
+      div [795,592,413x94] flex-row gap:16px jc:normal ai:normal m:0px 0px 8px
+        div [795,592,413x78] m:0px 0px 16px
+          label [795,592,413x18] flex-row gap:3px jc:normal ai:center m:0px 0px 4px TEXT"Annual BPO Team Cost" {"Instrument Sans" 600 14px/normal rgb(0, 0, 0) ls:normal}
+            p [951,592,65x18] op:0.2 TEXT"(optional)" {"Instrument Sans" 600 14px/normal rgb(0, 0, 0) ls:normal}
+          input [795,614,413x56] p:0px 16px bg:rgb(255, 255, 255) border:1px solid rgb(205, 188, 160) r:16px input type=number value="" ph="" font:sans-serif 15px rgb(18, 32, 35) ta:start
+      div [795,694,413x94] flex-row gap:16px jc:normal ai:normal m:0px 0px 8px
+        div [795,694,199x78] m:0px 0px 16px
+          label [795,694,199x18] flex-row gap:3px jc:normal ai:center m:0px 0px 4px TEXT"Average Order Value" {"Instrument Sans" 600 14px/normal rgb(0, 0, 0) ls:normal}
+            p [933,703,0x0] op:0.2
+          input [795,716,199x56] p:0px 16px bg:rgb(255, 255, 255) border:1px solid rgb(205, 188, 160) r:16px input type=number value="" ph="" font:sans-serif 15px rgb(18, 32, 35) ta:start
+        div [1010,694,199x78] m:0px 0px 16px
+          label [1010,694,199x18] flex-row gap:3px jc:normal ai:center m:0px 0px 4px TEXT"Annual Help Desk Cost" {"Instrument Sans" 600 14px/normal rgb(0, 0, 0) ls:normal}
+            p [1163,703,0x0] op:0.2
+          input [1010,716,199x56] p:0px 16px bg:rgb(255, 255, 255) border:1px solid rgb(205, 188, 160) r:16px input type=number value="" ph="" font:sans-serif 15px rgb(18, 32, 35) ta:start
+      div [795,796,413x54] flex-row gap:normal jc:flex-end ai:normal
+        button [1096,796,112x54] flex-row gap:7px jc:normal ai:center p:16px 24px bg:rgb(18, 32, 35) r:16px TEXT"Next" {"Instrument Sans" 600 18px/normal rgb(255, 255, 255) ls:normal}
+          svg [1167,815,17x17]
+##### STEP1-ERROR
+div [752,160,499x790] p:3px bgi:linear-gradient(209deg, rgb(41, 79, 186) 0%, rgb(46, 121, 216) 15.92%, rgb(130, 122, 204) 34.17%, rgb(251, 86, 70) 66.13%, rgb(254, 199, 150) 90.23%, rgb(242, 2 r:16px
+  div [755,163,493x784] p:40px bg:rgb(243, 240, 235) r:14px
+    div [795,203,413x704]
+      div [795,203,413x80] m:0px 0px 16px TEXT"Plug in your numbers & forecast your future" {"Feature Deck" 400 36px/40px rgb(18, 32, 35) ls:-0.3px}
+      p [795,299,413x61] p:0px 0px 20px m:0px 0px 28px border-b:1px rgba(0, 0, 0, 0.19) TEXT"Use our ROI calculator to see how we make magic happen. It's quick, easy, and kinda satisfying!" {"Instrument Sans" 400 16px/normal rgb(18, 32, 35) ls:normal}
+      div [795,388,413x94] flex-row gap:16px jc:normal ai:normal m:0px 0px 8px
+        div [795,388,199x78] m:0px 0px 16px
+          label [795,388,199x18] flex-row gap:3px jc:normal ai:center m:0px 0px 4px TEXT"Annual Tickets Volume" {"Instrument Sans" 600 14px/normal rgb(0, 0, 0) ls:normal}
+            p [949,397,0x0] op:0.2
+          input [795,410,199x56] p:0px 16px bg:rgb(255, 255, 255) border:1px solid rgb(205, 188, 160) r:16px input type=number value="" ph="" font:sans-serif 15px rgb(18, 32, 35) ta:start
+        div [1010,388,199x78] m:0px 0px 16px
+          label [1010,388,199x18] flex-row gap:3px jc:normal ai:center m:0px 0px 4px TEXT"Number of Agents" {"Instrument Sans" 600 14px/normal rgb(0, 0, 0) ls:normal}
+            p [1133,397,0x0] op:0.2
+          input [1010,410,199x56] p:0px 16px bg:rgb(255, 255, 255) border:1px solid rgb(205, 188, 160) r:16px input type=number value="" ph="" font:sans-serif 15px rgb(18, 32, 35) ta:start
+      div [795,490,413x94] flex-row gap:16px jc:normal ai:normal m:0px 0px 8px
+        div [795,490,413x78] m:0px 0px 16px
+          label [795,490,413x18] flex-row gap:3px jc:normal ai:center m:0px 0px 4px TEXT"Annual In-House Customer Service Team Cost" {"Instrument Sans" 600 14px/normal rgb(0, 0, 0) ls:normal}
+            p [1102,499,0x0] op:0.2
+          input [795,512,413x56] p:0px 16px bg:rgb(255, 255, 255) border:1px solid rgb(205, 188, 160) r:16px input type=number value="" ph="" font:sans-serif 15px rgb(18, 32, 35) ta:start
+      div [795,592,413x94] flex-row gap:16px jc:normal ai:normal m:0px 0px 8px
+        div [795,592,413x78] m:0px 0px 16px
+          label [795,592,413x18] flex-row gap:3px jc:normal ai:center m:0px 0px 4px TEXT"Annual BPO Team Cost" {"Instrument Sans" 600 14px/normal rgb(0, 0, 0) ls:normal}
+            p [951,592,65x18] op:0.2 TEXT"(optional)" {"Instrument Sans" 600 14px/normal rgb(0, 0, 0) ls:normal}
+          input [795,614,413x56] p:0px 16px bg:rgb(255, 255, 255) border:1px solid rgb(205, 188, 160) r:16px input type=number value="" ph="" font:sans-serif 15px rgb(18, 32, 35) ta:start
+      div [795,694,413x94] flex-row gap:16px jc:normal ai:normal m:0px 0px 8px
+        div [795,694,199x78] m:0px 0px 16px
+          label [795,694,199x18] flex-row gap:3px jc:normal ai:center m:0px 0px 4px TEXT"Average Order Value" {"Instrument Sans" 600 14px/normal rgb(0, 0, 0) ls:normal}
+            p [933,703,0x0] op:0.2
+          input [795,716,199x56] p:0px 16px bg:rgb(255, 255, 255) border:1px solid rgb(205, 188, 160) r:16px input type=number value="" ph="" font:sans-serif 15px rgb(18, 32, 35) ta:start
+        div [1010,694,199x78] m:0px 0px 16px
+          label [1010,694,199x18] flex-row gap:3px jc:normal ai:center m:0px 0px 4px TEXT"Annual Help Desk Cost" {"Instrument Sans" 600 14px/normal rgb(0, 0, 0) ls:normal}
+            p [1163,703,0x0] op:0.2
+          input [1010,716,199x56] p:0px 16px bg:rgb(255, 255, 255) border:1px solid rgb(205, 188, 160) r:16px input type=number value="" ph="" font:sans-serif 15px rgb(18, 32, 35) ta:start
+      div [795,798,413x40] p:10px 15px m:10px 0px 15px bg:rgb(242, 222, 222) border:1px solid rgb(235, 204, 209) r:8px TEXT"Please fill in all required fields." {"Instrument Sans", sans-serif 400 14px/normal rgb(169, 68, 66) ls:normal}
+      div [795,853,413x54] flex-row gap:normal jc:flex-end ai:normal
+        button [1096,853,112x54] flex-row gap:7px jc:normal ai:center p:16px 24px bg:rgb(18, 32, 35) r:16px TEXT"Next" {"Instrument Sans" 600 18px/normal rgb(255, 255, 255) ls:normal}
+          svg [1167,872,17x17]
+focus: rgb(205, 188, 160) none rgb(18, 32, 35) none 3px
+##### STEP2
+div [752,160,499x555] p:3px bgi:linear-gradient(209deg, rgb(41, 79, 186) 0%, rgb(46, 121, 216) 15.92%, rgb(130, 122, 204) 34.17%, rgb(251, 86, 70) 66.13%, rgb(254, 199, 150) 90.23%, rgb(242, 2 r:16px
+  div [755,163,493x549] p:40px bg:rgb(243, 240, 235) r:14px
+    div [795,203,413x469]
+      div [795,203,413x61] p:0px 0px 20px m:0px 0px 40px border-b:1px rgba(0, 0, 0, 0.19) TEXT"Your details" {"Feature Deck" 400 36px/40px rgb(18, 32, 35) ls:-0.3px}
+      div [795,304,413x94] flex-row gap:16px jc:normal ai:normal m:0px 0px 16px
+        div [795,304,199x78] m:0px 0px 16px
+          label [795,304,199x18] flex-row gap:3px jc:normal ai:center m:0px 0px 4px TEXT"First Name*" {"Instrument Sans" 600 14px/normal rgb(0, 0, 0) ls:normal}
+            p [875,313,0x0] op:0.2
+          input [795,326,199x56] p:0px 16px bg:rgb(255, 255, 255) border:1px solid rgb(205, 188, 160) r:16px input type=text value="" ph="John" font:sans-serif 15px rgb(18, 32, 35) ta:start
+        div [1010,304,199x78] m:0px 0px 16px
+          label [1010,304,199x18] flex-row gap:3px jc:normal ai:center m:0px 0px 4px TEXT"Last Name*" {"Instrument Sans" 600 14px/normal rgb(0, 0, 0) ls:normal}
+            p [1088,313,0x0] op:0.2
+          input [1010,326,199x56] p:0px 16px bg:rgb(255, 255, 255) border:1px solid rgb(205, 188, 160) r:16px input type=text value="" ph="Smith" font:sans-serif 15px rgb(18, 32, 35) ta:start
+      div [795,414,413x94] flex-row gap:16px jc:normal ai:normal
+        div [795,414,413x78] m:0px 0px 16px
+          label [795,414,413x18] flex-row gap:3px jc:normal ai:center m:0px 0px 4px TEXT"Work Email*" {"Instrument Sans" 600 14px/normal rgb(0, 0, 0) ls:normal}
+            p [879,423,0x0] op:0.2
+          input [795,436,413x56] p:0px 16px bg:rgb(255, 255, 255) border:1px solid rgb(205, 188, 160) r:16px input type=text value="" ph="john.smith@example.com" font:sans-serif 15px rgb(18, 32, 35) ta:start
+      div [795,508,413x94] flex-row gap:16px jc:normal ai:normal
+        div [795,508,413x78] m:0px 0px 16px
+          label [795,508,413x18] flex-row gap:3px jc:normal ai:center m:0px 0px 4px TEXT"Where did you hear about us?*" {"Instrument Sans" 600 14px/normal rgb(0, 0, 0) ls:normal}
+            p [999,517,0x0] op:0.2
+          input [795,530,413x56] p:0px 16px bg:rgb(255, 255, 255) border:1px solid rgb(205, 188, 160) r:16px input type=text value="" ph="Write us something..." font:sans-serif 15px rgb(18, 32, 35) ta:start
+      div [795,602,413x70] flex-row gap:normal jc:flex-end ai:normal
+        button [1033,618,175x54] flex-row gap:7px jc:normal ai:center p:16px 24px m:16px 0px 0px bg:rgb(18, 32, 35) r:16px TEXT"View results" {"Instrument Sans" 600 18px/normal rgb(255, 255, 255) ls:normal}
+          svg [1167,637,17x17]
+##### STEP2-ERROR
+div [752,160,499x620] p:3px bgi:linear-gradient(209deg, rgb(41, 79, 186) 0%, rgb(46, 121, 216) 15.92%, rgb(130, 122, 204) 34.17%, rgb(251, 86, 70) 66.13%, rgb(254, 199, 150) 90.23%, rgb(242, 2 r:16px
+  div [755,163,493x614] p:40px bg:rgb(243, 240, 235) r:14px
+    div [795,203,413x534]
+      div [795,203,413x61] p:0px 0px 20px m:0px 0px 40px border-b:1px rgba(0, 0, 0, 0.19) TEXT"Your details" {"Feature Deck" 400 36px/40px rgb(18, 32, 35) ls:-0.3px}
+      div [795,304,413x94] flex-row gap:16px jc:normal ai:normal m:0px 0px 16px
+        div [795,304,199x78] m:0px 0px 16px
+          label [795,304,199x18] flex-row gap:3px jc:normal ai:center m:0px 0px 4px TEXT"First Name*" {"Instrument Sans" 600 14px/normal rgb(0, 0, 0) ls:normal}
+            p [875,313,0x0] op:0.2
+          input [795,326,199x56] p:0px 16px bg:rgb(255, 255, 255) border:1px solid rgb(205, 188, 160) r:16px input type=text value="" ph="John" font:sans-serif 15px rgb(18, 32, 35) ta:start
+        div [1010,304,199x78] m:0px 0px 16px
+          label [1010,304,199x18] flex-row gap:3px jc:normal ai:center m:0px 0px 4px TEXT"Last Name*" {"Instrument Sans" 600 14px/normal rgb(0, 0, 0) ls:normal}
+            p [1088,313,0x0] op:0.2
+          input [1010,326,199x56] p:0px 16px bg:rgb(255, 255, 255) border:1px solid rgb(205, 188, 160) r:16px input type=text value="" ph="Smith" font:sans-serif 15px rgb(18, 32, 35) ta:start
+      div [795,414,413x94] flex-row gap:16px jc:normal ai:normal
+        div [795,414,413x78] m:0px 0px 16px
+          label [795,414,413x18] flex-row gap:3px jc:normal ai:center m:0px 0px 4px TEXT"Work Email*" {"Instrument Sans" 600 14px/normal rgb(0, 0, 0) ls:normal}
+            p [879,423,0x0] op:0.2
+          input [795,436,413x56] p:0px 16px bg:rgb(255, 255, 255) border:1px solid rgb(205, 188, 160) r:16px input type=text value="" ph="john.smith@example.com" font:sans-serif 15px rgb(18, 32, 35) ta:start
+      div [795,508,413x94] flex-row gap:16px jc:normal ai:normal
+        div [795,508,413x78] m:0px 0px 16px
+          label [795,508,413x18] flex-row gap:3px jc:normal ai:center m:0px 0px 4px TEXT"Where did you hear about us?*" {"Instrument Sans" 600 14px/normal rgb(0, 0, 0) ls:normal}
+            p [999,517,0x0] op:0.2
+          input [795,530,413x56] p:0px 16px bg:rgb(255, 255, 255) border:1px solid rgb(205, 188, 160) r:16px input type=text value="" ph="Write us something..." font:sans-serif 15px rgb(18, 32, 35) ta:start
+      div [795,612,413x40] p:10px 15px m:10px 0px 15px bg:rgb(242, 222, 222) border:1px solid rgb(235, 204, 209) r:8px TEXT"Please complete all contact fields." {"Instrument Sans", sans-serif 400 14px/normal rgb(169, 68, 66) ls:normal}
+      div [795,667,413x70] flex-row gap:normal jc:flex-end ai:normal
+        button [1033,683,175x54] flex-row gap:7px jc:normal ai:center p:16px 24px m:16px 0px 0px bg:rgb(18, 32, 35) r:16px TEXT"View results" {"Instrument Sans" 600 18px/normal rgb(255, 255, 255) ls:normal}
+          svg [1167,702,17x17]
+##### STEP3
+div [752,160,499x861] p:3px bgi:linear-gradient(209deg, rgb(41, 79, 186) 0%, rgb(46, 121, 216) 15.92%, rgb(130, 122, 204) 34.17%, rgb(251, 86, 70) 66.13%, rgb(254, 199, 150) 90.23%, rgb(242, 2 r:16px
+  div [755,163,493x855] p:40px bg:rgb(243, 240, 235) r:14px
+    div [795,203,413x775]
+      div [795,203,413x61] p:0px 0px 20px m:0px 0px 40px border-b:1px rgba(0, 0, 0, 0.19) TEXT"1st Year Projections" {"Feature Deck" 400 36px/40px rgb(18, 32, 35) ls:-0.3px}
+      div [795,304,413x69] flex-column gap:5px jc:normal ai:normal m:0px 0px 16px
+        label [795,304,413x22] TEXT"Siena Automation Rate" {"Instrument Sans" 500 18px/normal rgb(52, 58, 64) ls:normal}
+        div [795,331,413x42] flex-row gap:10px jc:normal ai:center
+          input [797,349,329x6] m:2px bgi:linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 20%, rgb(204, 204, 204) 20%, rgb(204, 204, 204) 100%) r:3px input type=range value="20" ph="" font:sans-serif 12px rgb(16, 16, 16) ta:start
+          input [1138,331,70x42] p:10px 8px bg:rgb(255, 255, 255) border:1px solid rgb(190, 190, 190) r:8px input type=number value="20" ph="" font:"Instrument Sans" 16px rgb(52, 58, 64) ta:center
+      div [795,389,413x62] flex-row gap:20px jc:normal ai:center m:0px 0px 16px
+        div [795,389,293x62]
+          label [795,389,293x22] m:0px 0px 4px TEXT"Annual Ticket Volume" {"Instrument Sans" 500 18px/normal rgb(52, 58, 64) ls:normal}
+          span [795,415,293x36] TEXT"More tickets, lower cost per conversation with Siena" {"Instrument Sans" 400 14px/normal rgb(106, 115, 125) ls:normal}
+        input [1108,399,100x42] p:10px 8px bg:rgb(255, 255, 255) border:1px solid rgb(190, 190, 190) r:8px input type=number value="50000" ph="" font:"Instrument Sans" 16px rgb(52, 58, 64) ta:center
+      hr [795,486,413x1] m:35px 0px 25px bg:rgba(0, 0, 0, 0.25)
+      div [795,512,413x42] flex-row gap:normal jc:space-between ai:normal p:10px 0px
+        span [795,522,179x22] TEXT"Siena Driven Revenue" {"Instrument Sans" 400 18px/normal rgb(0, 0, 0) ls:normal}
+        span [1125,522,83x22] TEXT"$4800.00" {"Instrument Sans" 400 18px/normal rgb(0, 0, 0) ls:normal}
+      div [795,554,413x42] flex-row gap:normal jc:space-between ai:normal p:10px 0px
+        span [795,564,331x22] TEXT"Siena Cost per Automated Conversation" {"Instrument Sans" 400 18px/normal rgb(0, 0, 0) ls:normal}
+        span [1162,564,46x22] TEXT"$0.87" {"Instrument Sans" 400 18px/normal rgb(0, 0, 0) ls:normal}
+      div [795,596,413x42] flex-row gap:normal jc:space-between ai:normal p:10px 0px
+        span [795,606,160x22] TEXT"Total Savings / Year" {"Instrument Sans" 400 18px/normal rgb(0, 0, 0) ls:normal}
+        span [1106,606,102x22] TEXT"$126000.00" {"Instrument Sans" 400 18px/normal rgb(0, 0, 0) ls:normal}
+      div [795,638,413x42] flex-row gap:normal jc:space-between ai:normal p:10px 0px
+        span [795,648,267x22] TEXT"Total Yearly ROI After Siena Cost" {"Instrument Sans" 400 18px/normal rgb(0, 0, 0) ls:normal}
+        span [1105,648,103x22] TEXT"$106800.00" {"Instrument Sans" 400 18px/normal rgb(0, 0, 0) ls:normal}
+      div [795,680,413x42] flex-row gap:normal jc:space-between ai:normal p:10px 0px
+        span [795,690,199x22] TEXT"Average Response Time" {"Instrument Sans" 400 18px/normal rgb(0, 0, 0) ls:normal}
+        span [1112,690,96x22] TEXT"30 seconds" {"Instrument Sans" 400 18px/normal rgb(0, 0, 0) ls:normal}
+      div [795,722,413x42] flex-row gap:normal jc:space-between ai:normal p:10px 0px
+        span [795,732,206x22] TEXT"Average Resolution Time" {"Instrument Sans" 400 18px/normal rgb(0, 0, 0) ls:normal}
+        span [1127,732,81x22] TEXT"5 minutes" {"Instrument Sans" 400 18px/normal rgb(0, 0, 0) ls:normal}
+      hr [795,789,413x1] m:25px 0px bg:rgba(0, 0, 0, 0.25)
+      p [795,815,413x93] TEXT"Want to see Siena's magic in action? Connect with our experts and learn how!" {"Tiempos Text Regular" 400 24px/normal rgb(18, 32, 35) ls:normal}
+        br [1195,815,0x31]
+      button [795,924,157x54] flex-row gap:7px jc:normal ai:center p:16px 24px m:16px 0px 0px bg:rgb(18, 32, 35) r:16px TEXT"Book a demo" {"Instrument Sans" 600 18px/normal rgb(255, 255, 255) ls:normal}
+##### STEP3-slider50
+      div [795,203,413x61] p:0px 0px 20px m:0px 0px 40px border-b:1px rgba(0, 0, 0, 0.19) TEXT"1st Year Projections" {"Feature Deck" 400 36px/40px rgb(18, 32, 35) ls:-0.3px}
+        label [795,304,413x22] TEXT"Siena Automation Rate" {"Instrument Sans" 500 18px/normal rgb(52, 58, 64) ls:normal}
+          input [797,349,329x6] m:2px bgi:linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 50%, rgb(204, 204, 204) 50%, rgb(204, 204, 204) 100%) r:3px input type=range value="50" ph="" font:sans-serif 12px rgb(16, 16, 16) ta:start
+          input [1138,331,70x42] p:10px 8px bg:rgb(255, 255, 255) border:1px solid rgb(190, 190, 190) r:8px input type=number value="50" ph="" font:"Instrument Sans" 16px rgb(52, 58, 64) ta:center
+          label [795,389,293x22] m:0px 0px 4px TEXT"Annual Ticket Volume" {"Instrument Sans" 500 18px/normal rgb(52, 58, 64) ls:normal}
+          span [795,415,293x36] TEXT"More tickets, lower cost per conversation with Siena" {"Instrument Sans" 400 14px/normal rgb(106, 115, 125) ls:normal}
+        input [1108,399,100x42] p:10px 8px bg:rgb(255, 255, 255) border:1px solid rgb(190, 190, 190) r:8px input type=number value="50000" ph="" font:"Instrument Sans" 16px rgb(52, 58, 64) ta:center
+        span [795,522,179x22] TEXT"Siena Driven Revenue" {"Instrument Sans" 400 18px/normal rgb(0, 0, 0) ls:normal}
+        span [1117,522,91x22] TEXT"$12000.00" {"Instrument Sans" 400 18px/normal rgb(0, 0, 0) ls:normal}
+        span [795,564,331x22] TEXT"Siena Cost per Automated Conversation" {"Instrument Sans" 400 18px/normal rgb(0, 0, 0) ls:normal}
+        span [1162,564,46x22] TEXT"$0.87" {"Instrument Sans" 400 18px/normal rgb(0, 0, 0) ls:normal}
+        span [795,606,160x22] TEXT"Total Savings / Year" {"Instrument Sans" 400 18px/normal rgb(0, 0, 0) ls:normal}
+        span [1107,606,101x22] TEXT"$315000.00" {"Instrument Sans" 400 18px/normal rgb(0, 0, 0) ls:normal}
+        span [795,648,267x22] TEXT"Total Yearly ROI After Siena Cost" {"Instrument Sans" 400 18px/normal rgb(0, 0, 0) ls:normal}
+        span [1101,648,107x22] TEXT"$303000.00" {"Instrument Sans" 400 18px/normal rgb(0, 0, 0) ls:normal}
+        span [795,690,199x22] TEXT"Average Response Time" {"Instrument Sans" 400 18px/normal rgb(0, 0, 0) ls:normal}
+        span [1112,690,96x22] TEXT"30 seconds" {"Instrument Sans" 400 18px/normal rgb(0, 0, 0) ls:normal}
+        span [795,732,206x22] TEXT"Average Resolution Time" {"Instrument Sans" 400 18px/normal rgb(0, 0, 0) ls:normal}
+        span [1127,732,81x22] TEXT"5 minutes" {"Instrument Sans" 400 18px/normal rgb(0, 0, 0) ls:normal}
+      p [795,815,413x93] TEXT"Want to see Siena's magic in action? Connect with our experts and learn how!" {"Tiempos Text Regular" 400 24px/normal rgb(18, 32, 35) ls:normal}
+      button [795,924,157x54] flex-row gap:7px jc:normal ai:center p:16px 24px m:16px 0px 0px bg:rgb(18, 32, 35) r:16px TEXT"Book a demo" {"Instrument Sans" 600 18px/normal rgb(255, 255, 255) ls:normal}
+##### STEP3-tickets120k
+      div [795,203,413x61] p:0px 0px 20px m:0px 0px 40px border-b:1px rgba(0, 0, 0, 0.19) TEXT"1st Year Projections" {"Feature Deck" 400 36px/40px rgb(18, 32, 35) ls:-0.3px}
+        label [795,304,413x22] TEXT"Siena Automation Rate" {"Instrument Sans" 500 18px/normal rgb(52, 58, 64) ls:normal}
+          input [797,349,329x6] m:2px bgi:linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 50%, rgb(204, 204, 204) 50%, rgb(204, 204, 204) 100%) r:3px input type=range value="50" ph="" font:sans-serif 12px rgb(16, 16, 16) ta:start
+          input [1138,331,70x42] p:10px 8px bg:rgb(255, 255, 255) border:1px solid rgb(190, 190, 190) r:8px input type=number value="50" ph="" font:"Instrument Sans" 16px rgb(52, 58, 64) ta:center
+          label [795,389,293x22] m:0px 0px 4px TEXT"Annual Ticket Volume" {"Instrument Sans" 500 18px/normal rgb(52, 58, 64) ls:normal}
+          span [795,415,293x36] TEXT"More tickets, lower cost per conversation with Siena" {"Instrument Sans" 400 14px/normal rgb(106, 115, 125) ls:normal}
+        input [1108,399,100x42] p:10px 8px bg:rgb(255, 255, 255) border:1px solid rgb(190, 190, 190) r:8px input type=number value="120000" ph="" font:"Instrument Sans" 16px rgb(52, 58, 64) ta:center
+        span [795,522,179x22] TEXT"Siena Driven Revenue" {"Instrument Sans" 400 18px/normal rgb(0, 0, 0) ls:normal}
+        span [1115,522,93x22] TEXT"$28800.00" {"Instrument Sans" 400 18px/normal rgb(0, 0, 0) ls:normal}
+        span [795,564,331x22] TEXT"Siena Cost per Automated Conversation" {"Instrument Sans" 400 18px/normal rgb(0, 0, 0) ls:normal}
+        span [1165,564,43x22] TEXT"$0.81" {"Instrument Sans" 400 18px/normal rgb(0, 0, 0) ls:normal}
+        span [795,606,160x22] TEXT"Total Savings / Year" {"Instrument Sans" 400 18px/normal rgb(0, 0, 0) ls:normal}
+        span [1107,606,101x22] TEXT"$315000.00" {"Instrument Sans" 400 18px/normal rgb(0, 0, 0) ls:normal}
+        span [795,648,267x22] TEXT"Total Yearly ROI After Siena Cost" {"Instrument Sans" 400 18px/normal rgb(0, 0, 0) ls:normal}
+        span [1107,648,101x22] TEXT"$319800.00" {"Instrument Sans" 400 18px/normal rgb(0, 0, 0) ls:normal}
+        span [795,690,199x22] TEXT"Average Response Time" {"Instrument Sans" 400 18px/normal rgb(0, 0, 0) ls:normal}
+        span [1112,690,96x22] TEXT"30 seconds" {"Instrument Sans" 400 18px/normal rgb(0, 0, 0) ls:normal}
+        span [795,732,206x22] TEXT"Average Resolution Time" {"Instrument Sans" 400 18px/normal rgb(0, 0, 0) ls:normal}
+        span [1127,732,81x22] TEXT"5 minutes" {"Instrument Sans" 400 18px/normal rgb(0, 0, 0) ls:normal}
+      p [795,815,413x93] TEXT"Want to see Siena's magic in action? Connect with our experts and learn how!" {"Tiempos Text Regular" 400 24px/normal rgb(18, 32, 35) ls:normal}
+      button [795,924,157x54] flex-row gap:7px jc:normal ai:center p:16px 24px m:16px 0px 0px bg:rgb(18, 32, 35) r:16px TEXT"Book a demo" {"Instrument Sans" 600 18px/normal rgb(255, 255, 255) ls:normal}
+thumb: 329px 6px linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 50%, rgb(204, 204, 204)  0px rgb(16, 16, 16) track:linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 50%, rgb(204, 204, 204) 50%, rgb(204, 204, 204) 100%)

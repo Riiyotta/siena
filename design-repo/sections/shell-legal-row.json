@@ -1,0 +1,72 @@
+{
+  "id": "section.shell.legal-row",
+  "registryId": "section.shell.legal-row",
+  "typeId": "shell.legal-row",
+  "version": "1.0.0",
+  "category": "shell",
+  "purpose": "Minimal legal row closing the lead-gen pages (replaces Footer).",
+  "evidenceLevel": "measured",
+  "variants": {
+    "standard": "Privacy Policy + Terms of Service, Instrument Sans 14, ink-80, on hero sand."
+  },
+  "composes": [
+    "component.lead-chrome"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "links": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "label": {
+              "type": "string",
+              "maxWords": 3
+            },
+            "href": {
+              "type": "string",
+              "pattern": "^(/[a-z0-9/#-]*|#[a-z0-9-]+|https://[a-zA-Z0-9.-]+(/[^\\s]*)?|mailto:[a-z.]+@siena\\.cx)$"
+            }
+          },
+          "required": [
+            "label",
+            "href"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 2,
+        "maxItems": 2
+      }
+    },
+    "required": [
+      "links"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Padding 0 24 40."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustBeLast": true
+  },
+  "measuredFrom": [
+    "spec.pricing.legal",
+    "jsx.conv.ui"
+  ]
+}

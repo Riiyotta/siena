@@ -1,0 +1,73 @@
+{
+  "id": "section.logos.static-row",
+  "registryId": "section.logos.static-row",
+  "typeId": "logos.static-row",
+  "version": "1.0.0",
+  "category": "social-proof",
+  "purpose": "Static row of 4 customer logos (136x46 contain); no ticker.",
+  "evidenceLevel": "measured",
+  "variants": {
+    "standard": "Gap 56; phone 2x2."
+  },
+  "composes": [
+    "primitive.logo-mark"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "logos": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "assetRole": {
+              "const": "logo.customer"
+            },
+            "assetRef": {
+              "type": "string",
+              "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+            },
+            "alt": {
+              "type": "string",
+              "maxWords": 24
+            }
+          },
+          "required": [
+            "assetRole",
+            "assetRef"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 4,
+        "maxItems": 4
+      }
+    },
+    "required": [
+      "logos"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Wraps 2x2, row gap 40."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "spec.t1.logos"
+  ]
+}

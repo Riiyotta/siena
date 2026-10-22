@@ -1,0 +1,226 @@
+{
+  "$description": "Closed assetRole vocabulary. Every media field in a PageSpec names exactly one role; each role carries an AI-generation policy that verify_all.py pins per role (a different-but-valid policy value is a failure, not just a non-member).",
+  "version": "1.0.0",
+  "policyEnum": [
+    "must-reuse-exact",
+    "may-generate-new",
+    "must-not-fabricate",
+    "external-embed-allowlisted"
+  ],
+  "licensing": [
+    "Siena (siena.cx) is a REAL, live company. This design-repo and the clone it describes are for LOCAL REFERENCE ONLY. Do not deploy the clone publicly, do not publish this repository, and do not ship generated pages that reuse Siena's brand, people or customers outside Siena itself.",
+    "Feature Deck (Web Light/Italic/Regular/Condensed) and Tiempos Text are commercially licensed fonts licensed to Siena; Font Awesome 6 Sharp/Pro are licensed icon fonts. Their woff2 files in the clone are not licensed for redistribution.",
+    "All customer, partner, investor and integration logos are third-party trademarks.",
+    "People photos and names belong to real people; testimonial quotes are attributed statements. A generator must never invent a quote and attribute it to a real person."
+  ],
+  "globalRules": [
+    "AI generation must never reproduce, redraw or approximate Siena's logos or any real customer/partner logo.",
+    "AI generation must never create photos or likenesses of real people (founders, employees, customers).",
+    "Long-form proprietary prose (legal text, interview transcripts, founders letter, team bios) is placeholder in the clone and must not be generated as if it were real.",
+    "assetRef values are clone-relative paths (assets/, svg/, lottie/, video/) resolved against the clone's public/ folder; no asset files are shipped in this repo."
+  ],
+  "roles": {
+    "animation.lottie": {
+      "policy": "must-reuse-exact",
+      "description": "Feature-card Lottie JSON files.",
+      "guidance": "Reuse exact JSON (images are embedded).",
+      "usedBy": [
+        "features.lottie-grid"
+      ]
+    },
+    "badge.compliance": {
+      "policy": "must-not-fabricate",
+      "description": "SOC 2 badge in the footer.",
+      "guidance": "A real certification mark: reuse exact; never invent certifications or badges.",
+      "usedBy": [
+        "shell.footer"
+      ]
+    },
+    "brand.siena-glyph": {
+      "policy": "must-reuse-exact",
+      "description": "Siena 'S' glyph/badge used as the agent avatar in chat mocks.",
+      "guidance": "Reuse exact. Never generate a new brand glyph.",
+      "usedBy": [
+        "hero.order-orbits",
+        "hero.video-mock"
+      ]
+    },
+    "brand.siena-wordmark": {
+      "policy": "must-reuse-exact",
+      "description": "Siena 'siena' wordmark SVG (nav, footer, lead header, AI Lab nav, co-brand lockups).",
+      "guidance": "Reuse the clone's exact local file. Never redraw, recolour, re-letter or invent a Siena mark.",
+      "usedBy": [
+        "shell.lead-header"
+      ]
+    },
+    "embed.youtube": {
+      "policy": "external-embed-allowlisted",
+      "description": "YouTube iframe on conversation detail pages: the ONLY deliberate external request in the clone.",
+      "guidance": "Only www.youtube.com/embed/<11-char id> with autoplay=0; only inside content.conversation-article; never add other third-party embeds, trackers or form endpoints.",
+      "usedBy": [
+        "content.conversation-article"
+      ]
+    },
+    "icon.glyph": {
+      "policy": "must-reuse-exact",
+      "description": "Font Awesome 6 Sharp Light/Brands glyphs by codepoint (licensed icon fonts).",
+      "guidance": "Use the licensed font files the clone already ships; do not substitute brand marks.",
+      "usedBy": [
+        "agents.expert-team",
+        "bento.grid",
+        "carousel.memory-in-action",
+        "feature.timer-list",
+        "features.icon-grid",
+        "hero.partner",
+        "steps.how-it-works",
+        "trust.enterprise"
+      ]
+    },
+    "illustration.abstract-glow": {
+      "policy": "may-generate-new",
+      "description": "Abstract colour blobs, glows, grain textures and gradient backgrounds (metrics/CTA backgrounds, form-card glows).",
+      "guidance": "May be generated new for a new page IF it contains no people, no logos, no text and no product UI; keep the warm rainbow palette tokens.",
+      "usedBy": [
+        "hero.compare",
+        "hero.home",
+        "hero.lead-form",
+        "hero.partner",
+        "hero.product-split",
+        "letter.founders",
+        "stats.metrics",
+        "stories.carousel",
+        "story.horizontal-scroll"
+      ]
+    },
+    "illustration.editorial": {
+      "policy": "must-reuse-exact",
+      "description": "Commissioned painterly/editorial illustrations (homepage hero images, about-us mission art, memory hero).",
+      "guidance": "Siena's commissioned artwork: reuse exact; do not generate imitations of its style for new pages.",
+      "usedBy": [
+        "hero.compare",
+        "hero.home",
+        "hero.product-photo",
+        "hero.statement-image",
+        "story.horizontal-scroll"
+      ]
+    },
+    "illustration.swash": {
+      "policy": "must-reuse-exact",
+      "description": "Hand-drawn rainbow underline swash images.",
+      "guidance": "Reuse the exact files.",
+      "usedBy": [
+        "hero.docs",
+        "hero.product-split",
+        "hero.title-underline"
+      ]
+    },
+    "image.card-background": {
+      "policy": "must-reuse-exact",
+      "description": "Photographic/blurred backgrounds behind chat-mock cards.",
+      "guidance": "Reuse exact; several contain blurred real people.",
+      "usedBy": [
+        "feature.agent-promo",
+        "feature.media-row",
+        "feature.sticky-scroll"
+      ]
+    },
+    "logo.customer": {
+      "policy": "must-reuse-exact",
+      "description": "Real customer brand logos (tickers, testimonial logo slots, story cards, logo rows).",
+      "guidance": "Real third-party trademarks. Reuse only the exact local files already in the clone and only next to the brand they belong to. NEVER AI-generate, redraw, approximate or invent a customer logo, and never imply a brand is a customer when the clone does not show it.",
+      "usedBy": [
+        "capabilities.customer-intelligence",
+        "carousel.memory-in-action",
+        "carousel.playbooks",
+        "feature.pill-nav-blocks",
+        "hero.community-invite",
+        "hero.compare",
+        "hero.home",
+        "hero.lead-form",
+        "hero.product-photo",
+        "hero.product-split",
+        "hero.video-mock",
+        "logos.static-row",
+        "logos.ticker-block",
+        "stories.carousel",
+        "stories.filter-grid",
+        "testimonial.centered-quote",
+        "testimonials.slider"
+      ]
+    },
+    "logo.integration": {
+      "policy": "must-reuse-exact",
+      "description": "Integration platform and carrier logos (Shopify, Zendesk, Gorgias, UPS ...).",
+      "guidance": "Real trademarks: reuse exact files; do not claim integrations the source does not list.",
+      "usedBy": [
+        "hero.order-orbits",
+        "hero.product-split",
+        "integrations.logo-grid"
+      ]
+    },
+    "logo.partner-investor": {
+      "policy": "must-reuse-exact",
+      "description": "Real investor, agency and technology-partner logos.",
+      "guidance": "Real trademarks: reuse exact files, never generate or imply new partnerships/investors.",
+      "usedBy": [
+        "capabilities.customer-intelligence",
+        "carousel.memory-in-action",
+        "feature.pill-nav-blocks",
+        "integrations.logo-grid",
+        "testimonials.slider"
+      ]
+    },
+    "photo.editorial-scene": {
+      "policy": "must-reuse-exact",
+      "description": "Commissioned editorial photos with people (conversation covers, product hero cut-outs, AI Lab roundtable).",
+      "guidance": "Reuse exact; do not generate look-alike photos of people.",
+      "usedBy": [
+        "agents.expert-team",
+        "content.conversation-index",
+        "coverage.criteria",
+        "hero.lab",
+        "hero.product-split",
+        "media.reveal-pair",
+        "story.horizontal-scroll"
+      ]
+    },
+    "photo.person-real": {
+      "policy": "must-not-fabricate",
+      "description": "Photos of real, named people: founders, employees, customer and partner testimonial subjects, wall-of-love avatars.",
+      "guidance": "Only the exact file already attached to that same named person may be used. NEVER AI-generate a likeness, swap a face, or attach a real photo to a different name or a placeholder quote of your own.",
+      "usedBy": [
+        "capabilities.customer-intelligence",
+        "carousel.memory-in-action",
+        "feature.pill-nav-blocks",
+        "letter.founders",
+        "people.quote-grid",
+        "team.founders",
+        "testimonial.centered-quote",
+        "testimonials.slider",
+        "testimonials.wall-of-love"
+      ]
+    },
+    "product.ui-mock-image": {
+      "policy": "must-not-fabricate",
+      "description": "Product UI screenshots and illustrations (insights feature PNGs/SVGs, sticky-card mocks).",
+      "guidance": "Never fabricate product UI or capabilities; reuse exact files only, and only to illustrate the feature they were made for.",
+      "usedBy": [
+        "feature.media-row",
+        "feature.sticky-scroll",
+        "hero.insights",
+        "hero.product-split"
+      ]
+    },
+    "video.decorative-loop": {
+      "policy": "must-reuse-exact",
+      "description": "Muted looping mp4s (abstract shapes, product demo clips).",
+      "guidance": "Reuse exact local files; never hotlink the CDN.",
+      "usedBy": [
+        "feature.sticky-scroll",
+        "hero.product-split",
+        "hero.video-mock",
+        "steps.how-it-works"
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "registryId": "component.slider-controls",
+  "version": "1.0.0",
+  "category": "control",
+  "description": "Prev / counter / Next row: 40x40 round buttons in sand-60 with #A7A092 chevrons (stroke 2.5), Inter 14 counter '1 / N' with the '/ N' at 0.4 opacity. Loops.",
+  "composes": [
+    "primitive.button",
+    "primitive.text"
+  ],
+  "props": {
+    "counter": {
+      "type": "boolean"
+    }
+  },
+  "measuredFrom": [
+    "spec.slider.controls",
+    "jsx.testimonials.duration"
+  ],
+  "tokens": [
+    "{component.slider.button-size}",
+    "{component.slider.button-bg}"
+  ]
+}

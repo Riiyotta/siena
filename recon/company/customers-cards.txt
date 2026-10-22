@@ -1,0 +1,36 @@
+./customer-stories/eskiin-social-media-customer-service-response-time | yPdio6eYzQ3Z8vtPBceOs019M.png | 379x121 | Beauty | How Eskiin Answers Every Social Comment in Under a Minute and Got Three Days a Week Back
+./customer-stories/thrive-causemetics-turned-customer-service-into-a-company-wide-intelligence-system | RVpmLl4ENxYALH5arYvLOF2hUY.svg | 300x137 | Beauty | How Thrive Causemetics Turned Customer Service Into a Company-Wide Intelligence System
+./customer-stories/spanx-turned-cx-business-driver-brand-experience | k1nvbViWWUDVEBy2xaOAlUgRSq0.png | 122x22 | Fashion/Lifestyle | How Spanx Turned CX Into a Business Driver and Cut Handle Time in Half
+./customer-stories/siena-ai-customer-service-automation-coterie | CzG1z9NEKoxzFuwvHCh0Lfb0.png | 122x25 | Lifestyle | Coterie Turns CX into a Revenue Engine with 65% AI Automation
+./customer-stories/dossier-handled-black-friday-customer-service-zero-panic | LSDtiaYEMw66OjmYASlgwlerh24.svg | 108x22 | Beauty | How Dossier Scaled International Growth with AI Agents and Zero Black Friday Panic
+./customer-stories/earth-breeze-scaling-customer-service-with-ai | j9kAeRPVaxAXfulnduynsbiTc.svg | 151x116 | Home Goods | From AI Skeptic To Advocate: How Earth Breeze Scaled Customer Support Without Losing The Human Touch
+./customer-stories/hexclad-customer-service-automation | DysnuY3oWCVroJab1Mx73kkVg4.svg | 134x24 | Home Goods | HexClad Boosts CX Efficiency 65% with Customer Service Automation
+./customer-stories/true-sea-moss-response-time-improvement | zy9mRkyxKisAjEUf8L7kCRTiI.png | 122x20 | Health & Nutrition | True Sea Moss: Achieving 80% Automation and Unlocking a New Product Line with Siena AI
+./customer-stories/comfrt-ai-customer-support-siena | cS9mAOIRGNEPFez1Fy9VQGafsQ.png | 122x31 | Fashion | How Comfrt Achieved 65% Automation During Explosive Growth
+./customer-stories/ehplabs | NzrOnMRFggp1QzWUKXstLpP2yVI.png | 122x122 | Health & Nutrition | How EHPLabs handles 42% more tickets with smarter efficiency and an empowered team
+./customer-stories/fresh-clean-threads-csat-boost | viVxpvqRgp5ynnq499GrMlfB0Ac.svg | 241x24 | Fashion | Fresh Clean Threads Achieves 91% CSAT While Automating Tier 1 CX with Siena
+./customer-stories/simple-modern | qpbEcjUraVURA3hGESyeVuyZZN4.svg | 112x40 | Home Goods | How Siena helped Simple Modern achieve a 98% customer satisfaction rating
+./customer-stories/everday-dose | RQ1zB2lwHhPRGxGNWzIqaXLRRw.png | 295x145 | Health & Nutrition | Everyday Dose automates over 70% of shopper inquiries with Siena
+./customer-stories/kitsch | NMMaJ8ZBHflI2DXZDaM4Bu6mY4.png | 122x24 | Beauty | How Kitsch automates over 68% of their customer support using Siena
+./customer-stories/mud-wtr | xm8gLEJzeS3t0TXpRyH46PEmocg.png | 122x22 | Health & Nutrition | How MUD\WTR Brewed Up a 4.8 CSAT Score with Siena AI
+./customer-stories/momentous-using-ai-customer-service-agent | laiTWK4LZfsnrVZHxmAiKK22g.svg | 394x209 | Health & Nutrition | How Momentous Achieved 100% Customer Satisfaction with Siena
+./customer-stories/prose | SpxY1h6sqe6POaCpvGhqSGbxc.svg | 315x98 | Beauty | Prose's Perfect Formula: Personalized Beauty Products and AI-Powered Empathic Support
+./customer-stories/terra-kaffe | FAmVCc3xLG8QUhmtyJ3WkBGEeU.png | 122x26 | Home Goods | How Siena helps Terra Kaffe expand CX capacity, improve CX metrics, save over $3,000 per month
+./customer-stories/goody-faster-customer-service-response | vUaEZH5f85oxkdxCFmiAd8P8ZA.svg | 151x44 | Gifting & Consumer Goods | How Goody Handled 3x More Conversations While Improving Quality
+./customer-stories/canopy | 0JjqGImv5R5jQ7d8QYGXAnUOVA.png | 122x35 | Home Goods | How Siena helps Canopy match CX capacity to seasonal demand by automating over 36% of support requests
+./customer-stories/loftie | gO3x6192WCKAtB65XMiG41bNJo.png | 122x36 | Electronics | How Loftie uses Siena to automate 60% of tickets and hit a 5-star support rating
+./customer-stories/equip-foods-scaling-personalized-customer-service | wGvfbDAuOljwg1KwnrMA6NSIEMU.png | 122x36 | Health & Nutrition | How Equip Foods Scaled Personalized CX with Siena and Open Late Collective
+./customer-stories/western-rise-ai-customer-service-response-time | 83EJKkIYvJ792qe3DYfFh9yVwo.svg | 123x17 | Fashion | 36 Seconds to Success: How Western Rise Used AI to Transform Team Potential
+./customer-stories/bad-birdie-customer-service-automation | yTIExcu9M9XJvL1ACN3rBAIpQeQ.png | 300x84 | Lifestyle | Bad Birdie: Reaching 80% Automation with Siena AI in One Month
+./customer-stories/aday-scaling-customer-service-with-ai | R32uxsvtKZBcoEVJ192BcjdXKz4.png | 122x74 | Fashion | From Skeptic to Advocate: How Aday Embraced AI to Scale Personal Customer Service
+./customer-stories/fum-scales-support-while-maintaining-human-connection | yuv1GyrW4x3RoV3tbjTOrNLxyw.png | 122x76 | Health & Nutrition | Building Connections at Scale: How FÜM Enhanced Customer Support with Siena
+./customer-stories/fuel-meals | QneJbjbwOfyuvvba5LoTd515i0.svg | 148x60 | Health & Nutrition | How Fuel Meals Transformed CX from Cost Center to Revenue Driver
+./customer-stories/subtl-beauty | Pq81mgBAh3wCteDaPlYCPphE0w.svg | 479x115 | Beauty | How Siena helps Subtl Beauty’s CX team save 41 hours per week and level up the impact of each member of the team
+./customer-stories/verb-energy | sOKd7AwFJu2onVcd3HJi7RvS29g.svg | 257x73 | Food & Beverage | How Verb automates 49% of its customer service tickets with Siena
+./customer-stories/douxds | Hb8ztduGX6PNC0SM7a6VOQCbELU.png | 191x43 | Beauty | How Siena helps Douxds save 44 hours per month and redeploy those hours toward growth
+./customer-stories/yumwoof | f2IVv0SD8Ysx9G402DmViClSHgk.png | 122x25 | Pets | How Yumwoof! Automated CX And Grew The Business At The Same Time
+./customer-stories/andar | DeBzNPhBmu4Ga0NBJjKVAxgpEY.png | 122x14 | Fashion | How Siena AI helped Andar give customers a sense of validation and made them feel heard
+./customer-stories/superfoods-company | EA4gwHIcYh9cVLeJ79VplGYrtsM.png | 122x24 | Health & Nutrition | How Superfoods Company cut ticket resolution times by 40% with Siena AI
+./customer-stories/pluto | zVydFIQH7FDANnw6Oym4BKl8164.png | 122x31 | Home Goods | How Pluto saves 290+ hours annually on customer support with Siena
+./customer-stories/bokksu | hTrQ9hmKVXtuojDvJBYgd6fY44.png | 122x33 | Food & Beverage | How Bokksu automates over 60% of customer support queries with Siena
+./customer-stories/immi | ClvYfeeqaARZlaDvAkAsAKlyMKY.png | 252x289 | Food & Beverage | How immi reduced response times from 24+ hours to minutes with Siena

@@ -1,0 +1,14 @@
+{
+  "registryId": "component.enterprise-card",
+  "version": "1.0.0",
+  "category": "content",
+  "description": "White card (radius 24, padding 24) on the dark enterprise section: icon, h-card-sm title, serif body at 0.8 opacity.",
+  "composes": [
+    "primitive.icon",
+    "primitive.text"
+  ],
+  "props": {},
+  "measuredFrom": [
+    "spec.enterprise.cards"
+  ]
+}

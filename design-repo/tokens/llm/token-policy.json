@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0",
+  "description": "Rules for using tokens. Category names are real keys of token-catalog.json counts.byCategory, so verify_all.py resolves them.",
+  "rules": {
+    "rawValueRestrictions": {
+      "color": "forbidden in primitives/, components/, sections/, templates/: use a token reference",
+      "gradient": "forbidden in primitives/, components/, sections/, templates/: use a token reference",
+      "semanticColor": "forbidden in primitives/, components/, sections/, templates/: use a token reference",
+      "fontSize": "forbidden in primitives/, components/, sections/, templates/: use a token reference",
+      "fontFamily": "forbidden in primitives/, components/, sections/, templates/: use a token reference",
+      "fontWeight": "forbidden in primitives/, components/, sections/, templates/: use a token reference",
+      "spacing": "forbidden in primitives/, components/, sections/, templates/: use a token reference",
+      "radius": "forbidden in primitives/, components/, sections/, templates/: use a token reference",
+      "elevation": "forbidden in primitives/, components/, sections/, templates/: use a token reference",
+      "blur": "forbidden in primitives/, components/, sections/, templates/: use a token reference",
+      "breakpoint": "forbidden in primitives/, components/, sections/, templates/: use a token reference",
+      "motion": "forbidden in primitives/, components/, sections/, templates/: use a token reference",
+      "typography": "forbidden in primitives/, components/, sections/, templates/: use a token reference",
+      "layout": "forbidden in primitives/, components/, sections/, templates/: use a token reference"
+    },
+    "referenceSyntax": "{path.to.token} resolving against tokens/ (tokens/tokens_lib.py)",
+    "rawLintCoverage": "Hex colours, rgb()/rgba(), cubic-bezier() and N px/ms values outside {refs}, in every string except keys listed in rawLintExemptKeys"
+  },
+  "rawLintExemptKeys": [
+    "description",
+    "$description",
+    "purpose",
+    "note",
+    "notes",
+    "change",
+    "knownQuirks",
+    "quirks",
+    "what",
+    "guidance",
+    "measuredFrom",
+    "cite",
+    "builtIn",
+    "states",
+    "variants",
+    "evidence",
+    "text",
+    "pattern"
+  ],
+  "notGenerationApproved": [
+    "foundation.breakpoint.tablet-min"
+  ],
+  "notGenerationApprovedReason": "Tablet (810-1199.98px) was never measured on any route; do not author tablet-specific layout against it.",
+  "overrides": "PageSpecs carry no per-instance style or token-override field (styling is owned by section/component contracts), so there is nothing to validate at the PageSpec layer; drift of this policy against the catalog is caught by verify_all.py."
+}

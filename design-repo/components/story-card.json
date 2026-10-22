@@ -1,0 +1,21 @@
+{
+  "registryId": "component.story-card",
+  "version": "1.0.0",
+  "category": "content",
+  "description": "Homepage customer-story card 544x458 (white, radius 24): masked multiply texture, brand logo, H3 title; hover drops the logo 24px with a spring (~300ms).",
+  "composes": [
+    "primitive.image",
+    "primitive.logo-mark",
+    "primitive.text"
+  ],
+  "props": {
+    "title": {
+      "type": "string",
+      "maxWords": 18
+    }
+  },
+  "measuredFrom": [
+    "spec.storycard",
+    "spec.stories.hover"
+  ]
+}

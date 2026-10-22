@@ -1,0 +1,12 @@
+Ask Siena "omg do you ship to canada??? �" @335,1849 320x47 [op,x,y,sx,sy,blur] [0,-159.9,80,1,1,0] -> [1,-159.9,0,1,1,0] start 505ms t50 689ms end 1489ms overshoot -1.2
+Prompt "Yes! We ship everywhere across" @346,1923 306x75 [op,x,y,sx,sy,blur] [0,-153,80,1,1,0] -> [1,-153,0,1,1,0] start 806ms t50 988ms end 1789ms overshoot -1.2
+01 "I need it in every flavour" @804,1979 227x47 [op,x,y,sx,sy,blur] [0,0,80,1,1,0] -> [1,0,0,1,1,0] start 505ms t50 689ms end 1489ms overshoot -1.2
+Prompt "True Sea MossYessss, you’re go" @828,1961 253x98 [op,x,y,sx,sy,blur] [0,-126.5,80,1,1,0] -> [1,-126.5,0,1,1,0] start 806ms t50 988ms end 1789ms overshoot -1.2
+User Message "Deleted by Siena" @770,4134 149x42 [op,x,y,sx,sy,blur] [0,0,150,1,1,0] -> [1,0,0,1,1,0] start 607ms t50 823ms end 1023ms overshoot 0.0
+User Message "Hidden by Siena" @770,4037 148x42 [op,x,y,sx,sy,blur] [0,0,150,1,1,0] -> [1,0,0,1,1,0] start 309ms t50 524ms end 722ms overshoot 0.0
+User Message "Deleted by Siena" @770,4234 149x42 [op,x,y,sx,sy,blur] [0,0,150,1,1,0] -> [1,0,0,1,1,0] start 907ms t50 1123ms end 1323ms overshoot 0.0
+Rectangle 2223 "" @712,6352 16x16 [op,x,y,sx,sy,blur] [0.104,0,0,1.398,1.398,0] -> [0.951,0,0,0.962,0.962,0] start 68ms t50 412ms end 3506ms overshoot -0.0
+SPAN "" @542,7510 2x14 [op,x,y,sx,sy,blur] [0.017,0,0,1,1,0] -> [0.925,0,0,1,1,0] start 442ms t50 472ms end 3506ms overshoot -0.1
+Rectangle 2223 "" @504,9613 26x26 [op,x,y,sx,sy,blur] [0.104,0,0,1.397,1.397,0] -> [0.951,0,0,0.962,0.962,0] start 68ms t50 412ms end 3506ms overshoot -0.0
+Rectangle 2223 "" @504,9657 26x26 [op,x,y,sx,sy,blur] [0.104,0,0,1.397,1.397,0] -> [0.951,0,0,0.962,0.962,0] start 68ms t50 412ms end 3506ms overshoot -0.0
+Rectangle 2223 "" @504,9701 26x26 [op,x,y,sx,sy,blur] [0.104,0,0,1.397,1.397,0] -> [0.95,0,0,0.96,0.96,0] start 68ms t50 412ms end 3506ms overshoot -0.1

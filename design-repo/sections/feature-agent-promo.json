@@ -1,0 +1,136 @@
+{
+  "id": "section.feature.agent-promo",
+  "registryId": "section.feature.agent-promo",
+  "typeId": "feature.agent-promo",
+  "version": "1.0.0",
+  "category": "feature",
+  "purpose": "Cross-sell row: eyebrow/H2/body + 'Learn more' left, chat card (homepage v1 copy, lowercase) right; rows reveal individually on scroll.",
+  "evidenceLevel": "measured",
+  "variants": {
+    "insights": "Text 544 + card 640x810."
+  },
+  "composes": [
+    "component.chat-mock",
+    "primitive.text",
+    "primitive.button"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "eyebrow": {
+        "type": "string",
+        "maxWords": 4
+      },
+      "heading": {
+        "type": "string",
+        "maxWords": 8
+      },
+      "body": {
+        "type": "string",
+        "maxWords": 25
+      },
+      "cta": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string",
+            "maxWords": 4
+          },
+          "href": {
+            "type": "string",
+            "pattern": "^(/[a-z0-9/#-]*|#[a-z0-9-]+|https://[a-zA-Z0-9.-]+(/[^\\s]*)?|mailto:[a-z.]+@siena\\.cx)$"
+          },
+          "style": {
+            "enum": [
+              "xlg-dark"
+            ]
+          }
+        },
+        "required": [
+          "label",
+          "href",
+          "style"
+        ],
+        "additionalProperties": false
+      },
+      "chat": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "speaker": {
+              "enum": [
+                "customer",
+                "siena"
+              ]
+            },
+            "text": {
+              "type": "string",
+              "maxWords": 35
+            }
+          },
+          "required": [
+            "speaker",
+            "text"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 3,
+        "maxItems": 7
+      },
+      "background": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "const": "image.card-background"
+          },
+          "assetRef": {
+            "type": "string",
+            "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 24
+          }
+        },
+        "required": [
+          "assetRole",
+          "assetRef"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "required": [
+      "eyebrow",
+      "heading",
+      "body",
+      "cta",
+      "chat",
+      "background"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "chat-stagger"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Column; card 342x506."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "spec.t1.promo"
+  ]
+}

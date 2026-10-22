@@ -1,0 +1,199 @@
+{
+ "pre": [
+  {
+   "n": "A",
+   "ap": null,
+   "y": -78,
+   "x": 8,
+   "w": 188,
+   "h": 43,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, 0, -86)",
+   "txt": "Skip to main content"
+  },
+  {
+   "n": "DIV",
+   "ap": "163s3bf",
+   "y": 136,
+   "x": 24,
+   "w": 342,
+   "h": 112,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, 0, 0)",
+   "txt": "See the ROI for yourself"
+  },
+  {
+   "n": "DIV",
+   "ap": "1mzs3gq",
+   "y": 272,
+   "x": 24,
+   "w": 342,
+   "h": 45,
+   "op": "0.82",
+   "txt": "Discover exactly how much you'll save with AI agen"
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 357,
+   "x": 24,
+   "w": 342,
+   "h": 20,
+   "op": "0.82",
+   "txt": "WHAT TO EXPECT"
+  },
+  {
+   "n": "DIV",
+   "ap": "f0nir",
+   "y": 628,
+   "x": 24,
+   "w": 342,
+   "h": 935,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, 0, 0)",
+   "txt": "Plug in your numbers & forecast your future  Use o"
+  },
+  {
+   "n": "P",
+   "ap": null,
+   "y": 1200,
+   "x": 207,
+   "w": 65,
+   "h": 18,
+   "op": "0.2",
+   "txt": "(optional)"
+  },
+  {
+   "n": "SPAN",
+   "ap": null,
+   "y": 1884,
+   "x": 184,
+   "w": 31,
+   "h": 17,
+   "op": "0.4",
+   "txt": " / 11"
+  }
+ ],
+ "appearIds": [
+  {
+   "id": "163s3bf",
+   "n": null,
+   "y": 136,
+   "txt": "See the ROI for yourself"
+  },
+  {
+   "id": "1mzs3gq",
+   "n": null,
+   "y": 272,
+   "txt": "Discover exactly how much you'll save with AI agents."
+  },
+  {
+   "id": "ttsu9b",
+   "n": null,
+   "y": 357,
+   "txt": "WHAT TO EXPECT    Immediate cost reduction    Higher effic"
+  },
+  {
+   "id": "f0nir",
+   "n": null,
+   "y": 628,
+   "txt": "Plug in your numbers & forecast your future  Use our ROI cal"
+  }
+ ],
+ "tickers": [],
+ "post": [
+  {
+   "n": "A",
+   "y": 3489,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, 0, -86)",
+   "txt": "Skip to main content"
+  },
+  {
+   "n": "DIV",
+   "y": 136,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, 0, 0)",
+   "txt": "See the ROI for yourself"
+  },
+  {
+   "n": "DIV",
+   "y": 272,
+   "op": "0.82",
+   "txt": "Discover exactly how much you'll save wi"
+  },
+  {
+   "n": "DIV",
+   "y": 357,
+   "op": "0.82",
+   "txt": "WHAT TO EXPECT"
+  },
+  {
+   "n": "DIV",
+   "y": 628,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, 0, 0)",
+   "txt": "Plug in your numbers & forecast your fut"
+  },
+  {
+   "n": "P",
+   "y": 1200,
+   "op": "0.2",
+   "txt": "(optional)"
+  },
+  {
+   "n": "SPAN",
+   "y": 1884,
+   "op": "0.4",
+   "txt": " / 11"
+  }
+ ],
+ "sticky": [],
+ "videos": [],
+ "iframes": [],
+ "lottie": [],
+ "slideshows": [],
+ "svgs": [
+  {
+   "file": "roi-calculator-Hero-ff1708.svg",
+   "n": "Hero",
+   "y": 1501,
+   "w": 17,
+   "h": 17,
+   "count": 1
+  },
+  {
+   "file": "roi-calculator-content-db51ec.svg",
+   "n": "content",
+   "y": 1884,
+   "w": 18,
+   "h": 18,
+   "count": 1
+  },
+  {
+   "file": "roi-calculator-content-157f33.svg",
+   "n": "content",
+   "y": 1884,
+   "w": 18,
+   "h": 18,
+   "count": 1
+  },
+  {
+   "file": "roi-calculator--c7837d.svg",
+   "n": "“",
+   "y": 2297,
+   "w": 30,
+   "h": 24,
+   "count": 1
+  },
+  {
+   "file": "roi-calculator-siena-320693.svg",
+   "n": "siena",
+   "y": 4307,
+   "w": 122,
+   "h": 32,
+   "count": 1
+  }
+ ],
+ "H": 4411
+}

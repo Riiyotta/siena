@@ -1,0 +1,74 @@
+{
+  "id": "section.showcase.slack",
+  "registryId": "section.showcase.slack",
+  "typeId": "showcase.slack",
+  "version": "1.0.0",
+  "category": "feature",
+  "purpose": "'Ask Siena lives in Slack': Slack-thread mock card and three captions with top dividers.",
+  "evidenceLevel": "spec-measured",
+  "variants": {
+    "ask": "Expert-agents shell (cream + blob)."
+  },
+  "composes": [
+    "primitive.text",
+    "primitive.image"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "eyebrow": {
+        "type": "string",
+        "maxWords": 7
+      },
+      "title": {
+        "type": "string",
+        "maxWords": 12,
+        "description": "Plain text; wrap at most one phrase in *asterisks* to render it in the display italic cut.",
+        "pattern": "^[^*]*(\\*[^*]+\\*[^*]*)?$"
+      },
+      "subtitle": {
+        "type": "string",
+        "maxWords": 35
+      },
+      "captions": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "maxWords": 14
+        },
+        "minItems": 3,
+        "maxItems": 3
+      }
+    },
+    "required": [
+      "eyebrow",
+      "title",
+      "subtitle",
+      "captions"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Stacked."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "spec.pa.6.8"
+  ]
+}

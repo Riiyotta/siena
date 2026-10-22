@@ -1,0 +1,206 @@
+{
+  "id": "section.feature.sticky-scroll",
+  "registryId": "section.feature.sticky-scroll",
+  "typeId": "feature.sticky-scroll",
+  "version": "1.0.0",
+  "category": "feature",
+  "purpose": "Signature scroll story: left column of 900px-tall text blocks; a sticky 512x647 visual on the right swaps variant as each block crosses mid-viewport. Static stacked column on phone.",
+  "evidenceLevel": "measured",
+  "variants": {
+    "home": "3 blocks, H2 64/64, bullets, CTA in every block; chat-mock v1/v2/v3.",
+    "compare": "4 blocks, H3 52/62.4 + description on blocks 2-4, CTA only on the last block.",
+    "addons": "3 blocks, H2 + description + bold-lead bullets, CTA in every block.",
+    "product": "Product pages (reviews, video, order-tracking, ask-siena): optional section title, H3 52/62.4 + paragraph, CTA on the last block.",
+    "docs-single": "/products/docs: one mirrored block (visual left), nothing pins.",
+    "shopping-steps": "/shopping-agent: TWO sticky columns (accumulating step labels + description card left, chat card with per-letter typing composer right); 3 steps switch at 50% viewport."
+  },
+  "composes": [
+    "component.chat-mock",
+    "primitive.text",
+    "primitive.icon",
+    "primitive.button"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "eyebrow": {
+        "type": "string",
+        "maxWords": 6
+      },
+      "title": {
+        "type": "string",
+        "maxWords": 10,
+        "description": "Plain text; wrap at most one phrase in *asterisks* to render it in the display italic cut.",
+        "pattern": "^[^*]*(\\*[^*]+\\*[^*]*)?$"
+      },
+      "subtitle": {
+        "type": "string",
+        "maxWords": 30
+      },
+      "blocks": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "heading": {
+              "type": "string",
+              "maxWords": 12
+            },
+            "description": {
+              "type": "string",
+              "maxWords": 40
+            },
+            "bullets": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "lead": {
+                    "type": "string",
+                    "maxWords": 6
+                  },
+                  "text": {
+                    "type": "string",
+                    "maxWords": 18
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 0,
+              "maxItems": 4
+            },
+            "cta": {
+              "type": "object",
+              "properties": {
+                "label": {
+                  "type": "string",
+                  "maxWords": 4
+                },
+                "href": {
+                  "type": "string",
+                  "pattern": "^(/[a-z0-9/#-]*|#[a-z0-9-]+|https://[a-zA-Z0-9.-]+(/[^\\s]*)?|mailto:[a-z.]+@siena\\.cx)$"
+                },
+                "style": {
+                  "enum": [
+                    "xlg-dark"
+                  ]
+                }
+              },
+              "required": [
+                "label",
+                "href",
+                "style"
+              ],
+              "additionalProperties": false
+            },
+            "badge": {
+              "const": "Coming soon"
+            },
+            "visual": {
+              "type": "object",
+              "properties": {
+                "variant": {
+                  "type": "string",
+                  "maxWords": 4,
+                  "pattern": "^[a-z0-9-]+$"
+                },
+                "background": {
+                  "type": "object",
+                  "properties": {
+                    "assetRole": {
+                      "enum": [
+                        "image.card-background",
+                        "video.decorative-loop",
+                        "product.ui-mock-image"
+                      ]
+                    },
+                    "assetRef": {
+                      "type": "string",
+                      "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+                    },
+                    "alt": {
+                      "type": "string",
+                      "maxWords": 24
+                    }
+                  },
+                  "required": [
+                    "assetRole",
+                    "assetRef"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "required": [
+                "variant"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "heading",
+            "bullets",
+            "visual"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 1,
+        "maxItems": 4
+      }
+    },
+    "required": [
+      "blocks"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "sticky-step-switch",
+      "scroll-reveal-spring"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ],
+    "builtIn": [
+      "chat-stagger on each visual activation"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "NOT sticky: blocks stack (gap 80), each H2/H3 -> visual -> description -> bullets -> button; bullets 14/21."
+    },
+    {
+      "at": "{foundation.breakpoint.tablet-min}",
+      "change": "Unmeasured."
+    }
+  ],
+  "constraints": {
+    "maxPerPage": 2,
+    "variantRules": {
+      "home": "3 blocks, every block has cta",
+      "compare": "4 blocks, only the last block has cta",
+      "addons": "3 blocks, every block has cta, bullets have bold leads"
+    }
+  },
+  "measuredFrom": [
+    "spec.scrollarea",
+    "spec.mobile.scrollarea",
+    "jsx.scrollarea",
+    "spec.cv.3.5",
+    "spec.cv.6.2",
+    "jsx.stickyarea",
+    "spec.chatmock",
+    "spec.pa.1.4",
+    "spec.pa.3.3",
+    "spec.pa.6.4",
+    "spec.pb.2.2",
+    "spec.pb.3.3",
+    "spec.pb.4.2"
+  ]
+}

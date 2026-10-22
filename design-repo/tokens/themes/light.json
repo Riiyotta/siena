@@ -1,0 +1,17 @@
+{
+  "$description": "The only theme. The source site is light-only (no dark mode, no theme switch); the dark Enterprise/footer/AI-Lab hero surfaces are section-level surfaces, not a theme.",
+  "id": "light",
+  "status": "production-source",
+  "slots": {
+    "page.background": "{color.surface.page}",
+    "page.text": "{color.text.primary}",
+    "page.text-muted": "{color.text.secondary}",
+    "hero.background": "{color.surface.hero}",
+    "section.alt": "{color.surface.cream}",
+    "action.primary": "{color.action.primary}",
+    "action.primary-hover": "{color.action.primary-hover}",
+    "border.field": "{color.border.field}",
+    "focus": "{color.border.focus}",
+    "surface.dark": "{color.surface.dark}"
+  }
+}

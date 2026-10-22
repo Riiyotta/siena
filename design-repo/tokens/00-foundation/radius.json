@@ -1,0 +1,194 @@
+{
+  "$description": "Border radii seen in the histogram and in measured specs.",
+  "foundation": {
+    "radius": {
+      "2": {
+        "$type": "dimension",
+        "$value": "2px",
+        "$description": "Pill-nav highlight.",
+        "$extensions": {
+          "cite": [
+            "spec.company.shorthands"
+          ],
+          "histogram": "radius:2px=14"
+        }
+      },
+      "4": {
+        "$type": "dimension",
+        "$value": "4px",
+        "$description": "Integration/logo tiles.",
+        "$extensions": {
+          "cite": [
+            "spec.company.shorthands"
+          ],
+          "histogram": "radius:4px=131"
+        }
+      },
+      "8": {
+        "$type": "dimension",
+        "$value": "8px",
+        "$description": "Logo boxes, small chips.",
+        "$extensions": {
+          "cite": [
+            "spec.company.shorthands"
+          ],
+          "histogram": "radius:8px=161"
+        }
+      },
+      "10": {
+        "$type": "dimension",
+        "$value": "10px",
+        "$description": "Load-more button, dropdown options.",
+        "$extensions": {
+          "cite": [
+            "spec.company.shorthands"
+          ],
+          "histogram": "radius:10px=14"
+        }
+      },
+      "12": {
+        "$type": "dimension",
+        "$value": "12px",
+        "$description": "md buttons, number tiles, round icon tiles.",
+        "$extensions": {
+          "cite": [
+            "spec.company.shorthands"
+          ],
+          "histogram": "radius:12px=456"
+        }
+      },
+      "14": {
+        "$type": "dimension",
+        "$value": "14px",
+        "$description": "Inner panel of a 3px gradient ring.",
+        "$extensions": {
+          "cite": [
+            "spec.company.shorthands"
+          ],
+          "histogram": "radius:14px=8"
+        }
+      },
+      "15": {
+        "$type": "dimension",
+        "$value": "15px",
+        "$description": "Select wrapper; inner of a 1px gradient border.",
+        "$extensions": {
+          "cite": [
+            "spec.company.shorthands"
+          ],
+          "histogram": "radius:15px=158"
+        }
+      },
+      "16": {
+        "$type": "dimension",
+        "$value": "16px",
+        "$description": "xlg buttons, inputs, bubbles, FAQ-less cards.",
+        "$extensions": {
+          "cite": [
+            "spec.company.shorthands"
+          ],
+          "histogram": "radius:16px=561"
+        }
+      },
+      "18": {
+        "$type": "dimension",
+        "$value": "18px",
+        "$description": "Outer 3px gradient ring of form cards.",
+        "$extensions": {
+          "cite": [
+            "spec.company.shorthands"
+          ],
+          "histogram": "radius:18px=6"
+        }
+      },
+      "20": {
+        "$type": "dimension",
+        "$value": "20px",
+        "$description": "Leaderboard rows, roles pills.",
+        "$extensions": {
+          "cite": [
+            "spec.company.shorthands"
+          ],
+          "histogram": "radius:20px=216"
+        }
+      },
+      "23": {
+        "$type": "dimension",
+        "$value": "23px",
+        "$description": "Inner panel of story-grid cards.",
+        "$extensions": {
+          "cite": [
+            "spec.company.shorthands"
+          ],
+          "histogram": "radius:23px=40"
+        }
+      },
+      "24": {
+        "$type": "dimension",
+        "$value": "24px",
+        "$description": "Cards, panels, mock cards.",
+        "$extensions": {
+          "cite": [
+            "spec.company.shorthands"
+          ],
+          "histogram": "radius:24px=331"
+        }
+      },
+      "32": {
+        "$type": "dimension",
+        "$value": "32px",
+        "$description": "Testimonial images, mobile CTA card.",
+        "$extensions": {
+          "cite": [
+            "spec.company.shorthands"
+          ],
+          "histogram": "radius:32px=74"
+        }
+      },
+      "40": {
+        "$type": "dimension",
+        "$value": "40px",
+        "$description": "Round 40px slider buttons.",
+        "$extensions": {
+          "cite": [
+            "spec.company.shorthands"
+          ],
+          "histogram": "radius:40px=24"
+        }
+      },
+      "48": {
+        "$type": "dimension",
+        "$value": "48px",
+        "$description": "Metrics/CTA cards, newsletter card.",
+        "$extensions": {
+          "cite": [
+            "spec.company.shorthands"
+          ],
+          "histogram": "radius:48px=31"
+        }
+      },
+      "50": {
+        "$type": "dimension",
+        "$value": "50px",
+        "$description": "Pills and tags.",
+        "$extensions": {
+          "cite": [
+            "spec.company.shorthands"
+          ],
+          "histogram": "radius:50px=372"
+        }
+      },
+      "999": {
+        "$type": "dimension",
+        "$value": "999px",
+        "$description": "Circles (avatars, count pills).",
+        "$extensions": {
+          "cite": [
+            "spec.company.shorthands"
+          ],
+          "histogram": "radius:999px=14"
+        }
+      }
+    }
+  }
+}

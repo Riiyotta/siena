@@ -1,0 +1,156 @@
+{
+  "id": "section.integrations.logo-grid",
+  "registryId": "section.integrations.logo-grid",
+  "typeId": "integrations.logo-grid",
+  "version": "1.0.0",
+  "category": "integration",
+  "purpose": "Logo-tile grid (4 x N, gap 4) of integration/partner/investor marks, optionally with an 'Explore all integrations' CTA (live siena.cx).",
+  "evidenceLevel": "measured",
+  "variants": {
+    "home": "Cream, left title, right-aligned CTA.",
+    "insights": "White, eyebrow, 8th tile text, no CTA.",
+    "compare": "White, different tiles, CTA.",
+    "about-investors": "White with top hairline, centered italic title, 200px rows, no CTA.",
+    "partner-groups": "Two labelled groups (Agency / Technology), no CTA.",
+    "product": "Product-page variants (eyebrow, left/right CTA, cream tiles)."
+  },
+  "composes": [
+    "component.logo-tile",
+    "primitive.button"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "eyebrow": {
+        "type": "string",
+        "maxWords": 6
+      },
+      "title": {
+        "type": "string",
+        "maxWords": 10,
+        "description": "Plain text; wrap at most one phrase in *asterisks* to render it in the display italic cut.",
+        "pattern": "^[^*]*(\\*[^*]+\\*[^*]*)?$"
+      },
+      "groups": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "label": {
+              "type": "string",
+              "maxWords": 3
+            },
+            "tiles": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "logo": {
+                    "type": "object",
+                    "properties": {
+                      "assetRole": {
+                        "enum": [
+                          "logo.integration",
+                          "logo.partner-investor"
+                        ]
+                      },
+                      "assetRef": {
+                        "type": "string",
+                        "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+                      },
+                      "alt": {
+                        "type": "string",
+                        "maxWords": 24
+                      }
+                    },
+                    "required": [
+                      "assetRole",
+                      "assetRef"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "label": {
+                    "type": "string",
+                    "maxWords": 4
+                  }
+                },
+                "required": [],
+                "additionalProperties": false
+              },
+              "minItems": 2,
+              "maxItems": 16
+            }
+          },
+          "required": [
+            "tiles"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 1,
+        "maxItems": 2
+      },
+      "cta": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string",
+            "maxWords": 4
+          },
+          "href": {
+            "type": "string",
+            "pattern": "^(/[a-z0-9/#-]*|#[a-z0-9-]+|https://[a-zA-Z0-9.-]+(/[^\\s]*)?|mailto:[a-z.]+@siena\\.cx)$"
+          }
+        },
+        "required": [
+          "label",
+          "href"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "required": [
+      "title",
+      "groups"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "2 columns of 169px; tile padding 14 (some keep 72 0); text tiles 16/22.4."
+    }
+  ],
+  "constraints": {
+    "maxPerPage": 1,
+    "variantRules": {
+      "home": "cta required",
+      "compare": "cta required",
+      "insights": "no cta",
+      "about-investors": "no cta",
+      "partner-groups": "exactly 2 labelled groups, no cta"
+    }
+  },
+  "measuredFrom": [
+    "spec.integrations",
+    "jsx.integrations",
+    "spec.t1.integrations",
+    "spec.a4",
+    "spec.p2",
+    "spec.cv.3.7",
+    "spec.pa.2.6"
+  ],
+  "knownQuirks": [
+    "Compare pages on phone: the section keeps a fixed 799/800px box with clipped overflow and renders after the CTA (conversion.css)."
+  ]
+}

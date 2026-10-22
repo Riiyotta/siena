@@ -1,0 +1,201 @@
+{
+ "borders": [
+  {
+   "r": [
+    51,
+    597,
+    288,
+    75
+   ],
+   "n": "Mobile<Form Container<Form Container",
+   "b": "0px 0px 1px 0px solid rgba(0, 0, 0, 0)",
+   "rad": "0px",
+   "txt": "Book your demo"
+  }
+ ],
+ "icons": [],
+ "imgs": [
+  {
+   "src": "I79jHrog8xkJyLdp6KBEDj6Ywjk.png",
+   "r": [
+    39,
+    439,
+    73,
+    18
+   ],
+   "ow": 73,
+   "oh": 18,
+   "wow": 73,
+   "woh": 18,
+   "pos": "t:0px r:0px b:0px l:0px w:73px h:18px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "contain",
+   "op": "50% 50%",
+   "alt": "Comfrt logo",
+   "n": "Comfrt<9<Title"
+  },
+  {
+   "src": "BYD0tOgABiRk8bVwCxbpUE5hDs.png",
+   "r": [
+    165,
+    437,
+    59,
+    22
+   ],
+   "ow": 59,
+   "oh": 22,
+   "wow": 59,
+   "woh": 22,
+   "pos": "t:0px r:0px b:0px l:0px w:59px h:22px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "contain",
+   "op": "50% 50%",
+   "alt": "Grüns",
+   "n": "Grüns<1<Title"
+  },
+  {
+   "src": "GtydJWMgnwv6wkRfNUoPlww2jh0.svg",
+   "r": [
+    273,
+    442,
+    83,
+    13
+   ],
+   "ow": 83,
+   "oh": 13,
+   "wow": 83,
+   "woh": 13,
+   "pos": "t:0px r:0px b:0px l:0px w:83px h:13px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "Bombas",
+   "n": "2<Title<Hero"
+  },
+  {
+   "src": "f15R92EBkjPHx4ABojD1VWldk54.png",
+   "r": [
+    38,
+    483,
+    76,
+    17
+   ],
+   "ow": 76,
+   "oh": 17,
+   "wow": 76,
+   "woh": 17,
+   "pos": "t:0px r:0px b:0px l:0px w:76px h:17px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "contain",
+   "op": "50% 50%",
+   "alt": "FIGS logo",
+   "n": "FIGS<4<Title"
+  },
+  {
+   "src": "vtOMWVl8Yp4AVppVcHxc4tGpNo.png",
+   "r": [
+    156,
+    483,
+    78,
+    17
+   ],
+   "ow": 78,
+   "oh": 17,
+   "wow": 78,
+   "woh": 17,
+   "pos": "t:0px r:0px b:0px l:0px w:78px h:17px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "contain",
+   "op": "50% 50%",
+   "alt": "Create logo",
+   "n": "Create<8<Title"
+  },
+  {
+   "src": "ipTDxCOrcnVCeET6yx6vSIolM.png",
+   "r": [
+    273,
+    484,
+    82,
+    16
+   ],
+   "ow": 82,
+   "oh": 16,
+   "wow": 82,
+   "woh": 16,
+   "pos": "t:0px r:0px b:0px l:0px w:82px h:16px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "contain",
+   "op": "50% 50%",
+   "alt": "Spanx",
+   "n": "Spanx<11<Title"
+  },
+  {
+   "src": "43GZFV0RCkyKlAJWzDPZW1Yls3s.webp",
+   "r": [
+    -97,
+    -213,
+    779,
+    774
+   ],
+   "ow": 637,
+   "oh": 631,
+   "wow": 637,
+   "woh": 631,
+   "pos": "t:-141px r:-221px b:619.781px l:-26px w:637px h:630.641px",
+   "tf": "matrix(0.965926, -0.258819, 0.258819, 0.965926, 0, 0)",
+   "rad": "0px",
+   "of": "contain",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "Book a Demo<Hero"
+  },
+  {
+   "src": "fNESOQNYixOgXSJEMtuui0Hx9FY.webp",
+   "r": [
+    56,
+    1386,
+    278,
+    278
+   ],
+   "ow": 278,
+   "oh": 278,
+   "wow": 278,
+   "woh": 278,
+   "pos": "t:0px r:0px b:0px l:0px w:278px h:278px",
+   "tf": "none",
+   "rad": "32px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "Photo of Kylah Field, VP of Global CX & Insights at Spanx",
+   "n": "Testimonial<Content<content"
+  },
+  {
+   "src": "L2fbLFnO4rG3Y9WhTn2Zmg90Q.png",
+   "r": [
+    56,
+    1960,
+    140,
+    64
+   ],
+   "ow": 140,
+   "oh": 64,
+   "wow": 140,
+   "woh": 64,
+   "pos": "t:0px r:0px b:0px l:0px w:140px h:64px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "contain",
+   "op": "0% 50%",
+   "alt": "Spanx logo, Kylah Field testimonial",
+   "n": "Logos<Brand<Right Column"
+  }
+ ],
+ "hasNav": false,
+ "navTxt": ""
+}

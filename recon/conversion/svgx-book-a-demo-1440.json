@@ -1,0 +1,62 @@
+[
+ {
+  "file": "book-a-demo-Variant-1-99f1bd94.svg",
+  "kind": "svg",
+  "a": "Variant 1",
+  "w": 121,
+  "h": 32,
+  "y": 25,
+  "color": "rgb(0, 0, 238)",
+  "len": 4890
+ },
+ {
+  "file": "book-a-demo-Page-1-Pages-89aa5625.svg",
+  "kind": "svg",
+  "a": "Page 1 < Pages < Default",
+  "w": 12,
+  "h": 8,
+  "y": 521,
+  "color": "rgb(90, 85, 75)",
+  "len": 243
+ },
+ {
+  "file": "book-a-demo-content-Testimonials-0f39c8ab.svg",
+  "kind": "svg",
+  "a": "content < Testimonials",
+  "w": 18,
+  "h": 18,
+  "y": 999,
+  "color": "rgb(0, 0, 0)",
+  "len": 292
+ },
+ {
+  "file": "book-a-demo-content-Testimonials-c81eec6b.svg",
+  "kind": "svg",
+  "a": "content < Testimonials",
+  "w": 18,
+  "h": 18,
+  "y": 999,
+  "color": "rgb(0, 0, 0)",
+  "len": 291
+ },
+ {
+  "file": "book-a-demo-Testimonial-85785cb3.svg",
+  "kind": "svg",
+  "a": "“ < Testimonial < Content",
+  "w": 30,
+  "h": 24,
+  "y": 1052,
+  "color": "rgb(0, 0, 0)",
+  "len": 549
+ },
+ {
+  "file": "book-a-demo-svg-38776d06.svg",
+  "kind": "svg",
+  "a": "",
+  "w": 30,
+  "h": 24,
+  "y": 914,
+  "color": "rgb(0, 0, 0)",
+  "len": 491
+ }
+]

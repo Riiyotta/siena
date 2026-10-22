@@ -1,0 +1,2976 @@
+{
+ "pre": [
+  {
+   "n": "A",
+   "ap": null,
+   "y": -78,
+   "x": 8,
+   "w": 188,
+   "h": 43,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, 0, -86)",
+   "txt": "Skip to main content"
+  },
+  {
+   "n": "DIV",
+   "ap": "1aji4ln",
+   "y": 434,
+   "x": 24,
+   "w": 342,
+   "h": 90,
+   "op": "0.82",
+   "txt": "Siena Memory is the agentic brand intelligence lay"
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 1161,
+   "x": 48,
+   "w": 294,
+   "h": 56,
+   "op": "0",
+   "tf": "matrix(1, 0, 0, 1, 0, 80)",
+   "txt": "Has my sculpting shorts order shipped yet?"
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 1203,
+   "x": 48,
+   "w": 294,
+   "h": 60,
+   "op": "0",
+   "tf": "matrix(1, 0, 0, 1, 0, 50)",
+   "txt": "Just went out! You'll have it Friday."
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 1280,
+   "x": 48,
+   "w": 294,
+   "h": 56,
+   "op": "0",
+   "tf": "matrix(1, 0, 0, 1, 0, 50)",
+   "txt": "Perfect! Hope XL fits, sometimes I need Large."
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 1352,
+   "x": 48,
+   "w": 294,
+   "h": 22,
+   "op": "0",
+   "tf": "matrix(1, 0, 0, 1, 0, 50)",
+   "txt": "  5 WEEKS LATER"
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 1390,
+   "x": 48,
+   "w": 294,
+   "h": 56,
+   "op": "0",
+   "tf": "matrix(1, 0, 0, 1, 0, 50)",
+   "txt": "Looking for those sculpting shorts in high-waisted"
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 1462,
+   "x": 48,
+   "w": 294,
+   "h": 79,
+   "op": "0",
+   "tf": "matrix(1, 0, 0, 1, 0, 50)",
+   "txt": "We have those! You mentioned being between L and X"
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 1557,
+   "x": 48,
+   "w": 294,
+   "h": 40,
+   "op": "0",
+   "tf": "matrix(1, 0, 0, 1, 0, 50)",
+   "txt": "XL was loose. L would be perfect!"
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 2993,
+   "x": 56,
+   "w": 278,
+   "h": 84,
+   "op": "0.8",
+   "txt": "Memory captures insights from every conversation. "
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3230,
+   "x": 56,
+   "w": 278,
+   "h": 63,
+   "op": "0.8",
+   "txt": "Then Insights generates actionable reports you can"
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3447,
+   "x": 56,
+   "w": 278,
+   "h": 84,
+   "op": "0.8",
+   "txt": "Turn insights into strategic actions that move you"
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": -2952,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": -2952,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": -2765,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": -2765,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": -2578,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": -2578,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": -2391,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": -2391,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": -2204,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": -2204,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": -2017,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": -2017,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": -1830,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": -1830,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": -1643,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": -1643,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": -1456,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": -1456,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": -1269,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": -1269,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": -1082,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": -1082,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": -895,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": -895,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": -708,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": -708,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": -521,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": -521,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": -334,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": -334,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": "Capture customers’ explicit or implicit likes, dis"
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": -147,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": -147,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": "Capture what customers are commenting on social me"
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": 40,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": 40,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": "Capture things that customers tell you about their"
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": 227,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": 227,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": "Capture things that show our customers are referri"
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": 414,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": 414,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": "Capture details that tell you about issues users h"
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": 601,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": 601,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": "Capture the customer’s birthday and their family m"
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": 788,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": 788,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": 975,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": 975,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": 1162,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": 1162,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": 1349,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": 1349,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": 1536,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": 1536,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": 1723,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": 1723,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": 1910,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": 1910,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": 2097,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": 2097,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": 2284,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": 2284,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": 2471,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": 2471,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": 2658,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": 2658,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": 2845,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": 2845,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": 3032,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": 3032,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": 3219,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": 3219,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": 3406,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": 3406,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": 3593,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": 3593,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": 3780,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": 3780,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": 3967,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": 3967,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": 4154,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": 4154,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": 4341,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": 4341,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": 4528,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": 4528,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": 4715,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": 4715,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": 4902,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": 4902,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": 5089,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": 5089,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": 5276,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": 5276,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": 5463,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": 5463,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": 5650,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": 5650,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": 5837,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": 5837,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": 6024,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": 6024,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": 6211,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": 6211,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": 6398,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": 6398,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": 6585,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": 6585,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": 6772,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": 6772,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": 6959,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": 6959,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": 7146,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": 7146,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3899,
+   "x": 7333,
+   "w": 123,
+   "h": 20,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3969,
+   "x": 7333,
+   "w": 123,
+   "h": 130,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "SPAN",
+   "ap": null,
+   "y": 4272,
+   "x": 189,
+   "w": 22,
+   "h": 17,
+   "op": "0.4",
+   "txt": " / 4"
+  }
+ ],
+ "appearIds": [
+  {
+   "id": "15b9fa8",
+   "n": null,
+   "y": 136,
+   "txt": "Capture every detail,  personalize every moment."
+  },
+  {
+   "id": "1aji4ln",
+   "n": null,
+   "y": 434,
+   "txt": "Siena Memory is the agentic brand intelligence layer that po"
+  },
+  {
+   "id": "qtn7kd",
+   "n": null,
+   "y": 552,
+   "txt": "Book a demo"
+  }
+ ],
+ "tickers": [
+  {
+   "y": 628,
+   "h": 45,
+   "n": 58,
+   "gap": "40px",
+   "speed": -29.998497009277344,
+   "mask": "linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 10%, rgb(0, 0, 0) 90%, rgba(0, 0, 0, 0) 100%)",
+   "items": [
+    [
+     176,
+     32,
+     "svg",
+     "1"
+    ],
+    [
+     159,
+     32,
+     "bg",
+     "2"
+    ],
+    [
+     209,
+     32,
+     "bg",
+     "Madhapy"
+    ],
+    [
+     167,
+     32,
+     "svg",
+     "4"
+    ],
+    [
+     119,
+     38,
+     "svg",
+     "5"
+    ],
+    [
+     111,
+     40,
+     "svg",
+     "6"
+    ],
+    [
+     120,
+     38,
+     "svg",
+     "7"
+    ],
+    [
+     91,
+     44,
+     "svg",
+     "8"
+    ],
+    [
+     241,
+     24,
+     "svg",
+     "9"
+    ],
+    [
+     99,
+     44,
+     "svg",
+     "10"
+    ],
+    [
+     161,
+     32,
+     "svg",
+     "11"
+    ],
+    [
+     207,
+     38,
+     "svg",
+     "12"
+    ],
+    [
+     156,
+     38,
+     "svg",
+     "13"
+    ],
+    [
+     71,
+     38,
+     "svg",
+     "14"
+    ],
+    [
+     112,
+     38,
+     "svg",
+     "15"
+    ],
+    [
+     150,
+     24,
+     "svg",
+     "16"
+    ],
+    [
+     152,
+     30,
+     "svg",
+     "17"
+    ],
+    [
+     188,
+     40,
+     "svg",
+     "18"
+    ],
+    [
+     154,
+     44,
+     "svg",
+     "19"
+    ],
+    [
+     126,
+     38,
+     "svg",
+     "20"
+    ],
+    [
+     178,
+     30,
+     "svg",
+     "21"
+    ],
+    [
+     103,
+     30,
+     "svg",
+     "22"
+    ],
+    [
+     189,
+     38,
+     "svg",
+     "23"
+    ],
+    [
+     86,
+     44,
+     "svg",
+     "24"
+    ],
+    [
+     112,
+     44,
+     "svg",
+     "25"
+    ],
+    [
+     144,
+     30,
+     "svg",
+     "26"
+    ],
+    [
+     82,
+     44,
+     "svg",
+     "27"
+    ],
+    [
+     121,
+     30,
+     "svg",
+     "28"
+    ],
+    [
+     107,
+     38,
+     "svg",
+     "29"
+    ],
+    [
+     176,
+     32,
+     "svg",
+     "1"
+    ],
+    [
+     159,
+     32,
+     "bg",
+     "2"
+    ],
+    [
+     209,
+     32,
+     "bg",
+     "Madhapy"
+    ],
+    [
+     167,
+     32,
+     "svg",
+     "4"
+    ],
+    [
+     119,
+     38,
+     "svg",
+     "5"
+    ],
+    [
+     111,
+     40,
+     "svg",
+     "6"
+    ],
+    [
+     120,
+     38,
+     "svg",
+     "7"
+    ],
+    [
+     91,
+     44,
+     "svg",
+     "8"
+    ],
+    [
+     241,
+     24,
+     "svg",
+     "9"
+    ],
+    [
+     99,
+     44,
+     "svg",
+     "10"
+    ],
+    [
+     161,
+     32,
+     "svg",
+     "11"
+    ],
+    [
+     207,
+     38,
+     "svg",
+     "12"
+    ],
+    [
+     156,
+     38,
+     "svg",
+     "13"
+    ],
+    [
+     71,
+     38,
+     "svg",
+     "14"
+    ],
+    [
+     112,
+     38,
+     "svg",
+     "15"
+    ],
+    [
+     150,
+     24,
+     "svg",
+     "16"
+    ],
+    [
+     152,
+     30,
+     "svg",
+     "17"
+    ],
+    [
+     188,
+     40,
+     "svg",
+     "18"
+    ],
+    [
+     154,
+     44,
+     "svg",
+     "19"
+    ],
+    [
+     126,
+     38,
+     "svg",
+     "20"
+    ],
+    [
+     178,
+     30,
+     "svg",
+     "21"
+    ],
+    [
+     103,
+     30,
+     "svg",
+     "22"
+    ],
+    [
+     189,
+     38,
+     "svg",
+     "23"
+    ],
+    [
+     86,
+     44,
+     "svg",
+     "24"
+    ],
+    [
+     112,
+     44,
+     "svg",
+     "25"
+    ],
+    [
+     144,
+     30,
+     "svg",
+     "26"
+    ],
+    [
+     82,
+     44,
+     "svg",
+     "27"
+    ],
+    [
+     121,
+     30,
+     "svg",
+     "28"
+    ],
+    [
+     107,
+     38,
+     "svg",
+     "29"
+    ]
+   ]
+  },
+  {
+   "y": 3875,
+   "h": 330,
+   "n": 56,
+   "gap": "16px",
+   "speed": 0,
+   "mask": "none",
+   "items": [
+    [
+     0,
+     0,
+     "svg",
+     "1 / Preference"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "2 / Social"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "3 / Coffee"
+    ],
+    [
+     0,
+     0,
+     "y27Z3JPTR70wZ1vySbDPnp3REZI.svg",
+     "4 / Friends"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "5 / Promos"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "6 / Birthday"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "7 / Shade"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "8 / Feedback"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "9 / Hair Type"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "10 / Milestones"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "11 / Travelers"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "12 / Delight"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "13 / Suggestions"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "14 / Subscribe"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "1 / Preference"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "2 / Social"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "3 / Coffee"
+    ],
+    [
+     0,
+     0,
+     "y27Z3JPTR70wZ1vySbDPnp3REZI.svg",
+     "4 / Friends"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "5 / Promos"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "6 / Birthday"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "7 / Shade"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "8 / Feedback"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "9 / Hair Type"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "10 / Milestones"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "11 / Travelers"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "12 / Delight"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "13 / Suggestions"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "14 / Subscribe"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "1 / Preference"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "2 / Social"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "3 / Coffee"
+    ],
+    [
+     0,
+     0,
+     "y27Z3JPTR70wZ1vySbDPnp3REZI.svg",
+     "4 / Friends"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "5 / Promos"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "6 / Birthday"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "7 / Shade"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "8 / Feedback"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "9 / Hair Type"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "10 / Milestones"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "11 / Travelers"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "12 / Delight"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "13 / Suggestions"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "14 / Subscribe"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "1 / Preference"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "2 / Social"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "3 / Coffee"
+    ],
+    [
+     0,
+     0,
+     "y27Z3JPTR70wZ1vySbDPnp3REZI.svg",
+     "4 / Friends"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "5 / Promos"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "6 / Birthday"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "7 / Shade"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "8 / Feedback"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "9 / Hair Type"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "10 / Milestones"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "11 / Travelers"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "12 / Delight"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "13 / Suggestions"
+    ],
+    [
+     0,
+     0,
+     "svg",
+     "14 / Subscribe"
+    ]
+   ]
+  }
+ ],
+ "post": [
+  {
+   "n": "A",
+   "y": 6208,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, 0, -86)",
+   "txt": "Skip to main content"
+  },
+  {
+   "n": "DIV",
+   "y": 434,
+   "op": "0.82",
+   "txt": "Siena Memory is the agentic brand intell"
+  },
+  {
+   "n": "DIV",
+   "y": 2993,
+   "op": "0.8",
+   "txt": "Memory captures insights from every conv"
+  },
+  {
+   "n": "DIV",
+   "y": 3230,
+   "op": "0.8",
+   "txt": "Then Insights generates actionable repor"
+  },
+  {
+   "n": "DIV",
+   "y": 3447,
+   "op": "0.8",
+   "txt": "Turn insights into strategic actions tha"
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": "Capture what customers are commenting on"
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": "Capture things that customers tell you a"
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": "Capture things that show our customers a"
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": "Capture details that tell you about issu"
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": "Capture the customer’s birthday and thei"
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": "The customer mentions their favorite col"
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3899,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 3969,
+   "op": "0.8",
+   "txt": ""
+  },
+  {
+   "n": "SPAN",
+   "y": 4272,
+   "op": "0.4",
+   "txt": " / 4"
+  }
+ ],
+ "sticky": [],
+ "videos": [],
+ "iframes": [],
+ "lottie": [],
+ "slideshows": [
+  {
+   "y": 3875,
+   "html": "<fieldset style=\"display:flex;justify-content:space-between;align-items:center;position:absolute;pointer-events:none;user-select:none;top:0;left:0;right:0;bottom:0;border:0;padding:0;margin:0\" aria-label=\"Slideshow pagination controls\" class=\"framer--slideshow-controls\"><div style=\"position: absolute; display: flex; flex-direction: row; justify-content: center; gap: 10px; opacity: 1; align-items: center; top: -85px; left: unset; right: 24px; bottom: unset; will-change: transform;\"><button type=\"button\" aria-label=\"Previous\" tabindex=\"0\" style=\"border-width: medium; border-style: none; border-color: currentcolor; border-image: none; display: block; place-content: center; place-items: center; overflow: hidden; background: rgba(0, 0, 0, 0); cursor: pointer; margin: 0px; padding: 0px; width: 40px; height: 40px; border-radius: 0px; pointer-events: auto; transform: none;\">IMG(https://framerusercontent.com/images/xZOS9ivaVqrdrylU8tlXkU4nk.png?width=50&amp;height=50)</button><button type=\"button\" aria-label=\"Next\" tabindex=\"0\" style=\"border-width: medium; border-style: none; border-color: currentcolor; border-image: none; display: block; place-content: center; place-items: center; overflow"
+  }
+ ],
+ "svgs": [
+  {
+   "file": "memory-Logos-cd8a67.svg",
+   "n": "Logos",
+   "y": 635,
+   "w": 176,
+   "h": 32,
+   "count": 6
+  },
+  {
+   "file": "memory-Logos-3-7ec9b0.svg",
+   "n": "Logos-3",
+   "y": 635,
+   "w": 167,
+   "h": 32,
+   "count": 2
+  },
+  {
+   "file": "memory-Logos-4-668d4d.svg",
+   "n": "Logos-4",
+   "y": 632,
+   "w": 119,
+   "h": 38,
+   "count": 2
+  },
+  {
+   "file": "memory-Logos-5-87770d.svg",
+   "n": "Logos-5",
+   "y": 631,
+   "w": 111,
+   "h": 40,
+   "count": 6
+  },
+  {
+   "file": "memory-Logos-6-d01336.svg",
+   "n": "Logos-6",
+   "y": 632,
+   "w": 120,
+   "h": 38,
+   "count": 6
+  },
+  {
+   "file": "memory-Logos-7-7f0912.svg",
+   "n": "Logos-7",
+   "y": 629,
+   "w": 91,
+   "h": 44,
+   "count": 6
+  },
+  {
+   "file": "memory-Logos-8-b5090e.svg",
+   "n": "Logos-8",
+   "y": 639,
+   "w": 241,
+   "h": 24,
+   "count": 6
+  },
+  {
+   "file": "memory-Logos-9-6617ef.svg",
+   "n": "Logos-9",
+   "y": 629,
+   "w": 99,
+   "h": 44,
+   "count": 6
+  },
+  {
+   "file": "memory-Logos-10-b7d0ef.svg",
+   "n": "Logos-10",
+   "y": 635,
+   "w": 161,
+   "h": 32,
+   "count": 6
+  },
+  {
+   "file": "memory-Logos-11-52c1bf.svg",
+   "n": "Logos-11",
+   "y": 632,
+   "w": 207,
+   "h": 38,
+   "count": 2
+  },
+  {
+   "file": "memory-Logos-12-765fde.svg",
+   "n": "Logos-12",
+   "y": 632,
+   "w": 156,
+   "h": 38,
+   "count": 6
+  },
+  {
+   "file": "memory-Logos-13-c57f72.svg",
+   "n": "Logos-13",
+   "y": 632,
+   "w": 71,
+   "h": 38,
+   "count": 2
+  },
+  {
+   "file": "memory-Logos-14-6a5483.svg",
+   "n": "Logos-14",
+   "y": 632,
+   "w": 112,
+   "h": 38,
+   "count": 6
+  },
+  {
+   "file": "memory-Logos-15-d3829d.svg",
+   "n": "Logos-15",
+   "y": 639,
+   "w": 150,
+   "h": 24,
+   "count": 2
+  },
+  {
+   "file": "memory-Logos-16-ff1a2c.svg",
+   "n": "Logos-16",
+   "y": 636,
+   "w": 152,
+   "h": 30,
+   "count": 2
+  },
+  {
+   "file": "memory-Logos-17-a2a130.svg",
+   "n": "Logos-17",
+   "y": 631,
+   "w": 188,
+   "h": 40,
+   "count": 6
+  },
+  {
+   "file": "memory-Logos-18-80eefe.svg",
+   "n": "Logos-18",
+   "y": 629,
+   "w": 154,
+   "h": 44,
+   "count": 2
+  },
+  {
+   "file": "memory-Logos-19-c63f16.svg",
+   "n": "Logos-19",
+   "y": 632,
+   "w": 126,
+   "h": 38,
+   "count": 6
+  },
+  {
+   "file": "memory-Logos-20-1ae8ec.svg",
+   "n": "Logos-20",
+   "y": 636,
+   "w": 178,
+   "h": 30,
+   "count": 2
+  },
+  {
+   "file": "memory-Logos-21-29e816.svg",
+   "n": "Logos-21",
+   "y": 636,
+   "w": 103,
+   "h": 30,
+   "count": 6
+  },
+  {
+   "file": "memory-Logos-22-d80c2e.svg",
+   "n": "Logos-22",
+   "y": 632,
+   "w": 189,
+   "h": 38,
+   "count": 2
+  },
+  {
+   "file": "memory-Logos-23-ff8fe2.svg",
+   "n": "Logos-23",
+   "y": 629,
+   "w": 86,
+   "h": 44,
+   "count": 2
+  },
+  {
+   "file": "memory-Logos-24-14c166.svg",
+   "n": "Logos-24",
+   "y": 629,
+   "w": 112,
+   "h": 44,
+   "count": 2
+  },
+  {
+   "file": "memory-Logos-25-fd011f.svg",
+   "n": "Logos-25",
+   "y": 636,
+   "w": 144,
+   "h": 30,
+   "count": 2
+  },
+  {
+   "file": "memory-Logos-26-38bf81.svg",
+   "n": "Logos-26",
+   "y": 629,
+   "w": 82,
+   "h": 44,
+   "count": 2
+  },
+  {
+   "file": "memory-Logos-27-eb31fa.svg",
+   "n": "Logos-27",
+   "y": 636,
+   "w": 121,
+   "h": 30,
+   "count": 2
+  },
+  {
+   "file": "memory-Logos-28-88ed36.svg",
+   "n": "Logos-28",
+   "y": 632,
+   "w": 107,
+   "h": 38,
+   "count": 2
+  },
+  {
+   "file": "memory-Siena-dff495.svg",
+   "n": "Siena",
+   "y": 1187,
+   "w": 12,
+   "h": 13,
+   "count": 2
+  },
+  {
+   "file": "memory-Logos-1-aad272.svg",
+   "n": "Logos-1",
+   "y": 4147,
+   "w": 99,
+   "h": 20,
+   "count": 4
+  },
+  {
+   "file": "memory-content-db51ec.svg",
+   "n": "content",
+   "y": 4272,
+   "w": 18,
+   "h": 18,
+   "count": 1
+  },
+  {
+   "file": "memory-content-157f33.svg",
+   "n": "content",
+   "y": 4272,
+   "w": 18,
+   "h": 18,
+   "count": 1
+  },
+  {
+   "file": "memory--c7837d.svg",
+   "n": "“",
+   "y": 4685,
+   "w": 30,
+   "h": 24,
+   "count": 1
+  },
+  {
+   "file": "memory-siena-320693.svg",
+   "n": "siena",
+   "y": 7026,
+   "w": 122,
+   "h": 32,
+   "count": 1
+  }
+ ],
+ "H": 7130
+}

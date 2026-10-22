@@ -1,0 +1,9 @@
+Ask Siena "BFCM prep call transcripyourb" @795,3447 421x63 [op,x,y,sx,sy,blur] [0,-209.9,46,1,1,0] -> [0,0,80,1,1,0] start 23ms t50 336ms end 486ms overshoot -210.6
+Bars "BFCM prep call transcrip" @1026,3511 40x40 [op,x,y,sx,sy,blur] [0,0,50,1,1,0] -> [0,-20,50,1,1,0] start 23ms t50 353ms end 486ms overshoot -151.0
+Bars "Returns SOP.pdfConfirm order i" @1082,3508 43x43 [op,x,y,sx,sy,blur] [0,-43.5,50,1,1,0] -> [0,0,28.5,1,1,0] start 23ms t50 320ms end 486ms overshoot -98.7
+DIV "Verified and live" @1076,3534 54x12 [op,x,y,sx,sy,blur] [1,-32.5,0,1,1,0] -> [1,-27.2,0,1,1,0] start 23ms t50 75ms end 486ms overshoot 0.0
+Docs / Item "Volume AnalystBreaks down supp" @214,4502 193x201 [op,x,y,sx,sy,blur] [0,-60,100,0.978,0.978,0] -> [1,0,0,0.978,0.978,0] start 438ms t50 726ms end 1425ms overshoot 0.0
+Docs / Item "Opportunity AssessmentRanks wh" @503,4507 183x192 [op,x,y,sx,sy,blur] [0,60,100,0.99,0.99,0] -> [1,0,0,0.99,0.99,0] start 438ms t50 726ms end 1425ms overshoot 0.0
+Docs / Item "Journey BuilderTurns an SOP in" @366,4475 163x171 [op,x,y,sx,sy,blur] [0,0,100,1,1,0] -> [1,0,0,1,1,0] start 612ms t50 934ms end 1617ms overshoot 0.0
+Card/Nav/Regular "Coaching evidenceEnable as sk" @240,4757 400x62 [op,x,y,sx,sy,blur] [0,-200,100,1,1,0] -> [1,-200,0,1,1,0] start 141ms t50 542ms end 1215ms overshoot 0.0
+Card/Nav/Regular "Return handling policy" @776,5159 448x62 [op,x,y,sx,sy,blur] [0,0,100,1,1,0] -> [1,0,0,1,1,0] start 438ms t50 726ms end 1425ms overshoot 0.0

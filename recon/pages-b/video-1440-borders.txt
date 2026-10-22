@@ -1,0 +1,5 @@
+y4842 x120 Title 379x220 1px 0px 0px 0px solid #000000/0.2 r:0px txt:CaptureCustomers send videos through Li
+y4842 x941 Title 379x197 1px 0px 0px 0px solid #000000/0.2 r:0px txt:ResolveClaims processed, tickets update
+y5897 x0 Desktop 1440x434 0px 0px 1px 0px solid #000000/0.2 r:0px txt:cOMPANYAbout UsCareersCustomersSecurit
+y6025 x148 Secondary / md 46x48 1px 1px 1px 1px solid #FFFFFF/0.2 r:12px txt:
+y6025 x202 Secondary / md 48x48 1px 1px 1px 1px solid #FFFFFF/0.2 r:12px txt:

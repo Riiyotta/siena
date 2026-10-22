@@ -1,0 +1,15 @@
+{
+  "registryId": "component.comparison-row",
+  "version": "1.0.0",
+  "category": "content",
+  "description": "Comparison table row: label cell, Siena cell (white, gradient check badge), competitor cell; phone renders each row as a stacked card.",
+  "composes": [
+    "primitive.text",
+    "primitive.image"
+  ],
+  "props": {},
+  "measuredFrom": [
+    "spec.compare.table",
+    "jsx.conv.table"
+  ]
+}

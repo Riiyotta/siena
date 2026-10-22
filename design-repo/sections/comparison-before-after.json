@@ -1,0 +1,82 @@
+{
+  "id": "section.comparison.before-after",
+  "registryId": "section.comparison.before-after",
+  "typeId": "comparison.before-after",
+  "version": "1.0.0",
+  "category": "comparison",
+  "purpose": "'Before' vs 'With Siena' two-card comparison (xmark vs sparkles rows).",
+  "evidenceLevel": "spec-measured",
+  "variants": {
+    "qa": "'Replace four tools with one'.",
+    "topics": "'What Topics Explorer replaces' (empty first h2 spacer).",
+    "docs": "'Your knowledge base, finally built for your agent.'"
+  },
+  "composes": [
+    "primitive.text",
+    "primitive.icon"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string",
+        "maxWords": 10
+      },
+      "text": {
+        "type": "string",
+        "maxWords": 30
+      },
+      "before": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "maxWords": 10
+        },
+        "minItems": 4,
+        "maxItems": 6
+      },
+      "with": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "maxWords": 10
+        },
+        "minItems": 4,
+        "maxItems": 6
+      }
+    },
+    "required": [
+      "title",
+      "text",
+      "before",
+      "with"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "appear-fade",
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Cards stack; H3 36/43.2."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "spec.pa.4.8",
+    "spec.pa.5.7",
+    "spec.pb.4.5"
+  ]
+}

@@ -1,0 +1,463 @@
+{
+ "pages": [
+  [
+   {
+    "txt": "What is your primary goal with Siena?*\n, required\nSelect one or more…",
+    "openTiming": [
+     "1 none h1751",
+     "1 none h1751",
+     "1 none h1751",
+     "1 none h1751",
+     "1 none h1751",
+     "1 none h1751"
+    ],
+    "info": {
+     "n": 4,
+     "type": "checkbox",
+     "cb": {
+      "tag": "INPUT",
+      "r": [
+       812,
+       580,
+       15,
+       15
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "sh": "none",
+      "rad": "0px",
+      "p": "0px",
+      "gap": "normal",
+      "d": "block",
+      "ff": "sans-serif",
+      "fs": "12px",
+      "lh": "normal",
+      "c": "rgb(0, 0, 0)",
+      "ov": "visible",
+      "mh": "none",
+      "op": "1",
+      "tf": "none",
+      "tr": "all",
+      "anim": "none 0s",
+      "z": "auto",
+      "pos": "static"
+     },
+     "cbStyle": "width: 15px; height: 15px; margin: 0px; accent-color: rgb(18, 32, 35); flex: 0 0 auto; cursor: pointer;",
+     "chain": [
+      {
+       "tag": "LABEL",
+       "r": [
+        800,
+        567,
+        400,
+        40
+       ],
+       "bg": "rgba(0, 0, 0, 0)",
+       "sh": "none",
+       "rad": "10px",
+       "p": "11px 12px",
+       "gap": "10px",
+       "d": "flex",
+       "ff": "\"Instrument Sans\"",
+       "fs": "15px",
+       "lh": "18px",
+       "c": "rgb(18, 32, 35)",
+       "ov": "visible",
+       "mh": "none",
+       "op": "1",
+       "tf": "none",
+       "tr": "all",
+       "anim": "none 0s",
+       "z": "auto",
+       "pos": "static"
+      },
+      {
+       "tag": "DIV",
+       "r": [
+        792,
+        559,
+        416,
+        182
+       ],
+       "bg": "rgb(255, 255, 255)",
+       "sh": "rgba(18, 32, 35, 0.15) 0px 10px 30px 0px, rgba(18, 32, 35, 0.08) 0px 0px 0px 1px",
+       "rad": "16px",
+       "p": "8px",
+       "gap": "2px",
+       "d": "flex",
+       "ff": "sans-serif",
+       "fs": "12px",
+       "lh": "normal",
+       "c": "rgb(0, 0, 0)",
+       "ov": "auto",
+       "mh": "184px",
+       "op": "1",
+       "tf": "none",
+       "tr": "all",
+       "anim": "none 0s",
+       "z": "2147483000",
+       "pos": "fixed"
+      }
+     ],
+     "options": [
+      "Make my customer service more efficient",
+      "Drive more sales and increase conversion rates",
+      "Get insights from my conversations",
+      "Scale my social engagement and moderation"
+     ]
+    },
+    "labelHover": {
+     "bg": "rgb(243, 240, 235)",
+     "c": "rgb(18, 32, 35)",
+     "p": "11px 12px",
+     "rad": "10px",
+     "h": 40
+    },
+    "afterSelectBtnText": "What is your primary goal with Siena?*\n, required\nMake my customer service more efficient"
+   }
+  ],
+  [
+   {
+    "txt": "Monthly average tickets*\n, required\nSelect one…",
+    "openTiming": [
+     "1 none h1750",
+     "1 none h1750",
+     "1 none h1750",
+     "1 none h1750",
+     "1 none h1750",
+     "1 none h1750"
+    ],
+    "info": {
+     "n": 5,
+     "type": "radio",
+     "cb": {
+      "tag": "INPUT",
+      "r": [
+       812,
+       376,
+       15,
+       15
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "sh": "none",
+      "rad": "0px",
+      "p": "0px",
+      "gap": "normal",
+      "d": "block",
+      "ff": "sans-serif",
+      "fs": "12px",
+      "lh": "normal",
+      "c": "rgb(0, 0, 0)",
+      "ov": "visible",
+      "mh": "none",
+      "op": "1",
+      "tf": "none",
+      "tr": "all",
+      "anim": "none 0s",
+      "z": "auto",
+      "pos": "static"
+     },
+     "cbStyle": "width: 15px; height: 15px; margin: 0px; accent-color: rgb(18, 32, 35); flex: 0 0 auto; cursor: pointer;",
+     "chain": [
+      {
+       "tag": "LABEL",
+       "r": [
+        800,
+        363,
+        400,
+        40
+       ],
+       "bg": "rgba(0, 0, 0, 0)",
+       "sh": "none",
+       "rad": "10px",
+       "p": "11px 12px",
+       "gap": "10px",
+       "d": "flex",
+       "ff": "\"Instrument Sans\"",
+       "fs": "15px",
+       "lh": "18px",
+       "c": "rgb(18, 32, 35)",
+       "ov": "visible",
+       "mh": "none",
+       "op": "1",
+       "tf": "none",
+       "tr": "all",
+       "anim": "none 0s",
+       "z": "auto",
+       "pos": "static"
+      },
+      {
+       "tag": "DIV",
+       "r": [
+        792,
+        355,
+        416,
+        224
+       ],
+       "bg": "rgb(255, 255, 255)",
+       "sh": "rgba(18, 32, 35, 0.15) 0px 10px 30px 0px, rgba(18, 32, 35, 0.08) 0px 0px 0px 1px",
+       "rad": "16px",
+       "p": "8px",
+       "gap": "2px",
+       "d": "flex",
+       "ff": "sans-serif",
+       "fs": "12px",
+       "lh": "normal",
+       "c": "rgb(0, 0, 0)",
+       "ov": "auto",
+       "mh": "226px",
+       "op": "1",
+       "tf": "none",
+       "tr": "all",
+       "anim": "none 0s",
+       "z": "2147483000",
+       "pos": "fixed"
+      }
+     ],
+     "options": [
+      "<3,000",
+      "3,000-10,000",
+      "10,000-20,000",
+      "20,000-30,000",
+      "Over 30,000"
+     ]
+    },
+    "labelHover": {
+     "bg": "rgb(243, 240, 235)",
+     "c": "rgb(18, 32, 35)",
+     "p": "11px 12px",
+     "rad": "10px",
+     "h": 40
+    },
+    "afterSelectBtnText": "Monthly average tickets*\n, required\n<3,000"
+   },
+   {
+    "txt": "Help desk*\n, required\nSelect one…",
+    "openTiming": [
+     "1 none h1750",
+     "1 none h1750",
+     "1 none h1750",
+     "1 none h1750",
+     "1 none h1750",
+     "1 none h1750"
+    ],
+    "info": {
+     "n": 7,
+     "type": "radio",
+     "cb": {
+      "tag": "INPUT",
+      "r": [
+       812,
+       444,
+       15,
+       15
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "sh": "none",
+      "rad": "0px",
+      "p": "0px",
+      "gap": "normal",
+      "d": "block",
+      "ff": "sans-serif",
+      "fs": "12px",
+      "lh": "normal",
+      "c": "rgb(0, 0, 0)",
+      "ov": "visible",
+      "mh": "none",
+      "op": "1",
+      "tf": "none",
+      "tr": "all",
+      "anim": "none 0s",
+      "z": "auto",
+      "pos": "static"
+     },
+     "cbStyle": "width: 15px; height: 15px; margin: 0px; accent-color: rgb(18, 32, 35); flex: 0 0 auto; cursor: pointer;",
+     "chain": [
+      {
+       "tag": "LABEL",
+       "r": [
+        800,
+        431,
+        400,
+        40
+       ],
+       "bg": "rgba(0, 0, 0, 0)",
+       "sh": "none",
+       "rad": "10px",
+       "p": "11px 12px",
+       "gap": "10px",
+       "d": "flex",
+       "ff": "\"Instrument Sans\"",
+       "fs": "15px",
+       "lh": "18px",
+       "c": "rgb(18, 32, 35)",
+       "ov": "visible",
+       "mh": "none",
+       "op": "1",
+       "tf": "none",
+       "tr": "all",
+       "anim": "none 0s",
+       "z": "auto",
+       "pos": "static"
+      },
+      {
+       "tag": "DIV",
+       "r": [
+        792,
+        423,
+        416,
+        308
+       ],
+       "bg": "rgb(255, 255, 255)",
+       "sh": "rgba(18, 32, 35, 0.15) 0px 10px 30px 0px, rgba(18, 32, 35, 0.08) 0px 0px 0px 1px",
+       "rad": "16px",
+       "p": "8px",
+       "gap": "2px",
+       "d": "flex",
+       "ff": "sans-serif",
+       "fs": "12px",
+       "lh": "normal",
+       "c": "rgb(0, 0, 0)",
+       "ov": "auto",
+       "mh": "310px",
+       "op": "1",
+       "tf": "none",
+       "tr": "all",
+       "anim": "none 0s",
+       "z": "2147483000",
+       "pos": "fixed"
+      }
+     ],
+     "options": [
+      "Gorgias",
+      "Zendesk",
+      "Kustomer",
+      "Gladly",
+      "Intercom",
+      "Salesforce",
+      "Other"
+     ]
+    },
+    "labelHover": {
+     "bg": "rgb(243, 240, 235)",
+     "c": "rgb(18, 32, 35)",
+     "p": "11px 12px",
+     "rad": "10px",
+     "h": 40
+    },
+    "afterSelectBtnText": "Help desk*\n, required\nGorgias"
+   }
+  ]
+ ],
+ "page2Text": "Book your demo\nMonthly average tickets*\n, required\nSelect one…\nHelp desk*\n, required\nSelect one…\nWhere did you hear about us?*\n\nPrevious\n\nBook demo",
+ "page2Btns": [
+  {
+   "t": "Monthly average tickets*\n, required\nSelect one…",
+   "r": [
+    792,
+    293,
+    416,
+    56
+   ],
+   "bg": "rgb(255, 255, 255)",
+   "bgi": "none",
+   "sh": "rgb(205, 188, 160) 0px 0px 0px 1px inset",
+   "rad": "16px",
+   "p": "26px 44px 8px 16px"
+  },
+  {
+   "t": "Help desk*\n, required\nSelect one…",
+   "r": [
+    792,
+    361,
+    416,
+    56
+   ],
+   "bg": "rgb(255, 255, 255)",
+   "bgi": "none",
+   "sh": "rgb(205, 188, 160) 0px 0px 0px 1px inset",
+   "rad": "16px",
+   "p": "26px 44px 8px 16px"
+  },
+  {
+   "t": "Previous",
+   "r": [
+    971,
+    565,
+    96,
+    48
+   ],
+   "bg": "rgb(243, 240, 235)",
+   "bgi": "linear-gradient(90deg, rgb(243, 240, 235) 0%, rgb(243, 240, 235) 20%, rgb(243, 2",
+   "sh": "none",
+   "rad": "12px",
+   "p": "16px"
+  },
+  {
+   "t": "Book demo",
+   "r": [
+    1084,
+    566,
+    124,
+    46
+   ],
+   "bg": "rgba(0, 0, 0, 0)",
+   "bgi": "linear-gradient(90deg, rgb(247, 221, 147) 0%, rgb(254, 199, 150) 14.8649%, rgb(2",
+   "sh": "none",
+   "rad": "10px",
+   "p": "15px 20px"
+  }
+ ],
+ "page2Fields": [
+  {
+   "t": "Monthly average tickets*\n, required\nSelect one…",
+   "r": [
+    792,
+    293,
+    416,
+    56
+   ]
+  },
+  {
+   "t": "Help desk*\n, required\nSelect one…",
+   "r": [
+    792,
+    361,
+    416,
+    56
+   ]
+  },
+  {
+   "t": "Where did you hear about us?*",
+   "r": [
+    792,
+    429,
+    416,
+    104
+   ]
+  }
+ ],
+ "textarea": {
+  "r": [
+   792,
+   429,
+   416,
+   104
+  ],
+  "p": "30px 16px 10px",
+  "resize": "none",
+  "wbg": "rgb(255, 255, 255)",
+  "wsh": "rgb(205, 188, 160) 0px 0px 0px 1px inset",
+  "wrad": "16px"
+ },
+ "page1Text": "Book your demo\nFull name*\nWork email*\nBrand website*\nWhat is your primary goal with Siena?*\n, required\nMake my customer service more efficient\n\nNext step",
+ "emptyNext": {
+  "txt": "Book your demo\nFull name*\nWork email*\nBrand website*\nWhat is your primary goal with Siena?*\n, required\nSelect one or more…\n\nNext step",
+  "valid": [
+   "fullName:Please fill out this field.|rgb(205, 188, 160) 0px 0px 0px 1px inset",
+   "workEmail:Please fill out this field.|rgb(205, 188, 160) 0px 0px 0px 1px inset",
+   "companyWebsite:Please enter a valid website (e.g. example.com)|rgb(0, 153, 255) 0px 0px 0px 1px inset",
+   ":Please fill out this field.|none"
+  ],
+  "active": "companyWebsite"
+ }
+}

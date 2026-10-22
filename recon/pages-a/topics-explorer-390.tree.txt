@@ -1,0 +1,982 @@
+#1 <div> 0,0 390x10328 flex column jc:flex-start ai:center gap:0px ; pad:40px 0px 0px ; bg:rgb(255, 255, 255) ; ovf:clip
+ #2 <div> 0,0 188x43 pos:fixed t:0px l:0px r:202.031px b:801px ; z:2147483647
+  #3 <a> 8,-78 188x43 pad:12px 20px ; bg:rgb(18, 32, 35) ; rad:8px ; tf:matrix(1, 0, 0, 1, 0, -86) ; z:9999 ; trans:transform 0.2s ; href:#main-content T"Skip to main content" [Inter 600  15px/normal ls:normal c:rgb(255, 255, 255) ta:start tt:none]
+  #4 <span> 188,0 1x1 pos:absolute t:0px l:187.969px r:-1px b:42px ; ovf:hidden
+ #7 <div> 0,0 390x113 pos:fixed t:0px l:0px r:0px b:731px ; z:10
+  #8 <nav> [Main] 0,0 390x113 flex column jc:flex-start ai:center gap:0px ; pad:0px 16px ; bg:rgb(243, 240, 235)
+   #9 <a> [Banner] 16,0 358x45 flex column jc:center ai:flex-start gap:10px ; pad:12px 16px ; bg:rgb(18, 32, 35) ; rad:0px 0px 16px 16px ; ovf:clip ; href:./blog/siena-raises-17m-series-a
+    #10 <div> 32,12 326x21 flex row jc:space-between ai:center gap:normal
+     #11 <div> 32,12 197x21 flex row jc:center ai:center gap:10px
+      #12 <div> 29,9 26x26 flex row jc:center ai:center gap:10px ; tf:matrix(-0.292238, -0.956346, 0.956346, -0.292238, 0, 0)
+       #15 <svg> 29,9 26x26 ovf:hidden ; SVG use:#svg-1164385585_526 vb:null
+      #17 <div> 63,14 166x18 flex column jc:flex-start ai:normal gap:normal
+       #18 <p> 63,14 166x18  T"We raised a $17M Series A" ["Feature Deck Web Light Italic" 300 italic 16px/17.6px ls:normal c:rgb(242, 229, 154) ta:start tt:none td:underline]
+   #19 <div> 16,45 358x68 flex row jc:space-between ai:center gap:normal ; pad:8px 0px
+    #20 <a> [Logo and Name] 16,62 130x34 flex row jc:center ai:center gap:20px ; pad:0px 0px 0px 8px ; z:1 ; href:./
+     #22 <div> [Variant 1] 24,62 122x34 ovf:hidden
+      #23 <div> 24,63 121x32 pos:absolute t:1px l:0px r:1px b:1px
+       #25 <svg> 24,63 121x32 ovf:hidden ; SVG use:#svg1470285565_4871 vb:null
+    #27 <div> [Logo and Name] 322,53 52x52 flex row jc:center ai:center gap:20px ; rad:12px
+     #28 <div> 338,67 21x24 flex column jc:flex-start ai:normal gap:normal
+      #29 <p> 338,67 21x24  T"" ["Font Awesome 6 Pro Regular" 400  24px/24px ls:normal c:rgb(18, 32, 35) ta:left tt:none]
+ #32 <div> [Main] 0,40 390x9208 flex column jc:center ai:center gap:0px
+  #33 <div> [Hero] 0,40 390x978 flex column jc:flex-start ai:center gap:10px ; pad:128px 24px 80px ; bg:rgb(255, 255, 255)
+   #34 <div> [top] 195,193 1x1 pos:absolute t:153px l:194.5px r:194.5px b:824.406px ; ovf:hidden ; z:1
+   #35 <div> [Header Content] 24,168 342x770 flex column jc:center ai:center gap:40px ; pad:0px 0px 40px ; maxW:1200px ; z:3
+    #36 <div> [Header Copy] 24,168 342x294 flex column jc:center ai:center gap:40px ; maxW:512px ; z:2
+     #37 <div> 24,168 342x112 flex column jc:center ai:center gap:2px
+      #39 <div> 24,168 342x112 flex column jc:flex-start ai:normal gap:normal ; z:1
+       #40 <h1> 24,168 342x112  T"Meet Topics Explorer" ["Feature Deck Web Light" 300  56px/56px ls:-0.56px c:rgb(18, 32, 35) ta:center tt:none]
+     #42 <div> 24,320 342x45 flex column jc:flex-start ai:normal gap:normal ; z:1
+      #43 <p> 24,320 342x45  T"See every topic your customers bring up before it becomes a trend you missed." ["Instrument Sans" 500  16px/22.4px ls:-0.16px c:rgb(18, 32, 35) ta:center tt:none]
+     #46 <a> [xlg] 116,405 157x58 flex row jc:center ai:center gap:10px ; pad:18px 24px ; bg:rgb(18, 32, 35) ; bgImg:linear-gradient(90deg, rgb(18, 32, 35) 0%, rgb(18, 32, 35) 20%, rgb(18, 32, 35) 40%, rgb(18, 32, 35) 60%, rgb(18, 32, 35) 80%, rgb(18, 32, 35) 100%) ; rad:16px ; href:./book-a-demo
+      #47 <div> [Text] 140,423 109x22 flex column jc:flex-start ai:normal gap:normal
+       #48 <p> 140,423 109x22  T"Book a demo" ["Instrument Sans" 600  18px/21.6px ls:normal c:rgb(255, 255, 255) ta:left tt:none]
+    #49 <div> [Visual] 24,502 342x396 maxW:512px
+     #50 <div> 0,429 390x592 pos:absolute t:-73px l:-24px r:-24px b:-123px ; z:0
+      #52 <div> 0,429 390x592 ovf:hidden
+       #54 <canvas> 0,429 390x592 ovf:clip ; CANVAS
+     #55 <div> [Topics-card] 24,502 342x353 bg:rgba(243, 240, 235, 0.5) ; rad:24px ; pos:absolute t:0px l:0px r:0px b:43px ; bdf:blur(6px)
+      #56 <div> [HumanBG] 72,401 251x454 pos:absolute t:-101px l:48px r:43px b:0px ; tf:matrix(1, 0, 0, 1, 0, 0) ; APPEAR:fibl5h
+       #57 <div> 72,401 251x454 pos:absolute t:0px l:0px r:0px b:0px
+        #58 <img> 72,401 251x454 ovf:clip ; img:https://framerusercontent.com/images/EKA5qqkzN9z86qNi052bzgvYlXA.webp?width=585&height=996 nat:251x427 fit:cover objpos:50% 50% alt:
+     #59 <div> 0,496 390x444 maxW:856px ; pos:absolute t:-6px l:-24px r:-24px b:-42px ; ovf:clip
+      #60 <div> 141,595 204x249 pos:absolute t:98.4844px l:140.906px r:45.0938px b:96.5156px ; ovf:clip ; mask:url("https://framerusercontent.com/images/RnI2nWdys2uqWp7NCcB0wEoBY.png?width=154&height=154") ; z:1
+       #61 <div> 141,595 204x249 pos:absolute t:0px l:0px r:0px b:0px
+        #62 <img> 141,595 204x249 ovf:clip ; img:https://framerusercontent.com/images/ETA2fSnLgCiwMUrfr6bhOzKES4.webp?scale-down-to=512&width=846&height=505 nat:334x199 fit:cover objpos:50% 50% alt:
+      #64 <div> 91,661 192x96 pos:absolute t:213.109px l:187.188px r:10.8125px b:134.703px ; tf:matrix(1, 0, 0, 1, -96, -48.0938) ; z:1
+       #65 <div> [Deployed-Right] 91,661 192x96 flex column jc:flex-start ai:center gap:0px ; pad:2px ; bg:rgb(255, 255, 255) ; rad:12px
+        #66 <div> [Content] 93,663 188x43 flex column jc:flex-start ai:flex-start gap:2px ; pad:0px 8px 8px
+         #67 <div> [Component header] 101,663 172x35 flex row jc:flex-start ai:center gap:4px ; pad:4px 0px 0px
+          #68 <div> [Tag] 101,667 144x31 flex column jc:flex-start ai:normal gap:normal
+           #69 <p> 101,667 144x31  T"Returns, Refunds and Exchanges" ["Tiempos Text Regular" 400  12px/15.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+          #70 <img> [Vector] 249,671 24x24 ovf:clip ; img:data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M 24 12 C 24 18.627 18.627 24 12 24 C 5.373 24 0 18.627 0 12 C 0 5.373 5.373 0 12 0 C 18.627 0 24 5.373 24 12 Z M 7.254 12.254 C 7.254 15.015 9.493 17.254 12.254 17.254 C 15.016 17.254 17.254 15.015 17.254 12.254 C 17.254 9.493 15.016 7.254 12.254 7.254 C 9.493 7.254 7.254 9.493 7.254 12.254 Z" fill="rgb(255, 93, 78)" height="24px" id="QpwtL19X5" width="24px"/></svg> nat:150x150 fit:fill objpos:50% 50% alt:
+        #71 <div> [User Message] 93,707 188x29 flex row jc:flex-start ai:center gap:4px ; pad:8px ; rad:10px ; shadow:rgba(156, 156, 156, 0.1) 0px 5px 10px 0px, rgba(156, 156, 156, 0.09) 0px 19px 19px 0px, rgba(156, 156, 156, 0.05) 0px 43px 26px 0px, rgba(156, 156, 156, 0.01) 0px 76px 30px 0px, rgba(156, 156, 156, 0) 0px 118px 33px 0px ; bdf:blur(8px)
+         #72 <div> [Response too generic] 101,715 172x13 flex column jc:flex-start ai:normal gap:normal
+          #73 <p> 101,715 172x13  T"7,496 Conversations • 99% CXP Score" ["Tiempos Text Regular" 400  10px/13px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+        #74 <div> [Input] 93,736 188x20 flex row jc:space-between ai:center gap:normal ; pad:2px 8px 2px 4px
+         #75 <div> [User Message] 97,738 54x16 flex row jc:flex-start ai:center gap:16px ; bg:rgb(255, 255, 255) ; rad:16px ; ovf:hidden
+          #76 <div> [Performance] 97,738 54x16 flex row jc:flex-start ai:center gap:4px
+           #77 <div> [Label] 97,738 54x16 flex row jc:center ai:center gap:4px ; pad:0px 6px 0px 4px ; rad:4px ; ovf:hidden
+            #78 <div> 101,738 12x16 flex column jc:flex-start ai:normal gap:normal ; maxW:564px ; z:1
+             #79 <p> 101,738 12x16  T"" ["Font Awesome 6 Sharp Light" 300  16px/16px ls:normal c:rgb(249, 80, 64) ta:center tt:none]
+            #80 <div> [Text] 117,738 28x16 flex column jc:flex-start ai:normal gap:normal
+             #81 <p> 117,738 28x16  T"+17%" ["Tiempos Text Regular" 400  12px/15.6px ls:normal c:rgb(249, 80, 64) ta:start tt:none]
+         #82 <div> [Response too generic] 226,739 47x13 flex column jc:flex-start ai:normal gap:normal
+          #83 <p> 226,739 47x13  T"This week" ["Tiempos Text Regular" 400  10px/13px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+      #85 <div> 36,612 163x36 pos:absolute t:133.188px l:117px r:110px b:274.812px ; tf:matrix(1, 0, 0, 1, -81.5, -18) ; z:1
+       #86 <div> [Compressed-Right] 36,612 163x36 flex column jc:flex-start ai:center gap:0px ; pad:2px ; bg:rgb(255, 255, 255) ; rad:12px
+        #87 <div> [Content] 38,614 159x32 flex column jc:flex-start ai:flex-start gap:2px ; pad:0px 8px
+         #88 <div> [Component header] 46,614 143x32 flex row jc:flex-start ai:center gap:4px ; pad:4px 0px
+          #89 <div> [Tag] 46,622 115x16 flex column jc:flex-start ai:normal gap:normal
+           #90 <p> 46,622 115x16  T"Shipping delays" ["Tiempos Text Regular" 400  12px/15.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+          #91 <img> [Vector] 165,618 24x24 ovf:clip ; img:data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M 24 12 C 24 18.627 18.627 24 12 24 C 5.373 24 0 18.627 0 12 C 0 5.373 5.373 0 12 0 C 18.627 0 24 5.373 24 12 Z M 7.254 12.254 C 7.254 15.015 9.493 17.254 12.254 17.254 C 15.016 17.254 17.254 15.015 17.254 12.254 C 17.254 9.493 15.016 7.254 12.254 7.254 C 9.493 7.254 7.254 9.493 7.254 12.254 Z" fill="rgb(255, 93, 78)" height="24px" id="QpwtL19X5" width="24px"/></svg> nat:150x150 fit:fill objpos:50% 50% alt:
+        #92 <div> [User Message] 28,651 177x1 flex row jc:flex-start ai:center gap:4px ; rad:10px ; shadow:rgba(156, 156, 156, 0.1) 0px 5px 10px 0px, rgba(156, 156, 156, 0.09) 0px 19px 19px 0px, rgba(156, 156, 156, 0.05) 0px 43px 26px 0px, rgba(156, 156, 156, 0.01) 0px 76px 30px 0px, rgba(156, 156, 156, 0) 0px 118px 33px 0px ; pos:absolute t:39px l:-7.4375px r:-6.5625px b:-4px ; op:0 ; ovf:clip ; bdf:blur(8px) ; z:1
+         #93 <div> [Response too generic] 28,645 177x13 flex column jc:flex-start ai:normal gap:normal
+          #94 <p> 28,645 177x13  T"401 Conversations • 92% CXP Score" ["Tiempos Text Regular" 400  10px/13px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+        #95 <div> [Input] 37,645 159x1 flex row jc:space-between ai:center gap:normal ; pos:absolute t:33px l:1.5px r:2.5px b:2px ; op:0 ; ovf:clip ; z:1
+         #96 <div> [User Message] 37,637 54x16 flex row jc:flex-start ai:center gap:16px ; bg:rgb(255, 255, 255) ; rad:16px ; ovf:hidden
+          #97 <div> [Performance] 37,637 54x16 flex row jc:flex-start ai:center gap:4px
+           #98 <div> [Label] 37,637 54x16 flex row jc:center ai:center gap:4px ; pad:0px 6px 0px 4px ; rad:4px ; ovf:hidden
+            #99 <div> 41,637 12x16 flex column jc:flex-start ai:normal gap:normal ; maxW:564px ; z:1
+             #100 <p> 41,637 12x16  T"" ["Font Awesome 6 Sharp Light" 300  16px/16px ls:normal c:rgb(249, 80, 64) ta:center tt:none]
+            #101 <div> [Text] 57,637 28x16 flex column jc:flex-start ai:normal gap:normal
+             #102 <p> 57,637 28x16  T"+12%" ["Tiempos Text Regular" 400  12px/15.6px ls:normal c:rgb(249, 80, 64) ta:start tt:none]
+         #103 <div> [Response too generic] 149,639 47x13 flex column jc:flex-start ai:normal gap:normal
+          #104 <p> 149,639 47x13  T"This week" ["Tiempos Text Regular" 400  10px/13px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+      #106 <div> 211,594 147x36 pos:absolute t:115.438px l:284.688px r:-41.6875px b:292.562px ; tf:matrix(1, 0, 0, 1, -73.5, -18) ; z:1
+       #107 <div> [Compressed-Left] 211,594 147x36 flex column jc:flex-start ai:center gap:0px ; pad:2px ; bg:rgb(255, 255, 255) ; rad:12px
+        #108 <div> [Content] 213,596 143x32 flex column jc:flex-start ai:flex-start gap:2px ; pad:0px 8px
+         #109 <div> [Component header] 221,596 127x32 flex row jc:flex-start ai:center gap:8px ; pad:4px 0px
+          #110 <div> [Tag] 253,604 95x16 flex column jc:flex-start ai:normal gap:normal
+           #111 <p> 253,604 95x16  T"Sizing questions" ["Tiempos Text Regular" 400  12px/15.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+          #112 <img> [Vector] 221,600 24x24 ovf:clip ; img:data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M 24 12 C 24 18.627 18.627 24 12 24 C 5.373 24 0 18.627 0 12 C 0 5.373 5.373 0 12 0 C 18.627 0 24 5.373 24 12 Z M 7.254 12.254 C 7.254 15.015 9.493 17.254 12.254 17.254 C 15.016 17.254 17.254 15.015 17.254 12.254 C 17.254 9.493 15.016 7.254 12.254 7.254 C 9.493 7.254 7.254 9.493 7.254 12.254 Z" fill="rgb(255, 93, 78)" height="24px" id="QpwtL19X5" width="24px"/></svg> nat:150x150 fit:fill objpos:50% 50% alt:
+        #113 <div> [User Message] 196,633 177x1 flex row jc:flex-start ai:center gap:4px ; rad:10px ; shadow:rgba(156, 156, 156, 0.1) 0px 5px 10px 0px, rgba(156, 156, 156, 0.09) 0px 19px 19px 0px, rgba(156, 156, 156, 0.05) 0px 43px 26px 0px, rgba(156, 156, 156, 0.01) 0px 76px 30px 0px, rgba(156, 156, 156, 0) 0px 118px 33px 0px ; pos:absolute t:39px l:-15.3906px r:-14.6094px b:-4px ; op:0 ; ovf:clip ; bdf:blur(8px) ; z:1
+         #114 <div> [Response too generic] 196,627 177x13 flex column jc:flex-start ai:normal gap:normal
+          #115 <p> 196,627 177x13  T"401 Conversations • 92% CXP Score" ["Tiempos Text Regular" 400  10px/13px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+        #116 <div> [Input] 205,627 159x1 flex row jc:space-between ai:center gap:normal ; pos:absolute t:33px l:-6.4375px r:-5.5625px b:2px ; op:0 ; ovf:clip ; z:1
+         #117 <div> [User Message] 205,619 54x16 flex row jc:flex-start ai:center gap:16px ; bg:rgb(255, 255, 255) ; rad:16px ; ovf:hidden
+          #118 <div> [Performance] 205,619 54x16 flex row jc:flex-start ai:center gap:4px
+           #119 <div> [Label] 205,619 54x16 flex row jc:center ai:center gap:4px ; pad:0px 6px 0px 4px ; rad:4px ; ovf:hidden
+            #120 <div> 209,619 12x16 flex column jc:flex-start ai:normal gap:normal ; maxW:564px ; z:1
+             #121 <p> 209,619 12x16  T"" ["Font Awesome 6 Sharp Light" 300  16px/16px ls:normal c:rgb(249, 80, 64) ta:center tt:none]
+            #122 <div> [Text] 225,620 28x16 flex column jc:flex-start ai:normal gap:normal
+             #123 <p> 225,620 28x16  T"+12%" ["Tiempos Text Regular" 400  12px/15.6px ls:normal c:rgb(249, 80, 64) ta:start tt:none]
+         #124 <div> [Response too generic] 317,621 47x13 flex column jc:flex-start ai:normal gap:normal
+          #125 <p> 317,621 47x13  T"This week" ["Tiempos Text Regular" 400  10px/13px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+      #127 <div> 223,776 147x36 pos:absolute t:297.469px l:296.391px r:-53.3906px b:110.531px ; tf:matrix(1, 0, 0, 1, -73.5, -18) ; z:1
+       #128 <div> [Compressed-Left] 223,776 147x36 flex column jc:flex-start ai:center gap:0px ; pad:2px ; bg:rgb(255, 255, 255) ; rad:12px
+        #129 <div> [Content] 225,778 143x32 flex column jc:flex-start ai:flex-start gap:2px ; pad:0px 8px
+         #130 <div> [Component header] 233,778 127x32 flex row jc:flex-start ai:center gap:8px ; pad:4px 0px
+          #131 <div> [Tag] 265,786 95x16 flex column jc:flex-start ai:normal gap:normal
+           #132 <p> 265,786 95x16  T"Feature requests" ["Tiempos Text Regular" 400  12px/15.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+          #133 <img> [Vector] 233,782 24x24 ovf:clip ; img:data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M 24 12 C 24 18.627 18.627 24 12 24 C 5.373 24 0 18.627 0 12 C 0 5.373 5.373 0 12 0 C 18.627 0 24 5.373 24 12 Z M 7.254 12.254 C 7.254 15.015 9.493 17.254 12.254 17.254 C 15.016 17.254 17.254 15.015 17.254 12.254 C 17.254 9.493 15.016 7.254 12.254 7.254 C 9.493 7.254 7.254 9.493 7.254 12.254 Z" fill="rgb(255, 93, 78)" height="24px" id="QpwtL19X5" width="24px"/></svg> nat:150x150 fit:fill objpos:50% 50% alt:
+        #134 <div> [User Message] 208,815 177x1 flex row jc:flex-start ai:center gap:4px ; rad:10px ; shadow:rgba(156, 156, 156, 0.1) 0px 5px 10px 0px, rgba(156, 156, 156, 0.09) 0px 19px 19px 0px, rgba(156, 156, 156, 0.05) 0px 43px 26px 0px, rgba(156, 156, 156, 0.01) 0px 76px 30px 0px, rgba(156, 156, 156, 0) 0px 118px 33px 0px ; pos:absolute t:39px l:-15.3906px r:-14.6094px b:-4px ; op:0 ; ovf:clip ; bdf:blur(8px) ; z:1
+         #135 <div> [Response too generic] 208,809 177x13 flex column jc:flex-start ai:normal gap:normal
+          #136 <p> 208,809 177x13  T"123 Conversations • 92% CXP Score" ["Tiempos Text Regular" 400  10px/13px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+        #137 <div> [Input] 216,809 159x1 flex row jc:space-between ai:center gap:normal ; pos:absolute t:33px l:-6.4375px r:-5.5625px b:2px ; op:0 ; ovf:clip ; z:1
+         #138 <div> [User Message] 216,801 58x16 flex row jc:flex-start ai:center gap:16px ; bg:rgb(255, 255, 255) ; rad:16px ; ovf:hidden
+          #139 <div> [Performance] 216,801 58x16 flex row jc:flex-start ai:center gap:4px
+           #140 <div> [Label] 216,801 58x16 flex row jc:center ai:center gap:4px ; pad:0px 6px 0px 4px ; rad:4px ; ovf:hidden
+            #141 <div> 220,801 12x16 flex column jc:flex-start ai:normal gap:normal ; maxW:564px ; z:1
+             #142 <p> 220,801 12x16  T"" ["Font Awesome 6 Sharp Light" 300  16px/16px ls:normal c:rgb(249, 80, 64) ta:center tt:none]
+            #143 <div> [Text] 236,802 32x16 flex column jc:flex-start ai:normal gap:normal
+             #144 <p> 236,802 32x16  T"+04%" ["Tiempos Text Regular" 400  12px/15.6px ls:normal c:rgb(249, 80, 64) ta:start tt:none]
+         #145 <div> [Response too generic] 328,803 47x13 flex column jc:flex-start ai:normal gap:normal
+          #146 <p> 328,803 47x13  T"This week" ["Tiempos Text Regular" 400  10px/13px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+      #148 <div> 56,803 137x36 pos:absolute t:324.109px l:124.797px r:128.203px b:83.8906px ; tf:matrix(1, 0, 0, 1, -68.5, -18) ; z:1
+       #149 <div> [Compressed-Left] 56,803 137x36 flex column jc:flex-start ai:center gap:0px ; pad:2px ; bg:rgb(255, 255, 255) ; rad:12px
+        #150 <div> [Content] 58,805 133x32 flex column jc:flex-start ai:flex-start gap:2px ; pad:0px 8px
+         #151 <div> [Component header] 66,805 117x32 flex row jc:flex-start ai:center gap:8px ; pad:4px 0px
+          #152 <div> [Tag] 98,813 85x16 flex column jc:flex-start ai:normal gap:normal
+           #153 <p> 98,813 85x16  T"Billing" ["Tiempos Text Regular" 400  12px/15.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+          #154 <img> [Vector] 66,809 24x24 ovf:clip ; img:data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M 24 12 C 24 18.627 18.627 24 12 24 C 5.373 24 0 18.627 0 12 C 0 5.373 5.373 0 12 0 C 18.627 0 24 5.373 24 12 Z M 7.254 12.254 C 7.254 15.015 9.493 17.254 12.254 17.254 C 15.016 17.254 17.254 15.015 17.254 12.254 C 17.254 9.493 15.016 7.254 12.254 7.254 C 9.493 7.254 7.254 9.493 7.254 12.254 Z" fill="rgb(255, 93, 78)" height="24px" id="QpwtL19X5" width="24px"/></svg> nat:150x150 fit:fill objpos:50% 50% alt:
+        #155 <div> [User Message] 36,842 177x1 flex row jc:flex-start ai:center gap:4px ; rad:10px ; shadow:rgba(156, 156, 156, 0.1) 0px 5px 10px 0px, rgba(156, 156, 156, 0.09) 0px 19px 19px 0px, rgba(156, 156, 156, 0.05) 0px 43px 26px 0px, rgba(156, 156, 156, 0.01) 0px 76px 30px 0px, rgba(156, 156, 156, 0) 0px 118px 33px 0px ; pos:absolute t:39px l:-20.375px r:-19.625px b:-4px ; op:0 ; ovf:clip ; bdf:blur(8px) ; z:1
+         #156 <div> [Response too generic] 36,836 177x13 flex column jc:flex-start ai:normal gap:normal
+          #157 <p> 36,836 177x13  T"123 Conversations • 92% CXP Score" ["Tiempos Text Regular" 400  10px/13px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+        #158 <div> [Input] 45,836 159x1 flex row jc:space-between ai:center gap:normal ; pos:absolute t:33px l:-11.4062px r:-10.5938px b:2px ; op:0 ; ovf:clip ; z:1
+         #159 <div> [User Message] 45,828 58x16 flex row jc:flex-start ai:center gap:16px ; bg:rgb(255, 255, 255) ; rad:16px ; ovf:hidden
+          #160 <div> [Performance] 45,828 58x16 flex row jc:flex-start ai:center gap:4px
+           #161 <div> [Label] 45,828 58x16 flex row jc:center ai:center gap:4px ; pad:0px 6px 0px 4px ; rad:4px ; ovf:hidden
+            #162 <div> 49,828 12x16 flex column jc:flex-start ai:normal gap:normal ; maxW:564px ; z:1
+             #163 <p> 49,828 12x16  T"" ["Font Awesome 6 Sharp Light" 300  16px/16px ls:normal c:rgb(249, 80, 64) ta:center tt:none]
+            #164 <div> [Text] 65,828 32x16 flex column jc:flex-start ai:normal gap:normal
+             #165 <p> 65,828 32x16  T"+04%" ["Tiempos Text Regular" 400  12px/15.6px ls:normal c:rgb(249, 80, 64) ta:start tt:none]
+         #166 <div> [Response too generic] 157,830 47x13 flex column jc:flex-start ai:normal gap:normal
+          #167 <p> 157,830 47x13  T"This week" ["Tiempos Text Regular" 400  10px/13px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+  #168 <div> [Logos] 0,1018 390x94 flex column jc:space-between ai:center gap:normal ; ovf:hidden ; z:1
+   #170 <div> [Ticker] 0,1018 390x33 flex row jc:flex-start ai:center gap:72px
+    #171 <ul> -4594,1018 390x33 flex row jc:flex-start ai:center gap:72px ; maxW:100% ; tf:matrix(1, 0, 0, 1, -4594.42, 0)
+     #172 <li> 40,1023 108x24 tf:matrix(1, 0, 0, 1, 4634, 0)
+      #173 <div> [FIGS] 40,1023 108x24 ovf:hidden ; z:0
+       #174 <div> 40,1023 108x24 pos:absolute t:0px l:0px r:0px b:0px
+        #175 <img> 40,1023 108x24 ovf:clip ; img:https://framerusercontent.com/images/f15R92EBkjPHx4ABojD1VWldk54.png?width=324&height=72 nat:324x72 fit:contain objpos:50% 50% alt:FIGS logo
+     #176 <li> 220,1023 64x24 tf:matrix(1, 0, 0, 1, 4634, 0)
+      #177 <div> [grüns] 220,1023 64x24 ovf:clip
+       #178 <div> 220,1023 64x24 pos:absolute t:0px l:0px r:0px b:0px
+        #179 <img> 220,1023 64x24 ovf:clip ; img:https://framerusercontent.com/images/BYD0tOgABiRk8bVwCxbpUE5hDs.png?width=191&height=71 nat:191x71 fit:contain objpos:50% 50% alt:Grüns
+     #180 <li> 356,1023 99x24 tf:matrix(1, 0, 0, 1, 4634, 0)
+      #181 <div> [Comfrt] 356,1023 99x24 ovf:clip
+       #182 <div> 356,1023 99x24 pos:absolute t:0px l:0px r:0px b:0px
+        #183 <img> 356,1023 99x24 ovf:clip ; img:https://framerusercontent.com/images/I79jHrog8xkJyLdp6KBEDj6Ywjk.png?width=297&height=72 nat:297x72 fit:contain objpos:50% 50% alt:Comfrt logo
+     #184 <li> 527,1019 76x32 tf:matrix(1, 0, 0, 1, 4634, 0)
+      #185 <div> [equip] 527,1019 76x32 
+       #187 <svg> 527,1019 76x32 ovf:hidden ; SVG use:#svg10373100366 vb:null
+     #189 <li> 675,1024 143x22 tf:matrix(1, 0, 0, 1, 4634, 0)
+      #190 <div> [Frame 2147258052] 675,1024 143x22 
+       #192 <svg> 675,1024 143x22 ovf:hidden ; SVG use:#svg10591469142 vb:null
+     #194 <li> 890,1022 98x25 tf:matrix(1, 0, 0, 1, 4634, 0)
+      #195 <div> [Frame 2147258050] 890,1022 98x25 
+       #197 <svg> 890,1022 98x25 ovf:hidden ; SVG use:#svg-1821574219_6053 vb:0 0 140 36
+     #199 <li> 1060,1019 32x32 tf:matrix(1, 0, 0, 1, 4634, 0)
+      #200 <div> [Needed] 1060,1019 32x32 
+       #202 <svg> 1060,1019 32x32 ovf:hidden ; SVG use:#svg-449892947_834 vb:0 0 32 32
+     #204 <li> 1164,1023 122x24 tf:matrix(1, 0, 0, 1, 4634, 0)
+      #205 <div> [Kit.sch] 1164,1023 122x24 ovf:clip
+       #206 <div> 1164,1023 122x24 pos:absolute t:0px l:0px r:0px b:0px
+        #207 <img> 1164,1023 122x24 ovf:clip ; img:https://framerusercontent.com/images/AB6e3uLpTQG8MoiIYeswvgR1GA.png?width=359&height=72 nat:359x72 fit:cover objpos:50% 50% alt:Kitsch
+     #208 <li> 1358,1019 137x32 tf:matrix(1, 0, 0, 1, 4634, 0)
+      #209 <div> [Frame 2147258061] 1358,1019 137x32 
+       #211 <svg> 1358,1019 137x32 ovf:hidden ; SVG use:#svg201838698_6999 vb:0 0 137 32
+     #213 <li> 1567,1023 113x24 tf:matrix(1, 0, 0, 1, 4634, 0)
+      #214 <div> [Coterie] 1567,1023 113x24 ovf:clip
+       #215 <div> 1567,1023 113x24 pos:absolute t:0px l:0px r:0px b:0px
+        #216 <img> 1567,1023 113x24 ovf:clip ; img:https://framerusercontent.com/images/NGj7RyixG3yYMakHsu1cO8b6klI.png?width=339&height=69 nat:339x69 fit:contain objpos:50% 50% alt:Coterie
+     #217 <li> 1752,1022 128x25 tf:matrix(1, 0, 0, 1, 4634, 0)
+      #218 <div> [Spanx] 1752,1022 128x25 ovf:clip
+       #219 <div> 1752,1022 128x25 pos:absolute t:0px l:0px r:0px b:0px
+        #220 <img> 1752,1022 128x25 ovf:clip ; img:https://framerusercontent.com/images/ipTDxCOrcnVCeET6yx6vSIolM.png?width=384&height=75 nat:384x75 fit:contain objpos:50% 50% alt:Spanx
+     #221 <li> 1952,1018 156x33 tf:matrix(1, 0, 0, 1, 4634, 0)
+      #222 <div> [HULKEN] 1952,1018 156x33 
+       #224 <svg> 1952,1018 156x33 ovf:hidden ; SVG use:#svg-814232746_2411 vb:0 0 156 33
+     #226 <li> 2180,1023 132x24 tf:matrix(1, 0, 0, 1, 4634, 0)
+      #227 <div> [HEXCLAD] 2180,1023 132x24 ovf:clip
+       #228 <div> 2180,1023 132x24 pos:absolute t:0px l:0px r:0px b:0px
+        #229 <img> 2180,1023 132x24 ovf:clip ; img:https://framerusercontent.com/images/MnVE0BFmVRvV32TDagBO3MssNY.png?width=396&height=72 nat:396x72 fit:contain objpos:50% 50% alt:HexClad
+     #230 <li> 2384,1023 67x24 tf:matrix(1, 0, 0, 1, 4634, 0)
+      #231 <div> [SIMPLE MODERN] 2384,1023 67x24 ovf:clip
+       #232 <div> 2384,1023 67x24 pos:absolute t:0px l:0px r:0px b:0px
+        #233 <img> 2384,1023 67x24 ovf:clip ; img:https://framerusercontent.com/images/i2qCrmnuVe4OD7RkXFSbqnY0o.png?width=201&height=72 nat:201x72 fit:contain objpos:50% 50% alt:Simple Modern
+     #234 <li> 2523,1023 125x24 tf:matrix(1, 0, 0, 1, 4634, 0)
+      #235 <div> [BANDIT] 2523,1023 125x24 ovf:clip
+       #236 <div> 2523,1023 125x24 pos:absolute t:0px l:0px r:0px b:0px
+        #237 <img> 2523,1023 125x24 ovf:clip ; img:https://framerusercontent.com/images/rOc0IEQNBGJ76FgKzvRKGjbcbGg.png?width=375&height=72 nat:375x72 fit:contain objpos:50% 50% alt:Bandit logo
+     #238 <li> 2720,1023 122x24 tf:matrix(1, 0, 0, 1, 4634, 0)
+      #239 <div> [dossier] 2720,1023 122x24 ovf:clip
+       #240 <div> 2720,1023 122x24 pos:absolute t:0px l:0px r:0px b:0px
+        #241 <img> 2720,1023 122x24 ovf:clip ; img:https://framerusercontent.com/images/fdkHiF9k6hfvcOWgBULP1tDgg.png?width=366&height=72 nat:366x72 fit:cover objpos:50% 50% alt:Dossier logo
+     #242 <li> 2914,1023 75x24 tf:matrix(1, 0, 0, 1, 4634, 0)
+      #243 <div> [BPN] 2914,1023 75x24 ovf:clip
+       #244 <div> 2914,1023 75x24 pos:absolute t:0px l:0px r:0px b:0px
+        #245 <img> 2914,1023 75x24 ovf:clip ; img:https://framerusercontent.com/images/aBQONPNCeQCU0SqkWRHkXpSoNk.png?width=225&height=72 nat:225x72 fit:contain objpos:50% 50% alt:BPN logo
+     #246 <li> 3061,1023 68x24 tf:matrix(1, 0, 0, 1, 4634, 0)
+      #247 <div> [IMAGE] 3061,1023 68x24 ovf:clip
+       #248 <div> [Image 1752] 3061,1023 68x24 pos:absolute t:0px l:0px r:0px b:0.109375px
+        #249 <div> 3061,1023 68x24 pos:absolute t:0px l:0px r:0px b:0px
+         #250 <img> 3061,1023 68x24 ovf:clip ; img:https://framerusercontent.com/images/01c5Ez5C3s4VcuLV6gPlc8yB5c.png?width=204&height=72 nat:204x72 fit:cover objpos:50% 50% alt:IMAGE Skincare logo
+     #251 <li> 3201,1023 61x24 tf:matrix(1, 0, 0, 1, 4634, 0)
+      #252 <div> [TRUE SEAMOSS] 3201,1023 61x24 ovf:clip
+       #253 <div> 3201,1023 61x24 pos:absolute t:0px l:0px r:0px b:0px
+        #254 <img> 3201,1023 61x24 ovf:clip ; img:https://framerusercontent.com/images/BF4xUaeD4YUpgGlCeLKENEShs.png?width=183&height=72 nat:183x72 fit:cover objpos:50% 50% alt:True Sea Moss
+     #255 <li> 3334,1023 54x24 tf:matrix(1, 0, 0, 1, 4634, 0)
+      #256 <div> [thrive] 3334,1023 54x24 ovf:clip
+       #257 <div> 3334,1023 54x24 pos:absolute t:0px l:0px r:0px b:0px
+        #258 <img> 3334,1023 54x24 ovf:clip ; img:https://framerusercontent.com/images/GrSuxeP4qHZfVZMHtiRVRUQ0.png?width=156&height=72 nat:156x72 fit:contain objpos:50% 50% alt:Thrive Causemetics logo
+     #259 <li> 3460,1023 140x24 tf:matrix(1, 0, 0, 1, 4634, 0)
+      #260 <div> [brooklinen] 3460,1023 140x24 ovf:clip
+       #261 <div> 3460,1023 140x24 pos:absolute t:0px l:0px r:0px b:0px
+        #262 <img> 3460,1023 140x24 ovf:clip ; img:https://framerusercontent.com/images/WZUVOxO5CPk8xzCiAVuV7qeY4.png?width=419&height=72 nat:419x72 fit:cover objpos:50% 50% alt:Brooklinen logo
+     #263 <li> 3672,1023 116x24 tf:matrix(1, 0, 0, 1, 4634, 0)
+      #264 <div> [THUMA] 3672,1023 116x24 ovf:clip
+       #265 <div> [Image 1744] 3672,1023 116x24 pos:absolute t:0px l:0px r:0px b:-0.15625px
+        #266 <div> 3672,1023 116x24 pos:absolute t:0px l:0px r:0px b:0px
+         #267 <img> 3672,1023 116x24 ovf:clip ; img:https://framerusercontent.com/images/xNHZgR86NWvMO4uy5gMz1IaAN2k.png?width=348&height=72 nat:348x72 fit:cover objpos:50% 50% alt:Thuma logo
+     #268 <li> 3860,1023 155x24 tf:matrix(1, 0, 0, 1, 4634, 0)
+      #269 <div> [madhappy] 3860,1023 155x24 ovf:clip
+       #270 <div> 3860,1023 155x24 pos:absolute t:0px l:0px r:0px b:0px
+        #271 <img> 3860,1023 155x24 ovf:clip ; img:https://framerusercontent.com/images/DwE5NbsNDqCLV0O8FiYnNwd5J9Q.png?width=465&height=72 nat:465x72 fit:contain objpos:50% 50% alt:Madhappy
+     #272 <li> 4087,1023 76x24 tf:matrix(1, 0, 0, 1, 4634, 0)
+      #273 <div> [Prose] 4087,1023 76x24 ovf:clip
+       #274 <div> 4087,1023 76x24 pos:absolute t:0px l:0px r:0px b:0px
+        #275 <img> 4087,1023 76x24 ovf:clip ; img:https://framerusercontent.com/images/tsgaXgk1czp5NS3XVEmeI6TMltY.png?width=228&height=72 nat:228x72 fit:cover objpos:50% 50% alt:Prose
+     #276 <li> 4235,1023 109x24 tf:matrix(1, 0, 0, 1, 4634, 0)
+      #277 <div> [Create] 4235,1023 109x24 ovf:clip
+       #278 <div> 4235,1023 109x24 pos:absolute t:0px l:0px r:0px b:0px
+        #279 <img> 4235,1023 109x24 ovf:clip ; img:https://framerusercontent.com/images/vtOMWVl8Yp4AVppVcHxc4tGpNo.png?width=339&height=72 nat:339x72 fit:contain objpos:50% 50% alt:create. logo
+     #280 <li> 4416,1023 33x24 tf:matrix(1, 0, 0, 1, 4634, 0)
+      #281 <div> [earth breeze] 4416,1023 33x24 ovf:clip
+       #282 <div> 4416,1023 33x24 pos:absolute t:0px l:0px r:0px b:0px
+        #283 <img> 4416,1023 33x24 ovf:clip ; img:https://framerusercontent.com/images/zeY8w7ISWrHStJnkXCdAnzIaxJY.png?width=99&height=72 nat:99x72 fit:cover objpos:50% 50% alt:Earth Breeze logo
+     #284 <li> 4521,1023 81x24 tf:matrix(1, 0, 0, 1, 4634, 0)
+      #285 <div> [Create] 4521,1023 81x24 ovf:clip
+       #286 <div> 4521,1023 81x24 pos:absolute t:0px l:0px r:0px b:0px
+        #287 <img> 4521,1023 81x24 ovf:clip ; img:https://framerusercontent.com/images/HOcdDOlX0hJ6EU68vfvBF5jCUGE.png?width=201&height=72 nat:201x72 fit:contain objpos:50% 50% alt:Perelel logo
+   #289 <div> [Ticker] 0,1079 390x33 flex row jc:flex-start ai:center gap:72px
+    #290 <ul> -49,1079 390x33 flex row jc:flex-start ai:center gap:72px ; maxW:100% ; tf:matrix(1, 0, 0, 1, -48.908, 0)
+     #291 <li> 5082,1084 45x24 tf:matrix(1, 0, 0, 1, 5131, 0)
+      #292 <div> [Logo] 5082,1084 45x24 ovf:clip
+       #293 <div> 5082,1084 45x24 pos:absolute t:0px l:0px r:0px b:0px
+        #294 <img> 5082,1084 45x24 ovf:clip ; img:https://framerusercontent.com/images/Aq6DzXdXu4MIKIcTeI2owZxxhQ.png?width=135&height=72 nat:135x72 fit:cover objpos:50% 50% alt:Momentous logo
+     #296 <div> [LSKD] 68,1080 131x32 
+      #298 <svg> 68,1080 131x32 ovf:hidden ; SVG use:#svg9921366993 vb:null
+     #301 <div> [Boll & Branch] 271,1079 34x33 
+      #303 <svg> 271,1079 34x33 ovf:hidden ; SVG use:#svg-1333153642_3454 vb:0 0 119 117
+     #306 <div> [BUTCHERBOX] 377,1083 284x25 ovf:clip
+      #307 <div> 377,1083 284x25 pos:absolute t:0px l:0px r:0px b:0px
+       #308 <img> 377,1083 284x25 ovf:clip ; img:https://framerusercontent.com/images/6WBJxjksOnKu3mL0PsTPuQADs.png?scale-down-to=512&width=849&height=75 nat:284x24 fit:cover objpos:50% 50% alt:ButcherBox logo
+     #310 <div> [canopy] 733,1084 80x24 ovf:clip
+      #311 <div> 733,1084 80x24 pos:absolute t:0px l:0px r:0px b:0px
+       #312 <img> 733,1084 80x24 ovf:clip ; img:https://framerusercontent.com/images/bzS2XUgsscNzELr0gNAayVKekY.png?width=240&height=72 nat:240x72 fit:cover objpos:50% 50% alt:Canopy logo
+     #314 <div> [thrive cosmetics] 885,1080 68x32 
+      #316 <svg> 885,1080 68x32 ovf:hidden ; SVG use:#svg10891584342 vb:null
+     #319 <div> [Image] 1025,1080 126x32 
+      #320 <div> 1025,1080 126x32 pos:absolute t:0px l:0px r:0px b:0px
+       #321 <img> 1025,1080 126x32 ovf:clip ; img:https://framerusercontent.com/images/mU9foxMbfbNFjX55TF6RML94o5w.png?width=284&height=72 nat:284x72 fit:cover objpos:50% 50% alt:
+     #323 <div> [bobbie] 1223,1081 80x30 
+      #325 <svg> 1223,1081 80x30 ovf:hidden ; SVG use:#svg9804176341 vb:null
+     #328 <div> [chomps] 1375,1081 96x29 
+      #330 <svg> 1375,1081 96x29 ovf:hidden ; SVG use:#svg12157853178 vb:null
+     #333 <div> [Bombas] 1543,1084 151x23 
+      #335 <svg> 1543,1084 151x23 ovf:hidden ; SVG use:#svg196742268_5959 vb:0 0 151 23
+     #338 <div> [MUD/TWR] 1766,1084 130x24 ovf:clip
+      #339 <div> 1766,1084 130x24 pos:absolute t:0px l:0px r:0px b:0px
+       #340 <img> 1766,1084 130x24 ovf:clip ; img:https://framerusercontent.com/images/b2mO2fGmA8ARZmKgdykvpeAPrg.png?width=390&height=73 nat:390x73 fit:cover objpos:50% 50% alt:MUD\WTR logo
+     #342 <div> [CORNBREAD] 1968,1083 24x25 ovf:clip
+      #343 <div> 1968,1083 24x25 pos:absolute t:0px l:0px r:0px b:0px
+       #344 <img> 1968,1083 24x25 ovf:clip ; img:https://framerusercontent.com/images/G7lpPlrCCK1xV0p0XWoTqux6a8U.png?width=72&height=75 nat:72x75 fit:cover objpos:50% 50% alt:Cornbread logo
+     #346 <div> [Windmill] 2064,1084 154x24 ovf:clip
+      #347 <div> 2064,1084 154x24 pos:absolute t:0px l:0px r:0px b:0px
+       #348 <img> 2064,1084 154x24 ovf:clip ; img:https://framerusercontent.com/images/0CkQpG5EAX41ml1wF3tjjPdotQ.png?width=462&height=72 nat:462x72 fit:cover objpos:50% 50% alt:Windmill logo
+     #350 <div> [Fresh Clean Threads] 2290,1084 241x24 ovf:clip
+      #351 <div> 2290,1084 241x24 pos:absolute t:0px l:0px r:0px b:0px
+       #352 <img> 2290,1084 241x24 ovf:clip ; img:https://framerusercontent.com/images/mDzDj68vfBprOTH463ChzCX4ta0.png?scale-down-to=512&width=723&height=72 nat:240x24 fit:cover objpos:50% 50% alt:Fresh Clean Threads logo
+     #354 <div> [martie] 2603,1084 114x24 ovf:clip
+      #355 <div> 2603,1084 114x24 pos:absolute t:0px l:0px r:0px b:0px
+       #356 <img> 2603,1084 114x24 ovf:clip ; img:https://framerusercontent.com/images/AbK666gYUVOE6etVCauHftBiDw.png?width=342&height=72 nat:342x72 fit:cover objpos:50% 50% alt:Martie logo
+     #358 <div> [Frame 2147258057] 2789,1080 153x32 
+      #360 <svg> 2789,1080 153x32 ovf:hidden ; SVG use:#svg-1579557720_6797 vb:0 0 135 28
+     #363 <div> [Swappie] 3014,1084 96x24 ovf:clip
+      #364 <div> 3014,1084 96x24 pos:absolute t:0px l:0px r:0px b:0px
+       #365 <img> 3014,1084 96x24 ovf:clip ; img:https://framerusercontent.com/images/hHeTF32MpR3bsAzmupGcNyzumJE.png?width=288&height=72 nat:288x72 fit:cover objpos:50% 50% alt:Swappie logo
+     #367 <div> [Audien Hearing] 3182,1083 112x25 ovf:clip
+      #368 <div> 3182,1083 112x25 pos:absolute t:0px l:0px r:0px b:0px
+       #369 <img> 3182,1083 112x25 ovf:clip ; img:https://framerusercontent.com/images/m5Kqr62Erb3p4vigoPO8AQoO4.png?width=336&height=75 nat:336x75 fit:cover objpos:50% 50% alt:Audien Hearing logo
+     #371 <div> [mellow] 3366,1083 114x25 ovf:clip
+      #372 <div> 3366,1083 114x25 pos:absolute t:0px l:0px r:0px b:0px
+       #373 <img> 3366,1083 114x25 ovf:clip ; img:https://framerusercontent.com/images/WJ2PkYGeJwYvXglVbDo5EJbwA.png?width=342&height=75 nat:342x75 fit:cover objpos:50% 50% alt:Mellow logo
+     #375 <div> [cuts] 3552,1084 71x24 ovf:clip
+      #376 <div> 3552,1084 71x24 pos:absolute t:0px l:0px r:0px b:0px
+       #377 <img> 3552,1084 71x24 ovf:clip ; img:https://framerusercontent.com/images/fjLrxICsMQHzaBjdYLxrrdrM3G4.png?width=213&height=72 nat:213x72 fit:cover objpos:50% 50% alt:Cuts logo
+     #379 <div> [Terra Kaffe] 3695,1084 113x24 ovf:clip
+      #380 <div> 3695,1084 113x24 pos:absolute t:0px l:0px r:0px b:0px
+       #381 <img> 3695,1084 113x24 ovf:clip ; img:https://framerusercontent.com/images/6TcxRVWhKfaQLssEe0VL9Rz3jE.png?width=339&height=72 nat:339x72 fit:cover objpos:50% 50% alt:Terra Kaffe
+     #383 <div> [goody] 3880,1084 84x24 ovf:clip
+      #384 <div> 3880,1084 84x24 pos:absolute t:0px l:0px r:0px b:0px
+       #385 <img> 3880,1084 84x24 ovf:clip ; img:https://framerusercontent.com/images/509GeCyOIKTykzHVuIYfbXEVRs.png?width=252&height=72 nat:252x72 fit:cover objpos:50% 50% alt:Goody logo
+     #387 <div> [Loftie] 4036,1084 82x24 ovf:clip
+      #388 <div> 4036,1084 82x24 pos:absolute t:0px l:0px r:0px b:0px
+       #389 <img> 4036,1084 82x24 ovf:clip ; img:https://framerusercontent.com/images/ucZZwgyXL4NtHMRCxf3UVY15Z8.png?width=246&height=72 nat:246x72 fit:cover objpos:50% 50% alt:Loftie logo
+     #391 <div> [goodprotein] 4190,1083 119x25 ovf:clip
+      #392 <div> 4190,1083 119x25 pos:absolute t:0px l:0px r:0px b:0px
+       #393 <img> 4190,1083 119x25 ovf:clip ; img:https://framerusercontent.com/images/q4mMPfBgmsWhR5QXDWppAKW4LQ.png?width=357&height=75 nat:357x75 fit:cover objpos:50% 50% alt:Good Protein logo
+     #395 <div> [Hero] 4381,1084 47x24 ovf:clip
+      #396 <div> 4381,1084 47x24 pos:absolute t:0px l:0px r:0px b:0px
+       #397 <img> 4381,1084 47x24 ovf:clip ; img:https://framerusercontent.com/images/3o2qMi9la5gCGIKiRiCV9lmGojc.png?width=141&height=72 nat:141x72 fit:cover objpos:50% 50% alt:Hero Bread logo
+     #399 <div> [ANTLER] 4500,1084 45x24 ovf:clip
+      #400 <div> 4500,1084 45x24 pos:absolute t:0px l:0px r:0px b:0px
+       #401 <img> 4500,1084 45x24 ovf:clip ; img:https://framerusercontent.com/images/paeH4OeAad02akgwspGrjBHzQ.png?width=135&height=72 nat:135x72 fit:cover objpos:50% 50% alt:Antler logo
+     #403 <div> [sheertex] 4617,1084 97x24 ovf:clip
+      #404 <div> 4617,1084 97x24 pos:absolute t:0px l:0px r:0px b:0px
+       #405 <img> 4617,1084 97x24 ovf:clip ; img:https://framerusercontent.com/images/uKIlrqsg58S1O0V1EsLphiI5er4.png?width=291&height=72 nat:291x72 fit:cover objpos:50% 50% alt:Sheertex logo
+     #407 <div> [BUTCHERBOX] 4786,1083 224x25 ovf:clip
+      #408 <div> 4786,1083 224x25 pos:absolute t:0px l:0px r:0px b:0px
+       #409 <img> 4786,1083 224x25 ovf:clip ; img:https://framerusercontent.com/images/WgL5fhIpF14sixWUViAY9qNxhE.png?scale-down-to=512&width=618&height=75 nat:223x27 fit:contain objpos:50% 50% alt:Portland Leather logo
+  #410 <div> [Features] 0,1112 390x1895 flex column jc:center ai:center gap:0px ; pad:56px 0px 0px
+   #411 <div> [Title] 0,1168 390x263 flex column jc:center ai:center gap:16px ; pad:0px 24px ; maxW:1072px ; z:1
+    #412 <div> 80,1168 230x20 flex column jc:flex-start ai:normal gap:normal ; maxW:564px ; z:1
+     #413 <p> 80,1168 230x20 
+      #414 <strong> 80,1168 230x18  T"intelligence, visualized" ["Instrument Sans" 700  14px/19.6px ls:1.7px c:rgb(18, 32, 35) ta:center tt:uppercase]
+    #415 <div> 24,1204 342x144 flex column jc:flex-start ai:normal gap:normal ; maxW:800px ; z:1
+     #416 <h2> 24,1204 342x144  T"Always know what customers are talking about" ["Feature Deck Web Light" 400  48px/48px ls:-0.96px c:rgb(18, 32, 35) ta:center tt:none]
+    #417 <div> 24,1364 342x67 flex column jc:flex-start ai:normal gap:normal ; maxW:680px ; op:0.82 ; z:1
+     #418 <p> 24,1364 342x67  T"One tool that reads every conversation, replaces quarterly surveys, analyst hours, and the guesswork in between." ["Instrument Sans" 500  16px/22.4px ls:-0.16px c:rgb(18, 32, 35) ta:center tt:none]
+   #419 <div> [Scroll Area] 0,1431 390x1576 flex column jc:center ai:center gap:32px ; pad:64px 16px ; bg:rgb(255, 255, 255)
+    #420 <div> [Content] 16,1495 358x1448 flex column jc:center ai:center gap:80px
+     #421 <div> [1] 16,1495 358x677 flex column jc:center ai:center gap:40px ; maxW:1072px ; z:1
+      #422 <div> 19,1495 352x197 flex column jc:center ai:center gap:24px ; maxW:352px ; ovf:clip
+       #423 <div> 19,1495 352x86 flex column jc:center ai:center gap:16px
+        #424 <div> 19,1495 352x86 flex column jc:flex-start ai:normal gap:normal ; z:1
+         #425 <h3> 19,1495 352x86  T"Catch issues long before they rise" ["Feature Deck Web Regular" 400  36px/43.2px ls:normal c:rgb(18, 32, 35) ta:left tt:none]
+       #426 <div> 19,1606 352x87 flex column jc:center ai:center gap:12px ; ovf:hidden
+        #427 <div> 19,1606 352x21 flex row jc:center ai:center gap:10px ; ovf:hidden
+         #428 <div> [star-four-light 1] 19,1608 16x16 
+          #430 <svg> 19,1608 16x16 ovf:hidden ; SVG use:#svg1796323270_1256 vb:0 0 24 24
+         #432 <div> 45,1606 326x21 flex column jc:flex-start ai:normal gap:normal ; maxW:564px ; z:1
+          #433 <p> 45,1606 326x21  T"Volume and score in one view, always current" ["Tiempos Text Regular" 400  14px/21px ls:-0.14px c:rgb(42, 54, 57) ta:start tt:none]
+        #434 <div> 19,1639 352x21 flex row jc:center ai:center gap:10px ; ovf:hidden
+         #435 <div> [star-four-light 1] 19,1641 16x16 
+          #437 <svg> 19,1641 16x16 ovf:hidden ; SVG use:#svg1796323270_1256 vb:0 0 24 24
+         #439 <div> 45,1639 326x21 flex column jc:flex-start ai:normal gap:normal ; maxW:564px ; z:1
+          #440 <p> 45,1639 326x21  T"Trend direction visible at a glance, per topic" ["Tiempos Text Regular" 400  14px/21px ls:-0.14px c:rgb(42, 54, 57) ta:left tt:none]
+        #441 <div> 19,1672 352x21 flex row jc:center ai:center gap:10px ; ovf:hidden
+         #442 <div> [star-four-light 1] 19,1674 16x16 
+          #444 <svg> 19,1674 16x16 ovf:hidden ; SVG use:#svg1796323270_1256 vb:0 0 24 24
+         #446 <div> 45,1672 326x21 flex column jc:flex-start ai:normal gap:normal ; maxW:564px ; z:1
+          #447 <p> 45,1672 326x21  T"Sort by growth, score, or volume" ["Tiempos Text Regular" 400  14px/21px ls:-0.14px c:rgb(42, 54, 57) ta:left tt:none]
+      #449 <div> 16,1733 358x440 maxW:512px
+       #450 <div> [Mobile - Compressed] 16,1733 358x440 maxW:100% ; bg:rgb(250, 247, 241) ; rad:24px ; ovf:hidden
+        #451 <div> 34,1844 322x218 flex column jc:center ai:center gap:8px ; pos:absolute t:220px l:179px r:-143.188px b:2.39062px ; tf:matrix(1, 0, 0, 1, -161.094, -108.805)
+         #452 <div> 34,1844 322x17 flex row jc:flex-end ai:center gap:16px ; pad:0px 8px 0px 0px ; ovf:clip
+          #453 <div> [Autonomous reviews management] 203,1844 55x17 flex column jc:flex-start ai:normal gap:normal
+           #454 <p> 203,1844 55x17  T"volume" ["Instrument Sans" 600  12px/16.8px ls:0.6px c:rgb(120, 115, 104) ta:center tt:uppercase]
+          #455 <div> [Autonomous reviews management] 274,1844 74x17 flex column jc:flex-start ai:normal gap:normal
+           #456 <p> 274,1844 74x17  T"CXP score" ["Instrument Sans" 600  12px/16.8px ls:0.6px c:rgb(120, 115, 104) ta:center tt:uppercase]
+         #457 <div> [Tab / Agent] 34,1869 322x42 flex column jc:flex-start ai:center gap:12px ; bg:rgb(255, 255, 255) ; rad:20px ; shadow:rgba(156, 156, 156, 0.1) 0px 5px 10px 0px, rgba(156, 156, 156, 0.09) 0px 19px 19px 0px, rgba(156, 156, 156, 0.05) 0px 43px 26px 0px, rgba(156, 156, 156, 0.01) 0px 76px 30px 0px, rgba(156, 156, 156, 0) 0px 118px 33px 0px ; ovf:clip ; bdf:blur(8px)
+          #458 <div> 34,1869 322x42 flex row jc:center ai:center gap:10px ; ovf:clip
+           #459 <div> 34,1869 322x42 flex row jc:space-between ai:center gap:normal ; pad:0px 16px 0px 0px ; ovf:clip
+            #460 <div> [User Message] 34,1869 200x42 flex row jc:flex-start ai:center gap:16px ; pad:12px ; bg:rgb(255, 255, 255) ; rad:16px ; ovf:hidden ; bdf:blur(5px)
+             #461 <div> [Legend series] 46,1881 176x18 flex row jc:flex-start ai:center gap:8px
+              #462 <div> [Color] 46,1886 8x8 bg:rgb(255, 187, 117) ; rad:100%
+              #463 <div> [Changes & Refunds] 62,1881 160x18 ovf:clip
+               #464 <p> 62,1881 160x18  T"Payment and Billing" ["Tiempos Text Regular" 400  14px/18.2px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+            #465 <div> 233,1881 107x18 flex row jc:center ai:center gap:8px ; ovf:clip
+             #466 <div> 233,1881 50x18 flex row jc:center ai:center gap:2px ; ovf:clip
+              #467 <div> [arrow-up-right] 233,1881 18x18 
+               #469 <svg> 233,1881 18x18 ovf:hidden ; SVG use:#svg12590201733 vb:null
+              #471 <div> [Text] 253,1881 30x18 flex column jc:flex-start ai:normal gap:normal
+               #472 <p> 253,1881 30x18  T"7,412" ["Tiempos Text Regular" 400  14px/18.2px ls:normal c:rgb(251, 86, 70) ta:start tt:none]
+             #473 <div> 292,1881 48x18 flex row jc:center ai:center gap:2px ; ovf:clip
+              #474 <div> [arrow-up-right] 292,1881 18x18 tf:matrix(0, -1, 1, 0, 0, 0)
+               #476 <svg> 292,1881 18x18 ovf:hidden ; SVG use:#svg-139087765_230 vb:0 0 12 12
+              #478 <div> [Text] 312,1881 28x18 flex column jc:flex-start ai:normal gap:normal
+               #479 <p> 312,1881 28x18  T"99%" ["Tiempos Text Regular" 400  14px/18.2px ls:normal c:rgb(14, 137, 59) ta:start tt:none]
+         #480 <div> [Tab / Agent] 34,1919 322x42 flex column jc:flex-start ai:center gap:12px ; bg:rgb(255, 255, 255) ; rad:20px ; shadow:rgba(156, 156, 156, 0.1) 0px 5px 10px 0px, rgba(156, 156, 156, 0.09) 0px 19px 19px 0px, rgba(156, 156, 156, 0.05) 0px 43px 26px 0px, rgba(156, 156, 156, 0.01) 0px 76px 30px 0px, rgba(156, 156, 156, 0) 0px 118px 33px 0px ; ovf:clip ; bdf:blur(8px)
+          #481 <div> 34,1919 322x42 flex column jc:center ai:center gap:10px ; ovf:clip
+           #482 <div> 34,1919 322x42 flex row jc:space-between ai:center gap:normal ; pad:0px 16px 0px 0px ; ovf:clip
+            #483 <div> [User Message] 34,1919 199x42 flex row jc:flex-start ai:center gap:16px ; pad:12px ; bg:rgba(250, 247, 241, 0) ; rad:24px ; ovf:hidden
+             #484 <div> [Legend series] 46,1931 175x18 flex row jc:flex-start ai:center gap:8px
+              #485 <div> [Color] 46,1936 8x8 bg:rgb(255, 187, 117) ; rad:100%
+              #486 <div> [Changes & Refunds] 62,1931 159x18 ovf:clip
+               #487 <p> 62,1931 159x18  T"Delivery Issues" ["Tiempos Text Regular" 400  14px/18.2px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+            #488 <div> 233,1931 107x18 flex row jc:center ai:center gap:8px ; ovf:clip
+             #489 <div> 233,1931 52x18 flex row jc:center ai:center gap:2px ; ovf:clip
+              #490 <div> [arrow-up-right] 233,1931 18x18 
+               #492 <svg> 233,1931 18x18 ovf:hidden ; SVG use:#svg12590201733 vb:null
+              #494 <div> [Text] 253,1931 32x18 flex column jc:flex-start ai:normal gap:normal
+               #495 <p> 253,1931 32x18  T"6,135" ["Tiempos Text Regular" 400  14px/18.2px ls:normal c:rgb(251, 86, 70) ta:start tt:none]
+             #496 <div> 293,1931 47x18 flex row jc:center ai:center gap:2px ; ovf:clip
+              #497 <div> [arrow-up-right] 293,1931 18x18 tf:matrix(0, -1, 1, 0, 0, 0)
+               #499 <svg> 293,1931 18x18 ovf:hidden ; SVG use:#svg-139087765_230 vb:0 0 12 12
+              #501 <div> [Text] 313,1931 27x18 flex column jc:flex-start ai:normal gap:normal
+               #502 <p> 313,1931 27x18  T"97%" ["Tiempos Text Regular" 400  14px/18.2px ls:normal c:rgb(14, 137, 59) ta:start tt:none]
+           #503 <div> [Container] 0,1960 389x1 flex column jc:flex-start ai:center gap:12px ; pad:0px 12px ; pos:absolute t:41.2031px l:-33.8125px r:-33px b:0px ; ovf:clip ; z:1
+            #504 <div> 12,1960 365x17 flex column jc:flex-start ai:flex-start gap:12px ; ovf:clip
+             #505 <div> [Autonomous reviews management] 12,1960 144x17 flex column jc:flex-start ai:normal gap:normal
+              #506 <p> 12,1960 144x17  T"6,135 conversations" ["Instrument Sans" 600  12px/16.8px ls:0.6px c:rgb(120, 115, 104) ta:center tt:uppercase]
+            #507 <div> 12,1989 365x1 flex column jc:flex-start ai:center gap:8px
+             #508 <div> 12,1989 365x82 flex column jc:center ai:center gap:10px ; pad:2px ; rad:14px ; shadow:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px ; ovf:hidden
+              #509 <div> [User Message] 14,1991 361x78 flex row jc:center ai:center gap:12px ; pad:12px ; bg:rgb(255, 255, 255) ; rad:12px
+               #510 <div> 26,2003 337x54 flex column jc:center ai:flex-start gap:2px ; ovf:clip
+                #511 <div> 26,2003 337x16 flex row jc:space-between ai:center gap:normal ; ovf:clip
+                 #512 <div> [Response too generic] 26,2003 33x16 flex column jc:flex-start ai:normal gap:normal
+                  #513 <p> 26,2003 33x16  T"#4819" ["Tiempos Text Regular" 400  12px/15.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+                 #514 <div> [Response too generic] 306,2003 57x16 flex column jc:flex-start ai:normal gap:normal
+                  #515 <p> 306,2003 57x16  T"1 hour ago" ["Tiempos Text Regular" 400  12px/15.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+                #516 <div> 26,2020 337x36 flex row jc:center ai:center gap:10px ; ovf:clip
+                 #517 <div> [Response too generic] 26,2020 337x36 flex column jc:flex-start ai:normal gap:normal
+                  #518 <p> 26,2020 337x36  T"My tracking hasn't updated in 4 days. Is my package lost?" ["Tiempos Text Regular" 400  14px/18.2px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+             #519 <div> 12,2079 365x64 flex column jc:center ai:center gap:10px ; pad:2px ; rad:14px ; shadow:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px ; ovf:hidden
+              #520 <div> [User Message] 14,2081 361x60 flex row jc:center ai:center gap:12px ; pad:12px ; bg:rgb(255, 255, 255) ; rad:12px
+               #521 <div> 26,2093 337x36 flex column jc:center ai:flex-start gap:2px ; ovf:clip
+                #522 <div> 26,2093 337x16 flex row jc:space-between ai:center gap:normal ; ovf:clip
+                 #523 <div> [Response too generic] 26,2093 33x16 flex column jc:flex-start ai:normal gap:normal
+                  #524 <p> 26,2093 33x16  T"#5041" ["Tiempos Text Regular" 400  12px/15.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+                 #525 <div> [Response too generic] 306,2093 57x16 flex column jc:flex-start ai:normal gap:normal
+                  #526 <p> 306,2093 57x16  T"1 hour ago" ["Tiempos Text Regular" 400  12px/15.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+                #527 <div> 26,2110 337x18 flex row jc:center ai:center gap:10px ; ovf:clip
+                 #528 <div> [Response too generic] 26,2110 337x18 flex column jc:flex-start ai:normal gap:normal
+                  #529 <p> 26,2110 337x18  T"I paid for express shipping and it's been 6 days." ["Tiempos Text Regular" 400  14px/18.2px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+             #530 <div> 12,2151 365x82 flex column jc:center ai:center gap:10px ; pad:2px ; rad:14px ; shadow:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px ; ovf:hidden
+              #531 <div> [User Message] 14,2153 361x78 flex row jc:center ai:center gap:12px ; pad:12px ; bg:rgb(255, 255, 255) ; rad:12px
+               #532 <div> 26,2165 337x54 flex column jc:center ai:flex-start gap:2px ; ovf:clip
+                #533 <div> 26,2165 337x16 flex row jc:space-between ai:center gap:normal ; ovf:clip
+                 #534 <div> [Response too generic] 26,2165 27x16 flex column jc:flex-start ai:normal gap:normal
+                  #535 <p> 26,2165 27x16  T"5038" ["Tiempos Text Regular" 400  12px/15.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+                 #536 <div> [Response too generic] 306,2165 57x16 flex column jc:flex-start ai:normal gap:normal
+                  #537 <p> 306,2165 57x16  T"1 hour ago" ["Tiempos Text Regular" 400  12px/15.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+                #538 <div> 26,2182 337x36 flex row jc:center ai:center gap:10px ; ovf:clip
+                 #539 <div> [Response too generic] 26,2182 337x36 flex column jc:flex-start ai:normal gap:normal
+                  #540 <p> 26,2182 337x36  T"My package says out for delivery but it never arrived." ["Tiempos Text Regular" 400  14px/18.2px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+             #541 <div> 12,2241 365x82 flex column jc:center ai:center gap:10px ; pad:2px ; rad:14px ; shadow:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px ; ovf:hidden
+              #542 <div> [User Message] 14,2243 361x78 flex row jc:center ai:center gap:12px ; pad:12px ; bg:rgb(255, 255, 255) ; rad:12px
+               #543 <div> 26,2255 337x54 flex column jc:center ai:flex-start gap:2px ; ovf:clip
+                #544 <div> 26,2255 337x16 flex row jc:space-between ai:center gap:normal ; ovf:clip
+                 #545 <div> [Response too generic] 26,2255 33x16 flex column jc:flex-start ai:normal gap:normal
+                  #546 <p> 26,2255 33x16  T"#4819" ["Tiempos Text Regular" 400  12px/15.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+                 #547 <div> [Response too generic] 306,2255 57x16 flex column jc:flex-start ai:normal gap:normal
+                  #548 <p> 306,2255 57x16  T"1 hour ago" ["Tiempos Text Regular" 400  12px/15.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+                #549 <div> 26,2272 337x36 flex row jc:center ai:center gap:10px ; ovf:clip
+                 #550 <div> [Response too generic] 26,2272 337x36 flex column jc:flex-start ai:normal gap:normal
+                  #551 <p> 26,2272 337x36  T"My tracking hasn't updated in 4 days. Is my package lost?" ["Tiempos Text Regular" 400  14px/18.2px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+            #552 <div> [Rectangle 7071] 0,1867 389x101 bgImg:linear-gradient(0deg, rgb(250, 247, 241) 0%, rgba(250, 247, 241, 0) 100%) ; pos:absolute t:-93px l:0px r:0px b:-7px ; z:0
+         #553 <div> [Tab / Agent] 34,1969 322x42 flex column jc:flex-start ai:center gap:12px ; bg:rgb(255, 255, 255) ; rad:20px ; shadow:rgba(156, 156, 156, 0.1) 0px 5px 10px 0px, rgba(156, 156, 156, 0.09) 0px 19px 19px 0px, rgba(156, 156, 156, 0.05) 0px 43px 26px 0px, rgba(156, 156, 156, 0.01) 0px 76px 30px 0px, rgba(156, 156, 156, 0) 0px 118px 33px 0px ; ovf:clip ; bdf:blur(8px)
+          #554 <div> 34,1969 322x42 flex row jc:center ai:center gap:10px ; ovf:clip
+           #555 <div> 34,1969 322x42 flex row jc:space-between ai:center gap:normal ; pad:0px 16px 0px 0px ; ovf:clip
+            #556 <div> [User Message] 34,1969 198x42 flex row jc:flex-start ai:center gap:16px ; pad:12px ; bg:rgb(255, 255, 255) ; rad:16px ; ovf:hidden ; bdf:blur(5px)
+             #557 <div> [Legend series] 46,1981 174x18 flex row jc:flex-start ai:center gap:8px
+              #558 <div> [Color] 46,1986 8x8 bg:rgb(255, 187, 117) ; rad:100%
+              #559 <div> [Changes & Refunds] 62,1981 158x18 ovf:clip
+               #560 <p> 62,1981 158x18  T"Trial, Sample, and Gifts" ["Tiempos Text Regular" 400  14px/18.2px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+            #561 <div> 232,1981 108x18 flex row jc:center ai:center gap:8px ; ovf:clip
+             #562 <div> 232,1981 52x18 flex row jc:center ai:center gap:2px ; ovf:clip
+              #563 <div> [arrow-up-right] 232,1981 18x18 
+               #565 <svg> 232,1981 18x18 ovf:hidden ; SVG use:#svg12590201733 vb:null
+              #567 <div> [Text] 252,1981 32x18 flex column jc:flex-start ai:normal gap:normal
+               #568 <p> 252,1981 32x18  T"1,301" ["Tiempos Text Regular" 400  14px/18.2px ls:normal c:rgb(251, 86, 70) ta:start tt:none]
+             #569 <div> 292,1981 48x18 flex row jc:center ai:center gap:2px ; ovf:clip
+              #570 <div> [arrow-up-right] 292,1981 18x18 tf:matrix(0, -1, 1, 0, 0, 0)
+               #572 <svg> 292,1981 18x18 ovf:hidden ; SVG use:#svg-139087765_230 vb:0 0 12 12
+              #574 <div> [Text] 312,1981 28x18 flex column jc:flex-start ai:normal gap:normal
+               #575 <p> 312,1981 28x18  T"98%" ["Tiempos Text Regular" 400  14px/18.2px ls:normal c:rgb(14, 137, 59) ta:start tt:none]
+         #576 <div> [Tab / Agent] 34,2019 322x42 flex column jc:flex-start ai:center gap:12px ; bg:rgb(255, 255, 255) ; rad:20px ; shadow:rgba(156, 156, 156, 0.1) 0px 5px 10px 0px, rgba(156, 156, 156, 0.09) 0px 19px 19px 0px, rgba(156, 156, 156, 0.05) 0px 43px 26px 0px, rgba(156, 156, 156, 0.01) 0px 76px 30px 0px, rgba(156, 156, 156, 0) 0px 118px 33px 0px ; ovf:clip ; bdf:blur(8px)
+          #577 <div> 34,2019 322x42 flex row jc:center ai:center gap:10px ; ovf:clip
+           #578 <div> 34,2019 322x42 flex row jc:space-between ai:center gap:normal ; pad:0px 16px 0px 0px ; ovf:clip
+            #579 <div> [User Message] 34,2019 199x42 flex row jc:flex-start ai:center gap:16px ; pad:12px ; bg:rgb(255, 255, 255) ; rad:16px ; ovf:hidden ; bdf:blur(5px)
+             #580 <div> [Legend series] 46,2031 175x18 flex row jc:flex-start ai:center gap:8px
+              #581 <div> [Color] 46,2036 8x8 bg:rgb(255, 187, 117) ; rad:100%
+              #582 <div> [Changes & Refunds] 62,2031 159x18 ovf:clip
+               #583 <p> 62,2031 159x18  T"Product complaints" ["Tiempos Text Regular" 400  14px/18.2px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+            #584 <div> 233,2031 107x18 flex row jc:center ai:center gap:8px ; ovf:clip
+             #585 <div> 233,2031 52x18 flex row jc:center ai:center gap:2px ; ovf:clip
+              #586 <div> [arrow-up-right] 233,2031 18x18 
+               #588 <svg> 233,2031 18x18 ovf:hidden ; SVG use:#svg12590201733 vb:null
+              #590 <div> [Text] 253,2031 32x18 flex column jc:flex-start ai:normal gap:normal
+               #591 <p> 253,2031 32x18  T"6,135" ["Tiempos Text Regular" 400  14px/18.2px ls:normal c:rgb(251, 86, 70) ta:start tt:none]
+             #592 <div> 293,2031 47x18 flex row jc:center ai:center gap:2px ; ovf:clip
+              #593 <div> [arrow-up-right] 293,2031 18x18 tf:matrix(0, -1, 1, 0, 0, 0)
+               #595 <svg> 293,2031 18x18 ovf:hidden ; SVG use:#svg-139087765_230 vb:0 0 12 12
+              #597 <div> [Text] 313,2031 27x18 flex column jc:flex-start ai:normal gap:normal
+               #598 <p> 313,2031 27x18  T"78%" ["Tiempos Text Regular" 400  14px/18.2px ls:normal c:rgb(14, 137, 59) ta:start tt:none]
+        #599 <div> [Rectangle 7071] 16,2072 358x101 bgImg:linear-gradient(0deg, rgb(250, 247, 241) 0%, rgba(250, 247, 241, 0) 100%) ; pos:absolute t:339px l:0px r:0px b:0px ; z:0
+     #600 <div> [2] 16,2253 358x690 flex column jc:center ai:center gap:40px ; maxW:1072px ; z:1
+      #601 <div> [Sticky Image] 16,2503 358x440 maxW:512px ; bg:rgb(250, 247, 241) ; rad:24px
+       #602 <div> 16,2612 358x236 pos:absolute t:109.203px l:0px r:0px b:94.7969px ; ovf:clip ; mask:radial-gradient(50% 75%, rgb(0, 0, 0) 5.71333%, rgba(0, 0, 0, 0) 100%)
+        #603 <div> -50,2656 651x1 pos:absolute t:44px l:-66px r:-227px b:191px
+         #605 <svg> -50,2656 651x1 SVG use:#svg-1864380016_290 vb:null
+        #607 <div> -50,2705 651x1 pos:absolute t:93px l:-66px r:-227px b:142px
+         #609 <svg> -50,2705 651x1 SVG use:#svg-1864380016_290 vb:null
+        #611 <div> -50,2756 651x1 pos:absolute t:144px l:-66px r:-227px b:91px
+         #613 <svg> -50,2756 651x1 SVG use:#svg-1864380016_290 vb:null
+        #615 <div> -50,2806 651x1 pos:absolute t:194px l:-66px r:-227px b:41px
+         #617 <svg> -50,2806 651x1 SVG use:#svg-1864380016_290 vb:null
+        #619 <div> 31,2683 44x44 flex row jc:center ai:center gap:10px ; pos:absolute t:71px l:15px r:299px b:121px ; op:0 ; ovf:clip
+         #620 <div> 31,2683 44x44 bgImg:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 43.817 43.948%22 overflow=%22visible%22><path d=%22M 0 21.974 C 0 9.838 9.809 0 21.909 0 C 34.009 0 43.817 9.838 43.817 21.974 C 43.817 34.11 34.009 43.948 21.909 43.948 
+        #621 <div> -5,2696 19x19 flex row jc:center ai:center gap:10px ; pos:absolute t:84px l:-21px r:360px b:133px ; op:0 ; ovf:clip
+         #622 <div> -5,2696 19x19 bgImg:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 18.779 18.835%22 overflow=%22visible%22><path d=%22M 0 9.417 C 0 4.216 4.204 0 9.389 0 C 14.575 0 18.779 4.216 18.779 9.417 C 18.779 14.619 14.575 18.835 9.389 18.835 C 4
+        #623 <div> 115,2646 19x19 flex row jc:center ai:center gap:10px ; pos:absolute t:34px l:99px r:240px b:183px ; op:0 ; ovf:clip
+         #624 <div> 115,2646 19x19 bgImg:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 18.779 18.835%22 overflow=%22visible%22><path d=%22M 0 9.417 C 0 4.216 4.204 0 9.389 0 C 14.575 0 18.779 4.216 18.779 9.417 C 18.779 14.619 14.575 18.835 9.389 18.835 C 4
+        #625 <div> 146,2646 19x19 flex row jc:center ai:center gap:10px ; pos:absolute t:34px l:130px r:209px b:183px ; op:0 ; ovf:clip
+         #626 <div> 146,2646 19x19 bgImg:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 18.779 18.835%22 overflow=%22visible%22><path d=%22M 0 9.417 C 0 4.216 4.204 0 9.389 0 C 14.575 0 18.779 4.216 18.779 9.417 C 18.779 14.619 14.575 18.835 9.389 18.835 C 4
+        #627 <div> 360,2696 19x19 flex row jc:center ai:center gap:10px ; pos:absolute t:84px l:344px r:-5px b:133px ; op:0 ; ovf:clip
+         #628 <div> 360,2696 19x19 bgImg:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 18.779 18.835%22 overflow=%22visible%22><path d=%22M 0 9.417 C 0 4.216 4.204 0 9.389 0 C 14.575 0 18.779 4.216 18.779 9.417 C 18.779 14.619 14.575 18.835 9.389 18.835 C 4
+        #629 <div> 177,2633 44x44 flex row jc:center ai:center gap:10px ; pos:absolute t:21px l:182.578px r:131.422px b:171px ; op:0 ; ovf:clip ; tf:matrix(1, 0, 0, 1, -22, 0)
+         #630 <div> 177,2633 44x44 bgImg:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 43.817 43.948%22 overflow=%22visible%22><path d=%22M 0 21.974 C 0 9.838 9.809 0 21.909 0 C 34.009 0 43.817 9.838 43.817 21.974 C 43.817 34.11 34.009 43.948 21.909 43.948 
+        #631 <div> 261,2683 44x44 flex column jc:center ai:center gap:10px ; pos:absolute t:71px l:245px r:69px b:121px ; op:0 ; ovf:clip
+         #632 <div> 261,2683 44x44 bgImg:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 43.817 43.948%22 overflow=%22visible%22><path d=%22M 0 21.974 C 0 9.838 9.809 0 21.909 0 C 34.009 0 43.817 9.838 43.817 21.974 C 43.817 34.11 34.009 43.948 21.909 43.948 
+        #633 <div> 229,2639 32x32 flex row jc:center ai:center gap:10px ; pos:absolute t:27px l:213px r:113px b:177px ; op:0 ; ovf:clip
+         #634 <div> 229,2639 32x32 bgImg:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 31.831 31.926%22 overflow=%22visible%22><path d=%22M 0 15.963 C 0 7.147 7.126 0 15.916 0 C 24.705 0 31.831 7.147 31.831 15.963 C 31.831 24.779 24.705 31.926 15.916 31.926
+        #635 <div> 86,2670 69x69 flex row jc:center ai:center gap:10px ; pos:absolute t:58px l:70px r:219px b:109px ; op:0 ; ovf:clip
+         #636 <div> 86,2670 69x69 bgImg:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 68.856 69.061%22 overflow=%22visible%22><path d=%22M 0 34.531 C 0 15.46 15.414 0 34.428 0 C 53.442 0 68.856 15.46 68.856 34.531 C 68.856 53.601 53.442 69.061 34.428 69.06
+        #637 <div> 314,2687 38x38 flex row jc:center ai:center gap:10px ; pos:absolute t:75px l:298px r:22px b:123px ; op:0 ; ovf:clip
+         #638 <div> 314,2687 38x38 bgImg:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 37.558 37.67%22 overflow=%22visible%22><path d=%22M 0 18.835 C 0 8.433 8.408 0 18.779 0 C 29.15 0 37.558 8.433 37.558 18.835 C 37.558 29.237 29.15 37.67 18.779 37.67 C 8.
+        #639 <div> [Topic] 159,2680 101x101 flex row jc:center ai:center gap:10px ; pos:absolute t:118px l:193.312px r:63.6875px b:17px ; op:0 ; ovf:clip ; tf:matrix(1, 0, 0, 1, -50.5, -50.5)
+         #640 <div> 159,2680 101x101 bgImg:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 100.586 100.886%22 overflow=%22visible%22><path d=%22M 0 50.443 C 0 22.584 22.517 0 50.293 0 C 78.069 0 100.586 22.584 100.586 50.443 C 100.586 78.302 78.069 100.886 50.2
+        #641 <div> 123,2783 44x44 flex row jc:center ai:center gap:10px ; pos:absolute t:171px l:107px r:207px b:21px ; op:0 ; ovf:clip
+         #642 <div> 123,2783 44x44 bgImg:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 43.817 43.948%22 overflow=%22visible%22><path d=%22M 0 21.974 C 0 9.838 9.809 0 21.909 0 C 34.009 0 43.817 9.838 43.817 21.974 C 43.817 34.11 34.009 43.948 21.909 43.948 
+        #643 <div> 203,2798 19x19 flex row jc:center ai:center gap:10px ; pos:absolute t:186px l:196.891px r:142.109px b:31px ; op:0 ; ovf:clip ; tf:matrix(1, 0, 0, 1, -9.5, 0)
+         #644 <div> 203,2798 19x19 bgImg:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 18.779 18.835%22 overflow=%22visible%22><path d=%22M 0 9.417 C 0 4.216 4.204 0 9.389 0 C 14.575 0 18.779 4.216 18.779 9.417 C 18.779 14.619 14.575 18.835 9.389 18.835 C 4
+        #645 <div> 235,2798 19x19 flex row jc:center ai:center gap:10px ; pos:absolute t:186px l:219px r:120px b:31px ; op:0 ; ovf:clip
+         #646 <div> 235,2798 19x19 bgImg:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 18.779 18.835%22 overflow=%22visible%22><path d=%22M 0 9.417 C 0 4.216 4.204 0 9.389 0 C 14.575 0 18.779 4.216 18.779 9.417 C 18.779 14.619 14.575 18.835 9.389 18.835 C 4
+       #648 <div> 105,2714 195x36 pos:absolute t:228.797px l:186.156px r:-23.1562px b:175.203px ; tf:matrix(1, 0, 0, 1, -97.5, -18) ; z:1
+        #649 <div> [Compressed-Right] 105,2714 195x36 flex column jc:flex-start ai:center gap:0px ; pad:2px ; bg:rgb(255, 255, 255) ; rad:12px
+         #650 <div> [Content] 107,2716 191x32 flex column jc:flex-start ai:flex-start gap:2px ; pad:0px 8px
+          #651 <div> [Component header] 115,2716 175x32 flex row jc:flex-start ai:center gap:4px ; pad:4px 0px
+           #652 <div> [Tag] 115,2724 147x16 flex column jc:flex-start ai:normal gap:normal
+            #653 <p> 115,2724 147x16  T"Packaging complaints" ["Tiempos Text Regular" 400  12px/15.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+           #654 <img> [Vector] 266,2720 24x24 ovf:clip ; img:data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M 24 12 C 24 18.627 18.627 24 12 24 C 5.373 24 0 18.627 0 12 C 0 5.373 5.373 0 12 0 C 18.627 0 24 5.373 24 12 Z M 7.254 12.254 C 7.254 15.015 9.493 17.254 12.254 17.254 C 15.016 17.254 17.254 15.015 17.254 12.254 C 17.254 9.493 15.016 7.254 12.254 7.254 C 9.493 7.254 7.254 9.493 7.254 12.254 Z" fill="rgb(255, 93, 78)" height="24px" id="QpwtL19X5" width="24px"/></svg> nat:150x150 fit:fill objpos:50% 50% alt:
+         #655 <div> [User Message] 113,2753 177x1 flex row jc:flex-start ai:center gap:4px ; rad:10px ; shadow:rgba(156, 156, 156, 0.1) 0px 5px 10px 0px, rgba(156, 156, 156, 0.09) 0px 19px 19px 0px, rgba(156, 156, 156, 0.05) 0px 43px 26px 0px, rgba(156, 156, 156, 0.01) 0px 76px 30px 0px, rgba(156, 156, 156, 0) 0px 118px 33px 0px ; pos:absolute t:39px l:8.45312px r:9.54688px b:-4px ; op:0 ; ovf:clip ; bdf:blur(8px) ; z:1
+          #656 <div> [Response too generic] 113,2747 177x13 flex column jc:flex-start ai:normal gap:normal
+           #657 <p> 113,2747 177x13  T"1,206 Conversations • 99% CXP Score" ["Tiempos Text Regular" 400  10px/13px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+         #658 <div> [Input] 122,2747 159x1 flex row jc:space-between ai:center gap:normal ; pos:absolute t:33px l:17.3906px r:18.6094px b:2px ; op:0 ; ovf:clip ; z:1
+          #659 <div> [User Message] 122,2739 46x16 flex row jc:flex-start ai:center gap:16px ; bg:rgb(255, 255, 255) ; rad:16px ; ovf:hidden
+           #660 <div> [Performance] 122,2739 46x16 flex row jc:flex-start ai:center gap:4px
+            #661 <div> [Label] 122,2739 46x16 flex row jc:center ai:center gap:4px ; pad:0px 6px 0px 4px ; rad:4px ; ovf:hidden
+             #662 <div> 126,2739 12x16 flex column jc:flex-start ai:normal gap:normal ; maxW:564px ; z:1
+              #663 <p> 126,2739 12x16  T"" ["Font Awesome 6 Sharp Light" 300  16px/16px ls:normal c:rgb(249, 80, 64) ta:center tt:none]
+             #664 <div> [Text] 142,2740 20x16 flex column jc:flex-start ai:normal gap:normal
+              #665 <p> 142,2740 20x16  T"11%" ["Tiempos Text Regular" 400  12px/15.6px ls:normal c:rgb(249, 80, 64) ta:start tt:none]
+          #666 <div> [Response too generic] 234,2741 47x13 flex column jc:flex-start ai:normal gap:normal
+           #667 <p> 234,2741 47x13  T"This week" ["Tiempos Text Regular" 400  10px/13px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+      #668 <div> 16,2253 358x210 flex column jc:flex-start ai:flex-start gap:16px ; maxW:512px
+       #669 <div> 16,2253 358x86 flex column jc:flex-start ai:normal gap:normal ; z:1
+        #670 <h3> 16,2253 358x86  T"Watch what matters, let Siena do the tagging" ["Feature Deck Web Regular" 400  36px/43.2px ls:normal c:rgb(18, 32, 35) ta:left tt:none]
+       #671 <div> 16,2355 358x108 flex column jc:center ai:flex-start gap:12px ; ovf:hidden
+        #672 <div> 16,2355 358x21 flex row jc:center ai:center gap:10px ; ovf:hidden
+         #673 <div> [star-four-light 1] 16,2358 16x16 
+          #675 <svg> 16,2358 16x16 ovf:hidden ; SVG use:#svg1796323270_1256 vb:0 0 24 24
+         #677 <div> 42,2355 332x21 flex column jc:flex-start ai:normal gap:normal ; maxW:564px ; z:1
+          #678 <p> 42,2355 332x21  T"Topics come from what customers actually say" ["Tiempos Text Regular" 400  14px/21px ls:-0.14px c:rgb(42, 54, 57) ta:start tt:none]
+        #679 <div> 16,2388 358x21 flex row jc:center ai:center gap:10px ; ovf:hidden
+         #680 <div> [star-four-light 1] 16,2391 16x16 
+          #682 <svg> 16,2391 16x16 ovf:hidden ; SVG use:#svg1796323270_1256 vb:0 0 24 24
+         #684 <div> 42,2388 332x21 flex column jc:flex-start ai:normal gap:normal ; maxW:564px ; z:1
+          #685 <p> 42,2388 332x21  T"Taxonomy stays current as conversations evolve" ["Tiempos Text Regular" 400  14px/21px ls:-0.14px c:rgb(42, 54, 57) ta:left tt:none]
+        #686 <div> 16,2421 358x42 flex row jc:center ai:center gap:10px ; ovf:hidden
+         #687 <div> [star-four-light 1] 16,2434 16x16 
+          #689 <svg> 16,2434 16x16 ovf:hidden ; SVG use:#svg1796323270_1256 vb:0 0 24 24
+         #691 <div> 42,2421 332x42 flex column jc:flex-start ai:normal gap:normal ; maxW:564px ; z:1
+          #692 <p> 42,2421 332x42  T"Every topic links directly to its source conversations" ["Tiempos Text Regular" 400  14px/21px ls:-0.14px c:rgb(42, 54, 57) ta:left tt:none]
+  #693 <div> [Testimonials] 0,3007 390x839 flex column jc:center ai:center gap:40px
+   #694 <div> [Testimonials] 0,3007 390x839 flex column jc:flex-start ai:center gap:40px ; maxW:1200px ; ovf:hidden ; z:1
+    #695 <div> [content] 0,3007 390x839 flex column jc:flex-start ai:flex-start gap:24px ; pad:56px 0px 64px ; rad:24px
+     #697 <div> 0,3063 390x719 flex column jc:normal ai:normal gap:normal ; pad:16px 32px 48px
+      #698 <div> 32,3079 326x655 flex column jc:normal ai:normal gap:normal
+       #699 <div> 32,3079 326x655 flex column jc:flex-start ai:normal gap:normal
+        #702 <div> 32,3079 326x655 flex column jc:center ai:center gap:24px
+         #703 <div> 32,3079 326x655 flex column jc:flex-start ai:flex-start gap:80px
+          #704 <div> [Content] 32,3079 326x655 flex column jc:center ai:center gap:10px
+           #705 <div> [Testimonial] 32,3079 326x655 flex column jc:flex-start ai:flex-start gap:40px
+            #706 <div> 32,3079 320x320 maxW:320px ; rad:32px
+             #707 <div> 32,3079 320x320 rad:32px ; pos:absolute t:0px l:0px r:0px b:0px
+              #708 <img> 32,3079 320x320 rad:32px ; ovf:clip ; img:https://framerusercontent.com/images/6m3nbsOefa5MuiJ7cZLEbjcG3Oc.webp?scale-down-to=1024&width=1600&height=1200 nat:320x240 fit:cover objpos:50% 50% alt:
+            #709 <div> 32,3439 326x295 flex column jc:center ai:flex-start gap:16px ; ovf:hidden
+             #710 <div> [“] 32,3439 30x24 
+              #712 <svg> 32,3439 30x24 ovf:hidden ; SVG use:#svg1110666654_462 vb:0 0 30 24
+             #714 <div> 32,3479 326x175 flex column jc:center ai:flex-start gap:24px ; ovf:hidden
+              #715 <div> [Name] 32,3479 326x175 flex column jc:flex-start ai:normal gap:normal
+               #716 <p> 32,3479 326x175  T"Topics Explorer has given us a clear view into how our processes and messaging are actually landing with customers. This has created an opportunity for us to make small but meaningful improvements, especially in how we communicate." ["Instrument Sans" 400  19.2px/24.96px ls:-0.384px c:rgb(18, 32, 35) ta:start tt:none]
+             #717 <div> [Right Column] 32,3670 326x64 flex column jc:flex-start ai:flex-start gap:16px
+              #718 <div> [Brand] 32,3670 324x64 flex row jc:flex-start ai:flex-start gap:16px
+               #719 <div> [Logos] 32,3670 140x64 flex column jc:flex-start ai:flex-start gap:28.3333px
+                #721 <div> 32,3670 140x64 pos:absolute t:0px l:0px r:0px b:0px
+                 #722 <img> 32,3670 140x64 ovf:clip ; img:https://framerusercontent.com/images/ZeJTO989NVjG9cfH69ugd19p4C0.svg?width=374&height=76 nat:374x76 fit:contain objpos:0% 50% alt:
+               #723 <div> [person] 188,3670 168x51 flex column jc:flex-start ai:flex-start gap:12px
+                #724 <div> [Beatriz Lopes] 188,3670 168x22 flex column jc:flex-start ai:normal gap:normal
+                 #725 <p> 188,3670 168x22  T"Taryn Oubre" ["Instrument Sans" 500  16px/22.4px ls:-0.16px c:rgb(18, 32, 35) ta:start tt:none]
+                #726 <div> [@everydaydose] 188,3704 168x17 flex column jc:flex-start ai:normal gap:normal
+                 #727 <p> 188,3704 168x17  T"CX Senior Manager" ["Instrument Sans" 600  12px/16.8px ls:0.6px c:rgb(120, 115, 104) ta:left tt:uppercase]
+  #728 <div> [Ask Siena] 0,6445 390x1177 flex column jc:center ai:center gap:40px ; pad:56px 24px
+   #729 <div> [Mockup] 24,6501 342x1065 flex column jc:center ai:center gap:32px ; pad:0px 8px 24px ; maxW:512px ; bg:rgb(255, 255, 255) ; rad:32px ; ovf:hidden
+    #730 <div> [Command Bar] 24,7006 342x560 flex column jc:flex-end ai:center gap:10px ; pad:32px 24px 40px ; bgImg:linear-gradient(rgba(255, 255, 255, 0) 9.79678%, rgba(247, 221, 147, 0.3) 90.2872%) ; rad:0px 0px 16px 16px ; pos:absolute t:505.016px l:0px r:0px b:0px ; z:0
+    #731 <div> [Integrations] 32,6501 326x176 flex row jc:center ai:flex-end gap:24px
+     #732 <div> [text] 32,6501 326x176 flex column jc:flex-start ai:center gap:16px
+      #733 <div> [INTEGRATIONS] 105,6501 180x20 flex column jc:flex-start ai:normal gap:normal ; z:1
+       #734 <p> 105,6501 180x20  T"Ask Siena anything" ["Instrument Sans" 600  14px/19.6px ls:1.7px c:rgb(18, 32, 35) ta:center tt:uppercase]
+      #735 <div> [Integrate Siena with your reviews platforms] 32,6537 326x58 flex column jc:flex-start ai:normal gap:normal ; maxW:800px ; z:1
+       #736 <h2> 32,6537 326x58  T"From trends to decisions in one conversation" ["Feature Deck Web Regular" 400  24px/28.8px ls:normal c:rgb(0, 0, 0) ta:center tt:none]
+      #737 <div> [Every review enriches Siena's understanding of your customers. This intelligence powers personalized interactions across all channels – Not just reviews] 32,6611 326x67 flex column jc:flex-start ai:normal gap:normal
+       #738 <p> 32,6611 326x67  T"The kind of clarity that used to require a whole analytics team. Now it's just a question away." ["Instrument Sans" 500  16px/22.4px ls:-0.16px c:rgb(18, 32, 35) ta:center tt:none]
+    #739 <div> 32,6988 326x555 flex column jc:center ai:center gap:10px ; pad:48px 16px 0px ; ovf:clip
+     #740 <div> [Card/Brand Feature] 48,7036 294x119 flex column jc:flex-start ai:center gap:16px ; pad:32px 24px 16px ; bgImg:linear-gradient(rgb(255, 255, 255) 0%, rgb(250, 247, 241) 100%) ; rad:16px ; ovf:clip ; bdf:blur(2px)
+      #741 <div> 46,7068 299x17 flex column jc:flex-start ai:normal gap:normal ; z:1
+       #742 <h3> 46,7068 299x17  T"REVENUE OPPORTUNITY" ["Instrument Sans" 600  12px/16.8px ls:0.6px c:rgb(18, 32, 35) ta:center tt:uppercase]
+      #743 <div> 72,7100 246x38 flex column jc:center ai:center gap:24px ; ovf:hidden
+       #744 <div> [Direct catalog integration with real-time sync Zero setup complexity] 72,7100 246x38 flex column jc:flex-start ai:normal gap:normal
+        #745 <p> 72,7100 246x38  T"What are customers asking for that we haven't built yet?" ["Instrument Sans" 400  16px/19.2px ls:-0.16px c:rgb(18, 32, 35) ta:center tt:none]
+      #746 <div> [Footer] 48,7091 294x64 pos:absolute t:55.2031px l:0px r:0px b:0px ; z:-1
+     #747 <div> [Card/Brand Feature] 48,7165 294x119 flex column jc:flex-start ai:center gap:16px ; pad:32px 24px 16px ; bgImg:linear-gradient(rgb(255, 255, 255) 0%, rgb(250, 247, 241) 100%) ; rad:16px ; ovf:clip ; bdf:blur(2px)
+      #748 <div> 46,7197 299x17 flex column jc:flex-start ai:normal gap:normal ; z:1
+       #749 <h3> 46,7197 299x17  T"Revenue leak" ["Instrument Sans" 600  12px/16.8px ls:0.6px c:rgb(18, 32, 35) ta:center tt:uppercase]
+      #750 <div> 72,7230 246x38 flex column jc:center ai:center gap:24px ; ovf:hidden
+       #751 <div> [Direct catalog integration with real-time sync Zero setup complexity] 72,7230 246x38 flex column jc:flex-start ai:normal gap:normal
+        #752 <p> 72,7230 246x38  T"Where are we losing the most money to refunds right now?" ["Instrument Sans" 400  16px/19.2px ls:-0.16px c:rgb(18, 32, 35) ta:center tt:none]
+      #753 <div> [Footer] 48,7220 294x64 pos:absolute t:55.2031px l:0px r:0px b:0px ; z:-1
+     #754 <div> [Card/Brand Feature] 48,7294 294x119 flex column jc:flex-start ai:center gap:16px ; pad:32px 24px 16px ; bgImg:linear-gradient(rgb(255, 255, 255) 0%, rgb(250, 247, 241) 100%) ; rad:16px ; ovf:clip ; bdf:blur(2px)
+      #755 <div> 46,7326 299x17 flex column jc:flex-start ai:normal gap:normal ; z:1
+       #756 <h3> 46,7326 299x17  T"SENTIMENT SHIFT" ["Instrument Sans" 600  12px/16.8px ls:0.6px c:rgb(18, 32, 35) ta:center tt:uppercase]
+      #757 <div> 72,7359 246x38 flex column jc:center ai:center gap:24px ; ovf:hidden
+       #758 <div> [Direct catalog integration with real-time sync Zero setup complexity] 72,7359 246x38 flex column jc:flex-start ai:normal gap:normal
+        #759 <p> 72,7359 246x38  T"What changed in customer feedback after our last update?" ["Instrument Sans" 400  16px/19.2px ls:-0.16px c:rgb(18, 32, 35) ta:center tt:none]
+      #760 <div> [Footer] 48,7349 294x64 pos:absolute t:55.2031px l:0px r:0px b:0px ; z:-1
+     #761 <div> [Card/Brand Feature] 48,7423 294x119 flex column jc:flex-start ai:center gap:16px ; pad:32px 24px 16px ; bgImg:linear-gradient(rgb(255, 255, 255) 0%, rgb(250, 247, 241) 100%) ; rad:16px ; ovf:clip ; bdf:blur(2px)
+      #762 <div> 46,7455 299x17 flex column jc:flex-start ai:normal gap:normal ; z:1
+       #763 <h3> 46,7455 299x17  T"COMPETITIVE THREAT" ["Instrument Sans" 600  12px/16.8px ls:0.6px c:rgb(18, 32, 35) ta:center tt:uppercase]
+      #764 <div> 72,7488 246x38 flex column jc:center ai:center gap:24px ; ovf:hidden
+       #765 <div> [Direct catalog integration with real-time sync Zero setup complexity] 72,7488 246x38 flex column jc:flex-start ai:normal gap:normal
+        #766 <p> 72,7488 246x38  T"What do customers say when they mention switching?" ["Instrument Sans" 400  16px/19.2px ls:-0.16px c:rgb(18, 32, 35) ta:center tt:none]
+      #767 <div> [Footer] 48,7478 294x64 pos:absolute t:55.2031px l:0px r:0px b:0px ; z:-1
+    #768 <div> [Footer] 32,6710 326x246 flex column jc:center ai:center gap:8px ; pad:8px ; bg:rgba(243, 240, 235, 0.7) ; rad:28px ; bdf:blur(10px) ; z:0
+     #769 <div> [Review] 40,6718 310x170 flex column jc:center ai:center gap:10px ; pad:2px ; bg:rgb(250, 247, 241) ; rad:24px ; shadow:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px ; ovf:hidden
+      #770 <div> 42,6720 306x166 flex column jc:center ai:flex-start gap:12px ; pad:8px ; bg:rgb(255, 255, 255) ; rad:24px
+       #771 <div> [Text container] 50,6728 290x91 flex row jc:center ai:center gap:8px
+        #772 <div> [sparkles-two-2] 50,6765 16x16 
+         #774 <svg> 50,6765 16x16 ovf:hidden ; SVG use:#svg-1888423120_1466 vb:0 0 24 24
+        #776 <div> [Great product!] 74,6728 266x91 flex column jc:flex-start ai:normal gap:normal
+         #777 <p> 74,6728 266x91  T"🎨 120+ conversations reveal customers are buying into sets. When pants launch in Sage Heather, but the matching tunic doesn't follow, they notice." ["Tiempos Text Regular" 400  14px/18.2px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+          #778 <strong> 95,6727 236x19  T"More colors across product families." ["Tiempos Text Regular" 700  14px/18.2px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+       #779 <div> [Response too generic] 50,6831 290x47 flex column jc:flex-start ai:normal gap:normal
+        #780 <p> 50,6831 290x47  T"Your most loyal customers are already telling you what to buy next. Start with navy and charcoal. They named the sets they want to complete." ["Tiempos Text Regular" 400  12px/15.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+     #781 <div> [Prompt] 40,6896 310x52 flex column jc:center ai:center gap:10px ; pad:2px ; bgImg:linear-gradient(255deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 14.8649%, rgb(251, 86, 70) 32.8829%, rgb(130, 122, 204) 52.2523%, rgb(46, 121, 216) 79.7297%, rgb(171, 171, 171) 100%) ; rad:28px ; shadow:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px ; ovf:hidden
+      #782 <div> [Header] 42,6898 306x48 flex column jc:flex-start ai:flex-start gap:8px ; pad:12px ; bg:rgb(255, 255, 255) ; rad:26px ; ovf:hidden
+       #783 <div> [Content] 54,6910 282x24 flex row jc:flex-start ai:center gap:5px ; pad:4px 12px 4px 0px
+        #784 <div> [Icon-Black] 54,6909 25x25 
+         #786 <svg> 54,6909 25x25 ovf:hidden ; SVG use:#svg-1472641472_1627 vb:0 0 25 25
+        #790 <span> 84,6914 277x14 flex row jc:normal ai:center gap:normal T"What are customers asking for that we haven't built yet?" ["Feature Deck Web Regular" 400  12px/14.4px ls:-0.12px c:rgb(18, 32, 35) ta:start tt:none]
+         #791 <span> 357,6916 2x12 bg:rgb(255, 255, 255) ; rad:2px ; trans:opacity 0.1s
+  #792 <div> [Alerts] 0,3846 390x1408 flex column jc:center ai:center gap:40px ; pad:56px 24px ; bg:rgb(250, 247, 241)
+   #793 <div> [Blur out] 0,5247 390x187 flex row jc:center ai:center gap:10px ; bgImg:linear-gradient(rgb(250, 247, 241) 0%, rgba(250, 247, 241, 0) 100%) ; pos:absolute t:1401.59px l:0px r:0px b:-181px ; ovf:hidden ; z:1
+   #794 <div> [Integrations] 24,3902 342x236 flex row jc:center ai:flex-end gap:24px
+    #795 <div> [text] 24,3902 342x236 flex column jc:flex-start ai:center gap:24px
+     #796 <div> [INTEGRATIONS] 143,3902 104x20 flex column jc:flex-start ai:normal gap:normal ; z:1
+      #797 <p> 143,3902 104x20 
+       #798 <code> 143,3902 104x18  T"STAY AHEAD" ["Instrument Sans" 600  14px/19.6px ls:1.7px c:rgb(18, 32, 35) ta:center tt:uppercase]
+     #799 <div> [Integrate Siena with your reviews platforms] 24,3945 342x192 flex column jc:flex-start ai:normal gap:normal ; maxW:800px ; z:1
+      #800 <h2> 24,3945 342x192 
+       #801 <code> 56,3938 286x206  T"Intelligence on your schedule, wherever your team works" ["Feature Deck Web Light" 400  48px/48px ls:-0.96px c:rgb(18, 32, 35) ta:center tt:none]
+   #802 <div> [Bento Card] 24,4177 342x1020 flex column jc:flex-start ai:center gap:16px ; maxW:1200px
+    #803 <div> 24,4177 342x1020 flex column jc:center ai:center gap:16px ; maxW:512px ; ovf:hidden
+     #806 <div> [Ask Siena - Resting] 24,4177 342x329 flex column jc:flex-start ai:flex-start gap:16px ; pad:32px 24px ; bgImg:linear-gradient(rgb(255, 255, 255) 0%, rgb(250, 247, 241) 100%) ; rad:24px ; ovf:clip ; bdf:blur(2px)
+      #807 <div> 48,4209 294x34 flex column jc:flex-start ai:normal gap:normal ; z:1
+       #808 <h3> 48,4209 294x34  T"Recurring briefs" ["Feature Deck Web Regular" 400  28px/33.6px ls:normal c:rgb(18, 32, 35) ta:center tt:none]
+      #809 <div> [Direct catalog integration with real-time sync Zero setup complexity] 48,4259 294x77 flex column jc:flex-start ai:normal gap:normal
+       #810 <p> 48,4259 294x77  T"Pick any question and set a cadence. Ask Siena tracks it and delivers a full brief with trend shifts, volume changes, and source conversations." ["Instrument Sans" 400  16px/19.2px ls:-0.16px c:rgb(18, 32, 35) ta:center tt:none]
+      #811 <div> [Visual] -31,4301 453x430 pos:absolute t:123.328px l:-55px r:-56px b:-224px ; z:-1
+       #812 <div> 189,4534 11x95 pos:absolute t:233px l:220.031px r:221.969px b:102px ; tf:matrix(-1, 0, 0, -1, 0, 0) ; z:0
+        #813 <div> 189,4534 11x95 flex row jc:center ai:center gap:normal ; ovf:hidden
+         #814 <div> 189,4534 11x95 flex row jc:center ai:center gap:normal
+          #815 <svg> 189,4534 11x95 ovf:hidden ; SVG vb:0 0 3 252
+       #818 <div> [Content] -11,4314 414x378 flex column jc:center ai:center gap:24px ; pos:absolute t:202.094px l:226.5px r:-187.5px b:-150.094px ; tf:matrix(1, 0, 0, 1, -207, -189)
+       #819 <div> [Prompt] 94,4466 203x45 flex row jc:center ai:center gap:10px ; pad:2px ; bg:rgb(241, 245, 249) ; bgImg:linear-gradient(255deg, rgb(241, 245, 249) 0%, rgb(241, 245, 249) 20%, rgb(241, 245, 249) 40%, rgb(241, 245, 249) 60%, rgb(241, 245, 249) 80%, rgb(241, 245, 249) 100%) ; rad:13.8176% / 61.9426% ; pos:absolute t:165px l:226.5px r:23.8594px b:219.797px ; op:0.4 ; tf:matrix(1, 0, 0, 1, -101.32, 0)
+        #820 <div> [Header] 96,4468 199x41 flex row jc:flex-start ai:center gap:0px ; pad:8px ; bg:rgb(255, 255, 255) ; rad:26px ; ovf:hidden
+         #821 <div> [Content] 104,4476 183x25 flex row jc:flex-start ai:center gap:8px ; pad:0px 12px
+          #822 <div> [Icon-Black] 116,4476 25x25 
+           #824 <svg> 116,4476 25x25 ovf:hidden ; SVG use:#svg-1472641472_1627 vb:0 0 25 25
+          #826 <div> [What can I help with?] 149,4476 126x25 flex column jc:flex-start ai:normal gap:normal
+           #827 <h6> 149,4476 126x25  T"Ask me anything" ["Feature Deck Web Regular" 400  18px/25.2px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+       #828 <div> 114,4413 163x43 pos:absolute t:112px l:226.5px r:63.5px b:274.812px ; op:0.5 ; tf:matrix(1, 0, 0, 1, -81.5, 0) ; z:1
+        #829 <div> [Compressed-Right] 114,4413 163x43 flex column jc:flex-start ai:center gap:0px ; pad:2px ; bg:rgb(255, 255, 255) ; rad:12px
+         #830 <div> [Content] 116,4415 159x39 flex column jc:flex-start ai:flex-start gap:2px ; pad:0px 8px
+          #831 <div> [Component header] 124,4415 143x39 flex row jc:flex-start ai:center gap:4px ; pad:4px 0px
+           #832 <div> [Tag] 124,4419 115x31 flex column jc:flex-start ai:normal gap:normal
+            #833 <p> 124,4419 115x31  T"Packaging complaints" ["Tiempos Text Regular" 400  12px/15.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+           #834 <div> [Vector] 243,4422 24x24 bg:rgb(208, 210, 211) ; mask:url("data:image/svg+xml,<svg display=\"block\" role=\"presentation\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 24 12 C 24 18.627 18.627 24 12 24 C 5.373 24 0 18.627 0 12 C
+         #835 <div> [User Message] 107,4452 177x1 flex row jc:flex-start ai:center gap:4px ; rad:10px ; shadow:rgba(156, 156, 156, 0.1) 0px 5px 10px 0px, rgba(156, 156, 156, 0.09) 0px 19px 19px 0px, rgba(156, 156, 156, 0.05) 0px 43px 26px 0px, rgba(156, 156, 156, 0.01) 0px 76px 30px 0px, rgba(156, 156, 156, 0) 0px 118px 33px 0px ; pos:absolute t:39px l:-7.4375px r:-6.5625px b:3.1875px ; op:0 ; ovf:clip ; bdf:blur(8px) ; z:1
+          #836 <div> [Response too generic] 107,4446 177x13 flex column jc:flex-start ai:normal gap:normal
+           #837 <p> 107,4446 177x13  T"1,206 Conversations • 99% CXP Score" ["Tiempos Text Regular" 400  10px/13px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+      #838 <div> [Fade] 24,4420 342x88 bgImg:linear-gradient(0deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 86%) ; pos:absolute t:242.328px l:0px r:0px b:-1px ; z:1
+     #839 <div> [Topics-card] 24,4523 342x329 flex row jc:flex-start ai:center gap:16px ; bgImg:linear-gradient(rgb(255, 255, 255) 0%, rgb(250, 247, 241) 100%) ; rad:16px ; ovf:hidden ; bdf:blur(7px) ; APPEAR:1btw5y5
+      #840 <div> [Donut] -19,4615 317x295 pos:absolute t:92.3438px l:-43px r:68px b:-58px ; z:1
+       #841 <div> [Donut] -19,4522 317x388 maxW:100% ; pos:absolute t:-93px l:0px r:-64px b:0px ; mask:radial-gradient(50% 50% at 72.1% 30.9%, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 86.1909%, rgba(0, 0, 0, 0) 100%)
+        #843 <div> -24,4585 334x341 pos:absolute t:63px l:-5px r:-12px b:-16px ; ovf:clip ; mask:url("https://framerusercontent.com/images/3DDwu6JiBQxZUakevLif2PuC5TM.png?width=219&height=220") ; z:1 ; APPEAR:1nfydyc
+         #844 <div> -24,4585 334x341 pos:absolute t:0px l:0px r:0px b:0px
+          #845 <img> -24,4585 334x341 ovf:clip ; img:https://framerusercontent.com/images/ETA2fSnLgCiwMUrfr6bhOzKES4.webp?scale-down-to=512&width=846&height=505 nat:334x199 fit:cover objpos:50% 50% alt:
+       #846 <div> [Block] 105,4650 193x84 flex column jc:flex-start ai:center gap:8px ; pad:6px 8px 2px ; bg:rgb(255, 255, 255) ; rad:12px ; shadow:rgba(0, 0, 0, 0.06) 0px 8px 12px 0px ; pos:absolute t:35px l:124px r:0px b:175.797px ; tf:matrix(1, 0, 0, 1, 0, 0) ; z:1 ; APPEAR:ahmlzo
+        #847 <div> [Content] 113,4656 177x33 flex column jc:flex-start ai:flex-start gap:2px
+         #848 <div> [Component header] 113,4656 177x33 flex row jc:flex-start ai:center gap:4px
+          #849 <div> [Tag] 113,4662 143x21 flex column jc:flex-start ai:normal gap:normal
+           #850 <p> 113,4662 143x21  T"Order shipping issues" ["Tiempos Text Regular" 400  14px/21px ls:-0.14px c:rgb(42, 54, 57) ta:start tt:none]
+          #851 <div> [Vector] 260,4656 30x33 
+           #853 <svg> 260,4656 30x33 ovf:hidden ; SVG use:#svg1166012771_509 vb:0 0 14 15
+        #855 <div> 113,4697 177x1 bg:rgb(239, 229, 208) ; ovf:clip
+        #856 <div> [User Message] 113,4706 177x26 flex row jc:space-between ai:center gap:normal ; rad:10px ; shadow:rgba(156, 156, 156, 0.01) 0px 76px 30px 0px, rgba(156, 156, 156, 0) 0px 118px 33px 0px ; bdf:blur(8px)
+         #857 <div> [Response too generic] 113,4711 74x16 flex column jc:flex-start ai:normal gap:normal
+          #858 <p> 113,4711 74x16  T"127 mentions" ["Tiempos Text Regular" 400  12px/15.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+         #859 <div> [User Message] 227,4706 63x26 flex row jc:flex-start ai:center gap:4px ; pad:4px 6px ; bg:rgb(255, 255, 255) ; rad:18px ; bdf:blur(8px)
+          #860 <div> 233,4710 51x18 flex row jc:center ai:center gap:2px ; ovf:clip
+           #861 <div> [arrow-up-right] 233,4710 18x18 
+            #863 <svg> 233,4710 18x18 ovf:hidden ; SVG use:#svg12061145612 vb:null
+           #865 <div> [Text] 253,4710 31x18 flex column jc:flex-start ai:normal gap:normal
+            #866 <p> 253,4710 31x18  T"68%" ["Tiempos Text Regular" 400  14px/18.2px ls:normal c:rgb(251, 86, 70) ta:start tt:none]
+     #869 <div> [Slack] 24,4868 342x329 flex column jc:flex-start ai:center gap:16px ; pad:32px 24px 0px ; bgImg:linear-gradient(rgb(255, 255, 255) 0%, rgb(250, 247, 241) 100%) ; rad:24px ; ovf:clip ; bdf:blur(2px)
+      #870 <div> 48,4900 294x67 flex column jc:flex-start ai:normal gap:normal ; z:1
+       #871 <h3> 48,4900 294x67  T"Delivered where it matters" ["Feature Deck Web Regular" 400  28px/33.6px ls:normal c:rgb(18, 32, 35) ta:center tt:none]
+      #872 <div> 48,4983 294x178 flex column jc:center ai:center gap:24px ; ovf:hidden
+       #873 <div> [slack logo] 147,5065 96x96 
+        #875 <svg> 147,5065 96x96 ovf:hidden ; SVG use:#svg-536365918_1931 vb:null
+       #877 <div> 48,5065 294x96 pos:absolute t:81.6094px l:0px r:0px b:0px ; op:0 ; mask:url("https://framerusercontent.com/images/FR5NmxuDqZxhiYmyAJSkFYag0eE.png?width=260&height=260") ; z:1
+        #878 <video> 48,5065 294x96 rad:16px ; ovf:clip ; video:https://4positiveimpact.b-cdn.net/Abstract%20Landscape%20Moving%20Shapes.mp4 auto:true loop:true muted:true poster: fit:cover
+       #879 <div> [Direct catalog integration with real-time sync Zero setup complexity] 48,4983 294x58 flex column jc:flex-start ai:normal gap:normal
+        #880 <p> 48,4983 294x58  T"The right people get the right context, without ever opening a report. Send it to Slack, email, or both." ["Instrument Sans" 400  16px/19.2px ls:-0.16px c:rgb(18, 32, 35) ta:center tt:none]
+      #881 <div> [Footer] 24,5133 342x64 pos:absolute t:265.328px l:0px r:0px b:0px ; z:-1
+       #882 <div> [Union] 24,5122 342x107 bg:rgb(208, 210, 211) ; pos:absolute t:-10.9219px l:0px r:0px b:-32px ; op:0.7 ; mask:url("data:image/svg+xml,<svg display=\"block\" role=\"presentation\" viewBox=\"0 0 348 109\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 0 99.928 L 6.387 85.093 C 13.289 90.244 22.458 92.922 31.5
+      #883 <div> [Fade] 24,5110 342x88 bgImg:linear-gradient(0deg, rgb(250, 247, 241) 0%, rgba(250, 247, 241, 0.02) 86%) ; pos:absolute t:242.328px l:0px r:0px b:-1px ; z:1
+  #884 <div> [Comparison] 0,5253 390x1192 flex column jc:center ai:center gap:40px ; pad:56px 24px ; z:1
+   #885 <div> [Integrations] 24,5309 342x298 flex row jc:center ai:flex-end gap:24px
+    #886 <div> [text] 24,5309 342x298 flex column jc:flex-start ai:center gap:24px ; maxW:512px
+     #887 <div> [Integrate Siena with your reviews platforms] 24,5309 342x184 flex column jc:flex-start ai:normal gap:normal ; maxW:800px ; z:1
+      #888 <h2> 24,5309 342x48 
+      #890 <h2> 24,5397 342x96  T"What Topics Explorer replaces" ["Feature Deck Web Light" 400  48px/48px ls:-0.96px c:rgb(18, 32, 35) ta:center tt:none]
+     #891 <div> [Every review enriches Siena's understanding of your customers. This intelligence powers personalized interactions across all channels – Not just reviews] 24,5517 342x90 flex column jc:flex-start ai:normal gap:normal
+      #892 <p> 24,5517 342x90  T"Every conversation your brand has ever had contains patterns worth acting on. Topics Explorer is the first time you can actually see them." ["Instrument Sans" 500  16px/22.4px ls:-0.16px c:rgb(18, 32, 35) ta:center tt:none]
+   #893 <div> [Bento Card] 24,5647 342x742 flex column jc:flex-start ai:center gap:16px ; maxW:960px
+    #894 <div> [1] 24,5647 342x742 flex column jc:center ai:center gap:16px ; maxW:512px ; ovf:hidden
+     #895 <div> [1] 24,5647 342x363 flex row jc:flex-start ai:flex-start gap:16px ; pad:24px ; bgImg:linear-gradient(rgb(255, 255, 255) 0%, rgb(250, 247, 241) 100%) ; rad:16px ; ovf:hidden ; APPEAR:1azisyy
+      #896 <div> [text] 48,5671 294x315 flex column jc:flex-start ai:center gap:32px
+       #897 <div> [Autonomous reviews management] 48,5671 294x43 flex column jc:flex-start ai:normal gap:normal
+        #898 <h3> 48,5671 294x43  T"Before" ["Feature Deck Web Regular" 400  36px/43.2px ls:normal c:rgb(18, 32, 35) ta:center tt:none]
+       #899 <div> 48,5746 294x240 flex column jc:center ai:center gap:12px ; ovf:clip
+        #900 <div> 48,5746 294x38 flex row jc:center ai:center gap:16px ; ovf:clip
+         #901 <div> 48,5753 18x24 flex column jc:flex-start ai:normal gap:normal ; z:1
+          #902 <p> 48,5753 18x24  T"" ["Font Awesome 6 Sharp Light" 400  24px/24px ls:normal c:rgb(18, 32, 35) ta:center tt:none]
+         #903 <div> [Direct catalog integration with real-time sync Zero setup complexity] 82,5746 260x38 flex column jc:flex-start ai:normal gap:normal
+          #904 <p> 82,5746 260x38  T"Manual agent tagging, inconsistent by design" ["Instrument Sans" 400  16px/19.2px ls:-0.16px c:rgb(18, 32, 35) ta:left tt:none]
+        #905 <div> 48,5797 294x38 flex row jc:center ai:center gap:16px ; ovf:clip
+         #906 <div> 48,5804 18x24 flex column jc:flex-start ai:normal gap:normal ; z:1
+          #907 <p> 48,5804 18x24  T"" ["Font Awesome 6 Sharp Light" 400  24px/24px ls:normal c:rgb(18, 32, 35) ta:center tt:none]
+         #908 <div> [Direct catalog integration with real-time sync Zero setup complexity] 82,5797 260x38 flex column jc:flex-start ai:normal gap:normal
+          #909 <p> 82,5797 260x38  T"Days of exports and spreadsheets for one answer" ["Instrument Sans" 400  16px/19.2px ls:-0.16px c:rgb(18, 32, 35) ta:left tt:none]
+        #910 <div> 48,5847 294x38 flex row jc:center ai:center gap:16px ; ovf:clip
+         #911 <div> 48,5854 18x24 flex column jc:flex-start ai:normal gap:normal ; z:1
+          #912 <p> 48,5854 18x24  T"" ["Font Awesome 6 Sharp Light" 400  24px/24px ls:normal c:rgb(18, 32, 35) ta:center tt:none]
+         #913 <div> [Direct catalog integration with real-time sync Zero setup complexity] 82,5847 260x38 flex column jc:flex-start ai:normal gap:normal
+          #914 <p> 82,5847 260x38  T"Keyword searches to find what caused a spike" ["Instrument Sans" 400  16px/19.2px ls:-0.16px c:rgb(18, 32, 35) ta:left tt:none]
+        #915 <div> 48,5897 294x38 flex row jc:center ai:center gap:16px ; ovf:clip
+         #916 <div> 48,5905 18x24 flex column jc:flex-start ai:normal gap:normal ; z:1
+          #917 <p> 48,5905 18x24  T"" ["Font Awesome 6 Sharp Light" 400  24px/24px ls:normal c:rgb(18, 32, 35) ta:center tt:none]
+         #918 <div> [Direct catalog integration with real-time sync Zero setup complexity] 82,5897 260x38 flex column jc:flex-start ai:normal gap:normal
+          #919 <p> 82,5897 260x38  T"Sentiment requires a separate paid tool" ["Instrument Sans" 400  16px/19.2px ls:-0.16px c:rgb(18, 32, 35) ta:left tt:none]
+        #920 <div> 48,5948 294x38 flex row jc:center ai:center gap:16px ; ovf:clip
+         #921 <div> 48,5955 18x24 flex column jc:flex-start ai:normal gap:normal ; z:1
+          #922 <p> 48,5955 18x24  T"" ["Font Awesome 6 Sharp Light" 400  24px/24px ls:normal c:rgb(18, 32, 35) ta:center tt:none]
+         #923 <div> [Direct catalog integration with real-time sync Zero setup complexity] 82,5948 260x38 flex column jc:flex-start ai:normal gap:normal
+          #924 <p> 82,5948 260x38  T"VoC tools built on surveys, not support data" ["Instrument Sans" 400  16px/19.2px ls:-0.16px c:rgb(18, 32, 35) ta:left tt:none]
+     #925 <div> [1] 24,6026 342x363 flex row jc:flex-start ai:flex-start gap:16px ; pad:24px ; bgImg:linear-gradient(rgb(255, 255, 255) 0%, rgb(250, 247, 241) 100%) ; rad:16px ; ovf:hidden ; APPEAR:qgnysz
+      #926 <div> [text] 48,6050 294x315 flex column jc:flex-start ai:center gap:32px
+       #927 <div> [Autonomous reviews management] 48,6050 294x43 flex column jc:flex-start ai:normal gap:normal
+        #928 <h3> 48,6050 294x43  T"With Siena" ["Feature Deck Web Regular" 400  36px/43.2px ls:normal c:rgb(18, 32, 35) ta:center tt:none]
+       #929 <div> 48,6125 294x240 flex column jc:center ai:center gap:12px ; ovf:clip
+        #930 <div> 48,6125 294x38 flex row jc:center ai:center gap:16px ; ovf:clip
+         #931 <div> 48,6133 24x24 flex column jc:flex-start ai:normal gap:normal ; z:1
+          #932 <p> 48,6133 24x24  T"" ["Font Awesome 6 Sharp Light" 400  24px/24px ls:normal c:rgb(18, 32, 35) ta:center tt:none]
+         #933 <div> [Direct catalog integration with real-time sync Zero setup complexity] 88,6125 254x38 flex column jc:flex-start ai:normal gap:normal
+          #934 <p> 88,6125 254x38  T"Every conversation categorized automatically" ["Instrument Sans" 400  16px/19.2px ls:-0.16px c:rgb(18, 32, 35) ta:left tt:none]
+        #935 <div> 48,6176 294x38 flex row jc:center ai:center gap:16px ; ovf:clip
+         #936 <div> 48,6183 24x24 flex column jc:flex-start ai:normal gap:normal ; z:1
+          #937 <p> 48,6183 24x24  T"" ["Font Awesome 6 Sharp Light" 400  24px/24px ls:normal c:rgb(18, 32, 35) ta:center tt:none]
+         #938 <div> [Direct catalog integration with real-time sync Zero setup complexity] 88,6176 254x38 flex column jc:flex-start ai:normal gap:normal
+          #939 <p> 88,6176 254x38  T"Instantly surface insights with Ask Siena" ["Instrument Sans" 400  16px/19.2px ls:-0.16px c:rgb(18, 32, 35) ta:left tt:none]
+        #940 <div> 48,6226 294x38 flex row jc:center ai:center gap:16px ; ovf:clip
+         #941 <div> 48,6233 24x24 flex column jc:flex-start ai:normal gap:normal ; z:1
+          #942 <p> 48,6233 24x24  T"" ["Font Awesome 6 Sharp Light" 400  24px/24px ls:normal c:rgb(18, 32, 35) ta:center tt:none]
+         #943 <div> [Direct catalog integration with real-time sync Zero setup complexity] 88,6226 254x38 flex column jc:flex-start ai:normal gap:normal
+          #944 <p> 88,6226 254x38  T"Click any trend point, see the conversations behind it" ["Instrument Sans" 400  16px/19.2px ls:-0.16px c:rgb(18, 32, 35) ta:left tt:none]
+        #945 <div> 48,6277 294x38 flex row jc:center ai:center gap:16px ; ovf:clip
+         #946 <div> 48,6284 24x24 flex column jc:flex-start ai:normal gap:normal ; z:1
+          #947 <p> 48,6284 24x24  T"" ["Font Awesome 6 Sharp Light" 400  24px/24px ls:normal c:rgb(18, 32, 35) ta:center tt:none]
+         #948 <div> [Direct catalog integration with real-time sync Zero setup complexity] 88,6277 254x38 flex column jc:flex-start ai:normal gap:normal
+          #949 <p> 88,6277 254x38  T"Sentiment shifts visible across every category" ["Instrument Sans" 400  16px/19.2px ls:-0.16px c:rgb(18, 32, 35) ta:left tt:none]
+        #950 <div> 48,6327 294x38 flex row jc:center ai:center gap:16px ; ovf:clip
+         #951 <div> 48,6334 24x24 flex column jc:flex-start ai:normal gap:normal ; z:1
+          #952 <p> 48,6334 24x24  T"" ["Font Awesome 6 Sharp Light" 400  24px/24px ls:normal c:rgb(18, 32, 35) ta:center tt:none]
+         #953 <div> [Direct catalog integration with real-time sync Zero setup complexity] 88,6327 254x38 flex column jc:flex-start ai:normal gap:normal
+          #954 <p> 88,6327 254x38  T"Built from every conversation, no surveys needed" ["Instrument Sans" 400  16px/19.2px ls:-0.16px c:rgb(18, 32, 35) ta:left tt:none]
+  #955 <div> 0,7622 390x1040 flex column jc:center ai:center gap:32px ; pad:56px 24px
+   #956 <div> [Title] 24,7678 342x48 flex column jc:center ai:center gap:16px ; maxW:1062px ; z:1
+    #957 <div> 153,7678 83x48 flex column jc:flex-start ai:normal gap:normal ; z:1
+     #958 <h2> 153,7678 83x48  T"FAQ" ["Feature Deck Web Light" 400  48px/48px ls:-0.96px c:rgb(18, 32, 35) ta:center tt:none]
+   #959 <div> [FAQ] 24,7758 342x848 flex column jc:center ai:center gap:40px ; pad:24px ; maxW:512px ; bg:rgb(243, 240, 235) ; rad:24px ; z:1
+    #962 <div> 48,7782 294x800 flex column jc:normal ai:normal gap:normal
+     #964 <div> 48,7782 294x287 border:0px 0px 3px 0px none rgb(0, 0, 0) ; ovf:hidden
+      #965 <div> 48,7782 294x120 flex row jc:space-between ai:center gap:normal ; pad:24px 0px ; bg:rgba(18, 32, 35, 0) T"How is Siena Topics Explorer different from tagging in my help desk?" ["Instrument Sans" 500  20px/normal ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+       #966 <img> 322,7832 20x20 ovf:clip ; img:https://framerusercontent.com/images/OKFNY3AXFnnV2q6cBUgzTRwNI0.png?width=20&height=20 nat:20x20 fit:fill objpos:50% 50% alt:icon
+      #967 <div> 48,7902 294x164 flex column jc:normal ai:start gap:normal ; pad:0px 0px 24px ; bg:rgba(43, 98, 237, 0) ; ovf:hidden T"Your help desk tags depend on agents. Who's working, how busy they are, how they interpret each ticket. Topics Explorer reads every conversation automatically and applies the same consistent lens every time. No training, no maintenance, no gaps." ["Instrument Sans" 400  16px/normal ls:normal c:rgba(18, 32, 35, 0.8) ta:start tt:none]
+     #969 <div> 48,8069 294x147 border:0px 0px 3px 0px none rgb(0, 0, 0) ; ovf:hidden
+      #970 <div> 48,8069 294x120 flex row jc:space-between ai:center gap:normal ; pad:24px 0px ; bg:rgba(18, 32, 35, 0) T"Do I need to build a taxonomy before Siena Topics Explorer can work?" ["Instrument Sans" 500  20px/normal ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+       #971 <img> 322,8119 20x20 ovf:clip ; img:https://framerusercontent.com/images/klSbquSQSmI4vJp5uAthfEBu4A.png?width=20&height=20 nat:20x20 fit:fill objpos:50% 50% alt:icon
+      #972 <div> 48,8189 294x24 flex column jc:normal ai:start gap:normal ; pad:0px 0px 24px ; bg:rgba(43, 98, 237, 0) ; op:0 ; ovf:hidden T"There's nothing to configure before you can start seeing data. Topics Explorer starts classifying conversations as soon as it's connected. Most teams have a working dashboard within their first day." ["Instrument Sans" 400  16px/normal ls:normal c:rgba(18, 32, 35, 0.8) ta:start tt:none]
+     #974 <div> 48,8216 294x123 border:0px 0px 3px 0px none rgb(0, 0, 0) ; ovf:hidden
+      #975 <div> 48,8216 294x96 flex row jc:space-between ai:center gap:normal ; pad:24px 0px ; bg:rgba(18, 32, 35, 0) T"How many conversations does it analyze?" ["Instrument Sans" 500  20px/normal ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+       #976 <img> 322,8254 20x20 ovf:clip ; img:https://framerusercontent.com/images/klSbquSQSmI4vJp5uAthfEBu4A.png?width=20&height=20 nat:20x20 fit:fill objpos:50% 50% alt:icon
+      #977 <div> 48,8312 294x24 flex column jc:normal ai:start gap:normal ; pad:0px 0px 24px ; bg:rgba(43, 98, 237, 0) ; op:0 ; ovf:hidden T"Every single one. Not a sample, not a selection. Every conversation that comes through your support operation, across every channel, every day." ["Instrument Sans" 400  16px/normal ls:normal c:rgba(18, 32, 35, 0.8) ta:start tt:none]
+     #979 <div> 48,8339 294x123 border:0px 0px 3px 0px none rgb(0, 0, 0) ; ovf:hidden
+      #980 <div> 48,8339 294x96 flex row jc:space-between ai:center gap:normal ; pad:24px 0px ; bg:rgba(18, 32, 35, 0) T"How is this different from Medallia or Qualtrics?" ["Instrument Sans" 500  20px/normal ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+       #981 <img> 322,8377 20x20 ovf:clip ; img:https://framerusercontent.com/images/klSbquSQSmI4vJp5uAthfEBu4A.png?width=20&height=20 nat:20x20 fit:fill objpos:50% 50% alt:icon
+      #982 <div> 48,8435 294x24 flex column jc:normal ai:start gap:normal ; pad:0px 0px 24px ; bg:rgba(43, 98, 237, 0) ; op:0 ; ovf:hidden T"Medallia and Qualtrics run on surveys. That means you're hearing from the customers who respond, not all of them. Topics Explorer is built from your actual support conversations, so it covers 100% of your customer interactions with no survey design, no response rate problem, no lag." ["Instrument Sans" 400  16px/normal ls:normal c:rgba(18, 32, 35, 0.8) ta:start tt:none]
+     #984 <div> 48,8462 294x120 ovf:hidden
+      #985 <div> 48,8462 294x96 flex row jc:space-between ai:center gap:normal ; pad:24px 0px ; bg:rgba(18, 32, 35, 0) T"Can our product, marketing, or ops teams use this too?" ["Instrument Sans" 500  20px/normal ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+       #986 <img> 322,8500 20x20 ovf:clip ; img:https://framerusercontent.com/images/klSbquSQSmI4vJp5uAthfEBu4A.png?width=20&height=20 nat:20x20 fit:fill objpos:50% 50% alt:icon
+      #987 <div> 48,8558 294x24 flex column jc:normal ai:start gap:normal ; pad:0px 0px 24px ; bg:rgba(43, 98, 237, 0) ; op:0 ; ovf:hidden T"It's built for CX teams, but the insights travel well. Product managers, merchandising, and ops leads use it to track which SKUs need attention, where the self-serve experience is breaking down, or what to address before a launch. And because Ask Siena connects directly to Slack, any team can surface answers from your conversation data without ever opening a dashboard or asking the CX team." ["Instrument Sans" 400  16px/normal ls:normal c:rgba(18, 32, 35, 0.8) ta:start tt:none]
+  #988 <div> [Main CTA] 0,8662 390x586 flex column jc:center ai:center gap:10px ; ovf:clip
+   #990 <div> 0,8662 390x586 z:1
+    #991 <div> [Phone] 0,8662 390x586 flex column jc:center ai:center gap:10px ; pad:120px 32px ; ovf:hidden
+     #992 <div> 0,8662 390x586 pos:absolute t:0px l:0px r:0px b:0px
+      #993 <img> 0,8662 390x586 ovf:clip ; img:https://framerusercontent.com/images/ERYNplIY591uk80wpoa4JGglO8.webp?scale-down-to=512&width=3474&height=1954 nat:390x219 fit:cover objpos:50% 50% alt:
+     #994 <div> [Title] 32,8782 326x346 flex column jc:center ai:center gap:40px ; pad:32px ; maxW:1062px ; bg:rgb(243, 240, 235) ; rad:32px ; z:1
+      #995 <div> 64,8814 262x282 flex column jc:center ai:center gap:32px
+       #996 <div> 64,8814 262x192 flex column jc:center ai:center gap:12px 0px
+        #997 <div> 64,8814 262x192 flex column jc:flex-start ai:normal gap:normal ; z:1
+         #998 <h2> 64,8814 262x192  T"See how fast-growing brands scale with Siena" ["Feature Deck Web Light" 400  48px/48px ls:-0.96px c:rgb(18, 32, 35) ta:center tt:none]
+       #1000 <a> [xlg] 116,9038 157x58 flex row jc:center ai:center gap:10px ; pad:18px 24px ; bg:rgb(18, 32, 35) ; bgImg:linear-gradient(90deg, rgb(18, 32, 35) 0%, rgb(18, 32, 35) 20%, rgb(18, 32, 35) 40%, rgb(18, 32, 35) 60%, rgb(18, 32, 35) 80%, rgb(18, 32, 35) 100%) ; rad:16px ; href:./book-a-demo
+        #1001 <div> [Text] 140,9056 109x22 flex column jc:flex-start ai:normal gap:normal
+         #1002 <p> 140,9056 109x22  T"Book a demo" ["Instrument Sans" 600  18px/21.6px ls:normal c:rgb(255, 255, 255) ta:left tt:none]
+   #1003 <div> [Blur out] 0,8662 390x187 flex row jc:center ai:center gap:10px ; bgImg:linear-gradient(rgb(255, 255, 255) 0%, rgba(250, 247, 241, 0) 100%) ; pos:absolute t:0px l:0px r:0px b:398.594px ; ovf:hidden ; z:1
+  #1004 <div> [Blur out] 0,976 158x114 flex row jc:center ai:center gap:10px ; bgImg:linear-gradient(90deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%) ; pos:absolute t:936px l:0px r:232px b:8158px ; ovf:hidden ; z:2
+  #1005 <div> [Blur out] 241,969 149x129 flex row jc:center ai:center gap:10px ; bgImg:linear-gradient(270deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%) ; pos:absolute t:929px l:241px r:0px b:8150px ; ovf:hidden ; z:2
+ #1006 <div> [Demo Goal Links (adds ?goal=insights to Book a demo links)] 0,0 1x1 pos:absolute t:0px l:0px r:389px b:10327px
+ #1011 <div> 0,9248 390x1080 z:7
+  #1012 <div> [Phone] 0,9248 390x1080 flex column jc:flex-start ai:center gap:16px ; pad:64px 32px ; bg:rgb(18, 32, 35)
+   #1013 <div> [Footer Content] 32,9312 326x952 flex column jc:flex-start ai:flex-start gap:64px ; maxW:1144px
+    #1014 <div> [Left Column] 32,10216 326x48 flex column jc:center ai:flex-start gap:80px
+     #1015 <div> 32,10216 326x48 flex row jc:space-between ai:center gap:normal
+      #1016 <a> [siena-logo] 32,10224 122x32 ovf:hidden ; href:./
+       #1017 <div> [siena] 32,10224 122x32 pos:absolute t:0px l:0px r:0px b:0px
+        #1019 <svg> 32,10224 122x32 ovf:hidden ; SVG use:#svg11729484074 vb:null
+      #1021 <div> 256,10216 102x48 flex row jc:center ai:center gap:8px ; ovf:hidden
+       #1023 <a> [Secondary / md] 256,10216 46x48 flex row jc:center ai:center gap:10px ; pad:16px ; bg:rgb(18, 32, 35) ; bgImg:linear-gradient(90deg, rgb(18, 32, 35) 0%, rgb(18, 32, 35) 20%, rgb(18, 32, 35) 40%, rgb(18, 32, 35) 60%, rgb(18, 32, 35) 80%, rgb(18, 32, 35) 100%) ; rad:12px ; href:https://www.linkedin.com/company/siena-ai
+        #1024 <div> [Text] 272,10232 14x16 flex column jc:flex-start ai:normal gap:normal
+         #1025 <p> 272,10232 14x16  T"" ["Font Awesome 6 Brands Regular" 400  16px/16px ls:normal c:rgb(244, 245, 245) ta:left tt:none]
+       #1027 <a> [Secondary / md] 310,10216 48x48 flex row jc:center ai:center gap:10px ; pad:16px ; bg:rgb(18, 32, 35) ; bgImg:linear-gradient(90deg, rgb(18, 32, 35) 0%, rgb(18, 32, 35) 20%, rgb(18, 32, 35) 40%, rgb(18, 32, 35) 60%, rgb(18, 32, 35) 80%, rgb(18, 32, 35) 100%) ; rad:12px ; href:https://x.com/siena_ai
+        #1028 <div> [Text] 326,10232 16x16 flex column jc:flex-start ai:normal gap:normal
+         #1029 <p> 326,10232 16x16  T"" ["Font Awesome 6 Brands Regular" 400  16px/16px ls:normal c:rgb(244, 245, 245) ta:left tt:none]
+    #1030 <div> 32,9312 326x840 flex column jc:center ai:flex-start gap:40px
+     #1031 <div> 32,9312 326x720 flex column jc:center ai:flex-start gap:40px
+      #1032 <div> [Links] 32,9312 326x173 flex row jc:center ai:flex-start gap:32px
+       #1033 <div> 32,9312 147x156 flex column jc:center ai:flex-start gap:16px
+        #1034 <div> 32,9312 112x20 flex column jc:flex-start ai:normal gap:normal
+         #1035 <p> 32,9312 112x20  T"cOMPANY" ["Instrument Sans" 600  14px/19.6px ls:1.7px c:rgb(255, 255, 255) ta:left tt:uppercase]
+        #1036 <div> 32,9348 147x120 flex column jc:center ai:flex-start gap:10px
+         #1038 <a> [Default] 32,9348 69x16 flex column jc:center ai:center gap:10px ; href:./about-us
+          #1039 <div> 32,9348 69x16 flex column jc:flex-start ai:normal gap:normal
+           #1040 <p> 32,9348 69x16  T"About Us" ["Instrument Sans" 500  16px/16px ls:normal c:rgba(255, 255, 255, 0.5) ta:left tt:none]
+         #1042 <a> [Default] 32,9374 58x16 flex column jc:center ai:center gap:10px ; href:./careers
+          #1043 <div> 32,9374 58x16 flex column jc:flex-start ai:normal gap:normal
+           #1044 <p> 32,9374 58x16  T"Careers" ["Instrument Sans" 500  16px/16px ls:normal c:rgba(255, 255, 255, 0.5) ta:left tt:none]
+         #1046 <a> [Default] 32,9400 82x16 flex column jc:center ai:center gap:10px ; href:./customers
+          #1047 <div> 32,9400 82x16 flex column jc:flex-start ai:normal gap:normal
+           #1048 <p> 32,9400 82x16  T"Customers" ["Instrument Sans" 500  16px/16px ls:normal c:rgba(255, 255, 255, 0.5) ta:left tt:none]
+         #1050 <a> [Default] 32,9426 62x16 flex column jc:center ai:center gap:10px ; href:https://sienaai.trust.site/
+          #1051 <div> 32,9426 62x16 flex column jc:flex-start ai:normal gap:normal
+           #1052 <p> 32,9426 62x16  T"Security" ["Instrument Sans" 500  16px/16px ls:normal c:rgba(255, 255, 255, 0.5) ta:left tt:none]
+         #1054 <a> [Default] 32,9452 126x16 flex column jc:center ai:center gap:10px ; href:./product-updates
+          #1055 <div> 32,9452 126x16 flex column jc:flex-start ai:normal gap:normal
+           #1056 <p> 32,9452 126x16  T"Product Updates" ["Instrument Sans" 500  16px/16px ls:normal c:rgba(255, 255, 255, 0.5) ta:left tt:none]
+       #1057 <div> [Links] 211,9312 147x173 flex column jc:flex-start ai:flex-start gap:32px
+        #1058 <div> 211,9312 133x78 flex column jc:center ai:flex-start gap:16px ; pad:0px 0px 0px 10px
+         #1059 <div> 221,9312 54x20 flex column jc:flex-start ai:normal gap:normal
+          #1060 <p> 221,9312 54x20  T"legal" ["Instrument Sans" 600  14px/19.6px ls:1.7px c:rgb(255, 255, 255) ta:center tt:uppercase]
+         #1061 <div> 221,9348 123x42 flex column jc:center ai:flex-start gap:10px
+          #1063 <a> [Default] 221,9348 123x16 flex column jc:center ai:center gap:10px ; href:./terms-of-service
+           #1064 <div> 221,9348 123x16 flex column jc:flex-start ai:normal gap:normal
+            #1065 <p> 221,9348 123x16  T"Terms of Service" ["Instrument Sans" 500  16px/16px ls:normal c:rgba(255, 255, 255, 0.5) ta:left tt:none]
+          #1067 <a> [Default] 221,9374 102x16 flex column jc:center ai:center gap:10px ; href:./privacy-policy
+           #1068 <div> 221,9374 102x16 flex column jc:flex-start ai:normal gap:normal
+            #1069 <p> 221,9374 102x16  T"Privacy Policy" ["Instrument Sans" 500  16px/16px ls:normal c:rgba(255, 255, 255, 0.5) ta:left tt:none]
+        #1070 <div> [SOC Non-CPA Logo] 211,9422 64x64 
+         #1071 <div> 211,9422 64x64 pos:absolute t:0px l:0px r:0px b:0px
+          #1072 <img> 211,9422 64x64 ovf:clip ; img:https://framerusercontent.com/images/HB4OWZgksTQCHf8uTWf7S6EYSlE.webp?width=80&height=80 nat:80x80 fit:cover objpos:50% 50% alt:AICPA SOC 2 compliance badge
+      #1073 <div> [Links] 32,9525 326x304 flex column jc:center ai:flex-start gap:16px
+       #1074 <div> 32,9525 112x20 flex column jc:flex-start ai:normal gap:normal
+        #1075 <p> 32,9525 112x20  T"Platform" ["Instrument Sans" 600  14px/19.6px ls:1.7px c:rgb(255, 255, 255) ta:left tt:uppercase]
+       #1076 <div> 32,9561 326x268 flex column jc:center ai:flex-start gap:12px
+        #1078 <a> [Default] 32,9561 182x16 flex column jc:center ai:center gap:10px ; href:./
+         #1079 <div> 32,9561 182x16 flex column jc:flex-start ai:normal gap:normal
+          #1080 <p> 32,9561 182x16  T"Customer Service Agent" ["Instrument Sans" 500  16px/16px ls:normal c:rgba(255, 255, 255, 0.5) ta:left tt:none]
+        #1082 <a> [Default] 32,9589 121x16 flex column jc:center ai:center gap:10px ; href:./shopping-agent
+         #1083 <div> 32,9589 121x16 flex column jc:flex-start ai:normal gap:normal
+          #1084 <p> 32,9589 121x16  T"Shopping Agent" ["Instrument Sans" 500  16px/16px ls:normal c:rgba(255, 255, 255, 0.5) ta:left tt:none]
+        #1086 <a> [Default] 32,9617 94x16 flex column jc:center ai:center gap:10px ; href:./social-agent
+         #1087 <div> 32,9617 94x16 flex column jc:flex-start ai:normal gap:normal
+          #1088 <p> 32,9617 94x16  T"Social Agent" ["Instrument Sans" 500  16px/16px ls:normal c:rgba(255, 255, 255, 0.5) ta:left tt:none]
+        #1090 <a> [Default] 32,9645 72x16 flex column jc:center ai:center gap:10px ; href:./ask-siena
+         #1091 <div> 32,9645 72x16 flex column jc:flex-start ai:normal gap:normal
+          #1092 <p> 32,9645 72x16  T"Ask Siena" ["Instrument Sans" 500  16px/16px ls:normal c:rgba(255, 255, 255, 0.5) ta:left tt:none]
+        #1094 <a> [Default] 32,9673 74x16 flex column jc:center ai:center gap:10px ; href:./qa-agent
+         #1095 <div> 32,9673 74x16 flex column jc:flex-start ai:normal gap:normal
+          #1096 <p> 32,9673 74x16  T"QA Agent" ["Instrument Sans" 500  16px/16px ls:normal c:rgba(255, 255, 255, 0.5) ta:left tt:none]
+        #1098 <a> [Default] 32,9701 115x16 flex column jc:center ai:center gap:10px ; href:./topics-explorer
+         #1099 <div> 32,9701 115x16 flex column jc:flex-start ai:normal gap:normal
+          #1100 <p> 32,9701 115x16  T"Topics Explorer" ["Instrument Sans" 500  16px/16px ls:normal c:rgba(255, 255, 255, 0.5) ta:left tt:none]
+        #1102 <a> [Default] 32,9729 109x16 flex column jc:center ai:center gap:10px ; href:./ai-review-management
+         #1103 <div> 32,9729 109x16 flex column jc:flex-start ai:normal gap:normal
+          #1104 <p> 32,9729 109x16  T"Reviews Agent" ["Instrument Sans" 500  16px/16px ls:normal c:rgba(255, 255, 255, 0.5) ta:left tt:none]
+        #1106 <a> [Default] 32,9757 63x16 flex column jc:center ai:center gap:10px ; href:./memory
+         #1107 <div> 32,9757 63x16 flex column jc:flex-start ai:normal gap:normal
+          #1108 <p> 32,9757 63x16  T"Memory" ["Instrument Sans" 500  16px/16px ls:normal c:rgba(255, 255, 255, 0.5) ta:left tt:none]
+        #1110 <a> [Default] 32,9785 38x16 flex column jc:center ai:center gap:10px ; href:./products/docs
+         #1111 <div> 32,9785 38x16 flex column jc:flex-start ai:normal gap:normal
+          #1112 <p> 32,9785 38x16  T"Docs" ["Instrument Sans" 500  16px/16px ls:normal c:rgba(255, 255, 255, 0.5) ta:left tt:none]
+        #1114 <a> [Default] 32,9813 90x16 flex column jc:center ai:center gap:10px ; href:./integrations
+         #1115 <div> 32,9813 90x16 flex column jc:flex-start ai:normal gap:normal
+          #1116 <p> 32,9813 90x16  T"Integrations" ["Instrument Sans" 500  16px/16px ls:normal c:rgba(255, 255, 255, 0.5) ta:left tt:none]
+      #1117 <div> [Links] 32,9869 326x164 flex column jc:center ai:flex-start gap:16px
+       #1118 <div> 32,9869 112x20 flex column jc:flex-start ai:normal gap:normal
+        #1119 <p> 32,9869 112x20  T"rESOURCES" ["Instrument Sans" 600  14px/19.6px ls:1.7px c:rgb(255, 255, 255) ta:left tt:uppercase]
+       #1120 <div> 32,9904 326x128 grid cols:147px 147px rows:16px 16px 16px 16px 16px gap:12px 32px
+        #1122 <a> [Default] 32,9904 34x16 flex column jc:center ai:center gap:10px ; href:./blog
+         #1123 <div> 32,9904 34x16 flex column jc:flex-start ai:normal gap:normal
+          #1124 <p> 32,9904 34x16  T"Blog" ["Instrument Sans" 500  16px/16px ls:normal c:rgba(255, 255, 255, 0.5) ta:left tt:none]
+        #1126 <a> [Default] 211,9904 89x16 flex column jc:center ai:center gap:10px ; href:./community
+         #1127 <div> 211,9904 89x16 flex column jc:flex-start ai:normal gap:normal
+          #1128 <p> 211,9904 89x16  T"Community" ["Instrument Sans" 500  16px/16px ls:normal c:rgba(255, 255, 255, 0.5) ta:left tt:none]
+        #1130 <a> [Default] 32,9932 50x16 flex column jc:center ai:center gap:10px ; href:./events
+         #1131 <div> 32,9932 50x16 flex column jc:flex-start ai:normal gap:normal
+          #1132 <p> 32,9932 50x16  T"Events" ["Instrument Sans" 500  16px/16px ls:normal c:rgba(255, 255, 255, 0.5) ta:left tt:none]
+        #1134 <a> [Default] 211,9988 107x16 flex column jc:center ai:center gap:10px ; href:./conversations
+         #1135 <div> 211,9988 107x16 flex column jc:flex-start ai:normal gap:normal
+          #1136 <p> 211,9988 107x16  T"Conversations" ["Instrument Sans" 500  16px/16px ls:normal c:rgba(255, 255, 255, 0.5) ta:left tt:none]
+        #1138 <a> [Default] 211,9932 71x16 flex column jc:center ai:center gap:10px ; href:./webinars
+         #1139 <div> 211,9932 71x16 flex column jc:flex-start ai:normal gap:normal
+          #1140 <p> 211,9932 71x16  T"Webinars" ["Instrument Sans" 500  16px/16px ls:normal c:rgba(255, 255, 255, 0.5) ta:left tt:none]
+        #1142 <a> [Default] 32,9960 107x16 flex column jc:center ai:center gap:10px ; href:./roi-calculator
+         #1143 <div> 32,9960 107x16 flex column jc:flex-start ai:normal gap:normal
+          #1144 <p> 32,9960 107x16  T"ROI Calculator" ["Instrument Sans" 500  16px/16px ls:normal c:rgba(255, 255, 255, 0.5) ta:left tt:none]
+        #1146 <a> [Default] 32,10016 53x16 flex column jc:center ai:center gap:10px ; href:./pricing
+         #1147 <div> 32,10016 53x16 flex column jc:flex-start ai:normal gap:normal
+          #1148 <p> 32,10016 53x16  T"Pricing" ["Instrument Sans" 500  16px/16px ls:normal c:rgba(255, 255, 255, 0.5) ta:left tt:none]
+        #1150 <a> [Default] 211,9960 157x16 flex column jc:center ai:center gap:10px ; href:./ai-native-customer-service-vs-help-desk-ai-add-ons
+         #1151 <div> 211,9960 157x16 flex column jc:flex-start ai:normal gap:normal
+          #1152 <p> 211,9960 157x16  T"Choose Dedicated AI" ["Instrument Sans" 500  16px/16px ls:normal c:rgba(255, 255, 255, 0.5) ta:left tt:none]
+        #1154 <a> [Default] 32,9988 50x16 flex column jc:center ai:center gap:10px ; href:./ai-lab
+         #1155 <div> 32,9988 50x16 flex column jc:flex-start ai:normal gap:normal
+          #1156 <p> 32,9988 50x16  T"AI LAB" ["Instrument Sans" 500  16px/16px ls:normal c:rgba(255, 255, 255, 0.5) ta:left tt:none]
+     #1157 <div> 32,10072 326x80 flex column jc:center ai:flex-start gap:40px
+      #1158 <div> [Links] 32,10072 326x80 flex column jc:center ai:flex-start gap:16px
+       #1159 <div> 32,10072 112x20 flex column jc:flex-start ai:normal gap:normal
+        #1160 <p> 32,10072 112x20  T"PARTNERS" ["Instrument Sans" 600  14px/19.6px ls:1.7px c:rgb(255, 255, 255) ta:left tt:uppercase]
+       #1161 <div> 32,10108 326x44 flex column jc:center ai:flex-start gap:12px
+        #1163 <a> [Default] 32,10108 136x16 flex column jc:center ai:center gap:10px ; href:./partner-with-siena
+         #1164 <div> 32,10108 136x16 flex column jc:flex-start ai:normal gap:normal
+          #1165 <p> 32,10108 136x16  T"Partner with Siena" ["Instrument Sans" 500  16px/16px ls:normal c:rgba(255, 255, 255, 0.5) ta:left tt:none]
+        #1167 <a> [Default] 32,10136 103x16 flex column jc:center ai:center gap:10px ; href:./refer-a-friend
+         #1168 <div> 32,10136 103x16 flex column jc:flex-start ai:normal gap:normal
+          #1169 <p> 32,10136 103x16  T"Refer a Friend" ["Instrument Sans" 500  16px/16px ls:normal c:rgba(255, 255, 255, 0.5) ta:left tt:none]

@@ -1,0 +1,29 @@
+const {chromium}=require('playwright');const fs=require('fs');const crypto=require('crypto');
+const OUT='/Users/riyaghosh/V3/siena/recon/pages-b/';const SVGDIR='/Users/riyaghosh/V3/siena/public/svg/';
+const routes=process.argv[2].split(',');const w=+(process.argv[3]||1440);
+(async()=>{const b=await chromium.launch();
+for(const r of routes){const slug=r.replace(/\//g,'-');const p=await b.newPage({viewport:{width:w,height:w>800?900:844}});
+await p.goto('https://www.siena.cx/'+r,{waitUntil:'load',timeout:120000}).catch(e=>console.log(e.message));await p.waitForTimeout(3000);
+const res={};
+// before-scroll motion snapshot
+res.pre=await p.evaluate(()=>{const o=[];document.querySelectorAll('#main *').forEach(e=>{if(e.closest('nav'))return;const c=getComputedStyle(e);const bb=e.getBoundingClientRect();if(bb.width<10||bb.height<10)return;if(+c.opacity<0.99||(c.transform!=='none'&&!e.closest('ul')))o.push({n:e.getAttribute('data-framer-name')||e.tagName,ap:e.getAttribute('data-framer-appear-id'),y:Math.round(bb.y+scrollY),x:Math.round(bb.x),w:Math.round(bb.width),h:Math.round(bb.height),op:c.opacity,tf:c.transform==='none'?undefined:c.transform,txt:(e.innerText||'').slice(0,50).replace(/\n/g,' ')})});return o});
+res.appearIds=await p.evaluate(()=>[...document.querySelectorAll('[data-framer-appear-id]')].map(e=>({id:e.getAttribute('data-framer-appear-id'),n:e.getAttribute('data-framer-name'),y:Math.round(e.getBoundingClientRect().y+scrollY),txt:(e.innerText||e.tagName).slice(0,60).replace(/\n/g,' ')})));
+// tickers
+res.tickers=await p.evaluate(async()=>{const uls=[...document.querySelectorAll('#main ul')].filter(u=>u.children.length>=4&&!u.closest('nav'));const s0=uls.map(u=>u.children[0].getBoundingClientRect().x);await new Promise(r=>setTimeout(r,2000));return uls.map((u,i)=>{const sec=u.closest('section')||u.parentElement;const c=getComputedStyle(sec);const bb=u.getBoundingClientRect();return {y:Math.round(bb.y+scrollY),h:Math.round(bb.height),n:u.children.length,gap:getComputedStyle(u).gap,speed:(u.children[0].getBoundingClientRect().x-s0[i])/2,mask:c.maskImage||c.webkitMaskImage,items:[...u.children].map(li=>{const lb=li.getBoundingClientRect();const img=li.querySelector('img');return [Math.round(lb.width),Math.round(lb.height),img?img.src.split('/').pop().split('?')[0]:(li.querySelector('svg')?'svg':'bg'),li.querySelector('[data-framer-name]')?.getAttribute('data-framer-name')||(li.innerText||'').slice(0,40)]})}})});
+// scroll through, record sticky
+const H=await p.evaluate(()=>document.documentElement.scrollHeight);
+for(let y=0;y<H;y+=450){await p.evaluate(y=>window.scrollTo(0,y),y);await p.waitForTimeout(200);}
+await p.waitForTimeout(1500);
+res.post=await p.evaluate(()=>{const o=[];document.querySelectorAll('#main *').forEach(e=>{if(e.closest('nav'))return;const c=getComputedStyle(e);const bb=e.getBoundingClientRect();if(bb.width<10||bb.height<10)return;if(+c.opacity<0.99||(c.transform!=='none'&&!e.closest('ul')))o.push({n:e.getAttribute('data-framer-name')||e.tagName,y:Math.round(bb.y+scrollY),op:c.opacity,tf:c.transform==='none'?undefined:c.transform,txt:(e.innerText||'').slice(0,40).replace(/\n/g,' ')})});return o});
+res.sticky=await p.evaluate(()=>[...document.querySelectorAll('#main *')].filter(e=>getComputedStyle(e).position==='sticky').map(e=>({n:e.getAttribute('data-framer-name'),top:getComputedStyle(e).top,h:Math.round(e.getBoundingClientRect().height),ph:Math.round(e.parentElement.getBoundingClientRect().height)})));
+res.videos=await p.evaluate(()=>[...document.querySelectorAll('#main video')].filter(v=>!v.closest('nav')).map(v=>({src:v.currentSrc||v.src||v.querySelector('source')?.src,poster:v.poster,y:Math.round(v.getBoundingClientRect().y+scrollY),w:Math.round(v.getBoundingClientRect().width),h:Math.round(v.getBoundingClientRect().height),loop:v.loop,muted:v.muted,autoplay:v.autoplay,controls:v.controls,paused:v.paused,fit:getComputedStyle(v).objectFit,r:getComputedStyle(v).borderRadius,parentR:getComputedStyle(v.parentElement).borderRadius})));
+res.iframes=await p.evaluate(()=>[...document.querySelectorAll('#main iframe')].map(f=>({src:f.src,w:f.getBoundingClientRect().width,h:f.getBoundingClientRect().height,y:f.getBoundingClientRect().y+scrollY})));
+res.lottie=await p.evaluate(()=>[...document.querySelectorAll('#main canvas, #main [class*=lottie], #main svg[preserveAspectRatio][width][height] g[clip-path]')].slice(0,20).map(e=>({tag:e.tagName,cls:e.getAttribute('class'),y:Math.round(e.getBoundingClientRect().y+scrollY)})));
+res.slideshows=await p.evaluate(()=>[...document.querySelectorAll('#main fieldset')].map(f=>({y:Math.round(f.getBoundingClientRect().y+scrollY),html:f.outerHTML.replace(/<img[^>]*src="([^"]*)"[^>]*>/g,'IMG($1)').slice(0,1200)})));
+// inline svgs
+const svgs=await p.evaluate(()=>{const o=[];document.querySelectorAll('#main svg').forEach(s=>{if(s.closest('nav')||s.parentElement.closest('svg'))return;const bb=s.getBoundingClientRect();if(bb.width<10||bb.height<10)return;let n=null,e=s;while(e&&!n){n=e.getAttribute&&e.getAttribute('data-framer-name');e=e.parentElement}const c=getComputedStyle(s);let html=s.outerHTML;if(!/xmlns=/.test(html))html=html.replace('<svg','<svg xmlns="http://www.w3.org/2000/svg"');o.push({n,y:Math.round(bb.y+scrollY),w:Math.round(bb.width),h:Math.round(bb.height),color:c.color,html})});return o});
+const seen={};res.svgs=[];
+for(const s of svgs){const h=crypto.createHash('md5').update(s.html).digest('hex').slice(0,6);if(seen[h]){seen[h].count++;continue}
+ const name=`${slug}-${(s.n||'svg').replace(/[^a-zA-Z0-9]+/g,'-').replace(/^-|-$/g,'')}-${h}.svg`;let html=s.html.replace(/currentColor/g,s.color);fs.writeFileSync(SVGDIR+name,html);seen[h]={file:name,n:s.n,y:s.y,w:s.w,h:s.h,count:1};res.svgs.push(seen[h]);}
+res.H=H;fs.writeFileSync(OUT+`${slug}-${w}-deep.json`,JSON.stringify(res,null,1));console.log(r,'done',res.svgs.length,'svgs');await p.close();}
+await b.close();})();

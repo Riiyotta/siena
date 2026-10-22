@@ -1,0 +1,16 @@
+{
+  "registryId": "component.event-card",
+  "version": "1.0.0",
+  "category": "content",
+  "description": "AI Lab event card (white, no radius, 1px black-50 border): date + format tags, title, subtitle, time/location lines, optional full-width md button.",
+  "composes": [
+    "primitive.tag-pill",
+    "primitive.text",
+    "primitive.icon",
+    "primitive.button"
+  ],
+  "props": {},
+  "measuredFrom": [
+    "spec.ailab.eventcard"
+  ]
+}

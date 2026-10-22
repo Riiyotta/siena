@@ -1,0 +1,24 @@
+{
+  "registryId": "component.chat-mock",
+  "version": "1.0.0",
+  "category": "content",
+  "description": "Chat card (bg image cover, radius 24, padding 56): customer rows (avatar + sand bubble) and Siena rows (2px rainbow-border bubble, warm-200 inner, ink avatar with S glyph). Variants: v1 support chat, v2 product recommendation card, v3 personas widget, plus page-specific mocks (reviews, memory, shopping, integrations grid). Rows enter with chat-stagger.",
+  "composes": [
+    "primitive.avatar",
+    "primitive.gradient-ring",
+    "primitive.text",
+    "primitive.image"
+  ],
+  "props": {
+    "variant": {
+      "type": "string"
+    }
+  },
+  "measuredFrom": [
+    "spec.chatmock",
+    "spec.chat.entrance",
+    "spec.chat.gradient",
+    "jsx.chatmock"
+  ],
+  "motion": "{motion.recipe.chat-stagger}"
+}

@@ -1,0 +1,2 @@
+TICKERS [{"speed":"29.5","gap":"112px","mask":"none","n":27,"first":"FIGS logo/Grüns/Comfrt logo"},{"speed":"-29.5","gap":"112px","mask":"none","n":28,"first":"Momentous logo/ButcherBox logo/Canopy logo"}]
+NAV 0:rgba(0, 0, 0, 0) 20:rgba(0, 0, 0, 0) 40:rgba(0, 0, 0, 0) 60:rgba(0, 0, 0, 0) 80:rgba(0, 0, 0, 0) 100:rgba(0, 0, 0, 0) 120:rgba(0, 0, 0, 0) 140:rgba(0, 0, 0, 0) 160:rgba(0, 0, 0, 0) 180:rgba(0, 0, 0, 0) 200:rgba(0, 0, 0, 0) 220:rgba(0, 0, 0, 0) 240:rgba(0, 0, 0, 0) 260:rgba(0, 0, 0, 0)

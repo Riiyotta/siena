@@ -1,0 +1,77 @@
+{
+  "id": "section.feature.change-once",
+  "registryId": "section.feature.change-once",
+  "typeId": "feature.change-once",
+  "version": "1.0.0",
+  "category": "feature",
+  "purpose": "'Change it once': title column + gallery card (person cutout, request card, three diff cards old-struck/new-green) with staggered springs.",
+  "evidenceLevel": "spec-measured",
+  "variants": {
+    "docs": "Cream with glow and top fade."
+  },
+  "composes": [
+    "primitive.text",
+    "primitive.image"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "eyebrow": {
+        "type": "string",
+        "maxWords": 6
+      },
+      "heading": {
+        "type": "string",
+        "maxWords": 10
+      },
+      "body": {
+        "type": "string",
+        "maxWords": 30
+      },
+      "request": {
+        "type": "string",
+        "maxWords": 16
+      },
+      "diffs": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "maxWords": 3
+        },
+        "minItems": 3,
+        "maxItems": 3
+      }
+    },
+    "required": [
+      "eyebrow",
+      "heading",
+      "body",
+      "request",
+      "diffs"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "scroll-reveal-spring"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Stacked."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "spec.pb.4.3"
+  ]
+}

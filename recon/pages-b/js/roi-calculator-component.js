@@ -1,0 +1,116 @@
+import{n as e}from"./rolldown-runtime.DaJ6WEGw.mjs";import{D as t,E as n,H as r,N as i,P as a,R as o,W as s,b as c,c as l,l as u,m as d,s as f,u as p,v as m,x as h}from"./react.BEHm50PG.mjs";import{i as g,k as _,o as v,t as y}from"./motion.DGaro0Ri.mjs";import{$ as b,Bt as x,D as S,Dt as ee,H as C,L as te,M as ne,N as w,Nt as re,O as T,P as ie,Pt as ae,Q as E,Rt as oe,Ut as se,Vt as ce,W as D,X as O,Z as k,_ as le,a as ue,at as de,ft as A,ht as j,kt as fe,mt as M,n as pe,o as N,qt as P,s as F,wt as me,xt as he,y as I,zt as ge}from"./framer.DHxyAksV.mjs";import{$ as _e,C as ve,F as ye,I as L,L as be,M as xe,N as Se,P as Ce,Q as we,S as Te,Z as Ee,_ as R,a as De,b as Oe,c as ke,d as Ae,dt as je,et as Me,f as Ne,ft as Pe,i as Fe,l as Ie,lt as Le,n as Re,o as ze,r as Be,s as Ve,t as He,u as Ue,ut as We,v as Ge,x as Ke,y as z}from"./shared.ffy8Q9Px.mjs";import{i as qe,n as Je,r as Ye,t as Xe}from"./RZJmj7YvB.u08Z5-Ln.mjs";import{r as Ze,t as B}from"./aUVipbpn9.ZQ8t2diR.mjs";import{a as Qe,i as $e,n as et,o as tt,r as nt,t as rt}from"./F2WLQ6wk7.BsDkOHKR.mjs";import{i as it,t as at}from"./fBVB42pTG.CKO69mkV.mjs";import{n as ot,t as st}from"./NB5js8lPE.DTvhh7px.mjs";import{i as ct,n as lt,r as ut,t as dt}from"./urS9Ayjol.B0poS3xR.mjs";import{i as ft,n as pt,r as mt,t as ht}from"./YiOnMoBBD.DhEm8ZjY.mjs";import{n as gt,t as _t}from"./sYgx0dDNB.w3Sy7O4P.mjs";import vt,{t as yt}from"./umDc5Y6XRpUMgWdV3TWIVdInCBrTTpXLhogUsDwC3Bc.B2JrAIGj.mjs";function bt(){let[e,t]=m(1),[n,r]=m(0),[i,a]=m({annualTicketsVolume:0,numberOfAgents:0,annualInHouseCustomerServiceTeamCost:0,annualBpoTeamCost:0,annualHelpDeskCost:0,averageOrderValue:0,sienaAutomationRate:20}),[o,l]=m({firstName:``,lastName:``,email:``,attribution:``}),[u,d]=m(null),[h,g]=m(!1),[_,v]=m(null),y=`aba7ea3e-5aaa-47a6-b2ab-6f3dd509821a`;c(()=>{if(e!==3)return;let{annualTicketsVolume:t,annualInHouseCustomerServiceTeamCost:n,annualBpoTeamCost:r,annualHelpDeskCost:a,averageOrderValue:o,sienaAutomationRate:s,numberOfAgents:c}=i;s/=100;let l=Ct(t),u=(n+r+a)/t,f=t*s,p=f*.02,m=p*o*.3,h=f*l,g=f*u,_=g+m-24e3;d({resultAutomationRate:(s*100).toFixed(2)+`%`,resultConvertedOrders:Math.round(p).toLocaleString(),resultSienaDrivenRevenue:`$`+m.toFixed(2),resultSienaCostPerConversation:`$`+l.toFixed(2),resultSienaCost:`$`+h.toFixed(2),resultAutomatedConversations:Math.round(f).toLocaleString(),resultTotalSavings:`$`+g.toFixed(2),resultYearlyROI:`$`+_.toFixed(2)})},[e,i]);let b=(e,t)=>{a(n=>({...n,[e]:t}))},x=(e,t)=>{l(n=>({...n,[e]:t}))},S=e=>{let t=document.cookie.match(RegExp(`(^| )`+e+`=([^;]+)`));if(t)return t[2]},ee=()=>{v(null);let{annualTicketsVolume:e,annualInHouseCustomerServiceTeamCost:n,annualBpoTeamCost:r,annualHelpDeskCost:a,averageOrderValue:o,sienaAutomationRate:s,numberOfAgents:c}=i;if(!e||!c||!n||!o||!a){v(`Please fill in all required fields.`);return}t(2)},C=async()=>{if(v(null),!o.firstName||!o.lastName||!o.email||!o.attribution){v(`Please complete all contact fields.`);return}if(h)return;g(!0);let e=`https://api.hsforms.com/submissions/v3/integration/submit/24278528/${y}`,n={fields:[{objectTypeId:`0-1`,name:`firstname`,value:o.firstName},{objectTypeId:`0-1`,name:`lastname`,value:o.lastName},{objectTypeId:`0-1`,name:`email`,value:o.email},{objectTypeId:`0-1`,name:`attribution`,value:o.attribution}],context:{hutk:S(`hubspotutk`),pageUri:s.location.href,pageName:document.title}};try{await fetch(`https://n8n-siena.up.railway.app/webhook/7aea31fe-a96e-40b8-bafa-43ee84c92bf0`,{method:`POST`,headers:{"Content-Type":`application/json`},body:JSON.stringify({formId:y,...i,...o})});let r=await fetch(e,{method:`POST`,headers:{"Content-Type":`application/json`},body:JSON.stringify(n)});if(r.ok)await r.json(),t(3);else{let e=await r.json().catch(()=>({message:`Unknown error structure`}));console.error(`HubSpot API submission failed:`,r.status,r.statusText,e);let t=`Form submission failed (Status: ${r.status}).`;e&&e.message&&(t+=` Message: ${e.message}`),e&&e.errors&&e.errors.length>0&&(e.errors.filter(e=>e.message.toLowerCase().includes(`email address`)).length>0?t=`Submissions from this email address are not allowed.`:t+=` Details: ${e.errors.map(e=>e.message).join(`, `)}`),v(t)}}catch(e){console.error(`Error during fetch to HubSpot API:`,e),v(`An error occurred while submitting the form. Please check the console.`)}finally{g(!1)}};return p(`div`,{style:{padding:3,borderRadius:16,background:`linear-gradient(209deg, #294FBA 0%, #2E79D8 15.92%, #827ACC 34.17%, #FB5646 66.13%, #FEC796 90.23%, #F2E59A 100%)`},children:[f(`style`,{children:`
+                .full-card {
+                    padding: 40px;
+                }
+                
+                @media (max-width: 800px) {
+                .full-card {
+                    padding: 24px !important;
+                }
+                }
+        `}),p(`div`,{className:`full-card`,style:{background:`#F3F0EB`,borderRadius:14,fontFamily:`sans-serif`},children:[e===1&&p(`div`,{children:[f(`div`,{style:W.h5,children:`Plug in your numbers & forecast your future`}),f(`p`,{style:W.paragraph,children:`Use our ROI calculator to see how we make magic happen. It's quick, easy, and kinda satisfying!`}),f(`style`,{children:`
+                            .row {
+                            display: flex;
+                            gap: 16px;
+                            margin-bottom: 8px;
+                            flex-wrap: wrap;
+                            }
+
+                            @media (max-width: 800px) {
+                            .row {
+                                flex-direction: column;
+                                margin-bottom: 0px;
+                                gap: 0px !important;
+                            }
+                            }
+                        `}),p(`div`,{style:W.row,className:`row`,children:[f(V,{label:`Annual Tickets Volume`,value:i.annualTicketsVolume,onChange:e=>b(`annualTicketsVolume`,e)}),f(V,{label:`Number of Agents`,value:i.numberOfAgents,onChange:e=>b(`numberOfAgents`,e)})]}),f(`div`,{style:W.row,className:`row`,children:f(V,{label:`Annual In-House Customer Service Team Cost`,value:i.annualInHouseCustomerServiceTeamCost,onChange:e=>b(`annualInHouseCustomerServiceTeamCost`,e)})}),f(`div`,{style:W.row,className:`row`,children:f(V,{label:`Annual BPO Team Cost`,value:i.annualBpoTeamCost,optional:!0,onChange:e=>b(`annualBpoTeamCost`,e)})}),p(`div`,{style:W.row,className:`row`,children:[f(V,{label:`Average Order Value`,value:i.averageOrderValue,onChange:e=>b(`averageOrderValue`,e)}),f(V,{label:`Annual Help Desk Cost`,value:i.annualHelpDeskCost,onChange:e=>b(`annualHelpDeskCost`,e)})]}),_&&f(`div`,{style:W.errorText,children:_}),f(`div`,{style:W.nextBtnContainer,children:f(U,{style:{marginTop:0},onClick:()=>ee(),icon:()=>f(`svg`,{width:`17`,height:`17`,viewBox:`0 0 18 17`,xmlns:`http://www.w3.org/2000/svg`,children:f(`path`,{d:`M17.4375 9.20312L10.5625 15.7656C10.1719 16.1172 9.58594 16.1172 9.23438 15.7266C8.88281 15.3359 8.88281 14.75 9.27344 14.3984L14.4688 9.4375H1.1875C0.640625 9.4375 0.25 9.04688 0.25 8.5C0.25 7.99219 0.640625 7.5625 1.1875 7.5625H14.4688L9.27344 2.64062C8.88281 2.28906 8.88281 1.66406 9.23438 1.3125C9.58594 0.921875 10.2109 0.921875 10.5625 1.27344L17.4375 7.83594C17.6328 8.03125 17.75 8.26562 17.75 8.5C17.75 8.77344 17.6328 9.00781 17.4375 9.20312Z`,fill:`white`})}),children:`Next`})})]},n),e===2&&p(`div`,{children:[f(`div`,{style:{...W.h5,borderBottom:`1px solid #00000030`,paddingBottom:20,marginBottom:40},children:`Your details`}),f(`style`,{children:`
+                            .row {
+                            display: flex;
+                            gap: 16px;
+                            margin-bottom: 16px;
+                            flex-wrap: wrap;
+                            }
+
+                            @media (max-width: 800px) {
+                            .row {
+                                flex-direction: column;
+                            }
+                            }
+                        `}),p(`div`,{style:W.row,className:`row`,children:[f(V,{label:`First Name*`,value:o.firstName,onChange:e=>x(`firstName`,e),text:!0,required:!0,placeholder:`John`}),f(V,{label:`Last Name*`,value:o.lastName,onChange:e=>x(`lastName`,e),text:!0,required:!0,placeholder:`Smith`})]}),f(`div`,{style:W.row,children:f(V,{label:`Work Email*`,value:o.email,onChange:e=>x(`email`,e),text:!0,required:!0,placeholder:`john.smith@example.com`})}),f(`div`,{style:W.row,children:f(V,{label:`Where did you hear about us?*`,value:o.attribution,onChange:e=>x(`attribution`,e),text:!0,required:!0,placeholder:`Write us something...`})}),_&&f(`div`,{style:W.errorText,children:_}),f(`div`,{style:W.nextBtnContainer,children:f(U,{icon:()=>f(`svg`,{width:`17`,height:`17`,viewBox:`0 0 18 17`,xmlns:`http://www.w3.org/2000/svg`,children:f(`path`,{d:`M17.4375 9.20312L10.5625 15.7656C10.1719 16.1172 9.58594 16.1172 9.23438 15.7266C8.88281 15.3359 8.88281 14.75 9.27344 14.3984L14.4688 9.4375H1.1875C0.640625 9.4375 0.25 9.04688 0.25 8.5C0.25 7.99219 0.640625 7.5625 1.1875 7.5625H14.4688L9.27344 2.64062C8.88281 2.28906 8.88281 1.66406 9.23438 1.3125C9.58594 0.921875 10.2109 0.921875 10.5625 1.27344L17.4375 7.83594C17.6328 8.03125 17.75 8.26562 17.75 8.5C17.75 8.77344 17.6328 9.00781 17.4375 9.20312Z`,fill:`white`})}),onClick:C,disabled:h,children:`View results`})})]}),e===3&&u&&p(`div`,{children:[f(`div`,{style:{...W.h5,borderBottom:`1px solid #00000030`,paddingBottom:20,marginBottom:40},children:`1st Year Projections`}),f(St,{label:`Siena Automation Rate`,value:i.sienaAutomationRate,onChange:e=>b(`sienaAutomationRate`,e)}),f(xt,{description:`More tickets, lower cost per conversation with Siena`,label:`Annual Ticket Volume`,value:i.annualTicketsVolume,onChange:e=>b(`annualTicketsVolume`,e)}),f(`hr`,{style:{backgroundColor:`#00000040`,height:`1px`,borderWidth:0,marginBottom:`25px`,marginTop:`35px`}}),f(H,{label:`Siena Driven Revenue`,value:`${u.resultSienaDrivenRevenue}`}),f(H,{label:`Siena Cost per Automated Conversation`,value:u.resultSienaCostPerConversation}),f(H,{label:`Total Savings / Year`,value:u.resultTotalSavings}),f(H,{label:`Total Yearly ROI After Siena Cost`,value:u.resultYearlyROI}),f(H,{label:`Average Response Time`,value:`30 seconds`}),f(H,{label:`Average Resolution Time`,value:`5 minutes`}),f(`hr`,{style:{backgroundColor:`#00000040`,height:`1px`,borderWidth:0,marginTop:`25px`,marginBottom:`25px`}}),p(`p`,{style:{fontFamily:`Tiempos Text Regular`,fontSize:24,fontWeight:400,color:`#122023`},children:[`Want to see Siena's magic in action? `,f(`br`,{}),` Connect with our experts and learn how!`]}),f(U,{onClick:()=>{s.location.href=`/book-a-demo`,a({annualTicketsVolume:0,numberOfAgents:0,annualInHouseCustomerServiceTeamCost:0,annualBpoTeamCost:0,annualHelpDeskCost:0,averageOrderValue:0,sienaAutomationRate:0})},children:`Book a demo`})]})]})]})}function xt({label:e,description:t,value:n,onChange:r}){return p(`div`,{className:`value-input-container`,children:[f(`style`,{children:`
+                    .value-input-container {
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 16px;
+                        gap: 20px;
+                    }
+                    @media (max-width: 800px) {
+                        .value-input-container {
+                            flex-direction: column;
+                            align-items: start;
+                        }
+                        .value-input-container > input {
+                            width: 100% !important;
+                            text-align: left !important;
+                        }
+                    }
+            `}),p(`div`,{style:{flexGrow:1},children:[f(`label`,{style:{fontFamily:`Instrument Sans`,fontSize:18,fontWeight:500,color:`#343A40`,display:`block`,marginBottom:`4px`},children:e}),f(`span`,{style:{fontFamily:`Instrument Sans`,fontSize:14,color:`#6A737D`,display:`block`},children:t})]}),f(`input`,{type:`number`,value:n,onChange:e=>{let t=parseInt(e.target.value);isNaN(t)||r(t)},style:{width:`100px`,padding:`10px 8px`,border:`1px solid #BEBEBE`,borderRadius:`8px`,fontFamily:`Instrument Sans`,fontSize:16,textAlign:`center`,backgroundColor:`#FFFFFF`,color:`#343A40`,outline:`none`}})]})}function V({label:e,value:t,onChange:n,optional:r,required:i=!1,placeholder:a,text:o=!1}){let[s,c]=m(!1),l=e=>{s||c(!0),n(o?e.target.value:parseFloat(e.target.value)||0)},u;return u=!o&&t===0&&!s?``:String(t),p(`div`,{style:{marginBottom:16,flex:1},children:[p(`label`,{style:{fontFamily:`Instrument Sans`,fontSize:14,marginBottom:4,display:`flex`,alignItems:`center`,gap:3,fontWeight:600},children:[e,f(`p`,{style:{color:`black`,opacity:.2},children:r&&`(optional)`})]}),f(`style`,{children:`
+                input::placeholder {
+                    color: #A7A092;
+                }          
+            `}),f(`input`,{type:o?`text`:`number`,value:u,placeholder:a,required:i,onChange:l,style:{flex:1,width:`100%`,minHeight:56,padding:`0 16px`,border:`1px solid #CDBCA0`,borderRadius:16,fontSize:15,color:`#122023`,outline:`none`}})]})}function St({label:e,value:t,onChange:n}){let r=e=>{n(parseInt(e.target.value))},i=e=>{let t=parseInt(e.target.value);isNaN(t)||n(Math.max(0,Math.min(100,t)))},a=(t-0)/100*100;return p(`div`,{style:{display:`flex`,marginBottom:16,gap:`5px`,flexDirection:`column`},children:[f(`label`,{style:{fontFamily:`Instrument Sans`,fontSize:18,fontWeight:500,color:`#343A40`,whiteSpace:`nowrap`,minWidth:`180px`},children:e}),p(`div`,{style:{display:`flex`,alignItems:`center`,flexGrow:1,gap:`10px`},children:[f(`input`,{type:`range`,min:0,max:100,className:`custom-slider`,value:t,onChange:r,style:{flexGrow:1,height:`6px`,borderRadius:`3px`,outline:`none`,WebkitAppearance:`none`,appearance:`none`,background:`linear-gradient(to right, #000 0%, #000 ${a}%, #ccc ${a}%, #ccc 100%)`,cursor:`pointer`}}),f(`input`,{type:`number`,value:t,onChange:i,style:{width:`70px`,padding:`10px 8px`,border:`1px solid #BEBEBE`,borderRadius:`8px`,fontFamily:`Instrument Sans`,fontSize:16,textAlign:`center`,backgroundColor:`#FFFFFF`,color:`#343A40`,outline:`none`}})]}),f(`style`,{children:`
+                .custom-slider::-webkit-slider-thumb {
+                    -webkit-appearance: none;
+                    appearance: none;
+                    width: 26px;
+                    height: 26px;
+                    border-radius: 50%;
+                     background: linear-gradient(
+                        210deg,
+                        #294fba 0%,
+                        #2e79d8 15.92%,
+                        #827acc 34.17%,
+                        #fb5646 66.13%,
+                        #fec796 90.23%,
+                        #f2e59a 100%
+                    );
+                    border: 4.5px solid #000;
+                    cursor: pointer;
+                    margin-top: -9px;
+                    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+                }
+
+                .custom-slider::-webkit-slider-runnable-track {
+                    height: 6px;
+                    border-radius: 3px;
+                }
+
+                .custom-slider::-moz-range-track {
+                    height: 6px;
+                    border-radius: 3px;
+                    background-color: #ccc;
+                }
+            `})]})}function H({label:e,value:t}){return p(`div`,{className:`result-container`,children:[f(`style`,{children:`
+                    .result-container {
+                        display: flex;
+                        justify-content: space-between;
+                        padding: 10px 0;
+                        font-weight: 400;
+                        font-family: Instrument Sans;
+                        font-size: 18px;
+                    }
+
+                    @media (max-width: 800px) {
+                       .result-container {
+                            flex-direction: column;
+                            align-items: start;
+                            gap: 8px;
+                       } 
+                    }
+                `}),f(`span`,{children:e}),f(`span`,{children:t})]})}function U({children:e,onClick:t,icon:n,style:r,disabled:i}){return p(u,{children:[f(`style`,{children:`
+                    @media (max-width: 800px) {
+                        button {
+                            width: 100%;
+                            justify-content: center;
+                        }
+                    }
+                `}),p(`button`,{onClick:t,className:`button`,disabled:i,style:{backgroundColor:i?`#A0A0A0`:`#122023`,color:`white`,padding:`16px 24px`,borderRadius:16,fontSize:18,fontWeight:600,marginTop:16,cursor:i?`not-allowed`:`pointer`,fontFamily:`Instrument Sans`,display:`flex`,alignItems:`center`,gap:7,border:`none`,...r},children:[e,n&&n()]})]})}var Ct,W,wt=e((()=>{r(),l(),t(),Ct=e=>{let t=[{min:0,max:1e4,cost:.99},{min:1e4,max:15e3,cost:.97},{min:15e3,max:25e3,cost:.95},{min:25e3,max:3e4,cost:.93},{min:3e4,max:4e4,cost:.91},{min:4e4,max:5e4,cost:.89},{min:5e4,max:6e4,cost:.87},{min:6e4,max:8e4,cost:.85},{min:8e4,max:1e5,cost:.83},{min:1e5,max:15e4,cost:.81},{min:15e4,max:2e5,cost:.79},{min:2e5,max:25e4,cost:.78},{min:25e4,max:3e5,cost:.76},{min:3e5,max:35e4,cost:.74},{min:35e4,max:4e5,cost:.73},{min:4e5,max:5e5,cost:.71},{min:5e5,max:1e6,cost:.69}];return t.find(t=>e>=t.min&&e<t.max)?.cost||t[t.length-1].cost},W={h5:{color:`var(--Colors-Text-text-primary, #122023)`,fontFamily:`"Feature Deck"`,fontSize:`var(--Headline-H5-font-size, 36px)`,fontStyle:`normal`,fontWeight:400,lineHeight:`var(--Headline-H5-line-height, 40px)`,letterSpacing:`var(--Headline-H5-letter-spacing, -0.3px)`,marginBottom:16},paragraph:{fontFamily:`"Instrument Sans"`,fontSize:16,color:`#122023`,maxWidth:500,borderBottom:`1px solid #00000030`,paddingBottom:20,marginBottom:28},row:{display:`flex`,gap:16,flexWrap:`wrap`},nextBtnContainer:{display:`flex`,justifyContent:`flex-end`},errorText:{fontFamily:`"Instrument Sans", sans-serif`,fontSize:`14px`,color:`rgb(169, 68, 66)`,backgroundColor:`rgb(242, 222, 222)`,border:`1px solid rgb(235, 204, 209)`,borderRadius:`8px`,padding:`10px 15px`,marginTop:`10px`,marginBottom:`15px`,textAlign:`left`}}})),G,Tt,Et,Dt,Ot,kt,At,jt,Mt,Nt,Pt,Ft,It,K,Lt,Rt,zt,Bt,q,J,Y,X,Z,Q,Vt,Ht,Ut,$,Wt;e((()=>{l(),de(),y(),t(),Ze(),be(),gt(),tt(),wt(),it(),ot(),Ge(),ve(),Me(),$e(),ye(),Pe(),Ne(),ke(),Fe(),qe(),ct(),ft(),yt(),G=P(w),Tt=P(_.div),Et=O(bt),Dt=P(F),Ot=O(L),kt=O(Qe),At=O(B),jt={c83cYmilB:`(min-width: 810px) and (max-width: 1199.98px)`,ku6vp3GSm:`(min-width: 1200px)`,RxmSAv21x:`(max-width: 809.98px)`},Mt=[],Nt=`framer-6glt4`,Pt={c83cYmilB:`framer-v-8059h`,ku6vp3GSm:`framer-v-s9v2r0`,RxmSAv21x:`framer-v-1lo8dku`},Ft=(e,t,n)=>e&&t?`position`:n,It={opacity:1,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,transition:{delay:.2,duration:.7,ease:[0,.91,.14,.85],type:`tween`},x:0,y:0},K={opacity:.001,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,x:0,y:200},Lt={opacity:.82,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,transition:{delay:.3,duration:.7,ease:[0,.91,.78,1],type:`tween`},x:0,y:0},Rt={opacity:1,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,transition:{delay:.4,duration:.7,ease:[0,.91,.78,1],type:`tween`},x:0,y:0},zt={opacity:1,rotate:0,rotateX:0,rotateY:0,scale:1,skewX:0,skewY:0,transition:{bounce:.2,del

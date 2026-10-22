@@ -1,0 +1,967 @@
+##### Hero@0@22
+div "Hero" [0,0,1440x1016] flex-column gap:10px jc:flex-start ai:center p:144px 0px 200px bg:#FFFFFF
+  div "top" [720,153,1x1] absolute(t:153px r:719.5px b:862px l:719.5px) ov:hidden z:1
+  div "Header Content" [184,144,1072x672] flex-column gap:112px jc:flex-start ai:center p:0px 56px maxw:1072px z:2
+    div [384,144,672x338] flex-column gap:24px jc:center ai:center ov:clip
+      div "Header Copy" [384,144,672x256] flex-column gap:40px jc:center ai:flex-start
+        div [384,144,672x160] flex-column gap:5px jc:center ai:center
+          div "Vector 77" [573,214,241x18] absolute(t:70.0156px r:121.891px b:72px l:309.109px) tf:matrix(1, 0, 0, 1, -120.5, 0) z:1
+            div [573,214,241x18] absolute(t:0px r:0px b:0px l:0px)
+              img [573,214,241x18] ov:clip src:MJbk4aQblPanJHyFV9X8Yg7JDqI.png fit:cover pos:50% 50%
+          div [384,144,672x160] flex-column gap:normal jc:flex-start ai:normal z:1
+            h1 [384,144,672x160] TEXT"The OS for your brand's knowledge" {Feature Deck Web Light 300 80px/80px ls:-0.8px #122023 center}
+        div [384,344,672x56] flex-column gap:normal jc:flex-start ai:normal z:1
+          p [384,344,672x56] TEXT"Siena Docs is one home for everything your team knows. Every page you have makes your whole operation smarter." {Instrument Sans 500 20px/28px ls:-0.2px #122023 center}
+      div [641,424,157x58]
+        a "xlg" [641,424,157x58] flex-row gap:10px jc:center ai:center p:18px 24px bg:#122023 bgi:linear-gradient(90deg, rgb(18, 32, 35) 0%, rgb(18, 32, 35) 20%, rgb(18, 32, 35) 40%, rgb(18, 32, 35) 60%, rgb(18, 32, 35) 80%, rgb(18, 32, 35) 100%) r:16px
+          div "Text" [665,442,109x22] flex-column gap:normal jc:flex-start ai:normal
+            p [665,442,109x22] TEXT"Book a demo" {Instrument Sans 600 18px/21.6px ls:normal #FFFFFF left}
+    div "Sticky Image" [464,594,512x392] flex-column gap:16px jc:center ai:center r:24px maxw:512px
+      div "Docs" [468,536,504x507]
+        div "Docs / Item" [890,777,217x242] flex-column gap:10px jc:center ai:center p:2px r:28px sh:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px absolute(t:255px r:-118px b:39px l:439px) tf:matrix(0.984808, -0.173648, 0.173648, 0.984808, 0, 0) z:0
+          div "User Message" [892,779,213x237] flex-column gap:8px jc:center ai:center p:16px 12px 12px bg:#FFFFFF r:28px ov:clip z:1
+            div [907,797,179x175] flex-column gap:12px jc:flex-start ai:center
+              div [907,797,157x50] flex-row gap:8px jc:center ai:center ov:clip
+                div "Response too generic" [907,797,157x50] flex-column gap:normal jc:flex-start ai:normal
+                  p [907,797,157x50] TEXT"Shopify" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+              div [912,832,174x140] flex-row gap:10px jc:center ai:center r:12px ov:clip z:1
+                div "Content Graphic" [912,832,174x140] flex-row gap:0px jc:center ai:center p:8px r:16px ov:hidden bf:blur(2px)
+                  div [912,832,174x140] r:16px absolute(t:0px r:0px b:0px l:0px)
+                    img [912,832,174x140] r:16px ov:clip src:FAzsjFZlToamfvdG2lqN8QZVkA.webp fit:cover pos:0% 0%
+            div "Blur out" [908,878,199x138] flex-row gap:10px jc:center ai:center bgi:linear-gradient(rgba(250, 247, 241, 0) 0%, rgba(254, 254, 253, 0.88) 66%, rgb(255, 255, 255) 92%) absolute(t:101px r:-2px b:0px l:-2px) ov:hidden z:2
+            div [934,953,157x50] flex-row gap:normal jc:space-between ai:center ov:clip z:2
+              div "Chip/Filter" [934,967,74x35] flex-row gap:4px jc:center ai:center p:4px 8px bg:#FFFFFF r:50px ov:clip
+                div "Response too generic" [943,976,38x21] flex-column gap:normal jc:flex-start ai:normal
+                  p [943,976,38x21] TEXT"Verified" {Instrument Sans 400 10px/15px ls:normal #122023 start}
+                div "Icon Button" [982,973,17x17] bgi:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 15 15%22><path d=%22M 0.5 7.5 C 0.5 3.634 3.634 0.5 7.5 0.5 L 7.5 0.5 C 11.366 0.5 14.5 3. z:4
+        div "Docs / Item" [620,524,232x253] flex-column gap:10px jc:center ai:center p:2px r:28px sh:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px absolute(t:8px r:145px b:286px l:176px) tf:matrix(0.965926, 0.258819, -0.258819, 0.965926, 0, 0) z:0
+          div "User Message" [622,526,227x248] flex-column gap:12px jc:center ai:center p:16px 12px 12px bg:#FFFFFF r:28px ov:clip z:1
+            div [646,545,188x181] flex-column gap:normal jc:space-between ai:center
+              div [671,545,162x85] flex-row gap:8px jc:center ai:center ov:clip
+                div "Response too generic" [671,545,162x85] flex-column gap:normal jc:flex-start ai:normal
+                  p [671,545,162x85] TEXT"Brand Voice Playbook" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+              div [638,594,183x160] flex-row gap:10px jc:center ai:center r:12px absolute(t:51px r:-1px b:-29px l:0px) ov:clip z:1
+                div "Content Graphic" [638,594,183x160] flex-column gap:8px jc:center ai:center p:8px r:16px ov:hidden bf:blur(2px)
+                  div "yewr89chnr48whf83fgxr078fb43oq67rg320xcrg328" [672,604,139x50] flex-column gap:normal jc:flex-start ai:normal
+                    p [672,604,139x50] TEXT"internal playbook" {Instrument Sans 600 10px/14px ls:0.5px #787368 uppercase left}
+                  div "yewr89chnr48whf83fgxr078fb43oq67rg320xcrg328" [648,625,157x119] flex-column gap:normal jc:flex-start ai:normal
+                    p [647,625,159x124] TEXT"Lead with the solution. Offer the refund and the exchange together in one reply." {Tiempos Text Regular Italic 400i 14px/18.2px ls:normal #A0A6A7 start}
+            div "Blur out" [620,624,205x152] flex-row gap:10px jc:center ai:center bgi:linear-gradient(rgba(250, 247, 241, 0) 0%, rgba(254, 254, 253, 0.88) 66%, rgb(255, 255, 255) 92%) absolute(t:101px r:-2px b:0px l:-2px) ov:hidden z:2
+            div [637,698,156x62] flex-row gap:normal jc:space-between ai:center ov:clip z:2
+              div "Chip/Filter" [637,698,74x41] flex-row gap:4px jc:center ai:center p:4px 8px bg:#FFFFFF r:50px ov:clip
+                div "Response too generic" [645,704,39x24] flex-column gap:normal jc:flex-start ai:normal
+                  p [645,704,39x24] TEXT"Verified" {Instrument Sans 400 10px/15px ls:normal #122023 start}
+                div "Icon Button" [684,714,18x18] bgi:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 15 15%22><path d=%22M 0.5 7.5 C 0.5 3.634 3.634 0.5 7.5 0.5 L 7.5 0.5 C 11.366 0.5 14.5 3. z:4
+        div "Docs / Item" [320,503,223x246] flex-column gap:10px jc:center ai:center p:2px r:28px sh:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px absolute(t:-16px r:449px b:310px l:-128px) tf:matrix(0.978148, 0.207912, -0.207912, 0.978148, 0, 0) z:0
+          div "User Message" [322,506,219x242] flex-row gap:12px jc:center ai:center p:16px 12px bg:#FFFFFF r:28px ov:clip z:1
+            div [337,524,188x205] flex-column gap:normal jc:space-between ai:center
+              div [364,524,161x78] flex-row gap:8px jc:center ai:center ov:clip
+                div "Response too generic" [364,524,161x78] flex-column gap:normal jc:flex-start ai:normal
+                  p [364,524,161x78] TEXT"Refund & Returns Policy" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+              div [338,574,178x154] flex-row gap:10px jc:center ai:center r:12px absolute(t:51px r:-1px b:2px l:0px) ov:clip z:1
+                div "Content Graphic" [338,574,178x154] flex-column gap:8px jc:center ai:center p:8px r:16px ov:hidden bf:blur(2px)
+                  div "yewr89chnr48whf83fgxr078fb43oq67rg320xcrg328" [367,583,140x43] flex-column gap:normal jc:flex-start ai:normal
+                    p [367,583,140x43] TEXT"Policy Document" {Instrument Sans 600 10px/14px ls:0.5px #787368 uppercase left}
+                  div "yewr89chnr48whf83fgxr078fb43oq67rg320xcrg328" [347,605,155x113] flex-column gap:normal jc:flex-start ai:normal
+                    p [342,605,160x136] TEXT"Refunds are processed within 3–5 business days. Requests must be made within 30 days of purchase." {Tiempos Text Regular Italic 400i 14px/18.2px ls:normal #A0A6A7 start}
+            div "Blur out" [320,604,201x144] flex-row gap:10px jc:center ai:center bgi:linear-gradient(rgba(250, 247, 241, 0) 0%, rgba(254, 254, 253, 0.88) 66%, rgb(255, 255, 255) 92%) absolute(t:101px r:-2px b:0px l:-2px) ov:hidden z:2
+            div [348,685,132x50] flex-row gap:normal jc:space-between ai:center absolute(t:178px r:-40.5px b:8px l:89.5px) ov:clip tf:matrix(1, 0, 0, 1, -65, 0) z:2
+              div "Chip/Filter" [348,685,74x37] flex-row gap:4px jc:center ai:center p:4px 8px bg:#FFFFFF r:50px ov:clip
+                div "Response too generic" [357,691,38x22] flex-column gap:normal jc:flex-start ai:normal
+                  p [357,691,38x22] TEXT"Verified" {Instrument Sans 400 10px/15px ls:normal #122023 start}
+                div "Icon Button" [396,699,18x18] bgi:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 15 15%22><path d=%22M 0.5 7.5 C 0.5 3.634 3.634 0.5 7.5 0.5 L 7.5 0.5 C 11.366 0.5 14.5 3. z:4
+        div "Docs / Item" [462,603,226x249] flex-column gap:10px jc:center ai:center p:2px r:28px sh:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px absolute(t:85px r:305px b:209px l:16px) tf:matrix(0.97437, -0.224951, 0.224951, 0.97437, 0, 0) z:0
+          div "User Message" [465,606,221x244] flex-column gap:12px jc:center ai:center p:16px 12px 12px bg:#FFFFFF r:28px ov:clip z:1
+            div [480,624,184x177] flex-column gap:normal jc:space-between ai:center
+              div [480,624,156x58] flex-row gap:8px jc:center ai:center ov:clip
+                div "Response too generic" [480,624,156x58] flex-column gap:normal jc:flex-start ai:normal
+                  p [480,624,156x58] TEXT"Sizing & Fit Guide" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+              div [492,673,180x156] flex-row gap:10px jc:center ai:center r:12px absolute(t:51px r:-1px b:-29px l:0px) ov:clip z:1
+                div "Content Graphic" [492,673,180x156] flex-column gap:8px jc:center ai:center p:8px r:16px ov:hidden bf:blur(2px)
+                  div "yewr89chnr48whf83fgxr078fb43oq67rg320xcrg328" [501,683,140x45] flex-column gap:normal jc:flex-start ai:normal
+                    p [501,683,140x45] TEXT"data table (size/SKU)" {Instrument Sans 600 10px/14px ls:0.5px #787368 uppercase left}
+                  div "yewr89chnr48whf83fgxr078fb43oq67rg320xcrg328" [506,704,156x115] flex-column gap:normal jc:flex-start ai:normal
+                    p [506,704,153x102] TEXT"S / M / L / XL — chest 38–46". Heather Grey, Black, Forest. Restock ETA: Aug 14." {Tiempos Text Regular Italic 400i 14px/18.2px ls:normal #A0A6A7 start}
+            div "Blur out" [486,704,203x146] flex-row gap:10px jc:center ai:center bgi:linear-gradient(rgba(250, 247, 241, 0) 0%, rgba(254, 254, 253, 0.88) 66%, rgb(255, 255, 255) 92%) absolute(t:101px r:-2px b:0px l:-2px) ov:hidden z:2
+            div [516,778,156x57] flex-row gap:normal jc:space-between ai:center ov:clip z:2
+              div "Chip/Filter" [516,797,74x38] flex-row gap:4px jc:center ai:center p:4px 8px bg:#FFFFFF r:50px ov:clip
+                div "Response too generic" [524,807,38x23] flex-column gap:normal jc:flex-start ai:normal
+                  p [524,807,38x23] TEXT"Verified" {Instrument Sans 400 10px/15px ls:normal #122023 start}
+                div "Icon Button" [563,802,18x18] bgi:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 15 15%22><path d=%22M 0.5 7.5 C 0.5 3.634 3.634 0.5 7.5 0.5 L 7.5 0.5 C 11.366 0.5 14.5 3. z:4
+        div "Docs / Item" [891,530,217x242] flex-column gap:10px jc:center ai:center p:2px r:28px sh:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px absolute(t:8px r:-119px b:286px l:440px) tf:matrix(0.984808, -0.173648, 0.173648, 0.984808, 0, 0) z:0
+          div "User Message" [893,532,213x237] flex-column gap:12px jc:center ai:center p:16px 12px 12px bg:#FFFFFF r:28px ov:clip z:1
+            div [908,550,178x171] flex-column gap:12px jc:flex-start ai:center
+              div [908,550,157x51] flex-row gap:8px jc:center ai:center ov:clip
+                div "Icon" [908,573,28x28] flex-row gap:10px jc:center ai:center p:2px bg:#F3F0EB r:5px ov:clip
+                  div "Text" [910,575,23x23] flex-column gap:normal jc:center ai:normal
+                    p [911,579,22x15] TEXT"" {Font Awesome 6 Sharp Light 400 12px/12px ls:normal #122023 center}
+                div "Response too generic" [939,550,125x44] flex-column gap:normal jc:flex-start ai:normal
+                  p [939,550,125x44] TEXT"Mail" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+              div [917,600,171x128] flex-row gap:10px jc:center ai:center r:12px absolute(t:51px r:-1px b:-7px l:0px) ov:clip z:1
+                div "Content Graphic" [917,600,171x128] flex-row gap:0px jc:center ai:center p:8px r:16px ov:hidden bf:blur(2px)
+                  div "yewr89chnr48whf83fgxr078fb43oq67rg320xcrg328" [926,609,153x109] flex-column gap:normal jc:flex-start ai:normal
+                    p [926,609,163x168] TEXT"Hi, I ordered the Signature Hoodie last week and the grey looks much darker in person than online. Can I exchange it for the heather, or get a refund?" {Tiempos Text Regular Italic 400i 14px/18.2px ls:normal #A0A6A7 start}
+            div "Blur out" [909,631,199x138] flex-row gap:10px jc:center ai:center bgi:linear-gradient(rgba(250, 247, 241, 0) 0%, rgba(254, 254, 253, 0.88) 66%, rgb(255, 255, 255) 92%) absolute(t:101px r:-2px b:0px l:-2px) ov:hidden z:2
+            div [935,706,157x50] flex-row gap:normal jc:space-between ai:center ov:clip z:2
+              div "Chip/Filter" [935,720,76x35] flex-row gap:4px jc:center ai:center p:4px 8px bg:#FFFFFF r:50px ov:clip
+                div "Response too generic" [944,728,40x21] flex-column gap:normal jc:flex-start ai:normal
+                  p [944,728,40x21] TEXT"Pending" {Instrument Sans 400 10px/15px ls:normal #122023 start}
+                div "Icon Button" [986,725,17x17] bgi:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 15 15%22><path d=%22M 0.5 7.5 C 0.5 3.634 3.634 0.5 7.5 0.5 L 7.5 0.5 C 11.366 0.5 14.5 3. z:4
+        div "Docs / Item" [291,758,252x268] flex-column gap:10px jc:center ai:center p:2px r:28px sh:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px absolute(t:249px r:464px b:45px l:-143px) tf:matrix(0.920505, -0.390731, 0.390731, 0.920505, 0, 0) z:0
+          div "User Message" [293,760,246x262] flex-column gap:12px jc:center ai:center p:16px 12px 12px bg:#FFFFFF r:28px ov:clip z:1
+            div [311,780,200x195] flex-column gap:12px jc:flex-start ai:center
+              div [311,780,161x104] flex-row gap:8px jc:center ai:center ov:clip
+                div "Response too generic" [311,780,161x104] flex-column gap:normal jc:flex-start ai:normal
+                  p [311,780,161x104] TEXT"Customer Conversations" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+              div [334,834,177x141] flex-row gap:10px jc:center ai:center r:12px ov:clip z:1
+                div "Content Graphic" [334,834,177x141] r:16px ov:hidden bf:blur(2px)
+                  div [361,857,142x119] absolute(t:20.1875px r:12.5156px b:-11px l:21.4844px)
+                    div "Border" [361,858,142x118] flex-row gap:5px jc:center ai:center p:1px bgi:linear-gradient(255deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 14.8649%, rgb(251, 86, 70) 32.8829%, rgb(130, 122, 204) 52.2523%, rgb(46, 121, 216) 79.7297%, rgb(171, 171, 171) 100%) r:8px absolute(t:39px r:0px b:-37.5625px l:-1px) ov:hidden maxw:190px tf:matrix(1, 0, 0, 1, 0, -38.2812)
+                      div "01" [362,859,140x116] flex-column gap:12px jc:flex-start ai:flex-start p:10px bg:#EFE5D0 r:8px
+                        div "Get your AI superhuman up and running 90% faster and more efficient than the average automation tools. 101% empathy is required to turn around a brand ready to capture the world’s imagination. Meet Siena." [375,873,113x89] flex-column gap:normal jc:flex-start ai:normal
+                          p [375,873,113x89] TEXT"Hi there! Since your order shipped 12 days ago, you're within our 30-day window. I can refund you now, or send a free label to swap for a different color — your call." {Tiempos Text Regular 400 7px/9.1px ls:normal #122023 start}
+                    div "Brand" [454,843,34x34] absolute(t:-11px r:-10px b:63px l:105px)
+                      div [454,843,34x34] absolute(t:0px r:0px b:0px l:0px)
+                        img [454,843,34x34] ov:clip src:14aPLwywC9q4flBvXM0s1rLqA8.png fit:contain pos:50% 50%
+                  div "Review" [341,862,103x74] flex-row gap:6px jc:flex-start ai:center p:0.5px bgi:linear-gradient(255deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 14.8649%, rgb(251, 86, 70) 32.8829%, rgb(130, 122, 204) 52.2523%, rgb(46, 121, 216) 79.7297%, rgb(171, 171, 171) 100%) r:8px absolute(t:7px r:55px b:40.1875px l:5px) ov:hidden bf:blur(3px)
+                    div [342,863,102x73] flex-row gap:6px jc:center ai:center p:6px bg:#FFFFFF r:8px
+                      div "Text container" [349,870,86x57] flex-column gap:2px jc:center ai:flex-start
+                        div "Great product!" [349,870,86x57] flex-column gap:normal jc:flex-start ai:normal
+                          p [349,870,86x57] TEXT"The color of this hoodie is not what I expected, am I eligible for a refund?" {Instrument Sans 400 7px/9px ls:normal #122023/0.8 start}
+            div "Blur out" [331,853,211x171] flex-row gap:10px jc:center ai:center bgi:linear-gradient(rgba(250, 247, 241, 0) 0%, rgba(254, 254, 253, 0.88) 66%, rgb(255, 255, 255) 92%) absolute(t:101px r:-2px b:0px l:-2px) ov:hidden z:2
+            div [372,925,152x82] flex-row gap:normal jc:space-between ai:center ov:clip z:2
+              div "Chip/Filter" [372,957,77x50] flex-row gap:4px jc:center ai:center p:4px 8px bg:#FFFFFF r:50px ov:clip
+                div "Response too generic" [381,971,41x29] flex-column gap:normal jc:flex-start ai:normal
+                  p [381,971,41x29] TEXT"Pending" {Instrument Sans 400 10px/15px ls:normal #122023 start}
+                div "Icon Button" [420,964,20x20] bgi:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 15 15%22><path d=%22M 0.5 7.5 C 0.5 3.634 3.634 0.5 7.5 0.5 L 7.5 0.5 C 11.366 0.5 14.5 3. z:4
+        div [407,570,626x399] flex-column gap:10px jc:center ai:center p:2px bg:#FFFFFF/0.6 r:28px absolute(t:233.219px r:-374px b:-125.219px l:252px) bf:blur(7px) tf:matrix(1, 0, 0, 1, -313, -199.5) z:0
+          div "Docs-card" [409,572,622x395] bg:#F3F0EB/0.5 r:24px bf:blur(6px)
+            div [409,620,622x1] bg:#FFFFFF absolute(t:48px r:0px b:346px l:0px) ov:clip
+            div [851,620,1x347] bg:#FFFFFF absolute(t:48px r:179px b:0px l:442px) ov:clip
+            div [409,584,622x28] flex-row gap:normal jc:space-between ai:center p:0px 16px absolute(t:12px r:-311px b:355px l:311px) ov:clip tf:matrix(1, 0, 0, 1, -311, 0)
+              div [425,592,44x12] flex-row gap:4px jc:center ai:center ov:clip
+                div [425,592,12x12] bg:#FFFFFF r:999px ov:clip
+                div [441,592,12x12] bg:#FFFFFF r:999px ov:clip
+                div [457,592,12x12] bg:#FFFFFF r:999px ov:clip
+              div "Chip/Filter" [664,584,112x28] flex-row gap:4px jc:center ai:center p:4px 8px bg:#FFFFFF r:50px absolute(t:14px r:199.375px b:-14px l:311px) ov:clip tf:matrix(1, 0, 0, 1, -55.8125, -14) z:1
+                div "Response too generic" [672,590,72x15] flex-column gap:normal jc:flex-start ai:normal
+                  p [672,590,72x15] TEXT"help.brand.com" {Instrument Sans 400 10px/15px ls:normal #122023 start}
+                div "Text" [748,588,20x20] flex-column gap:normal jc:center ai:normal
+                  p [748,592,20x12] TEXT"" {Font Awesome 6 Sharp Light 400 12px/12px ls:normal #122023 center}
+              div "Chip/Filter" [934,584,81x28] flex-row gap:4px jc:center ai:center p:4px 8px r:50px ov:clip
+            div [409,620,193x308] flex-column gap:8px jc:center ai:center p:8px 0px 0px absolute(t:48px r:429.188px b:39.4375px l:0px) ov:clip
+              div [409,628,193x50] flex-row gap:normal jc:space-between ai:center p:16px 16px 8px ov:clip
+                div [425,644,76x26] flex-row gap:10px jc:center ai:center ov:clip
+                  div "Text" [425,647,20x20] flex-column gap:normal jc:center ai:normal
+                    p [425,651,20x12] TEXT"" {Font Awesome 6 Sharp Light 400 12px/12px ls:normal #122023 center}
+                  div "Response too generic" [455,644,46x26] flex-column gap:normal jc:flex-start ai:normal
+                    p [455,644,46x26] TEXT"Docs" {Tiempos Text Regular 400 20px/26px ls:normal #122023 start}
+              div [409,686,193x16] flex-row gap:normal jc:space-between ai:center p:0px 16px ov:clip
+                div [425,686,86x16] flex-row gap:10px jc:center ai:center ov:clip
+                  div "Response too generic" [425,686,86x16] flex-column gap:normal jc:flex-start ai:normal
+                    p [425,686,86x16] TEXT"Getting Started" {Tiempos Text Regular 400 12px/15.6px ls:normal #122023 start}
+              div [409,709,193x1] bg:#EFE5D0 ov:clip
+              div [409,718,193x16] flex-row gap:normal jc:space-between ai:center p:0px 16px ov:clip
+                div [425,718,123x16] flex-row gap:10px jc:center ai:center ov:clip
+                  div "Response too generic" [425,718,123x16] flex-column gap:normal jc:flex-start ai:normal
+                    p [425,718,123x16] TEXT"Returns and Shipping" {Tiempos Text Regular 400 12px/15.6px ls:normal #122023 start}
+              div [409,742,193x13] flex-row gap:normal jc:space-between ai:center p:0px 16px ov:clip
+                div [425,742,117x13] flex-row gap:4px jc:center ai:center ov:clip
+                  div "Text" [425,743,12x12] flex-column gap:normal jc:center ai:normal
+                    p [425,744,12x10] TEXT"" {Font Awesome 6 Sharp Light 300 10px/10px ls:normal #71797B center}
+                  div "Response too generic" [441,742,101x13] flex-column gap:normal jc:flex-start ai:normal
+                    p [441,742,101x13] TEXT"Shopify refund policy" {Tiempos Text Regular 400 10px/13px ls:normal #71797B start}
+              div [409,763,193x13] flex-row gap:normal jc:space-between ai:center p:0px 16px ov:clip
+                div [425,763,98x13] flex-row gap:2px jc:center ai:center ov:clip
+                  div "Text" [425,764,12x12] flex-column gap:normal jc:center ai:normal
+                    p [425,765,12x10] TEXT"" {Font Awesome 6 Sharp Light 300 10px/10px ls:normal #71797B center}
+                  div "Response too generic" [439,763,84x13] flex-column gap:normal jc:flex-start ai:normal
+                    p [439,763,84x13] TEXT"Exchange process" {Tiempos Text Regular 400 10px/13px ls:normal #71797B start}
+              div [409,784,193x13] flex-row gap:normal jc:space-between ai:center p:0px 16px ov:clip
+                div [425,784,87x13] flex-row gap:2px jc:center ai:center ov:clip
+                  div "Text" [425,785,12x12] flex-column gap:normal jc:center ai:normal
+                    p [425,786,12x10] TEXT"" {Font Awesome 6 Sharp Light 300 10px/10px ls:normal #71797B center}
+                  div "Response too generic" [439,784,73x13] flex-column gap:normal jc:flex-start ai:normal
+                    p [439,784,73x13] TEXT"Damaged items" {Tiempos Text Regular 400 10px/13px ls:normal #71797B start}
+              div [409,805,193x1] bg:#EFE5D0 ov:clip
+              div [409,814,193x16] flex-row gap:normal jc:space-between ai:center p:0px 16px ov:clip
+                div [425,814,70x16] flex-row gap:10px jc:center ai:center ov:clip
+                  div "Response too generic" [425,814,70x16] flex-column gap:normal jc:flex-start ai:normal
+                    p [425,814,70x16] TEXT"Internal Ops" {Tiempos Text Regular 400 12px/15.6px ls:normal #122023 start}
+              div [409,838,193x1] bg:#EFE5D0 ov:clip
+              div [409,847,193x16] flex-row gap:normal jc:space-between ai:center p:0px 16px ov:clip
+                div [425,847,30x16] flex-row gap:10px jc:center ai:center ov:clip
+                  div "Response too generic" [425,847,30x16] flex-column gap:normal jc:flex-start ai:normal
+                    p [425,847,30x16] TEXT"Skills" {Tiempos Text Regular 400 12px/15.6px ls:normal #122023 start}
+              div [409,870,193x1] bg:#EFE5D0 ov:clip
+              div [409,879,193x16] flex-row gap:normal jc:space-between ai:center p:0px 16px ov:clip
+                div [425,879,81x16] flex-row gap:10px jc:center ai:center ov:clip
+                  div "Response too generic" [425,879,81x16] flex-column gap:normal jc:flex-start ai:normal
+                    p [425,879,81x16] TEXT"Agent Persona" {Tiempos Text Regular 400 12px/15.6px ls:normal #122023 start}
+              div [409,903,193x1] bg:#EFE5D0 ov:clip
+              div [409,912,193x16] flex-row gap:normal jc:space-between ai:center p:0px 16px ov:clip
+                div [425,912,79x16] flex-row gap:10px jc:center ai:center ov:clip
+                  div "Response too generic" [425,912,79x16] flex-column gap:normal jc:flex-start ai:normal
+                    p [425,912,79x16] TEXT"Color & Sizing" {Tiempos Text Regular 400 12px/15.6px ls:normal #122023 start}
+            div "User Message" [606,629,229x318] flex-row gap:12px jc:center ai:center p:16px 12px r:28px absolute(t:56.9844px r:196.5px b:20.0156px l:196.5px) ov:clip z:1
+              div [618,645,205x286] flex-column gap:16px jc:flex-start ai:flex-start
+                div [618,645,205x23] flex-row gap:8px jc:center ai:center ov:clip
+                  div "Response too generic" [618,645,205x23] flex-column gap:normal jc:flex-start ai:normal
+                    p [618,645,205x23] TEXT"Refund & Returns Policy" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+                div "yewr89chnr48whf83fgxr078fb43oq67rg320xcrg328" [618,684,205x208] ov:clip
+                  p [618,684,205x109] TEXT"Customers can request a refund within 30 days of purchase. Refunds are processed within 3–5 business days of the returned item arriving at our warehouse." {Tiempos Text Regular Italic 400i 14px/18.2px ls:normal #A0A6A7 start}
+                  p [618,793,205x55] TEXT"Items must be unworn, unwashed, and in original packaging. Final-sale and" {Tiempos Text Regular Italic 400i 14px/18.2px ls:normal #A0A6A7 start}
+                  p [618,848,205x18]
+                    em [618,847,169x37] TEXT"personalized items are not eligible." {Tiempos Text Regular Italic 400i 14px/18.2px ls:normal #A0A6A7 start}
+                div [618,908,205x23] flex-row gap:normal jc:space-between ai:center ov:clip z:2
+                  div "Chip/Filter" [618,908,71x23] flex-row gap:4px jc:center ai:center p:4px 8px r:50px ov:clip
+                    div "Response too generic" [626,912,36x15] flex-column gap:normal jc:flex-start ai:normal
+                      p [626,912,36x15] TEXT"Verified" {Instrument Sans 400 10px/15px ls:normal #122023 start}
+                    div "Icon Button" [665,912,15x15] bgi:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 15 15%22><path d=%22M 0.5 7.5 C 0.5 3.634 3.634 0.5 7.5 0.5 L 7.5 0.5 C 11.366 0.5 14.5 3. z:4
+                  div "yewr89chnr48whf83fgxr078fb43oq67rg320xcrg328" [703,912,119x14] flex-column gap:normal jc:flex-start ai:normal
+                    p [703,912,119x14] TEXT"updated: 2 days ago" {Instrument Sans 600 10px/14px ls:0.5px #787368 uppercase left}
+            div "Line chart" [857,638,163x156] flex-column gap:4px jc:center ai:flex-start p:2px r:28px absolute(t:66px r:11px b:173px l:448px) z:1
+              div [859,640,159x123] flex-column gap:12px jc:center ai:center p:12px r:28px ov:clip z:1
+                div "Component header" [869,646,139x23] flex-row gap:16px jc:flex-start ai:center
+                  div "Tag" [869,646,139x23] flex-column gap:normal jc:flex-start ai:normal
+                    p [869,646,139x23] TEXT"Document usage" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #71797B start}
+                div "Chart content" [867,681,143x76] flex-column gap:16px jc:flex-start ai:flex-start
+                  div "Chart" [867,681,143x76] r:16px
+                    div [867,681,143x76] r:16px absolute(t:0px r:0px b:0px l:0px)
+                      img [867,681,143x76] r:16px ov:clip src:nvp2J5Q38ZJKo0wZ875zHFSvrhg.png fit:contain pos:50% 50%
+                    div "Tag" [889,678,62x28] flex-row gap:normal jc:space-between ai:flex-start p:4px 8px bg:#FAF7F1/0.9 r:20px absolute(t:-3px r:59.0781px b:51px l:22px) ov:hidden bf:blur(6px)
+                      div "Text" [897,682,46x20] flex-column gap:normal jc:center ai:normal
+                        p [897,683,46x18] TEXT"23 Cited" {Instrument Sans 400 12px/18px ls:normal #122023 center}
+              div [859,767,159x25] flex-row gap:normal jc:space-between ai:center p:0px 8px 2px ov:clip
+                div "Chip/Filter" [867,767,57x23] flex-row gap:4px jc:center ai:center p:4px 8px bg:#FFFFFF r:50px ov:clip
+                  div "Response too generic" [875,771,10x15] flex-column gap:normal jc:flex-start ai:normal
+                    p [875,771,10x15] TEXT"61" {Instrument Sans 400 10px/15px ls:normal #122023 start}
+                  div "Response too generic" [889,771,27x15] flex-column gap:normal jc:flex-start ai:normal
+                    p [889,771,27x15] TEXT"Views" {Instrument Sans 400 10px/15px ls:normal #122023 start}
+                div "Chip/Filter" [947,767,63x23] flex-row gap:4px jc:center ai:center p:4px 8px bg:#FFFFFF r:50px ov:clip
+                  div "Response too generic" [955,771,9x15] flex-column gap:normal jc:flex-start ai:normal
+                    p [955,771,9x15] TEXT"12" {Instrument Sans 400 10px/15px ls:normal #122023 start}
+                  div "Response too generic" [969,771,33x15] flex-column gap:normal jc:flex-start ai:normal
+                    p [969,771,33x15] TEXT"Agents" {Instrument Sans 400 10px/15px ls:normal #122023 start}
+            div [603,620,1x347] bg:#FFFFFF absolute(t:48px r:427px b:0px l:194px) ov:clip
+##### Scroll Area@0@22
+div "Scroll Area" [0,1016,1440x900] flex-row gap:64px jc:center ai:flex-start p:0px 96px
+  div "Sticky" [176,1016,512x900] flex-row gap:10px jc:center ai:center p:110px 0px 40px sticky(t:0px r:auto b:auto l:auto) maxw:512px z:1
+    div "Sticky Image" [176,1178,512x647] flex-column gap:16px jc:center ai:center p:56px bg:#FFFFFF r:24px maxw:512px
+      div "Docs" [180,1248,504x507]
+        div "Docs-card" [219,1304,424x353] bg:#F3F0EB/0.6 r:24px absolute(t:56.4844px r:41px b:97.5156px l:39px) ov:clip bf:blur(6px) z:0
+          div "Frame 2087325258" [179,1364,536x587] op:0.36 absolute(t:210px r:-63px b:-144px l:-30px) filter:blur(39px) tf:matrix(0.587785, 0.809017, -0.809017, 0.587785, 0, 0) z:0
+            div [179,1364,536x587] absolute(t:0px r:0px b:0px l:0px)
+              img [179,1364,536x587] ov:clip src:QHZQBNQlSL00uTxYcQKOePAWdT0.webp fit:contain pos:50% 50%
+          div [219,1352,424x1] bg:#FFFFFF absolute(t:48px r:0px b:304px l:0px) ov:clip
+          div [219,1324,424x12] flex-row gap:10px jc:flex-start ai:center p:0px 0px 0px 16px absolute(t:20px r:-212px b:321px l:212px) ov:clip tf:matrix(1, 0, 0, 1, -212, 0)
+            div [235,1324,44x12] flex-row gap:4px jc:center ai:center ov:clip
+              div [235,1324,12x12] bg:#FFFFFF r:999px ov:clip
+              div [251,1324,12x12] bg:#FFFFFF r:999px ov:clip
+              div [267,1324,12x12] bg:#FFFFFF r:999px ov:clip
+          div [219,1369,424x24] flex-row gap:normal jc:space-between ai:center p:0px 16px absolute(t:65px r:-212px b:264px l:212px) ov:clip tf:matrix(1, 0, 0, 1, -212, 0)
+            div [235,1369,24x24] flex-row gap:10px jc:center ai:center ov:clip
+          div [219,1623,424x14] flex-row gap:10px jc:center ai:center p:0px 16px absolute(t:319px r:-212px b:20px l:212px) ov:clip tf:matrix(1, 0, 0, 1, -212, 0)
+            div [340,1623,182x14] flex-row gap:10px jc:center ai:center ov:clip
+              div "Response too generic" [340,1623,182x14] flex-column gap:normal jc:flex-start ai:normal
+                p [340,1623,182x14] TEXT"● 118 verified · 7 in review" {Geist Mono 400 10px/14px ls:0.5px #2A3639 uppercase center}
+          div [-1188,1407,2003x162] flex-row gap:10px jc:flex-start ai:center absolute(t:183.547px r:-172px b:7.45312px l:-1407px) tf:matrix(1, 0, 0, 1, 0, -81)
+            ul [-528,1407,2003x162] flex-row gap:10px jc:flex-start ai:center maxw:100% tf:matrix(1, 0, 0, 1, 660.026, 0)
+              li [1485,1407,158x162] tf:matrix(1, 0, 0, 1, 2013, 0)
+                div "Bars" [1485,1407,158x162] flex-column gap:10px jc:center ai:center p:2px r:28px sh:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px z:0
+                  div "User Message" [1487,1409,154x158] flex-row gap:12px jc:center ai:center p:12px bg:#FFFFFF r:28px ov:clip z:1
+                    div [1499,1421,130x134] flex-column gap:normal jc:space-between ai:center
+                      div [1499,1421,130x23] flex-row gap:10px jc:center ai:center ov:clip
+                        div "Response too generic" [1499,1421,130x23] flex-column gap:normal jc:flex-start ai:normal
+                          p [1499,1421,130x23] TEXT"Tone of Voice" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+                      div [1499,1461,130x102] flex-row gap:10px jc:center ai:center r:12px absolute(t:40px r:0px b:-8px l:0px) ov:clip z:1
+                        div "Content Graphic" [1499,1461,130x102] flex-row gap:0px jc:center ai:center p:8px r:16px ov:hidden bf:blur(2px)
+                          div "yewr89chnr48whf83fgxr078fb43oq67rg320xcrg328" [1507,1469,114x86] flex-column gap:normal jc:flex-start ai:normal
+                            p [1507,1469,114x40] TEXT"Lead with the solution. Offer the refund and the exchange together in one reply." {Tiempos Text Regular Italic 400i 10px/10px ls:-0.1px #122024 start}
+                    div "Blur out" [1485,1443,159x124] flex-row gap:10px jc:center ai:center bgi:linear-gradient(rgba(250, 247, 241, 0) 0%, rgba(254, 254, 253, 0.88) 66%, rgb(255, 255, 255) 92%) absolute(t:34px r:-3px b:0px l:-2px) ov:hidden z:2
+                    div [1529,1536,71x23] flex-row gap:0px jc:center ai:center absolute(t:127px r:6.125px b:8px l:77px) ov:clip tf:matrix(1, 0, 0, 1, -35.4375, 0) z:2
+                      div "Chip/Filter" [1529,1536,71x23] flex-row gap:4px jc:center ai:center p:4px 8px bg:#FFFFFF r:50px ov:clip
+                        div "Response too generic" [1537,1540,36x15] flex-column gap:normal jc:flex-start ai:normal
+                          p [1537,1540,36x15] TEXT"Verified" {Instrument Sans 400 10px/15px ls:normal #122023 start}
+                        div "Icon Button" [1576,1540,15x15] bgi:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 15 15%22><path d=%22M 0.5 7.5 C 0.5 3.634 3.634 0.5 7.5 0.5 L 7.5 0.5 C 11.366 0.5 14.5 3. z:4
+              li [1653,1407,157x162] tf:matrix(1, 0, 0, 1, 2013, 0)
+                div "Bars" [1653,1407,157x162] flex-column gap:10px jc:center ai:center p:2px r:28px sh:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px z:0
+                  div "User Message" [1655,1409,153x158] flex-row gap:12px jc:center ai:center p:12px bg:#FFFFFF r:28px ov:clip z:1
+                    div [1667,1421,129x134] flex-column gap:normal jc:space-between ai:center
+                      div [1667,1421,129x23] flex-row gap:10px jc:center ai:center ov:clip
+                        div "Response too generic" [1667,1421,129x23] flex-column gap:normal jc:flex-start ai:normal
+                          p [1667,1421,129x23] TEXT"Brand Policies" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+                      div [1667,1461,129x102] flex-row gap:10px jc:center ai:center r:12px absolute(t:40px r:0px b:-8px l:0px) ov:clip z:1
+                        div "Content Graphic" [1667,1461,129x102] flex-row gap:0px jc:center ai:center p:8px r:16px ov:hidden bf:blur(2px)
+                          div "yewr89chnr48whf83fgxr078fb43oq67rg320xcrg328" [1675,1469,113x86] flex-column gap:normal jc:flex-start ai:normal
+                            p [1675,1469,113x50] TEXT"Refunds are processed within 3–5 business days. Requests must be made within 30 days of purchase." {Tiempos Text Regular Italic 400i 10px/10px ls:-0.1px #122024 start}
+                    div "Blur out" [1653,1442,158x125] flex-row gap:10px jc:center ai:center bgi:linear-gradient(rgba(250, 247, 241, 0) 0%, rgba(254, 254, 253, 0.88) 66%, rgb(255, 255, 255) 92%) absolute(t:33px r:-3px b:0px l:-2px) ov:hidden z:2
+                    div [1696,1536,71x23] flex-row gap:0px jc:center ai:center absolute(t:127px r:5.625px b:8px l:76.5px) ov:clip tf:matrix(1, 0, 0, 1, -35.4375, 0) z:2
+                      div "Chip/Filter" [1696,1536,71x23] flex-row gap:4px jc:center ai:center p:4px 8px bg:#FFFFFF r:50px ov:clip
+                        div "Response too generic" [1704,1540,36x15] flex-column gap:normal jc:flex-start ai:normal
+                          p [1704,1540,36x15] TEXT"Verified" {Instrument Sans 400 10px/15px ls:normal #122023 start}
+                        div "Icon Button" [1744,1540,15x15] bgi:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 15 15%22><path d=%22M 0.5 7.5 C 0.5 3.634 3.634 0.5 7.5 0.5 L 7.5 0.5 C 11.366 0.5 14.5 3. z:4
+              li [1820,1407,158x162] tf:matrix(1, 0, 0, 1, 2013, 0)
+                div "Bars" [1820,1407,158x162] flex-column gap:10px jc:center ai:center p:2px r:28px sh:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px z:0
+                  div "User Message" [1822,1409,154x158] flex-row gap:12px jc:center ai:center p:12px bg:#FFFFFF r:28px ov:clip z:1
+                    div [1834,1421,130x134] flex-column gap:normal jc:space-between ai:center
+                      div [1834,1421,130x23] flex-row gap:10px jc:center ai:center ov:clip
+                        div "Response too generic" [1834,1421,130x23] flex-column gap:normal jc:flex-start ai:normal
+                          p [1834,1421,130x23] TEXT"Color & Sizing" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+                      div [1834,1461,130x102] flex-row gap:10px jc:center ai:center r:12px absolute(t:40px r:0px b:-8px l:0px) ov:clip z:1
+                        div "Content Graphic" [1834,1461,130x102] flex-row gap:0px jc:center ai:center p:8px r:16px ov:hidden bf:blur(2px)
+                          div "yewr89chnr48whf83fgxr078fb43oq67rg320xcrg328" [1842,1469,114x86] flex-column gap:normal jc:flex-start ai:normal
+                            p [1842,1469,114x50] TEXT"Heather tones may appear lighter in product photos. Free color exchanges within the return window." {Tiempos Text Regular Italic 400i 10px/10px ls:-0.1px #122024 start}
+                    div "Blur out" [1820,1443,159x124] flex-row gap:10px jc:center ai:center bgi:linear-gradient(rgba(250, 247, 241, 0) 0%, rgba(254, 254, 253, 0.88) 66%, rgb(255, 255, 255) 92%) absolute(t:34px r:-3px b:0px l:-2px) ov:hidden z:2
+                    div [1862,1536,73x23] flex-row gap:0px jc:center ai:center absolute(t:127px r:3.59375px b:8px l:77px) ov:clip tf:matrix(1, 0, 0, 1, -36.7031, 0) z:2
+                      div "Chip/Filter" [1862,1536,73x23] flex-row gap:4px jc:center ai:center p:4px 8px bg:#FFFFFF r:50px ov:clip
+                        div "Response too generic" [1870,1540,38x15] flex-column gap:normal jc:flex-start ai:normal
+                          p [1870,1540,38x15] TEXT"Pending" {Instrument Sans 400 10px/15px ls:normal #122023 start}
+                        div "Icon Button" [1913,1540,15x15] bgi:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 15 15%22><path d=%22M 0.5 7.5 C 0.5 3.634 3.634 0.5 7.5 0.5 L 7.5 0.5 C 11.366 0.5 14.5 3. z:4
+              li [-25,1407,158x162]
+                div "Bars" [-25,1407,158x162] flex-column gap:10px jc:center ai:center p:2px r:28px sh:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px z:0
+                  div "User Message" [-23,1409,154x158] flex-row gap:0px jc:center ai:center p:12px bg:#FFFFFF r:28px ov:clip z:1
+                    div [-11,1421,130x134] flex-column gap:normal jc:space-between ai:center
+                      div [-11,1421,130x23] flex-row gap:10px jc:center ai:center ov:clip
+                        div "Response too generic" [-11,1421,130x23] ov:clip
+                          p [-11,1421,130x23] TEXT"Refunds & Exchanges" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+                      div [-11,1461,130x102] flex-row gap:10px jc:center ai:center r:12px absolute(t:40px r:0px b:-8px l:0px) ov:clip z:1
+                        div "Content Graphic" [-11,1461,130x102] flex-row gap:0px jc:center ai:center p:8px r:16px ov:hidden bf:blur(2px)
+                          div "yewr89chnr48whf83fgxr078fb43oq67rg320xcrg328" [-3,1469,114x86] flex-column gap:normal jc:flex-start ai:normal
+                            p [-3,1469,114x40] TEXT"Send a prepaid label for color swaps. No restocking fee on first exchange" {Tiempos Text Regular Italic 400i 10px/10px ls:-0.1px #122024 start}
+                      div [-11,1448,130x23] flex-row gap:normal jc:space-between ai:center absolute(t:27px r:0px b:84px l:0px) ov:clip z:2
+                    div "Blur out" [-25,1461,159x106] flex-row gap:10px jc:center ai:center bgi:linear-gradient(rgba(250, 247, 241, 0) 0%, rgba(254, 254, 253, 0.88) 66%, rgb(255, 255, 255) 92%) absolute(t:52px r:-3px b:0px l:-2px) ov:hidden z:2
+                    div [19,1536,71x23] flex-row gap:0px jc:center ai:center absolute(t:127px r:6.125px b:8px l:77px) ov:clip tf:matrix(1, 0, 0, 1, -35.4375, 0) z:2
+                      div "Chip/Filter" [19,1536,71x23] flex-row gap:4px jc:center ai:center p:4px 8px bg:#FFFFFF r:50px ov:clip
+                        div "Response too generic" [27,1540,36x15] flex-column gap:normal jc:flex-start ai:normal
+                          p [27,1540,36x15] TEXT"Verified" {Instrument Sans 400 10px/15px ls:normal #122023 start}
+                        div "Icon Button" [66,1540,15x15] bgi:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 15 15%22><path d=%22M 0.5 7.5 C 0.5 3.634 3.634 0.5 7.5 0.5 L 7.5 0.5 C 11.366 0.5 14.5 3. z:4
+              li [143,1407,158x162]
+                div "Bars" [143,1407,158x162] flex-column gap:10px jc:center ai:center p:2px r:28px sh:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px z:0
+                  div "User Message" [145,1409,154x158] flex-row gap:12px jc:center ai:center p:12px bg:#FFFFFF r:28px ov:clip z:1
+                    div [157,1421,130x134] flex-column gap:normal jc:space-between ai:center
+                      div [157,1421,130x23] flex-row gap:10px jc:center ai:center ov:clip
+                        div "Response too generic" [157,1421,130x23] flex-column gap:normal jc:flex-start ai:normal
+                          p [157,1421,130x23] TEXT"Tone of Voice" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+                      div [157,1461,130x102] flex-row gap:10px jc:center ai:center r:12px absolute(t:40px r:0px b:-8px l:0px) ov:clip z:1
+                        div "Content Graphic" [157,1461,130x102] flex-row gap:0px jc:center ai:center p:8px r:16px ov:hidden bf:blur(2px)
+                          div "yewr89chnr48whf83fgxr078fb43oq67rg320xcrg328" [165,1469,114x86] flex-column gap:normal jc:flex-start ai:normal
+                            p [165,1469,114x40] TEXT"Lead with the solution. Offer the refund and the exchange together in one reply." {Tiempos Text Regular Italic 400i 10px/10px ls:-0.1px #122024 start}
+                    div "Blur out" [143,1443,159x124] flex-row gap:10px jc:center ai:center bgi:linear-gradient(rgba(250, 247, 241, 0) 0%, rgba(254, 254, 253, 0.88) 66%, rgb(255, 255, 255) 92%) absolute(t:34px r:-3px b:0px l:-2px) ov:hidden z:2
+                    div [187,1536,71x23] flex-row gap:0px jc:center ai:center absolute(t:127px r:6.125px b:8px l:77px) ov:clip tf:matrix(1, 0, 0, 1, -35.4375, 0) z:2
+                      div "Chip/Filter" [187,1536,71x23] flex-row gap:4px jc:center ai:center p:4px 8px bg:#FFFFFF r:50px ov:clip
+                        div "Response too generic" [195,1540,36x15] flex-column gap:normal jc:flex-start ai:normal
+                          p [195,1540,36x15] TEXT"Verified" {Instrument Sans 400 10px/15px ls:normal #122023 start}
+                        div "Icon Button" [234,1540,15x15] bgi:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 15 15%22><path d=%22M 0.5 7.5 C 0.5 3.634 3.634 0.5 7.5 0.5 L 7.5 0.5 C 11.366 0.5 14.5 3. z:4
+              li [311,1407,157x162]
+                div "Bars" [311,1407,157x162] flex-column gap:10px jc:center ai:center p:2px r:28px sh:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px z:0
+                  div "User Message" [313,1409,153x158] flex-row gap:12px jc:center ai:center p:12px bg:#FFFFFF r:28px ov:clip z:1
+                    div [325,1421,129x134] flex-column gap:normal jc:space-between ai:center
+                      div [325,1421,129x23] flex-row gap:10px jc:center ai:center ov:clip
+                        div "Response too generic" [325,1421,129x23] flex-column gap:normal jc:flex-start ai:normal
+                          p [325,1421,129x23] TEXT"Brand Policies" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+                      div [325,1461,129x102] flex-row gap:10px jc:center ai:center r:12px absolute(t:40px r:0px b:-8px l:0px) ov:clip z:1
+                        div "Content Graphic" [325,1461,129x102] flex-row gap:0px jc:center ai:center p:8px r:16px ov:hidden bf:blur(2px)
+                          div "yewr89chnr48whf83fgxr078fb43oq67rg320xcrg328" [333,1469,113x86] flex-column gap:normal jc:flex-start ai:normal
+                            p [333,1469,113x50] TEXT"Refunds are processed within 3–5 business days. Requests must be made within 30 days of purchase." {Tiempos Text Regular Italic 400i 10px/10px ls:-0.1px #122024 start}
+                    div "Blur out" [311,1442,158x125] flex-row gap:10px jc:center ai:center bgi:linear-gradient(rgba(250, 247, 241, 0) 0%, rgba(254, 254, 253, 0.88) 66%, rgb(255, 255, 255) 92%) absolute(t:33px r:-3px b:0px l:-2px) ov:hidden z:2
+                    div [354,1536,71x23] flex-row gap:0px jc:center ai:center absolute(t:127px r:5.625px b:8px l:76.5px) ov:clip tf:matrix(1, 0, 0, 1, -35.4375, 0) z:2
+                      div "Chip/Filter" [354,1536,71x23] flex-row gap:4px jc:center ai:center p:4px 8px bg:#FFFFFF r:50px ov:clip
+                        div "Response too generic" [362,1540,36x15] flex-column gap:normal jc:flex-start ai:normal
+                          p [362,1540,36x15] TEXT"Verified" {Instrument Sans 400 10px/15px ls:normal #122023 start}
+                        div "Icon Button" [402,1540,15x15] bgi:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 15 15%22><path d=%22M 0.5 7.5 C 0.5 3.634 3.634 0.5 7.5 0.5 L 7.5 0.5 C 11.366 0.5 14.5 3. z:4
+              li [478,1407,158x162]
+                div "Bars" [478,1407,158x162] flex-column gap:10px jc:center ai:center p:2px r:28px sh:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px z:0
+                  div "User Message" [480,1409,154x158] flex-row gap:12px jc:center ai:center p:12px bg:#FFFFFF r:28px ov:clip z:1
+                    div [492,1421,130x134] flex-column gap:normal jc:space-between ai:center
+                      div [492,1421,130x23] flex-row gap:10px jc:center ai:center ov:clip
+                        div "Response too generic" [492,1421,130x23] flex-column gap:normal jc:flex-start ai:normal
+                          p [492,1421,130x23] TEXT"Color & Sizing" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+                      div [492,1461,130x102] flex-row gap:10px jc:center ai:center r:12px absolute(t:40px r:0px b:-8px l:0px) ov:clip z:1
+                        div "Content Graphic" [492,1461,130x102] flex-row gap:0px jc:center ai:center p:8px r:16px ov:hidden bf:blur(2px)
+                          div "yewr89chnr48whf83fgxr078fb43oq67rg320xcrg328" [500,1469,114x86] flex-column gap:normal jc:flex-start ai:normal
+                            p [500,1469,114x50] TEXT"Heather tones may appear lighter in product photos. Free color exchanges within the return window." {Tiempos Text Regular Italic 400i 10px/10px ls:-0.1px #122024 start}
+                    div "Blur out" [478,1443,159x124] flex-row gap:10px jc:center ai:center bgi:linear-gradient(rgba(250, 247, 241, 0) 0%, rgba(254, 254, 253, 0.88) 66%, rgb(255, 255, 255) 92%) absolute(t:34px r:-3px b:0px l:-2px) ov:hidden z:2
+                    div [520,1536,73x23] flex-row gap:0px jc:center ai:center absolute(t:127px r:3.59375px b:8px l:77px) ov:clip tf:matrix(1, 0, 0, 1, -36.7031, 0) z:2
+                      div "Chip/Filter" [520,1536,73x23] flex-row gap:4px jc:center ai:center p:4px 8px bg:#FFFFFF r:50px ov:clip
+                        div "Response too generic" [528,1540,38x15] flex-column gap:normal jc:flex-start ai:normal
+                          p [528,1540,38x15] TEXT"Pending" {Instrument Sans 400 10px/15px ls:normal #122023 start}
+                        div "Icon Button" [571,1540,15x15] bgi:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 15 15%22><path d=%22M 0.5 7.5 C 0.5 3.634 3.634 0.5 7.5 0.5 L 7.5 0.5 C 11.366 0.5 14.5 3. z:4
+              li [646,1407,158x162]
+                div "Bars" [646,1407,158x162] flex-column gap:10px jc:center ai:center p:2px r:28px sh:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px z:0
+                  div "User Message" [648,1409,154x158] flex-row gap:0px jc:center ai:center p:12px bg:#FFFFFF r:28px ov:clip z:1
+                    div [660,1421,130x134] flex-column gap:normal jc:space-between ai:center
+                      div [660,1421,130x23] flex-row gap:10px jc:center ai:center ov:clip
+                        div "Response too generic" [660,1421,130x23] ov:clip
+                          p [660,1421,130x23] TEXT"Refunds & Exchanges" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+                      div [660,1461,130x102] flex-row gap:10px jc:center ai:center r:12px absolute(t:40px r:0px b:-8px l:0px) ov:clip z:1
+                        div "Content Graphic" [660,1461,130x102] flex-row gap:0px jc:center ai:center p:8px r:16px ov:hidden bf:blur(2px)
+                          div "yewr89chnr48whf83fgxr078fb43oq67rg320xcrg328" [668,1469,114x86] flex-column gap:normal jc:flex-start ai:normal
+                            p [668,1469,114x40] TEXT"Send a prepaid label for color swaps. No restocking fee on first exchange" {Tiempos Text Regular Italic 400i 10px/10px ls:-0.1px #122024 start}
+                      div [660,1448,130x23] flex-row gap:normal jc:space-between ai:center absolute(t:27px r:0px b:84px l:0px) ov:clip z:2
+                    div "Blur out" [646,1461,159x106] flex-row gap:10px jc:center ai:center bgi:linear-gradient(rgba(250, 247, 241, 0) 0%, rgba(254, 254, 253, 0.88) 66%, rgb(255, 255, 255) 92%) absolute(t:52px r:-3px b:0px l:-2px) ov:hidden z:2
+                    div [690,1536,71x23] flex-row gap:0px jc:center ai:center absolute(t:127px r:6.125px b:8px l:77px) ov:clip tf:matrix(1, 0, 0, 1, -35.4375, 0) z:2
+                      div "Chip/Filter" [690,1536,71x23] flex-row gap:4px jc:center ai:center p:4px 8px bg:#FFFFFF r:50px ov:clip
+                        div "Response too generic" [698,1540,36x15] flex-column gap:normal jc:flex-start ai:normal
+                          p [698,1540,36x15] TEXT"Verified" {Instrument Sans 400 10px/15px ls:normal #122023 start}
+                        div "Icon Button" [737,1540,15x15] bgi:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 15 15%22><path d=%22M 0.5 7.5 C 0.5 3.634 3.634 0.5 7.5 0.5 L 7.5 0.5 C 11.366 0.5 14.5 3. z:4
+              li [814,1407,158x162]
+                div "Bars" [814,1407,158x162] flex-column gap:10px jc:center ai:center p:2px r:28px sh:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px z:0
+                  div "User Message" [816,1409,154x158] flex-row gap:12px jc:center ai:center p:12px bg:#FFFFFF r:28px ov:clip z:1
+                    div [828,1421,130x134] flex-column gap:normal jc:space-between ai:center
+                      div [828,1421,130x23] flex-row gap:10px jc:center ai:center ov:clip
+                        div "Response too generic" [828,1421,130x23] flex-column gap:normal jc:flex-start ai:normal
+                          p [828,1421,130x23] TEXT"Tone of Voice" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+                      div [828,1461,130x102] flex-row gap:10px jc:center ai:center r:12px absolute(t:40px r:0px b:-8px l:0px) ov:clip z:1
+                        div "Content Graphic" [828,1461,130x102] flex-row gap:0px jc:center ai:center p:8px r:16px ov:hidden bf:blur(2px)
+                          div "yewr89chnr48whf83fgxr078fb43oq67rg320xcrg328" [836,1469,114x86] flex-column gap:normal jc:flex-start ai:normal
+                            p [836,1469,114x40] TEXT"Lead with the solution. Offer the refund and the exchange together in one reply." {Tiempos Text Regular Italic 400i 10px/10px ls:-0.1px #122024 start}
+                    div "Blur out" [814,1443,159x124] flex-row gap:10px jc:center ai:center bgi:linear-gradient(rgba(250, 247, 241, 0) 0%, rgba(254, 254, 253, 0.88) 66%, rgb(255, 255, 255) 92%) absolute(t:34px r:-3px b:0px l:-2px) ov:hidden z:2
+                    div [858,1536,71x23] flex-row gap:0px jc:center ai:center absolute(t:127px r:6.125px b:8px l:77px) ov:clip tf:matrix(1, 0, 0, 1, -35.4375, 0) z:2
+                      div "Chip/Filter" [858,1536,71x23] flex-row gap:4px jc:center ai:center p:4px 8px bg:#FFFFFF r:50px ov:clip
+                        div "Response too generic" [866,1540,36x15] flex-column gap:normal jc:flex-start ai:normal
+                          p [866,1540,36x15] TEXT"Verified" {Instrument Sans 400 10px/15px ls:normal #122023 start}
+                        div "Icon Button" [905,1540,15x15] bgi:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 15 15%22><path d=%22M 0.5 7.5 C 0.5 3.634 3.634 0.5 7.5 0.5 L 7.5 0.5 C 11.366 0.5 14.5 3. z:4
+              li [982,1407,157x162]
+                div "Bars" [982,1407,157x162] flex-column gap:10px jc:center ai:center p:2px r:28px sh:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px z:0
+                  div "User Message" [984,1409,153x158] flex-row gap:12px jc:center ai:center p:12px bg:#FFFFFF r:28px ov:clip z:1
+                    div [996,1421,129x134] flex-column gap:normal jc:space-between ai:center
+                      div [996,1421,129x23] flex-row gap:10px jc:center ai:center ov:clip
+                        div "Response too generic" [996,1421,129x23] flex-column gap:normal jc:flex-start ai:normal
+                          p [996,1421,129x23] TEXT"Brand Policies" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+                      div [996,1461,129x102] flex-row gap:10px jc:center ai:center r:12px absolute(t:40px r:0px b:-8px l:0px) ov:clip z:1
+                        div "Content Graphic" [996,1461,129x102] flex-row gap:0px jc:center ai:center p:8px r:16px ov:hidden bf:blur(2px)
+                          div "yewr89chnr48whf83fgxr078fb43oq67rg320xcrg328" [1004,1469,113x86] flex-column gap:normal jc:flex-start ai:normal
+                            p [1004,1469,113x50] TEXT"Refunds are processed within 3–5 business days. Requests must be made within 30 days of purchase." {Tiempos Text Regular Italic 400i 10px/10px ls:-0.1px #122024 start}
+                    div "Blur out" [982,1442,158x125] flex-row gap:10px jc:center ai:center bgi:linear-gradient(rgba(250, 247, 241, 0) 0%, rgba(254, 254, 253, 0.88) 66%, rgb(255, 255, 255) 92%) absolute(t:33px r:-3px b:0px l:-2px) ov:hidden z:2
+                    div [1025,1536,71x23] flex-row gap:0px jc:center ai:center absolute(t:127px r:5.625px b:8px l:76.5px) ov:clip tf:matrix(1, 0, 0, 1, -35.4375, 0) z:2
+                      div "Chip/Filter" [1025,1536,71x23] flex-row gap:4px jc:center ai:center p:4px 8px bg:#FFFFFF r:50px ov:clip
+                        div "Response too generic" [1033,1540,36x15] flex-column gap:normal jc:flex-start ai:normal
+                          p [1033,1540,36x15] TEXT"Verified" {Instrument Sans 400 10px/15px ls:normal #122023 start}
+                        div "Icon Button" [1073,1540,15x15] bgi:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 15 15%22><path d=%22M 0.5 7.5 C 0.5 3.634 3.634 0.5 7.5 0.5 L 7.5 0.5 C 11.366 0.5 14.5 3. z:4
+              li [1149,1407,158x162]
+                div "Bars" [1149,1407,158x162] flex-column gap:10px jc:center ai:center p:2px r:28px sh:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px z:0
+                  div "User Message" [1151,1409,154x158] flex-row gap:12px jc:center ai:center p:12px bg:#FFFFFF r:28px ov:clip z:1
+                    div [1163,1421,130x134] flex-column gap:normal jc:space-between ai:center
+                      div [1163,1421,130x23] flex-row gap:10px jc:center ai:center ov:clip
+                        div "Response too generic" [1163,1421,130x23] flex-column gap:normal jc:flex-start ai:normal
+                          p [1163,1421,130x23] TEXT"Color & Sizing" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+                      div [1163,1461,130x102] flex-row gap:10px jc:center ai:center r:12px absolute(t:40px r:0px b:-8px l:0px) ov:clip z:1
+                        div "Content Graphic" [1163,1461,130x102] flex-row gap:0px jc:center ai:center p:8px r:16px ov:hidden bf:blur(2px)
+                          div "yewr89chnr48whf83fgxr078fb43oq67rg320xcrg328" [1171,1469,114x86] flex-column gap:normal jc:flex-start ai:normal
+                            p [1171,1469,114x50] TEXT"Heather tones may appear lighter in product photos. Free color exchanges within the return window." {Tiempos Text Regular Italic 400i 10px/10px ls:-0.1px #122024 start}
+                    div "Blur out" [1149,1443,159x124] flex-row gap:10px jc:center ai:center bgi:linear-gradient(rgba(250, 247, 241, 0) 0%, rgba(254, 254, 253, 0.88) 66%, rgb(255, 255, 255) 92%) absolute(t:34px r:-3px b:0px l:-2px) ov:hidden z:2
+                    div [1191,1536,73x23] flex-row gap:0px jc:center ai:center absolute(t:127px r:3.59375px b:8px l:77px) ov:clip tf:matrix(1, 0, 0, 1, -36.7031, 0) z:2
+                      div "Chip/Filter" [1191,1536,73x23] flex-row gap:4px jc:center ai:center p:4px 8px bg:#FFFFFF r:50px ov:clip
+                        div "Response too generic" [1199,1540,38x15] flex-column gap:normal jc:flex-start ai:normal
+                          p [1199,1540,38x15] TEXT"Pending" {Instrument Sans 400 10px/15px ls:normal #122023 start}
+                        div "Icon Button" [1242,1540,15x15] bgi:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 15 15%22><path d=%22M 0.5 7.5 C 0.5 3.634 3.634 0.5 7.5 0.5 L 7.5 0.5 C 11.366 0.5 14.5 3. z:4
+              li [1317,1407,158x162]
+                div "Bars" [1317,1407,158x162] flex-column gap:10px jc:center ai:center p:2px r:28px sh:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px z:0
+                  div "User Message" [1319,1409,154x158] flex-row gap:0px jc:center ai:center p:12px bg:#FFFFFF r:28px ov:clip z:1
+                    div [1331,1421,130x134] flex-column gap:normal jc:space-between ai:center
+                      div [1331,1421,130x23] flex-row gap:10px jc:center ai:center ov:clip
+                        div "Response too generic" [1331,1421,130x23] ov:clip
+                          p [1331,1421,130x23] TEXT"Refunds & Exchanges" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+                      div [1331,1461,130x102] flex-row gap:10px jc:center ai:center r:12px absolute(t:40px r:0px b:-8px l:0px) ov:clip z:1
+                        div "Content Graphic" [1331,1461,130x102] flex-row gap:0px jc:center ai:center p:8px r:16px ov:hidden bf:blur(2px)
+                          div "yewr89chnr48whf83fgxr078fb43oq67rg320xcrg328" [1339,1469,114x86] flex-column gap:normal jc:flex-start ai:normal
+                            p [1339,1469,114x40] TEXT"Send a prepaid label for color swaps. No restocking fee on first exchange" {Tiempos Text Regular Italic 400i 10px/10px ls:-0.1px #122024 start}
+                      div [1331,1448,130x23] flex-row gap:normal jc:space-between ai:center absolute(t:27px r:0px b:84px l:0px) ov:clip z:2
+                    div "Blur out" [1317,1461,159x106] flex-row gap:10px jc:center ai:center bgi:linear-gradient(rgba(250, 247, 241, 0) 0%, rgba(254, 254, 253, 0.88) 66%, rgb(255, 255, 255) 92%) absolute(t:52px r:-3px b:0px l:-2px) ov:hidden z:2
+                    div [1361,1536,71x23] flex-row gap:0px jc:center ai:center absolute(t:127px r:6.125px b:8px l:77px) ov:clip tf:matrix(1, 0, 0, 1, -35.4375, 0) z:2
+                      div "Chip/Filter" [1361,1536,71x23] flex-row gap:4px jc:center ai:center p:4px 8px bg:#FFFFFF r:50px ov:clip
+                        div "Response too generic" [1369,1540,36x15] flex-column gap:normal jc:flex-start ai:normal
+                          p [1369,1540,36x15] TEXT"Verified" {Instrument Sans 400 10px/15px ls:normal #122023 start}
+                        div "Icon Button" [1408,1540,15x15] bgi:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 15 15%22><path d=%22M 0.5 7.5 C 0.5 3.634 3.634 0.5 7.5 0.5 L 7.5 0.5 C 11.366 0.5 14.5 3. z:4
+          div "Blur out" [219,1414,79x229] flex-row gap:10px jc:center ai:center bgi:linear-gradient(90deg, rgb(250, 247, 241) 0%, rgba(250, 247, 241, 0) 100%) absolute(t:110px r:345px b:14px l:0px) ov:hidden
+          div "Blur out" [564,1404,79x254] flex-row gap:10px jc:center ai:center bgi:linear-gradient(270deg, rgb(250, 247, 241) 0%, rgba(250, 247, 241, 0) 100%) absolute(t:100px r:0px b:-1px l:345px) ov:hidden z:1
+  div "Content" [752,1016,512x900] flex-column gap:10px jc:center ai:center maxw:512px
+    div "1" [752,1016,512x900] flex-column gap:32px jc:center ai:flex-start z:1
+      div [752,1229,512x346] flex-column gap:24px jc:center ai:center
+        div [752,1229,512x22] flex-column gap:normal jc:flex-start ai:normal z:1
+          p [752,1229,512x22] TEXT"knowledge foundation" {Instrument Sans 600 16px/22.4px ls:1.7px #122023 uppercase left}
+        div [752,1275,512x192] flex-column gap:normal jc:flex-start ai:normal z:1
+          h2 [752,1275,512x192] TEXT"One home for everything your team knows." {Feature Deck Web Light 400 64px/64px ls:-1.28px #122023 left}
+        div [752,1491,512x84] flex-column gap:normal jc:flex-start ai:normal maxw:564px z:1
+          p [752,1491,512x84] TEXT"A clean structure for every workflow, playbook, and policy your team runs on. Keep it internal, or publish a branded help center on your own subdomain." {Instrument Sans 500 20px/28px ls:-0.2px #122023 left}
+      div [752,1607,512x96] flex-column gap:12px jc:center ai:center ov:hidden
+        div [752,1607,512x24] flex-row gap:10px jc:center ai:center ov:hidden
+          div "star-four-light 1" [752,1607,24x24]
+            div [752,1607,24x24]
+              svg [752,1607,24x24] ov:hidden svg col:#000000
+          div [786,1608,478x23] flex-column gap:normal jc:flex-start ai:normal maxw:564px z:1
+            p [786,1608,478x23] TEXT"Internal wiki and public help center in one place" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+        div [752,1643,512x24] flex-row gap:10px jc:center ai:center ov:hidden
+          div "star-four-light 1" [752,1643,24x24]
+            div [752,1643,24x24]
+              svg [752,1643,24x24] ov:hidden svg col:#000000
+          div [786,1644,478x23] flex-column gap:normal jc:flex-start ai:normal maxw:564px z:1
+            p [786,1644,478x23] TEXT"Every page has an owner and a review cycle" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+        div [752,1679,512x24] flex-row gap:10px jc:center ai:center ov:hidden
+          div "star-four-light 1" [752,1679,24x24]
+            div [752,1679,24x24]
+              svg [752,1679,24x24] ov:hidden svg col:#000000
+          div [786,1680,478x23] flex-column gap:normal jc:flex-start ai:normal maxw:564px z:1
+            p [786,1680,478x23] TEXT"Native analytics across every page and space" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 left}
+##### Complete Coverage@0@22
+div "Complete Coverage" [0,1916,1440x676] flex-column gap:32px jc:center ai:center p:80px 96px bg:#FAF7F1 z:1
+  div "BG" [728,1797,669x641] op:0.3 absolute(t:-118.812px r:43.5px b:153.812px l:727.5px) z:0
+    div [728,1797,669x641] absolute(t:0px r:0px b:0px l:0px)
+      img [728,1797,669x641] ov:clip src:MSTluKQSUNZrlxr6ESQPZTnooU.webp fit:cover pos:50% 50%
+  div [184,1996,1072x516] flex-row gap:32px jc:center ai:flex-start ov:clip maxw:1072px
+    div "Title" [184,1996,396x466] flex-column gap:24px jc:center ai:flex-start maxw:396px z:1
+      div [184,1996,396x22] flex-column gap:normal jc:flex-start ai:normal z:1
+        p [184,1996,396x22] TEXT"your criteria. scored always in sync" {Instrument Sans 600 16px/22.4px ls:1.7px #122023 uppercase left}
+      div [184,2042,396x256] flex-column gap:normal jc:flex-start ai:normal z:1
+        h2 [184,2042,396x256] TEXT"Change it once. Your whole operation moves with it." {Feature Deck Web Light 400 64px/64px ls:-1.28px #122023 left}
+      div [184,2322,396x140] flex-column gap:normal jc:flex-start ai:normal z:1
+        p [184,2322,396x140] TEXT"Tell Siena what changed and every page that mentions it updates together. Your public help center, your internal docs, and what your agent tells customers all stay current from one conversation." {Instrument Sans 500 20px/28px ls:-0.2px #122023 left}
+    div "Content" [612,1996,644x516] flex-column gap:10px jc:center ai:flex-end maxw:960px
+      div "Card/Gallery" [480,1996,776x516] flex-column gap:24px jc:flex-start ai:flex-start p:32px bgi:linear-gradient(272deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 76%) r:24px ov:hidden z:0
+        div "Person-Cutout" [864,2055,506x457] absolute(t:58.8125px r:-114px b:0px l:384px) z:1
+          div [864,2055,506x457] absolute(t:0px r:0px b:0px l:0px)
+            img [864,2055,506x457] ov:clip src:ujOHLlJqjEXaFjDhOJLSpAYzU.webp fit:cover pos:50% 50%
+        div [698,2084,309x171] flex-column gap:6px jc:center ai:center p:2px r:24px sh:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px absolute(t:88px r:94.5312px b:257px l:372.469px) ov:hidden tf:matrix(1, 0, 0, 1, -154.5, 0) z:1
+          div [700,2086,305x167] flex-column gap:6px jc:center ai:center p:2px bg:#FFFFFF r:24px sh:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px ov:hidden
+            div "User Message" [702,2088,301x163] flex-row gap:12px jc:center ai:center p:12px bg:#FFFFFF r:28px
+              div [714,2100,277x139] flex-column gap:12px jc:center ai:flex-start ov:clip
+                div [714,2100,277x104] flex-row gap:10px jc:center ai:center ov:clip
+                  div "Response too generic" [714,2100,277x104] flex-column gap:normal jc:flex-start ai:normal
+                    p [714,2100,277x104] TEXT""We're extending returns from 30 to 60 days for the holidays. Update everywhere."" {Tiempos Text Regular 400 20px/26px ls:normal #122023 start}
+                div [714,2216,184x23] flex-row gap:10px jc:center ai:center ov:clip
+                  div "Chip/Filter" [714,2216,75x23] flex-row gap:8px jc:center ai:center p:4px 8px r:50px
+                    div "Response too generic" [722,2220,59x15] flex-column gap:normal jc:flex-start ai:normal
+                      p [722,2220,59x15] TEXT"3 docs found" {Instrument Sans 400 10px/15px ls:normal #122023 start}
+                  div "Response too generic" [799,2218,99x18] flex-column gap:normal jc:flex-start ai:normal
+                    p [799,2218,99x18] TEXT"Diffs proposed:" {Tiempos Text Regular 400 14px/18.2px ls:normal #122023 start}
+        div [701,2327,518x162] flex-row gap:10px jc:flex-start ai:center absolute(t:331px r:37px b:23px l:221px) z:1
+          div "Bars" [701,2327,166x162] flex-column gap:10px jc:center ai:center p:2px r:24px sh:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px z:0
+            div "User Message" [703,2329,162x158] flex-column gap:6px jc:flex-start ai:center p:12px bg:#FFFFFF r:24px ov:clip z:1
+              div [715,2341,138x23] flex-row gap:10px jc:center ai:center ov:clip
+                div "Response too generic" [715,2341,138x23] flex-column gap:normal jc:flex-start ai:normal
+                  p [715,2341,138x23] TEXT"Returns Policy" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+              div [715,2370,138x84] flex-row gap:5px jc:center ai:flex-start p:6px 0px ov:clip
+                div [715,2376,67x72] flex-row gap:10px jc:center ai:center r:8px ov:clip z:1
+                  div "Content Graphic" [715,2386,67x52] flex-row gap:0px jc:center ai:center p:6px bg:#FFFFFF/0.6 r:2px ov:hidden bf:blur(2px)
+                    div "yewr89chnr48whf83fgxr078fb43oq67rg320xcrg328" [721,2392,55x40] flex-column gap:normal jc:flex-start ai:normal
+                      p [721,2392,55x40] TEXT"…within of the original purchase…" {Tiempos Text Regular Italic 400i 10px/10px ls:-0.1px #A0A6A7 start}
+                        strong [721,2390,54x24] TEXT"30 days" {Tiempos Text Regular Italic 700i 10px/10px ls:-0.1px #A0A6A7 start}
+                div [787,2376,67x72] flex-row gap:10px jc:center ai:center r:8px ov:clip z:1
+                  div "Content Graphic" [787,2376,67x72] flex-row gap:0px jc:center ai:center p:6px r:5px ov:hidden bf:blur(2px)
+                    div "yewr89chnr48whf83fgxr078fb43oq67rg320xcrg328" [793,2392,55x40] flex-column gap:normal jc:flex-start ai:normal
+                      p [793,2392,55x40] TEXT"…within of the original purchase…" {Tiempos Text Regular Italic 400i 10px/10px ls:-0.1px #0E893B start}
+                        strong [793,2390,55x24] TEXT"60 days" {Tiempos Text Regular Italic 700i 10px/10px ls:-0.1px #0E893B start}
+              div "Blur out" [701,2424,167x62] flex-row gap:10px jc:center ai:center bgi:linear-gradient(rgba(250, 247, 241, 0) 0%, rgba(254, 254, 253, 0.88) 66%, rgb(255, 255, 255) 92%) absolute(t:95px r:-3px b:1px l:-2px) ov:hidden z:2
+              div [739,2456,93x23] flex-row gap:4px jc:center ai:center absolute(t:127px r:-13.7031px b:8px l:82.6094px) ov:clip tf:matrix(1, 0, 0, 1, -46.5469, 0) z:2
+                div "Chip/Filter" [739,2456,68x23] flex-row gap:4px jc:center ai:center p:4px 8px bg:#FFFFFF r:50px ov:clip
+                  div "Response too generic" [747,2460,33x15] flex-column gap:normal jc:flex-start ai:normal
+                    p [747,2460,33x15] TEXT"Accept" {Instrument Sans 400 10px/15px ls:normal #122023 start}
+                  div "Icon Button" [784,2460,15x15] bgi:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 15 15%22><path d=%22M 0.5 7.5 C 0.5 3.634 3.634 0.5 7.5 0.5 L 7.5 0.5 C 11.366 0.5 14.5 3. z:4
+                div "Chip/Filter" [811,2458,21x20] flex-row gap:4px jc:center ai:center p:4px 6px bg:#FEC796 r:50px ov:clip
+                  div "Text" [817,2462,9x12] flex-column gap:normal jc:center ai:normal
+                    p [817,2462,9x12] TEXT"" {Font Awesome 6 Sharp Light 400 12px/12px ls:normal #FFFFFF center}
+          div "Bars" [877,2327,166x162] flex-column gap:10px jc:center ai:center p:2px r:24px sh:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px z:0
+            div "User Message" [879,2329,162x158] flex-column gap:6px jc:flex-start ai:center p:12px bg:#FFFFFF r:24px ov:clip z:1
+              div [891,2341,138x23] flex-row gap:10px jc:center ai:center ov:clip
+                div "Response too generic" [891,2341,138x23] flex-column gap:normal jc:flex-start ai:normal
+                  p [891,2341,138x23] TEXT"Returns SOP" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+              div [891,2370,138x85] flex-row gap:5px jc:center ai:flex-start p:6px 0px ov:clip
+                div [891,2376,67x73] flex-row gap:10px jc:center ai:center r:8px ov:clip z:1
+                  div "Content Graphic" [891,2376,67x73] flex-row gap:0px jc:center ai:center p:6px bg:#FFFFFF/0.6 r:2px ov:hidden bf:blur(2px)
+                    div "yewr89chnr48whf83fgxr078fb43oq67rg320xcrg328" [897,2393,55x40] flex-column gap:normal jc:flex-start ai:normal
+                      p [897,2393,55x40] TEXT"…within of the original purchase…" {Tiempos Text Regular Italic 400i 10px/10px ls:-0.1px #A0A6A7 start}
+                        strong [897,2391,54x24] TEXT"30 days" {Tiempos Text Regular Italic 700i 10px/10px ls:-0.1px #A0A6A7 start}
+                div [963,2376,67x73] flex-row gap:10px jc:center ai:center r:8px ov:clip z:1
+                  div "Content Graphic" [963,2376,67x73] flex-row gap:0px jc:center ai:center p:7px r:5px ov:hidden bf:blur(2px)
+                    div "yewr89chnr48whf83fgxr078fb43oq67rg320xcrg328" [970,2383,53x59] flex-column gap:normal jc:center ai:normal
+                      p [970,2388,53x50] TEXT"…within of the original purchase…" {Tiempos Text Regular Italic 400i 10px/10px ls:-0.1px #0E893B start}
+                        strong [970,2396,35x14] TEXT"60 days" {Tiempos Text Regular Italic 700i 10px/10px ls:-0.1px #0E893B start}
+              div "Blur out" [877,2424,167x62] flex-row gap:10px jc:center ai:center bgi:linear-gradient(rgba(250, 247, 241, 0) 0%, rgba(254, 254, 253, 0.88) 66%, rgb(255, 255, 255) 92%) absolute(t:95px r:-3px b:1px l:-2px) ov:hidden z:2
+              div [915,2456,93x23] flex-row gap:4px jc:center ai:center absolute(t:127px r:-13.7031px b:8px l:82.6094px) ov:clip tf:matrix(1, 0, 0, 1, -46.5469, 0) z:2
+                div "Chip/Filter" [915,2456,68x23] flex-row gap:4px jc:center ai:center p:4px 8px bg:#FFFFFF r:50px ov:clip
+                  div "Response too generic" [923,2460,33x15] flex-column gap:normal jc:flex-start ai:normal
+                    p [923,2460,33x15] TEXT"Accept" {Instrument Sans 400 10px/15px ls:normal #122023 start}
+                  div "Icon Button" [960,2460,15x15] bgi:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 15 15%22><path d=%22M 0.5 7.5 C 0.5 3.634 3.634 0.5 7.5 0.5 L 7.5 0.5 C 11.366 0.5 14.5 3. z:4
+                div "Chip/Filter" [987,2458,21x20] flex-row gap:4px jc:center ai:center p:4px 6px bg:#FEC796 r:50px ov:clip
+                  div "Text" [993,2462,9x12] flex-column gap:normal jc:center ai:normal
+                    p [993,2462,9x12] TEXT"" {Font Awesome 6 Sharp Light 400 12px/12px ls:normal #FFFFFF center}
+          div "Bars" [1053,2327,166x162] flex-column gap:10px jc:center ai:center p:2px r:24px sh:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px z:0
+            div "User Message" [1055,2329,162x158] flex-column gap:6px jc:flex-start ai:center p:12px bg:#FFFFFF r:24px ov:clip z:1
+              div [1067,2341,138x23] flex-row gap:10px jc:center ai:center ov:clip
+                div "Response too generic" [1067,2341,138x23] flex-column gap:normal jc:flex-start ai:normal
+                  p [1067,2341,138x23] TEXT"Returns Journey" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+              div "Blur out" [1053,2424,167x62] flex-row gap:10px jc:center ai:center bgi:linear-gradient(rgba(250, 247, 241, 0) 0%, rgba(254, 254, 253, 0.88) 66%, rgb(255, 255, 255) 92%) absolute(t:95px r:-3px b:1px l:-2px) ov:hidden z:2
+              div [1091,2456,93x23] flex-row gap:4px jc:center ai:center absolute(t:127px r:-13.7031px b:8px l:82.6094px) ov:clip tf:matrix(1, 0, 0, 1, -46.5469, 0) z:2
+                div "Chip/Filter" [1091,2456,68x23] flex-row gap:4px jc:center ai:center p:4px 8px bg:#FFFFFF r:50px ov:clip
+                  div "Response too generic" [1099,2460,33x15] flex-column gap:normal jc:flex-start ai:normal
+                    p [1099,2460,33x15] TEXT"Accept" {Instrument Sans 400 10px/15px ls:normal #122023 start}
+                  div "Icon Button" [1136,2460,15x15] bgi:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 15 15%22><path d=%22M 0.5 7.5 C 0.5 3.634 3.634 0.5 7.5 0.5 L 7.5 0.5 C 11.366 0.5 14.5 3. z:4
+                div "Chip/Filter" [1163,2458,21x20] flex-row gap:4px jc:center ai:center p:4px 6px bg:#FEC796 r:50px ov:clip
+                  div "Text" [1169,2462,9x12] flex-column gap:normal jc:center ai:normal
+                    p [1169,2462,9x12] TEXT"" {Font Awesome 6 Sharp Light 400 12px/12px ls:normal #FFFFFF center}
+              div [1067,2370,138x85] flex-row gap:5px jc:center ai:flex-start p:6px 0px ov:clip
+                div [1067,2376,67x73] flex-row gap:10px jc:center ai:center r:8px ov:clip z:1
+                  div "Content Graphic" [1067,2376,67x73] flex-row gap:0px jc:center ai:center p:6px bg:#FFFFFF/0.6 r:2px ov:hidden bf:blur(2px)
+                    div "yewr89chnr48whf83fgxr078fb43oq67rg320xcrg328" [1073,2393,55x40] flex-column gap:normal jc:flex-start ai:normal
+                      p [1073,2393,55x40] TEXT"…within of the original purchase…" {Tiempos Text Regular Italic 400i 10px/10px ls:-0.1px #A0A6A7 start}
+                        strong [1073,2391,54x24] TEXT"30 days" {Tiempos Text Regular Italic 700i 10px/10px ls:-0.1px #A0A6A7 start}
+                div [1139,2376,67x73] flex-row gap:10px jc:center ai:center r:8px ov:clip z:1
+                  div "Content Graphic" [1139,2376,67x73] flex-row gap:0px jc:center ai:center p:7px r:5px ov:hidden bf:blur(2px)
+                    div "yewr89chnr48whf83fgxr078fb43oq67rg320xcrg328" [1146,2383,53x59] flex-column gap:normal jc:center ai:normal
+                      p [1146,2388,53x50] TEXT"…within of the original purchase…" {Tiempos Text Regular Italic 400i 10px/10px ls:-0.1px #0E893B start}
+                        strong [1146,2396,35x14] TEXT"60 days" {Tiempos Text Regular Italic 700i 10px/10px ls:-0.1px #0E893B start}
+  div "Blur out" [0,1915,1440x153] flex-row gap:10px jc:center ai:center bgi:linear-gradient(rgb(255, 255, 255) 0%, rgba(250, 247, 241, 0) 100%) absolute(t:-1px r:0px b:524px l:0px) ov:hidden z:3
+##### Before/With Siena@0@22
+div "Before/With Siena" [0,2592,1440x1085] flex-column gap:72px jc:center ai:center p:80px 96px bg:#FAF7F1
+  div "Integrations" [96,2672,1248x254] flex-row gap:24px jc:center ai:flex-end
+    div "text" [96,2672,1248x254] flex-column gap:24px jc:flex-start ai:center
+      div [644,2672,152x22] flex-column gap:normal jc:flex-start ai:normal z:1
+        p [644,2672,152x22] TEXT"what changes" {Instrument Sans 600 16px/22.4px ls:1.7px #122023 uppercase left}
+      div "Integrate Siena with your reviews platforms" [320,2718,800x128] flex-column gap:normal jc:flex-start ai:normal maxw:800px z:1
+        h2 [320,2718,800x128] TEXT"Built for the way modern brands actually work." {Feature Deck Web Light 400 64px/64px ls:-1.28px #122023 center}
+      div "Every review enriches Siena's understanding of your customers. This intelligence powers personalized interactions across all channels – Not just reviews" [410,2870,620x56] flex-column gap:normal jc:flex-start ai:normal
+        p [410,2870,620x56] TEXT"Traditional knowledge tools were built for humans to read and agents to ignore. Siena Docs serves both, from one living system." {Instrument Sans 500 20px/28px ls:-0.2px #122023 center}
+  div "Bento Card" [120,2998,1200x599] flex-column gap:16px jc:flex-start ai:flex-start maxw:1200px
+    div "1" [120,2998,1200x393] flex-row gap:16px jc:center ai:center ov:hidden
+      div "1" [120,2998,572x393] flex-column gap:24px jc:flex-start ai:center p:32px 24px 24px bgi:linear-gradient(rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%) r:24px bf:blur(2px)
+        div "text" [144,3030,524x106] flex-column gap:20px jc:flex-start ai:center
+          div "Autonomous reviews management" [144,3030,524x48] flex-column gap:normal jc:flex-start ai:normal
+            h4 [144,3030,524x48] TEXT"Ask Siena inside Docs" {Feature Deck Web Regular 400 40px/48px ls:normal #000000 center}
+          div "Direct catalog integration with real-time sync Zero setup complexity" [144,3098,524x38] flex-column gap:normal jc:flex-start ai:normal
+            p [144,3098,524x38] TEXT"Draft, edit, and maintain any page agentically, without leaving your knowledge base." {Instrument Sans 400 16px/19.2px ls:-0.16px #122023 center}
+        div "Docs-card" [144,3161,524x207] bg:#F3F0EB/0.3 r:24px ov:clip bf:blur(6px)
+          div "Frame 2087325258" [125,3034,595x668] op:0.36 absolute(t:63.5938px r:-63px b:-144px l:-30px) filter:blur(39px) tf:matrix(0.587785, 0.809017, -0.809017, 0.587785, 0, 0) z:0
+            div [125,3034,595x668] absolute(t:0px r:0px b:0px l:0px)
+              img [125,3034,595x668] ov:clip src:QHZQBNQlSL00uTxYcQKOePAWdT0.webp fit:contain pos:50% 50%
+          div "Footer" [160,3260,492x91] flex-column gap:8px jc:center ai:center p:8px bg:#F3F0EB/0.7 r:28px absolute(t:99.5938px r:16px b:16px l:16px) bf:blur(10px) z:0
+            div [308,3226,200x71] absolute(t:-34px r:144px b:54px l:148px) z:0
+              div "Bars" [239,3227,99x85] flex-column gap:5px jc:center ai:center p:1px r:14px sh:rgba(167, 160, 146, 0.3) 0px 1.5px 8px 0px absolute(t:8px r:176px b:-8px l:-64px) tf:matrix(0.984808, 0.173648, -0.173648, 0.984808, 0, 0) z:0
+                div "User Message" [240,3228,97x83] flex-row gap:6px jc:center ai:center p:6px bg:#FFFFFF r:14px ov:clip z:1
+                  div [247,3235,83x69] flex-column gap:normal jc:space-between ai:center
+                    div [254,3235,75x24] flex-row gap:5px jc:center ai:center ov:clip
+                      div "Response too generic" [254,3235,75x24] flex-column gap:normal jc:flex-start ai:normal
+                        p [254,3235,75x24] TEXT"Return Policy" {Tiempos Text Regular 400 9px/11.7px ls:-0.09px #122024 start}
+                    div [253,3255,73x62] flex-row gap:5px jc:center ai:center r:6px absolute(t:18px r:0px b:-12px l:9px) ov:clip z:1
+                      div "Content Graphic" [253,3255,73x62] flex-row gap:0px jc:center ai:center p:4px r:8px ov:hidden bf:blur(1px)
+                        div "yewr89chnr48whf83fgxr078fb43oq67rg320xcrg328" [258,3259,64x52] flex-column gap:normal jc:flex-start ai:normal
+                          p [261,3259,60x35] TEXT"Heather tones may appear lighter in product photos. Free color exchanges within the return window." {Tiempos Text Regular Italic 400i 5px/5px ls:-0.05px #122024 start}
+                  div "Blur out" [239,3243,96x68] flex-row gap:5px jc:center ai:center bgi:linear-gradient(rgba(250, 247, 241, 0) 0%, rgba(254, 254, 253, 0.88) 66%, rgb(255, 255, 255) 92%) absolute(t:15px r:-1px b:0px l:-1px) ov:hidden z:2
+                  div [251,3282,66x23] flex-row gap:normal jc:space-between ai:center absolute(t:53px r:-22px b:4px l:43px) ov:clip tf:matrix(1, 0, 0, 1, -32.5, 0) z:2
+                    div "Chip/Filter" [251,3282,37x18] flex-row gap:2px jc:center ai:center p:2px 4px bg:#FFFFFF r:25px ov:clip
+                      div "Response too generic" [255,3285,19x11] flex-column gap:normal jc:flex-start ai:normal
+                        p [255,3285,19x11] TEXT"Verified" {Instrument Sans 400 5px/7.5px ls:normal #122023 start}
+                      div "Icon Button" [275,3289,9x9] bgi:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 7.5 7.5%22><path d=%22M 0.25 3.75 C 0.25 1.817 1.817 0.25 3.75 0.25 L 3.75 0.25 C 5.683 0. z:4
+              div "Bars" [307,3227,99x85] flex-column gap:5px jc:center ai:center p:1px r:14px sh:rgba(167, 160, 146, 0.3) 0px 1.5px 8px 0px absolute(t:8px r:108px b:-8px l:4px) tf:matrix(0.984808, -0.173648, 0.173648, 0.984808, 0, 0) z:0
+                div "User Message" [308,3228,97x83] flex-row gap:6px jc:center ai:center p:6px bg:#FFFFFF r:14px ov:clip z:1
+                  div [315,3235,83x69] flex-column gap:normal jc:space-between ai:center
+                    div [315,3235,75x24] flex-row gap:5px jc:center ai:center ov:clip
+                      div "Response too generic" [315,3235,75x24] ov:clip
+                        p [315,3235,75x24] TEXT"Refund Timeline" {Tiempos Text Regular 400 9px/11.7px ls:-0.09px #122024 start}
+                    div [327,3253,73x62] flex-row gap:5px jc:center ai:center r:6px absolute(t:18px r:0px b:-12px l:9px) ov:clip z:1
+                      div "Content Graphic" [327,3253,73x62] flex-row gap:0px jc:center ai:center p:4px r:8px ov:hidden bf:blur(1px)
+                        div "yewr89chnr48whf83fgxr078fb43oq67rg320xcrg328" [331,3258,64x52] flex-column gap:normal jc:flex-start ai:normal
+                          p [331,3258,60x35] TEXT"Heather tones may appear lighter in product photos. Free color exchanges within the return window." {Tiempos Text Regular Italic 400i 5px/5px ls:-0.05px #122024 start}
+                  div "Blur out" [309,3243,96x68] flex-row gap:5px jc:center ai:center bgi:linear-gradient(rgba(250, 247, 241, 0) 0%, rgba(254, 254, 253, 0.88) 66%, rgb(255, 255, 255) 92%) absolute(t:15px r:-1px b:0px l:-1px) ov:hidden z:2
+                  div [327,3282,66x23] flex-row gap:normal jc:space-between ai:center absolute(t:53px r:-22px b:4px l:43px) ov:clip tf:matrix(1, 0, 0, 1, -32.5, 0) z:2
+                    div "Chip/Filter" [327,3288,37x18] flex-row gap:2px jc:center ai:center p:2px 4px bg:#FFFFFF r:25px ov:clip
+                      div "Response too generic" [332,3292,19x11] flex-column gap:normal jc:flex-start ai:normal
+                        p [332,3292,19x11] TEXT"Verified" {Instrument Sans 400 5px/7.5px ls:normal #122023 start}
+                      div "Icon Button" [351,3290,9x9] bgi:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 7.5 7.5%22><path d=%22M 0.25 3.75 C 0.25 1.817 1.817 0.25 3.75 0.25 L 3.75 0.25 C 5.683 0. z:4
+              div "Bars" [358,3221,107x97] flex-column gap:5px jc:center ai:center p:1px r:14px sh:rgba(167, 160, 146, 0.3) 0px 1.5px 8px 0px absolute(t:8px r:53px b:-8px l:59px) tf:matrix(0.939693, 0.34202, -0.34202, 0.939693, 0, 0) z:0
+                div "User Message" [359,3223,104x94] flex-row gap:6px jc:center ai:center p:6px bg:#FFFFFF r:14px ov:clip z:1
+                  div [366,3230,89x79] flex-column gap:normal jc:space-between ai:center
+                    div [382,3230,74x36] flex-row gap:5px jc:center ai:center ov:clip
+                      div "Response too generic" [382,3230,74x36] ov:clip
+                        p [382,3230,74x36] TEXT"Exchange Process" {Tiempos Text Regular 400 9px/11.7px ls:-0.09px #122024 start}
+                    div [361,3247,89x74] flex-row gap:5px jc:center ai:center r:6px absolute(t:18px r:0px b:-12px l:-2px) ov:clip z:1
+                      div "Content Graphic" [361,3247,89x74] flex-row gap:0px jc:center ai:center p:4px r:8px ov:hidden bf:blur(1px)
+                        div "yewr89chnr48whf83fgxr078fb43oq67rg320xcrg328" [366,3252,79x64] flex-column gap:normal jc:flex-start ai:normal
+                          p [373,3252,71x42] TEXT"Customers may exchange for size or color  as main reason with 54% probability, after that sizing" {Tiempos Text Regular Italic 400i 5px/5px ls:-0.05px #122024 start}
+                  div "Blur out" [358,3237,101x81] flex-row gap:5px jc:center ai:center bgi:linear-gradient(rgba(250, 247, 241, 0) 0%, rgba(254, 254, 253, 0.88) 66%, rgb(255, 255, 255) 92%) absolute(t:15px r:-1px b:0px l:-1px) ov:hidden z:2
+                  div [370,3276,65x34] flex-row gap:normal jc:space-between ai:center absolute(t:53px r:-22px b:4px l:43px) ov:clip tf:matrix(1, 0, 0, 1, -32.5, 0) z:2
+                    div "Chip/Filter" [370,3276,38x24] flex-row gap:2px jc:center ai:center p:2px 4px bg:#FFFFFF r:25px ov:clip
+                      div "Response too generic" [375,3280,19x13] flex-column gap:normal jc:flex-start ai:normal
+                        p [375,3280,19x13] TEXT"Verified" {Instrument Sans 400 5px/7.5px ls:normal #122023 start}
+                      div "Icon Button" [393,3286,10x10] bgi:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 7.5 7.5%22><path d=%22M 0.25 3.75 C 0.25 1.817 1.817 0.25 3.75 0.25 L 3.75 0.25 C 5.683 0. z:4
+            div "Prompt" [168,3268,476x44] flex-column gap:10px jc:center ai:center p:2px bgi:linear-gradient(255deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 14.8649%, rgb(251, 86, 70) 32.8829%, rgb(130, 122, 204) 52.2523%, rgb(46, 121, 216) 79.7297%, rgb(171, 171, 171) 100%) r:28px sh:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px ov:hidden
+              div "Header" [170,3270,472x40] flex-column gap:8px jc:flex-start ai:flex-start p:8px bg:#FFFFFF r:26px ov:hidden
+                div "Content" [178,3278,93x24] flex-row gap:8px jc:flex-start ai:center p:4px 12px 4px 0px
+                  div "Icon-Black" [178,3278,25x25]
+                    div [178,3278,25x25]
+                      svg [178,3278,25x25] ov:hidden svg col:#000000
+                  div "CX Leaders" [211,3283,229x14]
+                    span [211,3283,229x14] TEXT"What changed in our return policy this month" {Feature Deck Web Regular 400 12px/14.4px ls:-0.12px #122023 start}
+                      span [436,3284,2x12] bg:#FFFFFF r:2px op:0
+            div [168,3320,476x23] flex-row gap:normal jc:space-between ai:center ov:clip
+              div [168,3323,106x18] flex-row gap:10px jc:center ai:center ov:clip
+                div "Title" [168,3325,59x14] flex-column gap:normal jc:flex-start ai:normal
+                  p [168,3325,59x14] TEXT"Updating:" {Geist Mono 400 10px/14px ls:0.5px #605C53 uppercase center}
+                div "Title" [237,3323,37x18] flex-column gap:normal jc:flex-start ai:normal
+                  p [237,3323,37x18] TEXT"3 Docs" {Instrument Sans 400 12px/18px ls:normal #605C53 start}
+              div "Chip/Filter" [521,3320,123x23] flex-row gap:4px jc:center ai:center p:4px 8px bg:#FFFFFF r:50px ov:clip
+                div "Response too generic" [529,3324,88x15] flex-column gap:normal jc:flex-start ai:normal
+                  p [529,3324,88x15] TEXT"Approve 3 Updates" {Instrument Sans 400 10px/15px ls:normal #122023 start}
+                div "Icon Button" [621,3324,15x15] bgi:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 15 15%22><path d=%22M 0.5 7.5 C 0.5 3.634 3.634 0.5 7.5 0.5 L 7.5 0.5 C 11.366 0.5 14.5 3. z:4
+      div "Container" [708,2998,612x393] flex-column gap:32px jc:flex-start ai:center p:32px bgi:linear-gradient(rgb(255, 255, 255) 0%, rgb(250, 247, 241) 100%) r:24px ov:clip bf:blur(2px)
+        div "text" [857,3030,314x106] flex-column gap:20px jc:flex-start ai:center maxw:314px
+          div "Autonomous reviews management" [857,3030,314x48] flex-column gap:normal jc:flex-start ai:normal
+            h4 [857,3030,314x48] TEXT"Analytics" {Feature Deck Web Regular 400 40px/48px ls:normal #000000 center}
+          div "Direct catalog integration with real-time sync Zero setup complexity" [857,3098,314x38] flex-column gap:normal jc:flex-start ai:normal
+            p [857,3098,314x38] TEXT"Know exactly which knowledge drives your agent's answers and which goes unused." {Instrument Sans 400 16px/19.2px ls:-0.16px #122023 center}
+        div [740,3169,548x191] flex-row gap:10px jc:center ai:center ov:clip
+          div "Bars" [824,3190,157x148] flex-column gap:10px jc:center ai:center p:2px r:28px sh:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px z:0
+            div "User Message" [826,3192,153x144] flex-row gap:12px jc:center ai:center p:12px bg:#FFFFFF r:28px ov:clip z:1
+              div [838,3204,129x120] flex-column gap:normal jc:space-between ai:center
+                div [838,3204,129x23] flex-row gap:10px jc:center ai:center ov:clip
+                  div "Response too generic" [838,3204,129x23] flex-column gap:normal jc:flex-start ai:normal
+                    p [838,3204,129x23] TEXT"Brand Policies" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+                div [837,3246,130x102] flex-row gap:10px jc:center ai:center r:12px absolute(t:42px r:0px b:-24px l:-1px) ov:clip z:1
+                  div "Content Graphic" [837,3246,130x102] flex-row gap:0px jc:center ai:center p:8px r:16px ov:hidden bf:blur(2px)
+                    div "yewr89chnr48whf83fgxr078fb43oq67rg320xcrg328" [845,3254,114x86] flex-column gap:normal jc:flex-start ai:normal
+                      p [845,3254,114x50] TEXT"Refunds are processed within 3–5 business days. Requests must be made within 30 days of purchase." {Tiempos Text Regular Italic 400i 10px/10px ls:-0.1px #122024 start}
+              div "Blur out" [824,3227,157x108] flex-row gap:10px jc:center ai:center bgi:linear-gradient(rgba(250, 247, 241, 0) 0%, rgba(254, 254, 253, 0.88) 66%, rgb(255, 255, 255) 92%) absolute(t:35px r:-2px b:1px l:-2px) ov:hidden z:2
+              div [837,3305,130x23] flex-row gap:normal jc:space-between ai:center absolute(t:113px r:-53.5px b:8px l:76.5px) ov:clip tf:matrix(1, 0, 0, 1, -65, 0) z:2
+                div "Chip/Filter" [837,3305,71x23] flex-row gap:4px jc:center ai:center p:4px 8px bg:#FFFFFF r:50px ov:clip
+                  div "Response too generic" [845,3309,36x15] flex-column gap:normal jc:flex-start ai:normal
+                    p [845,3309,36x15] TEXT"Verified" {Instrument Sans 400 10px/15px ls:normal #122023 start}
+                  div "Icon Button" [885,3309,15x15] bgi:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 15 15%22><path d=%22M 0.5 7.5 C 0.5 3.634 3.634 0.5 7.5 0.5 L 7.5 0.5 C 11.366 0.5 14.5 3. z:4
+          div "Direct catalog integration with real-time sync Zero setup complexity" [991,3255,5x19] flex-column gap:normal jc:flex-start ai:normal
+            p [991,3255,5x19] TEXT"•" {Instrument Sans 400 16px/19.2px ls:-0.16px #122023 center}
+          div "Line chart" [1005,3175,199x178] flex-column gap:4px jc:center ai:flex-start p:2px r:28px sh:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px z:0
+            div [1007,3177,195x145] flex-column gap:12px jc:center ai:center p:12px bg:#FFFFFF r:28px ov:clip z:1
+              div "Component header" [1035,3185,139x23] flex-row gap:16px jc:flex-start ai:center
+                div "Tag" [1035,3185,139x23] flex-column gap:normal jc:flex-start ai:normal
+                  p [1035,3185,139x23] TEXT"Document usage" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+              div "Chart content" [1017,3221,175x93] flex-column gap:16px jc:flex-start ai:flex-start
+                div "Chart" [1017,3221,175x93] r:16px
+                  div [1017,3221,175x93] r:16px absolute(t:0px r:0px b:0px l:0px)
+                    img [1017,3221,175x93] r:16px ov:clip src:nvp2J5Q38ZJKo0wZ875zHFSvrhg.png fit:contain pos:50% 50%
+                  div "Tag" [1063,3220,62x28] flex-row gap:normal jc:space-between ai:flex-start p:4px 8px bg:#FAF7F1/0.9 r:20px absolute(t:-1px r:67.0781px b:66px l:46px) ov:hidden bf:blur(6px)
+                    div "Text" [1071,3224,46x20] flex-column gap:normal jc:center ai:normal
+                      p [1071,3225,46x18] TEXT"23 Cited" {Instrument Sans 400 12px/18px ls:normal #122023 center}
+            div [1007,3326,195x25] flex-row gap:normal jc:space-between ai:center p:0px 8px 2px ov:clip
+              div "Chip/Filter" [1015,3326,57x23] flex-row gap:4px jc:center ai:center p:4px 8px bg:#FFFFFF r:50px ov:clip
+                div "Response too generic" [1023,3330,10x15] flex-column gap:normal jc:flex-start ai:normal
+                  p [1023,3330,10x15] TEXT"61" {Instrument Sans 400 10px/15px ls:normal #122023 start}
+                div "Response too generic" [1037,3330,27x15] flex-column gap:normal jc:flex-start ai:normal
+                  p [1037,3330,27x15] TEXT"Views" {Instrument Sans 400 10px/15px ls:normal #122023 start}
+              div "Chip/Filter" [1132,3326,63x23] flex-row gap:4px jc:center ai:center p:4px 8px bg:#FFFFFF r:50px ov:clip
+                div "Response too generic" [1140,3330,9x15] flex-column gap:normal jc:flex-start ai:normal
+                  p [1140,3330,9x15] TEXT"12" {Instrument Sans 400 10px/15px ls:normal #122023 start}
+                div "Response too generic" [1153,3330,33x15] flex-column gap:normal jc:flex-start ai:normal
+                  p [1153,3330,33x15] TEXT"Agents" {Instrument Sans 400 10px/15px ls:normal #122023 start}
+    div "1" [120,3407,1200x190] flex-row gap:16px jc:center ai:flex-start ov:hidden
+      div "Container" [120,3407,592x190] flex-row gap:normal jc:space-between ai:center p:24px bgi:linear-gradient(rgb(255, 255, 255) 0%, rgb(250, 247, 241) 100%) r:24px ov:clip bf:blur(2px)
+        div "text" [144,3453,314x98] flex-column gap:12px jc:flex-start ai:flex-start maxw:314px
+          div "Autonomous reviews management" [144,3453,314x48] flex-column gap:normal jc:flex-start ai:normal
+            h4 [144,3453,314x48] TEXT"MCP Connection" {Feature Deck Web Regular 400 40px/48px ls:normal #000000 start}
+          div "Direct catalog integration with real-time sync Zero setup complexity" [144,3513,314x38] flex-column gap:normal jc:flex-start ai:normal
+            p [144,3513,314x38] TEXT"Your knowledge base follows your team wherever they work." {Instrument Sans 400 16px/19.2px ls:-0.16px #122023 left}
+        div [554,3431,134x142] flex-row gap:10px jc:center ai:center p:32px bg:#F3F0EB/0.6 r:24px ov:clip bf:blur(6px)
+          div [586,3463,70x78]
+            div [586,3463,70x78]
+              svg [586,3463,70x78] ov:hidden svg col:#000000
+      div "1" [728,3407,592x190] flex-row gap:normal jc:space-between ai:center p:24px bgi:linear-gradient(rgb(255, 255, 255) 0%, rgb(250, 247, 241) 100%) r:24px ov:clip bf:blur(2px)
+        div [752,3431,544x142] flex-row gap:10px jc:center ai:center ov:clip
+          div "text" [752,3453,400x98] flex-column gap:12px jc:flex-start ai:flex-start
+            div "Autonomous reviews management" [752,3453,400x48] flex-column gap:normal jc:flex-start ai:normal
+              h4 [752,3453,400x48] TEXT"Skills" {Feature Deck Web Regular 400 40px/48px ls:normal #000000 left}
+            div "Direct catalog integration with real-time sync Zero setup complexity" [752,3513,400x38] flex-column gap:normal jc:flex-start ai:normal
+              p [752,3513,400x38] TEXT"The same page your team reads becomes the playbook your agent runs." {Instrument Sans 400 16px/19.2px ls:-0.16px #122023 left}
+          div [1162,3431,134x142] flex-row gap:10px jc:center ai:center p:32px bg:#F3F0EB/0.6 r:24px ov:clip bf:blur(6px)
+            div [1180,3471,200x71] absolute(t:39.4844px r:-84px b:31.5156px l:18px) z:0
+              div "Bars" [1173,3456,102x102] flex-column gap:5px jc:center ai:center p:1px r:14px sh:rgba(167, 160, 146, 0.3) 0px 1.5px 8px 0px absolute(t:-8px r:112px b:-9px l:0px) tf:matrix(0.984808, 0.173648, -0.173648, 0.984808, 0, 0) z:0
+                div "User Message" [1174,3457,100x100] flex-row gap:6px jc:center ai:center p:6px bg:#FFFFFF r:14px ov:clip z:1
+                  div [1181,3464,86x86] flex-column gap:normal jc:space-between ai:center
+                    div [1192,3464,75x24] flex-row gap:5px jc:center ai:center ov:clip
+                      div "Response too generic" [1192,3464,75x24] flex-column gap:normal jc:flex-start ai:normal
+                        p [1192,3464,75x24] TEXT"Return Policy" {Tiempos Text Regular 400 9px/11.7px ls:-0.09px #122024 start}
+                    div [1188,3500,73x62] flex-row gap:5px jc:center ai:center r:6px absolute(t:35px r:0px b:-12px l:9px) ov:clip z:1
+                      div "Content Graphic" [1188,3500,73x62] flex-row gap:0px jc:center ai:center p:4px r:8px ov:hidden bf:blur(1px)
+                        div "yewr89chnr48whf83fgxr078fb43oq67rg320xcrg328" [1193,3505,64x52] flex-column gap:normal jc:flex-start ai:normal
+                          p [1196,3505,60x35] TEXT"Heather tones may appear lighter in product photos. Free color exchanges within the return window." {Tiempos Text Regular Italic 400i 5px/5px ls:-0.05px #122024 start}
+                  div "Blur out" [1173,3488,96x68] flex-row gap:5px jc:center ai:center bgi:linear-gradient(rgba(250, 247, 241, 0) 0%, rgba(254, 254, 253, 0.88) 66%, rgb(255, 255, 255) 92%) absolute(t:32px r:-1px b:0px l:-1px) ov:hidden z:2
+                  div [1185,3528,66x23] flex-row gap:normal jc:space-between ai:center absolute(t:70px r:-22px b:4px l:43px) ov:clip tf:matrix(1, 0, 0, 1, -32.5, 0) z:2
+                    div "Chip/Filter" [1185,3528,37x18] flex-row gap:2px jc:center ai:center p:2px 4px bg:#FFFFFF r:25px ov:clip
+                      div "Response too generic" [1190,3531,19x11] flex-column gap:normal jc:flex-start ai:normal
+                        p [1190,3531,19x11] TEXT"Verified" {Instrument Sans 400 5px/7.5px ls:normal #122023 start}
+                      div "Icon Button" [1209,3534,9x9] bgi:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 7.5 7.5%22><path d=%22M 0.25 3.75 C 0.25 1.817 1.817 0.25 3.75 0.25 L 3.75 0.25 C 5.683 0. z:4
+              div "Bars" [1177,3456,102x102] flex-column gap:5px jc:center ai:center p:1px r:14px sh:rgba(167, 160, 146, 0.3) 0px 1.5px 8px 0px absolute(t:-8px r:108px b:-9px l:4px) tf:matrix(0.984808, -0.173648, 0.173648, 0.984808, 0, 0) z:0
+                div "User Message" [1178,3457,100x100] flex-row gap:6px jc:center ai:center p:6px bg:#FFFFFF r:14px ov:clip z:1
+                  div [1185,3464,86x86] flex-column gap:normal jc:space-between ai:center
+                    div [1185,3464,75x24] flex-row gap:5px jc:center ai:center ov:clip
+                      div "Response too generic" [1185,3464,75x24] ov:clip
+                        p [1185,3464,75x24] TEXT"Refund Timeline" {Tiempos Text Regular 400 9px/11.7px ls:-0.09px #122024 start}
+                    div [1200,3498,73x62] flex-row gap:5px jc:center ai:center r:6px absolute(t:35px r:0px b:-12px l:9px) ov:clip z:1
+                      div "Content Graphic" [1200,3498,73x62] flex-row gap:0px jc:center ai:center p:4px r:8px ov:hidden bf:blur(1px)
+                        div "yewr89chnr48whf83fgxr078fb43oq67rg320xcrg328" [1205,3503,64x52] flex-column gap:normal jc:flex-start ai:normal
+                          p [1205,3503,60x35] TEXT"Heather tones may appear lighter in product photos. Free color exchanges within the return window." {Tiempos Text Regular Italic 400i 5px/5px ls:-0.05px #122024 start}
+                  div "Blur out" [1183,3488,96x68] flex-row gap:5px jc:center ai:center bgi:linear-gradient(rgba(250, 247, 241, 0) 0%, rgba(254, 254, 253, 0.88) 66%, rgb(255, 255, 255) 92%) absolute(t:32px r:-1px b:0px l:-1px) ov:hidden z:2
+                  div [1201,3528,66x23] flex-row gap:normal jc:space-between ai:center absolute(t:70px r:-22px b:4px l:43px) ov:clip tf:matrix(1, 0, 0, 1, -32.5, 0) z:2
+                    div "Chip/Filter" [1201,3533,37x18] flex-row gap:2px jc:center ai:center p:2px 4px bg:#FFFFFF r:25px ov:clip
+                      div "Response too generic" [1205,3538,19x11] flex-column gap:normal jc:flex-start ai:normal
+                        p [1205,3538,19x11] TEXT"Verified" {Instrument Sans 400 5px/7.5px ls:normal #122023 start}
+                      div "Icon Button" [1225,3536,9x9] bgi:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 7.5 7.5%22><path d=%22M 0.25 3.75 C 0.25 1.817 1.817 0.25 3.75 0.25 L 3.75 0.25 C 5.683 0. z:4
+              div "Bars" [1179,3450,113x113] flex-column gap:5px jc:center ai:center p:1px r:14px sh:rgba(167, 160, 146, 0.3) 0px 1.5px 8px 0px absolute(t:-8px r:101px b:-9px l:11px) tf:matrix(0.939693, 0.34202, -0.34202, 0.939693, 0, 0) z:0
+                div "User Message" [1180,3452,110x110] flex-row gap:6px jc:center ai:center p:6px bg:#FFFFFF r:14px ov:clip z:1
+                  div [1188,3459,95x95] flex-column gap:normal jc:space-between ai:center
+                    div [1209,3459,74x36] flex-row gap:5px jc:center ai:center ov:clip
+                      div "Response too generic" [1209,3459,74x36] ov:clip
+                        p [1209,3459,74x36] TEXT"Process a Return" {Tiempos Text Regular 400 9px/11.7px ls:-0.09px #122024 start}
+                    div [1188,3477,88x74] flex-row gap:5px jc:center ai:center r:6px absolute(t:19px r:0px b:4px l:-1px) ov:clip z:1
+                      div "Content Graphic" [1188,3477,88x74] flex-row gap:0px jc:center ai:center p:4px r:8px ov:hidden bf:blur(1px)
+                        div "yewr89chnr48whf83fgxr078fb43oq67rg320xcrg328" [1193,3482,78x63] flex-column gap:normal jc:flex-start ai:normal
+                          p [1204,3482,66x32] TEXT"Confirm order is within the 30-day window" {Tiempos Text Regular Italic 400i 5px/5px ls:-0.05px #122024 start}
+                          ul [1199,3492,68x37]
+                            li [1203,3492,65x28] p:0px 0px 0px 6.25px
+                              p [1209,3494,59x25] TEXT"Offer exchange or refund" {Tiempos Text Regular Italic 400i 5px/5px ls:-0.05px #122024 start}
+                            li [1199,3496,66x32] p:0px 0px 0px 6.25px
+                              p [1205,3498,61x30] TEXT"Send prepaid label · log reason" {Tiempos Text Regular Italic 400i 5px/5px ls:-0.05px #122024 start}
+                      div "Response too generic" [1194,3507,67x31] flex-column gap:normal jc:flex-start ai:normal absolute(t:31.2031px r:-30.2969px b:12px l:36.75px) tf:matrix(1, 0, 0, 1, -34.2734, 0) z:1
+                        p [1194,3507,67x31] TEXT"Used 4 times this month" {Tiempos Text Regular 400 6px/7.8px ls:normal #122023 start}
+                  div "Blur out" [1179,3482,101x81] flex-row gap:5px jc:center ai:center bgi:linear-gradient(rgba(250, 247, 241, 0) 0%, rgba(254, 254, 253, 0.88) 66%, rgb(255, 255, 255) 92%) absolute(t:32px r:-1px b:0px l:-1px) ov:hidden z:2
+                  div [1196,3523,55x30] flex-row gap:0px jc:center ai:center absolute(t:70px r:-11.375px b:4px l:43px) ov:clip tf:matrix(1, 0, 0, 1, -27.1875, 0) z:2
+                    div "Chip/Filter" [1196,3523,55x30] flex-row gap:2px jc:center ai:center p:2px 4px bg:#FFFFFF r:25px ov:clip
+                      div "Response too generic" [1201,3526,37x19] flex-column gap:normal jc:flex-start ai:normal
+                        p [1201,3526,37x19] TEXT"Verified and live" {Instrument Sans 400 5px/7.5px ls:normal #122023 start}
+                      div "Icon Button" [1237,3539,10x10] bgi:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 7.5 7.5%22><path d=%22M 0.25 3.75 C 0.25 1.817 1.817 0.25 3.75 0.25 L 3.75 0.25 C 5.683 0. z:4
+##### Before/With Siena@1@22
+div "Before/With Siena" [0,3677,1440x779] flex-column gap:72px jc:center ai:center p:80px 96px bg:#FAF7F1
+  div "Integrations" [96,3757,1248x208] flex-row gap:24px jc:center ai:flex-end
+    div "text" [96,3757,1248x208] flex-column gap:24px jc:flex-start ai:center
+      div "Integrate Siena with your reviews platforms" [320,3757,800x128] flex-column gap:normal jc:flex-start ai:normal maxw:800px z:1
+        h2 [320,3757,800x128] TEXT"Your knowledge base, finally built for your agent." {Feature Deck Web Light 400 64px/64px ls:-1.28px #122023 center}
+      div "Every review enriches Siena's understanding of your customers. This intelligence powers personalized interactions across all channels – Not just reviews" [410,3909,620x56] flex-column gap:normal jc:flex-start ai:normal
+        p [410,3909,620x56] TEXT"Traditional knowledge tools were built for humans to read and agents to ignore. Siena Docs serves both, from one living system." {Instrument Sans 500 20px/28px ls:-0.2px #122023 center}
+  div "Bento Card" [240,4037,960x339] flex-column gap:16px jc:flex-start ai:flex-start maxw:960px
+    div "1" [240,4037,960x339] flex-row gap:16px jc:center ai:center ov:hidden
+      div "1" [240,4037,472x339] flex-row gap:16px jc:flex-start ai:flex-start p:24px bgi:linear-gradient(rgb(255, 255, 255) 0%, rgb(250, 247, 241) 100%) r:24px ov:hidden
+        div "text" [264,4061,424x291] flex-column gap:32px jc:flex-start ai:center
+          div "Autonomous reviews management" [264,4061,424x62] flex-column gap:normal jc:flex-start ai:normal
+            h3 [264,4061,424x62] TEXT"Before" {Feature Deck Web Regular 400 52px/62.4px ls:normal #122023 center}
+          div [264,4156,424x197] flex-column gap:12px jc:center ai:center ov:clip
+            div [264,4156,424x24] flex-row gap:16px jc:center ai:center ov:clip
+              div [264,4156,18x24] flex-column gap:normal jc:flex-start ai:normal z:1
+                p [264,4156,18x24] TEXT"" {Font Awesome 6 Sharp Light 400 24px/24px ls:normal #122023 center}
+              div "Direct catalog integration with real-time sync Zero setup complexity" [298,4158,390x19] flex-column gap:normal jc:flex-start ai:normal
+                p [298,4158,390x19] TEXT"Manual article writing, hours per piece" {Instrument Sans 400 16px/19.2px ls:-0.16px #122023 left}
+            div [264,4192,424x24] flex-row gap:16px jc:center ai:center ov:clip
+              div [264,4192,18x24] flex-column gap:normal jc:flex-start ai:normal z:1
+                p [264,4192,18x24] TEXT"" {Font Awesome 6 Sharp Light 400 24px/24px ls:normal #122023 center}
+              div "Direct catalog integration with real-time sync Zero setup complexity" [298,4194,390x19] flex-column gap:normal jc:flex-start ai:normal
+                p [298,4194,390x19] TEXT"Duplicate articles accumulate over time" {Instrument Sans 400 16px/19.2px ls:-0.16px #122023 left}
+            div [264,4228,424x38] flex-row gap:16px jc:center ai:center ov:clip
+              div [264,4235,18x24] flex-column gap:normal jc:flex-start ai:normal z:1
+                p [264,4235,18x24] TEXT"" {Font Awesome 6 Sharp Light 400 24px/24px ls:normal #122023 center}
+              div "Direct catalog integration with real-time sync Zero setup complexity" [298,4228,390x38] flex-column gap:normal jc:flex-start ai:normal
+                p [298,4228,390x38] TEXT"Agents give inconsistent answers from contradictory sources" {Instrument Sans 400 16px/19.2px ls:-0.16px #122023 left}
+            div [264,4278,424x24] flex-row gap:16px jc:center ai:center ov:clip
+              div [264,4278,18x24] flex-column gap:normal jc:flex-start ai:normal z:1
+                p [264,4278,18x24] TEXT"" {Font Awesome 6 Sharp Light 400 24px/24px ls:normal #122023 center}
+              div "Direct catalog integration with real-time sync Zero setup complexity" [298,4281,390x19] flex-column gap:normal jc:flex-start ai:normal
+                p [298,4281,390x19] TEXT"Internal notes leak into customer-facing content" {Instrument Sans 400 16px/19.2px ls:-0.16px #122023 left}
+            div [264,4314,424x38] flex-row gap:16px jc:center ai:center ov:clip
+              div [264,4321,18x24] flex-column gap:normal jc:flex-start ai:normal z:1
+                p [264,4321,18x24] TEXT"" {Font Awesome 6 Sharp Light 400 24px/24px ls:normal #122023 center}
+              div "Direct catalog integration with real-time sync Zero setup complexity" [298,4314,390x38] flex-column gap:normal jc:flex-start ai:normal
+                p [298,4314,390x38] TEXT"Separate tools for knowledge management and your agent" {Instrument Sans 400 16px/19.2px ls:-0.16px #122023 left}
+      div "1" [728,4037,472x339] flex-row gap:16px jc:flex-start ai:flex-start p:24px bgi:linear-gradient(rgb(255, 255, 255) 0%, rgb(250, 247, 241) 100%) r:24px ov:hidden
+        div "text" [752,4061,424x277] flex-column gap:32px jc:flex-start ai:center
+          div "Autonomous reviews management" [752,4061,424x62] flex-column gap:normal jc:flex-start ai:normal
+            h3 [752,4061,424x62] TEXT"With Siena" {Feature Deck Web Regular 400 52px/62.4px ls:normal #122023 center}
+          div [752,4156,424x182] flex-column gap:12px jc:center ai:center ov:clip
+            div [752,4156,424x24] flex-row gap:16px jc:center ai:center ov:clip
+              div [752,4156,24x24] flex-column gap:normal jc:flex-start ai:normal z:1
+                p [752,4156,24x24] TEXT"" {Font Awesome 6 Sharp Light 400 24px/24px ls:normal #122023 center}
+              div "Direct catalog integration with real-time sync Zero setup complexity" [792,4158,384x19] flex-column gap:normal jc:flex-start ai:normal
+                p [792,4158,384x19] TEXT"Any source → structured article in under a minute" {Instrument Sans 400 16px/19.2px ls:-0.16px #122023 left}
+            div [752,4192,424x24] flex-row gap:16px jc:center ai:center ov:clip
+              div [752,4192,24x24] flex-column gap:normal jc:flex-start ai:normal z:1
+                p [752,4192,24x24] TEXT"" {Font Awesome 6 Sharp Light 400 24px/24px ls:normal #122023 center}
+              div "Direct catalog integration with real-time sync Zero setup complexity" [792,4194,384x19] flex-column gap:normal jc:flex-start ai:normal
+                p [792,4194,384x19] TEXT"Every new page checked for duplicates automatically" {Instrument Sans 400 16px/19.2px ls:-0.16px #122023 left}
+            div [752,4228,424x24] flex-row gap:16px jc:center ai:center ov:clip
+              div [752,4228,24x24] flex-column gap:normal jc:flex-start ai:normal z:1
+                p [752,4228,24x24] TEXT"" {Font Awesome 6 Sharp Light 400 24px/24px ls:normal #122023 center}
+              div "Direct catalog integration with real-time sync Zero setup complexity" [792,4230,384x19] flex-column gap:normal jc:flex-start ai:normal
+                p [792,4230,384x19] TEXT"One source of truth, consistent answers every time" {Instrument Sans 400 16px/19.2px ls:-0.16px #122023 left}
+            div [752,4264,424x24] flex-row gap:16px jc:center ai:center ov:clip
+              div [752,4264,24x24] flex-column gap:normal jc:flex-start ai:normal z:1
+                p [752,4264,24x24] TEXT"" {Font Awesome 6 Sharp Light 400 24px/24px ls:normal #122023 center}
+              div "Direct catalog integration with real-time sync Zero setup complexity" [792,4266,384x19] flex-column gap:normal jc:flex-start ai:normal
+                p [792,4266,384x19] TEXT"Internal content stays internal, automatically" {Instrument Sans 400 16px/19.2px ls:-0.16px #122023 left}
+            div [752,4300,424x38] flex-row gap:16px jc:center ai:center ov:clip
+              div [752,4307,24x24] flex-column gap:normal jc:flex-start ai:normal z:1
+                p [752,4307,24x24] TEXT"" {Font Awesome 6 Sharp Light 400 24px/24px ls:normal #122023 center}
+              div "Direct catalog integration with real-time sync Zero setup complexity" [792,4300,384x38] flex-column gap:normal jc:flex-start ai:normal
+                p [792,4300,384x38] TEXT"One system: knowledge base, help center, and agent knowledge source" {Instrument Sans 400 16px/19.2px ls:-0.16px #122023 left}
+  div "Blur out" [0,4304,1440x153] flex-row gap:10px jc:center ai:center bgi:linear-gradient(rgba(250, 247, 241, 0) 0%, rgb(255, 255, 255) 100%) absolute(t:626.219px r:0px b:0px l:0px) ov:hidden z:3
+##### Testimonials@0@22
+div "Testimonials" [0,4457,1440x804] flex-column gap:72px jc:center ai:center p:80px 96px
+  div "Testimonials" [120,4537,1200x644] flex-column gap:40px jc:flex-start ai:center ov:hidden maxw:1200px z:1
+    div "content" [120,4537,1200x644] flex-column gap:24px jc:flex-start ai:flex-start p:24px 16px bg:#FAF7F1 r:24px
+      div [136,4561,1168x596]
+        div [136,4561,1168x596] flex-column gap:normal jc:normal ai:normal p:16px 32px 48px
+          div [168,4577,1104x532] flex-column gap:normal jc:normal ai:normal
+            div [168,4577,1104x532] flex-column gap:normal jc:flex-start ai:normal
+              div [168,4577,1104x532]
+                div [168,4577,1104x532]
+                  div [168,4577,1104x532] flex-column gap:24px jc:center ai:center
+                    div [168,4577,1104x532] flex-column gap:80px jc:flex-start ai:flex-start
+                      div "Content" [168,4577,1104x532] flex-column gap:10px jc:center ai:center
+                        div "Testimonial" [168,4577,1104x532] flex-row gap:40px jc:center ai:flex-start
+                          div [168,4577,532x391] flex-column gap:32px jc:center ai:flex-start ov:hidden maxw:600px
+                            div "“" [168,4577,30x24]
+                              div [168,4577,30x24]
+                                svg [168,4577,30x24] ov:hidden svg col:#000000
+                            div [168,4633,532x166] flex-column gap:24px jc:center ai:flex-start ov:hidden
+                              div "Name" [168,4633,532x166] flex-column gap:normal jc:flex-start ai:normal
+                                p [168,4633,532x166] TEXT"Since implementing Siena, we've taken back the time we spent on high ticket volume and expanded our team's roles across marketing and product development. It's transformed how we operate." {Instrument Sans 400 25.6px/33.28px ls:-0.512px #122023 start}
+                            div "Right Column" [168,4831,532x137] flex-row gap:normal jc:space-between ai:flex-start
+                              div "Brand" [168,4831,168x137] flex-column gap:16px jc:flex-start ai:flex-start
+                                div "Logos" [168,4831,140x64] flex-column gap:28.3333px jc:flex-start ai:flex-start
+                                  div [168,4831,140x64]
+                                    div [168,4831,140x64] absolute(t:0px r:0px b:0px l:0px)
+                                      img [168,4831,140x64] ov:clip src:FAmVCc3xLG8QUhmtyJ3WkBGEeU.png fit:contain pos:0% 50%
+                                div "person" [168,4911,168x57] flex-column gap:12px jc:flex-start ai:flex-start
+                                  div "Beatriz Lopes" [168,4911,168x28] flex-column gap:normal jc:flex-start ai:normal
+                                    p [168,4911,168x28] TEXT"Cate Marques" {Instrument Sans 500 20px/28px ls:-0.2px #122023 start}
+                                  div "@everydaydose" [168,4951,168x17] flex-column gap:normal jc:flex-start ai:normal
+                                    p [168,4951,168x17] TEXT"CXO" {Instrument Sans 600 12px/16.8px ls:0.6px #787368 uppercase left}
+                              div [563,4831,137x48]
+                                a "Secondary / md" [563,4831,137x48] flex-row gap:10px jc:center ai:center p:16px bg:#FFFFFF bgi:linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 20%, rgb(255, 255, 255) 40%, rgb(255, 255, 255) 60%, rgb(255, 255, 255) 80%, rgb(255, 255, 255) 100%) r:12px
+                                  div "Text" [579,4847,105x16] flex-column gap:normal jc:flex-start ai:normal
+                                    p [579,4847,105x16] TEXT"Read full story" {Instrument Sans 500 16px/16px ls:normal #122023 left}
+                          div [740,4577,532x532] r:32px maxw:600px
+                            div [740,4577,532x532] r:32px absolute(t:0px r:0px b:0px l:0px)
+                              img [740,4577,532x532] r:32px ov:clip src:WVZA37Bad6K0ss9JDOjwLhH2aUs.webp fit:cover pos:50% 50%
+##### FAQ@0@12
+div "FAQ" [273,5445,894x612] flex-row gap:40px jc:center ai:center p:20px 40px bg:#F3F0EB r:24px maxw:894px z:1
+  div [313,5465,814x572]
+    div [313,5465,814x572] flex-column gap:normal jc:normal ai:normal
+      div [313,5465,814x179]
+        div [313,5465,814x179] border-b:3px #000000/0.2 ov:hidden
+          div [313,5465,814x72] flex-row gap:normal jc:space-between ai:center p:24px 0px bg:#122023/0 TEXT"How is Siena Docs different from a standard help center tool?" {Instrument Sans 500 20px/normal ls:normal #122023 start}
+            img [1107,5491,20x20] ov:clip src:OKFNY3AXFnnV2q6cBUgzTRwNI0.png fit:fill pos:50% 50%
+          div [313,5537,814x104] flex-column gap:normal jc:normal ai:start p:0px 0px 24px bg:#2B62ED/0 ov:hidden TEXT"A standard help center is built for customers to read. Siena Docs serves your customers, your internal team, and your agent from one system. Creating and maintaining content is fully agentic: Ask Siena imports from any live URL, proposes targeted edits as diffs you accept or reject, and runs as a sk" {Instrument Sans 400 16px/normal ls:normal #122023/0.8 start}
+      div [313,5644,814x99]
+        div [313,5644,814x99] border-b:3px #000000/0.2 ov:hidden
+          div [313,5644,814x72] flex-row gap:normal jc:space-between ai:center p:24px 0px bg:#122023/0 TEXT"Can we bring in content from a live website or existing documentation?" {Instrument Sans 500 20px/normal ls:normal #122023 start}
+            img [1107,5670,20x20] ov:clip src:klSbquSQSmI4vJp5uAthfEBu4A.png fit:fill pos:50% 50%
+          div [313,5716,814x24] flex-column gap:normal jc:normal ai:start p:0px 0px 24px bg:#2B62ED/0 op:0 ov:hidden TEXT"Yes. Give Ask Siena any live URL and it fetches the page, drafts a full structured article, and proposes it for review. Works for product pages, existing help content, or any public source you want to bring into your knowledge base." {Instrument Sans 400 16px/normal ls:normal #122023/0.8 start}
+      div [313,5743,814x99]
+        div [313,5743,814x99] border-b:3px #000000/0.2 ov:hidden
+          div [313,5743,814x72] flex-row gap:normal jc:space-between ai:center p:24px 0px bg:#122023/0 TEXT"Why not use Claude Code and GitHub for our knowledge base?" {Instrument Sans 500 20px/normal ls:normal #122023 start}
+            img [1107,5769,20x20] ov:clip src:klSbquSQSmI4vJp5uAthfEBu4A.png fit:fill pos:50% 50%
+          div [313,5815,814x24] flex-column gap:normal jc:normal ai:start p:0px 0px 24px bg:#2B62ED/0 op:0 ov:hidden TEXT"Siena Docs is built for the teams and AI that run a consumer brand: support, CX, product, and operations. Your public help center, your internal playbooks, and your agent's behavior all live and update in one place. No technical setup required. And if you already work out of Claude or another AI too" {Instrument Sans 400 16px/normal ls:normal #122023/0.8 start}
+      div [313,5842,814x99]
+        div [313,5842,814x99] border-b:3px #000000/0.2 ov:hidden
+          div [313,5842,814x72] flex-row gap:normal jc:space-between ai:center p:24px 0px bg:#122023/0 TEXT"Do we still need Notion, Guru, or Google Docs?" {Instrument Sans 500 20px/normal ls:normal #122023 start}
+            img [1107,5868,20x20] ov:clip src:klSbquSQSmI4vJp5uAthfEBu4A.png fit:fill pos:50% 50%
+          div [313,5914,814x24] flex-column gap:normal jc:normal ai:start p:0px 0px 24px bg:#2B62ED/0 op:0 ov:hidden TEXT"Most teams that move their knowledge into Siena Docs stop needing the others. Your public help center, your internal wiki, and your agent's knowledge source all live in one place, updated together. The tools you were using before were not talking to each other or to your agent. Siena Docs is the one" {Instrument Sans 400 16px/normal ls:normal #122023/0.8 start}
+      div [313,5941,814x96]
+        div [313,5941,814x96] ov:hidden
+          div [313,5941,814x72] flex-row gap:normal jc:space-between ai:center p:24px 0px bg:#122023/0 TEXT"Is Siena Docs included in my Siena plan?" {Instrument Sans 500 20px/normal ls:normal #122023 start}
+            img [1107,5967,20x20] ov:clip src:klSbquSQSmI4vJp5uAthfEBu4A.png fit:fill pos:50% 50%
+          div [313,6013,814x24] flex-column gap:normal jc:normal ai:start p:0px 0px 24px bg:#2B62ED/0 op:0 ov:hidden TEXT"Yes. Siena Docs is part of your Siena plan at no extra cost. Every page you write feeds directly into Siena Intelligence, so the more knowledge you put in, the smarter your whole operation gets." {Instrument Sans 400 16px/normal ls:normal #122023/0.8 start}

@@ -1,0 +1,89 @@
+{
+  "id": "section.hero.careers",
+  "registryId": "section.hero.careers",
+  "typeId": "hero.careers",
+  "version": "1.0.0",
+  "category": "hero",
+  "purpose": "Careers hero: two-line strong H1, subtitle, 'See open roles' button on hero sand. No images, no motion.",
+  "evidenceLevel": "measured",
+  "variants": {
+    "careers": "566 tall."
+  },
+  "composes": [
+    "primitive.text",
+    "primitive.button"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "headlineLines": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "maxWords": 6
+        },
+        "minItems": 2,
+        "maxItems": 2
+      },
+      "subtitle": {
+        "type": "string",
+        "maxWords": 14
+      },
+      "cta": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string",
+            "maxWords": 4
+          },
+          "href": {
+            "type": "string",
+            "pattern": "^(/[a-z0-9/#-]*|#[a-z0-9-]+|https://[a-zA-Z0-9.-]+(/[^\\s]*)?|mailto:[a-z.]+@siena\\.cx)$"
+          },
+          "style": {
+            "enum": [
+              "xlg-dark"
+            ]
+          }
+        },
+        "required": [
+          "label",
+          "href",
+          "style"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "required": [
+      "headlineLines",
+      "subtitle",
+      "cta"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Padding 128 24 80; H1 56/56 (4 lines)."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustFollowNav": true
+  },
+  "measuredFrom": [
+    "spec.c1",
+    "jsx.careers"
+  ]
+}

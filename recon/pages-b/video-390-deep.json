@@ -1,0 +1,1318 @@
+{
+ "pre": [
+  {
+   "n": "A",
+   "ap": null,
+   "y": -78,
+   "x": 8,
+   "w": 188,
+   "h": 43,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, 0, -86)",
+   "txt": "Skip to main content"
+  },
+  {
+   "n": "DIV",
+   "ap": "1lg8pdr",
+   "y": 136,
+   "x": 24,
+   "w": 342,
+   "h": 112,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, 0, 0)",
+   "txt": "Introducing Video"
+  },
+  {
+   "n": "DIV",
+   "ap": "1ym4eq6",
+   "y": 266,
+   "x": 24,
+   "w": 342,
+   "h": 90,
+   "op": "0.82",
+   "tf": "matrix(1, 0, 0, 1, 0, 0)",
+   "txt": "Siena brings the same intelligence to video that t"
+  },
+  {
+   "n": "DIV",
+   "ap": "14lnqgq",
+   "y": 384,
+   "x": 116,
+   "w": 157,
+   "h": 58,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, 0, 0)",
+   "txt": "Book a demo"
+  },
+  {
+   "n": "Content",
+   "ap": null,
+   "y": 483,
+   "x": 24,
+   "w": 342,
+   "h": 332,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -171, -165.992)",
+   "txt": "Analyzing provided video"
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 493,
+   "x": 34,
+   "w": 322,
+   "h": 204,
+   "op": "0.5",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 470,
+   "x": 6,
+   "w": 378,
+   "h": 246,
+   "op": "0.5",
+   "txt": ""
+  },
+  {
+   "n": "Review",
+   "ap": null,
+   "y": 461,
+   "x": 9,
+   "w": 154,
+   "h": 85,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -77, -42.5)",
+   "txt": "Help me choose a rug that matches my living room s"
+  },
+  {
+   "n": "Border",
+   "ap": null,
+   "y": 674,
+   "x": 209,
+   "w": 158,
+   "h": 87,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, 0, -43.5)",
+   "txt": "This rug would fit your space perfectly, here is m"
+  },
+  {
+   "n": "Card",
+   "ap": null,
+   "y": 2020,
+   "x": 25,
+   "w": 340,
+   "h": 296,
+   "op": "0",
+   "tf": "matrix(1, 0, 0, 1, 0, 50)",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 2030,
+   "x": 35,
+   "w": 320,
+   "h": 276,
+   "op": "0.5",
+   "txt": ""
+  },
+  {
+   "n": "Review",
+   "ap": null,
+   "y": 2052,
+   "x": 12,
+   "w": 209,
+   "h": 106,
+   "op": "0",
+   "tf": "matrix(1, 0, 0, 1, 0, 50)",
+   "txt": "My headphones came damaged out-of-the-box, is this"
+  },
+  {
+   "n": "Content",
+   "ap": null,
+   "y": 1847,
+   "x": 62,
+   "w": 266,
+   "h": 45,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -132.875, 0)",
+   "txt": "Order #4521   •  Shipped: Jan 23"
+  },
+  {
+   "n": "Frame 2147257924",
+   "ap": null,
+   "y": 1897,
+   "x": 62,
+   "w": 111,
+   "h": 45,
+   "op": "0",
+   "tf": "matrix(1, 0, 0, 1, 0, 50)",
+   "txt": "Order #4521 "
+  },
+  {
+   "n": "Frame 2147257925",
+   "ap": null,
+   "y": 1897,
+   "x": 195,
+   "w": 133,
+   "h": 45,
+   "op": "0",
+   "tf": "matrix(1, 0, 0, 1, 0, 50)",
+   "txt": "Shipped: Jan 23"
+  },
+  {
+   "n": "Content",
+   "ap": null,
+   "y": 1902,
+   "x": 143,
+   "w": 104,
+   "h": 45,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -51.9609, 0)",
+   "txt": "ETA Jan 29"
+  },
+  {
+   "n": "Frame 2147257926",
+   "ap": null,
+   "y": 1952,
+   "x": 143,
+   "w": 104,
+   "h": 45,
+   "op": "0",
+   "tf": "matrix(1, 0, 0, 1, 0, 50)",
+   "txt": "ETA Jan 29"
+  },
+  {
+   "n": "Card",
+   "ap": null,
+   "y": 2955,
+   "x": 25,
+   "w": 340,
+   "h": 296,
+   "op": "0",
+   "tf": "matrix(1, 0, 0, 1, 0, 50)",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 2965,
+   "x": 35,
+   "w": 320,
+   "h": 276,
+   "op": "0.5",
+   "txt": ""
+  },
+  {
+   "n": "Review",
+   "ap": null,
+   "y": 3176,
+   "x": 109,
+   "w": 277,
+   "h": 64,
+   "op": "0",
+   "tf": "matrix(1, 0, 0, 1, 0, 50)",
+   "txt": "I can see the damage. Your replacement ships today"
+  },
+  {
+   "n": "Review",
+   "ap": null,
+   "y": 2971,
+   "x": 4,
+   "w": 209,
+   "h": 106,
+   "op": "0",
+   "tf": "matrix(1, 0, 0, 1, 0, 50)",
+   "txt": "My headphones came damaged out-of-the-box, is this"
+  },
+  {
+   "n": "Content",
+   "ap": null,
+   "y": 2781,
+   "x": 78,
+   "w": 234,
+   "h": 48,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -116.828, 0)",
+   "txt": "Order #4521   •  01/07/2025"
+  },
+  {
+   "n": "Frame 2147257924",
+   "ap": null,
+   "y": 2832,
+   "x": 78,
+   "w": 111,
+   "h": 45,
+   "op": "0",
+   "tf": "matrix(1, 0, 0, 1, 0, 50)",
+   "txt": "Order #4521 "
+  },
+  {
+   "n": "Frame 2147257925",
+   "ap": null,
+   "y": 2831,
+   "x": 211,
+   "w": 101,
+   "h": 48,
+   "op": "0",
+   "tf": "matrix(1, 0, 0, 1, 0, 50)",
+   "txt": "01/07/2025"
+  },
+  {
+   "n": "Content",
+   "ap": null,
+   "y": 2837,
+   "x": 97,
+   "w": 196,
+   "h": 45,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -97.8984, 0)",
+   "txt": "Within 30 days guarantee"
+  },
+  {
+   "n": "Frame 2147257926",
+   "ap": null,
+   "y": 2887,
+   "x": 97,
+   "w": 196,
+   "h": 45,
+   "op": "0",
+   "tf": "matrix(1, 0, 0, 1, 0, 50)",
+   "txt": "Within 30 days guarantee"
+  },
+  {
+   "n": "Card",
+   "ap": null,
+   "y": 3967,
+   "x": 25,
+   "w": 340,
+   "h": 296,
+   "op": "0",
+   "tf": "matrix(1, 0, 0, 1, 0, 50)",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 3977,
+   "x": 35,
+   "w": 320,
+   "h": 276,
+   "op": "0.5",
+   "txt": ""
+  },
+  {
+   "n": "Content",
+   "ap": null,
+   "y": 3794,
+   "x": 62,
+   "w": 266,
+   "h": 45,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -132.875, 0)",
+   "txt": "Order #4521   •  Shipped: Jan 23"
+  },
+  {
+   "n": "Frame 2147257924",
+   "ap": null,
+   "y": 3844,
+   "x": 62,
+   "w": 111,
+   "h": 45,
+   "op": "0",
+   "tf": "matrix(1, 0, 0, 1, 0, 50)",
+   "txt": "Order #4521 "
+  },
+  {
+   "n": "Frame 2147257925",
+   "ap": null,
+   "y": 3844,
+   "x": 195,
+   "w": 133,
+   "h": 45,
+   "op": "0",
+   "tf": "matrix(1, 0, 0, 1, 0, 50)",
+   "txt": "Shipped: Jan 23"
+  },
+  {
+   "n": "Content",
+   "ap": null,
+   "y": 3849,
+   "x": 144,
+   "w": 102,
+   "h": 45,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -50.9375, 0)",
+   "txt": "ETA Jan 31"
+  },
+  {
+   "n": "Frame 2147257926",
+   "ap": null,
+   "y": 3899,
+   "x": 144,
+   "w": 102,
+   "h": 45,
+   "op": "0",
+   "tf": "matrix(1, 0, 0, 1, 0, 50)",
+   "txt": "ETA Jan 31"
+  },
+  {
+   "n": "Review",
+   "ap": null,
+   "y": 4037,
+   "x": 53,
+   "w": 278,
+   "h": 155,
+   "op": "0",
+   "tf": "matrix(1, 0, 0, 1, -139, 50)",
+   "txt": "Headphone Set BH2143 Hi-Fi  Replacement shipped  A"
+  },
+  {
+   "n": "Card",
+   "ap": null,
+   "y": 4744,
+   "x": 39,
+   "w": 313,
+   "h": 179,
+   "op": "0",
+   "tf": "matrix(1, 0, 0, 1, 0, 50)",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 4731,
+   "x": 21,
+   "w": 349,
+   "h": 201,
+   "op": "0.5",
+   "txt": ""
+  },
+  {
+   "n": "Agent-Note",
+   "ap": null,
+   "y": 4917,
+   "x": 40,
+   "w": 310,
+   "h": 60,
+   "op": "0",
+   "tf": "matrix(1, 0, 0, 1, 0, 20)",
+   "txt": "Analyzing video"
+  },
+  {
+   "n": "Frame 2147257924",
+   "ap": null,
+   "y": 5023,
+   "x": 51,
+   "w": 287,
+   "h": 45,
+   "op": "0",
+   "tf": "matrix(1, 0, 0, 1, 0, 50)",
+   "txt": "Recognizing brand, product, and model"
+  },
+  {
+   "n": "Frame 2147257925",
+   "ap": null,
+   "y": 5084,
+   "x": 61,
+   "w": 269,
+   "h": 48,
+   "op": "0",
+   "tf": "matrix(1, 0, 0, 1, 0, 50)",
+   "txt": "Pulling info from the documentation"
+  },
+  {
+   "n": "Frame 2147257926",
+   "ap": null,
+   "y": 5148,
+   "x": 106,
+   "w": 177,
+   "h": 45,
+   "op": "0",
+   "tf": "matrix(1, 0, 0, 1, 0, 50)",
+   "txt": "Checking video details"
+  },
+  {
+   "n": "Review",
+   "ap": null,
+   "y": 5242,
+   "x": 51,
+   "w": 289,
+   "h": 85,
+   "op": "0",
+   "tf": "matrix(1, 0, 0, 1, -144.5, 50)",
+   "txt": "Your grind is too coarse. Try a finer setting and "
+  },
+  {
+   "n": "Review",
+   "ap": null,
+   "y": 4635,
+   "x": 91,
+   "w": 209,
+   "h": 85,
+   "op": "0",
+   "tf": "matrix(1, 0, 0, 1, 0, 50)",
+   "txt": "My espresso is coming out watery. Can you see what"
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 5449,
+   "x": 24,
+   "w": 342,
+   "h": 63,
+   "op": "0.8",
+   "txt": "Customers send videos through Live Chat, Helpdesks"
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 5665,
+   "x": 24,
+   "w": 342,
+   "h": 84,
+   "op": "0.8",
+   "txt": "Siena watches every frame and extracts what matter"
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 5903,
+   "x": 24,
+   "w": 342,
+   "h": 63,
+   "op": "0.8",
+   "txt": "Claims processed, tickets updated, customers answe"
+  }
+ ],
+ "appearIds": [
+  {
+   "id": "1lg8pdr",
+   "n": null,
+   "y": 136,
+   "txt": "Introducing Video"
+  },
+  {
+   "id": "1ym4eq6",
+   "n": null,
+   "y": 266,
+   "txt": "Siena brings the same intelligence to video that transformed"
+  },
+  {
+   "id": "14lnqgq",
+   "n": null,
+   "y": 384,
+   "txt": "Book a demo"
+  },
+  {
+   "id": "1t8z8cb",
+   "n": null,
+   "y": 693,
+   "txt": "DIV"
+  },
+  {
+   "id": "y5k8nv",
+   "n": null,
+   "y": 767,
+   "txt": "DIV"
+  },
+  {
+   "id": "1jc2120",
+   "n": null,
+   "y": 4929,
+   "txt": "DIV"
+  }
+ ],
+ "tickers": [
+  {
+   "y": 916,
+   "h": 45,
+   "n": 42,
+   "gap": "40px",
+   "speed": 0,
+   "mask": "linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 10%, rgb(0, 0, 0) 90%, rgba(0, 0, 0, 0) 100%)",
+   "items": [
+    [
+     176,
+     32,
+     "svg",
+     "1"
+    ],
+    [
+     159,
+     32,
+     "bg",
+     "2"
+    ],
+    [
+     209,
+     32,
+     "bg",
+     "Madhapy"
+    ],
+    [
+     167,
+     32,
+     "svg",
+     "4"
+    ],
+    [
+     119,
+     38,
+     "svg",
+     "5"
+    ],
+    [
+     111,
+     40,
+     "svg",
+     "6"
+    ],
+    [
+     120,
+     38,
+     "svg",
+     "7"
+    ],
+    [
+     241,
+     24,
+     "svg",
+     "9"
+    ],
+    [
+     91,
+     44,
+     "svg",
+     "8"
+    ],
+    [
+     99,
+     44,
+     "svg",
+     "10"
+    ],
+    [
+     161,
+     32,
+     "svg",
+     "11"
+    ],
+    [
+     207,
+     38,
+     "svg",
+     "12"
+    ],
+    [
+     207,
+     38,
+     "svg",
+     "12"
+    ],
+    [
+     156,
+     38,
+     "svg",
+     "13"
+    ],
+    [
+     71,
+     38,
+     "svg",
+     "14"
+    ],
+    [
+     112,
+     38,
+     "svg",
+     "15"
+    ],
+    [
+     150,
+     24,
+     "svg",
+     "16"
+    ],
+    [
+     152,
+     30,
+     "svg",
+     "17"
+    ],
+    [
+     188,
+     40,
+     "svg",
+     "18"
+    ],
+    [
+     154,
+     44,
+     "svg",
+     "19"
+    ],
+    [
+     126,
+     38,
+     "svg",
+     "20"
+    ],
+    [
+     176,
+     32,
+     "svg",
+     "1"
+    ],
+    [
+     159,
+     32,
+     "bg",
+     "2"
+    ],
+    [
+     209,
+     32,
+     "bg",
+     "Madhapy"
+    ],
+    [
+     167,
+     32,
+     "svg",
+     "4"
+    ],
+    [
+     119,
+     38,
+     "svg",
+     "5"
+    ],
+    [
+     111,
+     40,
+     "svg",
+     "6"
+    ],
+    [
+     120,
+     38,
+     "svg",
+     "7"
+    ],
+    [
+     241,
+     24,
+     "svg",
+     "9"
+    ],
+    [
+     91,
+     44,
+     "svg",
+     "8"
+    ],
+    [
+     99,
+     44,
+     "svg",
+     "10"
+    ],
+    [
+     161,
+     32,
+     "svg",
+     "11"
+    ],
+    [
+     207,
+     38,
+     "svg",
+     "12"
+    ],
+    [
+     207,
+     38,
+     "svg",
+     "12"
+    ],
+    [
+     156,
+     38,
+     "svg",
+     "13"
+    ],
+    [
+     71,
+     38,
+     "svg",
+     "14"
+    ],
+    [
+     112,
+     38,
+     "svg",
+     "15"
+    ],
+    [
+     150,
+     24,
+     "svg",
+     "16"
+    ],
+    [
+     152,
+     30,
+     "svg",
+     "17"
+    ],
+    [
+     188,
+     40,
+     "svg",
+     "18"
+    ],
+    [
+     154,
+     44,
+     "svg",
+     "19"
+    ],
+    [
+     126,
+     38,
+     "svg",
+     "20"
+    ]
+   ]
+  }
+ ],
+ "post": [
+  {
+   "n": "A",
+   "y": 8165,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, 0, -86)",
+   "txt": "Skip to main content"
+  },
+  {
+   "n": "DIV",
+   "y": 136,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, 0, 0)",
+   "txt": "Introducing Video"
+  },
+  {
+   "n": "DIV",
+   "y": 266,
+   "op": "0.82",
+   "tf": "matrix(1, 0, 0, 1, 0, 0)",
+   "txt": "Siena brings the same intelligence to vi"
+  },
+  {
+   "n": "DIV",
+   "y": 384,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, 0, 0)",
+   "txt": "Book a demo"
+  },
+  {
+   "n": "Content",
+   "y": 483,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -171, -165.992)",
+   "txt": "Analyzing provided video"
+  },
+  {
+   "n": "DIV",
+   "y": 493,
+   "op": "0.5",
+   "txt": ""
+  },
+  {
+   "n": "DIV",
+   "y": 470,
+   "op": "0.5",
+   "txt": ""
+  },
+  {
+   "n": "Review",
+   "y": 461,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -77, -42.5)",
+   "txt": "Help me choose a rug that matches my liv"
+  },
+  {
+   "n": "Border",
+   "y": 674,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, 0, -43.5)",
+   "txt": "This rug would fit your space perfectly,"
+  },
+  {
+   "n": "DIV",
+   "y": 1980,
+   "op": "0.5",
+   "txt": ""
+  },
+  {
+   "n": "Content",
+   "y": 1847,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -132.875, 0)",
+   "txt": "Order #4521   •  Shipped: Jan 23"
+  },
+  {
+   "n": "Content",
+   "y": 1902,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -51.9609, 0)",
+   "txt": "ETA Jan 29"
+  },
+  {
+   "n": "DIV",
+   "y": 2915,
+   "op": "0.5",
+   "txt": ""
+  },
+  {
+   "n": "Content",
+   "y": 2781,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -116.828, 0)",
+   "txt": "Order #4521   •  01/07/2025"
+  },
+  {
+   "n": "Content",
+   "y": 2837,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -97.8984, 0)",
+   "txt": "Within 30 days guarantee"
+  },
+  {
+   "n": "DIV",
+   "y": 3927,
+   "op": "0.5",
+   "txt": ""
+  },
+  {
+   "n": "Content",
+   "y": 3794,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -132.875, 0)",
+   "txt": "Order #4521   •  Shipped: Jan 23"
+  },
+  {
+   "n": "Content",
+   "y": 3849,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -50.9375, 0)",
+   "txt": "ETA Jan 31"
+  },
+  {
+   "n": "Review",
+   "y": 3987,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -139, 0)",
+   "txt": "Headphone Set BH2143 Hi-Fi  Replacement "
+  },
+  {
+   "n": "DIV",
+   "y": 4681,
+   "op": "0.5",
+   "txt": ""
+  },
+  {
+   "n": "Frame 2147257926",
+   "y": 5106,
+   "op": "0.837386",
+   "tf": "matrix(1, 0, 0, 1, 0, 8.1307)",
+   "txt": "Checking video details"
+  },
+  {
+   "n": "Review",
+   "y": 5200,
+   "op": "0.841154",
+   "tf": "matrix(1, 0, 0, 1, -144.5, 7.94229)",
+   "txt": "Your grind is too coarse. Try a finer se"
+  },
+  {
+   "n": "DIV",
+   "y": 5449,
+   "op": "0.8",
+   "txt": "Customers send videos through Live Chat,"
+  },
+  {
+   "n": "DIV",
+   "y": 5665,
+   "op": "0.8",
+   "txt": "Siena watches every frame and extracts w"
+  },
+  {
+   "n": "DIV",
+   "y": 5903,
+   "op": "0.8",
+   "txt": "Claims processed, tickets updated, custo"
+  }
+ ],
+ "sticky": [],
+ "videos": [
+  {
+   "src": "https://framervideos.b-cdn.net/Abstract%20Landscape%20Moving%20Shapes.mp4",
+   "poster": "",
+   "y": 493,
+   "w": 322,
+   "h": 204,
+   "loop": true,
+   "muted": true,
+   "autoplay": true,
+   "controls": false,
+   "paused": true,
+   "fit": "cover",
+   "r": "0px",
+   "parentR": "0px"
+  },
+  {
+   "src": "https://framerusercontent.com/assets/7DsxIASjdBjpJcPHLI0CK32RvwA.mp4",
+   "poster": "",
+   "y": 493,
+   "w": 322,
+   "h": 204,
+   "loop": true,
+   "muted": true,
+   "autoplay": true,
+   "controls": false,
+   "paused": true,
+   "fit": "cover",
+   "r": "0px",
+   "parentR": "0px"
+  },
+  {
+   "src": "https://framervideos.b-cdn.net/Abstract%20Landscape%20Moving%20Shapes.mp4",
+   "poster": "",
+   "y": 470,
+   "w": 378,
+   "h": 246,
+   "loop": true,
+   "muted": true,
+   "autoplay": true,
+   "controls": false,
+   "paused": true,
+   "fit": "cover",
+   "r": "0px",
+   "parentR": "0px"
+  },
+  {
+   "src": "https://framerusercontent.com/assets/x4A0FFLvT1jKKMmC1BeB2sDrts.mp4",
+   "poster": "",
+   "y": 1980,
+   "w": 320,
+   "h": 276,
+   "loop": true,
+   "muted": true,
+   "autoplay": true,
+   "controls": false,
+   "paused": true,
+   "fit": "cover",
+   "r": "0px",
+   "parentR": "0px"
+  },
+  {
+   "src": "https://framervideos.b-cdn.net/Abstract%20Landscape%20Moving%20Shapes.mp4",
+   "poster": "",
+   "y": 1980,
+   "w": 320,
+   "h": 276,
+   "loop": true,
+   "muted": true,
+   "autoplay": true,
+   "controls": false,
+   "paused": true,
+   "fit": "cover",
+   "r": "0px",
+   "parentR": "0px"
+  },
+  {
+   "src": "https://framerusercontent.com/assets/x4A0FFLvT1jKKMmC1BeB2sDrts.mp4",
+   "poster": "",
+   "y": 2915,
+   "w": 320,
+   "h": 276,
+   "loop": true,
+   "muted": true,
+   "autoplay": true,
+   "controls": false,
+   "paused": true,
+   "fit": "cover",
+   "r": "0px",
+   "parentR": "0px"
+  },
+  {
+   "src": "https://framervideos.b-cdn.net/Abstract%20Landscape%20Moving%20Shapes.mp4",
+   "poster": "",
+   "y": 2915,
+   "w": 320,
+   "h": 276,
+   "loop": true,
+   "muted": true,
+   "autoplay": true,
+   "controls": false,
+   "paused": true,
+   "fit": "cover",
+   "r": "0px",
+   "parentR": "0px"
+  },
+  {
+   "src": "https://framerusercontent.com/assets/x4A0FFLvT1jKKMmC1BeB2sDrts.mp4",
+   "poster": "",
+   "y": 3927,
+   "w": 320,
+   "h": 276,
+   "loop": true,
+   "muted": true,
+   "autoplay": true,
+   "controls": false,
+   "paused": true,
+   "fit": "cover",
+   "r": "0px",
+   "parentR": "0px"
+  },
+  {
+   "src": "https://framervideos.b-cdn.net/Abstract%20Landscape%20Moving%20Shapes.mp4",
+   "poster": "",
+   "y": 3927,
+   "w": 320,
+   "h": 276,
+   "loop": true,
+   "muted": true,
+   "autoplay": true,
+   "controls": false,
+   "paused": true,
+   "fit": "cover",
+   "r": "0px",
+   "parentR": "0px"
+  },
+  {
+   "src": "https://framerusercontent.com/assets/4gloqJyU9yH0U5zKatZKkGxpiA.mp4",
+   "poster": "",
+   "y": 4704,
+   "w": 293,
+   "h": 159,
+   "loop": true,
+   "muted": true,
+   "autoplay": true,
+   "controls": false,
+   "paused": true,
+   "fit": "cover",
+   "r": "0px",
+   "parentR": "0px"
+  },
+  {
+   "src": "https://framervideos.b-cdn.net/Abstract%20Landscape%20Moving%20Shapes.mp4",
+   "poster": "",
+   "y": 4681,
+   "w": 349,
+   "h": 201,
+   "loop": true,
+   "muted": true,
+   "autoplay": true,
+   "controls": false,
+   "paused": true,
+   "fit": "cover",
+   "r": "0px",
+   "parentR": "0px"
+  }
+ ],
+ "iframes": [],
+ "lottie": [],
+ "slideshows": [],
+ "svgs": [
+  {
+   "file": "video-Variant-2-c189ac.svg",
+   "n": "Variant 2",
+   "y": 587,
+   "w": 15,
+   "h": 19,
+   "count": 1
+  },
+  {
+   "file": "video-Logos-cd8a67.svg",
+   "n": "Logos",
+   "y": 923,
+   "w": 176,
+   "h": 32,
+   "count": 2
+  },
+  {
+   "file": "video-Logos-3-7ec9b0.svg",
+   "n": "Logos-3",
+   "y": 923,
+   "w": 167,
+   "h": 32,
+   "count": 2
+  },
+  {
+   "file": "video-Logos-4-668d4d.svg",
+   "n": "Logos-4",
+   "y": 920,
+   "w": 119,
+   "h": 38,
+   "count": 2
+  },
+  {
+   "file": "video-Logos-5-87770d.svg",
+   "n": "Logos-5",
+   "y": 919,
+   "w": 111,
+   "h": 40,
+   "count": 2
+  },
+  {
+   "file": "video-Logos-6-d01336.svg",
+   "n": "Logos-6",
+   "y": 920,
+   "w": 120,
+   "h": 38,
+   "count": 2
+  },
+  {
+   "file": "video-Logos-8-b5090e.svg",
+   "n": "Logos-8",
+   "y": 927,
+   "w": 241,
+   "h": 24,
+   "count": 2
+  },
+  {
+   "file": "video-Logos-7-7f0912.svg",
+   "n": "Logos-7",
+   "y": 917,
+   "w": 91,
+   "h": 44,
+   "count": 2
+  },
+  {
+   "file": "video-Logos-9-6617ef.svg",
+   "n": "Logos-9",
+   "y": 917,
+   "w": 99,
+   "h": 44,
+   "count": 2
+  },
+  {
+   "file": "video-Logos-10-b7d0ef.svg",
+   "n": "Logos-10",
+   "y": 923,
+   "w": 161,
+   "h": 32,
+   "count": 2
+  },
+  {
+   "file": "video-Logos-11-52c1bf.svg",
+   "n": "Logos-11",
+   "y": 920,
+   "w": 207,
+   "h": 38,
+   "count": 4
+  },
+  {
+   "file": "video-Logos-12-765fde.svg",
+   "n": "Logos-12",
+   "y": 920,
+   "w": 156,
+   "h": 38,
+   "count": 2
+  },
+  {
+   "file": "video-Logos-13-c57f72.svg",
+   "n": "Logos-13",
+   "y": 920,
+   "w": 71,
+   "h": 38,
+   "count": 2
+  },
+  {
+   "file": "video-Logos-14-6a5483.svg",
+   "n": "Logos-14",
+   "y": 920,
+   "w": 112,
+   "h": 38,
+   "count": 2
+  },
+  {
+   "file": "video-Logos-15-d3829d.svg",
+   "n": "Logos-15",
+   "y": 927,
+   "w": 150,
+   "h": 24,
+   "count": 2
+  },
+  {
+   "file": "video-Logos-16-ff1a2c.svg",
+   "n": "Logos-16",
+   "y": 924,
+   "w": 152,
+   "h": 30,
+   "count": 2
+  },
+  {
+   "file": "video-Logos-17-a2a130.svg",
+   "n": "Logos-17",
+   "y": 919,
+   "w": 188,
+   "h": 40,
+   "count": 2
+  },
+  {
+   "file": "video-Logos-18-80eefe.svg",
+   "n": "Logos-18",
+   "y": 917,
+   "w": 154,
+   "h": 44,
+   "count": 2
+  },
+  {
+   "file": "video-Logos-19-c63f16.svg",
+   "n": "Logos-19",
+   "y": 920,
+   "w": 126,
+   "h": 38,
+   "count": 2
+  },
+  {
+   "file": "video-star-four-light-1-889050.svg",
+   "n": "star-four-light 1",
+   "y": 1709,
+   "w": 16,
+   "h": 16,
+   "count": 9
+  },
+  {
+   "file": "video-sparkles-two-2-3b7b74.svg",
+   "n": "sparkles-two-2",
+   "y": 3146,
+   "w": 24,
+   "h": 24,
+   "count": 2
+  },
+  {
+   "file": "video-Icon-Button-95cc45.svg",
+   "n": "Icon Button",
+   "y": 4110,
+   "w": 57,
+   "h": 57,
+   "count": 1
+  },
+  {
+   "file": "video-siena-320693.svg",
+   "n": "siena",
+   "y": 8983,
+   "w": 122,
+   "h": 32,
+   "count": 1
+  }
+ ],
+ "H": 9087
+}

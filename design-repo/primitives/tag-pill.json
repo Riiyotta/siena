@@ -1,0 +1,29 @@
+{
+  "registryId": "primitive.tag-pill",
+  "version": "1.0.0",
+  "category": "label",
+  "description": "Uppercase Geist Mono tag pill (story-grid tags, mega-menu 'works with', persona traits).",
+  "props": {
+    "label": {
+      "type": "string",
+      "maxWords": 4
+    },
+    "tone": {
+      "enum": [
+        "outline",
+        "filled",
+        "active-dark"
+      ]
+    }
+  },
+  "tokens": [
+    "{typography.tag-mono}",
+    "{color.text.tag}",
+    "{radius.pill}",
+    "{color.border.field}"
+  ],
+  "measuredFrom": [
+    "spec.storygrid.card",
+    "spec.megamenu.panel"
+  ]
+}

@@ -1,0 +1,2796 @@
+{
+ "rich": [
+  {
+   "fn": "Summary",
+   "r": [
+    320,
+    1082,
+    800,
+    290
+   ],
+   "cnt": 3,
+   "items": [
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      1082,
+      800,
+      77
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 61,
+     "text": "Brendan Gardner-Young is the COO and CTO of",
+     "strong": "",
+     "links": [
+      {
+       "h": "https://www.linkedin.com/in/brendangy/",
+       "t": "Brendan Gardner-Young"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      1179,
+      800,
+      96
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 74,
+     "text": "Brendan walks through the problem that started the",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      1295,
+      800,
+      77
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 64,
+     "text": "The second half goes wider: how Siena Intelligence",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    }
+   ]
+  },
+  {
+   "fn": "Transcript",
+   "r": [
+    320,
+    2162,
+    800,
+    9077
+   ],
+   "cnt": 95,
+   "items": [
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      320,
+      2162,
+      800,
+      72
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 36px/36px lsnormal rgb(18, 32, 35)",
+     "words": 10,
+     "text": "“We answered every ticket ourselves”: the mission behind Thrive’s CX",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      2254,
+      800,
+      58
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 45,
+     "text": "Brendan (0:02) I am the COO and CTO",
+     "strong": "Brendan | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=2s",
+       "t": "(0:02)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      2331,
+      800,
+      19
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 14,
+     "text": "Lisa (0:13) How does that mission change what",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=13s",
+       "t": "(0:13)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      2371,
+      800,
+      96
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 90,
+     "text": "Brendan (0:18) Customer experience to us has always",
+     "strong": "Brendan | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=18s",
+       "t": "(0:18)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      2487,
+      800,
+      96
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 107,
+     "text": "So we started off with this ethos of:",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      2603,
+      800,
+      58
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 37,
+     "text": "That’s still instilled today in the business, not",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      320,
+      2700,
+      800,
+      36
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 36px/36px lsnormal rgb(18, 32, 35)",
+     "words": 8,
+     "text": "Partners, not vendors: how Thrive picks its technology",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      2756,
+      800,
+      19
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 13,
+     "text": "Lisa (1:16) How is that impacting the way",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=76s",
+       "t": "(1:16)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      2795,
+      800,
+      96
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 91,
+     "text": "Brendan (1:23) They’re kind of opposing roles sometimes,",
+     "strong": "Brendan | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=83s",
+       "t": "(1:23)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      2911,
+      800,
+      77
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 67,
+     "text": "So we’re not the company that has a",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      3008,
+      800,
+      134
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 138,
+     "text": "Secondly, operations-wise, we use a lot of technology",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      3163,
+      800,
+      77
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 63,
+     "text": "Lisa (2:45) Yes, we partnered together on a",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=165s",
+       "t": "(2:45)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      3259,
+      800,
+      154
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 161,
+     "text": "Brendan (3:06) It’s a two-way street too, right?",
+     "strong": "Brendan | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=186s",
+       "t": "(3:06)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      3433,
+      800,
+      77
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 63,
+     "text": "Lisa (3:44) It’s probably the same process that",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=224s",
+       "t": "(3:44)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      3530,
+      800,
+      115
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 105,
+     "text": "Brendan (4:07) Yeah, and I think this is",
+     "strong": "Brendan | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=247s",
+       "t": "(4:07)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      3665,
+      800,
+      58
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 45,
+     "text": "And also, we’re not going to make the",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      3743,
+      800,
+      19
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 8,
+     "text": "Lisa (4:40) Has AI accelerated your product development?",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=280s",
+       "t": "(4:40)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      3782,
+      800,
+      96
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 97,
+     "text": "Brendan (4:44) It has accelerated some of our",
+     "strong": "Brendan | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=284s",
+       "t": "(4:44)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      3898,
+      800,
+      58
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 53,
+     "text": "So we’ve definitely seen the benefits of pushing",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      320,
+      3996,
+      800,
+      72
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 36px/36px lsnormal rgb(18, 32, 35)",
+     "words": 11,
+     "text": "The problem before Siena: the same answer, every time, at volume",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      4088,
+      800,
+      38
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 22,
+     "text": "Lisa (5:25) I’m curious, before you started using",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=325s",
+       "t": "(5:25)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      4146,
+      800,
+      96
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 94,
+     "text": "Brendan (5:33) The problem we were trying to",
+     "strong": "Brendan | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=333s",
+       "t": "(5:33)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      4262,
+      800,
+      115
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 113,
+     "text": "And we found that Siena, working with our",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      4397,
+      800,
+      77
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 74,
+     "text": "So the problem we were trying to solve",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      320,
+      4514,
+      800,
+      36
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 36px/36px lsnormal rgb(18, 32, 35)",
+     "words": 7,
+     "text": "Two criteria and the moment it clicked",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      4570,
+      800,
+      19
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 10,
+     "text": "Lisa (6:45) And what were some of your",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=405s",
+       "t": "(6:45)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      4609,
+      800,
+      96
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 105,
+     "text": "Brendan (6:48) One, it couldn’t be generic. We",
+     "strong": "Brendan | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=408s",
+       "t": "(6:48)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      4725,
+      800,
+      115
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 109,
+     "text": "And I guess the second one is learning.",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      4860,
+      800,
+      19
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 16,
+     "text": "Lisa (7:46) When was the moment that you",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=466s",
+       "t": "(7:46)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      4900,
+      800,
+      115
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 115,
+     "text": "Brendan (7:48) I can’t remember the exact month",
+     "strong": "Brendan | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=468s",
+       "t": "(7:48)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      5035,
+      800,
+      134
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 141,
+     "text": "Also, the deep linking into the services that",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      320,
+      5209,
+      800,
+      36
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 36px/36px lsnormal rgb(18, 32, 35)",
+     "words": 7,
+     "text": "Using AI vs. being changed by AI",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      5265,
+      800,
+      38
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 24,
+     "text": "Lisa (9:04) What do you think is the",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=544s",
+       "t": "(9:04)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      5324,
+      800,
+      96
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 85,
+     "text": "Brendan (9:10) Using AI, to me, is typing",
+     "strong": "Brendan | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=550s",
+       "t": "(9:10)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      5440,
+      800,
+      77
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 71,
+     "text": "I’ve seen so many people that are on",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      5536,
+      800,
+      115
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 113,
+     "text": "We’ve seen that across the board. Not that",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      5672,
+      800,
+      19
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 15,
+     "text": "Lisa (10:28) What are the new skills that",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=628s",
+       "t": "(10:28)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      5711,
+      800,
+      96
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 91,
+     "text": "Brendan (10:32) It’s a lot of the skills",
+     "strong": "Brendan | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=632s",
+       "t": "(10:32)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      5827,
+      800,
+      115
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 127,
+     "text": "What are those new skills? I mean, change",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      320,
+      5982,
+      800,
+      36
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 36px/36px lsnormal rgb(18, 32, 35)",
+     "words": 6,
+     "text": "Siena Intelligence as an early-warning system",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      6038,
+      800,
+      38
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 35,
+     "text": "Lisa (11:30) Besides what you already shared about",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=690s",
+       "t": "(11:30)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      6097,
+      800,
+      115
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 105,
+     "text": "Brendan (11:43) For example, we’re using Siena Intelligence",
+     "strong": "Brendan | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=703s",
+       "t": "(11:43)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      6232,
+      800,
+      96
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 84,
+     "text": "With that, when we do sales data querying",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      6348,
+      800,
+      38
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 20,
+     "text": "Lisa (12:35) Who are the main people, or",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=755s",
+       "t": "(12:35)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      6406,
+      800,
+      115
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 103,
+     "text": "Brendan (12:42) A couple of team members work",
+     "strong": "Brendan | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=762s",
+       "t": "(12:42)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      6541,
+      800,
+      96
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 88,
+     "text": "There are a number of teams that will",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      6657,
+      800,
+      19
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 14,
+     "text": "Lisa (13:34) Before that, were you doing that",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=814s",
+       "t": "(13:34)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      6697,
+      800,
+      77
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 73,
+     "text": "Brendan (13:39) There would be some reporting out",
+     "strong": "Brendan | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=819s",
+       "t": "(13:39)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      320,
+      6813,
+      800,
+      36
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 36px/36px lsnormal rgb(18, 32, 35)",
+     "words": 10,
+     "text": "AI-native partners and the real cost of a fragmented stack",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      6869,
+      800,
+      38
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 30,
+     "text": "Lisa (15:21) How are you thinking about AI-nativeness?",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=921s",
+       "t": "(15:21)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      6928,
+      800,
+      96
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 95,
+     "text": "Brendan (14:09) We’ve used a lot of different",
+     "strong": "Brendan | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=849s",
+       "t": "(14:09)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      7044,
+      800,
+      96
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 89,
+     "text": "What we’ve seen is that we have gravitated",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      7160,
+      800,
+      96
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 82,
+     "text": "To me, the software teams that are really",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      7276,
+      800,
+      19
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 14,
+     "text": "Lisa (15:21) How are you thinking about AI",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=921s",
+       "t": "(15:21)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      7315,
+      800,
+      77
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 69,
+     "text": "Brendan (15:24) I could see how it would",
+     "strong": "Brendan | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=924s",
+       "t": "(15:24)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      7412,
+      800,
+      115
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 112,
+     "text": "Sure, sales are important. The profits of the",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      7547,
+      800,
+      115
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 116,
+     "text": "One thing that we do that is really",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      7682,
+      800,
+      19
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 20,
+     "text": "Lisa (16:42) What do you feel is the",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=1002s",
+       "t": "(16:42)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      7722,
+      800,
+      115
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 116,
+     "text": "Brendan (16:49) I think there’s definitely some real",
+     "strong": "Brendan | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=1009s",
+       "t": "(16:49)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      7857,
+      800,
+      134
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 139,
+     "text": "The interoperability of the data now makes it",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      320,
+      8031,
+      800,
+      36
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 36px/36px lsnormal rgb(18, 32, 35)",
+     "words": 4,
+     "text": "Should CTOs own CX?",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      8087,
+      800,
+      19
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 9,
+     "text": "Lisa (17:56) Do you think CTOs should own",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=1076s",
+       "t": "(17:56)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      8126,
+      800,
+      96
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 97,
+     "text": "Brendan (17:59) I think there’s a world where",
+     "strong": "Brendan | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=1079s",
+       "t": "(17:59)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      8242,
+      800,
+      115
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 112,
+     "text": "Lisa (18:26) I have been seeing a lot",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=1106s",
+       "t": "(18:26)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      8378,
+      800,
+      38
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 28,
+     "text": "Brendan (19:01) Whoever leads it is the person",
+     "strong": "Brendan | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=1141s",
+       "t": "(19:01)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      320,
+      8456,
+      800,
+      36
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 36px/36px lsnormal rgb(18, 32, 35)",
+     "words": 7,
+     "text": "Learning AI is like learning to paint",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      8512,
+      800,
+      77
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 76,
+     "text": "Lisa (19:06) I think Thrive, and what you",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=1146s",
+       "t": "(19:06)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      8609,
+      800,
+      58
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 60,
+     "text": "Brendan (19:30) I think leaders are one thing.",
+     "strong": "Brendan | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=1170s",
+       "t": "(19:30)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      8686,
+      800,
+      115
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 124,
+     "text": "What I tell the team internally is that",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      8822,
+      800,
+      96
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 97,
+     "text": "Going back to the painting analogy: I have",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      8938,
+      800,
+      77
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 82,
+     "text": "So I think when it comes to getting",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      9035,
+      800,
+      19
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 6,
+     "text": "Lisa (20:58) Everyone feels that way.",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=1258s",
+       "t": "(20:58)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      9074,
+      800,
+      96
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 83,
+     "text": "Brendan (20:59) Yeah. And I talk to friends",
+     "strong": "Brendan | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=1259s",
+       "t": "(20:59)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      9190,
+      800,
+      38
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 32,
+     "text": "Lisa (21:20) And I love that your team",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=1280s",
+       "t": "(21:20)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      9248,
+      800,
+      96
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 82,
+     "text": "Brendan (21:30) It’s also making space for people",
+     "strong": "Brendan | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=1290s",
+       "t": "(21:30)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      9364,
+      800,
+      58
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 53,
+     "text": "Lisa (21:54) The biggest challenge that I’m seeing",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=1314s",
+       "t": "(21:54)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      9442,
+      800,
+      96
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 91,
+     "text": "Brendan (22:11) I mean, budgeting is new at",
+     "strong": "Brendan | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=1331s",
+       "t": "(22:11)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      9558,
+      800,
+      96
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 109,
+     "text": "And it doesn’t always need to be “we’re",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      9674,
+      800,
+      58
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 53,
+     "text": "In our space, moving fast is one of",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      9751,
+      800,
+      96
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 101,
+     "text": "And then I think the other thing for",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      9867,
+      800,
+      96
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 88,
+     "text": "Often, on the software side, you’ll have a",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      320,
+      10003,
+      800,
+      36
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 36px/36px lsnormal rgb(18, 32, 35)",
+     "words": 5,
+     "text": "The metrics behind 50% automation",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      10059,
+      800,
+      58
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 42,
+     "text": "Lisa (23:58) So you are automating around 50%",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=1438s",
+       "t": "(23:58)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      10137,
+      800,
+      58
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 44,
+     "text": "Brendan (24:12) Resolution — is the automation serving",
+     "strong": "Brendan | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=1452s",
+       "t": "(24:12)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      10215,
+      800,
+      77
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 86,
+     "text": "And then second would be: does it even",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      10311,
+      800,
+      96
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 86,
+     "text": "And then some of the other metrics we",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      10427,
+      800,
+      38
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 33,
+     "text": "Lisa (25:12) Biggest benefits — what about, if",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=1512s",
+       "t": "(25:12)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      10486,
+      800,
+      134
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 116,
+     "text": "Brendan (25:22) Yeah, I mean, we saw a",
+     "strong": "Brendan | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=1522s",
+       "t": "(25:22)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      10640,
+      800,
+      134
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 134,
+     "text": "And then secondly, we were able to look",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      320,
+      10815,
+      800,
+      36
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 36px/36px lsnormal rgb(18, 32, 35)",
+     "words": 9,
+     "text": "AI-native or add-on: advice for brands on the fence",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      10871,
+      800,
+      58
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 49,
+     "text": "Lisa (26:32) Thank you for sharing that. What",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=1592s",
+       "t": "(26:32)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      10948,
+      800,
+      58
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 58,
+     "text": "Brendan (26:50) I think we’re seeing it consistently:",
+     "strong": "Brendan | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=1610s",
+       "t": "(26:50)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      11026,
+      800,
+      134
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 131,
+     "text": "We’ve honestly struggled with a lot of the",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      11180,
+      800,
+      19
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 17,
+     "text": "Lisa (27:43) Velocity is everything. Thank you so",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=1663s",
+       "t": "(27:43)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      11220,
+      800,
+      19
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 6,
+     "text": "Brendan (27:48) Thanks for having me.",
+     "strong": "Brendan | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=8SEXP6zopwo&t=1668s",
+       "t": "(27:48)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    }
+   ]
+  },
+  {
+   "fn": "FAQ",
+   "r": [
+    320,
+    11355,
+    800,
+    730
+   ],
+   "cnt": 10,
+   "items": [
+    {
+     "tag": "h3",
+     "depth": 0,
+     "r": [
+      320,
+      11355,
+      800,
+      34
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 28px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 12,
+     "text": "Why did Thrive Causemetics move from Zendesk macros to an AI agent?",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      11408,
+      800,
+      58
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 37,
+     "text": "Consistency at volume. Macros across Zendesk and a",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h3",
+     "depth": 0,
+     "r": [
+      320,
+      11506,
+      800,
+      34
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 28px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 10,
+     "text": "What metrics does Thrive use to evaluate its AI agents?",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      11560,
+      800,
+      38
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 24,
+     "text": "Resolution quality checked in QA, per-flow CSAT scores,",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h3",
+     "depth": 0,
+     "r": [
+      320,
+      11638,
+      800,
+      34
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 28px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 9,
+     "text": "What does Thrive look for when choosing AI vendors?",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      11692,
+      800,
+      58
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 43,
+     "text": "Partners that build with them: shared Slack channels,",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h3",
+     "depth": 0,
+     "r": [
+      320,
+      11789,
+      800,
+      34
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 28px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 9,
+     "text": "What is Siena Intelligence used for at Thrive Causemetics?",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      11843,
+      800,
+      58
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 42,
+     "text": "It reads every incoming ticket and sends automated",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h3",
+     "depth": 0,
+     "r": [
+      320,
+      11940,
+      800,
+      67
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 28px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 12,
+     "text": "How much of its customer support does Thrive Causemetics automate with AI?",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      12028,
+      800,
+      58
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 35,
+     "text": "About 50% of support volume runs through Siena.",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    }
+   ]
+  }
+ ],
+ "marker": {
+  "color": "rgb(18, 32, 35)",
+  "fs": "16px",
+  "ff": "\"Instrument Sans\", \"Instrument Sans Placeholder\", sans-serif",
+  "content": "normal",
+  "lst": "\"\"",
+  "pl": "21.312px",
+  "ml": "0px",
+  "mlm": "0px"
+ },
+ "iframes": [
+  {
+   "src": "https://framer.com/edit?framerSiteId=f47910699fc3441f86608d12d38696a628e935e97e59d6623edfd8ace3e982f1&source=www.siena.cx&features=%7B%22editorBarDisableFrameAncestorsSecurity%22%3Afalse%2C%22onPageRichTextBlockSelection%22%3Atrue%7D&loadStart=1792663028311",
+   "r": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "br": "0px",
+   "parBr": "0px"
+  }
+ ],
+ "video": {
+  "r": [
+   320,
+   584,
+   800,
+   450
+  ],
+  "html": "<div class=\"framer-1g8aimx\" data-framer-name=\"Video\"><div class=\"framer-18b49hm-container\"><div style=\"position: relative; width: 100%; aspect-ratio: 1.7778 / 1; border-radius: 10px; overflow: hidden;\"><div class=\"video-placeholder-youtube\" data-cky-tag=\"video-placeholder\" id=\"EODNoYrl\" style=\"width: 800px; height: 450px; background-image: linear-gradient(rgba(76, 72, 72, 0.7), rgba(76, 72, 72, 0.7)), url(&quot;https://img.youtube.com/vi/8SEXP6zopwo/maxresdefault.jpg&quot;);\"><p class=\"video-placeholder-text-youtube\" data-cky-tag=\"placeholder-title\" style=\"display: block; border-color: rgb(0, 0, 0); background-color: rgb(0, 0, 0); color: rgb(255, 255, 255);\">Please accept cookies to access this content</p></div></div></div></div>"
+ },
+ "headings": [
+  {
+   "tag": "H1",
+   "t": "Brendan Gardner-Young of Thrive Causemetics on AI, empathy, and automating half of support",
+   "r": [
+    320,
+    212,
+    800,
+    256
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "Key takeaways",
+   "r": [
+    320,
+    1420,
+    800,
+    48
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "Chapters",
+   "r": [
+    320,
+    1766,
+    800,
+    48
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "Full transcript",
+   "r": [
+    320,
+    2094,
+    800,
+    48
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "“We answered every ticket ourselves”: the mission behind Thrive’s CX",
+   "r": [
+    320,
+    2162,
+    800,
+    72
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "Partners, not vendors: how Thrive picks its technology",
+   "r": [
+    320,
+    2700,
+    800,
+    36
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "The problem before Siena: the same answer, every time, at volume",
+   "r": [
+    320,
+    3996,
+    800,
+    72
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "Two criteria and the moment it clicked",
+   "r": [
+    320,
+    4514,
+    800,
+    36
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "Using AI vs. being changed by AI",
+   "r": [
+    320,
+    5209,
+    800,
+    36
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "Siena Intelligence as an early-warning system",
+   "r": [
+    320,
+    5982,
+    800,
+    36
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "AI-native partners and the real cost of a fragmented stack",
+   "r": [
+    320,
+    6813,
+    800,
+    36
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "Should CTOs own CX?",
+   "r": [
+    320,
+    8031,
+    800,
+    36
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "Learning AI is like learning to paint",
+   "r": [
+    320,
+    8456,
+    800,
+    36
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "The metrics behind 50% automation",
+   "r": [
+    320,
+    10003,
+    800,
+    36
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "AI-native or add-on: advice for brands on the fence",
+   "r": [
+    320,
+    10815,
+    800,
+    36
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "Frequently asked questions",
+   "r": [
+    320,
+    11287,
+    800,
+    48
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "Why did Thrive Causemetics move from Zendesk macros to an AI agent?",
+   "r": [
+    320,
+    11355,
+    800,
+    34
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "What metrics does Thrive use to evaluate its AI agents?",
+   "r": [
+    320,
+    11506,
+    800,
+    34
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "What does Thrive look for when choosing AI vendors?",
+   "r": [
+    320,
+    11638,
+    800,
+    34
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "What is Siena Intelligence used for at Thrive Causemetics?",
+   "r": [
+    320,
+    11789,
+    800,
+    34
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "How much of its customer support does Thrive Causemetics automate with AI?",
+   "r": [
+    320,
+    11940,
+    800,
+    67
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "Be the first to know what's happening",
+   "r": [
+    389,
+    12369,
+    663,
+    128
+   ]
+  }
+ ],
+ "cards": [],
+ "probes": [
+  {
+   "label": "kicker link",
+   "before": {
+    "c": "rgb(18, 32, 35)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "sh": "none",
+    "tf": "none",
+    "op": "1",
+    "td": "underline",
+    "bc": "rgb(18, 32, 35)"
+   },
+   "after": {
+    "c": "rgb(18, 32, 35)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "sh": "none",
+    "tf": "none",
+    "op": "1",
+    "td": "underline",
+    "bc": "rgb(18, 32, 35)",
+    "imgTf": "",
+    "imgP": ""
+   }
+  },
+  {
+   "label": "chapter link",
+   "before": {
+    "c": "rgb(18, 32, 35)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "sh": "none",
+    "tf": "none",
+    "op": "1",
+    "td": "underline",
+    "bc": "rgb(18, 32, 35)"
+   },
+   "after": {
+    "c": "rgb(18, 32, 35)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "sh": "none",
+    "tf": "none",
+    "op": "1",
+    "td": "underline",
+    "bc": "rgb(18, 32, 35)",
+    "imgTf": "",
+    "imgP": ""
+   }
+  },
+  {
+   "label": "body link",
+   "before": {
+    "c": "rgb(18, 32, 35)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "sh": "none",
+    "tf": "none",
+    "op": "1",
+    "td": "underline",
+    "bc": "rgb(18, 32, 35)"
+   },
+   "after": {
+    "c": "rgb(18, 32, 35)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "sh": "none",
+    "tf": "none",
+    "op": "1",
+    "td": "underline",
+    "bc": "rgb(18, 32, 35)",
+    "imgTf": "",
+    "imgP": ""
+   }
+  }
+ ]
+}

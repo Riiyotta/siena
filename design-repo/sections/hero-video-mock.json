@@ -1,0 +1,190 @@
+{
+  "id": "section.hero.video-mock",
+  "registryId": "section.hero.video-mock",
+  "typeId": "hero.video-mock",
+  "version": "1.0.0",
+  "category": "hero",
+  "purpose": "Video hero: centered H1/sub/CTA, animated video mock (video card, progress bar, play badge, customer + Siena bubbles, agent note) and a masked product ticker.",
+  "evidenceLevel": "spec-measured",
+  "variants": {
+    "video": "Hero sand, 1216 tall."
+  },
+  "composes": [
+    "primitive.text",
+    "primitive.button",
+    "component.chat-mock",
+    "component.logo-ticker"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "headline": {
+        "type": "string",
+        "maxWords": 6
+      },
+      "subtitle": {
+        "type": "string",
+        "maxWords": 30
+      },
+      "cta": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string",
+            "maxWords": 4
+          },
+          "href": {
+            "type": "string",
+            "pattern": "^(/[a-z0-9/#-]*|#[a-z0-9-]+|https://[a-zA-Z0-9.-]+(/[^\\s]*)?|mailto:[a-z.]+@siena\\.cx)$"
+          },
+          "style": {
+            "enum": [
+              "xlg-dark"
+            ]
+          }
+        },
+        "required": [
+          "label",
+          "href",
+          "style"
+        ],
+        "additionalProperties": false
+      },
+      "video": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "const": "video.decorative-loop"
+          },
+          "assetRef": {
+            "type": "string",
+            "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 24
+          }
+        },
+        "required": [
+          "assetRole",
+          "assetRef"
+        ],
+        "additionalProperties": false
+      },
+      "bubbles": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "speaker": {
+              "enum": [
+                "customer",
+                "siena"
+              ]
+            },
+            "text": {
+              "type": "string",
+              "maxWords": 40
+            }
+          },
+          "required": [
+            "speaker",
+            "text"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 2,
+        "maxItems": 2
+      },
+      "agentNote": {
+        "type": "string",
+        "maxWords": 5
+      },
+      "brandAvatar": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "const": "brand.siena-glyph"
+          },
+          "assetRef": {
+            "type": "string",
+            "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 24
+          }
+        },
+        "required": [
+          "assetRole",
+          "assetRef"
+        ],
+        "additionalProperties": false
+      },
+      "tickerLogos": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "assetRole": {
+              "const": "logo.customer"
+            },
+            "assetRef": {
+              "type": "string",
+              "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+            },
+            "alt": {
+              "type": "string",
+              "maxWords": 24
+            }
+          },
+          "required": [
+            "assetRole",
+            "assetRef"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 10,
+        "maxItems": 32
+      }
+    },
+    "required": [
+      "headline",
+      "subtitle",
+      "cta",
+      "video",
+      "bubbles",
+      "agentNote",
+      "tickerLogos"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "appear-rise"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ],
+    "builtIn": [
+      "ticker-horizontal 30 px/s",
+      "letter-blur-reveal on the agent note"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Visual scales to 338; bubbles 154-158 wide."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustFollowNav": true
+  },
+  "measuredFrom": [
+    "spec.pb.2.1"
+  ]
+}

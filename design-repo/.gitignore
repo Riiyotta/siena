@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+__MACOSX/
+# the packaged artifact lives beside this folder; never commit it
+../design-repo.zip
+*.zip

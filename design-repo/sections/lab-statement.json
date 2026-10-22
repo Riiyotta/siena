@@ -1,0 +1,62 @@
+{
+  "id": "section.lab.statement",
+  "registryId": "section.lab.statement",
+  "typeId": "lab.statement",
+  "version": "1.0.0",
+  "category": "content",
+  "purpose": "AI Lab statement row: 2px rule, optional eyebrow + H2, and a large Instrument Sans 36/43.2 statement.",
+  "evidenceLevel": "spec-measured",
+  "variants": {
+    "intro": "Statement only.",
+    "what-is": "Eyebrow + H2 left, statement right."
+  },
+  "composes": [
+    "primitive.text"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "eyebrow": {
+        "type": "string",
+        "maxWords": 3
+      },
+      "heading": {
+        "type": "string",
+        "maxWords": 5
+      },
+      "statement": {
+        "type": "string",
+        "maxWords": 40
+      }
+    },
+    "required": [
+      "statement"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "tile-glitch",
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Statement 23/27.6."
+    }
+  ],
+  "constraints": {
+    "maxPerPage": 2
+  },
+  "measuredFrom": [
+    "spec.pb.5.3",
+    "spec.pb.5.4"
+  ]
+}

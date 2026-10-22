@@ -1,0 +1,1 @@
+(()=>{const i=document.querySelector('img[src*="I79jHrog"]');let g=i;while(g&&getComputedStyle(g).display!=='grid')g=g.parentElement;const s=getComputedStyle(g);return {gtc:s.gridTemplateColumns,gtr:s.gridTemplateRows,gap:s.gap,w:g.getBoundingClientRect().width,h:g.getBoundingClientRect().height,ai:s.alignItems,ji:s.justifyItems}})()

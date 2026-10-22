@@ -1,0 +1,21 @@
+{
+  "registryId": "component.logo-tile",
+  "version": "1.0.0",
+  "category": "content",
+  "description": "Grid tile (hero sand, radius 4, padding 72 0; phone 14) centering one logo or a bold text label ('Helpdesks', 'Custom Apps').",
+  "composes": [
+    "primitive.logo-mark",
+    "primitive.text"
+  ],
+  "props": {
+    "label": {
+      "type": "string",
+      "maxWords": 4
+    }
+  },
+  "measuredFrom": [
+    "spec.integrations.tile",
+    "jsx.tile",
+    "jsx.co.logogrid"
+  ]
+}

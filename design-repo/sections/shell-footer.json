@@ -1,0 +1,76 @@
+{
+  "id": "section.shell.footer",
+  "registryId": "section.shell.footer",
+  "typeId": "shell.footer",
+  "version": "1.0.0",
+  "category": "shell",
+  "purpose": "Global dark footer with the single global link set. Out-of-scope destinations (blog, integrations, webinars, product updates, customer stories) are live siena.cx links, never local routes.",
+  "evidenceLevel": "measured",
+  "variants": {
+    "standard": "Identical on every route that renders the global chrome."
+  },
+  "composes": [
+    "component.footer-columns"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "linkSet": {
+        "const": "global"
+      },
+      "complianceBadge": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "const": "badge.compliance"
+          },
+          "assetRef": {
+            "type": "string",
+            "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 24
+          }
+        },
+        "required": [
+          "assetRole",
+          "assetRef"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "required": [
+      "linkSet",
+      "complianceBadge"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Padding 64 32; link groups first ([COMPANY|LEGAL] row, then PLATFORM, RESOURCES, PARTNERS), logo + socials row at the bottom; headings 14/19.6; height 1080."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustBeLast": true
+  },
+  "measuredFrom": [
+    "spec.footer",
+    "jsx.footer",
+    "jsx.footerlinks",
+    "src.routes.sitehref"
+  ]
+}

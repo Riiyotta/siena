@@ -1,0 +1,131 @@
+{
+  "id": "section.content.conversation-index",
+  "registryId": "section.content.conversation-index",
+  "typeId": "content.conversation-index",
+  "version": "1.0.0",
+  "category": "content",
+  "purpose": "Conversations index: kicker, H1, serif intro, hairline, then a 2-column card grid (no motion, no hover).",
+  "evidenceLevel": "measured",
+  "variants": {
+    "standard": "Grid repeat(2, 519px); phone replicates the live 2x340 overflow bug."
+  },
+  "composes": [
+    "component.conversation-card"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "kicker": {
+        "type": "string",
+        "maxWords": 2
+      },
+      "headline": {
+        "type": "string",
+        "maxWords": 10
+      },
+      "intro": {
+        "type": "string",
+        "maxWords": 40
+      },
+      "cards": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "href": {
+              "type": "string",
+              "pattern": "^(/[a-z0-9/#-]*|#[a-z0-9-]+|https://[a-zA-Z0-9.-]+(/[^\\s]*)?|mailto:[a-z.]+@siena\\.cx)$"
+            },
+            "image": {
+              "type": "object",
+              "properties": {
+                "assetRole": {
+                  "const": "photo.editorial-scene"
+                },
+                "assetRef": {
+                  "type": "string",
+                  "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+                },
+                "alt": {
+                  "type": "string",
+                  "maxWords": 24
+                }
+              },
+              "required": [
+                "assetRole",
+                "assetRef"
+              ],
+              "additionalProperties": false
+            },
+            "guest": {
+              "type": "string",
+              "maxWords": 4
+            },
+            "brand": {
+              "type": "string",
+              "maxWords": 4
+            },
+            "excerpt": {
+              "type": "string",
+              "maxWords": 30
+            }
+          },
+          "required": [
+            "href",
+            "image",
+            "guest",
+            "brand",
+            "excerpt"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 1,
+        "maxItems": 12
+      },
+      "phoneGrid": {
+        "enum": [
+          "two-column-overflow-quirk",
+          "single-column"
+        ]
+      }
+    },
+    "required": [
+      "kicker",
+      "headline",
+      "intro",
+      "cards",
+      "phoneGrid"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Padding 100 20 80; H1 48/48; grid stays 2x340 inside 350 (cards overflow and clip) when phoneGrid is the quirk; single-column is the recommended fix."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustFollowNav": true
+  },
+  "measuredFrom": [
+    "spec.t2",
+    "spec.t2.quirk",
+    "jsx.conv.index",
+    "jsx.content.convcard"
+  ],
+  "knownQuirks": [
+    "phoneGrid two-column-overflow-quirk replicates the live /conversations 390 bug (cards clipped on both sides)."
+  ]
+}

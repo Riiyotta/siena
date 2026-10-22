@@ -1,0 +1,2 @@
+(()=>{const sp=[...document.querySelectorAll('span')].find(s=>s.innerText==='Remembers every customer');let row=sp;while(row&&!(row.getBoundingClientRect().width>330&&row.getBoundingClientRect().height>300))row=row.parentElement;const wrap=row.parentElement;
+const sib=[...wrap.children];return {wrapStyle:wrap.getAttribute('style'),rowHTML:row.outerHTML.replace(/\s+/g,' ').slice(0,3000),n:sib.length,lastStyle:sib[sib.length-1].getAttribute('style')}})()

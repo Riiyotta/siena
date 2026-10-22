@@ -1,0 +1,16 @@
+{
+  "registryId": "component.lead-chrome",
+  "version": "1.0.0",
+  "category": "chrome",
+  "description": "Lead-gen page chrome: absolutely positioned logo-only header (not fixed) and a minimal legal row (Privacy Policy, Terms of Service) in place of Nav/Footer.",
+  "composes": [
+    "primitive.logo-mark",
+    "primitive.link"
+  ],
+  "props": {},
+  "measuredFrom": [
+    "spec.pricing.header",
+    "spec.pricing.legal",
+    "jsx.conv.ui"
+  ]
+}

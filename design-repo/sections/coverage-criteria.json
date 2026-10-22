@@ -1,0 +1,114 @@
+{
+  "id": "section.coverage.criteria",
+  "registryId": "section.coverage.criteria",
+  "typeId": "coverage.criteria",
+  "version": "1.0.0",
+  "category": "feature",
+  "purpose": "QA 'Complete Coverage': left title block, right card with person photo and a criteria gallery ticker (5 cards, 35 px/s).",
+  "evidenceLevel": "spec-measured",
+  "variants": {
+    "qa": "Cream with blob."
+  },
+  "composes": [
+    "primitive.text",
+    "primitive.image"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "eyebrow": {
+        "type": "string",
+        "maxWords": 7
+      },
+      "title": {
+        "type": "string",
+        "maxWords": 12,
+        "description": "Plain text; wrap at most one phrase in *asterisks* to render it in the display italic cut.",
+        "pattern": "^[^*]*(\\*[^*]+\\*[^*]*)?$"
+      },
+      "subtitle": {
+        "type": "string",
+        "maxWords": 35
+      },
+      "criteria": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "label": {
+              "type": "string",
+              "maxWords": 4
+            },
+            "question": {
+              "type": "string",
+              "maxWords": 18
+            }
+          },
+          "required": [
+            "label",
+            "question"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 3,
+        "maxItems": 6
+      },
+      "photo": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "const": "photo.editorial-scene"
+          },
+          "assetRef": {
+            "type": "string",
+            "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 24
+          }
+        },
+        "required": [
+          "assetRole",
+          "assetRef"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "required": [
+      "eyebrow",
+      "title",
+      "subtitle",
+      "criteria",
+      "photo"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "scroll-reveal-spring"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ],
+    "builtIn": [
+      "criteria ticker 35 px/s"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Title in flow, card below."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "spec.pa.4.3",
+    "spec.pa.criteria-ticker"
+  ]
+}

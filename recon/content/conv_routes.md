@@ -1,0 +1,119 @@
+
+### /conversations/thrive-causemetics-ai-customer-service-automation
+
+- Document height: 1440 = 13224px
+- Kicker: link "Conversations" (→ /conversations) + `<time>` "Jul 8, 2026"
+- H1 (4 lines @1440): "Brendan Gardner-Young of Thrive Causemetics on AI, empathy, and automating half of support"
+- Guest line: "Brendan Gardner-Young · COO & CTO · Thrive Causemetics" (first span = name, 500 weight, 80% ink; rest 400)
+- Video: YouTube `https://www.youtube.com/embed/8SEXP6zopwo` (embed params `?autoplay=0&mute=1&controls=1&rel=0`), 800x450 at y=584
+- Summary: 3 paragraphs, words [61, 74, 64]; links: "Brendan Gardner-Young" → https://www.linkedin.com/in/brendangy/
+- Key takeaways: 6 bullets, words [21, 20, 28, 25, 23, 25]
+- Chapters (11 links, each `<a>` to `#chapter-N-<slug>` of the transcript h2):
+  - 0:00 · “We answered every ticket ourselves”: the mission behind Thrive’s CX
+  - 1:21 · Partners, not vendors: how Thrive picks its technology
+  - 5:30 · The problem before Siena: the same answer, every time, at volume
+  - 6:48 · Two criteria and the moment it clicked
+  - 9:04 · Using AI vs. being changed by AI
+  - 11:39 · Siena Intelligence as an early-warning system
+  - 14:04 · AI-native partners and the real cost of a fragmented stack
+  - 17:56 · Should CTOs own CX?
+  - 19:20 · Learning AI is like learning to paint
+  - 23:58 · The metrics behind 50% automation
+  - 26:34 · AI-native or add-on: advice for brands on the fence
+- Full transcript: 11 chapter h2s, 84 paragraphs, 6111 words total. Per chapter (paragraphs / speaker turns / words):
+  - "“We answered every ticket ourselves”: the mission behind Thrive’s CX" — 5 p / 3 turns / 293 w
+  - "Partners, not vendors: how Thrive picks its technology" — 12 p / 8 turns / 904 w
+  - "The problem before Siena: the same answer, every time, at volume" — 4 p / 2 turns / 303 w
+  - "Two criteria and the moment it clicked" — 6 p / 4 turns / 496 w
+  - "Using AI vs. being changed by AI" — 7 p / 4 turns / 526 w
+  - "Siena Intelligence as an early-warning system" — 8 p / 6 turns / 522 w
+  - "AI-native partners and the real cost of a fragmented stack" — 11 p / 6 turns / 882 w
+  - "Should CTOs own CX?" — 4 p / 4 turns / 246 w
+  - "Learning AI is like learning to paint" — 15 p / 8 turns / 1137 w
+  - "The metrics behind 50% automation" — 7 p / 4 turns / 541 w
+  - "AI-native or add-on: advice for brands on the fence" — 5 p / 4 turns / 261 w
+  - Speakers (bold label + timestamp link): Brendan, Lisa
+- FAQ: 5 Q&As:
+  - "Why did Thrive Causemetics move from Zendesk macros to an AI agent?" — answer 37 words
+  - "What metrics does Thrive use to evaluate its AI agents?" — answer 24 words
+  - "What does Thrive look for when choosing AI vendors?" — answer 43 words
+  - "What is Siena Intelligence used for at Thrive Causemetics?" — answer 42 words
+  - "How much of its customer support does Thrive Causemetics automate with AI?" — answer 35 words
+
+### /conversations/prose-ai-customer-service-automation
+
+- Document height: 1440 = 10833px
+- Kicker: link "Conversations" (→ /conversations) + `<time>` "Jul 6, 2026"
+- H1 (2 lines @1440): "Prose's CX Manager on Turning AI into a CX Analyst"
+- Guest line: "Jessica Weiss · CX Manager · Prose" (first span = name, 500 weight, 80% ink; rest 400)
+- Video: YouTube `https://www.youtube.com/embed/BgO6VVwRznA` (embed params `?autoplay=0&mute=1&controls=1&rel=0`), 800x450 at y=456
+- Summary: 3 paragraphs, words [58, 79, 81]; links: "Jessica" → https://www.linkedin.com/in/jessica-weiss-2500a6161/, "AI-native platform over a help-desk add-" → ../blog/dedicated-ai-vs-help-desk-ai-add-ons
+- Key takeaways: 6 bullets, words [29, 34, 29, 21, 26, 33]
+- Chapters (12 links, each `<a>` to `#chapter-N-<slug>` of the transcript h2):
+  - 0:00 · Why personalized beauty makes CX harder
+  - 1:42 · What support looked like before Siena
+  - 2:44 · Reducing noise, and why the custom integration was non-negotiable
+  - 4:43 · Does emotional, identity-driven beauty raise the bar for AI?
+  - 5:50 · Tiering AI: simple questions to Siena, nuance and troubleshooting to agents
+  - 7:24 · What the beauty industry gets wrong about CX and AI
+  - 8:32 · How buying hair care online will change
+  - 9:26 · Surfacing insights in minutes, and catching problems before they surface
+  - 12:14 · Turning CX into a proactive, insight-driven function
+  - 13:34 · Is CX still treated as a cost center?
+  - 14:10 · How the team reacted to adopting AI, and the skills that matter now
+  - 17:43 · The roadmap ahead, and advice for brands choosing AI-native vs. add-on
+- Full transcript: 12 chapter h2s, 46 paragraphs, 4414 words total. Per chapter (paragraphs / speaker turns / words):
+  - "Why personalized beauty makes CX harder" — 4 p / 4 turns / 314 w
+  - "What support looked like before Siena" — 1 p / 1 turns / 217 w
+  - "Reducing noise, and why the custom integration was non-negotiable" — 4 p / 4 turns / 407 w
+  - "Does emotional, identity-driven beauty raise the bar for AI?" — 2 p / 2 turns / 235 w
+  - "Tiering AI: simple questions to Siena, nuance and troubleshooting to agents" — 4 p / 4 turns / 308 w
+  - "What the beauty industry gets wrong about CX and AI" — 2 p / 2 turns / 243 w
+  - "How buying hair care online will change" — 2 p / 2 turns / 203 w
+  - "Surfacing insights in minutes, and catching problems before they surface" — 5 p / 5 turns / 556 w
+  - "Turning CX into a proactive, insight-driven function" — 4 p / 4 turns / 277 w
+  - "Is CX still treated as a cost center?" — 2 p / 2 turns / 163 w
+  - "How the team reacted to adopting AI, and the skills that matter now" — 8 p / 8 turns / 759 w
+  - "The roadmap ahead, and advice for brands choosing AI-native vs. add-on" — 8 p / 8 turns / 732 w
+  - Speakers (bold label + timestamp link): Jessica, Lisa
+- FAQ: 5 Q&As:
+  - "What’s Prose’s advice for brands choosing between an AI-native platform and a help-desk AI add-on?" — answer 32 words
+  - "Why did Prose need a custom AI integration instead of an off-the-shelf tool?" — answer 52 words
+  - "How does Prose split work between Siena and human agents?" — answer 34 words
+  - "What happened when Prose had a subscription-cancellation bug?" — answer 35 words
+  - "How does Prose use Ask Siena beyond ticket automation?" — answer 47 words
+
+### /conversations/spanx-kylah-field-real-work-ai-customer-experience
+
+- Document height: 1440 = 9694px
+- Kicker: link "Conversations" (→ /conversations) + `<time>` "Aug 13, 2026"
+- H1 (3 lines @1440): "Kylah Field on AI Customer Experience: Why It Takes Real Work, Not a Quick Fix"
+- Guest line: "Kylah Field · VP of Global Customer Experience and Consumer Insights · Spanx" (first span = name, 500 weight, 80% ink; rest 400)
+- Video: YouTube `https://www.youtube.com/embed/2aXY6SKJQvA` (embed params `?autoplay=0&mute=1&controls=1&rel=0`), 800x450 at y=520
+- Summary: 3 paragraphs, words [54, 88, 110]; links: "Kylah Field" → https://www.linkedin.com/in/kylah-field-210540a2/
+- Key takeaways: 6 bullets, words [30, 34, 31, 23, 21, 17]
+- Chapters (8 links, each `<a>` to `#chapter-N-<slug>` of the transcript h2):
+  - 0:02 · Meet Kylah Field: From Cost Center to Business Driver
+  - 2:15 · Why Every AI Agent Needs a Dedicated Owner
+  - 3:33 · The Business Case: Personalization at Scale Without Tripling the Team
+  - 5:27 · Choosing a Vendor: Why Brand Voice Won
+  - 7:10 · The Surprise: AI Raised the Bar for Human Agents
+  - 8:58 · When Customers Ask for Their AI Agent by Name
+  - 12:11 · From Inbox to Insights: How AI Freed the Team
+  - 15:13 · Proving Revenue Impact and Advice for Getting Started
+- Full transcript: 8 chapter h2s, 49 paragraphs, 3797 words total. Per chapter (paragraphs / speaker turns / words):
+  - "Meet Kylah Field: From Cost Center to Business Driver" — 6 p / 3 turns / 362 w
+  - "Why Every AI Agent Needs a Dedicated Owner" — 3 p / 2 turns / 230 w
+  - "The Business Case: Personalization at Scale Without Tripling the Team" — 4 p / 4 turns / 355 w
+  - "Choosing a Vendor: Why Brand Voice Won" — 4 p / 2 turns / 314 w
+  - "The Surprise: AI Raised the Bar for Human Agents" — 3 p / 2 turns / 303 w
+  - "When Customers Ask for Their AI Agent by Name" — 8 p / 8 turns / 527 w
+  - "From Inbox to Insights: How AI Freed the Team" — 6 p / 4 turns / 566 w
+  - "Proving Revenue Impact and Advice for Getting Started" — 15 p / 11 turns / 1140 w
+  - Speakers (bold label + timestamp link): Kylah, Lisa
+- FAQ: 5 Q&As:
+  - "Why did Spanx choose an AI vendor based on brand voice instead of technology?" — answer 48 words
+  - "Does AI customer experience replace human agents?" — answer 44 words
+  - "What’s the biggest mistake companies make when adopting AI for customer experience?" — answer 43 words
+  - "How do customers react to AI customer service agents?" — answer 50 words
+  - "How much of Spanx’s customer service does Siena automate?" — answer 45 words

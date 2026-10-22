@@ -1,0 +1,384 @@
+{
+ "ticker": {
+  "secRect": {
+   "x": 0,
+   "y": 575,
+   "width": 390,
+   "height": 45,
+   "top": 575,
+   "right": 390,
+   "bottom": 620,
+   "left": 0
+  },
+  "mask": "linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 10%, rgb(0, 0, 0) 90%, rgba(0, 0, 0, 0) 100%)",
+  "ulTag": "UL",
+  "gap": "40px",
+  "n": 56,
+  "speedPxPerS": -44.887780548628434,
+  "items": [
+   {
+    "w": 176,
+    "h": 32,
+    "name": "1",
+    "img": null,
+    "svg": 156,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 92,
+    "h": 32,
+    "name": "FIGS",
+    "img": null,
+    "svg": 0,
+    "bg": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000",
+    "aria": "false"
+   },
+   {
+    "w": 209,
+    "h": 32,
+    "name": "Madhapy",
+    "img": null,
+    "svg": 0,
+    "bg": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000",
+    "aria": "false"
+   },
+   {
+    "w": 167,
+    "h": 32,
+    "name": "4",
+    "img": null,
+    "svg": 157,
+    "bg": null,
+    "aria": "false"
+   },
+   {
+    "w": 119,
+    "h": 38,
+    "name": "5",
+    "img": null,
+    "svg": 156,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 111,
+    "h": 40,
+    "name": "6",
+    "img": null,
+    "svg": 156,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 120,
+    "h": 38,
+    "name": "7",
+    "img": null,
+    "svg": 155,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 91,
+    "h": 44,
+    "name": "8",
+    "img": null,
+    "svg": 155,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 241,
+    "h": 24,
+    "name": "9",
+    "img": null,
+    "svg": 157,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 99,
+    "h": 44,
+    "name": "10",
+    "img": null,
+    "svg": 156,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 161,
+    "h": 32,
+    "name": "11",
+    "img": null,
+    "svg": 156,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 207,
+    "h": 38,
+    "name": "12",
+    "img": null,
+    "svg": 77,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 156,
+    "h": 38,
+    "name": "13",
+    "img": null,
+    "svg": 157,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 71,
+    "h": 38,
+    "name": "14",
+    "img": null,
+    "svg": 155,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 112,
+    "h": 38,
+    "name": "15",
+    "img": null,
+    "svg": 157,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 150,
+    "h": 24,
+    "name": "16",
+    "img": null,
+    "svg": 156,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 152,
+    "h": 30,
+    "name": "17",
+    "img": null,
+    "svg": 157,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 188,
+    "h": 40,
+    "name": "18",
+    "img": null,
+    "svg": 155,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 154,
+    "h": 44,
+    "name": "19",
+    "img": null,
+    "svg": 156,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 126,
+    "h": 38,
+    "name": "20",
+    "img": null,
+    "svg": 157,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 178,
+    "h": 30,
+    "name": "21",
+    "img": null,
+    "svg": 157,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 103,
+    "h": 30,
+    "name": "22",
+    "img": null,
+    "svg": 156,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 189,
+    "h": 38,
+    "name": "23",
+    "img": null,
+    "svg": 158,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 86,
+    "h": 44,
+    "name": "24",
+    "img": null,
+    "svg": 153,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 112,
+    "h": 44,
+    "name": "25",
+    "img": null,
+    "svg": 156,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 144,
+    "h": 30,
+    "name": "26",
+    "img": null,
+    "svg": 157,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 82,
+    "h": 44,
+    "name": "27",
+    "img": null,
+    "svg": 156,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 121,
+    "h": 30,
+    "name": "28",
+    "img": null,
+    "svg": 157,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 176,
+    "h": 32,
+    "name": "1",
+    "img": null,
+    "svg": 156,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 92,
+    "h": 32,
+    "name": "FIGS",
+    "img": null,
+    "svg": 0,
+    "bg": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000",
+    "aria": "true"
+   },
+   {
+    "w": 209,
+    "h": 32,
+    "name": "Madhapy",
+    "img": null,
+    "svg": 0,
+    "bg": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000",
+    "aria": "true"
+   },
+   {
+    "w": 167,
+    "h": 32,
+    "name": "4",
+    "img": null,
+    "svg": 157,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 119,
+    "h": 38,
+    "name": "5",
+    "img": null,
+    "svg": 156,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 111,
+    "h": 40,
+    "name": "6",
+    "img": null,
+    "svg": 156,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 120,
+    "h": 38,
+    "name": "7",
+    "img": null,
+    "svg": 155,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 91,
+    "h": 44,
+    "name": "8",
+    "img": null,
+    "svg": 155,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 241,
+    "h": 24,
+    "name": "9",
+    "img": null,
+    "svg": 157,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 99,
+    "h": 44,
+    "name": "10",
+    "img": null,
+    "svg": 156,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 161,
+    "h": 32,
+    "name": "11",
+    "img": null,
+    "svg": 156,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 207,
+    "h": 38,
+    "name": "12",
+    "img": null,
+    "svg": 77,
+    "bg": null,
+    "aria": "true"
+   }
+  ]
+ },
+ "faqNames": [
+  "FAQ"
+ ]
+}

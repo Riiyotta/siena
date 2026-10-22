@@ -1,0 +1,76 @@
+{
+  "id": "section.hero.statement-image",
+  "registryId": "section.hero.statement-image",
+  "typeId": "hero.statement-image",
+  "version": "1.0.0",
+  "category": "hero",
+  "purpose": "About-us mission statement: centered H1 over a full-bleed painterly illustration.",
+  "evidenceLevel": "measured",
+  "variants": {
+    "about": "900px tall, padding 200 64 160."
+  },
+  "composes": [
+    "primitive.text",
+    "primitive.image"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "headline": {
+        "type": "string",
+        "maxWords": 20
+      },
+      "background": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "const": "illustration.editorial"
+          },
+          "assetRef": {
+            "type": "string",
+            "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 24
+          }
+        },
+        "required": [
+          "assetRole",
+          "assetRef"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "required": [
+      "headline",
+      "background"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "appear-rise"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "664 tall, padding 96 24 64, H1 56/56 (9 lines)."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustFollowNav": true
+  },
+  "measuredFrom": [
+    "spec.a1",
+    "jsx.about"
+  ]
+}

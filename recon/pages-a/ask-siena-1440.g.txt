@@ -1,0 +1,843 @@
+ #435 <div> [Main] 0,0 1440x8541 flex column jc:center ai:center gap:0px
+  #436 <div> [Hero] 0,0 1440x800 flex column jc:flex-start ai:center gap:10px ; pad:120px 0px 80px ; bg:rgb(255, 255, 255)
+   #437 <div> [top] 720,153 1x1 pos:absolute t:153px l:719.5px r:719.5px b:646px ; ovf:hidden ; z:1
+   #438 <div> [Header Content] 80,120 1280x600 flex row jc:center ai:center gap:24px ; pad:0px 96px ; maxW:1280px ; z:2
+    #439 <div> [Header Copy] 176,255 560x330 flex column jc:flex-start ai:flex-start gap:40px
+     #440 <div> 176,255 495x80 flex column jc:center ai:center gap:5px
+      #442 <div> 176,255 495x80 z:1
+       #443 <h1> 176,255 495x80  T"Meet Ask Siena" ["Feature Deck Web Light" 300  80px/80px ls:-0.8px c:rgb(18, 32, 35) ta:left]
+     #445 <div> 176,375 438x112 z:1
+      #446 <p> 176,375 438x112  T"The agent that builds the agent. The intelligence that surfaces what your customers are telling you. Democratizing world-class CX for every brand." ["Instrument Sans" 500  20px/28px ls:-0.2px c:rgb(18, 32, 35) ta:left]
+     #449 <a> [xlg] 176,527 157x58 flex row jc:center ai:center gap:10px ; pad:18px 24px ; bg:rgb(18, 32, 35) ; bgImg:linear-gradient(90deg, rgb(18, 32, 35) 0%, rgb(18, 32, 35) 20%, rgb(18, 32, 35) 40%, rgb(18, 32, 35) 60%, rgb(18, 32, 35) 80%, rgb(18, 32, 35) 100%) ; rad:16px ; href:./book-a-demo
+      #450 <div> [Text] 200,545 109x22 
+       #451 <p> 200,545 109x22  T"Book a demo" ["Instrument Sans" 600  18px/21.6px c:rgb(255, 255, 255) ta:left]
+    #452 <div> [Visual] 760,194 504x452 
+     #453 <div> 613,125 797x666 pos:absolute t:12px l:-93px r:-93px b:-65px ; tf:matrix(-0.965926, 0.258819, -0.258819, -0.965926, 0, 0) ; filter:blur(24px) ; mask:radial-gradient(45% 41% at 54.2% 50.5%, rgb(0, 0, 0) 44.9043%, rgba(0, 0, 0, 0.376) 68.9436%, rgba(0, 0, 0, 0.082) 85.48%, rgba(0, 0, 0, 0) 94.0474%) ; z:-1
+      #454 <video> 613,125 797x666 ovf:clip ; video:https://framervideos.b-cdn.net/Abstract%20Landscape%20Moving%20Shapes.mp4 auto:true loop:true muted:true poster: fit:cover
+     #456 <div> [Person-Cutout] 891,164 248x432 pos:absolute t:-30px l:130.984px r:125.016px b:50px
+       #458 <img> 891,164 248x432 ovf:clip ; img:FI/YmGG4WNvnun2O0TtfdX5gdGE.webp?width=288&height=485 nat:288x485 fit:contain objpos:50% 50% alt:
+     #459 <div> [Footer] 760,556 504x90 flex column jc:center ai:center gap:8px ; pad:12px ; rad:32px ; pos:absolute t:362.406px l:252px r:-252px b:0px ; tf:matrix(1, 0, 0, 1, -252, 0)
+      #460 <div> [Background] 759,556 506x91 bg:rgba(243, 240, 235, 0.5) ; rad:48px ; pos:absolute t:0px l:-1px r:-1px b:-1px ; bdf:blur(10px) ; z:0
+      #461 <div> [Prompt] 772,568 480x66 flex column jc:center ai:center gap:10px ; pad:2px ; bgImg:linear-gradient(255deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 14.8649%, rgb(251, 86, 70) 32.8829%, rgb(130, 122, 204) 52.2523%, rgb(46, 121, 216) 79.7297%, rgb(171, 171, 171) 100%) ; rad:28px ; shadow:rgba(167, 160, 146, 0.3) 
+       #462 <div> [Header] 774,570 476x62 flex column jc:flex-start ai:flex-start gap:8px ; pad:8px 12px 12px ; bg:rgb(255, 255, 255) ; rad:26px ; ovf:hidden
+        #463 <div> [Content] 786,578 156x42 flex row jc:flex-start ai:center gap:8px ; pad:4px 12px 4px 0px
+         #464 <div> [Icon-Black] 786,587 25x25 
+          #466 <svg> 786,587 25x25 ovf:hidden ; SVG use:#svg-1472641472_1627 vb:0 0 25 25
+         #468 <div> [What can I help with?] 819,582 97x34 
+          #469 <h6> 819,582 97x34  T"Ask Siena" ["Feature Deck Web Regular" 400  24px/33.6px c:rgb(18, 32, 35)]
+         #472 <span> 924,586 6x24 flex row jc:normal ai:center gap:normal
+          #473 <span> 926,586 2x24 bg:rgb(255, 255, 255) ; rad:2px ; op:0 ; trans:opacity 0.1s
+  #474 <div> 0,800 1440x176 flex row jc:center ai:center gap:10px ; pad:0px 0px 80px ; ovf:clip
+   #475 <div> [Logos] 0,800 1440x96 flex column jc:space-between ai:center gap:normal ; ovf:hidden ; z:1
+    #477 <div> [Ticker] 0,800 1440x33 flex row jc:flex-start ai:center gap:112px  ...COLLAPSED
+    #596 <div> [Ticker] 0,863 1440x33 flex row jc:flex-start ai:center gap:112px  ...COLLAPSED
+  #717 <div> [cx-insights] 392,7384 636x8 pos:absolute t:7384px l:392.391px r:411.609px b:1149.2px ; ovf:clip ; z:1
+  #719 <div> 611,976 218x30 pos:sticky t:88px l:auto r:auto b:auto ; z:4 ; STICKY top:88px
+   #720 <div> [1] 611,976 218x30 flex row jc:center ai:center gap:8px ; pad:8px 16px ; bg:rgba(250, 247, 241, 0.2) ; rad:50px ; bdf:blur(5px)
+    #721 <div> 614,979 52x24 pos:absolute t:3px l:3px r:163px b:3px
+     #723 <svg> 614,979 52x24 ovf:hidden ; SVG use:#svg1772667210_394 vb:null
+    #725 <div> [Title] 627,984 33x14 
+     #726 <p> 627,984 33x14 
+      #727 <a> 627,984 33x13 href:./ask-siena#build T"build" ["Geist Mono" 400  10px/14px ls:0.5px c:rgb(42, 54, 57) ta:center tt:uppercase]
+    #728 <div> 668,984 1x14 bg:rgb(205, 188, 160) ; ovf:clip
+    #729 <div> [Title] 677,984 137x14 
+     #730 <p> 677,984 137x14 
+      #731 <a> 677,984 137x13 href:./ask-siena#cx-intelligence T"customer Intelligence" ["Geist Mono" 400  10px/14px ls:0.5px c:rgb(42, 54, 57) ta:center tt:uppercase]
+  #732 <div> [Features] 0,1006 1440x3251 flex column jc:center ai:center gap:0px ; pad:0px 0px 80px
+   #733 <div> [Scroll Area] 0,1006 1440x2968 flex column jc:center ai:center gap:0px ; pad:0px 96px ; bg:rgb(255, 255, 255)
+    #734 <div> [Title] 189,1006 1062x248 flex column jc:center ai:center gap:24px ; pad:40px 0px 0px ; maxW:1062px ; z:1
+     #735 <div> 360,1046 720x128 maxW:720px ; z:1
+      #736 <h2> 360,1046 720x128  T"Your partner in building agents" ["Feature Deck Web Light" 400  64px/64px ls:-1.28px c:rgb(18, 32, 35) ta:center]
+     #738 <div> 380,1198 680x56 maxW:680px ; z:1
+      #739 <p> 380,1198 680x56  T"Ask Siena reads the context, knows how to build the agent, and does it so your team skips the learning curve. Bring the idea, it brings the skill." ["Instrument Sans" 500  20px/28px ls:-0.2px c:rgb(18, 32, 35) ta:center]
+    #740 <div> [Scroll Area] 96,1254 1248x2720 flex row jc:center ai:flex-start gap:64px
+     #741 <div> [Content] 176,1254 512x2720 flex column jc:center ai:center gap:10px ; maxW:512px
+      #742 <div> [1] 176,1254 512x900 flex column jc:center ai:flex-start gap:32px ; z:1
+       #743 <div> 176,1543 512x233 flex column jc:center ai:center gap:24px
+        #744 <div> 176,1543 512x125 z:1
+         #745 <h3> 176,1543 512x125  T"Describe the work. Ask Siena does it." ["Feature Deck Web Regular" 400  52px/62.4px c:rgb(18, 32, 35) ta:left]
+        #746 <div> 176,1692 512x84 maxW:564px ; z:1
+         #747 <p> 176,1692 512x84  T"An SOP, a transcript, a URL: whatever you've got. Ask Siena reads it and builds the agent, right in the same conversation." ["Instrument Sans" 500  20px/28px ls:-0.2px c:rgb(18, 32, 35)]
+       #750 <a> [xlg] 176,1808 157x58 flex row jc:center ai:center gap:10px ; pad:18px 24px ; bg:rgb(18, 32, 35) ; bgImg:linear-gradient(90deg, rgb(18, 32, 35) 0%, rgb(18, 32, 35) 20%, rgb(18, 32, 35) 40%, rgb(18, 32, 35) 60%, rgb(18, 32, 35) 80%, rgb(18, 32, 35) 100%) ; rad:16px ; href:./book-a-demo
+        #751 <div> [Text] 200,1826 109x22 
+         #752 <p> 200,1826 109x22  T"Book a demo" ["Instrument Sans" 600  18px/21.6px c:rgb(255, 255, 255) ta:left]
+      #753 <div> [2] 176,2164 512x900 flex column jc:center ai:flex-start gap:32px ; z:1
+       #754 <div> 176,2498 512x233 flex column jc:center ai:center gap:24px
+        #755 <div> 176,2498 512x125 z:1
+         #756 <h3> 176,2498 512x125  T"Work through it together" ["Feature Deck Web Regular" 400  52px/62.4px c:rgb(18, 32, 35) ta:left]
+        #757 <div> 176,2646 512x84 maxW:564px ; z:1
+         #758 <p> 176,2646 512x84  T"Siena asks what it needs to know, confirms the edge cases, and shapes the plan with you before anything actually gets built." ["Instrument Sans" 500  20px/28px ls:-0.2px c:rgb(18, 32, 35)]
+      #759 <div> [3] 176,3074 512x900 flex column jc:center ai:flex-start gap:32px ; z:1
+       #760 <div> 176,3453 512x142 flex column jc:center ai:center gap:24px
+        #761 <div> 176,3453 512x62 z:1
+         #762 <h3> 176,3453 512x62  T"Review and ship" ["Feature Deck Web Regular" 400  52px/62.4px c:rgb(18, 32, 35) ta:left]
+        #763 <div> 176,3539 512x56 maxW:564px ; z:1
+         #764 <p> 176,3539 512x56  T"Review what's ready to go, whether it's a journey, a policy, or a doc, then deploy it right in the same conversation." ["Instrument Sans" 500  20px/28px ls:-0.2px c:rgb(18, 32, 35)]
+     #765 <div> [Sticky] 752,1254 512x900 flex row jc:center ai:center gap:10px ; pad:110px 0px 40px ; maxW:512px ; pos:sticky t:0px l:auto r:auto b:auto ; z:1 ; STICKY top:0px
+      #767 <div> 752,1416 512x647 maxW:512px
+       #768 <div> [AskSiena] 752,1416 512x647 flex column jc:flex-end ai:center gap:8px ; pad:12px 16px 16px 12px ; maxW:100% ; bg:rgba(243, 240, 235, 0.4) ; rad:28px ; bdf:blur(10px)
+        #769 <div> [Ask Siena] 788,1757 420x68 flex row jc:center ai:flex-start gap:10px ; pos:absolute t:375.141px l:245.75px r:-153.578px b:203.672px ; tf:matrix(1, 0, 0, 1, -209.914, -34) ; z:1
+         #770 <div> 788,1757 40x68 flex row jc:center ai:center gap:10px ; pad:16px 0px 12px ; ovf:clip
+          #771 <div> [Avatar] 788,1773 40x40 rad:99px ; ovf:hidden
+           #772 <div> [image 1696] 789,1770 38x57 pos:absolute t:-3px l:1px r:1px b:-14px
+             #774 <img> 789,1770 38x57 ovf:clip ; img:FI/D3TQ38q4HpOxmxHoD1u1AW40NI.png?scale-down-to=1024&width=1000&height=1500 nat:38x57 fit:cover objpos:50% 50% alt:Portrait image of a happy person
+         #775 <div> 838,1757 370x63 flex column jc:flex-end ai:flex-end gap:10px
+          #776 <div> [Bars] 843,1647 86x86 flex column jc:center ai:center gap:5px ; pad:1px ; rad:14px ; shadow:rgba(167, 160, 146, 0.3) 0px 1.5px 8px 0px ; pos:absolute t:-110px l:5px r:278.828px b:87.4062px ; z:-1
+           #777 <div> [User Message] 844,1648 84x84 flex row jc:center ai:center gap:6px ; pad:6px ; bg:rgb(255, 255, 255) ; rad:14px ; ovf:clip ; z:1
+            #778 <div> 850,1654 72x72 flex column jc:flex-start ai:center gap:8px
+             #779 <div> 850,1654 72x12 flex row jc:center ai:center gap:5px ; ovf:clip
+              #780 <div> [Response too generic] 850,1654 72x12 ovf:clip
+               #781 <p> 850,1654 72x12  T"Transcript from meeting" ["Tiempos Text Regular" 400  9px/11.7px ls:-0.09px c:rgb(18, 32, 36)]
+             #782 <div> [Docs / Item] 856,1673 59x52 flex column jc:center ai:center gap:10px ; pad:8px ; rad:8px ; shadow:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px ; z:0
+              #783 <div> [User Message] 864,1681 43x36 flex row jc:center ai:center gap:12px ; pad:4px ; bg:rgb(255, 255, 255) ; rad:8px ; ovf:clip ; z:1
+               #784 <div> 868,1685 35x28 maxW:564px ; z:1
+                #785 <p> 868,1685 35x28  T"" ["Font Awesome 6 Sharp Light" 300  28px/28px c:rgb(48, 46, 42) ta:center]
+            #786 <div> [Blur out] 843,1678 86x54 flex row jc:center ai:center gap:5px ; bgImg:linear-gradient(0deg, rgb(255, 255, 255) 8%, rgba(254, 254, 253, 0.88) 34%, rgba(250, 247, 241, 0) 100%) ; pos:absolute t:30px l:-1px r:-1px b:0px ; ovf:hidden ; z:2
+          #787 <div> [Bars] 1116,1647 87x87 flex column jc:center ai:center gap:5px ; pad:1px ; rad:14px ; shadow:rgba(167, 160, 146, 0.3) 0px 1.5px 8px 0px ; pos:absolute t:-110px l:277.828px r:5px b:86.4062px ; z:-1
+           #788 <div> [User Message] 1117,1648 85x85 flex row jc:center ai:center gap:6px ; pad:6px ; bg:rgb(255, 255, 255) ; rad:14px ; ovf:clip ; z:1
+            #789 <div> 1123,1654 73x73 flex column jc:flex-start ai:center gap:8px
+             #790 <div> 1123,1654 73x12 flex row jc:center ai:center gap:5px ; ovf:clip
+              #791 <div> [Response too generic] 1123,1654 73x12 ovf:clip
+               #792 <p> 1123,1654 73x12  T"yourbrand.com/bundle" ["Tiempos Text Regular" 400  9px/11.7px ls:-0.09px c:rgb(18, 32, 36)]
+             #793 <div> [Docs / Item] 1130,1673 59x52 flex column jc:center ai:center gap:10px ; pad:8px ; rad:8px ; shadow:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px ; z:0
+              #794 <div> [User Message] 1138,1681 43x36 flex row jc:center ai:center gap:12px ; pad:4px ; bg:rgb(255, 255, 255) ; rad:8px ; ovf:clip ; z:1
+               #795 <div> 1142,1685 35x28 maxW:564px ; z:1
+                #796 <p> 1142,1685 35x28  T"" ["Font Awesome 6 Sharp Light" 300  28px/28px c:rgb(48, 46, 42) ta:center]
+            #797 <div> [Blur out] 1116,1679 87x54 flex row jc:center ai:center gap:5px ; bgImg:linear-gradient(0deg, rgb(255, 255, 255) 8%, rgba(254, 254, 253, 0.88) 34%, rgba(250, 247, 241, 0) 100%) ; pos:absolute t:31px l:-1px r:-1px b:0px ; ovf:hidden ; z:2
+          #798 <div> [Bars] 979,1647 87x87 flex column jc:center ai:center gap:5px ; pad:1px ; rad:16.092% ; shadow:rgba(167, 160, 146, 0.3) 0px 1.5px 8px 0px ; pos:absolute t:-110px l:184.906px r:97.9219px b:86.4062px ; tf:matrix(1, 0, 0, 1, -43.5, 0) ; z:-1
+           #799 <div> [User Message] 980,1648 85x85 flex row jc:center ai:center gap:6px ; pad:6px ; bg:rgb(255, 255, 255) ; rad:14px ; ovf:clip ; z:1
+            #800 <div> 986,1654 73x73 flex column jc:space-between ai:center gap:normal
+             #801 <div> 986,1654 73x12 flex row jc:center ai:center gap:5px ; ovf:clip
+              #802 <div> [Response too generic] 986,1654 73x12 ovf:clip
+               #803 <p> 986,1654 73x12  T"Returns SOP.pdf" ["Tiempos Text Regular" 400  9px/11.7px ls:-0.09px c:rgb(18, 32, 36)]
+             #804 <div> 985,1667 74x51 flex row jc:center ai:center gap:5px ; rad:8.10811% / 11.7647% ; pos:absolute t:38.6875px l:-1px r:0px b:-16.6875px ; ovf:clip ; tf:matrix(1, 0, 0, 1, 0, -25.5) ; z:1
+              #805 <div> [Content Graphic] 985,1667 74x51 flex row jc:center ai:center gap:0px ; pad:4px 9px 4px 8px ; rad:8px ; ovf:hidden ; bdf:blur(1px)
+               #806 <div> [yewr89chnr48whf83fgxr078fb43oq67rg320xcrg328] 993,1671 57x43 
+                #807 <p> 993,1671 57x21  T"Confirm order is within the 30-day window" ["Tiempos Text Regular Italic" 400 italic 7px/7px ls:-0.07px c:rgb(160, 166, 167)]
+                #809 <li> 993,1692 57x14 pad:0px 0px 0px 8.75px
+                 #810 <p> 1002,1692 48x14  T"Offer exchange or refund" ["Tiempos Text Regular Italic" 400 italic 7px/7px ls:-0.07px c:rgb(160, 166, 167)]
+                #811 <li> 993,1706 57x21 pad:0px 0px 0px 8.75px
+                 #812 <p> 1002,1706 48x21  T"Send prepaid label · log reason" ["Tiempos Text Regular Italic" 400 italic 7px/7px ls:-0.07px c:rgb(160, 166, 167)]
+            #813 <div> [Blur out] 979,1679 87x54 flex row jc:center ai:center gap:5px ; bgImg:linear-gradient(0deg, rgb(255, 255, 255) 8%, rgba(254, 254, 253, 0.88) 34%, rgba(250, 247, 241, 0) 100%) ; pos:absolute t:31px l:-1px r:-1px b:0px ; ovf:hidden ; z:2
+            #814 <div> 990,1706 65x23 flex row jc:center ai:center gap:0px ; pos:absolute t:58px l:42.5px r:-22.5px b:4px ; ovf:clip ; tf:matrix(1, 0, 0, 1, -32.5, 0) ; z:2
+          #815 <div> [01] 838,1757 370x63 flex column jc:flex-start ai:flex-start gap:24px ; pad:20px ; bg:rgba(243, 240, 235, 0.7) ; rad:16px ; bdf:blur(10px) ; z:2
+           #816 <div> [Get your AI superhuman up and running 90% faster and more efficient than the average automation tools. 101% empathy is required to turn around a brand ready to capture the world’s imagination. Meet Siena.] 858,1777 330x23 
+            #817 <p> 858,1777 330x23  T"Build a returns journey from this SOP." ["Tiempos Text Regular" 400  18px/23.4px ls:-0.18px c:rgb(42, 54, 57)]
+   #818 <div> [Bento Card] 120,3974 1200x203 flex column jc:flex-start ai:center gap:16px ; maxW:1200px
+    #819 <div> 216,3974 1008x203 flex row jc:center ai:flex-start gap:64px ; maxW:1008px ; ovf:hidden
+     #820 <div> [Title] 216,3974 293x203 flex column jc:center ai:flex-start gap:16px ; pad:32px 0px 0px ; maxW:416px ; z:1
+      #821 <div> 216,4006 27x24 maxW:564px ; z:1
+       #822 <p> 216,4006 27x24  T"" ["Font Awesome 6 Sharp Light" 400  24px/24px c:rgb(18, 32, 35) ta:center]
+      #823 <div> 216,4046 293x77 z:1
+       #824 <p> 216,4046 293x77  T"One agent, every artifact" ["Feature Deck Web Regular" 400  32px/38.4px c:rgb(18, 32, 35) ta:left]
+      #825 <div> 216,4139 293x38 op:0.8 ; z:1
+       #826 <p> 216,4139 293x38  T"Creates the policy, doc, or whatever the job needs." ["Instrument Sans" 400  16px/19.2px ls:-0.16px c:rgb(42, 54, 57) ta:left]
+     #827 <div> [Title] 573,3974 293x203 flex column jc:center ai:flex-start gap:16px ; pad:32px 0px 0px ; maxW:416px ; z:1
+      #828 <div> 573,4006 24x24 maxW:564px ; z:1
+       #829 <p> 573,4006 24x24  T"" ["Font Awesome 6 Sharp Light" 400  24px/24px c:rgb(18, 32, 35) ta:center]
+      #830 <div> 573,4046 293x77 z:1
+       #831 <p> 573,4046 293x77  T"Grounded in your data" ["Feature Deck Web Regular" 400  32px/38.4px c:rgb(18, 32, 35) ta:left]
+      #832 <div> 573,4139 293x38 op:0.8 ; z:1
+       #833 <p> 573,4139 293x38  T"Built from conversations, order history, Shopify, and more." ["Instrument Sans" 400  16px/19.2px ls:-0.16px c:rgb(42, 54, 57) ta:left]
+     #834 <div> [Title] 931,3974 293x165 flex column jc:center ai:flex-start gap:16px ; pad:32px 0px 0px ; maxW:416px ; z:1
+      #835 <div> 931,4006 24x24 maxW:564px ; z:1
+       #836 <p> 931,4006 24x24  T"" ["Font Awesome 6 Sharp Light" 400  24px/24px c:rgb(18, 32, 35) ta:center]
+      #837 <div> 931,4046 293x38 z:1
+       #838 <p> 931,4046 293x38  T"Tested before it ships" ["Feature Deck Web Regular" 400  32px/38.4px c:rgb(18, 32, 35) ta:left]
+      #839 <div> 931,4100 293x38 op:0.8 ; z:1
+       #840 <p> 931,4100 293x38  T"Gets stress-tested against real scenarios before it ships." ["Instrument Sans" 400  16px/19.2px ls:-0.16px c:rgb(42, 54, 57) ta:left]
+  #841 <div> [Features] 0,4257 1440x1480 flex column jc:center ai:center gap:0px ; pad:0px 96px 80px ; bg:rgb(250, 247, 241)
+   #842 <div> [Blur out] 0,5662 1440x75 flex row jc:center ai:center gap:10px ; bgImg:linear-gradient(rgb(250, 247, 241) 40%, rgb(255, 255, 255) 100%) ; pos:absolute t:1405px l:0px r:0px b:0px ; ovf:hidden
+   #843 <div> [2] 184,4257 1072x700 flex row jc:center ai:center gap:56px ; maxW:1072px ; z:1
+    #844 <div> [Sticky Image] 184,4363 512x488 flex column jc:flex-start ai:center gap:24px ; pad:32px ; maxW:512px ; bgImg:linear-gradient(148deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 10%, rgb(255, 255, 255) 100%) ; rad:24px ; bdf:blur(9px) ; z:0
+     #845 <div> [Docs / Item] 214,4502 193x201 flex column jc:center ai:center gap:10px ; pad:2px ; rad:28px ; shadow:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px ; pos:absolute t:153.484px l:46px r:305px b:163.516px ; tf:matrix(0.978148, -0.207912, 0.207912, 0.978148, 0, 0) ; z:0
+      #846 <div> [User Message] 216,4504 188x196 flex row jc:center ai:center gap:12px ; pad:16px 12px ; bg:rgb(255, 255, 255) ; rad:28px ; ovf:clip ; z:1
+       #847 <div> 231,4522 158x160 flex column jc:space-between ai:center gap:normal
+        #848 <div> 231,4522 135x51 flex row jc:center ai:center gap:8px ; ovf:clip
+         #849 <div> [Response too generic] 231,4522 135x51 
+          #850 <p> 231,4522 135x51  T"Volume Analyst" ["Tiempos Text Regular" 400  18px/23.4px ls:-0.18px c:rgb(42, 54, 57)]
+        #851 <div> 239,4556 152x128 flex row jc:center ai:center gap:10px ; rad:12px ; pos:absolute t:35px l:0px r:-1px b:-2px ; ovf:clip ; z:1
+         #852 <div> [Content Graphic] 239,4556 152x128 flex column jc:center ai:center gap:8px ; pad:8px ; rad:16px ; ovf:hidden ; bdf:blur(2px)
+          #853 <div> [yewr89chnr48whf83fgxr078fb43oq67rg320xcrg328] 248,4566 133x109 
+           #854 <p> 248,4566 131x96  T"Breaks down support volume by topic and channel" ["Tiempos Text Regular" 400  14px/18.2px c:rgb(18, 32, 35)]
+       #855 <div> [Blur out] 227,4562 180x139 flex row jc:center ai:center gap:10px ; bgImg:linear-gradient(rgba(250, 247, 241, 0) 0%, rgba(254, 254, 253, 0.88) 66%, rgb(255, 255, 255) 92%) ; pos:absolute t:59px l:-2px r:-2px b:0px ; ovf:hidden ; z:2
+       #856 <div> 258,4640 132x50 flex row jc:center ai:center gap:8px ; pos:absolute t:136px l:78.5px r:-51.5px b:8px ; ovf:clip ; tf:matrix(1, 0, 0, 1, -65, 0) ; z:2
+        #857 <div> [Chip/Filter] 298,4649 51x32 flex row jc:center ai:center gap:4px ; pad:4px 8px ; bg:rgb(255, 255, 255) ; rad:50px ; ovf:clip
+         #858 <div> [Response too generic] 307,4654 34x21 
+          #859 <p> 307,4654 34x21  T"Built in" ["Instrument Sans" 400  10px/15px c:rgb(18, 32, 35)]
+     #860 <div> [Docs / Item] 503,4507 183x192 flex column jc:center ai:center gap:10px ; pad:2px ; rad:28px ; shadow:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px ; pos:absolute t:154px l:330px r:21px b:163px ; tf:matrix(0.990268, 0.139173, -0.139173, 0.990268, 0, 0) ; z:0
+      #861 <div> [User Message] 505,4509 179x187 flex row jc:center ai:center gap:12px ; pad:16px 12px ; bg:rgb(255, 255, 255) ; rad:28px ; ovf:clip ; z:1
+       #862 <div> 519,4527 150x152 flex column jc:space-between ai:center gap:normal
+        #863 <div> 535,4527 135x42 flex row jc:center ai:center gap:8px ; ovf:clip
+         #864 <div> [Response too generic] 535,4527 135x42 ovf:clip
+          #865 <p> 535,4527 135x42  T"Opportunity Assessment" ["Tiempos Text Regular" 400  18px/23.4px ls:-0.18px c:rgb(42, 54, 57)]
+        #866 <div> 519,4561 147x120 flex row jc:center ai:center gap:10px ; rad:12px ; pos:absolute t:35px l:0px r:-1px b:-2px ; ovf:clip ; z:1
+         #867 <div> [Content Graphic] 519,4561 147x120 flex column jc:center ai:center gap:8px ; pad:8px ; rad:16px ; ovf:hidden ; bdf:blur(2px)
+          #868 <div> [yewr89chnr48whf83fgxr078fb43oq67rg320xcrg328] 528,4570 129x102 
+           #869 <p> 532,4570 124x71  T"Ranks where to expand coverage and quality" ["Tiempos Text Regular" 400  14px/18.2px c:rgb(18, 32, 35)]
+       #870 <div> [Blur out] 503,4567 174x129 flex row jc:center ai:center gap:10px ; bgImg:linear-gradient(rgba(250, 247, 241, 0) 0%, rgba(254, 254, 253, 0.88) 66%, rgb(255, 255, 255) 92%) ; pos:absolute t:59px l:-2px r:-2px b:0px ; ovf:hidden ; z:2
+       #871 <div> 520,4646 132x41 flex row jc:center ai:center gap:8px ; pos:absolute t:136px l:78.5px r:-51.5px b:8px ; ovf:clip ; tf:matrix(1, 0, 0, 1, -65, 0) ; z:2
+        #872 <div> [Chip/Filter] 561,4651 50x29 flex row jc:center ai:center gap:4px ; pad:4px 8px ; bg:rgb(255, 255, 255) ; rad:50px ; ovf:clip
+         #873 <div> [Response too generic] 569,4656 33x19 
+          #874 <p> 569,4656 33x19  T"Built in" ["Instrument Sans" 400  10px/15px c:rgb(18, 32, 35)]
+     #875 <div> [Docs / Item] 366,4475 163x171 flex column jc:center ai:center gap:10px ; pad:2px ; rad:28px ; shadow:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px ; pos:absolute t:112px l:181.5px r:167.5px b:205px ; z:0
+      #876 <div> [User Message] 368,4477 159x167 flex row jc:center ai:center gap:12px ; pad:16px 12px ; bg:rgb(255, 255, 255) ; rad:28px ; ovf:clip ; z:1
+       #877 <div> 380,4493 135x135 flex column jc:space-between ai:center gap:normal
+        #878 <div> 380,4493 135x23 flex row jc:center ai:center gap:8px ; ovf:clip
+         #879 <div> [Response too generic] 380,4493 135x23 
+          #880 <p> 380,4493 135x23  T"Journey Builder" ["Tiempos Text Regular" 400  18px/23.4px ls:-0.18px c:rgb(42, 54, 57)]
+        #881 <div> 380,4528 136x102 flex row jc:center ai:center gap:10px ; rad:12px ; pos:absolute t:35px l:0px r:-1px b:-2px ; ovf:clip ; z:1
+         #882 <div> [Content Graphic] 380,4528 136x102 flex column jc:center ai:center gap:8px ; pad:8px ; rad:16px ; ovf:hidden ; bdf:blur(2px)
+          #883 <div> [yewr89chnr48whf83fgxr078fb43oq67rg320xcrg328] 388,4536 120x86 
+           #884 <p> 388,4536 120x36  T"Turns an SOP into a working journey" ["Tiempos Text Regular" 400  14px/18.2px c:rgb(18, 32, 35)]
+       #885 <div> [Blur out] 366,4536 163x108 flex row jc:center ai:center gap:10px ; bgImg:linear-gradient(rgba(250, 247, 241, 0) 0%, rgba(254, 254, 253, 0.88) 66%, rgb(255, 255, 255) 92%) ; pos:absolute t:59px l:-2px r:-2px b:0px ; ovf:hidden ; z:2
+       #886 <div> 382,4613 130x23 flex row jc:center ai:center gap:8px ; pos:absolute t:136px l:79.5px r:-50.5px b:8px ; ovf:clip ; tf:matrix(1, 0, 0, 1, -65, 0) ; z:2
+        #887 <div> [Chip/Filter] 415,4613 64x23 flex row jc:center ai:center gap:4px ; pad:4px 8px ; bg:rgb(255, 255, 255) ; rad:50px ; ovf:clip
+         #888 <div> [Response too generic] 423,4617 29x15 
+          #889 <p> 423,4617 29x15  T"Active" ["Instrument Sans" 400  10px/15px c:rgb(18, 32, 35)]
+         #890 <div> [Icon Button] 456,4617 15x15 bgImg:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 15 15%22><path d=%22M 0.5 7.5 C 0.5 3.634 3.634 0.5 7.5 0.5 L 7.5 0.5 C 11.366 0.5 14.5 3.634 14.5 7.5 L 14.5 7.5 C 14.5 11.366 11.366 14.5 7.5 1
+     #891 <div> [Card/Nav/Regular] 240,4857 400x62 flex column jc:center ai:center gap:0px ; pad:1px ; rad:16px ; pos:absolute t:394px l:256px r:-144px b:32px ; op:0 ; ovf:hidden ; tf:matrix(1, 0, 0, 1, -200, 100) ; z:1
+      #892 <div> 241,4858 398x60 flex row jc:center ai:center gap:16px ; pad:8px ; bg:rgb(250, 247, 241) ; rad:15px ; ovf:hidden
+       #893 <div> [Icon] 249,4866 44x44 flex row jc:center ai:center gap:10px ; pad:12px ; bg:rgb(244, 237, 222) ; rad:12px ; ovf:clip
+        #894 <div> [Text] 261,4878 20x20 flex column jc:center ai:normal gap:normal
+         #895 <p> 261,4878 20x20  T"" ["Font Awesome 6 Sharp Light" 400  20px/20px c:rgb(18, 32, 35) ta:center]
+        #896 <div> 217,4882 110x61 pos:absolute t:-9px l:-8px r:-9px b:-57px ; op:0 ; tf:matrix(0, 1, -1, 0, 0, 0) ; filter:blur(14px) ; z:0
+         #897 <video> 217,4882 110x61 ovf:clip ; video:https://4positiveimpact.b-cdn.net/Abstract%20Landscape%20Moving%20Shapes.mp4 auto:true loop:true muted:true poster: fit:cover
+       #898 <div> 309,4877 322x23 flex row jc:center ai:center gap:24px
+        #899 <div> 309,4877 179x23 flex column jc:center ai:flex-start gap:4px
+         #900 <div> [Name] 309,4877 179x23 
+          #901 <p> 309,4877 179x23  T"Coaching evidence" ["Tiempos Text Regular" 400  18px/23.4px ls:-0.18px c:rgb(18, 32, 35)]
+        #902 <div> 512,4879 119x19 flex row jc:center ai:center gap:10px ; ovf:clip
+         #903 <div> [Response too generic] 512,4879 76x18 
+          #904 <p> 512,4879 76x18  T"Enable as skill" ["Instrument Sans" 400  12px/18px c:rgb(18, 32, 35)]
+         #907 <div> [Variant 2] 598,4879 33x19 flex row jc:flex-end ai:center gap:4px ; pad:2px 16px 2px 2px ; bg:rgb(255, 255, 255) ; rad:50px ; ovf:clip
+          #908 <div> [Icon Button] 600,4881 15x15 z:4
+           #910 <svg> 600,4881 15x15 ovf:hidden ; SVG use:#svg11104788011 vb:null
+    #912 <div> 752,4453 504x309 flex column jc:center ai:flex-start gap:24px
+     #913 <div> 752,4453 148x22 maxW:564px ; z:1
+      #914 <p> 752,4453 148x22  T"skills library" ["Instrument Sans" 600  16px/22.4px ls:1.7px c:rgb(18, 32, 35) ta:center tt:uppercase]
+     #915 <div> 752,4499 504x62 z:1
+      #916 <h3> 752,4499 504x62  T"Each skill is a specialist" ["Feature Deck Web Regular" 400  52px/62.4px c:rgb(18, 32, 35) ta:left]
+     #917 <div> 752,4586 504x56 maxW:564px ; z:1
+      #918 <p> 752,4586 504x56  T"Siena ships a library of skills ready on day one, or build your own." ["Instrument Sans" 500  20px/28px ls:-0.2px c:rgb(18, 32, 35)]
+     #919 <div> 752,4666 504x96 flex column jc:center ai:flex-start gap:12px ; ovf:hidden
+      #920 <div> 752,4666 504x24 flex row jc:flex-start ai:center gap:10px ; ovf:hidden
+       #921 <div> [star-four-light 1] 752,4666 24x24 
+        #923 <svg> 752,4666 24x24 ovf:hidden ; SVG use:#svg1796323270_1256 vb:0 0 24 24
+       #925 <div> 786,4666 470x23 maxW:564px ; z:1
+        #926 <p> 786,4666 470x23  T"Same job, same result every time" ["Tiempos Text Regular" 400  18px/23.4px ls:-0.18px c:rgb(18, 32, 35)]
+      #927 <div> 752,4702 504x24 flex row jc:flex-start ai:center gap:10px ; ovf:hidden
+       #928 <div> [star-four-light 1] 752,4702 24x24 
+        #930 <svg> 752,4702 24x24 ovf:hidden ; SVG use:#svg1796323270_1256 vb:0 0 24 24
+       #932 <div> 786,4702 470x23 maxW:564px ; z:1
+        #933 <p> 786,4702 470x23  T"Ask Siena reads your question and picks the right skill" ["Tiempos Text Regular" 400  18px/23.4px ls:-0.18px c:rgb(18, 32, 35) ta:left]
+      #934 <div> 752,4738 504x24 flex row jc:flex-start ai:center gap:10px ; ovf:hidden
+       #935 <div> [star-four-light 1] 752,4738 24x24 
+        #937 <svg> 752,4738 24x24 ovf:hidden ; SVG use:#svg1796323270_1256 vb:0 0 24 24
+       #939 <div> 786,4738 470x23 maxW:564px ; z:1
+        #940 <p> 786,4738 470x23  T"Turn any recurring process into a skill" ["Tiempos Text Regular" 400  18px/23.4px ls:-0.18px c:rgb(18, 32, 35) ta:left]
+   #941 <div> [1] 184,4957 1072x700 flex row jc:center ai:center gap:32px ; maxW:1072px ; z:1
+    #942 <div> 184,5110 528x394 flex column jc:center ai:center gap:24px ; ovf:clip
+     #943 <div> 184,5110 528x251 flex column jc:center ai:flex-start gap:24px
+      #944 <div> 184,5110 268x22 maxW:564px ; z:1
+       #945 <p> 184,5110 268x22  T"The admin work, handled" ["Instrument Sans" 600  16px/22.4px ls:1.7px c:rgb(18, 32, 35) ta:center tt:uppercase]
+      #946 <div> 184,5157 528x125 z:1
+       #947 <h3> 184,5157 528x125  T"Ask Siena runs your workspace" ["Feature Deck Web Regular" 400  52px/62.4px c:rgb(18, 32, 35) ta:left]
+      #948 <div> 184,5305 528x56 maxW:564px ; z:1
+       #949 <p> 184,5305 528x56  T"Every policy, doc, and task usually lives in a different tool. Siena keeps them all current from one conversation." ["Instrument Sans" 500  20px/28px ls:-0.2px c:rgb(18, 32, 35)]
+     #950 <div> 184,5385 528x119 flex column jc:center ai:center gap:12px ; ovf:hidden
+      #951 <div> 184,5385 528x47 flex row jc:center ai:center gap:10px ; ovf:hidden
+       #952 <div> [star-four-light 1] 184,5397 24x24 
+        #954 <svg> 184,5397 24x24 ovf:hidden ; SVG use:#svg1796323270_1256 vb:0 0 24 24
+       #956 <div> 218,5385 494x47 maxW:564px ; z:1
+        #957 <p> 218,5385 494x47  T"Docs created and updated: policies, playbooks, brand guidelines" ["Tiempos Text Regular" 400  18px/23.4px ls:-0.18px c:rgb(42, 54, 57)]
+      #958 <div> 184,5444 528x24 flex row jc:center ai:center gap:10px ; ovf:hidden
+       #959 <div> [star-four-light 1] 184,5444 24x24 
+        #961 <svg> 184,5444 24x24 ovf:hidden ; SVG use:#svg1796323270_1256 vb:0 0 24 24
+       #963 <div> 218,5445 494x23 maxW:564px ; z:1
+        #964 <p> 218,5445 494x23  T"Planner tasks managed without switching tools" ["Tiempos Text Regular" 400  18px/23.4px ls:-0.18px c:rgb(42, 54, 57) ta:left]
+      #965 <div> 184,5480 528x24 flex row jc:center ai:center gap:10px ; ovf:hidden
+       #966 <div> [star-four-light 1] 184,5480 24x24 
+        #968 <svg> 184,5480 24x24 ovf:hidden ; SVG use:#svg1796323270_1256 vb:0 0 24 24
+       #970 <div> 218,5481 494x23 maxW:564px ; z:1
+        #971 <p> 218,5481 494x23  T"One conversation updates your entire Siena workspace" ["Tiempos Text Regular" 400  18px/23.4px ls:-0.18px c:rgb(42, 54, 57) ta:left]
+    #972 <div> [Sticky Image] 744,5063 512x488 flex column jc:center ai:center gap:24px ; maxW:512px ; rad:24px ; ovf:hidden ; bdf:blur(9px) ; z:0
+     #973 <div> [Docs-card] 744,5063 512x488 bgImg:linear-gradient(147deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%) ; rad:24px ; ovf:clip ; bdf:blur(6px) ; z:0
+      #975 <div> [Frame 2087325258] 723,5223 588x658 pos:absolute t:345px l:-30px r:-63px b:-144px ; op:0.36 ; tf:matrix(0.587785, 0.809017, -0.809017, 0.587785, 0, 0) ; filter:blur(39px) ; z:0
+        #977 <img> 723,5223 588x658 ovf:clip ; img:FI/QHZQBNQlSL00uTxYcQKOePAWdT0.webp?scale-down-to=1024&width=1215&height=1147 nat:605x571 fit:contain objpos:50% 50% alt:
+      #978 <div> 744,5111 512x1 bg:rgb(239, 229, 208) ; pos:absolute t:48px l:0px r:0px b:439px ; ovf:clip
+      #979 <div> 744,5083 512x12 flex row jc:flex-start ai:center gap:10px ; pad:0px 0px 0px 16px ; pos:absolute t:20px l:256px r:-256px b:456px ; ovf:clip ; tf:matrix(1, 0, 0, 1, -256, 0)
+       #980 <div> 760,5083 44x12 flex row jc:center ai:center gap:4px ; ovf:clip
+        #981 <div> 760,5083 12x12 bg:rgb(239, 229, 208) ; rad:999px ; ovf:clip
+        #982 <div> 776,5083 12x12 bg:rgb(239, 229, 208) ; rad:999px ; ovf:clip
+        #983 <div> 792,5083 12x12 bg:rgb(239, 229, 208) ; rad:999px ; ovf:clip
+      #984 <div> 744,5128 512x24 flex row jc:space-between ai:center gap:normal ; pad:0px 16px ; pos:absolute t:65px l:256px r:-256px b:399px ; ovf:clip ; tf:matrix(1, 0, 0, 1, -256, 0)
+       #985 <div> 760,5128 24x24 flex row jc:center ai:center gap:10px ; ovf:clip
+      #986 <div> 744,5132 512x292 flex column jc:center ai:flex-start gap:10px ; pad:0px 32px ; pos:absolute t:69px l:256px r:-256px b:127.406px ; tf:matrix(1, 0, 0, 1, -256, 0)
+       #987 <div> 776,5132 38x17 maxW:564px ; z:1
+        #988 <p> 776,5132 38x17  T"docs" ["Instrument Sans" 600  12px/16.8px ls:0.6px c:rgb(120, 115, 104) ta:center tt:uppercase]
+       #989 <div> [Card/Nav/Regular] 776,5159 448x62 flex column jc:center ai:center gap:0px ; pad:1px ; rad:16px ; ovf:hidden
+        #990 <div> 777,5160 446x60 flex row jc:center ai:center gap:24px ; pad:8px ; bg:rgb(250, 247, 241) ; rad:15px ; ovf:hidden
+         #991 <div> [Icon] 785,5168 44x44 flex row jc:center ai:center gap:10px ; pad:12px ; bg:rgb(244, 237, 222) ; rad:12px ; ovf:clip
+          #992 <div> [Text] 797,5180 20x20 flex column jc:center ai:normal gap:normal
+           #993 <p> 797,5180 20x20  T"" ["Font Awesome 6 Sharp Light" 400  20px/20px c:rgb(18, 32, 35) ta:center]
+          #994 <div> 753,5184 110x61 pos:absolute t:-9px l:-8px r:-9px b:-57px ; op:0 ; tf:matrix(0, 1, -1, 0, 0, 0) ; filter:blur(14px) ; z:0
+           #995 <video> 753,5184 110x61 ovf:clip ; video:https://4positiveimpact.b-cdn.net/Abstract%20Landscape%20Moving%20Shapes.mp4 auto:true loop:true muted:true poster: fit:cover
+         #996 <div> 853,5178 362x23 flex column jc:center ai:flex-start gap:24px
+          #997 <div> 853,5178 362x23 flex column jc:center ai:flex-start gap:8px
+           #998 <div> [Name] 853,5178 362x23 
+            #999 <p> 853,5178 362x23  T"Return handling policy" ["Tiempos Text Regular" 400  18px/23.4px ls:-0.18px c:rgb(18, 32, 35)]
+       #1000 <div> [Card/Nav/Regular] 776,5231 448x62 flex column jc:center ai:center gap:0px ; pad:1px ; rad:16px ; ovf:hidden
+        #1001 <div> 777,5232 446x60 flex row jc:center ai:center gap:24px ; pad:8px ; bg:rgb(250, 247, 241) ; rad:15px ; ovf:hidden
+         #1002 <div> [Icon] 785,5240 44x44 flex row jc:center ai:center gap:10px ; pad:12px ; bg:rgb(244, 237, 222) ; rad:12px ; ovf:clip
+          #1003 <div> [Text] 797,5252 20x20 flex column jc:center ai:normal gap:normal
+           #1004 <p> 797,5252 20x20  T"" ["Font Awesome 6 Sharp Light" 400  20px/20px c:rgb(18, 32, 35) ta:center]
+          #1005 <div> 753,5256 110x61 pos:absolute t:-9px l:-8px r:-9px b:-57px ; op:0 ; tf:matrix(0, 1, -1, 0, 0, 0) ; filter:blur(14px) ; z:0
+           #1006 <video> 753,5256 110x61 ovf:clip ; video:https://4positiveimpact.b-cdn.net/Abstract%20Landscape%20Moving%20Shapes.mp4 auto:true loop:true muted:true poster: fit:cover
+         #1007 <div> 853,5250 362x23 flex column jc:center ai:flex-start gap:24px
+          #1008 <div> 853,5250 362x23 flex column jc:center ai:flex-start gap:8px
+           #1009 <div> [Name] 853,5250 362x23 
+            #1010 <p> 853,5250 362x23  T"Social Media DM & Comments policy" ["Tiempos Text Regular" 400  18px/23.4px ls:-0.18px c:rgb(18, 32, 35)]
+       #1011 <div> 776,5303 61x17 maxW:564px ; z:1
+        #1012 <p> 776,5303 61x17  T"planner" ["Instrument Sans" 600  12px/16.8px ls:0.6px c:rgb(120, 115, 104) ta:center tt:uppercase]
+       #1013 <div> [Card/Nav/Regular] 776,5430 448x42 flex column jc:center ai:center gap:0px ; pad:1px ; rad:16px ; op:0 ; ovf:hidden ; tf:matrix(1, 0, 0, 1, 0, 100)
+        #1014 <div> 777,5431 446x40 flex row jc:center ai:center gap:12px ; pad:8px ; bg:rgb(250, 247, 241) ; rad:15px ; ovf:hidden
+         #1015 <div> [Icon] 785,5439 24x24 flex row jc:center ai:center gap:10px ; pad:6px ; bg:rgb(46, 121, 216) ; rad:8px ; ovf:clip
+          #1016 <div> [Text] 791,5445 12x12 flex column jc:center ai:normal gap:normal
+           #1017 <p> 791,5445 12x12  T"" ["Font Awesome 6 Sharp Regular" 400  12px/12px c:rgb(255, 255, 255) ta:center]
+         #1018 <div> 821,5442 394x18 flex column jc:center ai:flex-start gap:24px
+          #1019 <div> 821,5442 394x18 flex row jc:center ai:center gap:8px
+           #1020 <div> [Name] 821,5442 341x18 
+            #1021 <p> 821,5442 341x18  T"Set up QA evals for return handling" ["Tiempos Text Regular" 400  14px/18.2px c:rgb(18, 32, 35) ta:start tt:none td:line-through]
+           #1022 <div> 1170,5444 46x14 flex row jc:center ai:center gap:6px
+            #1023 <div> [Response too generic] 1170,5444 46x14 
+             #1024 <p> 1170,5444 46x14  T"matthew" ["Geist Mono" 400  10px/14px ls:0.5px c:rgb(42, 54, 57) ta:center tt:uppercase]
+       #1025 <div> [Card/Nav/Regular] 776,5482 448x42 flex column jc:center ai:center gap:0px ; pad:1px ; rad:16px ; op:0 ; ovf:hidden ; tf:matrix(1, 0, 0, 1, 0, 100)
+        #1026 <div> 777,5483 446x40 flex row jc:center ai:center gap:12px ; pad:8px ; bg:rgb(250, 247, 241) ; rad:15px ; ovf:hidden
+         #1027 <div> [Icon] 785,5491 24x24 flex row jc:center ai:center gap:10px ; pad:6px ; bg:rgb(244, 237, 222) ; rad:8px ; ovf:clip
+         #1028 <div> 821,5494 363x18 flex column jc:center ai:flex-start gap:24px
+          #1029 <div> 821,5494 363x18 flex column jc:center ai:flex-start gap:8px
+           #1030 <div> [Name] 821,5494 363x18 
+            #1031 <p> 821,5494 363x18  T"Review bundle discount skill coverage" ["Tiempos Text Regular" 400  14px/18.2px c:rgb(18, 32, 35)]
+         #1032 <div> [Response too generic] 1196,5496 20x14 
+          #1033 <p> 1196,5496 20x14  T"Ana" ["Geist Mono" 400  10px/14px ls:0.5px c:rgb(42, 54, 57) ta:center tt:uppercase]
+   #1034 <div> [Blur out] 0,4257 1440x75 flex row jc:center ai:center gap:10px ; bgImg:linear-gradient(rgb(255, 255, 255) 0%, rgb(250, 247, 241) 100%) ; pos:absolute t:0px l:0px r:0px b:1405px ; ovf:hidden
+   #1035 <div> [Blur out] 0,4257 1440x75 flex row jc:center ai:center gap:10px ; bgImg:linear-gradient(rgb(255, 255, 255) 0%, rgb(250, 247, 241) 100%) ; pos:absolute t:0px l:0px r:0px b:1405px ; ovf:hidden
+  #1036 <div> [Key Capabilities] 0,5737 1440x1963 flex column jc:center ai:center gap:0px ; pad:80px 0px ; bg:rgb(255, 255, 255)
+   #1037 <div> [Container] 120,5817 1200x1030 flex column jc:center ai:center gap:40px ; pad:0px 96px ; maxW:1200px ; ovf:clip
+    #1038 <div> [Section title] 380,5817 680x174 flex row jc:center ai:flex-end gap:24px ; maxW:680px
+     #1039 <div> [text] 380,5817 680x174 flex column jc:flex-start ai:center gap:24px
+      #1041 <div> [INTEGRATIONS] 598,5817 244x22 z:1
+       #1042 <p> 598,5817 244x22  T"Customer intelligence" ["Instrument Sans" 600  16px/22.4px ls:1.7px c:rgb(18, 32, 35) ta:center tt:uppercase]
+      #1043 <div> [Integrate Siena with your reviews platforms] 380,5864 680x128 z:1
+       #1044 <h2> 380,5864 680x128  T"Your partner in understanding customers" ["Feature Deck Web Light" 400  64px/64px ls:-1.28px c:rgb(18, 32, 35) ta:center]
+    #1045 <div> [1] 216,6032 1008x488 flex row jc:center ai:center gap:56px ; z:1
+     #1046 <div> 216,6065 440x421 flex column jc:center ai:flex-start gap:24px ; ovf:clip
+      #1047 <div> 216,6065 440x125 flex column jc:center ai:center gap:24px
+       #1048 <div> 216,6065 440x125 z:1
+        #1049 <h3> 216,6065 440x125  T"From signal to decision" ["Feature Deck Web Regular" 400  52px/62.4px c:rgb(18, 32, 35) ta:left]
+      #1050 <div> 216,6214 440x84 maxW:564px ; z:1
+       #1051 <p> 216,6214 440x84  T"Customer intelligence turns what your customers are already telling you into a decision you can make today." ["Instrument Sans" 500  20px/28px ls:-0.2px c:rgb(18, 32, 35)]
+      #1052 <div> 216,6322 440x164 flex column jc:center ai:center gap:12px ; ovf:hidden
+       #1053 <div> 216,6322 440x47 flex row jc:center ai:center gap:10px ; ovf:hidden
+        #1054 <div> [star-four-light 1] 216,6333 24x24 
+         #1056 <svg> 216,6333 24x24 ovf:hidden ; SVG use:#svg1796323270_1256 vb:0 0 24 24
+        #1058 <div> 250,6322 406x47 maxW:564px ; z:1
+         #1059 <p> 250,6322 406x47  T"Signals surface the same day they emerge, ready to act on" ["Tiempos Text Regular" 400  18px/23.4px ls:-0.18px c:rgb(42, 54, 57)]
+       #1060 <div> 216,6381 440x47 flex row jc:center ai:center gap:10px ; ovf:hidden
+        #1061 <div> [star-four-light 1] 216,6392 24x24 
+         #1063 <svg> 216,6392 24x24 ovf:hidden ; SVG use:#svg1796323270_1256 vb:0 0 24 24
+        #1065 <div> 250,6381 406x47 maxW:564px ; z:1
+         #1066 <p> 250,6381 406x47  T"Every insight is backed by the real conversations behind it" ["Tiempos Text Regular" 400  18px/23.4px ls:-0.18px c:rgb(42, 54, 57) ta:left]
+       #1067 <div> 216,6439 440x47 flex row jc:center ai:center gap:10px ; ovf:hidden
+        #1068 <div> [star-four-light 1] 216,6451 24x24 
+         #1070 <svg> 216,6451 24x24 ovf:hidden ; SVG use:#svg1796323270_1256 vb:0 0 24 24
+        #1072 <div> 250,6439 406x47 maxW:564px ; z:1
+         #1073 <p> 250,6439 406x47  T"Teams move from noticing to deciding in the same sitting" ["Tiempos Text Regular" 400  18px/23.4px ls:-0.18px c:rgb(42, 54, 57) ta:left]
+     #1074 <div> [Sticky Image] 712,6032 512x488 bg:rgb(250, 247, 241) ; rad:24px ; ovf:hidden
+      #1075 <div> [Ask Siena] 822,6112 291x328 flex column jc:center ai:center gap:32px ; pos:absolute t:244px l:256px r:-35.1875px b:-84.0312px ; tf:matrix(1, 0, 0, 1, -145.594, -164.016) ; z:1
+       #1076 <div> 822,6112 291x238 flex column jc:center ai:center gap:24px ; z:1
+        #1077 <div> [User Message] 822,6112 291x55 flex row jc:flex-start ai:center gap:4px ; pad:16px ; bg:rgb(255, 255, 255) ; rad:20px ; shadow:rgba(156, 156, 156, 0.1) 0px 5px 10px 0px, rgba(156, 156, 156, 0.09) 0px 19px 19px 0px, rgba(156, 156, 156, 0.05) 0px 43px 26px 0px, rgba(156, 156, 156, 0.01) 0px 76px 30px 0px, rgba(
+         #1078 <div> [Response too generic] 838,6128 259x23 
+          #1079 <p> 838,6128 259x23  T"What's trending well this week?" ["Tiempos Text Regular" 400  18px/23.4px ls:-0.18px c:rgb(42, 54, 57)]
+        #1080 <div> [User Message] 837,6191 263x79 flex row jc:flex-start ai:center gap:4px ; pad:16px ; bg:rgb(255, 255, 255) ; rad:20px ; shadow:rgba(156, 156, 156, 0.1) 0px 5px 10px 0px, rgba(156, 156, 156, 0.09) 0px 19px 19px 0px, rgba(156, 156, 156, 0.05) 0px 43px 26px 0px, rgba(156, 156, 156, 0.01) 0px 76px 30px 0px, rgba(
+         #1081 <div> [Response too generic] 853,6207 231x47 
+          #1082 <p> 853,6207 231x47  T"What do customers love about our products?" ["Tiempos Text Regular" 400  18px/23.4px ls:-0.18px c:rgb(42, 54, 57)]
+        #1083 <div> [User Message] 832,6294 272x55 flex row jc:flex-start ai:center gap:4px ; pad:16px ; bg:rgb(255, 255, 255) ; rad:20px ; shadow:rgba(156, 156, 156, 0.1) 0px 5px 10px 0px, rgba(156, 156, 156, 0.09) 0px 19px 19px 0px, rgba(156, 156, 156, 0.05) 0px 43px 26px 0px, rgba(156, 156, 156, 0.01) 0px 76px 30px 0px, rgba(
+         #1084 <div> [Response too generic] 848,6310 240x23 
+          #1085 <p> 848,6310 240x23  T"What's driving repeat orders?" ["Tiempos Text Regular" 400  18px/23.4px ls:-0.18px c:rgb(42, 54, 57)]
+       #1086 <div> [Prompt] 865,6381 207x58 flex row jc:center ai:center gap:10px ; pad:2px ; bgImg:linear-gradient(255deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 14.8649%, rgb(251, 86, 70) 32.8829%, rgb(130, 122, 204) 52.2523%, rgb(46, 121, 216) 79.7297%, rgb(171, 171, 171) 100%) ; rad:28px
+        #1087 <div> [Header] 867,6383 203x54 flex row jc:flex-start ai:center gap:0px ; pad:8px ; bg:rgb(255, 255, 255) ; rad:26px ; ovf:hidden
+         #1088 <div> [Content] 875,6391 187x38 flex row jc:flex-start ai:center gap:8px ; pad:0px 12px
+          #1089 <div> [Icon-Black] 887,6398 25x25 
+           #1091 <svg> 887,6398 25x25 ovf:hidden ; SVG use:#svg-1472641472_1627 vb:0 0 25 25
+          #1093 <div> [What can I help with?] 920,6391 130x38 
+           #1094 <p> 920,6391 130x38  T"Ask Siena" ["Feature Deck Web Regular" 400  32px/38.4px c:rgb(18, 32, 35)]
+    #1095 <div> 216,6560 1008x288 flex row jc:center ai:flex-start gap:16px ; ovf:hidden
+     #1098 <div> [Trending-topics] 216,6560 325x288 flex column jc:flex-end ai:center gap:16px ; pad:32px 24px ; bgImg:linear-gradient(rgb(255, 255, 255) 0%, rgb(250, 247, 241) 100%) ; rad:24px ; ovf:clip ; bdf:blur(2px)
+      #1099 <div> [cards] 229,6628 299x116 op:0.7
+       #1100 <div> [Prompt] 220,6618 134x134 flex column jc:center ai:center gap:10px ; pad:2px ; rad:28px ; shadow:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px ; pos:absolute t:0px l:0px r:183px b:0px ; ovf:hidden ; tf:matrix(0.984808, -0.173648, 0.173648, 0.984808, 0, 0)
+        #1101 <div> [Prompt] 222,6621 130x130 flex column jc:space-between ai:center gap:normal ; pad:16px ; bg:rgba(255, 255, 255, 0.8) ; rad:28px ; shadow:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px ; ovf:clip ; bdf:blur(10px) ; z:0
+         #1102 <div> [Content] 241,6639 84x45 flex row jc:flex-start ai:center gap:8px
+          #1103 <div> [What can I help with?] 241,6639 84x45 
+           #1104 <p> 241,6639 84x45  T"Size-inclusive demand" ["Tiempos Text Regular" 400  12px/15.6px c:rgb(18, 32, 35)]
+         #1105 <div> 250,6690 84x41 flex row jc:center ai:center gap:0px ; z:1
+          #1107 <div> [79%] 248,6701 41x36 pos:absolute t:-2px l:21.1094px r:-6.92188px b:-8px ; tf:matrix(0, -1, 1, 0, -14.9062, 0)
+           #1108 <h4> 248,6701 41x36  T"→" ["Feature Deck Web Regular" 400  40px/36px ls:-3.6px c:rgb(160, 166, 167) ta:center]
+          #1109 <div> [79%] 288,6690 50x36 
+           #1110 <p> 288,6690 50x36  T"67%" ["Feature Deck Web Light" 300  28px/28px ls:-0.28px c:rgb(18, 32, 35)]
+         #1111 <div> [Frame 2087325258] 165,6612 359x317 pos:absolute t:17px l:-61px r:-145px b:-171px ; op:0.4 ; z:0
+           #1113 <img> 165,6612 359x317 ovf:clip ; img:FI/m8yWmZuVfUz4EBQv8rDedWtAD0.png?scale-down-to=512&width=1554&height=1017 nat:319x208 fit:cover objpos:50% 50% alt:
+       #1114 <div> [Prompt] 404,6618 134x134 flex column jc:center ai:center gap:10px ; pad:2px ; rad:28px ; shadow:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px ; pos:absolute t:0px l:184px r:-1px b:0px ; ovf:hidden ; tf:matrix(0.984808, 0.173648, -0.173648, 0.984808, 0, 0)
+        #1115 <div> [Prompt] 406,6621 130x130 flex column jc:space-between ai:center gap:normal ; pad:16px ; bg:rgba(255, 255, 255, 0.8) ; rad:28px ; shadow:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px ; ovf:clip ; bdf:blur(10px) ; z:0
+         #1116 <div> [Content] 433,6639 84x45 flex row jc:flex-start ai:center gap:8px
+          #1117 <div> [What can I help with?] 433,6639 84x45 
+           #1118 <p> 433,6639 84x45  T"Shipping delays" ["Tiempos Text Regular" 400  12px/15.6px c:rgb(18, 32, 35)]
+         #1119 <div> 425,6690 84x41 flex row jc:center ai:center gap:0px ; z:1
+          #1121 <div> [79%] 425,6693 41x36 pos:absolute t:-2px l:21.1094px r:-6.92188px b:-8px ; tf:matrix(0, -1, 1, 0, -14.9062, 0)
+           #1122 <h4> 425,6693 41x36  T"→" ["Feature Deck Web Regular" 400  40px/36px ls:-3.6px c:rgb(160, 166, 167) ta:center]
+          #1123 <div> [79%] 466,6698 45x35 
+           #1124 <p> 466,6698 45x35  T"18%" ["Feature Deck Web Light" 300  28px/28px ls:-0.28px c:rgb(18, 32, 35)]
+         #1125 <div> [Frame 2087325258] 368,6672 257x227 pos:absolute t:55px l:-15px r:-100px b:-133px ; op:0.4 ; z:0
+           #1127 <img> 368,6672 257x227 ovf:clip ; img:FI/16yGgtMBetaKJ2v9SrTb9bZ0A.png?scale-down-to=512&width=2300&height=1615 nat:228x160 fit:cover objpos:50% 50% alt:
+       #1128 <div> [Prompt] 320,6620 116x116 flex column jc:center ai:center gap:10px ; pad:2px ; rad:28px ; shadow:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px ; pos:absolute t:-8px l:91px r:92px b:8px ; ovf:hidden
+        #1129 <div> [Prompt] 322,6622 112x112 flex column jc:space-between ai:center gap:normal ; pad:16px ; bg:rgba(255, 255, 255, 0.8) ; rad:28px ; shadow:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px ; ovf:clip ; bdf:blur(10px) ; z:0
+         #1130 <div> [Content] 338,6638 80x47 flex row jc:flex-start ai:center gap:8px
+          #1131 <div> [What can I help with?] 338,6638 80x47 
+           #1132 <p> 338,6638 80x47  T"Material quality complaints" ["Tiempos Text Regular" 400  12px/15.6px c:rgb(18, 32, 35)]
+         #1133 <div> 338,6690 80x28 flex row jc:center ai:center gap:0px ; z:1
+          #1135 <div> [79%] 336,6692 36x30 pos:absolute t:-2px l:21.1094px r:-6.92188px b:-8px ; tf:matrix(0, -1, 1, 0, -14.9062, 0)
+           #1136 <h4> 336,6692 36x30  T"→" ["Feature Deck Web Regular" 400  40px/36px ls:-3.6px c:rgb(160, 166, 167) ta:center]
+          #1137 <div> [79%] 377,6690 47x28 
+           #1138 <p> 377,6690 47x28  T"34%" ["Feature Deck Web Light" 300  28px/28px ls:-0.28px c:rgb(18, 32, 35)]
+         #1139 <div> [Frame 2087325258] 229,6606 336x288 pos:absolute t:-5px l:-84px r:-122px b:-149px ; op:0.4 ; tf:matrix(-0.997564, 0.0697565, -0.0697565, -0.997564, 0, 0) ; z:0
+           #1141 <img> 229,6606 336x288 ovf:clip ; img:FI/m8yWmZuVfUz4EBQv8rDedWtAD0.png?scale-down-to=512&width=1554&height=1017 nat:319x208 fit:cover objpos:50% 50% alt:
+      #1142 <div> 240,6760 277x56 maxW:368px ; z:2
+       #1143 <p> 240,6760 277x56  T"Trending topics and demand signals, yours to see directly" ["Feature Deck Web Regular" 400  20px/28px c:rgb(18, 32, 35) ta:center]
+      #1144 <div> [Fade] 216,6665 325x176 bgImg:linear-gradient(0deg, rgb(250, 247, 241) 0%, rgba(250, 247, 241, 0.7) 61.5688%, rgba(250, 247, 241, 0.02) 86%) ; pos:absolute t:105.328px l:0px r:0px b:7px ; z:1
+     #1147 <div> [Patterns] 557,6560 325x288 flex column jc:flex-end ai:center gap:16px ; pad:32px 24px ; bgImg:linear-gradient(rgb(255, 255, 255) 0%, rgb(250, 247, 241) 100%) ; rad:24px ; ovf:clip ; bdf:blur(2px)
+      #1148 <div> 571,6576 299x140 ovf:clip
+       #1149 <div> 570,6562 300x236 pos:absolute t:-14px l:-1px r:0px b:-82px ; op:0.7 ; ovf:clip ; mask:radial-gradient(50% 75%, rgb(0, 0, 0) 5.71333%, rgba(0, 0, 0, 0) 100%)
+        #1150 <div> 537,6638 376x1 pos:absolute t:76px l:-33px r:-43px b:159px
+         #1152 <svg> 537,6638 376x1 SVG use:#svg1191650512_384 vb:null
+        #1154 <div> 537,6666 376x1 pos:absolute t:104px l:-33px r:-43px b:131px
+         #1156 <svg> 537,6666 376x1 SVG use:#svg1191650512_384 vb:null
+        #1158 <div> 537,6696 376x1 pos:absolute t:134px l:-33px r:-43px b:101px
+         #1160 <svg> 537,6696 376x1 SVG use:#svg1191650512_384 vb:null
+        #1162 <div> 537,6725 376x1 pos:absolute t:163px l:-33px r:-43px b:72px
+         #1164 <svg> 537,6725 376x1 SVG use:#svg1191650512_384 vb:null
+        #1166 <div> 635,6649 27x27 flex row jc:center ai:center gap:10px ; pos:absolute t:87px l:65px r:208px b:122px ; op:0 ; ovf:clip
+         #1169 <svg> 635,6649 27x27 ovf:hidden ; SVG use:#svg-1742670574_426 vb:null
+        #1171 <div> 611,6658 12x12 flex row jc:center ai:center gap:10px ; pos:absolute t:96px l:41px r:247px b:128px ; op:0 ; ovf:clip
+         #1174 <svg> 611,6658 12x12 ovf:hidden ; SVG use:#svg197511143_412 vb:null
+        #1176 <div> 690,6625 12x12 flex row jc:center ai:center gap:10px ; pos:absolute t:63px l:120px r:168px b:161px ; op:0 ; ovf:clip
+         #1179 <svg> 690,6625 12x12 ovf:hidden ; SVG use:#svg197511143_412 vb:null
+        #1181 <div> 711,6625 12x12 flex row jc:center ai:center gap:10px ; pos:absolute t:63px l:141px r:147px b:161px ; op:0 ; ovf:clip
+         #1184 <svg> 711,6625 12x12 ovf:hidden ; SVG use:#svg197511143_412 vb:null
+        #1186 <div> 853,6658 12x12 flex row jc:center ai:center gap:10px ; pos:absolute t:96px l:283px r:5px b:128px ; op:0 ; ovf:clip
+         #1189 <svg> 853,6658 12x12 ovf:hidden ; SVG use:#svg197511143_412 vb:null
+        #1191 <div> 731,6616 27x27 flex row jc:center ai:center gap:10px ; pos:absolute t:54px l:161px r:112px b:155px ; op:0 ; ovf:clip
+         #1194 <svg> 731,6616 27x27 ovf:hidden ; SVG use:#svg-1742670574_426 vb:null
+        #1196 <div> 787,6649 27x27 flex column jc:center ai:center gap:10px ; pos:absolute t:87px l:217px r:56px b:122px ; op:0 ; ovf:clip
+         #1199 <svg> 787,6649 27x27 ovf:hidden ; SVG use:#svg-1742670574_426 vb:null
+        #1201 <div> 766,6620 20x20 flex row jc:center ai:center gap:10px ; pos:absolute t:58px l:196px r:84px b:158px ; op:0 ; ovf:clip
+         #1204 <svg> 766,6620 20x20 ovf:hidden ; SVG use:#svg4874973_421 vb:null
+        #1206 <div> 671,6640 42x42 flex row jc:center ai:center gap:10px ; pos:absolute t:78px l:101px r:157px b:116px ; op:0 ; ovf:clip
+         #1209 <svg> 671,6640 42x42 ovf:hidden ; SVG use:#svg-1211840114_426 vb:null
+        #1211 <div> 822,6652 23x23 flex row jc:center ai:center gap:10px ; pos:absolute t:90px l:252px r:25px b:123px ; op:0 ; ovf:clip
+         #1214 <svg> 822,6652 23x23 ovf:hidden ; SVG use:#svg-815932396_420 vb:null
+        #1216 <div> [Topic] 723,6649 62x62 flex row jc:center ai:center gap:10px ; pos:absolute t:118px l:153px r:85px b:56px ; op:0 ; ovf:clip ; tf:matrix(1, 0, 0, 1, 0, -31)
+         #1219 <svg> 723,6649 62x62 ovf:hidden ; SVG use:#svg1310378962_415 vb:null
+        #1221 <div> 694,6717 27x27 flex row jc:center ai:center gap:10px ; pos:absolute t:155px l:138px r:135px b:54px ; op:0 ; ovf:clip ; tf:matrix(1, 0, 0, 1, -13.5, 0)
+         #1224 <svg> 694,6717 27x27 ovf:hidden ; SVG use:#svg-1742670574_426 vb:null
+        #1226 <div> 749,6725 12x12 flex row jc:center ai:center gap:10px ; pos:absolute t:163px l:179px r:109px b:61px ; op:0 ; ovf:clip
+         #1229 <svg> 749,6725 12x12 ovf:hidden ; SVG use:#svg197511143_412 vb:null
+        #1231 <div> 768,6725 12x12 flex row jc:center ai:center gap:10px ; pos:absolute t:163px l:198px r:90px b:61px ; op:0 ; ovf:clip
+         #1234 <svg> 768,6725 12x12 ovf:hidden ; SVG use:#svg197511143_412 vb:null
+       #1236 <div> 606,6705 163x43 pos:absolute t:129.812px l:35px r:101px b:-33px ; op:0.3 ; z:1
+        #1237 <div> [Compressed-Right] 606,6705 163x43 flex column jc:flex-start ai:center gap:0px ; pad:2px ; bg:rgb(255, 255, 255) ; rad:12px
+         #1238 <div> [Content] 608,6707 159x39 flex column jc:flex-start ai:flex-start gap:2px ; pad:0px 8px
+          #1239 <div> [Component header] 616,6707 143x39 flex row jc:flex-start ai:center gap:4px ; pad:4px 0px
+           #1240 <div> [Tag] 616,6711 115x31 
+            #1241 <p> 616,6711 115x31  T"Packaging complaints" ["Tiempos Text Regular" 400  12px/15.6px c:rgb(18, 32, 35)]
+           #1242 <img> [Vector] 735,6715 24x24 ovf:clip ; img:data:image/svg+xml,<svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M 24 12 C 24 18.627 18.627 24 12 24 C 5.373 24 0 18.627 0 12 C 0 5.373 5.373 0 12 0 C 18.627 0 24 5.373 24 12 Z M 7.254 12.254 C 7.254 15.015 9.
+         #1243 <div> [User Message] 598,6744 177x1 flex row jc:flex-start ai:center gap:4px ; rad:10px ; shadow:rgba(156, 156, 156, 0.1) 0px 5px 10px 0px, rgba(156, 156, 156, 0.09) 0px 19px 19px 0px, rgba(156, 156, 156, 0.05) 0px 43px 26px 0px, rgba(156, 156, 156, 0.01) 0px 76px 30px 0px, rgba(156, 156, 156, 0) 0px 118px 33px 0p
+          #1244 <div> [Response too generic] 598,6738 177x13 
+           #1245 <p> 598,6738 177x13  T"1,206 Conversations • 99% CXP Score" ["Tiempos Text Regular" 400  10px/13px c:rgb(18, 32, 35)]
+         #1246 <div> [Input] 607,6746 159x1 flex row jc:space-between ai:center gap:normal ; pos:absolute t:40.1875px l:1.5px r:2.5px b:2px ; op:0 ; ovf:clip ; z:1
+          #1247 <div> [User Message] 607,6738 46x16 flex row jc:flex-start ai:center gap:16px ; bg:rgb(255, 255, 255) ; rad:16px ; ovf:hidden
+           #1248 <div> [Performance] 607,6738 46x16 flex row jc:flex-start ai:center gap:4px
+            #1249 <div> [Label] 607,6738 46x16 flex row jc:center ai:center gap:4px ; pad:0px 6px 0px 4px ; rad:4px ; ovf:hidden
+             #1250 <div> 611,6738 12x16 maxW:564px ; z:1
+              #1251 <p> 611,6738 12x16  T"" ["Font Awesome 6 Sharp Light" 300  16px/16px c:rgb(249, 80, 64) ta:center]
+             #1252 <div> [Text] 627,6738 20x16 
+              #1253 <p> 627,6738 20x16  T"11%" ["Tiempos Text Regular" 400  12px/15.6px c:rgb(249, 80, 64)]
+          #1254 <div> [Response too generic] 719,6740 47x13 
+           #1255 <p> 719,6740 47x13  T"This week" ["Tiempos Text Regular" 400  10px/13px c:rgb(18, 32, 35)]
+      #1256 <div> 581,6732 277x84 z:1
+       #1257 <h6> 581,6732 277x84  T"Product signals and demand patterns, backed by conversations" ["Feature Deck Web Regular" 400  20px/28px c:rgb(18, 32, 35) ta:center]
+     #1260 <div> [Share] 899,6560 325x288 flex column jc:flex-end ai:center gap:16px ; pad:32px 24px ; bgImg:linear-gradient(rgb(255, 255, 255) 0%, rgb(250, 247, 241) 100%) ; rad:24px ; ovf:clip ; bdf:blur(2px)
+      #1261 <div> [cards] 923,6628 277x116 op:0.7
+       #1262 <div> [Prompt] 1069,6612 118x118 flex column jc:center ai:center gap:10px ; pad:2px ; rad:28px ; shadow:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px ; pos:absolute t:-8px l:154.328px r:21px b:22px ; ovf:hidden ; tf:matrix(0.984808, 0.173648, -0.173648, 0.984808, 0, 0)
+        #1263 <div> [Prompt] 1071,6614 114x114 flex column jc:center ai:center gap:8px ; pad:12px ; bg:rgba(255, 255, 255, 0.8) ; rad:28px ; shadow:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px ; ovf:clip ; bdf:blur(10px) ; z:0
+         #1264 <div> [Text] 1092,6635 72x72 flex column jc:center ai:normal gap:normal
+          #1265 <p> 1093,6642 69x58  T"" ["Font Awesome 6 Sharp Light" 300  48px/48px c:rgb(18, 32, 35) ta:center]
+       #1266 <div> [Prompt] 925,6612 118x118 flex column jc:center ai:center gap:10px ; pad:2px ; rad:28px ; shadow:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px ; pos:absolute t:-8px l:10px r:165.328px b:22px ; ovf:hidden ; tf:matrix(0.984808, -0.173648, 0.173648, 0.984808, 0, 0)
+        #1267 <div> [Prompt] 927,6614 114x114 flex column jc:center ai:center gap:8px ; pad:12px ; bg:rgba(255, 255, 255, 0.8) ; rad:28px ; shadow:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px ; ovf:clip ; bdf:blur(10px) ; z:0
+         #1268 <div> [Text] 948,6635 72x72 flex column jc:center ai:normal gap:normal
+          #1269 <p> 949,6642 69x58  T"" ["Font Awesome 6 Sharp Light" 300  48px/48px c:rgb(18, 32, 35) ta:center]
+       #1270 <div> [Prompt] 1008,6619 102x102 flex column jc:center ai:center gap:10px ; pad:2px ; rad:28px ; shadow:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px ; pos:absolute t:-9px l:85.3438px r:89.9844px b:23px ; ovf:hidden
+        #1271 <div> [Prompt] 1010,6621 98x98 bg:rgba(255, 255, 255, 0.8) ; rad:28px ; shadow:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px ; ovf:clip ; bdf:blur(10px) ; z:0
+         #1272 <div> 1031,6638 29x29 pos:absolute t:17px l:21px r:48px b:52px
+          #1274 <svg> 1031,6638 29x29 ovf:hidden ; SVG use:#svg-1012333362_653 vb:null
+         #1276 <div> 1062,6638 29x29 pos:absolute t:17px l:52px r:17px b:52px
+          #1278 <svg> 1062,6638 29x29 ovf:hidden ; SVG use:#svg292058058_665 vb:null
+         #1280 <div> 1062,6669 29x29 pos:absolute t:48px l:52px r:17px b:21px
+          #1282 <svg> 1062,6669 29x29 ovf:hidden ; SVG use:#svg917295285_630 vb:null
+         #1284 <div> 1031,6669 29x29 pos:absolute t:48px l:21px r:48px b:21px
+          #1286 <svg> 1031,6669 29x29 ovf:hidden ; SVG use:#svg-131789658_648 vb:null
+      #1288 <div> 923,6760 277x56 z:2
+       #1289 <h6> 923,6760 277x56  T"Share intelligence to Slack or email" ["Feature Deck Web Regular" 400  20px/28px c:rgb(18, 32, 35) ta:center]
+      #1290 <div> [Fade] 899,6640 325x206 bgImg:linear-gradient(0deg, rgb(250, 247, 241) 0%, rgba(250, 247, 241, 0.7) 61.5688%, rgba(250, 247, 241, 0.02) 86%) ; pos:absolute t:80px l:0px r:0px b:2px ; z:1
+   #1291 <div> 58,6848 1325x773 flex row jc:center ai:flex-start gap:32px ; pad:0px 96px ; maxW:1325px ; ovf:hidden
+    #1292 <div> [Title] 154,6848 1133x773 flex column jc:center ai:center gap:16px ; pad:120px 0px 0px ; z:1
+     #1294 <div> 154,6954 1133x680 flex column jc:normal ai:normal gap:normal ; pad:16px 32px 48px
+      #1295 <div> 186,6970 1069x616 flex column jc:normal ai:normal gap:normal
+       #1296 <div> 186,6970 1069x40 flex row jc:center ai:center gap:normal
+        #1297 <div> 652,6970 137x40 flex row jc:normal ai:center gap:12px
+         #1298 <button> 652,6970 40x40 flex row jc:center ai:center gap:normal ; bg:rgba(244, 237, 222, 0.6) ; rad:40px ; ovf:hidden ; z:10
+          #1299 <svg> 663,6981 18x18 ovf:hidden ; SVG vb:0 0 24 24
+         #1302 <span>xN LETTER-SPANS (1) text="1" style:          #1302 <span> 704,6980 10x20  
+         #1303 <span> 713,6980 23x20 op:0.4 T"/ 3" ["Instrument Sans" 400  16px/19.2px c:rgb(18, 32, 35)]
+         #1304 <button> 748,6970 40x40 flex row jc:center ai:center gap:normal ; bg:rgba(244, 237, 222, 0.6) ; rad:40px ; ovf:hidden ; z:10
+          #1305 <svg> 759,6981 18x18 ovf:hidden ; SVG vb:0 0 24 24
+        #1310 <div> [Testimonials2] 186,7034 1069x552 flex column jc:center ai:center gap:48px
+         #1311 <div> 186,7034 1069x552 flex column jc:flex-start ai:flex-start gap:80px
+          #1312 <div> [Content] 186,7034 1069x552 flex column jc:center ai:center gap:10px
+           #1313 <div> [Testimonial] 186,7034 1069x552 flex row jc:center ai:flex-start gap:40px
+            #1314 <div> 186,7034 549x552 flex column jc:space-between ai:flex-start gap:normal ; maxW:600px
+             #1315 <div> 186,7034 549x148 flex column jc:center ai:flex-start gap:24px ; ovf:hidden
+              #1316 <div> [“] 186,7034 30x24 
+               #1318 <svg> 186,7034 30x24 ovf:hidden ; SVG use:#svg1110666654_462 vb:0 0 30 24
+              #1320 <div> [Name] 186,7082 549x100 
+               #1321 <p> 186,7082 549x100  T"Siena has been a huge win for our team. What used to take several hours now takes 10 minutes with Ask Siena." ["Instrument Sans" 400  25.6px/33.28px ls:-0.512px c:rgb(18, 32, 35)]
+             #1322 <div> [Right Column] 186,7365 549x221 flex column jc:flex-start ai:flex-start gap:24px
+              #1323 <div> [Brand] 186,7365 280x149 flex column jc:flex-start ai:flex-start gap:8px
+               #1324 <div> [Logos] 186,7365 123x56 flex column jc:flex-start ai:flex-start gap:28.3333px
+                 #1327 <img> 186,7365 123x56 ovf:clip ; img:FI/ZeJTO989NVjG9cfH69ugd19p4C0.svg?width=374&height=76 nat:374x76 fit:contain objpos:0% 50% alt:
+               #1328 <div> [person] 186,7429 280x85 flex column jc:flex-start ai:flex-start gap:12px
+                #1329 <div> [Beatriz Lopes] 186,7429 168x28 
+                 #1330 <p> 186,7429 168x28  T"Rebecca Blount" ["Instrument Sans" 500  20px/28px ls:-0.2px c:rgb(18, 32, 35)]
+                #1331 <div> [@everydaydose] 186,7469 280x45 
+                 #1332 <p> 186,7469 280x45  T"Director, Customer Experience & Fulfillment" ["Instrument Sans" 600  16px/22.4px ls:1.7px c:rgb(18, 32, 35) ta:left tt:uppercase]
+              #1333 <div> 186,7538 137x48 z:1
+               #1334 <a> [Secondary / md] 186,7538 137x48 flex row jc:center ai:center gap:10px ; pad:16px ; bg:rgb(255, 255, 255) ; bgImg:linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 20%, rgb(255, 255, 255) 40%, rgb(255, 255, 255) 60%, rgb(255, 255, 255) 80%, rgb(255, 255, 255) 100%) ; rad:12px ; href:./cust
+                #1335 <div> [Text] 202,7554 105x16 
+                 #1336 <p> 202,7554 105x16  T"Read full story" ["Instrument Sans" 500  16px/16px c:rgb(18, 32, 35) ta:left]
+            #1337 <div> 775,7034 480x552 maxW:480px ; rad:24px
+             #1338 <div> 775,7034 480x552 rad:24px ; pos:absolute t:0px l:0px r:0px b:0px
+              #1339 <img> 775,7034 480x552 rad:24px ; ovf:clip ; img:FI/DkKUcZ5MMlNWr9dt9V653q2eWmI.jpg?scale-down-to=512&width=1406&height=1406 nat:479x479 fit:cover objpos:50% 50% alt:
+   #1398 <div> [Blur out] 0,5574 1440x187 flex row jc:center ai:center gap:10px ; bgImg:linear-gradient(179deg, rgb(250, 247, 241) 0%, rgba(250, 247, 241, 0) 100%) ; pos:absolute t:-163px l:0px r:0px b:1939.41px ; ovf:hidden ; z:3
+  #1399 <div> [Playbooks] 0,7701 1440x841 flex column jc:center ai:center gap:40px ; pad:80px 96px ; bg:rgb(250, 247, 241)
+   #1401 <div> [BG] 308,7809 824x789 pos:absolute t:108px l:720px r:-104px b:-56.9062px ; op:0.5 ; tf:matrix(1, 0, 0, 1, -412, 0) ; z:0
+     #1403 <img> 308,7809 824x789 ovf:clip ; img:FI/MSTluKQSUNZrlxr6ESQPZTnooU.webp?scale-down-to=1024&width=1242&height=1190 nat:930x890 fit:cover objpos:50% 50% alt:
+   #1404 <div> [Blur out] 0,7701 1440x75 flex row jc:center ai:center gap:10px ; bgImg:linear-gradient(rgb(255, 255, 255) 0%, rgb(250, 247, 241) 100%) ; pos:absolute t:0px l:0px r:0px b:765.578px ; ovf:hidden
+   #1405 <div> [Title] 189,7781 1062x190 flex column jc:center ai:flex-start gap:24px ; maxW:1062px ; z:1
+    #1406 <div> 189,7781 113x22 maxW:564px ; z:1
+     #1407 <p> 189,7781 113x22  T"Playbooks" ["Instrument Sans" 600  16px/22.4px ls:1.7px c:rgb(18, 32, 35) ta:center tt:uppercase]
+    #1409 <div> 189,7827 869x64 z:1
+     #1410 <h2> 189,7827 869x64  T"From hours of prep to a quick read" ["Feature Deck Web Light" 400  64px/64px ls:-1.28px c:rgb(18, 32, 35) ta:center]
+    #1411 <div> 189,7915 564x56 maxW:564px ; z:1
+     #1412 <p> 189,7915 564x56  T"Your recurring reports: built, scheduled, and delivered to your inboxes and Slack channels, by Ask Siena." ["Instrument Sans" 500  20px/28px ls:-0.2px c:rgb(18, 32, 35) ta:left]
+   #1413 <div> [Container] 184,8011 1072x450 flex column jc:center ai:center gap:40px ; maxW:1072px
+    #1414 <div> [Card/Gallery] 184,8011 1072x450 flex column jc:flex-start ai:flex-start gap:40px ; bdf:blur(9px) ; z:0
+     #1415 <div> 184,8011 1072x450 flex column jc:center ai:center gap:52px ; z:2
+      #1417 <div> 184,8011 1072x450 flex column jc:normal ai:normal gap:normal ; pad:16px 32px 48px
+       #1418 <div> 216,8027 1008x386 flex column jc:normal ai:normal gap:normal
+         #1422 <div> 216,8027 1008x322 flex row jc:center ai:stretch gap:16px
+          #1423 <div> [1 / Preference] 216,8027 325x322 flex column jc:flex-start ai:flex-start gap:24px ; pad:24px ; bg:rgb(255, 255, 255) ; rad:24px ; z:1
+           #1424 <div> 240,8051 277x230 flex column jc:flex-start ai:center gap:12px ; pad:0px 0px 24px ; ovf:hidden
+            #1425 <div> 240,8051 277x20 op:0.8 ; z:1
+             #1426 <p> 240,8051 277x20  T"" ["Font Awesome 6 Sharp Light" 400  20px/20px c:rgb(18, 32, 35) ta:left]
+            #1427 <div> 240,8083 277x34 z:1
+             #1428 <p> 240,8083 277x34  T"Executive Report" ["Feature Deck Web Regular" 400  24px/33.6px c:rgb(18, 32, 35) ta:left]
+            #1429 <div> 240,8129 277x58 op:0.8 ; z:1
+             #1430 <p> 240,8129 277x58  T"An overview of Siena's month over month performance across key metrics." ["Instrument Sans" 400  16px/19.2px ls:-0.16px c:rgb(18, 32, 35) ta:left]
+           #1431 <div> [13] 240,8305 82x20 flex row jc:center ai:center gap:10px ; ovf:hidden
+            #1432 <div> [Logos-12] 240,8305 82x20 
+             #1434 <svg> 240,8305 82x20 ovf:hidden ; SVG use:#svg-1615973126_5951 vb:0 0 156 38
+          #1436 <div> [3 / Coffee] 557,8027 325x322 flex column jc:flex-start ai:flex-start gap:24px ; pad:24px ; bg:rgb(255, 255, 255) ; rad:24px ; z:1
+           #1437 <div> 581,8051 277x230 flex column jc:flex-start ai:center gap:12px ; pad:0px 0px 24px ; ovf:hidden
+            #1438 <div> 581,8051 277x20 op:0.8 ; z:1
+             #1439 <p> 581,8051 277x20  T"" ["Font Awesome 6 Sharp Light" 400  20px/20px c:rgb(18, 32, 35) ta:left]
+            #1440 <div> 581,8083 277x34 z:1
+             #1441 <p> 581,8083 277x34  T"Shipping Report" ["Feature Deck Web Regular" 400  24px/33.6px c:rgb(18, 32, 35) ta:left]
+            #1442 <div> 581,8129 277x58 op:0.8 ; z:1
+             #1443 <p> 581,8129 277x58  T"Give logistics and CX leadership a data-backed view of which carriers are performing." ["Instrument Sans" 400  16px/19.2px ls:-0.16px c:rgb(18, 32, 35) ta:left]
+           #1444 <div> [Logos-5] 581,8305 56x20 
+            #1446 <svg> 581,8305 56x20 ovf:hidden ; SVG use:#svg-630068008_6901 vb:0 0 111 40
+          #1448 <div> [5 / Promos] 899,8027 325x322 flex column jc:flex-start ai:flex-start gap:24px ; pad:24px ; bg:rgb(255, 255, 255) ; rad:24px ; z:1
+           #1449 <div> 923,8051 277x230 flex column jc:flex-start ai:center gap:12px ; pad:0px 0px 24px ; ovf:hidden
+            #1450 <div> 923,8051 277x20 op:0.8 ; z:1
+             #1451 <p> 923,8051 277x20  T"" ["Font Awesome 6 Sharp Light" 400  20px/20px c:rgb(18, 32, 35) ta:left]
+            #1452 <div> 923,8083 277x34 z:1
+             #1453 <h6> 923,8083 277x34  T"Testimonial Finder" ["Feature Deck Web Regular" 400  24px/33.6px c:rgb(18, 32, 35) ta:left]
+            #1454 <div> 923,8129 277x58 op:0.8 ; z:1
+             #1455 <p> 923,8129 277x58  T"Source testimonials and positive product feedback from your conversations and reviews." ["Instrument Sans" 400  16px/19.2px ls:-0.16px c:rgb(18, 32, 35) ta:left]
+           #1456 <div> [13] 923,8305 63x20 flex row jc:center ai:center gap:10px ; ovf:hidden
+            #1457 <div> [Logos-6] 923,8305 63x20 
+             #1459 <svg> 923,8305 63x20 ovf:hidden ; SVG use:#svg917175904_4100 vb:0 0 120 38
+        #1575 <div> 216,8373 1008x40 flex row jc:center ai:center gap:normal
+         #1576 <div> 652,8373 137x40 flex row jc:normal ai:center gap:12px
+          #1577 <button> 652,8373 40x40 flex row jc:center ai:center gap:normal ; bg:rgba(244, 237, 222, 0.6) ; rad:40px ; ovf:hidden ; z:10
+           #1578 <svg> 663,8384 18x18 ovf:hidden ; SVG vb:0 0 24 24
+          #1581 <span>xN LETTER-SPANS (1) text="1" style:           #1581 <span> 704,8383 10x20  
+          #1582 <span> 713,8383 23x20 op:0.4 T"/ 4" ["Instrument Sans" 400  16px/19.2px c:rgb(18, 32, 35)]
+          #1583 <button> 748,8373 40x40 flex row jc:center ai:center gap:normal ; bg:rgba(244, 237, 222, 0.6) ; rad:40px ; ovf:hidden ; z:10
+           #1584 <svg> 759,8384 18x18 ovf:hidden ; SVG vb:0 0 24 24
+  #1586 <div> [start] 392,1228 636x8 pos:absolute t:1228px l:392.391px r:411.609px b:7305.2px ; ovf:clip ; z:1
+  #1587 <div> [mid] 388,2109 636x8 pos:absolute t:2109px l:387.594px r:416.406px b:6424.2px ; ovf:clip ; z:1
+  #1588 <div> [end] 402,3065 636x8 pos:absolute t:3065px l:402px r:402px b:5468.2px ; ovf:clip ; z:1
+  #1589 <div> [Blur out] 0,672 233x218 flex row jc:center ai:center gap:10px ; bgImg:linear-gradient(90deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%) ; pos:absolute t:672px l:0px r:1207px b:7651.2px ; ovf:hidden ; z:2
+  #1590 <div> [Blur out] 1243,672 197x218 flex row jc:center ai:center gap:10px ; bgImg:linear-gradient(270deg, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%) ; pos:absolute t:672px l:1243px r:0px b:7651.2px ; ovf:hidden ; z:2
+ #1591 <div> [Your team of expert agents] 0,8541 1440x1258 flex column jc:center ai:center gap:72px ; pad:80px 96px ; bg:rgb(250, 247, 241)
+  #1593 <div> [BG] 255,8700 930x891 pos:absolute t:604.031px l:720px r:-210px b:-236.672px ; tf:matrix(1, 0, 0, 1, -465, -445.523) ; z:0
+    #1595 <img> 255,8700 930x891 ovf:clip ; img:FI/MSTluKQSUNZrlxr6ESQPZTnooU.webp?scale-down-to=1024&width=1242&height=1190 nat:930x890 fit:cover objpos:50% 50% alt:
+  #1596 <div> [Title] 189,8621 1062x190 flex column jc:center ai:center gap:24px ; maxW:1062px ; z:1
+   #1597 <div> 571,8621 297x22 maxW:564px ; z:1
+    #1598 <p> 571,8621 297x22  T"Where your team already is" ["Instrument Sans" 600  16px/22.4px ls:1.7px c:rgb(18, 32, 35) ta:center tt:uppercase]
+   #1599 <div> 435,8668 570x64 z:1
+    #1600 <h2> 435,8668 570x64  T"Ask Siena lives in Slack" ["Feature Deck Web Light" 400  64px/64px ls:-1.28px c:rgb(18, 32, 35) ta:center]
+   #1601 <div> 438,8756 564x56 maxW:564px ; z:1
+    #1602 <p> 438,8756 564x56  T"Answers, insights, and scheduled briefs: all in Slack, where your team already works." ["Instrument Sans" 500  20px/28px ls:-0.2px c:rgb(18, 32, 35) ta:center]
+  #1603 <div> [Container] 189,8884 1062x836 flex column jc:center ai:center gap:40px ; maxW:1062px ; ovf:clip
+   #1604 <div> 189,8884 1062x686 flex row jc:center ai:flex-start gap:10px ; ovf:clip
+    #1605 <div> [Card/Gallery] 189,8884 1062x686 flex column jc:flex-start ai:flex-start gap:24px ; bg:rgba(255, 255, 255, 0.6) ; rad:24px ; ovf:hidden ; z:0
+     #1606 <div> [sub-nav] 189,8884 80x686 flex row jc:flex-start ai:center gap:10px ; bg:rgb(97, 31, 105) ; rad:20px 0px 0px 20px ; ovf:clip
+      #1607 <div> [Side Nav 2] 189,8884 80x686 flex column jc:space-between ai:center gap:normal ; pad:30px 0px ; bg:rgb(97, 31, 105) ; rad:20px 0px 0px 20px
+       #1608 <div> [Frame 30] 189,8914 80x427 flex column jc:flex-start ai:center gap:12px
+        #1609 <div> [Frame 25] 199,8914 60x82 flex column jc:flex-start ai:center gap:0px
+         #1610 <div> [Side-nav icon interactions] 199,8914 60x60 flex column jc:center ai:center gap:0px
+          #1611 <div> [Frame 19] 204,8919 50x50 flex row jc:center ai:center gap:10px ; pad:10px ; bg:rgba(248, 193, 255, 0.2) ; rad:10px
+           #1612 <div> [home] 214,8929 30x30 ovf:clip
+            #1613 <div> [vector] 214,8929 30x30 bgImg:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 30 30%22><path d=%22M 15.476 4.191 L 25.651 13.945 C 25.876 14.17 26 14.467 26 14.771 C 26 15.402 25.486 15.917 24.854 15.917 L 23.25 15.917 L 23.
+         #1614 <div> [Home] 199,8974 60x22 
+          #1615 <p> 199,8974 60x22 
+           #1616 <span> 209,8975 41x18  T"Home" [Lato 700  15px/20.7px c:rgb(255, 255, 255) ta:center]
+        #1617 <div> [Frame 26] 199,9007 60x72 flex column jc:flex-start ai:center gap:0px
+         #1618 <div> [Frame 19] 204,9007 50x50 flex row jc:center ai:center gap:10px ; pad:10px ; rad:10px
+          #1619 <div> [message] 214,9017 30x30 ovf:clip
+           #1620 <div> [Group] 219,9021 20x22 pos:absolute t:4px l:5px r:5px b:4px
+            #1622 <svg> 219,9021 20x22 ovf:hidden ; SVG use:#svg1854428124_2239 vb:0 0 24 27
+         #1624 <div> [DMs] 199,9057 60x22 
+          #1625 <p> 199,9057 60x22 
+           #1626 <span> 213,9058 32x18  T"DMs" [Lato 700  15px/20.7px c:rgb(255, 255, 255) ta:center]
+        #1627 <div> [Frame 27] 199,9091 60x72 flex column jc:flex-start ai:center gap:0px
+         #1628 <div> [Frame 19] 204,9091 50x50 flex row jc:center ai:center gap:10px ; pad:10px ; rad:10px
+          #1629 <div> [activity] 214,9101 30x30 ovf:clip
+           #1630 <div> [Group] 217,9101 24x26 pos:absolute t:0px l:3px r:3px b:4px
+            #1632 <svg> 217,9101 24x26 ovf:hidden ; SVG use:#svg-1815629072_2137 vb:0 0 28 30
+         #1634 <div> [Activity] 199,9141 60x22 
+          #1635 <p> 199,9141 60x22 
+           #1636 <span> 202,9142 54x18  T"Activity" [Lato 700  15px/20.7px c:rgb(255, 255, 255) ta:center]
+        #1637 <div> [Frame 28] 199,9175 60x82 flex column jc:flex-start ai:center gap:0px
+         #1638 <div> [Frame 19] 199,9175 60x60 flex row jc:center ai:center gap:10px ; pad:20px ; rad:10px
+          #1639 <div> [bookmark] 214,9190 30x30 ovf:clip
+           #1640 <div> [Vector] 221,9194 16x22 pos:absolute t:4px l:7px r:7px b:4px
+            #1642 <svg> 221,9194 16x22 ovf:hidden ; SVG use:#svg-1513489493_667 vb:0 0 18 26
+         #1644 <div> [Later] 199,9235 60x22 
+          #1645 <p> 199,9235 60x22 
+           #1646 <span> 211,9236 36x18  T"Later" [Lato 700  15px/20.7px c:rgb(255, 255, 255) ta:center]
+        #1647 <div> [Frame 31] 199,9268 60x72 flex column jc:flex-start ai:center gap:0px
+         #1648 <div> [Frame 19] 204,9268 50x50 flex row jc:center ai:center gap:10px ; pad:10px ; rad:10px
+          #1649 <div> [three-dots-vertical] 214,9278 30x30 ovf:clip ; tf:matrix(0, -1, 1, 0, 0, 0)
+           #1650 <div> [Vector] 217,9291 23x6 pos:absolute t:12px l:2.48438px r:4.42188px b:12px ; tf:matrix(0, 1, -1, 0, 0, 0)
+            #1652 <svg> 217,9291 23x6 ovf:hidden ; SVG use:#svg-1782389279_1604 vb:0 0 24 6
+         #1654 <div> [Options] 199,9318 60x22 
+          #1655 <p> 199,9318 60x22 
+           #1656 <span> 202,9319 54x18  T"Options" [Lato 700  15px/20.7px c:rgb(255, 255, 255) ta:center]
+       #1657 <div> [Frame 32] 199,9418 60x122 flex column jc:flex-start ai:center gap:12px
+        #1658 <div> [Frame 19] 204,9418 50x50 flex row jc:center ai:center gap:10px ; pad:10px ; bg:rgba(255, 255, 255, 0.1) ; rad:60px
+         #1659 <div> [plus] 214,9428 30x30 ovf:clip ; tf:matrix(0, -1, 1, 0, 0, 0)
+          #1660 <div> [Vector] 218,9432 23x23 pos:absolute t:3.5px l:2.5px r:4.5px b:3.5px ; tf:matrix(0, 1, -1, 0, 0, 0)
+           #1662 <svg> 218,9432 23x23 ovf:hidden ; SVG use:#svg424763693_970 vb:0 0 23 23
+        #1664 <div> [Male 1] 199,9480 60x60 rad:10px ; ovf:clip
+         #1665 <div> [Subtract] 181,9463 108x108 pos:absolute t:-17px l:-18px r:-30px b:-31px
+           #1667 <img> 181,9463 108x108 ovf:clip ; img:FI/SvwqUnk1l16pFvaL0JTEzDLyBY.webp?width=562&height=842 nat:108x161 fit:contain objpos:50% 50% alt:
+         #1668 <div> [Ellipse 63] 241,9522 14x14 bg:rgb(0, 122, 90) ; rad:100% ; pos:absolute t:42px l:42px r:4px b:4px
+     #1670 <div> [Ask Siena] 499,9011 399x87 flex row jc:center ai:flex-start gap:10px ; pos:absolute t:127px l:509.75px r:153.25px b:472.188px ; tf:matrix(1, 0, 0, 1, -199.5, 0) ; z:1
+      #1671 <div> 523,9011 40x68 flex row jc:center ai:center gap:10px ; pad:16px 0px 12px ; ovf:clip
+       #1672 <div> [Avatar] 523,9027 40x40 rad:99px ; ovf:hidden
+        #1673 <div> [image 1696] 524,9024 38x57 pos:absolute t:-3px l:1px r:1px b:-14px
+          #1675 <img> 524,9024 38x57 ovf:clip ; img:FI/SvwqUnk1l16pFvaL0JTEzDLyBY.webp?width=562&height=842 nat:108x161 fit:cover objpos:50% 50% alt:
+      #1676 <div> 573,9011 302x87 flex column jc:flex-end ai:flex-end gap:10px
+       #1677 <div> [01] 573,9011 302x87 flex column jc:flex-start ai:flex-start gap:24px ; pad:20px ; bg:rgba(243, 240, 235, 0.7) ; rad:24px ; bdf:blur(10px) ; z:2
+        #1678 <div> [Get your AI superhuman up and running 90% faster and more efficient than the average automation tools. 101% empathy is required to turn around a brand ready to capture the world’s imagination. Meet Siena.] 593,9031 262x47 
+         #1679 <p> 593,9031 262x47  T"what were our top escalations last week?" ["Tiempos Text Regular" 400  18px/23.4px ls:-0.18px c:rgb(42, 54, 57)]
+          #1680 <strong> 593,9030 92x24  T"@AskSiena" ["Tiempos Text Regular" 700  18px/23.4px ls:-0.18px c:rgb(42, 54, 57)]
+     #1681 <div> [Ask Siena] 507,9145 475x87 flex row jc:center ai:center gap:10px ; pos:absolute t:261px l:318px r:269px b:338.188px ; z:1
+      #1682 <div> 507,9145 425x87 flex column jc:flex-end ai:flex-end gap:10px
+       #1683 <div> [01] 507,9145 425x87 flex column jc:flex-start ai:flex-start gap:24px ; pad:20px ; bg:rgba(243, 240, 235, 0.7) ; rad:17px ; bdf:blur(10px) ; z:2
+        #1684 <div> [Get your AI superhuman up and running 90% faster and more efficient than the average automation tools. 101% empathy is required to turn around a brand ready to capture the world’s imagination. Meet Siena.] 527,9165 385x47 
+         #1685 <p> 527,9165 385x47  T"Top drivers last week across" ["Tiempos Text Regular" 400  18px/23.4px ls:-0.18px c:rgb(42, 54, 57)]
+          #1686 <strong> 527,9164 278x47  T"1,847 conversations:" ["Tiempos Text Regular" 700  18px/23.4px ls:-0.18px c:rgb(42, 54, 57)]
+      #1687 <div> [Icon-Black] 942,9168 40x40 
+       #1689 <svg> 942,9168 40x40 ovf:hidden ; SVG use:#svg-1472641472_1627 vb:0 0 25 25
+     #1692 <div> [Bars] 533,9195 372x272 flex column jc:center ai:flex-end gap:10px ; pad:2px ; rad:24px ; shadow:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px ; pos:absolute t:311px l:344px r:346px b:103px ; z:0
+      #1693 <div> [User Message] 535,9197 368x268 flex column jc:center ai:center gap:12px ; pad:40px 12px 12px ; bg:rgba(255, 255, 255, 0.6) ; rad:24px ; ovf:clip ; bdf:blur(5px) ; z:1
+       #1694 <div> [Get your AI superhuman up and running 90% faster and more efficient than the average automation tools. 101% empathy is required to turn around a brand ready to capture the world’s imagination. Meet Siena.] 547,9237 344x36 
+        #1695 <p> 547,9237 344x36  T"Customers requests during BFCM peak (Nov 16 - Dec 7, 2025)" ["Tiempos Text Regular" 400  14px/18.2px c:rgb(18, 32, 35)]
+       #1696 <div> 547,9285 344x137 flex column jc:flex-start ai:flex-start gap:12px ; bg:rgb(250, 247, 241) ; rad:16px
+        #1697 <div> [Header] 547,9285 344x26 flex row jc:space-between ai:center gap:normal ; pad:12px 16px 0px 12px ; rad:50px
+         #1698 <div> [Response too generic] 559,9297 183x14 
+          #1699 <p> 559,9297 183x14  T"Category" ["Instrument Sans" 600  10px/14px ls:0.5px c:rgb(120, 115, 104) ta:left tt:uppercase]
+         #1700 <div> [Response too generic] 753,9297 46x14 
+          #1701 <p> 753,9297 46x14  T"Volume" ["Instrument Sans" 600  10px/14px ls:0.5px c:rgb(120, 115, 104) ta:center tt:uppercase]
+         #1702 <div> [Response too generic] 809,9297 66x14 
+          #1703 <p> 809,9297 66x14  T"Momentum" ["Instrument Sans" 600  10px/14px ls:0.5px c:rgb(120, 115, 104) ta:center tt:uppercase]
+        #1704 <div> [Text container] 547,9323 344x99 flex column jc:center ai:flex-start gap:6px
+         #1705 <div> 547,9323 344x99 flex column jc:center ai:center gap:8px ; ovf:clip
+          #1706 <div> 547,9323 344x16 flex row jc:space-between ai:center gap:normal ; pad:0px 16px 0px 12px ; ovf:clip ; tf:matrix(1, 0, 0, 1, 0, 0) ; APPEAR:51rimq
+           #1707 <div> 559,9323 316x16 flex row jc:space-between ai:center gap:normal ; ovf:clip
+            #1708 <div> [Response too generic] 559,9323 176x16 
+             #1709 <p> 559,9323 176x16  T"① Shipping delays" ["Tiempos Text Regular" 400  12px/15.6px c:rgb(18, 32, 35)]
+            #1710 <div> [Response too generic] 768,9323 23x16 
+             #1711 <p> 768,9323 23x16 
+              #1712 <strong> 768,9322 23x16  T"34%" ["Tiempos Text Regular" 700  12px/15.6px c:rgb(18, 32, 35)]
+            #1713 <div> [Response too generic] 824,9323 51x16 
+             #1714 <p> 824,9323 51x16  T"↑12%" ["Tiempos Text Regular" 400  12px/15.6px c:rgb(18, 32, 35)]
+          #1715 <div> 547,9347 344x1 bg:rgb(239, 229, 208) ; ovf:clip
+          #1716 <div> 547,9356 344x18 flex row jc:space-between ai:center gap:normal ; pad:0px 16px 0px 12px ; ovf:clip ; tf:matrix(1, 0, 0, 1, 0, 0) ; APPEAR:jvhqp7
+           #1717 <div> 559,9357 176x16 flex row jc:space-between ai:center gap:normal ; ovf:clip
+            #1718 <div> [Response too generic] 559,9357 176x16 
+             #1719 <p> 559,9357 176x16  T"② Return policy confusion" ["Tiempos Text Regular" 400  12px/15.6px c:rgb(18, 32, 35)]
+           #1720 <div> [Response too generic] 771,9356 25x18 
+            #1721 <p> 771,9356 25x18  T"21%" ["Tiempos Text Regular" 400  14px/18.2px c:rgb(18, 32, 35)]
+           #1722 <div> [Response too generic] 832,9357 43x16 
+            #1723 <p> 832,9357 43x16  T"New" ["Tiempos Text Regular" 400  12px/15.6px c:rgb(18, 32, 35)]
+          #1724 <div> 547,9382 344x1 bg:rgb(239, 229, 208) ; ovf:clip
+          #1725 <div> 547,9391 344x32 flex row jc:space-between ai:center gap:normal ; pad:0px 16px 16px 12px ; ovf:clip ; tf:matrix(1, 0, 0, 1, 0, 0) ; APPEAR:1834ncp
+           #1726 <div> 559,9391 176x16 flex row jc:space-between ai:center gap:normal ; ovf:clip
+            #1727 <div> [Response too generic] 559,9391 176x16 
+             #1728 <p> 559,9391 176x16  T"③ Out-of-stock" ["Tiempos Text Regular" 400  12px/15.6px c:rgb(18, 32, 35)]
+           #1729 <div> [Response too generic] 769,9391 22x16 
+            #1730 <p> 769,9391 22x16  T"18%" ["Tiempos Text Regular" 400  12px/15.6px c:rgb(18, 32, 35)]
+           #1731 <div> [Response too generic] 825,9391 50x16 
+            #1732 <p> 825,9391 50x16  T"Seasonal" ["Tiempos Text Regular" 400  12px/15.6px c:rgb(18, 32, 35)]
+       #1733 <div> [Get your AI superhuman up and running 90% faster and more efficient than the average automation tools. 101% empathy is required to turn around a brand ready to capture the world’s imagination. Meet Siena.] 547,9434 344x18 z:1
+        #1734 <p> 547,9434 344x18  T"Want me to build a journey that addresses ① and ②?" ["Tiempos Text Regular" 400  14px/18.2px c:rgb(18, 32, 35)]
+    #1735 <div> [Slack logo] 1027,8908 98x98 bg:rgba(255, 255, 255, 0.8) ; rad:28px ; shadow:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px ; pos:absolute t:24px l:838px r:126px b:564px ; ovf:clip ; bdf:blur(10px) ; z:0
+     #1737 <div> 1046,8927 29x29 bgImg:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 28.38 28.372%22 overflow=%22visible%22><path d=%22M 22.043 15.734 C 25.534 15.734 28.364 18.563 28.364 22.053 C 28.364 25.543 25.534 28.372 22.043 28.372 L 6.321
+     #1739 <div> 1077,8927 29x29 bgImg:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 28.38 28.372%22 overflow=%22visible%22><path d=%22M 22.043 15.717 C 23.792 15.717 25.376 16.428 26.52 17.576 C 27.669 18.721 28.38 20.304 28.38 22.053 C 28.38 25
+     #1741 <div> 1077,8958 29x29 bgImg:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 28.38 28.372%22 overflow=%22visible%22><path d=%22M 6.337 15.717 C 9.828 15.717 12.658 18.547 12.658 22.037 C 12.658 23.786 11.947 25.369 10.799 26.513 C 9.654 2
+     #1743 <div> 1046,8958 29x29 bgImg:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 28.38 28.372%22 overflow=%22visible%22><path d=%22M 15.738 22.053 L 15.738 6.335 C 15.738 2.845 18.568 0.016 22.059 0.016 C 25.55 0.016 28.38 2.845 28.38 6.335 L
+   #1744 <div> 189,9610 1062x110 flex row jc:center ai:flex-start gap:32px ; maxW:1325px ; ovf:hidden
+    #1745 <div> [Title] 189,9610 333x110 flex column jc:center ai:flex-start gap:16px ; pad:32px 0px 0px ; maxW:416px ; z:1
+     #1746 <div> 189,9642 333x78 op:0.8 ; z:1
+      #1747 <p> 189,9642 333x78  T"@AskSiena in any channel: answers, quotes, and analysis in minutes." ["Tiempos Text Regular" 400  20px/26px c:rgb(18, 32, 35) ta:left]
+    #1748 <div> [Title] 554,9610 333x84 flex column jc:center ai:flex-start gap:16px ; pad:32px 0px 0px ; maxW:416px ; z:1
+     #1749 <div> 554,9642 333x52 op:0.8 ; z:1
+      #1750 <p> 554,9642 333x52  T"Your team can now instantly access answers on their own." ["Tiempos Text Regular" 400  20px/26px c:rgb(18, 32, 35) ta:left]
+    #1751 <div> [Title] 918,9610 333x84 flex column jc:center ai:flex-start gap:16px ; pad:32px 0px 0px ; maxW:416px ; z:1
+     #1752 <div> 918,9642 333x52 op:0.8 ; z:1
+      #1753 <p> 918,9642 333x52  T"Scheduled playbooks, delivered where your team can act on them." ["Tiempos Text Regular" 400  20px/26px c:rgb(18, 32, 35) ta:left]
+  #1754 <div> [Blur out] 0,9799 1440x55 flex row jc:center ai:center gap:10px ; bgImg:linear-gradient(rgb(250, 247, 241) 0%, rgba(250, 247, 241, 0.9) 19%, rgba(250, 247, 241, 0.71) 40%, rgba(250, 247, 241, 0) 100%) ; pos:absolute t:1257.41px l:0px r:0px b:-54px ; ovf:hidden ; z:3
+ #1755 <div> [Integrations] 0,9800 1440x744 flex column jc:center ai:center gap:72px ; pad:80px 96px ; bg:rgb(255, 255, 255) ; ovf:hidden
+  #1756 <div> 120,9880 1200x584 flex column jc:center ai:flex-end gap:48px ; maxW:1200px ; ovf:clip
+   #1757 <div> [Title] 120,9880 1200x64 flex column jc:center ai:flex-start gap:24px ; maxW:1328px ; z:1
+    #1758 <div> 120,9880 763x64 z:1
+     #1759 <h2> 120,9880 763x64  T"Works with your existing stack" ["Feature Deck Web Light" 400  64px/64px ls:-1.28px c:rgb(18, 32, 35) ta:left]
+   #1760 <div> [integrations] 120,9992 1200x366 grid cols:297px 297px 297px 297px rows:181px 181px gap:4px ; maxW:1328px
+    #1761 <div> [integrations] 120,9992 297x181 flex column jc:center ai:center gap:0px ; pad:72px 0px ; bg:rgb(250, 247, 241) ; rad:4px ; ovf:hidden
+     #1762 <div> [Logos] 204,10064 129x37 flex column jc:flex-start ai:center gap:10px
+      #1763 <div> [Logos] 204,10064 129x37 
+       #1765 <svg> 204,10064 129x37 ovf:hidden ; SVG use:#svg-419097695_3507 vb:0 0 129 37
+    #1767 <div> [integrations] 421,9992 297x181 flex column jc:center ai:center gap:0px ; pad:72px 0px ; bg:rgb(250, 247, 241) ; rad:4px ; ovf:hidden
+     #1768 <div> [Logos] 513,10066 113x32 flex column jc:flex-start ai:center gap:10px
+      #1770 <div> [Yotpo Logo] 513,10066 113x32 ovf:clip ; filter:brightness(0)
+        #1772 <img> 513,10066 113x32 ovf:clip ; img:FI/S1CA7BjDsQfmui51TcPvAyGtRxA.svg?width=113&height=32 nat:113x32 fit:cover objpos:50% 50% alt:Yotpo
+    #1773 <div> [integrations] 722,9992 297x181 flex column jc:center ai:center gap:0px ; pad:72px 0px ; bg:rgb(250, 247, 241) ; rad:4px ; ovf:hidden
+     #1774 <div> [Logos] 791,10066 160x32 flex column jc:flex-start ai:center gap:2.04877px
+      #1776 <div> [AfterShip Logo] 791,10066 160x32 ovf:clip ; filter:brightness(0)
+        #1778 <img> 791,10066 160x32 ovf:clip ; img:FI/4ivCVwCJknXe4l2YnVNdadGF4.svg?scale-down-to=512&width=620&height=124 nat:194x39 fit:cover objpos:50% 50% alt:AfterShip
+    #1779 <div> [integrations] 1023,9992 297x181 flex column jc:center ai:center gap:0px ; pad:72px 0px ; bg:rgb(250, 247, 241) ; rad:4px ; ovf:hidden
+     #1780 <div> [Logos] 1100,10064 143x37 flex column jc:flex-start ai:center gap:15.458px
+      #1782 <div> [ShipBob Logo] 1100,10064 143x37 ovf:clip
+        #1784 <img> 1100,10064 143x37 ovf:clip ; img:FI/tRZ3CBzNJw2sWeG9jlHuvjm3vs.svg?width=460&height=121 nat:460x121 fit:cover objpos:50% 50% alt:ShipBob
+    #1785 <div> [integrations] 120,10177 297x181 flex column jc:center ai:center gap:0px ; pad:72px 0px ; bg:rgb(250, 247, 241) ; rad:4px ; ovf:hidden
+     #1786 <div> [Logos] 218,10251 101x33 flex column jc:flex-start ai:center gap:19.895px
+      #1788 <div> [Loop Logo] 218,10251 101x33 ovf:clip ; filter:brightness(0)
+        #1790 <img> 218,10251 101x33 ovf:clip ; img:FI/lJNzlwA3aybr9aHp0a2x2qsApOs.svg?width=101&height=33 nat:101x33 fit:cover objpos:50% 50% alt:Loop
+    #1791 <div> [integrations] 421,10177 297x181 flex column jc:center ai:center gap:0px ; pad:72px 0px ; bg:rgb(250, 247, 241) ; rad:4px ; ovf:hidden
+     #1792 <div> [Logos] 476,10249 187x37 flex column jc:flex-start ai:center gap:1.79128px
+      #1793 <div> [Union] 476,10249 187x37 
+       #1795 <svg> 476,10249 187x37 ovf:hidden ; SVG use:#svg-746026046_6002 vb:0 0 187 37
+    #1797 <div> [integrations] 722,10177 297x181 flex column jc:center ai:center gap:0px ; pad:72px 0px ; bg:rgb(250, 247, 241) ; rad:4px ; ovf:hidden
+     #1798 <div> [Logos] 818,10250 106x34 flex column jc:flex-start ai:center gap:15.458px
+      #1799 <div> [...and many more] 818,10250 106x34 
+       #1800 <p> 818,10250 106x34 
+        #1801 <strong> 818,10251 106x30  T"Helpdesks" ["Feature Deck Web Regular" 700  24px/33.6px c:rgb(18, 32, 35)]
+    #1802 <div> [integrations] 1023,10177 297x181 flex column jc:center ai:center gap:0px ; pad:72px 0px ; bg:rgb(250, 247, 241) ; rad:4px ; ovf:hidden
+     #1803 <div> [...and many more] 1104,10250 136x34 
+      #1804 <p> 1104,10250 136x34 
+       #1805 <strong> 1104,10251 136x30  T"Custom Apps" ["Feature Deck Web Regular" 700  24px/33.6px c:rgb(18, 32, 35)]
+   #1808 <a> [xlg] 1078,10406 242x58 flex row jc:center ai:center gap:10px ; pad:18px 24px ; bg:rgb(18, 32, 35) ; bgImg:linear-gradient(90deg, rgb(18, 32, 35) 0%, rgb(18, 32, 35) 20%, rgb(18, 32, 35) 40%, rgb(18, 32, 35) 60%, rgb(18, 32, 35) 80%, rgb(18, 32, 35) 100%) ; rad:16px ; href:./integrations
+    #1809 <div> [Text] 1102,10424 194x22 
+     #1810 <p> 1102,10424 194x22  T"Explore all integrations" ["Instrument Sans" 600  18px/21.6px c:rgb(255, 255, 255) ta:left]
+ #1811 <div> [Enterprise] 0,10543 1440x740 flex row jc:center ai:center gap:100px ; pad:96px ; bg:rgb(18, 32, 35) ; ovf:hidden
+  #1812 <div> 185,10639 1070x548 flex column jc:center ai:flex-start gap:64px ; maxW:1070px
+   #1813 <div> [Title Stack] 185,10639 535x264 flex column jc:center ai:flex-start gap:48px
+    #1814 <div> [Title] 185,10639 535x264 flex column jc:center ai:flex-start gap:24px ; maxW:584px ; z:1
+     #1815 <div> 185,10639 535x128 z:1
+      #1816 <h2> 185,10639 535x128  T"Enterprise-grade safety" ["Feature Deck Web Light" 400  64px/64px ls:-1.28px c:rgb(255, 255, 255) ta:left]
+     #1817 <div> 185,10791 535x112 z:1
+      #1818 <p> 185,10791 535x112  T"Trusted by some of the fastest-growing ecommerce and retail companies, Siena meets the highest enterprise standards with guardrails and granular controls that keep every interaction on brand and on policy." ["Instrument Sans" 500  20px/28px ls:-0.2px c:rgb(255, 255, 255) ta:left]
+   #1819 <div> [integrations] 185,10967 1070x220 flex row jc:center ai:flex-start gap:24px ; maxW:1328px
+    #1820 <div> [Compliances] 185,10967 250x220 flex column jc:flex-start ai:flex-start gap:24px ; pad:24px ; bg:rgb(255, 255, 255) ; rad:24px ; z:1
+     #1821 <div> [Title] 209,10991 202x172 flex column jc:flex-start ai:flex-start gap:12px ; pad:0px 0px 24px ; maxW:432px ; ovf:hidden
+      #1822 <div> 209,10991 24x24 maxW:564px ; z:1
+       #1823 <p> 209,10991 24x24  T"" ["Font Awesome 6 Sharp Light" 400  24px/24px c:rgb(18, 32, 35) ta:center]
+      #1824 <div> 209,11027 202x34 z:1
+       #1825 <p> 209,11027 202x34  T"Compliances" ["Feature Deck Web Regular" 400  24px/33.6px c:rgb(18, 32, 35)]
+      #1826 <div> 209,11073 202x31 op:0.8 ; z:1
+       #1827 <p> 209,11073 202x31  T"Certified against SOC 2, GDPR, CPRA, and HIPAA standards." ["Tiempos Text Regular" 400  12px/15.6px c:rgb(18, 32, 35)]
+    #1828 <div> [integrations] 459,10967 250x220 flex column jc:flex-start ai:flex-start gap:24px ; pad:24px ; bg:rgb(255, 255, 255) ; rad:24px ; z:1
+     #1829 <div> [Title] 483,10991 202x172 flex column jc:flex-start ai:flex-start gap:12px ; pad:0px 0px 24px ; maxW:432px ; ovf:hidden
+      #1830 <div> 483,10991 24x24 maxW:564px ; z:1
+       #1831 <p> 483,10991 24x24  T"" ["Font Awesome 6 Sharp Light" 400  24px/24px c:rgb(18, 32, 35) ta:center]
+      #1832 <div> 483,11027 202x34 z:1
+       #1833 <p> 483,11027 202x34  T"AI guardrails" ["Feature Deck Web Regular" 400  24px/33.6px c:rgb(18, 32, 35)]
+      #1834 <div> 483,11073 202x47 op:0.8 ; z:1
+       #1835 <p> 483,11073 202x47  T"System-level and configurable boundaries on tone, topics, and actions." ["Tiempos Text Regular" 400  12px/15.6px c:rgb(18, 32, 35)]
+    #1836 <div> [SSO] 732,10967 250x220 flex column jc:flex-start ai:flex-start gap:24px ; pad:24px ; bg:rgb(255, 255, 255) ; rad:24px ; z:1
+     #1837 <div> [Title] 756,10991 202x172 flex column jc:flex-start ai:flex-start gap:12px ; pad:0px 0px 24px ; maxW:432px ; ovf:hidden
+      #1838 <div> 756,10991 21x24 maxW:564px ; z:1
+       #1839 <p> 756,10991 21x24  T"" ["Font Awesome 6 Sharp Light" 400  24px/24px c:rgb(18, 32, 35) ta:center]
+      #1840 <div> 756,11027 202x34 z:1
+       #1841 <p> 756,11027 202x34  T"SSO, roles, logs" ["Feature Deck Web Regular" 400  24px/33.6px c:rgb(18, 32, 35)]
+      #1842 <div> 756,11073 202x31 op:0.8 ; z:1
+       #1843 <p> 756,11073 202x31  T"SAML SSO, granular permissions, and a full trail of every action." ["Tiempos Text Regular" 400  12px/15.6px c:rgb(18, 32, 35)]
+    #1844 <div> [integrations] 1006,10967 250x220 flex column jc:flex-start ai:flex-start gap:24px ; pad:24px ; bg:rgb(255, 255, 255) ; rad:24px ; z:1
+     #1845 <div> [Title] 1030,10991 202x172 flex column jc:flex-start ai:flex-start gap:12px ; pad:0px 0px 24px ; maxW:432px ; ovf:hidden
+      #1846 <div> 1030,10991 24x24 maxW:564px ; z:1
+       #1847 <p> 1030,10991 24x24  T"" ["Font Awesome 6 Sharp Light" 400  24px/24px c:rgb(18, 32, 35) ta:center]
+      #1848 <div> 1030,11027 202x67 z:1
+       #1849 <p> 1030,11027 202x67  T"Dedicated support & SLA" ["Feature Deck Web Regular" 400  24px/33.6px c:rgb(18, 32, 35)]
+      #1850 <div> 1030,11106 202x31 op:0.8 ; z:1
+       #1851 <p> 1030,11106 202x31  T"A named success manager, hands-on onboarding, and an uptime SLA." ["Tiempos Text Regular" 400  12px/15.6px c:rgb(18, 32, 35)]
+ #1852 <div> [Main CTA] 0,11283 1440x755 flex column jc:center ai:center gap:10px ; ovf:clip
+  #1854 <div> 0,11283 1440x755 z:1
+   #1855 <div> [Desktop] 0,11283 1440x755 flex row jc:center ai:center gap:10px ; pad:200px 96px ; ovf:hidden
+     #1857 <img> 0,11283 1440x755 ovf:clip ; img:FI/ERYNplIY591uk80wpoa4JGglO8.webp?scale-down-to=2048&width=3474&height=1954 nat:1440x810 fit:cover objpos:50% 50% alt:
+    #1858 <div> [Title] 189,11483 1062x355 flex column jc:center ai:center gap:40px ; pad:64px ; maxW:1062px ; bg:rgb(243, 240, 235) ; rad:48px ; z:1
+     #1859 <div> 253,11547 934x227 flex column jc:center ai:center gap:41px
+      #1860 <div> 253,11547 934x128 flex column jc:center ai:center gap:24px
+       #1861 <div> 253,11547 934x128 z:1
+        #1862 <h2> 253,11547 934x128  T"See how fast-growing brands scale with Siena" ["Feature Deck Web Light" 400  64px/64px ls:-1.28px c:rgb(18, 32, 35) ta:center]
+      #1864 <a> [xlg] 641,11716 157x58 flex row jc:center ai:center gap:10px ; pad:18px 24px ; bg:rgb(18, 32, 35) ; bgImg:linear-gradient(90deg, rgb(18, 32, 35) 0%, rgb(18, 32, 35) 20%, rgb(18, 32, 35) 40%, rgb(18, 32, 35) 60%, rgb(18, 32, 35) 80%, rgb(18, 32, 35) 100%) ; rad:16px ; href:./book-a-demo
+       #1865 <div> [Text] 665,11734 109x22 
+        #1866 <p> 665,11734 109x22  T"Book a demo" ["Instrument Sans" 600  18px/21.6px c:rgb(255, 255, 255) ta:left]
+  #1867 <div> [Blur out] 0,11282 1440x187 flex row jc:center ai:center gap:10px ; bgImg:linear-gradient(rgb(18, 32, 35) 7.01946%, rgba(18, 32, 35, 0) 100%) ; pos:absolute t:-1px l:0px r:0px b:568.594px ; ovf:hidden ; z:3
+ #1868 <div> [Demo Goal Links (adds ?goal=insights to Book a demo links)] 0,0 1x1 pos:absolute t:0px l:0px r:1439px b:12471.2px
+ #1873 <div> 0,12038 1440x434 z:7
+FOOTER: #1875 <div> [Desktop] 0,12038 1440x434 flex column jc:flex-start ai:center gap:16px ; pad:64px 96px ; bg:rgb(18, 32, 35)

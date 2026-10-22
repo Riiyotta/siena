@@ -1,0 +1,18 @@
+{
+  "registryId": "primitive.badge",
+  "version": "1.0.0",
+  "category": "label",
+  "description": "Small 'Coming soon' badge (coral text, white pill) used in the mega-menu and order-tracking.",
+  "props": {
+    "label": {
+      "const": "Coming soon"
+    }
+  },
+  "tokens": [
+    "{color.text.notice}",
+    "{radius.pill}"
+  ],
+  "measuredFrom": [
+    "spec.megamenu.panel"
+  ]
+}

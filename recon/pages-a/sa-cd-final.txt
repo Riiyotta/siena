@@ -1,0 +1,24 @@
+#1124 <div> [Content display (Timer)] 0,5949 1440x2076 flex column jc:flex-start ai:center gap:72px ; pad:80px 96px
+ #1125 <div> [Title] 189,6029 1062x282 flex column jc:center ai:center gap:24px ; maxW:1062px ; z:1
+  #1126 <div> 561,6029 318x22 flex column jc:flex-start ai:normal gap:normal ; maxW:564px ; z:1
+   #1127 <p> 561,6029 318x22  T"this is the future of shopping" ["Instrument Sans" 600  16px/22.4px ls:1.7px c:rgb(18, 32, 35) ta:center tt:uppercase]
+  #1128 <div> 189,6076 1062x128 flex column jc:flex-start ai:normal gap:normal ; z:1
+   #1129 <h2> 189,6076 1062x128  T"A unified intelligence layer for every customer journey" ["Feature Deck Web Light" 400  64px/64px ls:-1.28px c:rgb(18, 32, 35) ta:center tt:none]
+  #1130 <div> 438,6228 564x84 flex column jc:flex-start ai:normal gap:normal ; maxW:564px ; op:0.82 ; z:1
+   #1131 <p> 438,6228 564x84  T"Whether a customer is browsing your site, stuck at checkout, or reaching out post-purchase, Siena handles it all with complete context." ["Instrument Sans" 500  20px/28px ls:-0.2px c:rgb(18, 32, 35) ta:center tt:none]
+ #1132 <div> 96,6640 1248x454 flex row jc:center ai:center gap:56px ; pos:sticky t:240px l:auto r:auto b:auto ; z:1 ; STICKY top:240px
+  #1135 <div> [Final] 276,6640 416x454 flex column jc:center ai:center gap:72px ; ovf:clip
+   #1136 <div> [Rectangle] 276,6640 416x270 rad:32px ; z:1
+    #1137 <div> 276,6640 416x270 rad:32px ; pos:absolute t:0px l:0px r:0px b:0px
+     #1138 <img> 276,6640 416x270 rad:32px ; ovf:clip ; img:https://framerusercontent.com/images/ON0dnmCt7UQBt5qAvV5CyAqaN0o.webp?width=1920&height=1080 nat:1440x810 fit:cover objpos:50% 50% alt:
+   #1139 <div> 276,6982 416x112 flex column jc:flex-start ai:normal gap:normal ; maxW:564px ; op:0.82 ; z:1
+    #1140 <p> 276,6982 416x112  T"Intelligent assistance from browse to buy. Siena answers questions, resolves hesitations, and guides customers to purchase—with complete context of their journey." ["Instrument Sans" 500  20px/28px ls:-0.2px c:rgb(18, 32, 35) ta:center tt:none]
+  #1143 <div> [Final] 748,6640 416x454 flex column jc:center ai:center gap:72px ; ovf:clip
+   #1144 <div> [Rectangle] 748,6640 416x270 rad:32px ; z:1
+    #1145 <div> 748,6640 416x270 rad:32px ; pos:absolute t:0px l:0px r:0px b:0px
+     #1146 <img> 748,6640 416x270 rad:32px ; ovf:clip ; img:https://framerusercontent.com/images/5JtROZuq0lzTDVwGqPMsEIVlmg.webp?width=1920&height=1080 nat:1440x810 fit:cover objpos:50% 50% alt:
+   #1147 <div> 748,6982 416x112 flex column jc:flex-start ai:normal gap:normal ; maxW:564px ; op:0.82 ; z:1
+    #1148 <p> 748,6982 416x112  T"Post-purchase help that knows the full story. Siena maintains context across orders, preferences, and conversations—delivering support that feels genuinely personal." ["Instrument Sans" 500  20px/28px ls:-0.2px c:rgb(18, 32, 35) ta:center tt:none]
+  #1150 <div> [Progress Bar] -15,6941 1470x2 flex row jc:flex-start ai:center gap:0px ; pos:absolute t:300.984px l:-111px r:-111px b:151.016px ; ovf:clip ; z:4
+   #1151 <div> [Line] -15,6941 1511x2 bgImg:linear-gradient(270deg, rgba(247, 221, 147, 0) 0.644003%, rgb(247, 221, 147) 10.2442%, rgb(248, 181, 127) 25.3941%, rgb(255, 93, 78) 43.7852%, rgb(249, 80, 64) 67.1717%, rgb(253, 163, 172) 83.0307%, rgba(253, 163, 172, 0) 98.2492%) ; z:1 ; trans:width 0.5s ease-in-out
+    #1152 <div> [Head] -29,6924 1551x36 bgImg:radial-gradient(50% 50%, rgba(255, 255, 255, 0.65) 0%, rgba(255, 255, 255, 0) 100%) ; rad:50% ; pos:absolute t:-17px l:-14px r:-26px b:-17px ; ovf:hidden ; filter:blur(15px)

@@ -1,0 +1,341 @@
+######## block 1 scrollY=1565
+div "Sticky" [752,0,512x900] flex-row gap:10px p:110px 0px 40px
+  div "Sticky Image" [752,162,512x647] r:24px
+    div [0,0,0x0]
+      div "native-tracking" [749,318,518x296] tf:matrix(1, 0, 0, 1, -259, -148)
+        div "Stage 1" [749,318,518x296] flex-column gap:24px
+          (hidden op0.00170053) Card
+          (hidden op0) Review
+          div "Content" [781,233,454x47] flex-row gap:8px r:0px 0px 8px 8px tf:matrix(1, 0, 0, 1, -226.93, 0)
+            div "Frame 2147257924" [781,253,134x47] flex-row gap:8px p:12px 16px bg:#FAF7F1 r:16px op:0.599383 tf:matrix(1, 0, 0, 1, 0, 20.0308)
+              div "Order #1342" [797,265,102x23] flex-column gap:normal
+                p [797,265,102x23] TEXT"Order #4521" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+            div "•" [923,247,6x19] flex-column gap:normal
+              p [923,247,6x19] TEXT"•" {Feature Deck 400 16px/19.2px #414D4F}
+            div "Frame 2147257925" [937,280,154x47] flex-row gap:8px p:12px 16px bg:#FAF7F1 r:16px op:0.0490789 tf:matrix(1, 0, 0, 1, 0, 47.5461)
+              div "12/01/2024" [953,292,122x23] flex-column gap:normal
+                p [953,292,122x23] TEXT"Shipped Jan 15" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+            div "•" [1099,247,6x19] flex-column gap:normal
+              p [1099,247,6x19] TEXT"•" {Feature Deck 400 16px/19.2px #414D4F}
+            (hidden op0.013287) Frame 2147257926
+          div "Border" [1053,364,248x130] flex-row gap:10px p:2px bgi:linear-gradient(255deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 14.8649%, rgb(251, 86, 70) 32.8829%, rgb(130, 122, 204 r:16px
+            div "01" [1055,366,244x126] flex-column gap:24px p:16px bg:#EFE5D0 r:15px
+              div "Get your AI superhuman up and running 90" [1071,382,212x94] flex-column gap:normal
+                p [1071,382,212x94] TEXT"I see it cleared customs this morning and is now with Royal Mail. Updated ETA is Monday." {Tiempos Text Regular 400 18px/23.4px #2A3639}
+######## block 2 scrollY=2475
+div "Sticky" [752,0,512x900] flex-row gap:10px p:110px 0px 40px
+  div "Sticky Image" [752,162,512x647] r:24px
+    div [0,0,0x0]
+      div "native-tracking" [749,318,518x296] tf:matrix(1, 0, 0, 1, -259, -148)
+        div "Stage 2" [749,318,518x296] flex-column gap:24px
+          div "Card" [749,318,518x296] flex-row gap:10px p:2px r:16px
+            div "01" [751,320,514x292] flex-column gap:24px p:8px bg:#FAF7F1 r:15px
+              div [759,328,498x276] flex-row gap:10px r:8px
+                div [510,168,1104x1104]
+                  div [510,168,1104x1104] flex-row gap:normal
+                    div [510,166,1104x1107]
+                      canvas [510,166,1104x1104]
+          div "Review" [1095,532,209x45] flex-row gap:12px p:1px bgi:linear-gradient(255deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 14.8649%, rgb(251, 86, 70) 32.8829%, rgb(130, 122, 204 r:16px bf:blur(6px)
+            div [1096,533,207x43] flex-row gap:12px p:10px bg:#FFFFFF r:16px
+              div "Text container" [1106,543,187x23] flex-column gap:4px
+                div "Great product!" [1106,543,187x23] flex-column gap:normal
+                  p [1106,543,187x23] TEXT"Ok, thanks!" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+          div "Content" [769,651,477x47] flex-row gap:8px r:0px 0px 1.67682% 1.67682% / 0px 0px 16.8754% 16.8754% tf:matrix(1, 0, 0, 1, -238.547, 0)
+            div "Frame 2147257924" [769,651,131x47] flex-row gap:8px p:12px 16px bg:#FAF7F1 r:16px
+              div "Order #1342" [785,663,99x23] flex-column gap:normal
+                p [785,663,99x23] TEXT"Order #1324" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+            div "•" [908,665,6x19] flex-column gap:normal
+              p [908,665,6x19] TEXT"•" {Feature Deck 400 16px/19.2px #414D4F}
+            div "Frame 2147257925" [922,651,159x47] flex-row gap:8px p:12px 16px bg:#FAF7F1 r:16px
+              div "12/01/2024" [938,663,127x23] flex-column gap:normal
+                p [938,663,127x23] TEXT"Status: Delayed" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+            div "•" [1089,665,6x19] flex-column gap:normal
+              p [1089,665,6x19] TEXT"•" {Feature Deck 400 16px/19.2px #414D4F}
+            div "Frame 2147257926" [1102,651,144x47] flex-row gap:8px p:12px 16px bg:#FAF7F1 r:16px
+              div "Inside 30 days guarantee" [1118,663,112x23] flex-column gap:normal
+                p [1118,663,112x23] TEXT"ETA Jan 22" {Tiempos Text Regular 400 18px/23.4px #122024}
+                  span [1191,662,17x24]
+          div "Border" [694,340,239x200] flex-row gap:10px p:2px bgi:linear-gradient(255deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 14.8649%, rgb(251, 86, 70) 32.8829%, rgb(130, 122, 204 r:16px
+            div "01" [696,342,235x196] flex-column gap:24px p:16px bg:#EFE5D0 r:15px
+              div "Get your AI superhuman up and running 90" [712,358,203x164] flex-column gap:normal
+                p [712,358,203x164] TEXT"Your package has been sitting in the same facility for 3 days. I've flagged this with our fulfillment team and will update you within 24 hours" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+######## Your team of expert agents t=800ms
+div "Your team of expert agents" [0,100,1440x549] flex-column gap:72px p:80px 96px bg:#FAF7F1
+  div "Blur out" [0,100,1440x75] flex-row gap:10px bgi:linear-gradient(rgb(255, 255, 255) 0%, rgb(250, 247, 241) 100%)
+  div "Blur out" [0,574,1440x75] flex-row gap:10px bgi:linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(250, 247, 241) 100%)
+  div "Container" [120,180,1200x389] flex-row gap:56px
+    div "Text Content" [120,180,411x389] flex-column gap:32px
+      div [120,180,411x125] flex-column gap:24px
+        div [0,0,0x0]
+          div [120,180,411x125] flex-column gap:normal
+            h3 [120,180,411x125] TEXT"Simplify your stack" {Feature Deck Web Regular 400 52px/62.4px #122023}
+      div [120,337,411x140] flex-column gap:normal
+        p [120,337,411x140] TEXT"Native tracking infrastructure is included in your platform. Handle order inquiries without managing separate tracking subscriptions or maintaining additional integrations." {Tiempos Text Regular 400 20px/28px #000000}
+      div [120,509,411x60] flex-column gap:12px
+        div [120,509,411x24] flex-row gap:10px
+          div [120,509,24x24]
+            div [120,509,24x24]
+              svg [120,509,24x24]
+          div [154,509,377x23] flex-column gap:normal
+            p [154,509,377x23] TEXT"Works with existing workflows" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+        div [120,545,411x24] flex-row gap:10px
+          div "star-four-light 1" [120,545,24x24]
+            div [120,545,24x24]
+              svg [120,545,24x24]
+          div [154,545,377x23] flex-column gap:normal
+            p [154,545,377x23] TEXT"Reduce vendor complexity" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+    div [587,182,733x384] flex-column gap:normal p:24px 0px 0px
+      div [0,0,0x0]
+        div [947,336,11x140] tf:matrix(-1, 0, 0, -1, 0, 0)
+          div [947,336,11x140] flex-row gap:normal
+            div [947,336,11x140] flex-row gap:normal
+              svg [947,336,11x140]
+      div [0,0,0x0]
+        div [947,384,12x12]
+          div "Variant 1" [947,384,12x12]
+            div "Rectangle 2223" [943,380,20x20] bg:#F8B57F r:48px op:0.275933 tf:matrix(0.443982, -1.24501, 1.24501, 0.443982, 0, 0)
+            div "Rectangle 2224" [950,387,6x6] bg:#F95040 r:48px
+      div "Border" [901,206,105x182] flex-row gap:10px p:2px bgi:linear-gradient(255deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 14.8649%, rgb(251, 86, 70) 32.8829%, rgb(130, 122, 204 r:88px
+        div "01" [903,208,101x178] flex-column gap:24px p:20px 20px 108px bg:#FFFFFF r:88px
+          div "Content" [891,189,125x125] flex-row gap:16px p:8px bg:#FFFFFF/0.8 r:300px sh:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px bf:blur(3px)
+            div "Brand" [919,217,70x70]
+              div [919,217,70x70]
+                img [919,217,70x70] src:97FwNezELUd8Kd9HdHn3le688Ks.png fit:contain
+          div "Content" [909,469,90x90] flex-row gap:16px p:8px bg:#FFFFFF/0.8 r:300px sh:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px tf:matrix(1, 0, 0, 1, -45, 0) bf:blur(3px)
+          div [903,279,101x107] flex-row gap:10px r:0px 0px 48px 48px
+            div [883,320,142x137] op:0.5 tf:matrix(-0.965926, 0.258819, -0.258819, -0.965926, 0, 0) filter:blur(14px)
+              video [883,320,142x137] video:Abstract%20Landscape%20Moving%20Shapes.mp4 paused:false t:0.0
+          div "Agent-Note" [791,328,325x44] flex-row gap:normal p:4px 8px 4px 20px bg:#FFFFFF r:16px op:0.870411 tf:matrix(1, 0, 0, 1, 0, 2.59178)
+            div "Analyzing video provided..." [811,338,219x23] flex-column gap:normal
+              p [811,338,219x23] TEXT"Fetching tracking # details" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+            div [1056,332,52x36]
+              dotlottie-player [1056,332,52x36]
+      div [587,462,733x104]
+        div [587,462,733x104] flex-row gap:normal
+          div [587,462,733x104] flex-row gap:normal
+      div [901,469,103x94] op:0.5 filter:blur(14px)
+        video [901,469,103x94] r:120px video:Abstract%20Landscape%20Moving%20Shapes.mp4 paused:false t:0.0
+######## Your team of expert agents t=1600ms
+div "Your team of expert agents" [0,100,1440x549] flex-column gap:72px p:80px 96px bg:#FAF7F1
+  div "Blur out" [0,100,1440x75] flex-row gap:10px bgi:linear-gradient(rgb(255, 255, 255) 0%, rgb(250, 247, 241) 100%)
+  div "Blur out" [0,574,1440x75] flex-row gap:10px bgi:linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(250, 247, 241) 100%)
+  div "Container" [120,180,1200x389] flex-row gap:56px
+    div "Text Content" [120,180,411x389] flex-column gap:32px
+      div [120,180,411x125] flex-column gap:24px
+        div [0,0,0x0]
+          div [120,180,411x125] flex-column gap:normal
+            h3 [120,180,411x125] TEXT"Simplify your stack" {Feature Deck Web Regular 400 52px/62.4px #122023}
+      div [120,337,411x140] flex-column gap:normal
+        p [120,337,411x140] TEXT"Native tracking infrastructure is included in your platform. Handle order inquiries without managing separate tracking subscriptions or maintaining additional integrations." {Tiempos Text Regular 400 20px/28px #000000}
+      div [120,509,411x60] flex-column gap:12px
+        div [120,509,411x24] flex-row gap:10px
+          div [120,509,24x24]
+            div [120,509,24x24]
+              svg [120,509,24x24]
+          div [154,509,377x23] flex-column gap:normal
+            p [154,509,377x23] TEXT"Works with existing workflows" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+        div [120,545,411x24] flex-row gap:10px
+          div "star-four-light 1" [120,545,24x24]
+            div [120,545,24x24]
+              svg [120,545,24x24]
+          div [154,545,377x23] flex-column gap:normal
+            p [154,545,377x23] TEXT"Reduce vendor complexity" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+    div [587,182,733x384] flex-column gap:normal p:24px 0px 0px
+      div [0,0,0x0]
+        div [947,336,11x140] tf:matrix(-1, 0, 0, -1, 0, 0)
+          div [947,336,11x140] flex-row gap:normal
+            div [947,336,11x140] flex-row gap:normal
+              svg [947,336,11x140]
+      div [0,0,0x0]
+        div [947,384,12x12]
+          div "Variant 1" [947,384,12x12]
+            div "Rectangle 2223" [947,384,12x12] bg:#F8B57F r:48px
+            div "Rectangle 2224" [950,387,6x6] bg:#F95040 r:48px
+      div "Border" [901,206,105x182] flex-row gap:10px p:2px bgi:linear-gradient(255deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 14.8649%, rgb(251, 86, 70) 32.8829%, rgb(130, 122, 204 r:88px
+        div "01" [903,208,101x178] flex-column gap:24px p:20px 20px 108px bg:#FFFFFF r:88px
+          div "Content" [891,189,125x125] flex-row gap:16px p:8px bg:#FFFFFF/0.8 r:300px sh:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px bf:blur(3px)
+            div "Brand" [919,217,70x70]
+              div [919,217,70x70]
+                img [919,217,70x70] src:97FwNezELUd8Kd9HdHn3le688Ks.png fit:contain
+          div "Content" [909,469,90x90] flex-row gap:16px p:8px bg:#FFFFFF/0.8 r:300px sh:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px tf:matrix(1, 0, 0, 1, -45, 0) bf:blur(3px)
+          div [903,279,101x107] flex-row gap:10px r:0px 0px 48px 48px
+            div [883,320,142x137] op:0.5 tf:matrix(-0.965926, 0.258819, -0.258819, -0.965926, 0, 0) filter:blur(14px)
+              video [883,320,142x137] video:Abstract%20Landscape%20Moving%20Shapes.mp4 paused:true t:0.0
+          div "Agent-Note" [791,325,325x44] flex-row gap:normal p:4px 8px 4px 20px bg:#FFFFFF r:16px
+            div "Analyzing video provided..." [811,336,219x23] flex-column gap:normal
+              p [811,336,219x23] TEXT"Fetching tracking # details" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+            div [1056,329,52x36]
+              dotlottie-player [1056,329,52x36]
+      div [587,462,733x104]
+        div [587,462,733x104] flex-row gap:normal
+          div [587,462,733x104] flex-row gap:normal
+      div [901,469,103x94] op:0.5 filter:blur(14px)
+        video [901,469,103x94] r:120px video:Abstract%20Landscape%20Moving%20Shapes.mp4 paused:true t:0.0
+######## Your team of expert agents t=2600ms
+div "Your team of expert agents" [0,100,1440x549] flex-column gap:72px p:80px 96px bg:#FAF7F1
+  div "Blur out" [0,100,1440x75] flex-row gap:10px bgi:linear-gradient(rgb(255, 255, 255) 0%, rgb(250, 247, 241) 100%)
+  div "Blur out" [0,574,1440x75] flex-row gap:10px bgi:linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(250, 247, 241) 100%)
+  div "Container" [120,180,1200x389] flex-row gap:56px
+    div "Text Content" [120,180,411x389] flex-column gap:32px
+      div [120,180,411x125] flex-column gap:24px
+        div [0,0,0x0]
+          div [120,180,411x125] flex-column gap:normal
+            h3 [120,180,411x125] TEXT"Simplify your stack" {Feature Deck Web Regular 400 52px/62.4px #122023}
+      div [120,337,411x140] flex-column gap:normal
+        p [120,337,411x140] TEXT"Native tracking infrastructure is included in your platform. Handle order inquiries without managing separate tracking subscriptions or maintaining additional integrations." {Tiempos Text Regular 400 20px/28px #000000}
+      div [120,509,411x60] flex-column gap:12px
+        div [120,509,411x24] flex-row gap:10px
+          div [120,509,24x24]
+            div [120,509,24x24]
+              svg [120,509,24x24]
+          div [154,509,377x23] flex-column gap:normal
+            p [154,509,377x23] TEXT"Works with existing workflows" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+        div [120,545,411x24] flex-row gap:10px
+          div "star-four-light 1" [120,545,24x24]
+            div [120,545,24x24]
+              svg [120,545,24x24]
+          div [154,545,377x23] flex-column gap:normal
+            p [154,545,377x23] TEXT"Reduce vendor complexity" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+    div [587,182,733x384] flex-column gap:normal p:24px 0px 0px
+      div [0,0,0x0]
+        div [947,336,11x140] tf:matrix(-1, 0, 0, -1, 0, 0)
+          div [947,336,11x140] flex-row gap:normal
+            div [947,336,11x140] flex-row gap:normal
+              svg [947,336,11x140]
+      div [0,0,0x0]
+        div [947,384,12x12]
+          div "Variant 1" [947,384,12x12]
+            div "Rectangle 2223" [944,382,17x17] bg:#F8B57F r:48px op:0.1 tf:matrix(1.4, 0, 0, 1.4, 0, 0)
+            div "Rectangle 2224" [950,387,6x6] bg:#F95040 r:48px
+      div "Border" [901,206,105x182] flex-row gap:10px p:2px bgi:linear-gradient(255deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 14.8649%, rgb(251, 86, 70) 32.8829%, rgb(130, 122, 204 r:88px
+        div "01" [903,208,101x178] flex-column gap:24px p:20px 20px 108px bg:#FFFFFF r:88px
+          div "Content" [891,189,125x125] flex-row gap:16px p:8px bg:#FFFFFF/0.8 r:300px sh:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px bf:blur(3px)
+            div "Brand" [919,217,70x70]
+              div [919,217,70x70]
+                img [919,217,70x70] src:97FwNezELUd8Kd9HdHn3le688Ks.png fit:contain
+          div "Content" [909,469,90x90] flex-row gap:16px p:8px bg:#FFFFFF/0.8 r:300px sh:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px tf:matrix(1, 0, 0, 1, -45, 0) bf:blur(3px)
+          div [903,279,101x107] flex-row gap:10px r:0px 0px 48px 48px
+            div [883,320,142x137] op:0.5 tf:matrix(-0.965926, 0.258819, -0.258819, -0.965926, 0, 0) filter:blur(14px)
+              video [883,320,142x137] video:Abstract%20Landscape%20Moving%20Shapes.mp4 paused:true t:0.0
+          div "Agent-Note" [791,325,325x44] flex-row gap:normal p:4px 8px 4px 20px bg:#FFFFFF r:16px
+            div "Analyzing video provided..." [811,336,219x23] flex-column gap:normal
+              p [811,336,219x23] TEXT"Fetching tracking # details" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+            div [1056,329,52x36]
+              dotlottie-player [1056,329,52x36]
+      div [587,462,733x104]
+        div [587,462,733x104] flex-row gap:normal
+          div [587,462,733x104] flex-row gap:normal
+      div [901,469,103x94] op:0.5 filter:blur(14px)
+        video [901,469,103x94] r:120px video:Abstract%20Landscape%20Moving%20Shapes.mp4 paused:true t:0.0
+######## Your team of expert agents t=4000ms
+div "Your team of expert agents" [0,100,1440x549] flex-column gap:72px p:80px 96px bg:#FAF7F1
+  div "Blur out" [0,100,1440x75] flex-row gap:10px bgi:linear-gradient(rgb(255, 255, 255) 0%, rgb(250, 247, 241) 100%)
+  div "Blur out" [0,574,1440x75] flex-row gap:10px bgi:linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(250, 247, 241) 100%)
+  div "Container" [120,180,1200x389] flex-row gap:56px
+    div "Text Content" [120,180,411x389] flex-column gap:32px
+      div [120,180,411x125] flex-column gap:24px
+        div [0,0,0x0]
+          div [120,180,411x125] flex-column gap:normal
+            h3 [120,180,411x125] TEXT"Simplify your stack" {Feature Deck Web Regular 400 52px/62.4px #122023}
+      div [120,337,411x140] flex-column gap:normal
+        p [120,337,411x140] TEXT"Native tracking infrastructure is included in your platform. Handle order inquiries without managing separate tracking subscriptions or maintaining additional integrations." {Tiempos Text Regular 400 20px/28px #000000}
+      div [120,509,411x60] flex-column gap:12px
+        div [120,509,411x24] flex-row gap:10px
+          div [120,509,24x24]
+            div [120,509,24x24]
+              svg [120,509,24x24]
+          div [154,509,377x23] flex-column gap:normal
+            p [154,509,377x23] TEXT"Works with existing workflows" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+        div [120,545,411x24] flex-row gap:10px
+          div "star-four-light 1" [120,545,24x24]
+            div [120,545,24x24]
+              svg [120,545,24x24]
+          div [154,545,377x23] flex-column gap:normal
+            p [154,545,377x23] TEXT"Reduce vendor complexity" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+    div [587,182,733x384] flex-column gap:normal p:24px 0px 0px
+      div [0,0,0x0]
+        div [947,336,11x140] tf:matrix(-1, 0, 0, -1, 0, 0)
+          div [947,336,11x140] flex-row gap:normal
+            div [947,336,11x140] flex-row gap:normal
+              svg [947,336,11x140]
+      div [0,0,0x0]
+        div [947,384,12x12]
+          div "Variant 1" [947,384,12x12]
+            div "Rectangle 2223" [943,381,19x19] bg:#F8B57F r:48px op:0.125844 tf:matrix(1.36597, -0.24917, 0.24917, 1.36597, 0, 0)
+            div "Rectangle 2224" [950,387,6x6] bg:#F95040 r:48px
+      div "Border" [901,206,105x182] flex-row gap:10px p:2px bgi:linear-gradient(255deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 14.8649%, rgb(251, 86, 70) 32.8829%, rgb(130, 122, 204 r:88px
+        div "01" [903,208,101x178] flex-column gap:24px p:20px 20px 108px bg:#FFFFFF r:88px
+          div "Content" [891,189,125x125] flex-row gap:16px p:8px bg:#FFFFFF/0.8 r:300px sh:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px bf:blur(3px)
+            div "Brand" [919,217,70x70]
+              div [919,217,70x70]
+                img [919,217,70x70] src:97FwNezELUd8Kd9HdHn3le688Ks.png fit:contain
+          div "Content" [909,469,90x90] flex-row gap:16px p:8px bg:#FFFFFF/0.8 r:300px sh:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px tf:matrix(1, 0, 0, 1, -45, 0) bf:blur(3px)
+          div [903,279,101x107] flex-row gap:10px r:0px 0px 48px 48px
+            div [883,320,142x137] op:0.5 tf:matrix(-0.965926, 0.258819, -0.258819, -0.965926, 0, 0) filter:blur(14px)
+              video [883,320,142x137] video:Abstract%20Landscape%20Moving%20Shapes.mp4 paused:true t:0.0
+          div "Agent-Note" [791,325,325x44] flex-row gap:normal p:4px 8px 4px 20px bg:#FFFFFF r:16px
+            div "Analyzing video provided..." [811,336,219x23] flex-column gap:normal
+              p [811,336,219x23] TEXT"Fetching tracking # details" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+            div [1056,329,52x36]
+              dotlottie-player [1056,329,52x36]
+      div [587,462,733x104]
+        div [587,462,733x104] flex-row gap:normal
+          div [587,462,733x104] flex-row gap:normal
+      div [901,469,103x94] op:0.5 filter:blur(14px)
+        video [901,469,103x94] r:120px video:Abstract%20Landscape%20Moving%20Shapes.mp4 paused:true t:0.0
+######## Your team of expert agents t=6000ms
+div "Your team of expert agents" [0,100,1440x549] flex-column gap:72px p:80px 96px bg:#FAF7F1
+  div "Blur out" [0,100,1440x75] flex-row gap:10px bgi:linear-gradient(rgb(255, 255, 255) 0%, rgb(250, 247, 241) 100%)
+  div "Blur out" [0,574,1440x75] flex-row gap:10px bgi:linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(250, 247, 241) 100%)
+  div "Container" [120,180,1200x389] flex-row gap:56px
+    div "Text Content" [120,180,411x389] flex-column gap:32px
+      div [120,180,411x125] flex-column gap:24px
+        div [0,0,0x0]
+          div [120,180,411x125] flex-column gap:normal
+            h3 [120,180,411x125] TEXT"Simplify your stack" {Feature Deck Web Regular 400 52px/62.4px #122023}
+      div [120,337,411x140] flex-column gap:normal
+        p [120,337,411x140] TEXT"Native tracking infrastructure is included in your platform. Handle order inquiries without managing separate tracking subscriptions or maintaining additional integrations." {Tiempos Text Regular 400 20px/28px #000000}
+      div [120,509,411x60] flex-column gap:12px
+        div [120,509,411x24] flex-row gap:10px
+          div [120,509,24x24]
+            div [120,509,24x24]
+              svg [120,509,24x24]
+          div [154,509,377x23] flex-column gap:normal
+            p [154,509,377x23] TEXT"Works with existing workflows" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+        div [120,545,411x24] flex-row gap:10px
+          div "star-four-light 1" [120,545,24x24]
+            div [120,545,24x24]
+              svg [120,545,24x24]
+          div [154,545,377x23] flex-column gap:normal
+            p [154,545,377x23] TEXT"Reduce vendor complexity" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+    div [587,182,733x384] flex-column gap:normal p:24px 0px 0px
+      div [0,0,0x0]
+        div [947,336,11x140] tf:matrix(-1, 0, 0, -1, 0, 0)
+          div [947,336,11x140] flex-row gap:normal
+            div [947,336,11x140] flex-row gap:normal
+              svg [947,336,11x140]
+      div [0,0,0x0]
+        div [947,384,12x12]
+          div "Variant 1" [947,384,12x12]
+            div "Rectangle 2223" [944,382,17x17] bg:#F8B57F r:48px op:0.101878 tf:matrix(1.39905, -0.018345, 0.018345, 1.39905, 0, 0)
+            div "Rectangle 2224" [950,387,6x6] bg:#F95040 r:48px
+      div "Border" [901,206,105x182] flex-row gap:10px p:2px bgi:linear-gradient(255deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 14.8649%, rgb(251, 86, 70) 32.8829%, rgb(130, 122, 204 r:88px
+        div "01" [903,208,101x178] flex-column gap:24px p:20px 20px 108px bg:#FFFFFF r:88px
+          div "Content" [891,189,125x125] flex-row gap:16px p:8px bg:#FFFFFF/0.8 r:300px sh:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px bf:blur(3px)
+            div "Brand" [919,217,70x70]
+              div [919,217,70x70]
+                img [919,217,70x70] src:97FwNezELUd8Kd9HdHn3le688Ks.png fit:contain
+          div "Content" [909,469,90x90] flex-row gap:16px p:8px bg:#FFFFFF/0.8 r:300px sh:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px tf:matrix(1, 0, 0, 1, -45, 0) bf:blur(3px)
+          div [903,279,101x107] flex-row gap:10px r:0px 0px 48px 48px
+            div [883,320,142x137] op:0.5 tf:matrix(-0.965926, 0.258819, -0.258819, -0.965926, 0, 0) filter:blur(14px)
+              video [883,320,142x137] video:Abstract%20Landscape%20Moving%20Shapes.mp4 paused:true t:0.0
+          div "Agent-Note" [791,325,325x44] flex-row gap:normal p:4px 8px 4px 20px bg:#FFFFFF r:16px
+            div "Analyzing video provided..." [811,336,219x23] flex-column gap:normal
+              p [811,336,219x23] TEXT"Fetching tracking # details" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+            div [1056,329,52x36]
+              dotlottie-player [1056,329,52x36]
+      div [587,462,733x104]
+        div [587,462,733x104] flex-row gap:normal
+          div [587,462,733x104] flex-row gap:normal
+      div [901,469,103x94] op:0.5 filter:blur(14px)
+        video [901,469,103x94] r:120px video:Abstract%20Landscape%20Moving%20Shapes.mp4 paused:true t:0.0

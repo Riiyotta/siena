@@ -1,0 +1,118 @@
+{
+  "id": "section.stories.filter-grid",
+  "registryId": "section.stories.filter-grid",
+  "typeId": "stories.filter-grid",
+  "version": "1.0.0",
+  "category": "social-proof",
+  "purpose": "Customer-story grid with category chip filter (select on phone) and Load more (20 then 36). Cards link to live siena.cx customer stories.",
+  "evidenceLevel": "measured",
+  "variants": {
+    "customers": "repeat(4, 293px), gap 16."
+  },
+  "composes": [
+    "component.customer-grid-card",
+    "primitive.button"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "categories": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "maxWords": 4
+        },
+        "minItems": 2,
+        "maxItems": 12
+      },
+      "initialCount": {
+        "const": 20
+      },
+      "cards": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string",
+              "maxWords": 22
+            },
+            "href": {
+              "type": "string",
+              "pattern": "^(/[a-z0-9/#-]*|#[a-z0-9-]+|https://[a-zA-Z0-9.-]+(/[^\\s]*)?|mailto:[a-z.]+@siena\\.cx)$"
+            },
+            "logo": {
+              "type": "object",
+              "properties": {
+                "assetRole": {
+                  "const": "logo.customer"
+                },
+                "assetRef": {
+                  "type": "string",
+                  "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+                },
+                "alt": {
+                  "type": "string",
+                  "maxWords": 24
+                }
+              },
+              "required": [
+                "assetRole",
+                "assetRef"
+              ],
+              "additionalProperties": false
+            },
+            "tags": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "maxWords": 3
+              },
+              "minItems": 1,
+              "maxItems": 2
+            }
+          },
+          "required": [
+            "title",
+            "href",
+            "logo",
+            "tags"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 4,
+        "maxItems": 40
+      }
+    },
+    "required": [
+      "categories",
+      "initialCount",
+      "cards"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Chip bar becomes a native select; single column, gap 10."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "spec.u2",
+    "jsx.co.storycard"
+  ]
+}

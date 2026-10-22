@@ -1,0 +1,5 @@
+SPAN "" @926,586 2x24 [op,x,y,sx,sy,blur] [0,0,0,1,1,0] -> [1,0,0,1,1,0] start 382ms t50 415ms end 3413ms overshoot 0.0
+Ask Siena "BFCM prep call transcripyourb" @795,3447 421x63 [op,x,y,sx,sy,blur] [0,-209.9,46,1,1,0] -> [0,0,80,1,1,0] start 31ms t50 364ms end 516ms overshoot -209.8
+Bars "BFCM prep call transcrip" @1026,3511 40x40 [op,x,y,sx,sy,blur] [0,0,50,1,1,0] -> [0,-20,50,1,1,0] start 31ms t50 364ms end 516ms overshoot -150.4
+Bars "Returns SOP.pdfConfirm order i" @1082,3508 43x43 [op,x,y,sx,sy,blur] [0,-43.5,50,1,1,0] -> [0,0,28.5,1,1,0] start 31ms t50 349ms end 516ms overshoot -98.3
+DIV "Verified and live" @1076,3534 54x12 [op,x,y,sx,sy,blur] [1,-32.5,0,1,1,0] -> [1,-27.2,0,1,1,0] start 31ms t50 101ms end 516ms overshoot 0.0

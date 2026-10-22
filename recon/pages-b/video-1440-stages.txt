@@ -1,0 +1,389 @@
+######## block 1 scrollY=1406
+div "Sticky" [752,0,512x900] flex-row gap:10px p:110px 0px 40px
+  div "Sticky Image" [752,162,512x647] r:24px
+    div [0,0,0x0]
+      div [749,337,518x296] tf:matrix(1, 0, 0, 1, -259, -148)
+        div "Stage 1" [749,337,518x296] flex-column gap:24px
+          div "Card" [749,337,518x296] flex-row gap:10px p:2px r:16px
+            div "01" [751,339,514x292] flex-column gap:24px p:8px bg:#FAF7F1 r:15px
+              div [759,347,498x276] flex-row gap:10px r:10px
+                div [759,347,498x276] filter:blur(0px)
+                  video [759,347,498x276] video:x4A0FFLvT1jKKMmC1BeB2sDrts.mp4 paused:false t:3.7
+                div [759,347,498x276] op:0.5 filter:blur(14px)
+                  video [759,347,498x276] video:Abstract%20Landscape%20Moving%20Shapes.mp4 paused:true t:0.0
+          div "Review" [736,353,209x116] flex-row gap:12px p:1px bgi:linear-gradient(255deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 14.8649%, rgb(251, 86, 70) 32.8829%, rgb(130, 122, 204 r:16px bf:blur(6px)
+            div [737,354,207x114] flex-row gap:12px p:10px bg:#FFFFFF r:16px
+              div "Text container" [747,364,187x94] flex-column gap:4px
+                div "Great product!" [747,364,187x94] flex-column gap:normal
+                  p [747,364,187x94] TEXT"My headphones came damaged out-of-the-box, is this covered by the warranty?" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+          div "Content" [776,245,463x47] flex-row gap:8px r:0px 0px 8px 8px tf:matrix(1, 0, 0, 1, -231.648, 0)
+            div "Frame 2147257924" [776,245,134x47] flex-row gap:8px p:12px 16px bg:#FAF7F1 r:16px
+              div "Order #1342" [792,257,102x23] flex-column gap:normal
+                p [792,257,102x23] TEXT"Order #4521" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+            div "•" [918,259,6x19] flex-column gap:normal
+              p [918,259,6x19] TEXT"•" {Feature Deck 400 16px/19.2px #414D4F}
+            div "Frame 2147257925" [932,245,162x47] flex-row gap:8px p:12px 16px bg:#FAF7F1 r:16px
+              div "12/01/2024" [948,257,130x23] flex-column gap:normal
+                p [948,257,130x23] TEXT"Shipped: Jan 23" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+            div "•" [1102,259,6x19] flex-column gap:normal
+              p [1102,259,6x19] TEXT"•" {Feature Deck 400 16px/19.2px #414D4F}
+            div "Frame 2147257926" [1115,245,124x47] flex-row gap:8px p:12px 16px bg:#FAF7F1 r:16px
+              div "Inside 30 days guarantee" [1131,257,92x23] flex-column gap:normal
+                p [1131,257,92x23] TEXT"ETA Jan 29" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+######## block 2 scrollY=2316
+div "Sticky" [752,0,512x900] flex-row gap:10px p:110px 0px 40px
+  div "Sticky Image" [752,162,512x647] r:24px
+    div [0,0,0x0]
+      div [749,337,518x296] tf:matrix(1, 0, 0, 1, -259, -148)
+        div "Stage 2" [749,337,518x296] flex-column gap:24px
+          div "Card" [749,337,518x296] flex-row gap:10px p:2px r:16px
+            div "01" [751,339,514x292] flex-column gap:24px p:8px bg:#FAF7F1 r:15px
+              div [759,347,498x276] flex-row gap:10px r:10px
+                div [759,347,498x276] filter:blur(0px)
+                  video [759,347,498x276] video:x4A0FFLvT1jKKMmC1BeB2sDrts.mp4 paused:false t:3.4
+                div [759,347,498x276] op:0.5 filter:blur(14px)
+                  video [759,347,498x276] video:Abstract%20Landscape%20Moving%20Shapes.mp4 paused:true t:0.0
+            div "Review" [1018,530,299x69] flex-row gap:12px p:1px bgi:linear-gradient(255deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 14.8649%, rgb(251, 86, 70) 32.8829%, rgb(130, 122, 204 r:16px bf:blur(6px)
+              div [1019,531,297x67] flex-row gap:12px p:10px bg:#FFFFFF r:16px
+                div "Text container" [1029,541,277x47] flex-row gap:20px
+                  div "Great product!" [1029,541,233x47] flex-column gap:normal
+                    p [1029,541,233x47] TEXT"I can see the damage. Your replacement ships today" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+                  div "sparkles-two-2" [1282,553,24x24]
+                    div [1282,553,24x24]
+                      svg [1282,553,24x24]
+          div "Review" [736,353,209x116] flex-row gap:12px p:1px bgi:linear-gradient(255deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 14.8649%, rgb(251, 86, 70) 32.8829%, rgb(130, 122, 204 r:16px bf:blur(6px)
+            div [737,354,207x114] flex-row gap:12px p:10px bg:#FFFFFF r:16px
+              div "Text container" [747,364,187x94] flex-column gap:4px
+                div "Great product!" [747,364,187x94] flex-column gap:normal
+                  p [747,364,187x94] TEXT"My headphones came damaged out-of-the-box, is this covered by the warranty?" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+          div "Content" [797,245,422x47] flex-row gap:8px r:0px 0px 1.89566% 1.89566% / 0px 0px 16.8754% 16.8754% tf:matrix(1, 0, 0, 1, -211.008, 0)
+            div "Frame 2147257924" [797,245,134x47] flex-row gap:8px p:12px 16px bg:#FAF7F1 r:16px
+              div "Order #1342" [813,257,102x23] flex-column gap:normal
+                p [813,257,102x23] TEXT"Order #4521" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+            div "•" [939,259,6x19] flex-column gap:normal
+              p [939,259,6x19] TEXT"•" {Feature Deck 400 16px/19.2px #414D4F}
+            div "Frame 2147257925" [953,245,120x47] flex-row gap:8px p:12px 16px bg:#FAF7F1 r:16px
+              div "12/01/2024" [969,257,88x23] flex-column gap:normal
+                p [969,257,88x23] TEXT"01/07/2025" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+            div "•" [1081,259,6x19] flex-column gap:normal
+              p [1081,259,6x19] TEXT"•" {Feature Deck 400 16px/19.2px #414D4F}
+            div "Frame 2147257926" [1095,245,124x47] flex-row gap:8px p:12px 16px bg:#FAF7F1 r:16px
+              div "Inside 30 days guarantee" [1111,257,92x23] flex-column gap:normal
+                p [1111,257,92x23] TEXT"ETA Jan 29" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+######## block 3 scrollY=3226
+div "Sticky" [752,0,512x900] flex-row gap:10px p:110px 0px 40px
+  div "Sticky Image" [752,162,512x647] r:24px
+    div [0,0,0x0]
+      div [749,337,518x296] tf:matrix(1, 0, 0, 1, -259, -148)
+        div "Stage 3" [749,337,518x296] flex-column gap:24px
+          div "Card" [749,337,518x296] flex-row gap:10px p:2px r:16px
+            div "01" [751,339,514x292] flex-column gap:24px p:8px bg:#FAF7F1 r:15px
+              div [759,347,498x276] flex-row gap:10px r:10px
+                div [759,347,498x276] filter:blur(0px)
+                  video [759,347,498x276] video:x4A0FFLvT1jKKMmC1BeB2sDrts.mp4 paused:false t:2.6
+                div [759,347,498x276] op:0.5 filter:blur(14px)
+                  video [759,347,498x276] video:Abstract%20Landscape%20Moving%20Shapes.mp4 paused:true t:0.0
+          div "Content" [776,245,463x47] flex-row gap:8px r:0px 0px 1.72675% 1.72675% / 0px 0px 16.8754% 16.8754% tf:matrix(1, 0, 0, 1, -231.648, 0)
+            div "Frame 2147257924" [776,245,134x47] flex-row gap:8px p:12px 16px bg:#FAF7F1 r:16px
+              div "Order #1342" [792,257,102x23] flex-column gap:normal
+                p [792,257,102x23] TEXT"Order #4521" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+            div "•" [918,259,6x19] flex-column gap:normal
+              p [918,259,6x19] TEXT"•" {Feature Deck 400 16px/19.2px #414D4F}
+            div "Frame 2147257925" [932,245,162x47] flex-row gap:8px p:12px 16px bg:#FAF7F1 r:16px
+              div "12/01/2024" [948,257,130x23] flex-column gap:normal
+                p [948,257,130x23] TEXT"Shipped: Jan 23" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+            div "•" [1102,259,6x19] flex-column gap:normal
+              p [1102,259,6x19] TEXT"•" {Feature Deck 400 16px/19.2px #414D4F}
+            div "Frame 2147257926" [1115,245,124x47] flex-row gap:8px p:12px 16px bg:#FAF7F1 r:16px
+              div "Inside 30 days guarantee" [1131,257,92x23] flex-column gap:normal
+                p [1131,257,92x23] TEXT"ETA Jan 29" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+          div "Review" [864,407,278x155] flex-row gap:12px p:1px bgi:linear-gradient(255deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 14.8649%, rgb(251, 86, 70) 32.8829%, rgb(130, 122, 204 r:16px tf:matrix(1, 0, 0, 1, -139, 0) bf:blur(6px)
+            div "Content" [865,408,276x153] flex-column gap:16px p:14px bg:#FFFFFF/0.98 r:16px bf:blur(9.6px)
+              div "Text container" [879,422,248x71] flex-column gap:12.8px
+                div "Frame 2087325251" [879,422,248x71] flex-row gap:12.8px
+                  div "Icon Button" [879,422,71x71] flex-row gap:0px p:6.4px bg:#FFFFFF r:12.8px
+                    div "image 1746" [885,428,58x58] r:8px
+                      div [885,428,58x58] r:8px
+                        img [885,428,58x58] r:8px src:T0wEls4P32RuHyeqKeEOU1f6SQs.png fit:cover
+                  div "Frame 2087325250" [962,422,164x71] flex-column gap:6.4px
+                    div "Headphone Set BH2143 Hi-Fi" [962,422,165x47] flex-column gap:normal
+                      p [962,422,165x47] TEXT"Headphone Set BH2143 Hi-Fi" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+                    div "Replacement shipped" [962,475,165x18] flex-column gap:normal
+                      p [962,475,165x18] TEXT"Replacement shipped" {Tiempos Text Regular 400 14px/18.2px #122023}
+              div "Frame 2147257950" [879,509,248x1] bg:#E1E1E1
+              div "Line" [879,526,248x21] flex-row gap:normal
+                div "Main" [879,526,55x21] flex-column gap:normal
+                  p [879,526,55x21] TEXT"Arriving:" {Instrument Sans 400 14px/21px #74777A}
+                div "Main" [1093,526,33x21] flex-column gap:normal
+                  p [1093,526,33x21] TEXT"Jan 9" {Instrument Sans 400 14px/21px #74777A}
+              div "Icon Button" [974,530,57x57]
+                div [974,530,57x57]
+                  svg [974,530,57x57]
+######## Card grid t=800ms
+div "Card grid" [152,100,960x318]
+  div "Card" [176,95,428x245] flex-row gap:10px p:2px r:16px op:0.988638 tf:matrix(1, 0, 0, 1, 0, 0.568098)
+    div "01" [178,97,424x241] flex-column gap:24px p:8px bg:#FAF7F1 r:15px
+      div [186,105,408x225] flex-row gap:10px r:10px
+        div [186,105,408x225]
+          video [186,105,408x225] video:4gloqJyU9yH0U5zKatZKkGxpiA.mp4 paused:false t:0.0
+    div [158,82,464x267] op:0.5 filter:blur(14px)
+      video [158,82,464x267] video:Abstract%20Landscape%20Moving%20Shapes.mp4 paused:true t:0.0
+  div [739,60,373x251] flex-column gap:16px
+    (hidden op0) DIV
+    div "Agent-Note" [739,60,373x60] flex-row gap:normal p:12px 12px 12px 20px bg:#FFFFFF r:16px tf:matrix(1, 0, 0, 1, 0, -0.156419)
+      div "Analyzing video provided..." [759,73,161x34] flex-column gap:normal
+        h6 [759,73,161x34]
+          span [759,74,100x30]
+            span [759,73,16x34] filter:blur(0px)
+            span [775,73,13x34] filter:blur(0px)
+            span [788,73,12x34] filter:blur(0px)
+            span [800,73,6x34] filter:blur(0px)
+            span [806,73,12x34] filter:blur(0px)
+            span [818,73,11x34] filter:blur(0px)
+            span [828,73,6x34] filter:blur(0px)
+            span [834,73,13x34] filter:blur(0px)
+            span [848,73,11x34] filter:blur(0px)
+          span [863,74,57x30]
+            span [863,73,12x34] filter:blur(0px)
+            span [876,73,6x34] filter:blur(0px)
+            span [881,73,14x34] filter:blur(0px)
+            span [895,73,12x34] filter:blur(0px)
+            span [907,73,13x34] filter:blur(0px)
+      div [1048,72,52x36]
+        dotlottie-player [1048,72,52x36]
+    div "Content" [746,136,360x175] flex-column gap:16px r:0px 0px 8px 8px
+      (hidden op0) Frame 2147257924
+      (hidden op0) Frame 2147257925
+      (hidden op0) Frame 2147257926
+    div [0,0,0x0]
+      (hidden op0) Review
+  div "Review" [283,319,209x116] flex-row gap:12px p:1px bgi:linear-gradient(255deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 14.8649%, rgb(251, 86, 70) 32.8829%, rgb(130, 122, 204 r:16px op:0.59348 tf:matrix(1, 0, 0, 1, 0, 20.326) bf:blur(6px)
+    div [284,320,207x114] flex-row gap:12px p:10px bg:#FFFFFF r:16px
+      div "Text container" [294,330,187x94] flex-column gap:4px
+        div "Great product!" [294,330,187x94] flex-column gap:normal
+          p [294,330,187x94] TEXT"My espresso is coming out watery. Can you see what I'm doing wrong?" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+######## Card grid t=1600ms
+div "Card grid" [152,100,960x318]
+  div "Card" [176,94,428x245] flex-row gap:10px p:2px r:16px
+    div "01" [178,96,424x241] flex-column gap:24px p:8px bg:#FAF7F1 r:15px
+      div [186,104,408x225] flex-row gap:10px r:10px
+        div [186,104,408x225]
+          video [186,104,408x225] video:4gloqJyU9yH0U5zKatZKkGxpiA.mp4 paused:false t:0.0
+    div [158,81,464x267] op:0.5 filter:blur(14px)
+      video [158,81,464x267] video:Abstract%20Landscape%20Moving%20Shapes.mp4 paused:true t:0.0
+  div [739,60,373x251] flex-column gap:16px
+    (hidden op0) DIV
+    div "Agent-Note" [739,60,373x60] flex-row gap:normal p:12px 12px 12px 20px bg:#FFFFFF r:16px
+      div "Analyzing video provided..." [759,74,161x34] flex-column gap:normal
+        h6 [759,74,161x34]
+          span [759,75,100x30]
+            span [759,74,16x34] filter:blur(0px)
+            span [775,74,13x34] filter:blur(0px)
+            span [788,74,12x34] filter:blur(0px)
+            span [800,74,6x34] filter:blur(0px)
+            span [806,74,12x34] filter:blur(0px)
+            span [818,74,11x34] filter:blur(0px)
+            span [828,74,6x34] filter:blur(0px)
+            span [834,74,13x34] filter:blur(0px)
+            span [848,74,11x34] filter:blur(0px)
+          span [863,75,57x30]
+            span [863,74,12x34] filter:blur(0px)
+            span [876,74,6x34] filter:blur(0px)
+            span [881,74,14x34] filter:blur(0px)
+            span [895,74,12x34] filter:blur(0px)
+            span [907,74,13x34] filter:blur(0px)
+      div [1048,72,52x36]
+        dotlottie-player [1048,72,52x36]
+    div "Content" [746,136,360x175] flex-column gap:16px r:0px 0px 8px 8px
+      div "Frame 2147257924" [746,136,360x47] flex-row gap:8px p:12px 16px bg:#FFFFFF r:16px
+        div "Order #1342" [762,148,328x23] flex-column gap:normal
+          p [762,148,328x23] TEXT"Recognizing brand, product, and model" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+      (hidden op0) Frame 2147257925
+      (hidden op0) Frame 2147257926
+    div [0,0,0x0]
+      (hidden op0) Review
+  div "Review" [283,299,209x116] flex-row gap:12px p:1px bgi:linear-gradient(255deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 14.8649%, rgb(251, 86, 70) 32.8829%, rgb(130, 122, 204 r:16px bf:blur(6px)
+    div [284,300,207x114] flex-row gap:12px p:10px bg:#FFFFFF r:16px
+      div "Text container" [294,310,187x94] flex-column gap:4px
+        div "Great product!" [294,310,187x94] flex-column gap:normal
+          p [294,310,187x94] TEXT"My espresso is coming out watery. Can you see what I'm doing wrong?" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+######## Card grid t=2600ms
+div "Card grid" [152,100,960x318]
+  div "Card" [176,94,428x245] flex-row gap:10px p:2px r:16px
+    div "01" [178,96,424x241] flex-column gap:24px p:8px bg:#FAF7F1 r:15px
+      div [186,104,408x225] flex-row gap:10px r:10px
+        div [186,104,408x225]
+          video [186,104,408x225] video:4gloqJyU9yH0U5zKatZKkGxpiA.mp4 paused:false t:0.0
+    div [158,81,464x267] op:0.5 filter:blur(14px)
+      video [158,81,464x267] video:Abstract%20Landscape%20Moving%20Shapes.mp4 paused:true t:0.0
+  div [739,60,373x251] flex-column gap:16px
+    div [925,85,0x40] op:0.0496276 tf:matrix(0.144665, 0, 0, 0.144665, 0, -123.548)
+      div [0,0,0x0]
+        div [925,85,0x40]
+          div [925,85,0x40]
+            svg [925,85,0x40]
+      div [924,124,2x1]
+        div [924,124,2x1]
+          svg [924,124,2x1]
+    div "Agent-Note" [739,60,373x60] flex-row gap:normal p:12px 12px 12px 20px bg:#FFFFFF r:16px
+      div "Analyzing video provided..." [759,74,161x34] flex-column gap:normal
+        h6 [759,74,161x34]
+          span [759,75,100x30]
+            span [759,74,16x34] filter:blur(0px)
+            span [775,74,13x34] filter:blur(0px)
+            span [788,74,12x34] filter:blur(0px)
+            span [800,74,6x34] filter:blur(0px)
+            span [806,74,12x34] filter:blur(0px)
+            span [818,74,11x34] filter:blur(0px)
+            span [828,74,6x34] filter:blur(0px)
+            span [834,74,13x34] filter:blur(0px)
+            span [848,74,11x34] filter:blur(0px)
+          span [863,75,57x30]
+            span [863,74,12x34] filter:blur(0px)
+            span [876,74,6x34] filter:blur(0px)
+            span [881,74,14x34] filter:blur(0px)
+            span [895,74,12x34] filter:blur(0px)
+            span [907,74,13x34] filter:blur(0px)
+      div [1048,72,52x36]
+        dotlottie-player [1048,72,52x36]
+    div "Content" [746,136,360x175] flex-column gap:16px r:0px 0px 8px 8px
+      div "Frame 2147257924" [746,136,360x47] flex-row gap:8px p:12px 16px bg:#FFFFFF r:16px
+        div "Order #1342" [762,148,328x23] flex-column gap:normal
+          p [762,148,328x23] TEXT"Recognizing brand, product, and model" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+      div "Frame 2147257925" [757,210,337x48] flex-row gap:8px p:12px 16px bg:#FFFFFF r:16px op:0.789453 tf:matrix(1, 0, 0, 1, 0, 10.5274)
+        div "12/01/2024" [773,223,305x23] flex-column gap:normal
+          p [773,223,305x23] TEXT"Pulling info from the documentation" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+      (hidden op0) Frame 2147257926
+    div [0,0,0x0]
+      (hidden op0) Review
+  div "Review" [283,299,209x116] flex-row gap:12px p:1px bgi:linear-gradient(255deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 14.8649%, rgb(251, 86, 70) 32.8829%, rgb(130, 122, 204 r:16px bf:blur(6px)
+    div [284,300,207x114] flex-row gap:12px p:10px bg:#FFFFFF r:16px
+      div "Text container" [294,310,187x94] flex-column gap:4px
+        div "Great product!" [294,310,187x94] flex-column gap:normal
+          p [294,310,187x94] TEXT"My espresso is coming out watery. Can you see what I'm doing wrong?" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+######## Card grid t=4000ms
+div "Card grid" [152,100,960x318]
+  div "Card" [176,94,428x245] flex-row gap:10px p:2px r:16px
+    div "01" [178,96,424x241] flex-column gap:24px p:8px bg:#FAF7F1 r:15px
+      div [186,104,408x225] flex-row gap:10px r:10px
+        div [186,104,408x225]
+          video [186,104,408x225] video:4gloqJyU9yH0U5zKatZKkGxpiA.mp4 paused:false t:1.4
+    div [158,81,464x267] op:0.5 filter:blur(14px)
+      video [158,81,464x267] video:Abstract%20Landscape%20Moving%20Shapes.mp4 paused:true t:0.0
+  div [739,60,373x251] flex-column gap:16px
+    div [925,90,1x218] op:0.77147 tf:matrix(0.794323, 0, 0, 0.794323, 0, -29.7089)
+      div [0,0,0x0]
+        div [925,90,1x218]
+          div [925,90,1x218]
+            svg [925,90,1x218]
+      div [919,303,11x6]
+        div [919,303,11x6]
+          svg [919,303,11x6]
+    div "Agent-Note" [739,60,373x60] flex-row gap:normal p:12px 12px 12px 20px bg:#FFFFFF r:16px
+      div "Analyzing video provided..." [759,74,161x34] flex-column gap:normal
+        h6 [759,74,161x34]
+          span [759,75,100x30]
+            span [759,74,16x34] filter:blur(0px)
+            span [775,74,13x34] filter:blur(0px)
+            span [788,74,12x34] filter:blur(0px)
+            span [800,74,6x34] filter:blur(0px)
+            span [806,74,12x34] filter:blur(0px)
+            span [818,74,11x34] filter:blur(0px)
+            span [828,74,6x34] filter:blur(0px)
+            span [834,74,13x34] filter:blur(0px)
+            span [848,74,11x34] filter:blur(0px)
+          span [863,75,57x30]
+            span [863,74,12x34] filter:blur(0px)
+            span [876,74,6x34] filter:blur(0px)
+            span [881,74,14x34] filter:blur(0px)
+            span [895,74,12x34] filter:blur(0px)
+            span [907,74,13x34] filter:blur(0px)
+      div [1048,72,52x36]
+        dotlottie-player [1048,72,52x36]
+    div "Content" [746,136,360x175] flex-column gap:16px r:0px 0px 8px 8px
+      div "Frame 2147257924" [746,136,360x47] flex-row gap:8px p:12px 16px bg:#FFFFFF r:16px
+        div "Order #1342" [762,148,328x23] flex-column gap:normal
+          p [762,148,328x23] TEXT"Recognizing brand, product, and model" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+      div "Frame 2147257925" [757,200,337x48] flex-row gap:8px p:12px 16px bg:#FFFFFF r:16px
+        div "12/01/2024" [773,212,305x23] flex-column gap:normal
+          p [773,212,305x23] TEXT"Pulling info from the documentation" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+      div "Frame 2147257926" [816,276,219x47] flex-row gap:8px p:12px 16px bg:#FFFFFF r:16px op:0.748626 tf:matrix(1, 0, 0, 1, 0, 12.5687)
+        div "Inside 30 days guarantee" [832,288,187x23] flex-column gap:normal
+          p [832,288,187x23] TEXT"Checking video details" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+    div [0,0,0x0]
+      div "Review" [747,415,357x92] flex-row gap:12px p:1px bgi:linear-gradient(255deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 14.8649%, rgb(251, 86, 70) 32.8829%, rgb(130, 122, 204 r:16px op:0.233649 tf:matrix(1, 0, 0, 1, -178.5, 38.3175) bf:blur(6px)
+        div [748,416,355x90] flex-row gap:12px p:10px bg:#FFFFFF r:16px
+          div "Text container" [758,426,335x70] flex-row gap:20px
+            div "Great product!" [758,426,291x70] flex-column gap:normal
+              p [758,426,291x70] TEXT"Your grind is too coarse. Try a finer setting and tamp with more pressure." {Tiempos Text Regular 400 18px/23.4px #2A3639}
+            div "sparkles-two-2" [1069,449,24x24]
+              div [1069,449,24x24]
+                svg [1069,449,24x24]
+  div "Review" [283,299,209x116] flex-row gap:12px p:1px bgi:linear-gradient(255deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 14.8649%, rgb(251, 86, 70) 32.8829%, rgb(130, 122, 204 r:16px bf:blur(6px)
+    div [284,300,207x114] flex-row gap:12px p:10px bg:#FFFFFF r:16px
+      div "Text container" [294,310,187x94] flex-column gap:4px
+        div "Great product!" [294,310,187x94] flex-column gap:normal
+          p [294,310,187x94] TEXT"My espresso is coming out watery. Can you see what I'm doing wrong?" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+######## Card grid t=8000ms
+div "Card grid" [152,100,960x318]
+  div "Card" [176,94,428x245] flex-row gap:10px p:2px r:16px
+    div "01" [178,96,424x241] flex-column gap:24px p:8px bg:#FAF7F1 r:15px
+      div [186,104,408x225] flex-row gap:10px r:10px
+        div [186,104,408x225]
+          video [186,104,408x225] video:4gloqJyU9yH0U5zKatZKkGxpiA.mp4 paused:false t:0.0
+    div [158,81,464x267] op:0.5 filter:blur(14px)
+      video [158,81,464x267] video:Abstract%20Landscape%20Moving%20Shapes.mp4 paused:true t:0.0
+  div [739,60,373x251] flex-column gap:16px
+    div [925,91,1x274]
+      div [0,0,0x0]
+        div [925,91,1x274]
+          div [925,91,1x274]
+            svg [925,91,1x274]
+      div [918,359,14x7]
+        div [918,359,14x7]
+          svg [918,359,14x7]
+    div "Agent-Note" [739,60,373x60] flex-row gap:normal p:12px 12px 12px 20px bg:#FFFFFF r:16px
+      div "Analyzing video provided..." [759,74,161x34] flex-column gap:normal
+        h6 [759,74,161x34]
+          span [759,75,100x30]
+            span [759,74,16x34] filter:blur(0px)
+            span [775,74,13x34] filter:blur(0px)
+            span [788,74,12x34] filter:blur(0px)
+            span [800,74,6x34] filter:blur(0px)
+            span [806,74,12x34] filter:blur(0px)
+            span [818,74,11x34] filter:blur(0px)
+            span [828,74,6x34] filter:blur(0px)
+            span [834,74,13x34] filter:blur(0px)
+            span [848,74,11x34] filter:blur(0px)
+          span [863,75,57x30]
+            span [863,74,12x34] filter:blur(0px)
+            span [876,74,6x34] filter:blur(0px)
+            span [881,74,14x34] filter:blur(0px)
+            span [895,74,12x34] filter:blur(0px)
+            span [907,74,13x34] filter:blur(0px)
+      div [1048,72,52x36]
+        dotlottie-player [1048,72,52x36]
+    div "Content" [746,136,360x175] flex-column gap:16px r:0px 0px 8px 8px
+      div "Frame 2147257924" [746,136,360x47] flex-row gap:8px p:12px 16px bg:#FFFFFF r:16px
+        div "Order #1342" [762,148,328x23] flex-column gap:normal
+          p [762,148,328x23] TEXT"Recognizing brand, product, and model" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+      div "Frame 2147257925" [757,200,337x48] flex-row gap:8px p:12px 16px bg:#FFFFFF r:16px
+        div "12/01/2024" [773,212,305x23] flex-column gap:normal
+          p [773,212,305x23] TEXT"Pulling info from the documentation" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+      div "Frame 2147257926" [816,264,219x47] flex-row gap:8px p:12px 16px bg:#FFFFFF r:16px
+        div "Inside 30 days guarantee" [832,276,187x23] flex-column gap:normal
+          p [832,276,187x23] TEXT"Checking video details" {Tiempos Text Regular 400 18px/23.4px #2A3639}
+    div [0,0,0x0]
+      div "Review" [747,377,357x92] flex-row gap:12px p:1px bgi:linear-gradient(255deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 14.8649%, rgb(251, 86, 70) 32.8829%, rgb(130, 122, 204 r:16px tf:matrix(1, 0, 0, 1, -178.5, 0) bf:blur(6px)
+        div [748,378,355x90] flex-row gap:12px p:10px bg:#FFFFFF r:16px
+          div "Text container" [758,388,335x70] flex-row gap:20px
+            div "Great product!" [758,388,291x70] flex-column gap:normal
+              p [758,388,291x70] TEXT"Your grind is too coarse. Try a finer setting and tamp with more pressure." {Tiempos Text Regular 400 18px/23.4px #2A3639}
+            div "sparkles-two-2" [1069,411,24x24]
+              div [1069,411,24x24]
+                svg [1069,411,24x24]
+  div "Review" [283,299,209x116] flex-row gap:12px p:1px bgi:linear-gradient(255deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 14.8649%, rgb(251, 86, 70) 32.8829%, rgb(130, 122, 204 r:16px bf:blur(6px)
+    div [284,300,207x114] flex-row gap:12px p:10px bg:#FFFFFF r:16px
+      div "Text container" [294,310,187x94] flex-column gap:4px
+        div "Great product!" [294,310,187x94] flex-column gap:normal
+          p [294,310,187x94] TEXT"My espresso is coming out watery. Can you see what I'm doing wrong?" {Tiempos Text Regular 400 18px/23.4px #2A3639}

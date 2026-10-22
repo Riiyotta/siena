@@ -1,0 +1,162 @@
+{
+  "id": "section.hero.partner",
+  "registryId": "section.hero.partner",
+  "typeId": "hero.partner",
+  "version": "1.0.0",
+  "category": "hero",
+  "purpose": "Partner hero (H1, sub, 'Become a partner' opens the modal) + white benefits card with six feature items.",
+  "evidenceLevel": "measured",
+  "variants": {
+    "partner": "1552 tall."
+  },
+  "composes": [
+    "component.feature-item",
+    "primitive.button"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "headline": {
+        "type": "string",
+        "maxWords": 5
+      },
+      "subtitle": {
+        "type": "string",
+        "maxWords": 30
+      },
+      "cta": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string",
+            "maxWords": 3
+          },
+          "action": {
+            "const": "open-modal"
+          }
+        },
+        "required": [
+          "label",
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "benefits": {
+        "type": "object",
+        "properties": {
+          "eyebrow": {
+            "type": "string",
+            "maxWords": 2
+          },
+          "title": {
+            "type": "string",
+            "maxWords": 6,
+            "description": "Plain text; wrap at most one phrase in *asterisks* to render it in the display italic cut.",
+            "pattern": "^[^*]*(\\*[^*]+\\*[^*]*)?$"
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "icon": {
+                  "type": "object",
+                  "properties": {
+                    "assetRole": {
+                      "const": "icon.glyph"
+                    },
+                    "codepoint": {
+                      "type": "string",
+                      "pattern": "^U\\+[0-9A-F]{4}$"
+                    }
+                  },
+                  "required": [
+                    "assetRole",
+                    "codepoint"
+                  ],
+                  "additionalProperties": false
+                },
+                "title": {
+                  "type": "string",
+                  "maxWords": 4
+                },
+                "body": {
+                  "type": "string",
+                  "maxWords": 25
+                }
+              },
+              "required": [
+                "icon",
+                "title",
+                "body"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 6,
+            "maxItems": 6
+          }
+        },
+        "required": [
+          "eyebrow",
+          "title",
+          "items"
+        ],
+        "additionalProperties": false
+      },
+      "background": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "const": "illustration.abstract-glow"
+          },
+          "assetRef": {
+            "type": "string",
+            "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 24
+          }
+        },
+        "required": [
+          "assetRole",
+          "assetRef"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "required": [
+      "headline",
+      "subtitle",
+      "cta",
+      "benefits",
+      "background"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "appear-rise"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Items single column; H2 48/48."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustFollowNav": true
+  },
+  "measuredFrom": [
+    "spec.p1",
+    "jsx.partner"
+  ]
+}

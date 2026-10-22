@@ -1,0 +1,163 @@
+{
+  "id": "section.hero.order-orbits",
+  "registryId": "section.hero.order-orbits",
+  "typeId": "hero.order-orbits",
+  "version": "1.0.0",
+  "category": "hero",
+  "purpose": "Order-tracking hero: centered H1/sub/CTA above rotating carrier-logo orbits (outer cw, inner ccw at 18 deg/s) and a customer/Siena chat row.",
+  "evidenceLevel": "spec-measured",
+  "variants": {
+    "order-tracking": "Hero sand, 1251 tall."
+  },
+  "composes": [
+    "primitive.text",
+    "primitive.button",
+    "primitive.logo-mark",
+    "component.chat-mock"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "headline": {
+        "type": "string",
+        "maxWords": 5
+      },
+      "subtitle": {
+        "type": "string",
+        "maxWords": 30
+      },
+      "cta": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string",
+            "maxWords": 4
+          },
+          "href": {
+            "type": "string",
+            "pattern": "^(/[a-z0-9/#-]*|#[a-z0-9-]+|https://[a-zA-Z0-9.-]+(/[^\\s]*)?|mailto:[a-z.]+@siena\\.cx)$"
+          },
+          "style": {
+            "enum": [
+              "xlg-dark"
+            ]
+          }
+        },
+        "required": [
+          "label",
+          "href",
+          "style"
+        ],
+        "additionalProperties": false
+      },
+      "carriers": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "assetRole": {
+              "const": "logo.integration"
+            },
+            "assetRef": {
+              "type": "string",
+              "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+            },
+            "alt": {
+              "type": "string",
+              "maxWords": 24
+            }
+          },
+          "required": [
+            "assetRole",
+            "assetRef"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 6,
+        "maxItems": 8
+      },
+      "brandAvatar": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "const": "brand.siena-glyph"
+          },
+          "assetRef": {
+            "type": "string",
+            "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 24
+          }
+        },
+        "required": [
+          "assetRole",
+          "assetRef"
+        ],
+        "additionalProperties": false
+      },
+      "chat": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "speaker": {
+              "enum": [
+                "customer",
+                "siena"
+              ]
+            },
+            "text": {
+              "type": "string",
+              "maxWords": 40
+            }
+          },
+          "required": [
+            "speaker",
+            "text"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 2,
+        "maxItems": 2
+      }
+    },
+    "required": [
+      "headline",
+      "subtitle",
+      "cta",
+      "carriers",
+      "chat"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "appear-rise"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ],
+    "builtIn": [
+      "orbit-rotate (always on)"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Orbit visual scaled to 390."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustFollowNav": true
+  },
+  "measuredFrom": [
+    "spec.pb.3.1",
+    "spec.pb.orbit"
+  ]
+}

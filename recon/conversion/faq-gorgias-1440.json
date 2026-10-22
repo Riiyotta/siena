@@ -1,0 +1,109 @@
+{
+ "faq": {
+  "items": [
+   {
+    "q": "Can Siena work across multiple channels?",
+    "a": "Absolutely. Siena works across email, SMS, chat, WhatsApp, social media (Instagram, Facebook, TikTok), voice, and more—all from a unified AI that maintains context across channels. Your customers get the same experience whether they reach out on Instagram or email.",
+    "icon": "OKFNY3AXFnnV2q6cBUgzTRwNI0.png"
+   },
+   {
+    "q": "Does Siena handle pre-purchase and post-purchase interactions?",
+    "a": "Yes. Siena's Shopping Agent handles product discovery, recommendations, and conversions, while the Customer Service Agent manages post-purchase support like returns, exchanges, and tracking.",
+    "icon": "klSbquSQSmI4vJp5uAthfEBu4A.png"
+   },
+   {
+    "q": "Why does Siena include implementation support instead of self-service setup?",
+    "a": "Because high-quality automation requires expertise most brands don't have yet. Our implementation team manages setup from day one: connecting systems, structuring your knowledge base, and configuring automations that mirror your business. We apply proven frameworks from hundreds of implementations to get your workflows performing at production quality before launch. Other platforms rely on self-service because their automation is limited to basic deflection. Siena powers complex workflows like returns, exchanges, and subscription management. You reach reliable automation faster than trial and error.",
+    "icon": "klSbquSQSmI4vJp5uAthfEBu4A.png"
+   },
+   {
+    "q": "What's the difference between Siena's pricing and Gorgias's pricing model?",
+    "a": "Siena uses transparent per-conversation pricing. You know exactly what you're paying for—no hidden formulas, no debates over what counts as \"resolved.\" Gorgias uses outcome-based pricing, which sounds appealing but creates disputes over resolution definitions and unpredictable costs. With Siena, cost = conversations × rate. Simple.",
+    "icon": "klSbquSQSmI4vJp5uAthfEBu4A.png"
+   },
+   {
+    "q": "Does Siena require me to use a specific helpdesk?",
+    "a": "No. Siena sits on top of your existing helpdesk—whether that's Zendesk, Kustomer, Gorgias, Dixa, or others. You can switch helpdesks anytime without losing Siena. Gorgias AI only works with the Gorgias helpdesk, locking you into their ecosystem. If you ever want to change your helpdesk, you lose your AI investment with Gorgias.",
+    "icon": "klSbquSQSmI4vJp5uAthfEBu4A.png"
+   },
+   {
+    "q": "What if I want to switch from Gorgias to another helpdesk in the future?",
+    "a": "With Siena, switching is seamless. Siena integrates with major helpdesks like Zendesk, Kustomer, Dixa, Gladly, and Intercom, so you can move platforms while keeping all your AI automations, workflows, and training intact. Gorgias AI is dependent on the Gorgias helpdesk. If you leave Gorgias, you start over.",
+    "icon": "klSbquSQSmI4vJp5uAthfEBu4A.png"
+   },
+   {
+    "q": "Why do brands choose Siena over Gorgias AI?",
+    "a": "Brands choose Siena because it's built AI-native from the ground up, not bolted onto an existing helpdesk. Siena delivers 80% automation rates that remain stable and improve over time. Siena works on top of your existing helpdesk (Zendesk, Kustomer, Gorgias, etc.), so you're never locked in. If you want to switch helpdesks, Siena moves with you",
+    "icon": "klSbquSQSmI4vJp5uAthfEBu4A.png"
+   },
+   {
+    "q": "Is Siena suitable for enterprise brands?",
+    "a": "Yes. Siena is trusted by enterprise brands and is SOC 2, GDPR, CPRA, and HIPAA compliant. Our reasoning architecture provides the visibility, control, and explainability enterprise teams need. We offer dedicated onboarding, Slack support, and custom integrations for complex tech stacks.",
+    "icon": "klSbquSQSmI4vJp5uAthfEBu4A.png"
+   }
+  ],
+  "html": "<div  data-framer-name=\"FAQ\"><div ><!--$--><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Can Siena work across multiple channels?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Absolutely. Siena works across email, SMS, chat, WhatsApp, social media (Instagram, Facebook, TikTok), voice, and more—all from a unified AI that maintains context across channels. Your customers get the same experience whether they reach out on Instagram or email.\"}},{\"@type\":\"Question\",\"name\":\"Does Siena handle pre-purchase and post-purchase interactions?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. Siena's Shopping Agent handles product discovery, recommendations, and conversions, while the Customer Service Agent manages post-purchase support like returns, exchanges, and tracking.\"}},{\"@type\":\"Question\",\"name\":\"Why does Siena include implementation support instead of self-service setup?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Because high-quality automation requires expertise most brands don't have yet. Our implementation team manages setup from day one: connecting systems, structuring your knowledge base, and configuring automations that mirror your business. We apply proven frameworks from hundreds of implementations to get your workflows performing at production quality before launch.\\n\\nOther platforms rely on self-service because their automation is limited to basic deflection. Siena powers complex workflows like returns, exchanges, and subscription management. You reach reliable automation faster than trial and error.\"}},{\"@type\":\"Question\",\"name\":\"What's the difference between Siena's pricing and Gorgias's pricing model?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Siena uses transparent per-conversation pricing. You know exactly what you're paying for—no hidden formulas, no debates over what counts as \\\"resolved.\\\" Gorgias uses outcome-based pricing, which sounds appealing but creates disputes over resolution definitions and unpredictable costs. With Siena, cost = conversations × rate. Simple.\"}},{\"@type\":\"Question\",\"name\":\"Does Siena require me to use a specific helpdesk?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"No. Siena sits on top of your existing helpdesk—whether that's Zendesk, Kustomer, Gorgias, Dixa, or others. You can switch helpdesks anytime without losing Siena. Gorgias AI only works with the Gorgias helpdesk, locking you into their ecosystem. If you ever want to change your helpdesk, you lose your AI investment with Gorgias.\"}},{\"@type\":\"Question\",\"name\":\"What if I want to switch from Gorgias to another helpdesk in the future?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"With Siena, switching is seamless. Siena integrates with major helpdesks like Zendesk, Kustomer, Dixa, Gladly, and Intercom, so you can move platforms while keeping all your AI automations, workflows, and training intact. Gorgias AI is dependent on the Gorgias helpdesk. If you leave Gorgias, you start over.\"}},{\"@type\":\"Question\",\"name\":\"Why do brands choose Siena over Gorgias AI?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Brands choose Siena because it's built AI-native from the ground up, not bolted onto an existing helpdesk. Siena delivers 80% automation rates that remain stable and improve over time. Siena works on top of your existing helpdesk (Zendesk, Kustomer, Gorgias, etc.), so you're never locked in. If you want to switch helpdesks, Siena moves with you\"}},{\"@type\":\"Question\","
+ },
+ "timeline": [
+  "13 159 1 84 99 0 24 none klSbqu rgba(18, 32, 35, 0) all",
+  "143 159 1 84 99 0 24 none OKFNY3 rgba(18, 32, 35, 0) all",
+  "145 157 1 82 100 0 25 none OKFNY3 rgba(18, 32, 35, 0) all",
+  "147 156 0.96 81 101 0.04 26 none OKFNY3 rgba(18, 32, 35, 0) all",
+  "164 146 0.793 71 108 0.207 33 none OKFNY3 rgba(18, 32, 35, 0) all",
+  "180 136 0.626 61 114 0.374 39 none OKFNY3 rgba(18, 32, 35, 0) all",
+  "197 126 0.46 51 121 0.54 46 none OKFNY3 rgba(18, 32, 35, 0) all",
+  "214 116 0.294 41 128 0.706 53 none OKFNY3 rgba(18, 32, 35, 0) all",
+  "230 106 0.127 31 134 0.873 59 none OKFNY3 rgba(18, 32, 35, 0) all",
+  "247 99 0 24 139 1 64 none OKFNY3 rgba(18, 32, 35, 0) all"
+ ],
+ "hover": {
+  "bg": "rgba(18, 32, 35, 0)",
+  "c": "rgb(18, 32, 35)",
+  "cursor": "pointer",
+  "tr": "all"
+ },
+ "styles": {
+  "item": {
+   "style": "border-radius:0;overflow:hidden;border-bottom-style:solid;border-bottom-color:var(--token-3bd0289b-d5ca-48c8-85fb-e6f5896d5779, rgba(0, 0, 0, 0.2));border-bottom-width:0px 0px 1px 0px",
+   "ff": "sans-serif",
+   "fs": "12px",
+   "lh": "normal",
+   "fw": "400",
+   "c": "rgb(0, 0, 0)"
+  },
+  "head": {
+   "style": "cursor:pointer;display:flex;align-items:center;justify-content:space-between;font-family:\"Instrument Sans\", \"Instrument Sans Placeholder\", sans-serif;font-size:20px;font-weight:500;color:var(--token-76690f9a-b442-46af-8a97-1e9974f4bb5d, rgb(18, 32, 35));background:rgba(18, 32, 35, 0);padding-top:24px;padding-right:0px;padding-bottom:24px;padding-left:0px",
+   "ff": "\"Instrument Sans\", \"Instrument Sans Placeholder\", sans-serif",
+   "fs": "20px",
+   "lh": "normal",
+   "fw": "500",
+   "c": "rgb(18, 32, 35)"
+  },
+  "q": {
+   "style": "width:20px;height:20px;margin-left:0px;margin-right:0px;order:1",
+   "ff": "\"Instrument Sans\", \"Instrument Sans Placeholder\", sans-serif",
+   "fs": "20px",
+   "lh": "normal",
+   "fw": "500",
+   "c": "rgb(18, 32, 35)"
+  },
+  "ans": {
+   "style": "display: flex; align-items: start; flex-direction: column; font-family: \"Instrument Sans\", \"Instrument Sans Placeholder\", sans-serif; font-size: 16px; font-weight: 400; color: rgba(18, 32, 35, 0.8); background: rgba(43, 98, 237, 0); overflow: hidden; padding: 0px 0px 24px; height: 0px; opacity: 0; will-change: transform;",
+   "ff": "\"Instrument Sans\", \"Instrument Sans Placeholder\", sans-serif",
+   "fs": "16px",
+   "lh": "normal",
+   "fw": "400",
+   "c": "rgba(18, 32, 35, 0.8)"
+  },
+  "ansInner": null,
+  "img": "width:20px;height:20px;margin-left:0px;margin-right:0px;order:1",
+  "wrap": {
+   "style": "margin-bottom:0px",
+   "ff": "sans-serif",
+   "fs": "12px",
+   "lh": "normal",
+   "fw": "400",
+   "c": "rgb(0, 0, 0)"
+  }
+ }
+}

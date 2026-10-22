@@ -1,0 +1,105 @@
+{
+  "id": "section.trust.enterprise",
+  "registryId": "section.trust.enterprise",
+  "typeId": "trust.enterprise",
+  "version": "1.0.0",
+  "category": "trust",
+  "purpose": "Dark 'Enterprise-grade safety' section: white H2 + paragraph and four white cards (guardrails, SSO, SOC 2, support).",
+  "evidenceLevel": "measured",
+  "variants": {
+    "pricing": "Cards 250x304.",
+    "product": "Social / ask-siena copy variants (ask: cards 250x220, compliance-focused)."
+  },
+  "composes": [
+    "component.enterprise-card"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "heading": {
+        "type": "string",
+        "maxWords": 5
+      },
+      "body": {
+        "type": "string",
+        "maxWords": 35
+      },
+      "cards": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "icon": {
+              "type": "object",
+              "properties": {
+                "assetRole": {
+                  "const": "icon.glyph"
+                },
+                "codepoint": {
+                  "type": "string",
+                  "pattern": "^U\\+[0-9A-F]{4}$"
+                }
+              },
+              "required": [
+                "assetRole",
+                "codepoint"
+              ],
+              "additionalProperties": false
+            },
+            "title": {
+              "type": "string",
+              "maxWords": 6
+            },
+            "body": {
+              "type": "string",
+              "maxWords": 25
+            }
+          },
+          "required": [
+            "icon",
+            "title",
+            "body"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 4,
+        "maxItems": 4
+      }
+    },
+    "required": [
+      "heading",
+      "body",
+      "cards"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "H2 stays 64/64; cards 2x2 (163x288)."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "spec.cv.1.5",
+    "jsx.enterprise",
+    "spec.pa.2.7",
+    "spec.pa.6.10"
+  ],
+  "copyPolicy": {
+    "cards": "SOC 2 / compliance claims are real company claims: reuse exact, never invent new certifications"
+  }
+}

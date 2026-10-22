@@ -1,0 +1,571 @@
+{
+ "borders": [
+  {
+   "r": [
+    322,
+    53,
+    52,
+    52
+   ],
+   "n": "Logo and Name<Main",
+   "b": "1px 1px 1px 1px solid rgba(0, 0, 0, 0.2)",
+   "rad": "12px",
+   "txt": ""
+  },
+  {
+   "r": [
+    40,
+    1139,
+    40,
+    40
+   ],
+   "n": "Avatar<Feature 1<1",
+   "b": "2px 2px 2px 2px solid rgb(255, 255, 255)",
+   "rad": "99px",
+   "txt": ""
+  },
+  {
+   "r": [
+    310,
+    1261,
+    40,
+    40
+   ],
+   "n": "Avatar<Feature 1<1",
+   "b": "2px 2px 2px 2px solid rgb(255, 255, 255)",
+   "rad": "99px",
+   "txt": ""
+  },
+  {
+   "r": [
+    40,
+    1333,
+    40,
+    40
+   ],
+   "n": "Avatar<Feature 1<1",
+   "b": "2px 2px 2px 2px solid rgb(255, 255, 255)",
+   "rad": "99px",
+   "txt": ""
+  },
+  {
+   "r": [
+    310,
+    1471,
+    40,
+    40
+   ],
+   "n": "Avatar<Feature 1<1",
+   "b": "2px 2px 2px 2px solid rgb(255, 255, 255)",
+   "rad": "99px",
+   "txt": ""
+  },
+  {
+   "r": [
+    40,
+    1542,
+    40,
+    40
+   ],
+   "n": "Avatar<Feature 1<1",
+   "b": "2px 2px 2px 2px solid rgb(255, 255, 255)",
+   "rad": "99px",
+   "txt": ""
+  },
+  {
+   "r": [
+    48,
+    2529,
+    40,
+    40
+   ],
+   "n": "Avatar<Image - portait<2",
+   "b": "2px 2px 2px 2px solid rgb(255, 255, 255)",
+   "rad": "99px",
+   "txt": ""
+  },
+  {
+   "r": [
+    302,
+    2651,
+    40,
+    40
+   ],
+   "n": "Avatar<Image - portait<2",
+   "b": "2px 2px 2px 2px solid rgb(255, 255, 255)",
+   "rad": "99px",
+   "txt": ""
+  },
+  {
+   "r": [
+    48,
+    2738,
+    40,
+    40
+   ],
+   "n": "Avatar<Image - portait<2",
+   "b": "2px 2px 2px 2px solid rgb(255, 255, 255)",
+   "rad": "99px",
+   "txt": ""
+  },
+  {
+   "r": [
+    302,
+    2861,
+    40,
+    40
+   ],
+   "n": "Avatar<Image - portait<2",
+   "b": "2px 2px 2px 2px solid rgb(255, 255, 255)",
+   "rad": "99px",
+   "txt": ""
+  },
+  {
+   "r": [
+    48,
+    2932,
+    40,
+    40
+   ],
+   "n": "Avatar<Image - portait<2",
+   "b": "2px 2px 2px 2px solid rgb(255, 255, 255)",
+   "rad": "99px",
+   "txt": ""
+  },
+  {
+   "r": [
+    -114,
+    3771,
+    617,
+    612
+   ],
+   "n": "Ellipse 548<Integrations<Integrations M",
+   "b": "0px 0px 0px 0px solid rgb(0, 0, 0)",
+   "rad": "336px",
+   "txt": ""
+  },
+  {
+   "r": [
+    56,
+    5096,
+    278,
+    56
+   ],
+   "n": "Title<Metrics<Main",
+   "b": "1px 0px 0px 0px solid rgba(0, 0, 0, 0.2)",
+   "rad": "0px",
+   "txt": "98%  FASTER RESPONSE TIME"
+  },
+  {
+   "r": [
+    56,
+    5176,
+    278,
+    63
+   ],
+   "n": "Title<Metrics<Main",
+   "b": "1px 0px 0px 0px solid rgba(0, 0, 0, 0.2)",
+   "rad": "0px",
+   "txt": "90%  FASTER RESOLUTION TIME"
+  },
+  {
+   "r": [
+    56,
+    5264,
+    278,
+    56
+   ],
+   "n": "Title<Metrics<Main",
+   "b": "1px 0px 0px 0px solid rgba(0, 0, 0, 0.2)",
+   "rad": "0px",
+   "txt": "+94.7%  AVERAGE CSAT"
+  },
+  {
+   "r": [
+    0,
+    10904,
+    390,
+    1080
+   ],
+   "n": "Phone",
+   "b": "0px 0px 1px 0px solid rgba(0, 0, 0, 0.2)",
+   "rad": "0px",
+   "txt": "    COMPANY  About Us  Careers  Custom"
+  },
+  {
+   "r": [
+    256,
+    11872,
+    46,
+    48
+   ],
+   "n": "Secondary / md<Left Column<Footer Content",
+   "b": "1px 1px 1px 1px solid rgba(255, 255, 255, 0.2)",
+   "rad": "12px",
+   "txt": ""
+  },
+  {
+   "r": [
+    310,
+    11872,
+    48,
+    48
+   ],
+   "n": "Secondary / md<Left Column<Footer Content",
+   "b": "1px 1px 1px 1px solid rgba(255, 255, 255, 0.2)",
+   "rad": "12px",
+   "txt": ""
+  }
+ ],
+ "icons": [
+  {
+   "r": [
+    338,
+    67,
+    21,
+    24
+   ],
+   "cp": "U+E0AE",
+   "ff": "\"Font Awesome 6 Pro Regular\"",
+   "fs": "24px",
+   "fw": "400",
+   "c": "rgb(18, 32, 35)",
+   "n": "Logo and Name<Main",
+   "next": ""
+  },
+  {
+   "r": [
+    272,
+    11888,
+    14,
+    16
+   ],
+   "cp": "U+F0E1",
+   "ff": "\"Font Awesome 6 Brands Regular\"",
+   "fs": "16px",
+   "fw": "400",
+   "c": "rgb(244, 245, 245)",
+   "n": "Text<Secondary / md<Left Column",
+   "next": ""
+  },
+  {
+   "r": [
+    326,
+    11888,
+    16,
+    16
+   ],
+   "cp": "U+E61B",
+   "ff": "\"Font Awesome 6 Brands Regular\"",
+   "fs": "16px",
+   "fw": "400",
+   "c": "rgb(244, 245, 245)",
+   "n": "Text<Secondary / md<Left Column",
+   "next": ""
+  }
+ ],
+ "imgs": [
+  {
+   "src": "H7uKKouy1m2eWQvMjbwrSblQx8k.webp",
+   "r": [
+    0,
+    241,
+    390,
+    595
+   ],
+   "ow": 390,
+   "oh": 595,
+   "wow": 390,
+   "woh": 595,
+   "pos": "t:201px r:0px b:0px l:0px w:390px h:595.031px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "cover",
+   "op": "50% 0%",
+   "alt": "",
+   "n": "Siena 2<Hero<Main"
+  },
+  {
+   "src": "OS7uIQBhEtXd5l7MXZ0qAcM0Lg.png",
+   "r": [
+    24,
+    1076,
+    342,
+    522
+   ],
+   "ow": 342,
+   "oh": 522,
+   "wow": 342,
+   "woh": 522,
+   "pos": "t:0px r:0px b:0px l:0px w:342px h:522.312px",
+   "tf": "none",
+   "rad": "24px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "Feature 1<1<Content"
+  },
+  {
+   "src": "RmeNSvdDwpHmyiquwjkQ8HlXlI.webp",
+   "r": [
+    40,
+    1139,
+    40,
+    40
+   ],
+   "ow": 40,
+   "oh": 40,
+   "wow": 40,
+   "woh": 40,
+   "pos": "t:0px r:0px b:0px l:0px w:40px h:40px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "image 1696<Avatar<Feature 1"
+  },
+  {
+   "src": "RmeNSvdDwpHmyiquwjkQ8HlXlI.webp",
+   "r": [
+    40,
+    1333,
+    40,
+    40
+   ],
+   "ow": 40,
+   "oh": 40,
+   "wow": 40,
+   "woh": 40,
+   "pos": "t:0px r:0px b:0px l:0px w:40px h:40px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "image 1696<Avatar<Feature 1"
+  },
+  {
+   "src": "RmeNSvdDwpHmyiquwjkQ8HlXlI.webp",
+   "r": [
+    40,
+    1542,
+    40,
+    40
+   ],
+   "ow": 40,
+   "oh": 40,
+   "wow": 40,
+   "woh": 40,
+   "pos": "t:0px r:0px b:0px l:0px w:40px h:40px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "image 1696<Avatar<Feature 1"
+  },
+  {
+   "src": "jLZk9EHNgMDBQm7bbrRSNSias.webp",
+   "r": [
+    24,
+    2458,
+    342,
+    586
+   ],
+   "ow": 342,
+   "oh": 586,
+   "wow": 342,
+   "woh": 586,
+   "pos": "t:0px r:0px b:0px l:0px w:342px h:586.312px",
+   "tf": "none",
+   "rad": "24px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "Image - portait<2<Content"
+  },
+  {
+   "src": "RmeNSvdDwpHmyiquwjkQ8HlXlI.webp",
+   "r": [
+    48,
+    2529,
+    40,
+    40
+   ],
+   "ow": 40,
+   "oh": 40,
+   "wow": 40,
+   "woh": 40,
+   "pos": "t:0px r:0px b:0px l:0px w:40px h:40px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "image 1696<Avatar<Image - portait"
+  },
+  {
+   "src": "RmeNSvdDwpHmyiquwjkQ8HlXlI.webp",
+   "r": [
+    48,
+    2738,
+    40,
+    40
+   ],
+   "ow": 40,
+   "oh": 40,
+   "wow": 40,
+   "woh": 40,
+   "pos": "t:0px r:0px b:0px l:0px w:40px h:40px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "image 1696<Avatar<Image - portait"
+  },
+  {
+   "src": "RmeNSvdDwpHmyiquwjkQ8HlXlI.webp",
+   "r": [
+    48,
+    2932,
+    40,
+    40
+   ],
+   "ow": 40,
+   "oh": 40,
+   "wow": 40,
+   "woh": 40,
+   "pos": "t:0px r:0px b:0px l:0px w:40px h:40px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "image 1696<Avatar<Image - portait"
+  },
+  {
+   "src": "fxLqEwB1bxRKD7Xar2jbAEQOkY.png",
+   "r": [
+    142,
+    4027,
+    105,
+    105
+   ],
+   "ow": 105,
+   "oh": 105,
+   "wow": 105,
+   "woh": 105,
+   "pos": "t:0px r:0px b:0px l:0px w:104.672px h:104.672px",
+   "tf": "none",
+   "rad": "4px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "integrations<Integrations<Integrations M"
+  },
+  {
+   "src": "48uWBr03dP5XBMwKGnfEYaAr9k0.png",
+   "r": [
+    82,
+    4025,
+    195,
+    108
+   ],
+   "ow": 195,
+   "oh": 108,
+   "wow": 195,
+   "woh": 108,
+   "pos": "t:-2px r:-30.0156px b:-1.125px l:-60px w:194.688px h:107.797px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "image 1748<integrations<Integrations"
+  },
+  {
+   "src": "5VTp1YGCJLYo9Grib0Ouvyooeag.webp",
+   "r": [
+    0,
+    4639,
+    390,
+    768
+   ],
+   "ow": 390,
+   "oh": 768,
+   "wow": 390,
+   "woh": 768,
+   "pos": "t:0px r:0px b:0px l:0px w:390px h:768.219px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "Metrics<Main"
+  },
+  {
+   "src": "2qwkMa62FY4R6JZFtpnkwc613e8.svg",
+   "r": [
+    75,
+    5039,
+    241,
+    17
+   ],
+   "ow": 241,
+   "oh": 17,
+   "wow": 241,
+   "woh": 17,
+   "pos": "t:0px r:0px b:0px l:0px w:241px h:17px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "contain",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "Vector 77<Title<Metrics"
+  },
+  {
+   "src": "ERYNplIY591uk80wpoa4JGglO8.webp",
+   "r": [
+    0,
+    10159,
+    390,
+    746
+   ],
+   "ow": 390,
+   "oh": 746,
+   "wow": 390,
+   "woh": 746,
+   "pos": "t:0px r:0px b:0px l:0px w:390px h:745.594px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "Phone<Main"
+  },
+  {
+   "src": "HB4OWZgksTQCHf8uTWf7S6EYSlE.webp",
+   "r": [
+    211,
+    11078,
+    64,
+    64
+   ],
+   "ow": 64,
+   "oh": 64,
+   "wow": 64,
+   "woh": 64,
+   "pos": "t:0px r:0px b:0px l:0px w:64px h:63.6406px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "AICPA SOC 2 compliance badge",
+   "n": "SOC Non-CPA Logo<Links<Links"
+  }
+ ],
+ "hasNav": true,
+ "navTxt": "We raised a $17M Series A\n\n"
+}

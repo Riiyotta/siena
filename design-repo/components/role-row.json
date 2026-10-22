@@ -1,0 +1,17 @@
+{
+  "registryId": "component.role-row",
+  "version": "1.0.0",
+  "category": "content",
+  "description": "Open-roles department toggle (count pill, chevron rotating 180deg, hover cream) and role rows linking to Ashby in a new tab; only one department open at a time (240ms height).",
+  "composes": [
+    "primitive.text",
+    "primitive.link"
+  ],
+  "props": {},
+  "measuredFrom": [
+    "spec.roles.panel",
+    "spec.roles.row",
+    "jsx.co.roles"
+  ],
+  "motion": "{motion.recipe.accordion}"
+}

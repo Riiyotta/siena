@@ -1,0 +1,32 @@
+{
+  "registryId": "component.nav-pill",
+  "version": "1.0.0",
+  "category": "chrome",
+  "description": "Fixed 1168x64 pill (inside the announcement wrapper): logo left, five centered links (gap 56) with chevrons, md 'Book a demo' right. Transparent at top; at scrollY >= 160 switches to cream + layered shadow over ~250ms ease-in-out; reversible. Some routes force the scrolled state from scrollY 0.",
+  "composes": [
+    "primitive.logo-mark",
+    "primitive.link",
+    "primitive.button"
+  ],
+  "props": {
+    "state": {
+      "enum": [
+        "auto",
+        "forced-scrolled"
+      ]
+    },
+    "cta": {
+      "type": "object"
+    }
+  },
+  "measuredFrom": [
+    "spec.nav.scrolled",
+    "jsx.nav.scroll"
+  ],
+  "tokens": [
+    "{color.surface.cream}",
+    "{elevation.nav-scrolled}",
+    "{foundation.threshold.nav-scroll}",
+    "{foundation.duration.250}"
+  ]
+}

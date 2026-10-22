@@ -1,0 +1,21 @@
+y1086 x752 Avatar 40x40 2px 2px 2px 2px solid #FFFFFF r:99px txt:
+y1294 x895 Image - portait 131x22 1px 1px 1px 1px solid #CDBCA0 r:50px txt:5 weeks later
+y2901 x253 Title 290x243 1px 0px 0px 0px solid #000000/0.2 r:0px txt:CaptureMemory captures insights from ev
+y2901 x575 Title 290x220 1px 0px 0px 0px solid #000000/0.2 r:0px txt:GenerateThen Insights generates actiona
+y3636 x-5217 1 / Preference 200x232 0px 0px 1px 0px solid #000000/0.2 r:0px txt:PreferenceCapture customers’ explicit o
+y3636 x-4945 2 / Social 200x232 0px 0px 1px 0px solid #000000/0.2 r:0px txt:SocialCapture what customers are commen
+y3636 x-4674 3 / Coffee 200x232 0px 0px 1px 0px solid #000000/0.2 r:0px txt:Coffee choiceCapture things that custom
+y3636 x-4402 4 / Friends 200x232 0px 0px 1px 0px solid #000000/0.2 r:0px txt:Friends&FamCapture things that show our
+y3636 x-4131 5 / Promos 200x232 0px 0px 1px 0px solid #000000/0.2 r:0px txt:PromosCapture details that tell you abo
+y3636 x-3859 6 / Birthday 200x232 0px 0px 1px 0px solid #000000/0.2 r:0px txt:BirthdayCapture the customer’s birthday
+y3636 x-3588 7 / Shade 200x232 0px 0px 1px 0px solid #000000/0.2 r:0px txt:ShadeThe customer mentions their favori
+y3636 x-3316 8 / Feedback 200x232 0px 0px 1px 0px solid #000000/0.2 r:0px txt:FeedbackCustomers’ opinions — positive 
+y3636 x-3045 9 / Hair Type 200x232 0px 0px 1px 0px solid #000000/0.2 r:0px txt:Hair typeCapture interest in styling op
+y3636 x-2773 10 / Milestones 200x232 0px 0px 1px 0px solid #000000/0.2 r:0px txt:MilestonesSpecific details provided by 
+y3636 x-2502 11 / Travelers 200x232 0px 0px 1px 0px solid #000000/0.2 r:0px txt:TravelersCustomers who frequently trave
+y3636 x-2230 12 / Delight 200x232 0px 0px 1px 0px solid #000000/0.2 r:0px txt:DelightStandout customer moments that s
+y3636 x-1959 13 / Suggestions 200x232 0px 0px 1px 0px solid #000000/0.2 r:0px txt:InventoryWhen customers bring up sold-o
+y3636 x-1687 14 / Subscribe 200x232 0px 0px 1px 0px solid #000000/0.2 r:0px txt:SubscriptionCapture customer opinions a
+y5660 x0 Desktop 1440x434 0px 0px 1px 0px solid #000000/0.2 r:0px txt:cOMPANYAbout UsCareersCustomersSecurit
+y5788 x148 Secondary / md 46x48 1px 1px 1px 1px solid #FFFFFF/0.2 r:12px txt:
+y5788 x202 Secondary / md 48x48 1px 1px 1px 1px solid #FFFFFF/0.2 r:12px txt:

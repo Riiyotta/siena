@@ -1,0 +1,7 @@
+node_modules/
+dist/
+recon/*/build-check/
+design-repo.zip
+.DS_Store
+.playwright-mcp/
+*.log

@@ -1,0 +1,9 @@
+const {chromium}=require('playwright');const [route,W]=process.argv.slice(2);
+(async()=>{const b=await chromium.launch();const p=await (await b.newContext({viewport:{width:+W||1440,height:900}})).newPage();await p.goto('https://www.siena.cx/'+route,{waitUntil:'load'});await p.waitForTimeout(2500);
+await p.addStyleTag({content:'.cky-consent-container,.cky-overlay{display:none!important}'});
+const faq=p.locator('[data-framer-name="FAQ"]').first();await faq.scrollIntoViewIfNeeded();await p.waitForTimeout(800);
+const info=await faq.evaluate(f=>{const items=[...f.querySelectorAll('img[alt="icon"]')].map(i=>i.parentElement.parentElement);return items.map(it=>{const q=it.children[0],a=it.children[1];const cs=getComputedStyle(it);return {q:q.textContent.trim(),a:a.textContent.trim(),h:it.offsetHeight,aop:getComputedStyle(a).opacity,icon:it.querySelector('img').src.split('/').pop().split('?')[0],bb:cs.borderBottom,qFont:getComputedStyle(q).font,aFont:getComputedStyle(a).font,aColor:getComputedStyle(a).color,qpad:getComputedStyle(q).padding,apad:getComputedStyle(a).padding,cursor:getComputedStyle(q).cursor}})});
+console.log(JSON.stringify(info,null,1));
+const t=p.evaluate(async()=>{const f=document.querySelector('[data-framer-name="FAQ"]');const items=[...f.querySelectorAll('img[alt="icon"]')].map(i=>i.parentElement.parentElement);const t0=performance.now();const o=[];let prev='';await new Promise(r=>{const g=()=>{const v=items.slice(0,2).map(it=>it.offsetHeight+'/'+(+getComputedStyle(it.children[1]).opacity).toFixed(2)+'/'+it.querySelector('img').src.split('/').pop().slice(0,6)+'/'+getComputedStyle(it.querySelector('img')).transform).join(' | ');if(v!==prev){o.push(Math.round(performance.now()-t0)+'ms '+v);prev=v}if(performance.now()-t0<1500)requestAnimationFrame(g);else r()};g()});return o});
+await p.waitForTimeout(30);await faq.locator('img[alt="icon"]').nth(1).locator('xpath=..').click();console.log((await t).join('\n'));
+await b.close()})();

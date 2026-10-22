@@ -1,0 +1,1 @@
+(()=>{const s=[...document.querySelectorAll('#main div')].find(e=>getComputedStyle(e).position==='sticky'&&getComputedStyle(e).top==='88px');const c=s.firstElementChild;return c.getAttribute('data-framer-name')})()

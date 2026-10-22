@@ -1,0 +1,86 @@
+{
+  "id": "section.comparison.table",
+  "registryId": "section.comparison.table",
+  "typeId": "comparison.table",
+  "version": "1.0.0",
+  "category": "comparison",
+  "purpose": "'How is Siena different from X?' 3-column table (label / Siena with check badge / competitor); stacked cards on phone.",
+  "evidenceLevel": "measured",
+  "variants": {
+    "compare": "9-11 rows."
+  },
+  "composes": [
+    "component.comparison-row"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string",
+        "maxWords": 10
+      },
+      "competitorLabel": {
+        "type": "string",
+        "maxWords": 4
+      },
+      "rows": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "label": {
+              "type": "string",
+              "maxWords": 6
+            },
+            "siena": {
+              "type": "string",
+              "maxWords": 20
+            },
+            "competitor": {
+              "type": "string",
+              "maxWords": 20
+            }
+          },
+          "required": [
+            "label",
+            "siena",
+            "competitor"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 5,
+        "maxItems": 12
+      }
+    },
+    "required": [
+      "title",
+      "competitorLabel",
+      "rows"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Rows become cards (label, SIENA AI group, competitor group)."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "spec.cv.3.3",
+    "jsx.conv.table"
+  ]
+}

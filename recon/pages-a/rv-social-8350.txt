@@ -1,0 +1,14 @@
+Ask Siena "omg do you ship to canada??? �" @335,1849 320x47 [op,x,y,sx,sy,blur] [0,-159.9,80,1,1,0] -> [1,-159.9,0,1,1,0] start 498ms t50 680ms end 1481ms overshoot -1.2
+Prompt "Yes! We ship everywhere across" @346,1923 306x75 [op,x,y,sx,sy,blur] [0,-153,80,1,1,0] -> [1,-153,0,1,1,0] start 798ms t50 980ms end 1781ms overshoot -1.2
+01 "I need it in every flavour" @804,1979 227x47 [op,x,y,sx,sy,blur] [0,0,80,1,1,0] -> [1,0,0,1,1,0] start 498ms t50 680ms end 1481ms overshoot -1.2
+Prompt "True Sea MossYessss, you’re go" @828,1961 253x98 [op,x,y,sx,sy,blur] [0,-126.5,80,1,1,0] -> [1,-126.5,0,1,1,0] start 798ms t50 980ms end 1781ms overshoot -1.2
+User Message "Deleted by Siena" @770,4134 149x42 [op,x,y,sx,sy,blur] [0,0,150,1,1,0] -> [1,0,0,1,1,0] start 597ms t50 814ms end 1015ms overshoot 0.0
+User Message "Hidden by Siena" @770,4037 148x42 [op,x,y,sx,sy,blur] [0,0,150,1,1,0] -> [1,0,0,1,1,0] start 148ms t50 515ms end 714ms overshoot 0.0
+User Message "Deleted by Siena" @770,4234 149x42 [op,x,y,sx,sy,blur] [0,0,150,1,1,0] -> [1,0,0,1,1,0] start 896ms t50 1115ms end 1313ms overshoot 0.0
+Rectangle 2223 "" @711,6351 18x18 [op,x,y,sx,sy,blur] [0.149,0,0,1.298,1.298,0] -> [0.896,0,0,0.781,0.781,0] start 8ms t50 464ms end 3512ms overshoot -0.1
+Social Media Mockup "MariaHiii here's the link to b" @713,8531 296x253 [op,x,y,sx,sy,blur] [0,0,-46.4,1,1,0] -> [1,0,-126.4,1,1,0] start 1633ms t50 1801ms end 2596ms overshoot -1.2
+Ask Siena "Hiii here's the link to buy ou" @740,8615 243x71 [op,x,y,sx,sy,blur] [0,0,80,1,1,0] -> [1,0,0,1,1,0] start 1931ms t50 2101ms end 2912ms overshoot -1.2
+Card "Voyager Tumbler - Signature$39" @738,8696 246x72 [op,x,y,sx,sy,blur] [0,0,50,1,1,0] -> [1,0,0,1,1,0] start 2230ms t50 2431ms end 3230ms overshoot -0.1
+Rectangle 2223 "" @503,9611 30x30 [op,x,y,sx,sy,blur] [0.149,0,0,1.298,1.298,0] -> [0.896,0,0,0.781,0.781,0] start 8ms t50 464ms end 3512ms overshoot -0.1
+Rectangle 2223 "" @503,9655 30x30 [op,x,y,sx,sy,blur] [0.149,0,0,1.298,1.298,0] -> [0.894,0,0,0.775,0.775,0] start 8ms t50 464ms end 3512ms overshoot -0.1
+Rectangle 2223 "" @503,9699 30x30 [op,x,y,sx,sy,blur] [0.149,0,0,1.298,1.298,0] -> [0.894,0,0,0.775,0.775,0] start 8ms t50 464ms end 3512ms overshoot -0.1

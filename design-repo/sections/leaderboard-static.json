@@ -1,0 +1,117 @@
+{
+  "id": "section.leaderboard.static",
+  "registryId": "section.leaderboard.static",
+  "typeId": "leaderboard.static",
+  "version": "1.0.0",
+  "category": "feature",
+  "purpose": "QA leaderboard mock (static; tabs do not switch): agent performance rows + recent conversations panel.",
+  "evidenceLevel": "spec-measured",
+  "variants": {
+    "qa": "Max 960, two panels."
+  },
+  "composes": [
+    "primitive.text"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "eyebrow": {
+        "type": "string",
+        "maxWords": 7
+      },
+      "title": {
+        "type": "string",
+        "maxWords": 12,
+        "description": "Plain text; wrap at most one phrase in *asterisks* to render it in the display italic cut.",
+        "pattern": "^[^*]*(\\*[^*]+\\*[^*]*)?$"
+      },
+      "subtitle": {
+        "type": "string",
+        "maxWords": 35
+      },
+      "agents": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "maxWords": 3
+            },
+            "scores": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "maxWords": 1
+              },
+              "minItems": 3,
+              "maxItems": 3
+            }
+          },
+          "required": [
+            "name",
+            "scores"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 3,
+        "maxItems": 5
+      },
+      "conversations": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string",
+              "maxWords": 8
+            },
+            "status": {
+              "enum": [
+                "PASS",
+                "FAIL"
+              ]
+            }
+          },
+          "required": [
+            "title",
+            "status"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 2,
+        "maxItems": 4
+      }
+    },
+    "required": [
+      "eyebrow",
+      "title",
+      "agents",
+      "conversations"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Stacked."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "spec.pa.4.5"
+  ]
+}

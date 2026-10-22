@@ -1,0 +1,83 @@
+body [0,0,1440,6331] block pad:0px bg:rgb(255, 255, 255)     
+  div [-422,1161,845,711] block pad:0px bg:rgb(255, 255, 255)  r:6px fixed top:450px  maxw:100%
+    div#ckyPreferenceCenter [-422,1161,845,711] column gapnormal jc:normal ai:normal pad:0px bg:rgb(255, 255, 255)  r:6px  ov:hidden 
+      div [-422,1161,845,69] row gapnormal jc:space-between ai:center pad:22px 24px      
+      div [-422,1230,845,517] block pad:0px 24px     ov:auto 
+        div [-398,1230,797,124] block pad:12px 0px      
+          p [-398,1242,797,48] block pad:0px      
+          p [-398,1290,797,52] block pad:0px      
+        div [-398,1365,797,619] block pad:0px      
+          div#ckyDetailCategorynecessary [-398,1365,797,99] block pad:0px      
+            div [-398,1365,797,98] row gapnormal jc:normal ai:normal pad:0px      
+              div [-376,1365,775,98] block pad:0px      
+                div [-376,1399,775,48] block pad:0px      
+                  p [-376,1399,775,48] block pad:0px      
+          div#ckyDetailCategoryfunctional [-398,1474,797,99] block pad:0px      
+            div [-398,1474,797,98] row gapnormal jc:normal ai:normal pad:0px      
+              div [-376,1474,775,98] block pad:0px      
+                div [-376,1508,775,48] block pad:0px      
+                  p [-376,1508,775,48] block pad:0px      
+          div#ckyDetailCategoryanalytics [-398,1583,797,99] block pad:0px      
+            div [-398,1583,797,98] row gapnormal jc:normal ai:normal pad:0px      
+              div [-376,1583,775,98] block pad:0px      
+                div [-376,1617,775,48] block pad:0px      
+                  p [-376,1617,775,48] block pad:0px      
+          div#ckyDetailCategoryperformance [-398,1692,797,99] block pad:0px      
+            div [-398,1692,797,98] row gapnormal jc:normal ai:normal pad:0px      
+              div [-376,1692,775,98] block pad:0px      
+                div [-376,1726,775,48] block pad:0px      
+                  p [-376,1726,775,48] block pad:0px      
+          div#ckyDetailCategoryadvertisement [-398,1801,797,99] block pad:0px      
+            div [-398,1801,797,98] row gapnormal jc:normal ai:normal pad:0px      
+              div [-376,1801,775,98] block pad:0px      
+                div [-376,1835,775,48] block pad:0px      
+                  p [-376,1835,775,48] block pad:0px      
+          div#ckyDetailCategoryother [-398,1910,797,74] block pad:0px      
+            div [-398,1910,797,74] row gapnormal jc:normal ai:normal pad:0px      
+              div [-376,1910,775,74] block pad:0px      
+      div [-422,1747,845,125] block pad:0px      
+        span [-422,1708,845,40] block pad:0px  bi:linear-gradient(rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%)  absolute top:-39px  
+        div [-422,1747,845,89] row gap8px jc:center ai:center pad:22px 24px      
+  div#main [0,0,1440,6331] block pad:0px      
+    div [0,0,1440,6331] column gap0px jc:flex-start ai:center pad:0px bg:rgb(255, 255, 255)    ov:clip 
+      div [120,0,1200,115] block pad:0px    fixed top:0px  maxw:1440px
+        Hero [0,0,1440,1216] column gap0px jc:center ai:center pad:180px 96px 0px bg:rgb(243, 240, 235)    ov:hidden 
+          Title#top [96,180,1248,774] column gap28px jc:center ai:center pad:0px 0px 48px      maxw:1300px
+            div [96,180,1248,182] column gap18px jc:center ai:center pad:0px      
+              div [96,180,1248,80] column gap24px jc:flex-start ai:flex-start pad:0px      
+                div [96,180,1248,80] column gapnormal jc:flex-start ai:normal pad:0px      
+                  h1 [96,180,1248,80] block pad:0px      
+          Logos [120,954,1200,100] row gap10px jc:center ai:center pad:0px     ov:hidden 
+            div [120,954,1200,100] block pad:0px      
+                section [120,954,1200,100] row gapnormal jc:normal ai:center pad:0px     ov:hidden maxw:100%
+                  ul [14,954,1200,100] row gap64px jc:normal ai:center pad:0px      maxw:100%
+          Rectangle 7061 [-116,1054,1672,162] block pad:0px  bi:linear-gradient(rgb(243, 240, 235) 0%, rgb(255, 255, 255) 100%)    
+        Features [0,1216,1440,2910] column gap0px jc:center ai:center pad:80px 0px 0px      
+          Title [189,1296,1062,110] column gap24px jc:center ai:center pad:0px      maxw:1062px
+            div [189,1342,1062,64] column gapnormal jc:flex-start ai:normal pad:0px      
+              h2 [189,1342,1062,64] block pad:0px      
+          Scroll Area [0,1406,1440,2720] row gap64px jc:center ai:flex-start pad:0px 96px bg:rgb(255, 255, 255)     
+        Your team of expert agents [0,4126,1440,1016] column gap72px jc:center ai:center pad:80px 96px bg:rgb(250, 247, 241)     
+          Blur out [0,4126,1440,75] row gap10px jc:center ai:center pad:0px  bi:linear-gradient(rgb(255, 255, 255) 0%, rgb(250, 247, 241) 100%)  absolute top:0px ov:hidden 
+          Blur out [0,5067,1440,75] row gap10px jc:center ai:center pad:0px  bi:linear-gradient(rgb(250, 247, 241) 40%, rgb(255, 255, 255) 100%)  absolute top:941.438px ov:hidden 
+          Title [189,4206,1062,110] column gap24px jc:center ai:center pad:0px      maxw:1062px
+            div [189,4252,1062,64] column gapnormal jc:flex-start ai:normal pad:0px      
+              h2 [189,4252,1062,64] block pad:0px      
+          Container [120,4388,1200,674] column gap72px jc:center ai:center pad:0px      maxw:1200px
+            Card/Gallery [120,4388,1200,382] column gap24px jc:flex-start ai:flex-start pad:32px bg:rgba(255, 255, 255, 0)  r:24px   
+              Card grid [152,4420,960,318] block pad:0px      maxw:960px
+            div [120,4842,1200,220] row gap32px jc:center ai:flex-start pad:0px     ov:hidden maxw:1325px
+        Main [0,5142,1440,755] column gap0px jc:center ai:center pad:0px     ov:hidden 
+            div [0,5142,1440,755] block pad:0px      
+              Desktop [0,5142,1440,755] row gap10px jc:center ai:center pad:200px 96px     ov:hidden 
+                div [0,5142,1440,755] block pad:0px    absolute top:0px  
+                  img [0,5142,1440,755] block pad:0px     ov:clip 
+                Title [189,5342,1062,355] column gap40px jc:center ai:center pad:64px bg:rgb(243, 240, 235)  r:48px   maxw:1062px
+                  div [253,5406,934,227] column gap41px jc:center ai:center pad:0px      
+                    div [253,5406,934,128] column gap24px jc:center ai:center pad:0px      
+                      div [253,5406,934,128] column gapnormal jc:flex-start ai:normal pad:0px      
+                        h2 [253,5406,934,128] block pad:0px      
+        div [0,5897,1440,434] block pad:0px      
+            Desktop [0,5897,1440,434] column gap16px jc:flex-start ai:center pad:64px 96px bg:rgb(18, 32, 35)     
+              Footer Content [148,5961,1144,306] row gapnormal jc:space-between ai:flex-start pad:0px      maxw:1144px
+                div [457,5961,835,306] row gap10px jc:center ai:flex-start pad:0px      

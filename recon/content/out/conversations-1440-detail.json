@@ -1,0 +1,101 @@
+{
+ "rich": [],
+ "iframes": [
+  {
+   "src": "https://framer.com/edit?framerSiteId=f47910699fc3441f86608d12d38696a628e935e97e59d6623edfd8ace3e982f1&source=www.siena.cx&features=%7B%22editorBarDisableFrameAncestorsSecurity%22%3Afalse%2C%22onPageRichTextBlockSelection%22%3Atrue%7D&loadStart=1792663331642",
+   "r": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "br": "0px",
+   "parBr": "0px"
+  }
+ ],
+ "headings": [
+  {
+   "tag": "H1",
+   "t": "CX leaders on AI, in their own words",
+   "r": [
+    189,
+    212,
+    1062,
+    64
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "Be the first to know what's happening",
+   "r": [
+    389,
+    1416,
+    663,
+    128
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "h": "./conversations/spanx-kylah-field-real-work-ai-customer-experience",
+   "r": [
+    189,
+    395,
+    519,
+    356
+   ],
+   "t": "Kylah Field\n\n· Spanx\n\nChoosing an AI vendor by brand voice, the real work behind 50% automation, and why AI raised the bar for her human team too.",
+   "img": "https://framerusercontent.com/images/uXunsm8tlCYJ75EHjJsuPKBi8Ec.jpg?width=1280&height=720",
+   "alt": "Kylah Field, VP of Global Customer Experience at Spanx, in conversation with Siena's Lisa Popovici"
+  },
+  {
+   "h": "./conversations/thrive-causemetics-ai-customer-service-automation",
+   "r": [
+    732,
+    395,
+    519,
+    356
+   ],
+   "t": "Brendan Gardner-Young\n\n· Thrive Causemetics\n\nAutomating half of support volume with Siena, the metrics that actually matter, and why adopting AI is a lot like learning to paint.",
+   "img": "https://framerusercontent.com/images/TdidUtYfcNyYSLLThuETu1itgJI.jpg?width=640&height=360",
+   "alt": ""
+  },
+  {
+   "h": "./conversations/prose-ai-customer-service-automation",
+   "r": [
+    189,
+    776,
+    519,
+    356
+   ],
+   "t": "Jessica Weiss\n\n· Prose\n\nWhy personalized beauty makes support harder, the custom integration that made AI viable, and turning Ask Siena into a true CX analyst.",
+   "img": "https://framerusercontent.com/images/kWqyVruHOxgHlNpA8KWxTfUyFo.jpg?width=640&height=360",
+   "alt": ""
+  }
+ ],
+ "probes": [
+  {
+   "label": "card",
+   "before": {
+    "c": "rgb(0, 0, 238)",
+    "bg": "rgb(255, 255, 255)",
+    "sh": "none",
+    "tf": "none",
+    "op": "1",
+    "td": "none",
+    "bc": "rgb(0, 0, 238)"
+   },
+   "after": {
+    "c": "rgb(0, 0, 238)",
+    "bg": "rgb(255, 255, 255)",
+    "sh": "none",
+    "tf": "none",
+    "op": "1",
+    "td": "none",
+    "bc": "rgb(0, 0, 238)",
+    "imgTf": "none",
+    "imgP": "none"
+   }
+  }
+ ]
+}

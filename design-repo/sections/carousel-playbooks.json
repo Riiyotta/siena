@@ -1,0 +1,110 @@
+{
+  "id": "section.carousel.playbooks",
+  "registryId": "section.carousel.playbooks",
+  "typeId": "carousel.playbooks",
+  "version": "1.0.0",
+  "category": "feature",
+  "purpose": "Playbooks carousel: 3 cards per page (icon, title, text, brand logo), crossfade paging, 4 pages.",
+  "evidenceLevel": "spec-measured",
+  "variants": {
+    "ask": "Cream with blob."
+  },
+  "composes": [
+    "primitive.text",
+    "component.slider-controls"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "eyebrow": {
+        "type": "string",
+        "maxWords": 7
+      },
+      "title": {
+        "type": "string",
+        "maxWords": 12,
+        "description": "Plain text; wrap at most one phrase in *asterisks* to render it in the display italic cut.",
+        "pattern": "^[^*]*(\\*[^*]+\\*[^*]*)?$"
+      },
+      "subtitle": {
+        "type": "string",
+        "maxWords": 35
+      },
+      "cards": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string",
+              "maxWords": 5
+            },
+            "text": {
+              "type": "string",
+              "maxWords": 18
+            },
+            "logo": {
+              "type": "object",
+              "properties": {
+                "assetRole": {
+                  "const": "logo.customer"
+                },
+                "assetRef": {
+                  "type": "string",
+                  "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+                },
+                "alt": {
+                  "type": "string",
+                  "maxWords": 24
+                }
+              },
+              "required": [
+                "assetRole",
+                "assetRef"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "title",
+            "text",
+            "logo"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 3,
+        "maxItems": 12
+      }
+    },
+    "required": [
+      "eyebrow",
+      "title",
+      "subtitle",
+      "cards"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "crossfade-page"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "One card per page."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "spec.pa.6.7"
+  ]
+}

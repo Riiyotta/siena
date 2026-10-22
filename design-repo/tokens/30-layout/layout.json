@@ -1,0 +1,139 @@
+{
+  "$description": "Layout tokens: containers and section paddings, desktop (>=810, tablet unmeasured) and phone (<810).",
+  "container": {
+    "page": {
+      "$type": "dimension",
+      "$value": "1440px",
+      "$description": "Measured viewport; sections are full-bleed.",
+      "$extensions": {
+        "cite": [
+          "spec.global.layout"
+        ]
+      }
+    },
+    "content": {
+      "$type": "dimension",
+      "$value": "1248px",
+      "$description": "1440 minus 2x96 gutter.",
+      "$extensions": {
+        "cite": [
+          "spec.global.layout"
+        ]
+      }
+    },
+    "wide": {
+      "$type": "dimension",
+      "$value": "1328px",
+      "$description": "Max width of feature/metrics grids.",
+      "$extensions": {
+        "cite": [
+          "spec.features.card"
+        ]
+      }
+    },
+    "inner": {
+      "$type": "dimension",
+      "$value": "1200px",
+      "$description": "Integrations inner wrapper, panels.",
+      "$extensions": {
+        "cite": [
+          "spec.features.card"
+        ]
+      }
+    },
+    "text": {
+      "$type": "dimension",
+      "$value": "1062px",
+      "$description": "Hero text block, CTA card, FAQ panel.",
+      "$extensions": {
+        "cite": [
+          "spec.maincta.card"
+        ]
+      }
+    },
+    "article": {
+      "$type": "dimension",
+      "$value": "800px",
+      "$description": "Conversation article column.",
+      "$extensions": {
+        "cite": [
+          "spec.content.richtext"
+        ]
+      }
+    }
+  },
+  "sectionPadding": {
+    "desktop": {
+      "$type": "dimension",
+      "$value": "80px 96px",
+      "$description": "Default section padding at 1440.",
+      "$extensions": {
+        "cite": [
+          "spec.global.layout"
+        ]
+      }
+    },
+    "phone": {
+      "$type": "dimension",
+      "$value": "56px 24px",
+      "$description": "Default section padding at 390.",
+      "$extensions": {
+        "cite": [
+          "spec.mobile.type"
+        ]
+      }
+    },
+    "cta-desktop": {
+      "$type": "dimension",
+      "$value": "200px 96px",
+      "$description": "Main CTA frame.",
+      "$extensions": {
+        "cite": [
+          "spec.maincta.card"
+        ]
+      }
+    }
+  },
+  "space": {
+    "page-gutter": {
+      "$type": "dimension",
+      "$value": "{foundation.space.96}",
+      "$description": "Desktop side gutter.",
+      "$extensions": {
+        "cite": [
+          "spec.global.layout"
+        ]
+      }
+    },
+    "page-gutter-phone": {
+      "$type": "dimension",
+      "$value": "{foundation.space.24}",
+      "$description": "Phone side gutter.",
+      "$extensions": {
+        "cite": [
+          "spec.mobile.type"
+        ]
+      }
+    },
+    "section-gap": {
+      "$type": "dimension",
+      "$value": "{foundation.space.72}",
+      "$description": "Title-to-content gap in most sections.",
+      "$extensions": {
+        "cite": [
+          "spec.global.layout"
+        ]
+      }
+    },
+    "title-gap": {
+      "$type": "dimension",
+      "$value": "{foundation.space.24}",
+      "$description": "Eyebrow/H2/sub gap.",
+      "$extensions": {
+        "cite": [
+          "spec.eyebrow.h2"
+        ]
+      }
+    }
+  }
+}

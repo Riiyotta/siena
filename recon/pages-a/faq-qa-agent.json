@@ -1,0 +1,18 @@
+[
+ {
+  "q": "We already review a sample of conversations. Why does 100% coverage matter?",
+  "a": "Most QA tools cover around 3% of conversations. That means the other 97% are unreviewed, and whatever is happening in them stays invisible until it becomes a real problem. One early Siena QA Agent customer evaluated more conversations in a single week than most CX teams reach in a year."
+ },
+ {
+  "q": "How can I define what Siena QA Agent evaluates?",
+  "a": "Think about what great customer service looks like on your team. Write that as a question, for example 'Did the agent confirm identity before making changes to payment information?' Then choose how to measure it: an average score from 0 to 100, a 1 to 5 scale, a pass/fail with pass rate, or a simple yes/no. Siena QA Agent takes it from there."
+ },
+ {
+  "q": "Does Siena QA Agent work for human agents, not just Siena's AI?",
+  "a": "Both. Whether it's an AI agent or a human rep, Siena QA Agent scores them on the same criteria and the same scorecard. That's the only way to get a true picture of your customer service operation. And when you need to compare them directly, that view is just a click away."
+ },
+ {
+  "q": "Which channels does Siena QA Agent cover?",
+  "a": "Every channel Siena supports: email, live chat, social, and more. Every conversation is scored the same way, regardless of where it came from. One scorecard across your entire CX operation, with the ability to break down performance by channel whenever you need it."
+ }
+]

@@ -1,0 +1,361 @@
+##### Hero@0@16
+div "Hero" [0,0,1440x1216] flex-column gap:0px jc:center ai:center p:180px 96px 0px bg:#F3F0EB ov:hidden
+  div "Title" [96,180,1248x774] flex-column gap:28px jc:center ai:center p:0px 0px 48px maxw:1300px z:1
+    div [96,180,1248x182] flex-column gap:18px jc:center ai:center
+      div [96,180,1248x80] flex-column gap:24px jc:flex-start ai:flex-start
+        div [96,180,1248x80] flex-column gap:normal jc:flex-start ai:normal tf:matrix(1, 0, 0, 1, 0, 0) z:1
+          h1 [96,180,1248x80] TEXT"Introducing Video" {Feature Deck Web Light 300 80px/80px ls:-0.8px #122023 center}
+      div [405,278,630x84] flex-column gap:normal jc:flex-start ai:normal op:0.82 maxw:630px tf:matrix(1, 0, 0, 1, 0, 0) z:1
+        p [405,278,630x84] TEXT"Siena brings the same intelligence to video that transformed how you handle images. Warranty claims, damage assessments, and product guidance are handled automatically." {Instrument Sans 500 20px/28px ls:-0.2px #122023 center}
+    div [641,390,157x58] tf:matrix(1, 0, 0, 1, 0, 0)
+      a "xlg" [641,390,157x58] flex-row gap:10px jc:center ai:center p:18px 24px bg:#122023 bgi:linear-gradient(90deg, rgb(18, 32, 35) 0%, rgb(18, 32, 35) 20%, rgb(18, 32, 35) 40%, rgb(18, 32, 35) 60%, rgb(18, 32, 35) 80%, rgb(18, 32, 35) 100%) r:16px
+        div "Text" [665,408,109x22] flex-column gap:normal jc:flex-start ai:normal
+          p [665,408,109x22] TEXT"Book a demo" {Instrument Sans 600 18px/21.6px ls:normal #FFFFFF left}
+    div "Visual" [384,476,672x430] z:-1
+      div "Content" [461,488,518x380] flex-column gap:24px jc:center ai:center absolute(t:202.094px r:-182px b:-152.094px l:336px) tf:matrix(1, 0, 0, 1, -259, -190)
+        div "Card" [461,488,518x296] flex-row gap:10px jc:center ai:center p:2px r:16px
+          div "01" [463,490,514x292] flex-column gap:24px jc:flex-start ai:center p:8px bg:#FAF7F1 r:15px
+            div [471,498,498x276] flex-row gap:10px jc:center ai:center r:10px ov:clip
+              div [471,769,498x5] absolute(t:271.5px r:0px b:-0.5px l:0px) z:2
+                div "Variant 2" [471,769,498x5]
+                  div [471,769,498x5] bg:#D0D2D3 r:48px absolute(t:0px r:0px b:0px l:0px) ov:clip z:2
+                  div [471,769,498x5] bgi:linear-gradient(92deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 20.8323%, rgb(251, 86, 70) 45.0126%, rgb(130, 122, 204) 68.821%, rgb(46, 121, 216) 84.4452%, rgb(41, 79, 186) 100%) r:48px absolute(t:0px r:0px b:0px l:0px) ov:clip z:2
+              div [471,498,498x276] op:0.5 filter:blur(14px) z:1
+                video [471,498,498x276] ov:clip video:https://framervideos.b-cdn.net/Abstract%20Landscape%20Moving%20Shapes.mp4 fit:cover loop:true muted:true autoplay:true
+              div [471,498,498x276] absolute(t:0px r:0px b:0px l:0px) filter:blur(0px) z:1
+                video [471,498,498x276] ov:clip video:https://framerusercontent.com/assets/7DsxIASjdBjpJcPHLI0CK32RvwA.mp4 fit:cover loop:true muted:true autoplay:true
+          div [443,475,554x318] op:0.5 absolute(t:-13px r:-18px b:-9px l:-18px) filter:blur(14px) z:-1
+            video [443,475,554x318] ov:clip video:https://framervideos.b-cdn.net/Abstract%20Landscape%20Moving%20Shapes.mp4 fit:cover loop:true muted:true autoplay:true
+        div "Agent-Note" [523,808,394x60] flex-row gap:normal jc:space-between ai:center p:12px 12px 12px 20px bg:#FFFFFF r:16px
+          div "Analyzing video provided..." [543,821,256x34] flex-column gap:normal jc:flex-start ai:normal
+            h6 [543,821,256x34] TEXT"Analyzing provided video" {Feature Deck Web Regular 400 24px/33.6px ls:normal #122023 start}
+          div [853,820,52x36]
+            dotlottie-player [853,820,52x36]
+      div [692,616,56x55] absolute(t:140px r:308px b:235px l:308px)
+        div "Variant 2" [692,616,56x55] ov:clip
+          div [699,622,43x43] bgi:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 43 43%22 overflow=%22visible%22><path d=%22M 21.5 43 C 9.626 43 0 33.374 0 21.5 L 0 21.5 C absolute(t:6px r:6px b:6px l:7px)
+          div [715,634,15x19] absolute(t:18px r:18px b:18px l:23px)
+            div [715,634,15x19]
+              svg [715,634,15x19] ov:hidden svg col:#000000
+      div "Review" [333,523,209x92] flex-row gap:12px jc:flex-start ai:center p:1px bgi:linear-gradient(255deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 14.8649%, rgb(251, 86, 70) 32.8829%, rgb(130, 122, 204) 52.2523%, rgb(46, 121, 216) 79.7297%, rgb(171, 171, 171) 100%) r:16px absolute(t:47px r:514px b:290.781px l:-51px) ov:hidden bf:blur(6px)
+        div [334,524,207x90] flex-row gap:12px jc:center ai:center p:10px bg:#FFFFFF r:16px
+          div "Text container" [344,534,187x70] flex-column gap:4px jc:center ai:flex-start
+            div "Great product!" [344,534,187x70] flex-column gap:normal jc:flex-start ai:normal
+              p [344,534,187x70] TEXT"Help me choose a rug that matches my living room style" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+      div [921,659,220x114] absolute(t:183px r:-85px b:133px l:537px)
+        div "Border" [921,658,220x114] flex-row gap:10px jc:center ai:center p:2px bgi:linear-gradient(255deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 14.8649%, rgb(251, 86, 70) 32.8829%, rgb(130, 122, 204) 52.2523%, rgb(46, 121, 216) 79.7297%, rgb(171, 171, 171) 100%) r:16px absolute(t:57px r:0px b:-57.2188px l:0px) ov:hidden maxw:380px tf:matrix(1, 0, 0, 1, 0, -57.1094)
+          div "01" [923,660,216x110] flex-column gap:24px jc:flex-start ai:flex-start p:20px bg:#EFE5D0 r:15px
+            div "Get your AI superhuman up and running 90% faster and more efficient than the average automation tools. 101% empathy is required to turn around a brand ready to capture the world’s imagination. Meet Siena." [943,680,176x70] flex-column gap:normal jc:flex-start ai:normal
+              p [943,680,176x70] TEXT"This rug would fit your space perfectly, here is my top pick!" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+        div "Brand" [1111,636,52x52] absolute(t:-23px r:-22px b:85px l:190px)
+          div [1111,636,52x52] absolute(t:0px r:0px b:0px l:0px)
+            img [1111,636,52x52] ov:clip src:97FwNezELUd8Kd9HdHn3le688Ks.png fit:contain pos:50% 50%
+  div "Logos" [120,954,1200x100] flex-row gap:10px jc:center ai:center ov:hidden z:1
+    div [120,954,1200x100]
+      section [120,954,1200x100] flex-row gap:normal jc:normal ai:center ov:hidden maxw:100%
+        ul [98,954,1200x100] flex-row gap:64px jc:normal ai:center maxw:100% tf:matrix(1, 0, 0, 1, -21.9998, 0)
+          li [98,988,176x32]
+            div "1" [98,988,176x32] ov:hidden
+              div "Logos" [98,988,176x32] absolute(t:0px r:0px b:0px l:0px)
+                div [98,988,176x32]
+                  svg [98,988,176x32] ov:hidden svg col:#000000
+          li [338,988,159x32]
+            div "2" [338,988,159x32] ov:hidden
+              div "Logos-1" [338,988,159x32] bgi:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 159 32%22><path d=%22M 0.97 16.028 C 0.97 6.738 8.136 0 17.829 0 C 26.159 0 31.297 3.872 3 absolute(t:0px r:0px b:0px l:0px)
+          li [561,988,209x32]
+            div "Madhapy" [561,988,209x32] ov:hidden
+              div "Madhapy" [561,988,209x32] bgi:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 209 32%22><g transform=%22translate(0 -0.005)%22><path d=%22M 0 0.005 L 208.762 0.005 L 20 absolute(t:0px r:0px b:0px l:0px)
+          li [834,988,167x32]
+            div "4" [834,988,167x32] ov:hidden
+              div "Logos-3" [834,988,167x32] absolute(t:0px r:0px b:0px l:0px)
+                div [834,988,167x32]
+                  svg [834,988,167x32] ov:hidden svg col:#000000
+          li [1065,985,119x38]
+            div "5" [1065,985,119x38] ov:hidden
+              div "Logos-4" [1065,985,119x38] absolute(t:0px r:0px b:0.015625px l:0px)
+                div [1065,985,119x38]
+                  svg [1065,985,119x38] ov:hidden svg col:#000000
+          li [1248,984,111x40]
+            div "6" [1248,984,111x40] ov:hidden
+              div "Logos-5" [1248,984,111x40] absolute(t:0px r:0px b:0px l:0px)
+                div [1248,984,111x40]
+                  svg [1248,984,111x40] ov:hidden svg col:#000000
+          li [1423,985,120x38]
+            div "7" [1423,985,120x38] ov:hidden
+              div "Logos-6" [1423,985,120x38] absolute(t:0px r:0px b:0px l:0px)
+                div [1423,985,120x38]
+                  svg [1423,985,120x38] ov:hidden svg col:#000000
+          li [1607,992,241x24]
+            div "9" [1607,992,241x24] ov:hidden
+              div "Logos-8" [1607,992,241x24] absolute(t:0px r:0px b:0.015625px l:0px)
+                div [1607,992,241x24]
+                  svg [1607,992,241x24] ov:hidden svg col:#000000
+          li [1912,982,91x44]
+            div "8" [1912,982,91x44] ov:hidden
+              div "Logos-7" [1912,982,91x44] absolute(t:0px r:0px b:0px l:0px)
+                div [1912,982,91x44]
+                  svg [1912,982,91x44] ov:hidden svg col:#000000
+          li [2067,982,99x44]
+            div "10" [2067,982,99x44] ov:hidden
+              div "Logos-9" [2067,982,99x44] absolute(t:0px r:0px b:0px l:0px)
+                div [2067,982,99x44]
+                  svg [2067,982,99x44] ov:hidden svg col:#000000
+          li [2230,988,161x32]
+            div "11" [2230,988,161x32] ov:hidden
+              div "Logos-10" [2230,988,161x32] absolute(t:0px r:0px b:0px l:0px)
+                div [2230,988,161x32]
+                  svg [2230,988,161x32] ov:hidden svg col:#000000
+          li [2455,985,207x38]
+            div "12" [2455,985,207x38] ov:hidden
+              div "Logos-11" [2455,985,207x38] absolute(t:0px r:0px b:0px l:0px)
+                div [2455,985,207x38]
+                  svg [2455,985,207x38] ov:hidden svg col:#000000
+          li [2726,985,207x38]
+            div "12" [2726,985,207x38] ov:hidden
+              div "Logos-11" [2726,985,207x38] absolute(t:0px r:0px b:0px l:0px)
+                div [2726,985,207x38]
+                  svg [2726,985,207x38] ov:hidden svg col:#000000
+          li [2997,985,156x38]
+            div "13" [2997,985,156x38] ov:hidden
+              div "Logos-12" [2997,985,156x38] absolute(t:0px r:0px b:0px l:0px)
+                div [2997,985,156x38]
+                  svg [2997,985,156x38] ov:hidden svg col:#000000
+          li [3217,985,71x38]
+            div "14" [3217,985,71x38] ov:hidden
+              div "Logos-13" [3217,985,71x38] absolute(t:0px r:0px b:0px l:0px)
+                div [3217,985,71x38]
+                  svg [3217,985,71x38] ov:hidden svg col:#000000
+          li [3352,985,112x38]
+            div "15" [3352,985,112x38] ov:hidden
+              div "Logos-14" [3352,985,112x38] absolute(t:0px r:0px b:0.015625px l:0px)
+                div [3352,985,112x38]
+                  svg [3352,985,112x38] ov:hidden svg col:#000000
+          li [3528,992,150x24]
+            div "16" [3528,992,150x24] ov:hidden
+              div "Logos-15" [3528,992,150x24] absolute(t:0px r:0px b:0px l:0px)
+                div [3528,992,150x24]
+                  svg [3528,992,150x24] ov:hidden svg col:#000000
+          li [3742,989,152x30]
+            div "17" [3742,989,152x30] ov:hidden
+              div "Logos-16" [3742,989,152x30] absolute(t:0px r:0px b:0.015625px l:0px)
+                div [3742,989,152x30]
+                  svg [3742,989,152x30] ov:hidden svg col:#000000
+          li [3958,984,188x40]
+            div "18" [3958,984,188x40] ov:hidden
+              div "Logos-17" [3958,984,188x40] absolute(t:0px r:0px b:0px l:0px)
+                div [3958,984,188x40]
+                  svg [3958,984,188x40] ov:hidden svg col:#000000
+          li [4210,982,154x44]
+            div "19" [4210,982,154x44] ov:hidden
+              div "Logos-18" [4210,982,154x44] absolute(t:0px r:0px b:0px l:0px)
+                div [4210,982,154x44]
+                  svg [4210,982,154x44] ov:hidden svg col:#000000
+          li [4428,985,126x38]
+            div "20" [4428,985,126x38] ov:hidden
+              div "Logos-19" [4428,985,126x38] absolute(t:0px r:0px b:0px l:0px)
+                div [4428,985,126x38]
+                  svg [4428,985,126x38] ov:hidden svg col:#000000
+          li [4618,988,176x32]
+            div "1" [4618,988,176x32] ov:hidden
+              div "Logos" [4618,988,176x32] absolute(t:0px r:0px b:0px l:0px)
+                div [4618,988,176x32]
+                  svg [4618,988,176x32] ov:hidden svg col:#000000
+          li [4858,988,159x32]
+            div "2" [4858,988,159x32] ov:hidden
+              div "Logos-1" [4858,988,159x32] bgi:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 159 32%22><path d=%22M 0.97 16.028 C 0.97 6.738 8.136 0 17.829 0 C 26.159 0 31.297 3.872 3 absolute(t:0px r:0px b:0px l:0px)
+          li [5081,988,209x32]
+            div "Madhapy" [5081,988,209x32] ov:hidden
+              div "Madhapy" [5081,988,209x32] bgi:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 209 32%22><g transform=%22translate(0 -0.005)%22><path d=%22M 0 0.005 L 208.762 0.005 L 20 absolute(t:0px r:0px b:0px l:0px)
+          li [5354,988,167x32]
+            div "4" [5354,988,167x32] ov:hidden
+              div "Logos-3" [5354,988,167x32] absolute(t:0px r:0px b:0px l:0px)
+                div [5354,988,167x32]
+                  svg [5354,988,167x32] ov:hidden svg col:#000000
+          li [5585,985,119x38]
+            div "5" [5585,985,119x38] ov:hidden
+              div "Logos-4" [5585,985,119x38] absolute(t:0px r:0px b:0.015625px l:0px)
+                div [5585,985,119x38]
+                  svg [5585,985,119x38] ov:hidden svg col:#000000
+          li [5768,984,111x40]
+            div "6" [5768,984,111x40] ov:hidden
+              div "Logos-5" [5768,984,111x40] absolute(t:0px r:0px b:0px l:0px)
+                div [5768,984,111x40]
+                  svg [5768,984,111x40] ov:hidden svg col:#000000
+          li [5943,985,120x38]
+            div "7" [5943,985,120x38] ov:hidden
+              div "Logos-6" [5943,985,120x38] absolute(t:0px r:0px b:0px l:0px)
+                div [5943,985,120x38]
+                  svg [5943,985,120x38] ov:hidden svg col:#000000
+          li [6127,992,241x24]
+            div "9" [6127,992,241x24] ov:hidden
+              div "Logos-8" [6127,992,241x24] absolute(t:0px r:0px b:0.015625px l:0px)
+                div [6127,992,241x24]
+                  svg [6127,992,241x24] ov:hidden svg col:#000000
+          li [6432,982,91x44]
+            div "8" [6432,982,91x44] ov:hidden
+              div "Logos-7" [6432,982,91x44] absolute(t:0px r:0px b:0px l:0px)
+                div [6432,982,91x44]
+                  svg [6432,982,91x44] ov:hidden svg col:#000000
+          li [6587,982,99x44]
+            div "10" [6587,982,99x44] ov:hidden
+              div "Logos-9" [6587,982,99x44] absolute(t:0px r:0px b:0px l:0px)
+                div [6587,982,99x44]
+                  svg [6587,982,99x44] ov:hidden svg col:#000000
+          li [6750,988,161x32]
+            div "11" [6750,988,161x32] ov:hidden
+              div "Logos-10" [6750,988,161x32] absolute(t:0px r:0px b:0px l:0px)
+                div [6750,988,161x32]
+                  svg [6750,988,161x32] ov:hidden svg col:#000000
+          li [6975,985,207x38]
+            div "12" [6975,985,207x38] ov:hidden
+              div "Logos-11" [6975,985,207x38] absolute(t:0px r:0px b:0px l:0px)
+                div [6975,985,207x38]
+                  svg [6975,985,207x38] ov:hidden svg col:#000000
+          li [7246,985,207x38]
+            div "12" [7246,985,207x38] ov:hidden
+              div "Logos-11" [7246,985,207x38] absolute(t:0px r:0px b:0px l:0px)
+                div [7246,985,207x38]
+                  svg [7246,985,207x38] ov:hidden svg col:#000000
+          li [7517,985,156x38]
+            div "13" [7517,985,156x38] ov:hidden
+              div "Logos-12" [7517,985,156x38] absolute(t:0px r:0px b:0px l:0px)
+                div [7517,985,156x38]
+                  svg [7517,985,156x38] ov:hidden svg col:#000000
+          li [7737,985,71x38]
+            div "14" [7737,985,71x38] ov:hidden
+              div "Logos-13" [7737,985,71x38] absolute(t:0px r:0px b:0px l:0px)
+                div [7737,985,71x38]
+                  svg [7737,985,71x38] ov:hidden svg col:#000000
+          li [7872,985,112x38]
+            div "15" [7872,985,112x38] ov:hidden
+              div "Logos-14" [7872,985,112x38] absolute(t:0px r:0px b:0.015625px l:0px)
+                div [7872,985,112x38]
+                  svg [7872,985,112x38] ov:hidden svg col:#000000
+          li [8048,992,150x24]
+            div "16" [8048,992,150x24] ov:hidden
+              div "Logos-15" [8048,992,150x24] absolute(t:0px r:0px b:0px l:0px)
+                div [8048,992,150x24]
+                  svg [8048,992,150x24] ov:hidden svg col:#000000
+          li [8262,989,152x30]
+            div "17" [8262,989,152x30] ov:hidden
+              div "Logos-16" [8262,989,152x30] absolute(t:0px r:0px b:0.015625px l:0px)
+                div [8262,989,152x30]
+                  svg [8262,989,152x30] ov:hidden svg col:#000000
+          li [8478,984,188x40]
+            div "18" [8478,984,188x40] ov:hidden
+              div "Logos-17" [8478,984,188x40] absolute(t:0px r:0px b:0px l:0px)
+                div [8478,984,188x40]
+                  svg [8478,984,188x40] ov:hidden svg col:#000000
+          li [8730,982,154x44]
+            div "19" [8730,982,154x44] ov:hidden
+              div "Logos-18" [8730,982,154x44] absolute(t:0px r:0px b:0px l:0px)
+                div [8730,982,154x44]
+                  svg [8730,982,154x44] ov:hidden svg col:#000000
+          li [8948,985,126x38]
+            div "20" [8948,985,126x38] ov:hidden
+              div "Logos-19" [8948,985,126x38] absolute(t:0px r:0px b:0px l:0px)
+                div [8948,985,126x38]
+                  svg [8948,985,126x38] ov:hidden svg col:#000000
+          li [9138,988,176x32]
+            div "1" [9138,988,176x32] ov:hidden
+              div "Logos" [9138,988,176x32] absolute(t:0px r:0px b:0px l:0px)
+                div [9138,988,176x32]
+                  svg [9138,988,176x32] ov:hidden svg col:#000000
+          li [9378,988,159x32]
+            div "2" [9378,988,159x32] ov:hidden
+              div "Logos-1" [9378,988,159x32] bgi:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 159 32%22><path d=%22M 0.97 16.028 C 0.97 6.738 8.136 0 17.829 0 C 26.159 0 31.297 3.872 3 absolute(t:0px r:0px b:0px l:0px)
+          li [9601,988,209x32]
+            div "Madhapy" [9601,988,209x32] ov:hidden
+              div "Madhapy" [9601,988,209x32] bgi:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 209 32%22><g transform=%22translate(0 -0.005)%22><path d=%22M 0 0.005 L 208.762 0.005 L 20 absolute(t:0px r:0px b:0px l:0px)
+          li [9874,988,167x32]
+            div "4" [9874,988,167x32] ov:hidden
+              div "Logos-3" [9874,988,167x32] absolute(t:0px r:0px b:0px l:0px)
+                div [9874,988,167x32]
+                  svg [9874,988,167x32] ov:hidden svg col:#000000
+          li [10105,985,119x38]
+            div "5" [10105,985,119x38] ov:hidden
+              div "Logos-4" [10105,985,119x38] absolute(t:0px r:0px b:0.015625px l:0px)
+                div [10105,985,119x38]
+                  svg [10105,985,119x38] ov:hidden svg col:#000000
+          li [10288,984,111x40]
+            div "6" [10288,984,111x40] ov:hidden
+              div "Logos-5" [10288,984,111x40] absolute(t:0px r:0px b:0px l:0px)
+                div [10288,984,111x40]
+                  svg [10288,984,111x40] ov:hidden svg col:#000000
+          li [10463,985,120x38]
+            div "7" [10463,985,120x38] ov:hidden
+              div "Logos-6" [10463,985,120x38] absolute(t:0px r:0px b:0px l:0px)
+                div [10463,985,120x38]
+                  svg [10463,985,120x38] ov:hidden svg col:#000000
+          li [10647,992,241x24]
+            div "9" [10647,992,241x24] ov:hidden
+              div "Logos-8" [10647,992,241x24] absolute(t:0px r:0px b:0.015625px l:0px)
+                div [10647,992,241x24]
+                  svg [10647,992,241x24] ov:hidden svg col:#000000
+          li [10952,982,91x44]
+            div "8" [10952,982,91x44] ov:hidden
+              div "Logos-7" [10952,982,91x44] absolute(t:0px r:0px b:0px l:0px)
+                div [10952,982,91x44]
+                  svg [10952,982,91x44] ov:hidden svg col:#000000
+          li [11107,982,99x44]
+            div "10" [11107,982,99x44] ov:hidden
+              div "Logos-9" [11107,982,99x44] absolute(t:0px r:0px b:0px l:0px)
+                div [11107,982,99x44]
+                  svg [11107,982,99x44] ov:hidden svg col:#000000
+          li [11270,988,161x32]
+            div "11" [11270,988,161x32] ov:hidden
+              div "Logos-10" [11270,988,161x32] absolute(t:0px r:0px b:0px l:0px)
+                div [11270,988,161x32]
+                  svg [11270,988,161x32] ov:hidden svg col:#000000
+          li [11495,985,207x38]
+            div "12" [11495,985,207x38] ov:hidden
+              div "Logos-11" [11495,985,207x38] absolute(t:0px r:0px b:0px l:0px)
+                div [11495,985,207x38]
+                  svg [11495,985,207x38] ov:hidden svg col:#000000
+          li [11766,985,207x38]
+            div "12" [11766,985,207x38] ov:hidden
+              div "Logos-11" [11766,985,207x38] absolute(t:0px r:0px b:0px l:0px)
+                div [11766,985,207x38]
+                  svg [11766,985,207x38] ov:hidden svg col:#000000
+          li [12037,985,156x38]
+            div "13" [12037,985,156x38] ov:hidden
+              div "Logos-12" [12037,985,156x38] absolute(t:0px r:0px b:0px l:0px)
+                div [12037,985,156x38]
+                  svg [12037,985,156x38] ov:hidden svg col:#000000
+          li [12257,985,71x38]
+            div "14" [12257,985,71x38] ov:hidden
+              div "Logos-13" [12257,985,71x38] absolute(t:0px r:0px b:0px l:0px)
+                div [12257,985,71x38]
+                  svg [12257,985,71x38] ov:hidden svg col:#000000
+          li [12392,985,112x38]
+            div "15" [12392,985,112x38] ov:hidden
+              div "Logos-14" [12392,985,112x38] absolute(t:0px r:0px b:0.015625px l:0px)
+                div [12392,985,112x38]
+                  svg [12392,985,112x38] ov:hidden svg col:#000000
+          li [12568,992,150x24]
+            div "16" [12568,992,150x24] ov:hidden
+              div "Logos-15" [12568,992,150x24] absolute(t:0px r:0px b:0px l:0px)
+                div [12568,992,150x24]
+                  svg [12568,992,150x24] ov:hidden svg col:#000000
+          li [12782,989,152x30]
+            div "17" [12782,989,152x30] ov:hidden
+              div "Logos-16" [12782,989,152x30] absolute(t:0px r:0px b:0.015625px l:0px)
+                div [12782,989,152x30]
+                  svg [12782,989,152x30] ov:hidden svg col:#000000
+          li [12998,984,188x40]
+            div "18" [12998,984,188x40] ov:hidden
+              div "Logos-17" [12998,984,188x40] absolute(t:0px r:0px b:0px l:0px)
+                div [12998,984,188x40]
+                  svg [12998,984,188x40] ov:hidden svg col:#000000
+          li [13250,982,154x44]
+            div "19" [13250,982,154x44] ov:hidden
+              div "Logos-18" [13250,982,154x44] absolute(t:0px r:0px b:0px l:0px)
+                div [13250,982,154x44]
+                  svg [13250,982,154x44] ov:hidden svg col:#000000
+          li [13468,985,126x38]
+            div "20" [13468,985,126x38] ov:hidden
+              div "Logos-19" [13468,985,126x38] absolute(t:0px r:0px b:0px l:0px)
+                div [13468,985,126x38]
+                  svg [13468,985,126x38] ov:hidden svg col:#000000
+  div "Rectangle 7061" [-116,1054,1672x162] bgi:linear-gradient(rgb(243, 240, 235) 0%, rgb(255, 255, 255) 100%)
+  div "top" [720,153,1x1] absolute(t:153px r:719.5px b:1061.59px l:719.5px) ov:hidden z:1

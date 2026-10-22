@@ -1,0 +1,184 @@
+##### Features@0@3
+div "Features" [0,1295,1440x2080] flex-column gap:0px jc:center ai:center p:160px 0px 0px
+  div "Title" [189,1455,1062x110] flex-column gap:24px jc:center ai:center maxw:1062px z:1
+    div [565,1455,309x22] flex-column gap:normal jc:flex-start ai:normal maxw:564px z:1
+      p [565,1455,309x22] TEXT"Order logistics intelligence" {Instrument Sans 600 16px/22.4px ls:1.7px #122023 uppercase center}
+    div [257,1501,926x64] flex-column gap:normal jc:flex-start ai:normal maxw:926px z:1
+      h2 [257,1501,926x64] TEXT"Your Agent's direct line to carriers" {Feature Deck Web Light 400 64px/64px ls:-1.28px #122023 center}
+  div "Scroll Area" [0,1565,1440x1810] flex-row gap:64px jc:center ai:flex-start p:0px 96px bg:#FFFFFF
+    div "Content" [176,1565,512x1810] flex-column gap:10px jc:center ai:center maxw:512px
+      div "1" [176,1565,512x900] flex-column gap:32px jc:center ai:flex-start z:1
+      div "2" [176,2475,512x900] flex-column gap:32px jc:center ai:flex-start z:1
+    div "Sticky" [752,1565,512x900] flex-row gap:10px jc:center ai:center p:110px 0px 40px sticky(t:0px r:auto b:auto l:auto) maxw:512px z:1
+      div "Sticky Image" [752,1727,512x647] r:24px maxw:512px
+##### Scroll Area@0@18
+div "Scroll Area" [0,1565,1440x1810] flex-row gap:64px jc:center ai:flex-start p:0px 96px bg:#FFFFFF
+  div "Content" [176,1565,512x1810] flex-column gap:10px jc:center ai:center maxw:512px
+    div "1" [176,1565,512x900] flex-column gap:32px jc:center ai:flex-start z:1
+      div [176,1825,512x381] flex-column gap:24px jc:center ai:flex-start
+        div [176,1825,384x125] flex-column gap:normal jc:flex-start ai:normal maxw:384px z:1
+          h3 [176,1825,384x125] TEXT"Instant tracking lookups" {Feature Deck Web Regular 400 52px/62.4px ls:normal #122023 left}
+        div [176,1973,384x112] flex-column gap:normal jc:flex-start ai:normal maxw:384px z:1
+          p [176,1973,384x112] TEXT"When customers ask about their order, Siena pulls current tracking data and delivers clear, accurate updates in seconds." {Tiempos Text Regular 400 20px/28px ls:normal #000000 start}
+        div [176,2109,512x96] flex-column gap:12px jc:center ai:center ov:hidden
+          div [176,2109,512x24] flex-row gap:10px jc:center ai:center ov:hidden
+            div "star-four-light 1" [176,2109,24x24]
+              div [176,2109,24x24]
+                svg [176,2109,24x24] ov:hidden svg col:#000000
+            div [210,2110,478x23] flex-column gap:normal jc:flex-start ai:normal maxw:564px z:1
+              p [210,2110,478x23] TEXT"Direct access to 2,000+ carriers" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+          div [176,2145,512x24] flex-row gap:10px jc:center ai:center ov:hidden
+            div "star-four-light 1" [176,2145,24x24]
+              div [176,2145,24x24]
+                svg [176,2145,24x24] ov:hidden svg col:#000000
+            div [210,2146,478x23] flex-column gap:normal jc:flex-start ai:normal maxw:564px z:1
+              p [210,2146,478x23] TEXT"Real-time status with full delivery context" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 left}
+          div [176,2181,512x24] flex-row gap:10px jc:center ai:center ov:hidden
+            div "star-four-light 1" [176,2181,24x24]
+              div [176,2181,24x24]
+                svg [176,2181,24x24] ov:hidden svg col:#000000
+            div [210,2182,478x23] flex-column gap:normal jc:flex-start ai:normal maxw:564px z:1
+              p [210,2182,478x23] TEXT"Eliminate tracking errors" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 left}
+    div "2" [176,2475,512x900] flex-column gap:32px jc:center ai:flex-start z:1
+      div "Text Content" [176,2727,512x397] flex-column gap:32px jc:flex-start ai:flex-start ov:clip
+        div [176,2727,512x125] flex-column gap:24px jc:center ai:flex-start
+          div [176,2727,384x125] flex-column gap:normal jc:flex-start ai:normal maxw:384px z:1
+            h3 [176,2727,384x125] TEXT"Proactive delay detection" {Feature Deck Web Regular 400 52px/62.4px ls:normal #122023 left}
+        div [399,2804,186x44] flex-row gap:12px jc:center ai:center p:8px 16px bg:#FAF7F1 r:24px absolute(t:77px r:102.891px b:275.812px l:223px) z:1
+          div "Name" [415,2816,20x20] flex-column gap:normal jc:flex-start ai:normal
+            p [415,2816,20x20] TEXT"" {Font Awesome 6 Sharp Light 400 20px/20px ls:normal #F95040 left}
+          div "Name" [447,2812,122x28] flex-column gap:normal jc:flex-start ai:normal
+            p [447,2812,122x28] TEXT"Coming soon" {Instrument Sans 500 20px/28px ls:-0.2px #F95040 start}
+        div [176,2883,384x112] flex-column gap:normal jc:flex-start ai:normal maxw:384px z:1
+          p [176,2883,384x112] TEXT"When a package gets stuck, Siena knows before your customer complains. The agent flags delays, notifies your team, and reaches out proactively." {Tiempos Text Regular 400 20px/28px ls:normal #000000 start}
+        div [176,3027,512x96] flex-column gap:12px jc:center ai:center ov:hidden
+          div [176,3027,512x24] flex-row gap:10px jc:center ai:center ov:hidden
+            div "star-four-light 1" [176,3027,24x24]
+              div [176,3027,24x24]
+                svg [176,3027,24x24] ov:hidden svg col:#000000
+            div [210,3028,478x23] flex-column gap:normal jc:flex-start ai:normal maxw:564px z:1
+              p [210,3028,478x23] TEXT"Proactive delivery monitoring" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 left}
+          div [176,3063,512x24] flex-row gap:10px jc:center ai:center ov:hidden
+            div "star-four-light 1" [176,3063,24x24]
+              div [176,3063,24x24]
+                svg [176,3063,24x24] ov:hidden svg col:#000000
+            div [210,3064,478x23] flex-column gap:normal jc:flex-start ai:normal maxw:564px z:1
+              p [210,3064,478x23] TEXT"Predictive issue detection" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 left}
+          div [176,3099,512x24] flex-row gap:10px jc:center ai:center ov:hidden
+            div "star-four-light 1" [176,3099,24x24]
+              div [176,3099,24x24]
+                svg [176,3099,24x24] ov:hidden svg col:#000000
+            div [210,3100,478x23] flex-column gap:normal jc:flex-start ai:normal maxw:564px z:1
+              p [210,3100,478x23] TEXT"Automated customer outreach" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 left}
+  div "Sticky" [752,1565,512x900] flex-row gap:10px jc:center ai:center p:110px 0px 40px sticky(t:0px r:auto b:auto l:auto) maxw:512px z:1
+    div "Sticky Image" [752,1727,512x647] r:24px maxw:512px
+      div "native-tracking" [749,1883,518x296] absolute(t:304px r:-262px b:46.8125px l:256px) tf:matrix(1, 0, 0, 1, -259, -148)
+        div "Stage 2" [749,1883,518x296] flex-column gap:24px jc:center ai:center
+          div "Card" [749,1883,518x296] flex-row gap:10px jc:center ai:center p:2px r:16px
+            div "01" [751,1885,514x292] flex-column gap:24px jc:flex-start ai:center p:8px bg:#FAF7F1 r:15px z:1
+              div [759,1893,498x276] flex-row gap:10px jc:center ai:center r:8px ov:clip
+                div [510,1733,1104x1104] absolute(t:-160px r:-357px b:-668px l:-249px) z:1
+                  div [510,1733,1104x1104] flex-row gap:normal jc:center ai:center
+                    div [510,1731,1104x1107] maxw:2134px
+                      canvas [510,1731,1104x1104] ov:clip
+          div "Review" [1095,2097,209x45] flex-row gap:12px jc:flex-start ai:center p:1px bgi:linear-gradient(255deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 14.8649%, rgb(251, 86, 70) 32.8829%, rgb(130, 122, 204) 52.2523%, rgb(46, 121, 216) 79.7297%, rgb(171, 171, 171) 100%) r:16px absolute(t:214.594px r:-37px b:36px l:346px) ov:hidden bf:blur(6px) z:1
+            div [1096,2098,207x43] flex-row gap:12px jc:center ai:center p:10px bg:#FFFFFF r:16px
+              div "Text container" [1106,2108,187x23] flex-column gap:4px jc:center ai:flex-start
+                div "Great product!" [1106,2108,187x23] flex-column gap:normal jc:flex-start ai:normal
+                  p [1106,2108,187x23] TEXT"Ok, thanks!" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+          div "Content" [769,2216,477x47] flex-row gap:8px jc:flex-start ai:center r:0px 0px 1.67682% 1.67682% / 0px 0px 16.8754% 16.8754% absolute(t:333.594px r:-218.094px b:-85px l:259px) tf:matrix(1, 0, 0, 1, -238.547, 0) z:0
+            div "Frame 2147257924" [769,2216,131x47] flex-row gap:8px jc:flex-start ai:center p:12px 16px bg:#FAF7F1 r:16px
+              div "Order #1342" [785,2228,99x23] flex-column gap:normal jc:flex-start ai:normal
+                p [785,2228,99x23] TEXT"Order #1324" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+            div "•" [908,2230,6x19] flex-column gap:normal jc:flex-start ai:normal
+              p [908,2230,6x19] TEXT"•" {Feature Deck 400 16px/19.2px ls:normal #414D4F start}
+            div "Frame 2147257925" [922,2216,159x47] flex-row gap:8px jc:flex-start ai:center p:12px 16px bg:#FAF7F1 r:16px
+              div "12/01/2024" [938,2228,127x23] flex-column gap:normal jc:flex-start ai:normal
+                p [938,2228,127x23] TEXT"Status: Delayed" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+            div "•" [1089,2230,6x19] flex-column gap:normal jc:flex-start ai:normal
+              p [1089,2230,6x19] TEXT"•" {Feature Deck 400 16px/19.2px ls:normal #414D4F start}
+            div "Frame 2147257926" [1102,2216,144x47] flex-row gap:8px jc:flex-start ai:center p:12px 16px bg:#FAF7F1 r:16px
+              div "Inside 30 days guarantee" [1118,2228,112x23] flex-column gap:normal jc:flex-start ai:normal
+                p [1118,2228,112x23] TEXT"ETA Jan 22" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #122024 start}
+                  span [1191,2227,17x24] TEXT"18" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #122024 start}
+          div "Border" [694,1905,239x200] flex-row gap:10px jc:center ai:center p:2px bgi:linear-gradient(255deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 14.8649%, rgb(251, 86, 70) 32.8829%, rgb(130, 122, 204) 52.2523%, rgb(46, 121, 216) 79.7297%, rgb(171, 171, 171) 100%) r:16px absolute(t:22px r:334px b:74.1562px l:-55px) ov:hidden maxw:380px z:1
+            div "01" [696,1907,235x196] flex-column gap:24px jc:flex-start ai:flex-start p:16px bg:#EFE5D0 r:15px
+              div "Get your AI superhuman up and running 90% faster and more efficient than the average automation tools. 101% empathy is required to turn around a brand ready to capture the world’s imagination. Meet Siena." [712,1923,203x164] flex-column gap:normal jc:flex-start ai:normal
+                p [712,1923,203x164] TEXT"Your package has been sitting in the same facility for 3 days. I've flagged this with our fulfillment team and will update you within 24 hours" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+##### Your team of expert agents@0@16
+div "Your team of expert agents" [0,3375,1440x549] flex-column gap:72px jc:center ai:center p:80px 96px bg:#FAF7F1
+  div "Blur out" [0,3375,1440x75] flex-row gap:10px jc:center ai:center bgi:linear-gradient(rgb(255, 255, 255) 0%, rgb(250, 247, 241) 100%) absolute(t:0px r:0px b:473.812px l:0px) ov:hidden
+  div "Blur out" [0,3849,1440x75] flex-row gap:10px jc:center ai:center bgi:linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(250, 247, 241) 100%) absolute(t:473.812px r:0px b:0px l:0px) ov:hidden
+  div "Container" [120,3455,1200x389] flex-row gap:56px jc:center ai:center maxw:1200px
+    div "Text Content" [120,3455,411x389] flex-column gap:32px jc:center ai:center ov:clip
+      div [120,3455,411x125] flex-column gap:24px jc:center ai:center
+        div [120,3455,411x125] flex-column gap:normal jc:flex-start ai:normal z:1
+          h3 [120,3455,411x125] TEXT"Simplify your stack" {Feature Deck Web Regular 400 52px/62.4px ls:normal #122023 left}
+      div [120,3612,411x140] flex-column gap:normal jc:flex-start ai:normal maxw:564px z:1
+        p [120,3612,411x140] TEXT"Native tracking infrastructure is included in your platform. Handle order inquiries without managing separate tracking subscriptions or maintaining additional integrations." {Tiempos Text Regular 400 20px/28px ls:normal #000000 start}
+      div [120,3784,411x60] flex-column gap:12px jc:center ai:center ov:hidden
+        div [120,3784,411x24] flex-row gap:10px jc:center ai:center ov:hidden
+          div [120,3784,24x24]
+            div [120,3784,24x24]
+              svg [120,3784,24x24] svg col:#000000
+          div [154,3784,377x23] flex-column gap:normal jc:flex-start ai:normal maxw:564px z:1
+            p [154,3784,377x23] TEXT"Works with existing workflows" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 left}
+        div [120,3820,411x24] flex-row gap:10px jc:center ai:center ov:hidden
+          div "star-four-light 1" [120,3820,24x24]
+            div [120,3820,24x24]
+              svg [120,3820,24x24] ov:hidden svg col:#000000
+          div [154,3820,377x23] flex-column gap:normal jc:flex-start ai:normal maxw:564px z:1
+            p [154,3820,377x23] TEXT"Reduce vendor complexity" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 left}
+    div [587,3457,733x384] flex-column gap:normal jc:space-between ai:center p:24px 0px 0px
+      div [947,3611,11x140] absolute(t:154px r:361.75px b:90px l:360.25px) tf:matrix(-1, 0, 0, -1, 0, 0) z:0
+        div [947,3611,11x140] flex-row gap:normal jc:center ai:center ov:hidden
+          div [947,3611,11x140] flex-row gap:normal jc:center ai:center
+            svg [947,3611,11x140] ov:hidden svg col:#000000
+      div [947,3659,12x12] absolute(t:202px r:361.25px b:170px l:359.75px) z:1
+        div "Variant 1" [947,3659,12x12]
+          div "Rectangle 2223" [945,3658,16x16] bg:#F8B57F r:48px op:0.805545 absolute(t:0px r:0px b:0px l:0px) tf:matrix(0.229919, 1.06182, -1.06182, 0.229919, 0, 0)
+          div "Rectangle 2224" [950,3662,6x6] bg:#F95040 r:48px absolute(t:3px r:3px b:3px l:3px)
+      div "Border" [901,3481,105x182] flex-row gap:10px jc:center ai:center p:2px bgi:linear-gradient(255deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 14.8649%, rgb(251, 86, 70) 32.8829%, rgb(130, 122, 204) 52.2523%, rgb(46, 121, 216) 79.7297%, rgb(171, 171, 171) 100%) r:88px
+        div "01" [903,3483,101x178] flex-column gap:24px jc:flex-start ai:flex-start p:20px 20px 108px bg:#FFFFFF r:88px
+          div "Content" [891,3464,125x125] flex-row gap:16px jc:center ai:center p:8px bg:#FFFFFF/0.8 r:300px sh:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px absolute(t:-19px r:-12px b:72px l:-12px) bf:blur(3px) z:1
+            div "Brand" [919,3492,70x70]
+              div [919,3492,70x70] absolute(t:0px r:0px b:0px l:0px)
+                img [919,3492,70x70] ov:clip src:97FwNezELUd8Kd9HdHn3le688Ks.png fit:contain pos:50% 50%
+          div "Content" [909,3744,90x90] flex-row gap:16px jc:center ai:center p:8px bg:#FFFFFF/0.8 r:300px sh:rgba(167, 160, 146, 0.3) 0px 3px 8px 0px absolute(t:261px r:-39.5px b:-173px l:50.5px) bf:blur(3px) tf:matrix(1, 0, 0, 1, -45, 0) z:1
+          div [903,3554,101x107] flex-row gap:10px jc:center ai:center r:0px 0px 48px 48px absolute(t:71px r:0px b:0px l:0px) ov:clip
+            div [883,3595,142x137] op:0.5 absolute(t:54px r:-9px b:-57px l:-8px) filter:blur(14px) tf:matrix(-0.965926, 0.258819, -0.258819, -0.965926, 0, 0) z:0
+              video [883,3595,142x137] ov:clip video:https://framervideos.b-cdn.net/Abstract%20Landscape%20Moving%20Shapes.mp4 fit:cover loop:true muted:true autoplay:true
+          div "Agent-Note" [791,3600,325x44] flex-row gap:normal jc:space-between ai:center p:4px 8px 4px 20px bg:#FFFFFF r:16px absolute(t:117px r:-112px b:17px l:-112px) z:1
+            div "Analyzing video provided..." [811,3611,219x23] flex-column gap:normal jc:flex-start ai:normal
+              p [811,3611,219x23] TEXT"Fetching tracking # details" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+            div [1056,3604,52x36]
+              dotlottie-player [1056,3604,52x36]
+      div [587,3737,733x104] z:1
+        div [587,3737,733x104] flex-row gap:normal jc:center ai:center ov:hidden
+          div [587,3737,733x104] flex-row gap:normal jc:center ai:center
+      div [901,3744,103x94] op:0.5 absolute(t:287px r:315.75px b:3px l:314.25px) filter:blur(14px) z:0
+        video [901,3744,103x94] r:120px ov:clip video:https://framervideos.b-cdn.net/Abstract%20Landscape%20Moving%20Shapes.mp4 fit:fill loop:true muted:true autoplay:true
+##### FAQ@0@12
+div "FAQ" [189,4108,1062x493] flex-row gap:40px jc:center ai:center p:20px 40px bg:#F3F0EB r:24px maxw:1062px z:1
+  div [229,4128,982x453]
+    div [229,4128,982x453] flex-column gap:normal jc:normal ai:normal
+      div [229,4128,982x159]
+        div [229,4128,982x159] border-b:3px #000000/0.2 ov:hidden
+          div [229,4128,982x72] flex-row gap:normal jc:space-between ai:center p:24px 0px bg:#122023/0 TEXT"Does tracking work for international shipments with customs delays?" {Instrument Sans 500 20px/normal ls:normal #122023 start}
+            img [1191,4154,20x20] ov:clip src:OKFNY3AXFnnV2q6cBUgzTRwNI0.png fit:fill pos:50% 50%
+          div [229,4200,982x84] flex-column gap:normal jc:normal ai:start p:0px 0px 24px bg:#2B62ED/0 ov:hidden TEXT"Yes. Siena Order Tracking covers international shipments across customs checkpoints, regional carriers, and last-mile delivery. Whether packages move through customs or transfer between international and domestic carriers, Siena maintains visibility throughout the entire journey." {Instrument Sans 400 16px/normal ls:normal #122023/0.8 start}
+      div [229,4287,982x99]
+        div [229,4287,982x99] border-b:3px #000000/0.2 ov:hidden
+          div [229,4287,982x72] flex-row gap:normal jc:space-between ai:center p:24px 0px bg:#122023/0 TEXT"How does Siena handle tracking numbers that work across multiple carriers?" {Instrument Sans 500 20px/normal ls:normal #122023 start}
+            img [1191,4313,20x20] ov:clip src:klSbquSQSmI4vJp5uAthfEBu4A.png fit:fill pos:50% 50%
+          div [229,4359,982x24] flex-column gap:normal jc:normal ai:start p:0px 0px 24px bg:#2B62ED/0 op:0 ov:hidden TEXT"Siena's infrastructure automatically detects which carrier is handling each package based on the tracking number format and shipping details. This eliminates errors from routing tracking queries to the wrong carrier, ensuring accurate results every time." {Instrument Sans 400 16px/normal ls:normal #122023/0.8 start}
+      div [229,4386,982x99]
+        div [229,4386,982x99] border-b:3px #000000/0.2 ov:hidden
+          div [229,4386,982x72] flex-row gap:normal jc:space-between ai:center p:24px 0px bg:#122023/0 TEXT"Does Siena work with returns or order tracking platforms?" {Instrument Sans 500 20px/normal ls:normal #122023 start}
+            img [1191,4412,20x20] ov:clip src:klSbquSQSmI4vJp5uAthfEBu4A.png fit:fill pos:50% 50%
+          div [229,4458,982x24] flex-column gap:normal jc:normal ai:start p:0px 0px 24px bg:#2B62ED/0 op:0 ov:hidden TEXT"Yes. Siena integrates with returns platforms like Loop Returns and order tracking platforms like AfterShip. If you already use these tools, Siena works alongside them." {Instrument Sans 400 16px/normal ls:normal #122023/0.8 start}
+      div [229,4485,982x96]
+        div [229,4485,982x96] ov:hidden
+          div [229,4485,982x72] flex-row gap:normal jc:space-between ai:center p:24px 0px bg:#122023/0 TEXT"Can Siena track packages from regional or specialty carriers?" {Instrument Sans 500 20px/normal ls:normal #122023 start}
+            img [1191,4511,20x20] ov:clip src:klSbquSQSmI4vJp5uAthfEBu4A.png fit:fill pos:50% 50%
+          div [229,4557,982x24] flex-column gap:normal jc:normal ai:start p:0px 0px 24px bg:#2B62ED/0 op:0 ov:hidden TEXT"Yes. Native tracking supports over 2000 carriers worldwide, including regional carriers, specialty logistics providers, and local delivery services. Whether you use major carriers like FedEx or regional providers, Siena has coverage." {Instrument Sans 400 16px/normal ls:normal #122023/0.8 start}

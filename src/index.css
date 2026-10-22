@@ -1,0 +1,33 @@
+@font-face { font-family: 'Instrument Sans'; font-weight: 400; font-display: swap; src: url('/fonts/pximypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr-yp2JGEJOH9npSTF-QfwmS0v3_7Y.woff2') format('woff2'); }
+@font-face { font-family: 'Instrument Sans'; font-weight: 500; font-display: swap; src: url('/fonts/pximypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr-yp2JGEJOH9npST3-QfwmS0v3_7Y.woff2') format('woff2'); }
+@font-face { font-family: 'Instrument Sans'; font-weight: 600; font-display: swap; src: url('/fonts/pximypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr-yp2JGEJOH9npSQb_jfykyw.woff2') format('woff2'); }
+@font-face { font-family: 'Instrument Sans'; font-weight: 700; font-display: swap; src: url('/fonts/pximypc9vsFDm051Uf6KVwgkfoSxQ0GsQv8ToedPibnr-yp2JGEJOH9npSQi_gfwmS0v3_7Y.woff2') format('woff2'); }
+@font-face { font-family: 'Feature Deck Web Light'; font-weight: 300; font-display: swap; src: url('/fonts/PjL3a5FZOHVaFySlL6hHG308.woff2') format('woff2'); }
+@font-face { font-family: 'Feature Deck Web Light Italic'; font-weight: 300; font-style: italic; font-display: swap; src: url('/fonts/uYTN0wEwWxGH9s5Jtju5lojaUAY.woff2') format('woff2'); }
+@font-face { font-family: 'Feature Deck Web Regular'; font-weight: 400; font-display: swap; src: url('/fonts/gv5jLP8AEnApvmeI7NNIvwIWRs.woff2') format('woff2'); }
+@font-face { font-family: 'Feature Deck Condensed Web Regular'; font-weight: 400; font-display: swap; src: url('/fonts/idgMwx403kMgEkxY7H6X4PmhtCw.woff2') format('woff2'); }
+@font-face { font-family: 'Tiempos Text Regular'; font-weight: 400; font-display: swap; src: url('/fonts/ovSMW3kMIp8TWyVM01c6WEwBSk.woff2') format('woff2'); }
+@font-face { font-family: 'Tiempos Text Regular Italic'; font-weight: 400; font-style: italic; font-display: swap; src: url('/fonts/0H28sSRAjligzhoQMhfSh8CwkA0.woff2') format('woff2'); }
+@font-face { font-family: 'Inter'; font-weight: 500; font-display: swap; src: url('/fonts/UjlFhCnUjxhNfep4oYBPqnEssyo.woff2') format('woff2'); }
+@font-face { font-family: 'Font Awesome 6 Sharp Regular'; font-weight: 400; font-display: block; src: url('/fonts/hJSj523CSkjvSFCg8AbaWzZ0mEY.woff2') format('woff2'); }
+@font-face { font-family: 'Lato'; font-weight: 700; font-display: swap; src: url('/fonts/lato-700-S6u9w4BMUTPHh6UVSwiPGQ.woff2') format('woff2'); }
+@font-face { font-family: 'Geist Mono'; font-weight: 100 900; font-display: swap; src: url('/fonts/or3nQ6H-1_WfwkMZI_qYFrcdmg.woff2') format('woff2'); }
+@font-face { font-family: 'Font Awesome 6 Sharp Light'; font-weight: 300; font-display: block; src: url('/fonts/hhrqHf9RbUQAYrvhsytTcmYL61I.woff2') format('woff2'); }
+@font-face { font-family: 'Font Awesome 6 Brands'; font-weight: 400; font-display: block; src: url('/fonts/PXm4Cf2xmAxAUI2XyqpPI37qg.woff2') format('woff2'); }
+@font-face { font-family: 'Inter'; font-weight: 400; font-display: swap; src: url('/fonts/vQyevYAyHtARFwPqUzQGpnDs.woff2') format('woff2'); }
+@font-face { font-family: 'Inter'; font-weight: 700; font-display: swap; src: url('/fonts/DXD0Q7LSl7HEvDzucnyLnGBHM.woff2') format('woff2'); }
+@font-face { font-family: 'Inter'; font-weight: 600; font-display: swap; src: url('/fonts/yDtI2UI8XcEg1W2je9XPN3Noo.woff2') format('woff2'); }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+  body { margin: 0; background: #fff; color: theme('colors.ink'); font-family: theme('fontFamily.sans'); }
+  a { color: inherit; text-decoration: none; }
+}
+
+/* Framer "appear" primitive — see CLONE_SPEC §0 Global motion */
+@keyframes appear-up { from { opacity: 0.001; transform: translateY(200px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .appear { animation: none !important; opacity: 1 !important; transform: none !important; } }

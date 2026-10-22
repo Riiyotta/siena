@@ -1,0 +1,343 @@
+{
+ "borders": [
+  {
+   "r": [
+    51,
+    597,
+    288,
+    75
+   ],
+   "n": "Default<Hero",
+   "b": "0px 0px 1px 0px solid rgba(0, 0, 0, 0)",
+   "rad": "0px",
+   "txt": "Get pricing"
+  },
+  {
+   "r": [
+    24,
+    1337,
+    342,
+    164
+   ],
+   "n": "Title",
+   "b": "1px 0px 0px 0px solid rgba(0, 0, 0, 0.2)",
+   "rad": "0px",
+   "txt": "  Platform fee  Access Siena’s core AI "
+  },
+  {
+   "r": [
+    24,
+    1533,
+    342,
+    164
+   ],
+   "n": "Title",
+   "b": "1px 0px 0px 0px solid rgba(0, 0, 0, 0.2)",
+   "rad": "0px",
+   "txt": "  Automation Pack  Automate tickets at "
+  },
+  {
+   "r": [
+    24,
+    1728,
+    342,
+    164
+   ],
+   "n": "Title",
+   "b": "1px 0px 0px 0px solid rgba(0, 0, 0, 0.2)",
+   "rad": "0px",
+   "txt": "  Support & Implementation Expert onboa"
+  }
+ ],
+ "icons": [
+  {
+   "r": [
+    24,
+    1369,
+    27,
+    24
+   ],
+   "cp": "U+F847",
+   "ff": "\"Font Awesome 6 Sharp Light\"",
+   "fs": "24px",
+   "fw": "400",
+   "c": "rgb(18, 32, 35)",
+   "n": "Title",
+   "next": " Platform fee Access Siena’s core AI engine and u"
+  },
+  {
+   "r": [
+    24,
+    1565,
+    30,
+    24
+   ],
+   "cp": "U+E3F1",
+   "ff": "\"Font Awesome 6 Sharp Light\"",
+   "fs": "24px",
+   "fw": "400",
+   "c": "rgb(18, 32, 35)",
+   "n": "Title",
+   "next": " Automation Pack Automate tickets at just $0.90 e"
+  },
+  {
+   "r": [
+    24,
+    1760,
+    30,
+    24
+   ],
+   "cp": "U+F652",
+   "ff": "\"Font Awesome 6 Sharp Light\"",
+   "fs": "24px",
+   "fw": "400",
+   "c": "rgb(18, 32, 35)",
+   "n": "Title",
+   "next": " Support & Implementation Expert onboarding plus "
+  },
+  {
+   "r": [
+    38,
+    3284,
+    24,
+    24
+   ],
+   "cp": "U+F132",
+   "ff": "\"Font Awesome 6 Sharp Light\"",
+   "fs": "24px",
+   "fw": "300",
+   "c": "rgb(18, 32, 35)",
+   "n": "Title<integrations<integrations",
+   "next": " AI & brand-safety guardrails Brand voice, busine"
+  },
+  {
+   "r": [
+    217,
+    3284,
+    21,
+    24
+   ],
+   "cp": "U+F023",
+   "ff": "\"Font Awesome 6 Sharp Light\"",
+   "fs": "24px",
+   "fw": "300",
+   "c": "rgb(18, 32, 35)",
+   "n": "Title<SSO<integrations",
+   "next": " SSO, roles, audit logs SAML SSO, granular permis"
+  },
+  {
+   "r": [
+    38,
+    3588,
+    24,
+    24
+   ],
+   "cp": "U+F590",
+   "ff": "\"Font Awesome 6 Sharp Light\"",
+   "fs": "24px",
+   "fw": "300",
+   "c": "rgb(18, 32, 35)",
+   "n": "Title<integrations<integrations",
+   "next": " SOC 2 Type II compliant Your data and your custo"
+  },
+  {
+   "r": [
+    217,
+    3588,
+    24,
+    24
+   ],
+   "cp": "U+F590",
+   "ff": "\"Font Awesome 6 Sharp Light\"",
+   "fs": "24px",
+   "fw": "300",
+   "c": "rgb(18, 32, 35)",
+   "n": "Title<integrations<integrations",
+   "next": " Dedicated support & SLA A named success manager,"
+  }
+ ],
+ "imgs": [
+  {
+   "src": "I79jHrog8xkJyLdp6KBEDj6Ywjk.png",
+   "r": [
+    39,
+    439,
+    73,
+    18
+   ],
+   "ow": 73,
+   "oh": 18,
+   "wow": 73,
+   "woh": 18,
+   "pos": "t:0px r:0px b:0px l:0px w:73px h:18px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "contain",
+   "op": "50% 50%",
+   "alt": "Comfrt logo",
+   "n": "Comfrt<9<Title"
+  },
+  {
+   "src": "BYD0tOgABiRk8bVwCxbpUE5hDs.png",
+   "r": [
+    165,
+    437,
+    59,
+    22
+   ],
+   "ow": 59,
+   "oh": 22,
+   "wow": 59,
+   "woh": 22,
+   "pos": "t:0px r:0px b:0px l:0px w:59px h:22px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "contain",
+   "op": "50% 50%",
+   "alt": "Grüns",
+   "n": "Grüns<1<Title"
+  },
+  {
+   "src": "GtydJWMgnwv6wkRfNUoPlww2jh0.svg",
+   "r": [
+    273,
+    442,
+    83,
+    13
+   ],
+   "ow": 83,
+   "oh": 13,
+   "wow": 83,
+   "woh": 13,
+   "pos": "t:0px r:0px b:0px l:0px w:83px h:13px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "Bombas",
+   "n": "2<Title<Hero"
+  },
+  {
+   "src": "f15R92EBkjPHx4ABojD1VWldk54.png",
+   "r": [
+    38,
+    483,
+    76,
+    17
+   ],
+   "ow": 76,
+   "oh": 17,
+   "wow": 76,
+   "woh": 17,
+   "pos": "t:0px r:0px b:0px l:0px w:76px h:17px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "contain",
+   "op": "50% 50%",
+   "alt": "FIGS logo",
+   "n": "FIGS<4<Title"
+  },
+  {
+   "src": "vtOMWVl8Yp4AVppVcHxc4tGpNo.png",
+   "r": [
+    156,
+    483,
+    78,
+    17
+   ],
+   "ow": 78,
+   "oh": 17,
+   "wow": 78,
+   "woh": 17,
+   "pos": "t:0px r:0px b:0px l:0px w:78px h:17px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "contain",
+   "op": "50% 50%",
+   "alt": "Create logo",
+   "n": "Create<8<Title"
+  },
+  {
+   "src": "ipTDxCOrcnVCeET6yx6vSIolM.png",
+   "r": [
+    273,
+    484,
+    82,
+    16
+   ],
+   "ow": 82,
+   "oh": 16,
+   "wow": 82,
+   "woh": 16,
+   "pos": "t:0px r:0px b:0px l:0px w:82px h:16px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "contain",
+   "op": "50% 50%",
+   "alt": "Spanx",
+   "n": "Spanx<11<Title"
+  },
+  {
+   "src": "LhQ0hZskcxCtirPSSxXE4hUU0yo.webp",
+   "r": [
+    -249,
+    476,
+    639,
+    633
+   ],
+   "ow": 639,
+   "oh": 633,
+   "wow": 639,
+   "woh": 633,
+   "pos": "t:476.422px r:0px b:0px l:-249.359px w:639.359px h:633px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "Book a Demo<Hero"
+  },
+  {
+   "src": "fNESOQNYixOgXSJEMtuui0Hx9FY.webp",
+   "r": [
+    32,
+    2084,
+    320,
+    320
+   ],
+   "ow": 320,
+   "oh": 320,
+   "wow": 320,
+   "woh": 320,
+   "pos": "t:0px r:0px b:0px l:0px w:320px h:320px",
+   "tf": "none",
+   "rad": "32px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "Photo of Kylah Field, VP of Global CX & Insights at Spanx",
+   "n": "Testimonial<Content<content"
+  },
+  {
+   "src": "L2fbLFnO4rG3Y9WhTn2Zmg90Q.png",
+   "r": [
+    32,
+    2674,
+    140,
+    64
+   ],
+   "ow": 140,
+   "oh": 64,
+   "wow": 140,
+   "woh": 64,
+   "pos": "t:0px r:0px b:0px l:0px w:140px h:64px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "contain",
+   "op": "0% 50%",
+   "alt": "Spanx logo, Kylah Field testimonial",
+   "n": "Logos<Brand<Right Column"
+  }
+ ],
+ "hasNav": false,
+ "navTxt": ""
+}

@@ -1,0 +1,1 @@
+(()=>{const s=[...document.querySelectorAll('[data-framer-name="Scroll Area"]')].find(e=>e.offsetHeight>0);const h=s.querySelector('h6');return (h?h.textContent:'')+' | labels:'+[...s.querySelectorAll('p')].filter(p=>getComputedStyle(p).fontFamily.includes('Geist')).map(p=>p.textContent).join('/')})()

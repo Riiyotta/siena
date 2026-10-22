@@ -1,0 +1,142 @@
+{
+  "$description": "Semantic radius roles.",
+  "radius": {
+    "button-xlg": {
+      "$type": "dimension",
+      "$value": "{foundation.radius.16}",
+      "$extensions": {
+        "cite": [
+          "spec.hero.type"
+        ]
+      }
+    },
+    "button-md": {
+      "$type": "dimension",
+      "$value": "{foundation.radius.12}",
+      "$extensions": {
+        "cite": [
+          "spec.footer.links"
+        ]
+      }
+    },
+    "input": {
+      "$type": "dimension",
+      "$value": "{foundation.radius.16}",
+      "$extensions": {
+        "cite": [
+          "spec.form.fields"
+        ]
+      }
+    },
+    "select": {
+      "$type": "dimension",
+      "$value": "{foundation.radius.15}",
+      "$extensions": {
+        "cite": [
+          "spec.insights.select"
+        ]
+      }
+    },
+    "card": {
+      "$type": "dimension",
+      "$value": "{foundation.radius.24}",
+      "$extensions": {
+        "cite": [
+          "spec.features.card"
+        ]
+      }
+    },
+    "card-feature": {
+      "$type": "dimension",
+      "$value": "{foundation.radius.48}",
+      "$extensions": {
+        "cite": [
+          "spec.maincta.card"
+        ]
+      }
+    },
+    "media": {
+      "$type": "dimension",
+      "$value": "{foundation.radius.32}",
+      "$extensions": {
+        "cite": [
+          "spec.testimonial.slide"
+        ]
+      }
+    },
+    "tile": {
+      "$type": "dimension",
+      "$value": "{foundation.radius.4}",
+      "$extensions": {
+        "cite": [
+          "spec.integrations.tile"
+        ]
+      }
+    },
+    "pill": {
+      "$type": "dimension",
+      "$value": "{foundation.radius.50}",
+      "$extensions": {
+        "cite": [
+          "spec.color.table"
+        ]
+      }
+    },
+    "round": {
+      "$type": "dimension",
+      "$value": "{foundation.radius.999}",
+      "$extensions": {
+        "cite": [
+          "spec.color.table"
+        ]
+      }
+    },
+    "ring-outer": {
+      "$type": "dimension",
+      "$value": "{foundation.radius.18}",
+      "$extensions": {
+        "cite": [
+          "spec.form.ring"
+        ]
+      }
+    },
+    "ring-inner": {
+      "$type": "dimension",
+      "$value": "{foundation.radius.14}",
+      "$extensions": {
+        "cite": [
+          "spec.form.ring"
+        ]
+      }
+    }
+  },
+  "elevation": {
+    "nav-scrolled": {
+      "$type": "shadow",
+      "$value": "{foundation.shadow.nav-scrolled}",
+      "$extensions": {
+        "cite": [
+          "spec.nav.scrolled"
+        ]
+      }
+    },
+    "dropdown": {
+      "$type": "shadow",
+      "$value": "{foundation.shadow.dropdown}",
+      "$extensions": {
+        "cite": [
+          "spec.leadform.dropdown"
+        ]
+      }
+    },
+    "mock-card": {
+      "$type": "shadow",
+      "$value": "{foundation.shadow.mock-card}",
+      "$extensions": {
+        "cite": [
+          "spec.pa.rainbow255"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+Ask Siena "BFCM prep call transcripyourb" @795,3447 421x63 [op,x,y,sx,sy,blur] [0,-209.9,46,1,1,0] -> [0,0,80,1,1,0] start 30ms t50 341ms end 503ms overshoot -211.1
+Bars "BFCM prep call transcrip" @1026,3511 40x40 [op,x,y,sx,sy,blur] [0,0,50,1,1,0] -> [0,-20,50,1,1,0] start 18ms t50 359ms end 503ms overshoot -151.3
+Bars "Returns SOP.pdfConfirm order i" @1082,3508 43x43 [op,x,y,sx,sy,blur] [0,-43.5,50,1,1,0] -> [0,0,28.5,1,1,0] start 30ms t50 326ms end 484ms overshoot -98.9
+DIV "Verified and live" @1076,3534 54x12 [op,x,y,sx,sy,blur] [1,-32.5,0,1,1,0] -> [1,-27.2,0,1,1,0] start 30ms t50 75ms end 484ms overshoot 0.0
+User Message "What's trending well this week" @822,6112 291x55 [op,x,y,sx,sy,blur] [0,0,80,1,1,0] -> [1,0,0,1,1,0] start 309ms t50 503ms end 1302ms overshoot -1.2
+User Message "What do customers love about o" @837,6191 263x79 [op,x,y,sx,sy,blur] [0,0,80,1,1,0] -> [1,0,0,1,1,0] start 503ms t50 701ms end 1495ms overshoot -1.2
+User Message "What's driving repeat orders?" @832,6294 272x55 [op,x,y,sx,sy,blur] [0,0,80,1,1,0] -> [1,0,0,1,1,0] start 820ms t50 1002ms end 1797ms overshoot -1.2
+DIV "" @635,6649 27x27 [op,x,y,sx,sy,blur] [0,0,0,1,1,0] -> [1,0,0,1,1,0] start 614ms t50 701ms end 820ms overshoot 0.0
+DIV "" @611,6658 12x12 [op,x,y,sx,sy,blur] [0,0,0,1,1,0] -> [1,0,0,1,1,0] start 802ms t50 895ms end 1002ms overshoot 0.0
+DIV "" @690,6625 12x12 [op,x,y,sx,sy,blur] [0,0,0,1,1,0] -> [1,0,0,1,1,0] start 916ms t50 1002ms end 1118ms overshoot 0.0
+DIV "" @711,6625 12x12 [op,x,y,sx,sy,blur] [0,0,0,1,1,0] -> [1,0,0,1,1,0] start 802ms t50 895ms end 1002ms overshoot 0.0
+DIV "" @853,6658 12x12 [op,x,y,sx,sy,blur] [0,0,0,1,1,0] -> [1,0,0,1,1,0] start 802ms t50 895ms end 1002ms overshoot 0.0
+DIV "" @731,6616 27x27 [op,x,y,sx,sy,blur] [0,0,0,1,1,0] -> [1,0,0,1,1,0] start 412ms t50 503ms end 614ms overshoot 0.0
+DIV "" @787,6649 27x27 [op,x,y,sx,sy,blur] [0,0,0,1,1,0] -> [1,0,0,1,1,0] start 412ms t50 503ms end 614ms overshoot 0.0
+DIV "" @766,6620 20x20 [op,x,y,sx,sy,blur] [0,0,0,1,1,0] -> [1,0,0,1,1,0] start 614ms t50 684ms end 802ms overshoot 0.0
+DIV "" @671,6640 42x42 [op,x,y,sx,sy,blur] [0,0,0,1,1,0] -> [1,0,0,1,1,0] start 140ms t50 309ms end 412ms overshoot 0.0
+DIV "" @822,6652 23x23 [op,x,y,sx,sy,blur] [0,0,0,1,1,0] -> [1,0,0,1,1,0] start 614ms t50 701ms end 820ms overshoot 0.0
+Topic "" @723,6649 62x62 [op,x,y,sx,sy,blur] [0,0,-31,1,1,0] -> [1,0,-31,1,1,0] start 75ms t50 309ms end 309ms overshoot 0.0

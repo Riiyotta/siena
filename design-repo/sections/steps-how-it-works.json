@@ -1,0 +1,180 @@
+{
+  "id": "section.steps.how-it-works",
+  "registryId": "section.steps.how-it-works",
+  "typeId": "steps.how-it-works",
+  "version": "1.0.0",
+  "category": "feature",
+  "purpose": "'How it works' three columns (icon/eyebrow, title, body with top hairline).",
+  "evidenceLevel": "spec-measured",
+  "variants": {
+    "memory": "Metrics shell (image bg + sand card), H2 with hard break.",
+    "video": "Cream section with an animated gallery (video card, bubbles, per-letter agent note) above the columns.",
+    "lab": "AI Lab: eyebrow + H3 52/62.4 + body columns (2nd/3rd eyebrows are white-on-white, live quirk)."
+  },
+  "composes": [
+    "component.feature-item",
+    "component.chat-mock"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "eyebrow": {
+        "type": "string",
+        "maxWords": 4
+      },
+      "title": {
+        "type": "string",
+        "maxWords": 8
+      },
+      "gallery": {
+        "type": "object",
+        "properties": {
+          "video": {
+            "type": "object",
+            "properties": {
+              "assetRole": {
+                "const": "video.decorative-loop"
+              },
+              "assetRef": {
+                "type": "string",
+                "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 24
+              }
+            },
+            "required": [
+              "assetRole",
+              "assetRef"
+            ],
+            "additionalProperties": false
+          },
+          "bubbles": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "speaker": {
+                  "enum": [
+                    "customer",
+                    "siena"
+                  ]
+                },
+                "text": {
+                  "type": "string",
+                  "maxWords": 40
+                }
+              },
+              "required": [
+                "speaker",
+                "text"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 1,
+            "maxItems": 2
+          },
+          "agentNote": {
+            "type": "string",
+            "maxWords": 4
+          },
+          "steps": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "maxWords": 7
+            },
+            "minItems": 3,
+            "maxItems": 3
+          }
+        },
+        "required": [
+          "video",
+          "bubbles",
+          "agentNote",
+          "steps"
+        ],
+        "additionalProperties": false
+      },
+      "columns": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "icon": {
+              "type": "object",
+              "properties": {
+                "assetRole": {
+                  "const": "icon.glyph"
+                },
+                "codepoint": {
+                  "type": "string",
+                  "pattern": "^U\\+[0-9A-F]{4}$"
+                }
+              },
+              "required": [
+                "assetRole",
+                "codepoint"
+              ],
+              "additionalProperties": false
+            },
+            "eyebrow": {
+              "type": "string",
+              "maxWords": 4
+            },
+            "title": {
+              "type": "string",
+              "maxWords": 4
+            },
+            "body": {
+              "type": "string",
+              "maxWords": 30
+            }
+          },
+          "required": [
+            "title",
+            "body"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 3,
+        "maxItems": 3
+      }
+    },
+    "required": [
+      "columns"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none",
+      "scroll-reveal-spring",
+      "letter-blur-reveal"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Columns stack; card padding 40 32 (memory)."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "spec.pb.1.4",
+    "spec.pb.2.3",
+    "spec.pb.5.5"
+  ],
+  "knownQuirks": [
+    "lab variant: eyebrows 2 and 3 render white on white on the live site."
+  ]
+}

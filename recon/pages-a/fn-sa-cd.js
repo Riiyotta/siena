@@ -1,0 +1,3 @@
+(()=>{const s=[...document.querySelectorAll('[data-framer-name="Content display (Timer)"]')].find(e=>e.offsetHeight>0);if(!s)return 'none';
+const q=n=>[...s.querySelectorAll(`[data-framer-name="${n}"]`)].filter(e=>e.offsetHeight>=0).map(e=>{const r=e.getBoundingClientRect();return `${Math.round(r.top)}/${Math.round(r.width)}x${Math.round(r.height)}@${(+getComputedStyle(e).opacity).toFixed(2)}`}).join(',');
+return 'Rect:'+q('Rectangle')+' Line:'+q('Line')+' Bar:'+q('Progress Bar')+' vars:'+[...s.querySelectorAll('[data-framer-name]')].map(e=>e.getAttribute('data-framer-name')).filter(n=>/Initial|Inverted|Final|Shopping|Support/.test(n)).join('|')})()

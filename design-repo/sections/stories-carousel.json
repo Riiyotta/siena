@@ -1,0 +1,129 @@
+{
+  "id": "section.stories.carousel",
+  "registryId": "section.stories.carousel",
+  "typeId": "stories.carousel",
+  "version": "1.0.0",
+  "category": "social-proof",
+  "purpose": "Homepage customer stories: 14 cards, 2 per page (1 on phone), crossfade paging, hover drops the logo. Cards link to live siena.cx customer stories (out of scope).",
+  "evidenceLevel": "measured",
+  "variants": {
+    "home": "Cream section, white panel."
+  },
+  "composes": [
+    "component.story-card",
+    "component.slider-controls"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "eyebrow": {
+        "type": "string",
+        "maxWords": 6
+      },
+      "title": {
+        "type": "string",
+        "maxWords": 12,
+        "description": "Plain text; wrap at most one phrase in *asterisks* to render it in the display italic cut.",
+        "pattern": "^[^*]*(\\*[^*]+\\*[^*]*)?$"
+      },
+      "cards": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string",
+              "maxWords": 18
+            },
+            "href": {
+              "type": "string",
+              "pattern": "^(/[a-z0-9/#-]*|#[a-z0-9-]+|https://[a-zA-Z0-9.-]+(/[^\\s]*)?|mailto:[a-z.]+@siena\\.cx)$"
+            },
+            "logo": {
+              "type": "object",
+              "properties": {
+                "assetRole": {
+                  "const": "logo.customer"
+                },
+                "assetRef": {
+                  "type": "string",
+                  "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+                },
+                "alt": {
+                  "type": "string",
+                  "maxWords": 24
+                }
+              },
+              "required": [
+                "assetRole",
+                "assetRef"
+              ],
+              "additionalProperties": false
+            },
+            "texture": {
+              "type": "object",
+              "properties": {
+                "assetRole": {
+                  "const": "illustration.abstract-glow"
+                },
+                "assetRef": {
+                  "type": "string",
+                  "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+                },
+                "alt": {
+                  "type": "string",
+                  "maxWords": 24
+                }
+              },
+              "required": [
+                "assetRole",
+                "assetRef"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "title",
+            "href",
+            "logo",
+            "texture"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 2,
+        "maxItems": 14
+      }
+    },
+    "required": [
+      "eyebrow",
+      "title",
+      "cards"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "crossfade-page"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "One card per page (326x458), H3 18/25.2."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "spec.stories",
+    "spec.stories.behavior",
+    "jsx.stories"
+  ]
+}

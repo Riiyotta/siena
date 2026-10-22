@@ -1,0 +1,51 @@
+{
+  "id": "section.banner.announcement-strip",
+  "registryId": "section.banner.announcement-strip",
+  "typeId": "banner.announcement-strip",
+  "version": "1.0.0",
+  "category": "content",
+  "purpose": "One-line uppercase announcement under the insights hero.",
+  "evidenceLevel": "measured",
+  "variants": {
+    "standard": "Sans 600 12/16.8 uppercase, warm-500, centered."
+  },
+  "composes": [
+    "primitive.text"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "text": {
+        "type": "string",
+        "maxWords": 20
+      }
+    },
+    "required": [
+      "text"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Wraps to 4 lines."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "spec.t1.announce"
+  ]
+}

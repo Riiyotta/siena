@@ -1,0 +1,23 @@
+{
+  "registryId": "component.form-card",
+  "version": "1.0.0",
+  "category": "content",
+  "description": "Static look-alike form inside a 3px rainbow ring (or a plain sand card): H2/H4 header with hairline, rows of fields, right-aligned submit. Submission is prevented; no network request is ever made.",
+  "composes": [
+    "primitive.gradient-ring",
+    "primitive.form-field",
+    "primitive.button",
+    "primitive.text"
+  ],
+  "props": {
+    "submitBehavior": {
+      "const": "none"
+    }
+  },
+  "measuredFrom": [
+    "spec.form.ring",
+    "spec.form.fields",
+    "jsx.co.staticform",
+    "jsx.conv.leadform"
+  ]
+}

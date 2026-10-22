@@ -1,0 +1,138 @@
+{
+  "id": "section.hero.product-photo",
+  "registryId": "section.hero.product-photo",
+  "typeId": "hero.product-photo",
+  "version": "1.0.0",
+  "category": "hero",
+  "purpose": "Memory hero: left-aligned H1 (hard break) + dimmed subtitle + CTA over a full-bleed soft photo; single masked product ticker at the bottom.",
+  "evidenceLevel": "spec-measured",
+  "variants": {
+    "memory": "900 tall."
+  },
+  "composes": [
+    "primitive.text",
+    "primitive.button",
+    "component.logo-ticker"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "headline": {
+        "type": "string",
+        "maxWords": 10
+      },
+      "subtitle": {
+        "type": "string",
+        "maxWords": 30
+      },
+      "cta": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string",
+            "maxWords": 4
+          },
+          "href": {
+            "type": "string",
+            "pattern": "^(/[a-z0-9/#-]*|#[a-z0-9-]+|https://[a-zA-Z0-9.-]+(/[^\\s]*)?|mailto:[a-z.]+@siena\\.cx)$"
+          },
+          "style": {
+            "enum": [
+              "xlg-dark"
+            ]
+          }
+        },
+        "required": [
+          "label",
+          "href",
+          "style"
+        ],
+        "additionalProperties": false
+      },
+      "background": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "const": "illustration.editorial"
+          },
+          "assetRef": {
+            "type": "string",
+            "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 24
+          }
+        },
+        "required": [
+          "assetRole",
+          "assetRef"
+        ],
+        "additionalProperties": false
+      },
+      "tickerLogos": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "assetRole": {
+              "const": "logo.customer"
+            },
+            "assetRef": {
+              "type": "string",
+              "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+            },
+            "alt": {
+              "type": "string",
+              "maxWords": 24
+            }
+          },
+          "required": [
+            "assetRole",
+            "assetRef"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 10,
+        "maxItems": 32
+      }
+    },
+    "required": [
+      "headline",
+      "subtitle",
+      "cta",
+      "background",
+      "tickerLogos"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "appear-rise"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ],
+    "builtIn": [
+      "ticker-horizontal 30 px/s"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "649 tall, H1 56/56, ticker 45 tall gap 40."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustFollowNav": true
+  },
+  "measuredFrom": [
+    "spec.pb.1.1",
+    "spec.pb.ticker",
+    "spec.pb.0"
+  ]
+}

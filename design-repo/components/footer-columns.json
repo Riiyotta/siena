@@ -1,0 +1,17 @@
+{
+  "registryId": "component.footer-columns",
+  "version": "1.0.0",
+  "category": "chrome",
+  "description": "Dark footer content: wordmark + LinkedIn/X icon buttons; COMPANY + LEGAL (+SOC badge), PLATFORM, RESOURCES, PARTNERS columns. Out-of-scope destinations (blog, integrations, webinars, product updates) resolve to live siena.cx.",
+  "composes": [
+    "primitive.logo-mark",
+    "primitive.link",
+    "primitive.button",
+    "primitive.image"
+  ],
+  "props": {},
+  "measuredFrom": [
+    "spec.footer",
+    "spec.footer.links"
+  ]
+}

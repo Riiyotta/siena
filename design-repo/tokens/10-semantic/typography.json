@@ -1,0 +1,416 @@
+{
+  "$description": "Composite text roles (family/weight/size/line-height/letter-spacing). Desktop values apply at >= 810px (tablet unmeasured, desktop values scale fluidly); $extensions.phone applies below 810px.",
+  "typography": {
+    "h1-hero": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{foundation.font.family.display-light}",
+        "fontWeight": "{foundation.font.weight.300}",
+        "fontSize": "{foundation.font.size.80}",
+        "lineHeight": "80px",
+        "letterSpacing": "-0.8px"
+      },
+      "$extensions": {
+        "cite": [
+          "spec.hero.type",
+          "spec.company.shorthands"
+        ],
+        "phone": {
+          "fontSize": "{foundation.font.size.56}",
+          "lineHeight": "56px",
+          "letterSpacing": "-0.56px"
+        }
+      }
+    },
+    "h2-section": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{foundation.font.family.display-light}",
+        "fontWeight": "{foundation.font.weight.400}",
+        "fontSize": "{foundation.font.size.64}",
+        "lineHeight": "64px",
+        "letterSpacing": "-1.28px"
+      },
+      "$description": "Light file rendered at computed weight 400.",
+      "$extensions": {
+        "cite": [
+          "spec.eyebrow.h2",
+          "spec.company.shorthands"
+        ],
+        "phone": {
+          "fontSize": "{foundation.font.size.48}",
+          "lineHeight": "48px",
+          "letterSpacing": "-0.96px"
+        }
+      }
+    },
+    "eyebrow": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{foundation.font.family.sans}",
+        "fontWeight": "{foundation.font.weight.600}",
+        "fontSize": "{foundation.font.size.16}",
+        "lineHeight": "22.4px",
+        "letterSpacing": "1.7px"
+      },
+      "$description": "Uppercase.",
+      "$extensions": {
+        "cite": [
+          "spec.eyebrow.h2",
+          "spec.company.shorthands"
+        ],
+        "phone": {
+          "fontSize": "{foundation.font.size.14}",
+          "lineHeight": "19.6px",
+          "letterSpacing": "1.7px"
+        }
+      }
+    },
+    "sub-20": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{foundation.font.family.sans}",
+        "fontWeight": "{foundation.font.weight.500}",
+        "fontSize": "{foundation.font.size.20}",
+        "lineHeight": "28px",
+        "letterSpacing": "-0.2px"
+      },
+      "$extensions": {
+        "cite": [
+          "spec.hero.type",
+          "spec.company.shorthands"
+        ],
+        "phone": {
+          "fontSize": "{foundation.font.size.16}",
+          "lineHeight": "22.4px",
+          "letterSpacing": "-0.16px"
+        }
+      }
+    },
+    "body-serif": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{foundation.font.family.serif}",
+        "fontWeight": "{foundation.font.weight.400}",
+        "fontSize": "{foundation.font.size.18}",
+        "lineHeight": "23.4px",
+        "letterSpacing": "-0.18px"
+      },
+      "$extensions": {
+        "cite": [
+          "spec.company.shorthands"
+        ],
+        "phone": {
+          "fontSize": "{foundation.font.size.14}",
+          "lineHeight": "21px",
+          "letterSpacing": "-0.14px"
+        }
+      }
+    },
+    "h3-feature": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{foundation.font.family.display-regular}",
+        "fontWeight": "{foundation.font.weight.400}",
+        "fontSize": "{foundation.font.size.52}",
+        "lineHeight": "62.4px",
+        "letterSpacing": "normal"
+      },
+      "$description": "Product/compare sticky-block headings.",
+      "$extensions": {
+        "cite": [
+          "spec.compare.ticker"
+        ],
+        "phone": {
+          "fontSize": "{foundation.font.size.36}",
+          "lineHeight": "43.2px",
+          "letterSpacing": "normal"
+        }
+      }
+    },
+    "h4-form": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{foundation.font.family.display-regular}",
+        "fontWeight": "{foundation.font.weight.400}",
+        "fontSize": "{foundation.font.size.40}",
+        "lineHeight": "48px",
+        "letterSpacing": "normal"
+      },
+      "$extensions": {
+        "cite": [
+          "spec.company.shorthands"
+        ],
+        "phone": {
+          "fontSize": "{foundation.font.size.24}",
+          "lineHeight": "28.8px",
+          "letterSpacing": "normal"
+        }
+      }
+    },
+    "h-card": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{foundation.font.family.display-regular}",
+        "fontWeight": "{foundation.font.weight.400}",
+        "fontSize": "{foundation.font.size.32}",
+        "lineHeight": "38.4px",
+        "letterSpacing": "normal"
+      },
+      "$extensions": {
+        "cite": [
+          "spec.company.shorthands"
+        ],
+        "phone": {
+          "fontSize": "{foundation.font.size.28}",
+          "lineHeight": "33.6px",
+          "letterSpacing": "normal"
+        }
+      }
+    },
+    "h-card-sm": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{foundation.font.family.display-regular}",
+        "fontWeight": "{foundation.font.weight.400}",
+        "fontSize": "{foundation.font.size.24}",
+        "lineHeight": "33.6px",
+        "letterSpacing": "normal"
+      },
+      "$extensions": {
+        "cite": [
+          "spec.pricing.enterprise"
+        ],
+        "phone": {
+          "fontSize": "{foundation.font.size.18}",
+          "lineHeight": "25.2px",
+          "letterSpacing": "normal"
+        }
+      }
+    },
+    "quote": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{foundation.font.family.sans}",
+        "fontWeight": "{foundation.font.weight.400}",
+        "fontSize": "{foundation.font.size.25.6}",
+        "lineHeight": "33.28px",
+        "letterSpacing": "-0.512px"
+      },
+      "$extensions": {
+        "cite": [
+          "spec.testimonial.slide"
+        ],
+        "phone": {
+          "fontSize": "{foundation.font.size.19.2}",
+          "lineHeight": "24.96px",
+          "letterSpacing": "-0.384px"
+        }
+      }
+    },
+    "metric-hero": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{foundation.font.family.display-condensed}",
+        "fontWeight": "{foundation.font.weight.400}",
+        "fontSize": "{foundation.font.size.260}",
+        "lineHeight": "390px",
+        "letterSpacing": "0"
+      },
+      "$description": "Tabular numerals.",
+      "$extensions": {
+        "cite": [
+          "spec.metrics.type"
+        ],
+        "phone": {
+          "fontSize": "{foundation.font.size.120}",
+          "lineHeight": "180px",
+          "letterSpacing": "0"
+        }
+      }
+    },
+    "metric-stat": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{foundation.font.family.display-condensed}",
+        "fontWeight": "{foundation.font.weight.400}",
+        "fontSize": "{foundation.font.size.64}",
+        "lineHeight": "64px",
+        "letterSpacing": "0"
+      },
+      "$extensions": {
+        "cite": [
+          "spec.metrics.type"
+        ],
+        "phone": {
+          "fontSize": "{foundation.font.size.32}",
+          "lineHeight": "32px",
+          "letterSpacing": "0"
+        }
+      }
+    },
+    "button-xlg": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{foundation.font.family.sans}",
+        "fontWeight": "{foundation.font.weight.600}",
+        "fontSize": "{foundation.font.size.18}",
+        "lineHeight": "21.6px",
+        "letterSpacing": "normal"
+      },
+      "$extensions": {
+        "cite": [
+          "spec.hero.type"
+        ]
+      }
+    },
+    "button-md": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{foundation.font.family.sans}",
+        "fontWeight": "{foundation.font.weight.500}",
+        "fontSize": "{foundation.font.size.16}",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "$extensions": {
+        "cite": [
+          "spec.footer.links"
+        ]
+      }
+    },
+    "nav-link": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{foundation.font.family.sans}",
+        "fontWeight": "{foundation.font.weight.500}",
+        "fontSize": "{foundation.font.size.16}",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "$extensions": {
+        "cite": [
+          "spec.footer.links"
+        ]
+      }
+    },
+    "bubble": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{foundation.font.family.serif}",
+        "fontWeight": "{foundation.font.weight.400}",
+        "fontSize": "{foundation.font.size.14}",
+        "lineHeight": "18.2px",
+        "letterSpacing": "normal"
+      },
+      "$extensions": {
+        "cite": [
+          "spec.chat.entrance"
+        ],
+        "phone": {
+          "fontSize": "{foundation.font.size.12}",
+          "lineHeight": "15.6px",
+          "letterSpacing": "normal"
+        }
+      }
+    },
+    "tag-mono": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{foundation.font.family.mono}",
+        "fontWeight": "{foundation.font.weight.400}",
+        "fontSize": "{foundation.font.size.10}",
+        "lineHeight": "14px",
+        "letterSpacing": "0.5px"
+      },
+      "$description": "Uppercase.",
+      "$extensions": {
+        "cite": [
+          "spec.color.table"
+        ]
+      }
+    },
+    "role-sm": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{foundation.font.family.sans}",
+        "fontWeight": "{foundation.font.weight.600}",
+        "fontSize": "{foundation.font.size.12}",
+        "lineHeight": "16.8px",
+        "letterSpacing": "0.6px"
+      },
+      "$description": "Uppercase role line on panel testimonials.",
+      "$extensions": {
+        "cite": [
+          "spec.testimonial.slide"
+        ]
+      }
+    },
+    "field-label": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{foundation.font.family.sans}",
+        "fontWeight": "{foundation.font.weight.600}",
+        "fontSize": "{foundation.font.size.14}",
+        "lineHeight": "15.4px",
+        "letterSpacing": "normal"
+      },
+      "$extensions": {
+        "cite": [
+          "spec.form.fields"
+        ]
+      }
+    },
+    "field-input": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{foundation.font.family.sans}",
+        "fontWeight": "{foundation.font.weight.400}",
+        "fontSize": "{foundation.font.size.16}",
+        "lineHeight": "16px",
+        "letterSpacing": "normal"
+      },
+      "$extensions": {
+        "cite": [
+          "spec.form.fields"
+        ]
+      }
+    },
+    "rich-body": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{foundation.font.family.sans}",
+        "fontWeight": "{foundation.font.weight.400}",
+        "fontSize": "{foundation.font.size.16}",
+        "lineHeight": "19.2px",
+        "letterSpacing": "-0.16px"
+      },
+      "$description": "Conversation transcript paragraphs.",
+      "$extensions": {
+        "cite": [
+          "spec.content.richtext"
+        ]
+      }
+    },
+    "legal-body": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{foundation.font.family.serif}",
+        "fontWeight": "{foundation.font.weight.400}",
+        "fontSize": "{foundation.font.size.18}",
+        "lineHeight": "23.4px",
+        "letterSpacing": "-0.18px"
+      },
+      "$extensions": {
+        "cite": [
+          "spec.content.legaltype"
+        ],
+        "phone": {
+          "fontSize": "{foundation.font.size.14}",
+          "lineHeight": "21px",
+          "letterSpacing": "-0.14px"
+        }
+      }
+    }
+  }
+}

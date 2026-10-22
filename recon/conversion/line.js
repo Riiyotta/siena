@@ -1,0 +1,4 @@
+(()=>{const h=[...document.querySelectorAll('h3')].find(x=>x.innerText.includes('Platform fee'));let t=h;while(t&&t.getAttribute('data-framer-name')!=='Title')t=t.parentElement;
+const row=t.parentElement.parentElement;const S=e=>{const s=getComputedStyle(e),r=e.getBoundingClientRect();return `${e.tagName}[${e.getAttribute('data-framer-name')||''}] ${Math.round(r.x)},${Math.round(r.y+scrollY)},${Math.round(r.width)}x${Math.round(r.height)} ${s.display} ${s.flexDirection} gap:${s.gap} p:${s.padding} bt:${s.borderTop} bg:${s.backgroundColor} sh:${s.boxShadow} mw:${s.maxWidth} gtc:${s.gridTemplateColumns}`};
+const bef=getComputedStyle(t,'::before'),aft=getComputedStyle(t,'::after');
+return {chain:[S(t),S(t.parentElement),S(row),S(row.parentElement)],before:bef.content+' '+bef.borderTop+' '+bef.height+' '+bef.backgroundColor,after:aft.content+' '+aft.borderTop,html:t.outerHTML.replace(/class="[^"]*"/g,'').slice(0,2500)}})()

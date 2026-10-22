@@ -1,0 +1,469 @@
+/* CLONE_SPEC §4 Sticky "Scroll Area" (desktop/tablet >=810px) + §11 mobile static stack. */
+
+:root {
+  --cm-grad: linear-gradient(255deg, #F2E59A 0%, #FEC796 14.8649%, #FB5646 32.8829%, #827ACC 52.2523%, #2E79D8 79.7297%, #ABABAB 100%);
+}
+
+.sa-section {
+  padding: 0 96px;
+  background: #FFFFFF;
+}
+
+/* ---------- Desktop layout ---------- */
+.sa-desktop {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 64px;
+}
+.sa-mobile { display: none; }
+
+.sa-content {
+  flex: 0 1 512px;
+  min-width: 0;
+  max-width: 512px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sa-desktop .sa-block {
+  position: relative;
+  z-index: 1;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.sa-h2-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+.sa-h2 {
+  margin: 0;
+  font-family: theme('fontFamily.display');
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 64px;
+  letter-spacing: -1.28px;
+  color: theme('colors.ink');
+  text-align: left;
+}
+
+.sa-bullets {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.sa-bullet {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.sa-star {
+  flex: none;
+  width: 24px;
+  height: 24px;
+}
+.sa-bullet-text {
+  flex: 1 0 0;
+  min-width: 0;
+  font-family: theme('fontFamily.serif');
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23.4px;
+  letter-spacing: -0.18px;
+  color: theme('colors.ink-2');
+}
+
+/* "Book a demo" xlg button (§2) */
+.sa-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  padding: 18px 24px;
+  border-radius: 16px;
+  background-color: theme('colors.ink');
+  font-family: theme('fontFamily.sans');
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21.6px;
+  color: #FFFFFF;
+  white-space: nowrap;
+}
+.sa-btn:hover { background-image: theme('backgroundImage.rainbow'); }
+
+/* Sticky right column: pinned for (section height - 900) = 1820px of scroll */
+.sa-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  flex: 0 1 512px;
+  min-width: 0;
+  max-width: 512px;
+  height: 100vh;
+  padding: 110px 0 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.sa-card-slot {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* ---------- Chat mock card ---------- */
+.cm-card {
+  position: relative;
+  width: 512px;
+  max-width: 100%;
+  height: 647px;
+  padding: 56px;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.cm-card-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 24px;
+}
+
+.cm-content {
+  position: relative;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+.cm-content--v1 { width: 400px; }
+.cm-content--v2 { width: 360px; }
+.cm-content--v3 { width: 400px; }
+
+/* Entrance (§4): opacity 0 / +y -> 1 / 0, staggered by --cm-delay.
+   Live: one Framer spring {duration 1.0, bounce 0.2} (zeta 0.8, omega 8.99) drives both
+   opacity and transform: ~1.5% overshoot peaking at ~0.58s, settled by ~1.0s.
+   linear() samples that spring at 25ms steps; the cubic-bezier fallback is a least-squares fit (max err 0.027). */
+.cm-enter {
+  --cm-spring: cubic-bezier(0.3, 0.55, 0.02, 1.14);
+  opacity: 0;
+  transform: translateY(var(--cm-y, 50px));
+  transition:
+    opacity 1s var(--cm-spring) var(--cm-delay, 0s),
+    transform 1s var(--cm-spring) var(--cm-delay, 0s);
+  will-change: transform;
+}
+@supports (transition-timing-function: linear(0, 1)) {
+  .cm-enter {
+    --cm-spring: linear(0, 0.0224, 0.0793, 0.158, 0.2484, 0.3433, 0.4373, 0.5266, 0.609, 0.683, 0.7481, 0.8041, 0.8515, 0.8909, 0.9229, 0.9486, 0.9687, 0.984, 0.9954, 1.0035, 1.009, 1.0125, 1.0144, 1.0151, 1.015, 1.0143, 1.0131, 1.0118, 1.0104, 1.009, 1.0076, 1.0063, 1.0051, 1.0041, 1.0032, 1.0025, 1.0018, 1.0013, 1.0009, 1.0006, 1);
+  }
+}
+.cm-enter.is-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+.cm-enter-row { width: 100%; }
+@media (prefers-reduced-motion: reduce) {
+  .cm-enter { opacity: 1; transform: none; transition: none; }
+}
+
+/* Rows */
+.cm-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 10px;
+  overflow: hidden;
+}
+.cm-row--customer { justify-content: flex-start; }
+.cm-row--siena { justify-content: flex-end; }
+
+.cm-avatar {
+  position: relative;
+  flex: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 99px;
+  overflow: hidden;
+}
+.cm-avatar::after { /* 2px white border drawn over the image (Framer data-border) */
+  content: '';
+  position: absolute;
+  inset: 0;
+  border: 2px solid #FFFFFF;
+  border-radius: inherit;
+  pointer-events: none;
+}
+.cm-avatar-base {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.cm-avatar-face {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: calc(50% - 19px);
+  width: 38px;
+  height: 100%;
+  object-fit: cover;
+}
+.cm-avatar--siena {
+  background-color: theme('colors.ink');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cm-siena-glyph {
+  position: relative;
+  width: 12px;
+  height: 13px;
+}
+
+.cm-bubble {
+  max-width: 380px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.cm-bubble--customer {
+  flex: none;
+  background-color: theme('colors.hero-bg');
+  border-radius: 16px;
+}
+.cm-fill {
+  flex: 1 0 0;
+  min-width: 0;
+  max-width: 380px;
+}
+.cm-bubble--siena {
+  flex: 1 0 0;
+  min-width: 0;
+  max-width: none;
+  background-color: theme('colors.ann-cream');
+  border-radius: 15px;
+}
+.cm-text {
+  margin: 0;
+  font-family: theme('fontFamily.serif');
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18.2px;
+  color: theme('colors.ink');
+}
+
+/* Gradient-border wrappers */
+.cm-grad {
+  position: relative;
+  padding: 2px;
+  background: var(--cm-grad);
+}
+.cm-grad--bubble {
+  display: flex;
+  border-radius: 16px;
+  overflow: hidden;
+}
+.cm-grad--card,
+.cm-grad--msg {
+  width: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+/* Variant 2 product card */
+.cm-grad--product {
+  width: 100%;
+  border-radius: 12px;
+}
+.cm-product {
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  -webkit-backdrop-filter: blur(9.6px);
+  backdrop-filter: blur(9.6px);
+}
+.cm-product-img {
+  position: absolute;
+  top: -32px;
+  right: 0;
+  width: 95px;
+  height: 91px;
+  object-fit: contain;
+}
+.cm-product-title {
+  margin: 0;
+  font-family: theme('fontFamily.serif');
+  font-size: 18px;
+  line-height: 23.4px;
+  letter-spacing: -0.18px;
+  color: theme('colors.ink-2');
+}
+.cm-product-meta {
+  margin: 0;
+  font-family: theme('fontFamily.sans');
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: theme('colors.ink');
+}
+.cm-product-divider {
+  height: 1px;
+  background-color: theme('colors.sand-line');
+}
+.cm-product-row {
+  display: flex;
+  justify-content: space-between;
+  font-family: theme('fontFamily.sans');
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: theme('colors.icon-grey');
+}
+
+/* Variant 3 personas */
+.cm-chips-card {
+  background-color: theme('colors.hero-bg');
+  border-radius: 16px;
+  padding: 16px;
+}
+.cm-chips {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  overflow: auto;
+}
+.cm-chip {
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 4px 12px 4px 4px;
+  border: 0;
+  border-radius: 12px;
+  background: transparent;
+  opacity: 0.4;
+  cursor: pointer;
+}
+.cm-chip.is-active {
+  background: #FFFFFF;
+  opacity: 1;
+}
+.cm-chip-avatar {
+  flex: none;
+  width: 36px;
+  height: 37px;
+  object-fit: cover;
+}
+.cm-chip-name {
+  font-family: theme('fontFamily.serif');
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23.4px;
+  color: theme('colors.ink');
+  white-space: nowrap;
+}
+.cm-msg-card {
+  background-color: theme('colors.hero-bg');
+  border-radius: 15px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.cm-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.cm-tag {
+  padding: 4px 14px;
+  border-radius: 50px;
+  background: transparent;
+  font-family: theme('fontFamily.mono');
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.5);
+}
+.cm-tag.is-active {
+  background-color: theme('colors.ink');
+  color: #F4F5F5;
+}
+.cm-msg-body { white-space: pre-line; }
+
+/* ---------- §11 Phone (<810px): static, no pinning ---------- */
+@media (max-width: 809.98px) {
+  .sa-section { padding: 56px 24px 16px; }
+  .sa-desktop { display: none; }
+  .sa-mobile {
+    width: 100%;
+    max-width: 512px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+  }
+  .sa-mobile .sa-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  .sa-h2 {
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -0.96px;
+  }
+  .sa-bullet-text {
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.14px;
+  }
+
+  .cm-card--mobile { width: 342px; }
+  .cm-card--mobile.cm-card--v1 { height: 522px; padding: 16px; }
+  .cm-card--mobile.cm-card--v2 { height: 580px; padding: 56px; }
+  .cm-card--mobile.cm-card--v3 { height: 433px; padding: 16px; }
+
+  .cm-card--mobile .cm-content--v1 { width: 100%; }
+  .cm-card--mobile .cm-content--v1 .cm-text {
+    font-size: 12px;
+    line-height: 15.6px;
+  }
+  .cm-card--mobile .cm-content--v2 { width: 304px; max-width: none; }
+  .cm-card--mobile .cm-content--v3 { width: 310px; }
+  .cm-card--mobile .cm-chip-name {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}

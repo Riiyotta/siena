@@ -1,0 +1,23 @@
+{
+  "registryId": "component.customer-grid-card",
+  "version": "1.0.0",
+  "category": "content",
+  "description": "Customers story-grid card 293x396: 2px sand ring (rainbow vertical gradient on hover, ~150ms), logo area, tag pills, serif title.",
+  "composes": [
+    "primitive.gradient-ring",
+    "primitive.logo-mark",
+    "primitive.tag-pill",
+    "primitive.text"
+  ],
+  "props": {
+    "title": {
+      "type": "string",
+      "maxWords": 22
+    }
+  },
+  "measuredFrom": [
+    "spec.storygrid.card",
+    "spec.storygrid.hover",
+    "jsx.co.storycard"
+  ]
+}

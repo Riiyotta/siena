@@ -1,0 +1,319 @@
+{
+ "chain": {
+  "h1": [
+   "H1[] 189,152,496x240 block row gap:normal p:0px mw:none w:496px jc:normal ai:normal pos:static t:auto r:auto b:auto l:auto",
+   "DIV[] 189,152,496x240 flex column gap:normal p:0px mw:none w:496px jc:flex-start ai:normal pos:relative t:0px r:0px b:0px l:0px",
+   "DIV[] 0,0,0x0 contents row gap:normal p:0px mw:none w:auto jc:normal ai:normal pos:static t:auto r:auto b:auto l:auto",
+   "DIV[] 189,152,496x320 flex column gap:24px p:0px mw:none w:496px jc:center ai:flex-start pos:relative t:0px r:0px b:0px l:0px",
+   "DIV[Title] 189,152,496x515 flex column gap:48px p:0px mw:640px w:496px jc:center ai:flex-start pos:relative t:0px r:0px b:0px l:0px",
+   "DIV[] 189,152,1062x516 flex row gap:64px p:0px mw:1062px w:1062px jc:center ai:flex-start pos:relative t:0px r:0px b:0px l:0px",
+   "DIV[Hero] 0,0,1440x708 flex column gap:100px p:152px 96px 40px mw:none w:1440px jc:center ai:center pos:relative t:0px r:0px b:0px l:0px"
+  ],
+  "form": [
+   "FORM[Default] 792,187,416x446 flex column gap:6px p:0px mw:none w:416px jc:flex-start ai:flex-start pos:relative t:0px r:0px b:0px l:0px",
+   "DIV[] 792,187,416x446 block row gap:normal p:0px mw:none w:416px jc:normal ai:normal pos:relative t:0px r:0px b:0px l:0px",
+   "DIV[] 0,0,0x0 contents row gap:normal p:0px mw:none w:auto jc:normal ai:normal pos:static t:auto r:auto b:auto l:auto",
+   "DIV[] 752,155,496x510 flex column gap:32px p:32px 40px mw:none w:496px jc:center ai:center pos:relative t:0px r:0px b:0px l:0px",
+   "DIV[] 749,152,502x516 flex column gap:0px p:3px mw:640px w:502px jc:center ai:center pos:relative t:0px r:0px b:0px l:0px",
+   "DIV[] 189,152,1062x516 flex row gap:64px p:0px mw:1062px w:1062px jc:center ai:flex-start pos:relative t:0px r:0px b:0px l:0px",
+   "DIV[Hero] 0,0,1440x708 flex column gap:100px p:152px 96px 40px mw:none w:1440px jc:center ai:center pos:relative t:0px r:0px b:0px l:0px"
+  ],
+  "logo": [
+   "IMG[] 202,524,126x31 block row gap:normal p:0px mw:none w:126px jc:normal ai:normal pos:static t:auto r:auto b:auto l:auto",
+   "DIV[] 202,524,126x31 block row gap:normal p:0px mw:none w:126px jc:normal ai:normal pos:absolute t:0px r:0px b:0px l:0px",
+   "DIV[Comfrt] 202,524,126x31 block row gap:normal p:0px mw:none w:126px jc:normal ai:normal pos:relative t:0px r:0px b:0px l:0px",
+   "DIV[] 0,0,0x0 contents row gap:normal p:0px mw:none w:auto jc:normal ai:normal pos:static t:auto r:auto b:auto l:auto",
+   "DIV[9] 189,524,152x31 flex column gap:14.1667px p:0px mw:none w:152px jc:center ai:center pos:relative t:0px r:0px b:0px l:0px",
+   "DIV[] 189,520,496x147 grid row gap:80px 20px p:0px mw:none w:496px jc:center ai:normal pos:relative t:0px r:0px b:0px l:0px",
+   "DIV[Title] 189,152,496x515 flex column gap:48px p:0px mw:640px w:496px jc:center ai:flex-start pos:relative t:0px r:0px b:0px l:0px"
+  ],
+  "bg": [
+   "IMG[] 531,-192,909x900 block row gap:normal p:0px mw:none w:909.047px jc:normal ai:normal pos:static t:auto r:auto b:auto l:auto",
+   "DIV[] 531,-192,909x900 block row gap:normal p:0px mw:none w:909.047px jc:normal ai:normal pos:absolute t:0px r:0px b:0px l:0px",
+   "DIV[Book a Demo] 531,-192,909x900 block row gap:normal p:0px mw:none w:909.047px jc:normal ai:normal pos:absolute t:-191.594px r:0px b:0px l:530.953px",
+   "DIV[] 0,0,0x0 contents row gap:normal p:0px mw:none w:auto jc:normal ai:normal pos:static t:auto r:auto b:auto l:auto",
+   "DIV[Hero] 0,0,1440x708 flex column gap:100px p:152px 96px 40px mw:none w:1440px jc:center ai:center pos:relative t:0px r:0px b:0px l:0px",
+   "DIV[] 0,0,0x0 contents column gap:0px p:0px mw:none w:auto jc:flex-start ai:center pos:relative t:auto r:auto b:auto l:auto",
+   "DIV[] 0,0,1440x2925 flex column gap:0px p:0px mw:none w:1440px jc:flex-start ai:center pos:relative t:0px r:0px b:0px l:0px"
+  ],
+  "nav": [
+   "DIV[] 189,24,1062x34 flex row gap:0px p:0px mw:1062px w:1062px jc:flex-start ai:center pos:relative t:0px r:0px b:0px l:0px",
+   "DIV[] 189,24,122x34 block row gap:normal p:0px mw:none w:122px jc:normal ai:normal pos:relative t:0px r:0px b:0px l:0px",
+   "DIV[Variant 1] 189,24,122x34 block row gap:normal p:0px mw:none w:122px jc:normal ai:normal pos:relative t:0px r:0px b:0px l:0px",
+   "DIV[] 189,25,121x32 block row gap:normal p:0px mw:none w:121px jc:normal ai:normal pos:absolute t:1px r:1px b:1px l:0px"
+  ],
+  "formHTML": 26579,
+  "sel": [
+   "INPUT  FormId hidden   ",
+   "INPUT  fullName text  req ",
+   "INPUT  workEmail email  req ",
+   "INPUT  companyWebsite text  req ",
+   "INPUT  what_is_your_primary_goal_with_siena hidden   ",
+   "INPUT   text Choose at least one option req ",
+   "BUTTON   button   What is your primary goal with Siena?*, requiredSelect one o",
+   "BUTTON   button   Next step",
+   "A button Next    Next step",
+   "INPUT  ticketVolume hidden   ",
+   "INPUT   text Choose at least one option req ",
+   "BUTTON   button   Monthly average tickets*, requiredSelect one…",
+   "INPUT  helpDesk hidden   ",
+   "INPUT   text Choose at least one option req ",
+   "BUTTON   button   Help desk*, requiredSelect one…",
+   "INPUT  what_do_you_use_for_social_today hidden   ",
+   "BUTTON   button   What do you use for social today?Select any that apply…",
+   "INPUT  currentURL hidden   ",
+   "BUTTON   submit   Get pricing",
+   "INPUT  website text   ",
+   "INPUT  company text   ",
+   "INPUT  message text   ",
+   "INPUT  subject text   ",
+   "INPUT  title text   ",
+   "INPUT  description text   ",
+   "INPUT  feedback text   ",
+   "INPUT  notes text   ",
+   "INPUT  details text   ",
+   "INPUT  remarks text   ",
+   "INPUT  comments text   "
+  ],
+  "labels": [
+   "Full name*",
+   "Work email*",
+   "Brand website*",
+   "What is your primary goal with Siena?*\n, required\nSelect one or more…",
+   "Monthly average tickets*, requiredSelect one…",
+   "Help desk*, requiredSelect one…",
+   "What do you use for social today?Select any that apply…",
+   "Where did you hear about us?*"
+  ],
+  "stepsTxt": "Get pricing\nFull name*\nWork email*\nBrand website*\nWhat is your primary goal with Siena?*\n, required\nSelect one or more…\n\nNext step"
+ },
+ "inputDefault": {
+  "inp": {
+   "c": "rgb(0, 0, 0)",
+   "ff": "sans-serif",
+   "fs": "12px",
+   "lh": "normal",
+   "p": "0px",
+   "bg": "rgba(0, 0, 0, 0)",
+   "sh": "none",
+   "outline": "rgb(0, 0, 0) none 3px",
+   "tr": "all",
+   "caret": "rgb(0, 0, 0)"
+  },
+  "wrap": {
+   "bg": "rgba(0, 0, 0, 0)",
+   "sh": "none",
+   "tr": "all"
+  },
+  "label": null
+ },
+ "inputs": [
+  {
+   "name": "FormId",
+   "type": "hidden",
+   "ph": "",
+   "req": false,
+   "auto": ""
+  },
+  {
+   "name": "fullName",
+   "type": "text",
+   "ph": "",
+   "req": true,
+   "auto": "name"
+  },
+  {
+   "name": "workEmail",
+   "type": "email",
+   "ph": "",
+   "req": true,
+   "auto": "email"
+  },
+  {
+   "name": "companyWebsite",
+   "type": "text",
+   "ph": "",
+   "req": true,
+   "auto": "url"
+  },
+  {
+   "name": "what_is_your_primary_goal_with_siena",
+   "type": "hidden",
+   "ph": "",
+   "req": false,
+   "auto": ""
+  },
+  {
+   "name": "",
+   "type": "text",
+   "ph": "",
+   "req": true,
+   "auto": ""
+  },
+  {
+   "name": "ticketVolume",
+   "type": "hidden",
+   "ph": "",
+   "req": false,
+   "auto": ""
+  },
+  {
+   "name": "",
+   "type": "text",
+   "ph": "",
+   "req": true,
+   "auto": ""
+  },
+  {
+   "name": "helpDesk",
+   "type": "hidden",
+   "ph": "",
+   "req": false,
+   "auto": ""
+  },
+  {
+   "name": "",
+   "type": "text",
+   "ph": "",
+   "req": true,
+   "auto": ""
+  },
+  {
+   "name": "what_do_you_use_for_social_today",
+   "type": "hidden",
+   "ph": "",
+   "req": false,
+   "auto": ""
+  },
+  {
+   "name": "currentURL",
+   "type": "hidden",
+   "ph": "",
+   "req": false,
+   "auto": ""
+  },
+  {
+   "name": "website",
+   "type": "text",
+   "ph": "",
+   "req": false,
+   "auto": "one-time-code"
+  },
+  {
+   "name": "company",
+   "type": "text",
+   "ph": "",
+   "req": false,
+   "auto": "one-time-code"
+  },
+  {
+   "name": "message",
+   "type": "text",
+   "ph": "",
+   "req": false,
+   "auto": "one-time-code"
+  },
+  {
+   "name": "subject",
+   "type": "text",
+   "ph": "",
+   "req": false,
+   "auto": "one-time-code"
+  },
+  {
+   "name": "title",
+   "type": "text",
+   "ph": "",
+   "req": false,
+   "auto": "one-time-code"
+  },
+  {
+   "name": "description",
+   "type": "text",
+   "ph": "",
+   "req": false,
+   "auto": "one-time-code"
+  },
+  {
+   "name": "feedback",
+   "type": "text",
+   "ph": "",
+   "req": false,
+   "auto": "one-time-code"
+  },
+  {
+   "name": "notes",
+   "type": "text",
+   "ph": "",
+   "req": false,
+   "auto": "one-time-code"
+  },
+  {
+   "name": "details",
+   "type": "text",
+   "ph": "",
+   "req": false,
+   "auto": "one-time-code"
+  },
+  {
+   "name": "remarks",
+   "type": "text",
+   "ph": "",
+   "req": false,
+   "auto": "one-time-code"
+  },
+  {
+   "name": "comments",
+   "type": "text",
+   "ph": "",
+   "req": false,
+   "auto": "one-time-code"
+  }
+ ],
+ "inputFocus": {
+  "inp": {
+   "c": "rgb(0, 0, 0)",
+   "ff": "sans-serif",
+   "fs": "12px",
+   "lh": "normal",
+   "p": "0px",
+   "bg": "rgba(0, 0, 0, 0)",
+   "sh": "none",
+   "outline": "rgb(0, 0, 0) none 3px",
+   "tr": "all",
+   "caret": "rgb(0, 0, 0)"
+  },
+  "wrap": {
+   "bg": "rgba(0, 0, 0, 0)",
+   "sh": "none",
+   "tr": "all"
+  },
+  "label": null
+ },
+ "inputTyped": {
+  "inp": {
+   "c": "rgb(0, 0, 0)",
+   "ff": "sans-serif",
+   "fs": "12px",
+   "lh": "normal",
+   "p": "0px",
+   "bg": "rgba(0, 0, 0, 0)",
+   "sh": "none",
+   "outline": "rgb(0, 0, 0) none 3px",
+   "tr": "all",
+   "caret": "rgb(0, 0, 0)"
+  },
+  "wrap": {
+   "bg": "rgba(0, 0, 0, 0)",
+   "sh": "none",
+   "tr": "all"
+  },
+  "label": null
+ },
+ "nextHover": {
+  "bg": "rgba(0, 0, 0, 0)",
+  "bgi": "linear-gradient(90deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 17.5676%, rgb(251, 86, 70) 34.2342%, rgb(130, 122, 204) 54.0541%, rgb(46, 121, 216) 80.6306%, rgb(41, 79, 186) 100%)",
+  "tr": "all"
+ },
+ "afterSelectClick": []
+}

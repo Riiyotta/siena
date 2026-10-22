@@ -1,0 +1,161 @@
+{
+  "id": "section.feature.media-row",
+  "registryId": "section.feature.media-row",
+  "typeId": "feature.media-row",
+  "version": "1.0.0",
+  "category": "feature",
+  "purpose": "Alternating text + media row (repeatable). Image side alternates starting left.",
+  "evidenceLevel": "measured",
+  "variants": {
+    "insights": "512x512 illustration, H2 64/64, sub-20 body (1-2 paragraphs), optional demo button.",
+    "memory": "Product rows: eyebrow (bold), H2, serif body, chat-mock or image card 528x668.",
+    "topics": "Topics Explorer rows: H3 52/62.4 + star bullets, mock visual."
+  },
+  "composes": [
+    "primitive.text",
+    "primitive.image",
+    "primitive.button",
+    "component.chat-mock"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "eyebrow": {
+        "type": "string",
+        "maxWords": 6
+      },
+      "heading": {
+        "type": "string",
+        "maxWords": 10
+      },
+      "paragraphs": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "text": {
+              "type": "string",
+              "maxWords": 45
+            },
+            "copySource": {
+              "enum": [
+                "real",
+                "real-opening-placeholder-tail"
+              ]
+            }
+          },
+          "required": [
+            "text",
+            "copySource"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 0,
+        "maxItems": 2
+      },
+      "bullets": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "maxWords": 12
+        },
+        "minItems": 0,
+        "maxItems": 4
+      },
+      "cta": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string",
+            "maxWords": 4
+          },
+          "href": {
+            "type": "string",
+            "pattern": "^(/[a-z0-9/#-]*|#[a-z0-9-]+|https://[a-zA-Z0-9.-]+(/[^\\s]*)?|mailto:[a-z.]+@siena\\.cx)$"
+          },
+          "style": {
+            "enum": [
+              "xlg-dark"
+            ]
+          }
+        },
+        "required": [
+          "label",
+          "href",
+          "style"
+        ],
+        "additionalProperties": false
+      },
+      "media": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "enum": [
+              "product.ui-mock-image",
+              "image.card-background"
+            ]
+          },
+          "assetRef": {
+            "type": "string",
+            "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 24
+          }
+        },
+        "required": [
+          "assetRole",
+          "assetRef"
+        ],
+        "additionalProperties": false
+      },
+      "mediaSide": {
+        "enum": [
+          "left",
+          "right"
+        ]
+      }
+    },
+    "required": [
+      "heading",
+      "paragraphs",
+      "media",
+      "mediaSide"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none",
+      "scroll-reveal-spring",
+      "chat-stagger"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Column: image first (insights) / text first (memory), H2 48/48, body 16/22.4 or serif 14/21."
+    }
+  ],
+  "constraints": {
+    "repeatable": true,
+    "alternateMediaSide": true
+  },
+  "measuredFrom": [
+    "spec.t1.feature",
+    "jsx.insights",
+    "jsx.insightsdata",
+    "spec.pb.1.2",
+    "spec.pb.1.3"
+  ],
+  "copyPolicy": {
+    "paragraphs": "insights rows: real opening + placeholder tail"
+  }
+}

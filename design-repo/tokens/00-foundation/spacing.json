@@ -1,0 +1,297 @@
+{
+  "$description": "Spacing steps used by measured paddings and gaps (px).",
+  "foundation": {
+    "space": {
+      "2": {
+        "$type": "dimension",
+        "$value": "2px",
+        "$extensions": {
+          "cite": [
+            "spec.global.layout",
+            "spec.company.shorthands"
+          ]
+        }
+      },
+      "3": {
+        "$type": "dimension",
+        "$value": "3px",
+        "$extensions": {
+          "cite": [
+            "spec.global.layout",
+            "spec.company.shorthands"
+          ]
+        }
+      },
+      "4": {
+        "$type": "dimension",
+        "$value": "4px",
+        "$extensions": {
+          "cite": [
+            "spec.global.layout",
+            "spec.company.shorthands"
+          ]
+        }
+      },
+      "6": {
+        "$type": "dimension",
+        "$value": "6px",
+        "$extensions": {
+          "cite": [
+            "spec.global.layout",
+            "spec.company.shorthands"
+          ]
+        }
+      },
+      "8": {
+        "$type": "dimension",
+        "$value": "8px",
+        "$extensions": {
+          "cite": [
+            "spec.global.layout",
+            "spec.company.shorthands"
+          ]
+        }
+      },
+      "10": {
+        "$type": "dimension",
+        "$value": "10px",
+        "$extensions": {
+          "cite": [
+            "spec.global.layout",
+            "spec.company.shorthands"
+          ]
+        }
+      },
+      "12": {
+        "$type": "dimension",
+        "$value": "12px",
+        "$extensions": {
+          "cite": [
+            "spec.global.layout",
+            "spec.company.shorthands"
+          ]
+        }
+      },
+      "14": {
+        "$type": "dimension",
+        "$value": "14px",
+        "$extensions": {
+          "cite": [
+            "spec.global.layout",
+            "spec.company.shorthands"
+          ]
+        }
+      },
+      "16": {
+        "$type": "dimension",
+        "$value": "16px",
+        "$extensions": {
+          "cite": [
+            "spec.global.layout",
+            "spec.company.shorthands"
+          ]
+        }
+      },
+      "18": {
+        "$type": "dimension",
+        "$value": "18px",
+        "$extensions": {
+          "cite": [
+            "spec.global.layout",
+            "spec.company.shorthands"
+          ]
+        }
+      },
+      "20": {
+        "$type": "dimension",
+        "$value": "20px",
+        "$extensions": {
+          "cite": [
+            "spec.global.layout",
+            "spec.company.shorthands"
+          ]
+        }
+      },
+      "24": {
+        "$type": "dimension",
+        "$value": "24px",
+        "$extensions": {
+          "cite": [
+            "spec.global.layout",
+            "spec.company.shorthands"
+          ]
+        }
+      },
+      "28": {
+        "$type": "dimension",
+        "$value": "28px",
+        "$extensions": {
+          "cite": [
+            "spec.global.layout",
+            "spec.company.shorthands"
+          ]
+        }
+      },
+      "32": {
+        "$type": "dimension",
+        "$value": "32px",
+        "$extensions": {
+          "cite": [
+            "spec.global.layout",
+            "spec.company.shorthands"
+          ]
+        }
+      },
+      "40": {
+        "$type": "dimension",
+        "$value": "40px",
+        "$extensions": {
+          "cite": [
+            "spec.global.layout",
+            "spec.company.shorthands"
+          ]
+        }
+      },
+      "48": {
+        "$type": "dimension",
+        "$value": "48px",
+        "$extensions": {
+          "cite": [
+            "spec.global.layout",
+            "spec.company.shorthands"
+          ]
+        }
+      },
+      "56": {
+        "$type": "dimension",
+        "$value": "56px",
+        "$extensions": {
+          "cite": [
+            "spec.global.layout",
+            "spec.company.shorthands"
+          ]
+        }
+      },
+      "64": {
+        "$type": "dimension",
+        "$value": "64px",
+        "$extensions": {
+          "cite": [
+            "spec.global.layout",
+            "spec.company.shorthands"
+          ]
+        }
+      },
+      "72": {
+        "$type": "dimension",
+        "$value": "72px",
+        "$extensions": {
+          "cite": [
+            "spec.global.layout",
+            "spec.company.shorthands"
+          ]
+        }
+      },
+      "80": {
+        "$type": "dimension",
+        "$value": "80px",
+        "$extensions": {
+          "cite": [
+            "spec.global.layout",
+            "spec.company.shorthands"
+          ]
+        }
+      },
+      "96": {
+        "$type": "dimension",
+        "$value": "96px",
+        "$extensions": {
+          "cite": [
+            "spec.global.layout",
+            "spec.company.shorthands"
+          ]
+        }
+      },
+      "100": {
+        "$type": "dimension",
+        "$value": "100px",
+        "$extensions": {
+          "cite": [
+            "spec.global.layout",
+            "spec.company.shorthands"
+          ]
+        }
+      },
+      "112": {
+        "$type": "dimension",
+        "$value": "112px",
+        "$extensions": {
+          "cite": [
+            "spec.global.layout",
+            "spec.company.shorthands"
+          ]
+        }
+      },
+      "120": {
+        "$type": "dimension",
+        "$value": "120px",
+        "$extensions": {
+          "cite": [
+            "spec.global.layout",
+            "spec.company.shorthands"
+          ]
+        }
+      },
+      "136": {
+        "$type": "dimension",
+        "$value": "136px",
+        "$extensions": {
+          "cite": [
+            "spec.global.layout",
+            "spec.company.shorthands"
+          ]
+        }
+      },
+      "160": {
+        "$type": "dimension",
+        "$value": "160px",
+        "$extensions": {
+          "cite": [
+            "spec.global.layout",
+            "spec.company.shorthands"
+          ]
+        }
+      },
+      "168": {
+        "$type": "dimension",
+        "$value": "168px",
+        "$extensions": {
+          "cite": [
+            "spec.global.layout",
+            "spec.company.shorthands"
+          ]
+        }
+      },
+      "180": {
+        "$type": "dimension",
+        "$value": "180px",
+        "$extensions": {
+          "cite": [
+            "spec.global.layout",
+            "spec.company.shorthands"
+          ]
+        }
+      },
+      "200": {
+        "$type": "dimension",
+        "$value": "200px",
+        "$extensions": {
+          "cite": [
+            "spec.global.layout",
+            "spec.company.shorthands"
+          ]
+        }
+      }
+    }
+  }
+}

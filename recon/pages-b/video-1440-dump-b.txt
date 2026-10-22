@@ -1,0 +1,208 @@
+##### Scroll Area@0@16
+div "Scroll Area" [0,1406,1440x2720] flex-row gap:64px jc:center ai:flex-start p:0px 96px bg:#FFFFFF
+  div "Content" [176,1406,512x2720] flex-column gap:10px jc:center ai:center maxw:512px
+    div "1" [176,1406,512x900] flex-column gap:32px jc:center ai:flex-start z:1
+      div [176,1672,512x125] flex-column gap:24px jc:center ai:center
+        div [176,1672,512x125] flex-column gap:normal jc:flex-start ai:normal z:1
+          h3 [176,1672,512x125] TEXT"Process warranty claims faster" {Feature Deck Web Regular 400 52px/62.4px ls:normal #122023 left}
+      div [176,1828,512x84] flex-column gap:normal jc:flex-start ai:normal maxw:564px z:1
+        p [176,1828,512x84] TEXT"Customers show you damaged products on video. Siena watches, understands, and resolves claims without your team ever pressing play." {Tiempos Text Regular 400 20px/28px ls:normal #000000 start}
+      div [176,1944,512x96] flex-column gap:12px jc:center ai:center ov:hidden
+        div [176,1944,512x24] flex-row gap:10px jc:center ai:center ov:hidden
+          div "star-four-light 1" [176,1944,24x24]
+            div [176,1944,24x24]
+              svg [176,1944,24x24] ov:hidden svg col:#000000
+          div [210,1945,478x23] flex-column gap:normal jc:flex-start ai:normal maxw:564px z:1
+            p [210,1945,478x23] TEXT"Instant damage assessment" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+        div [176,1980,512x24] flex-row gap:10px jc:center ai:center ov:hidden
+          div "star-four-light 1" [176,1980,24x24]
+            div [176,1980,24x24]
+              svg [176,1980,24x24] ov:hidden svg col:#000000
+          div [210,1981,478x23] flex-column gap:normal jc:flex-start ai:normal maxw:564px z:1
+            p [210,1981,478x23] TEXT"Automated claim decisions" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 left}
+        div [176,2016,512x24] flex-row gap:10px jc:center ai:center ov:hidden
+          div "star-four-light 1" [176,2016,24x24]
+            div [176,2016,24x24]
+              svg [176,2016,24x24] ov:hidden svg col:#000000
+          div [210,2017,478x23] flex-column gap:normal jc:flex-start ai:normal maxw:564px z:1
+            p [210,2017,478x23] TEXT"Scale without adding headcount" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 left}
+    div "2" [176,2316,512x900] flex-column gap:32px jc:center ai:flex-start z:1
+      div "Text Content" [176,2582,512x369] flex-column gap:32px jc:center ai:center ov:clip
+        div [176,2582,512x125] flex-column gap:24px jc:center ai:center
+          div [176,2582,512x125] flex-column gap:normal jc:flex-start ai:normal z:1
+            h3 [176,2582,512x125] TEXT"See what customers see" {Feature Deck Web Regular 400 52px/62.4px ls:normal #122023 left}
+        div [176,2738,512x84] flex-column gap:normal jc:flex-start ai:normal maxw:564px z:1
+          p [176,2738,512x84] TEXT"When customers show instead of tell, Siena gets the full picture. Visual context means faster resolution and happier customers." {Tiempos Text Regular 400 20px/28px ls:normal #000000 start}
+        div [176,2854,512x96] flex-column gap:12px jc:center ai:center ov:hidden
+          div [176,2854,512x24] flex-row gap:10px jc:center ai:center ov:hidden
+            div "star-four-light 1" [176,2854,24x24]
+              div [176,2854,24x24]
+                svg [176,2854,24x24] ov:hidden svg col:#000000
+            div [210,2855,478x23] flex-column gap:normal jc:flex-start ai:normal maxw:564px z:1
+              p [210,2855,478x23] TEXT"Product defect verification" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 left}
+          div [176,2890,512x24] flex-row gap:10px jc:center ai:center ov:hidden
+            div "star-four-light 1" [176,2890,24x24]
+              div [176,2890,24x24]
+                svg [176,2890,24x24] ov:hidden svg col:#000000
+            div [210,2891,478x23] flex-column gap:normal jc:flex-start ai:normal maxw:564px z:1
+              p [210,2891,478x23] TEXT"Visual troubleshooting" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 left}
+          div [176,2926,512x24] flex-row gap:10px jc:center ai:center ov:hidden
+            div "star-four-light 1" [176,2926,24x24]
+              div [176,2926,24x24]
+                svg [176,2926,24x24] ov:hidden svg col:#000000
+            div [210,2927,478x23] flex-column gap:normal jc:flex-start ai:normal maxw:564px z:1
+              p [210,2927,478x23] TEXT"Shipping damage evaluation" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 left}
+    div "3" [176,3226,512x900] flex-column gap:32px jc:center ai:flex-start z:1
+      div "Text Content" [176,3449,512x454] flex-column gap:32px jc:center ai:flex-start ov:clip
+        div [176,3449,512x125] flex-column gap:24px jc:center ai:center
+          div [176,3449,512x125] flex-column gap:normal jc:flex-start ai:normal z:1
+            h3 [176,3449,512x125] TEXT"Give your team hours back" {Feature Deck Web Regular 400 52px/62.4px ls:normal #122023 left}
+        div [176,3606,512x84] flex-column gap:normal jc:flex-start ai:normal maxw:564px z:1
+          p [176,3606,512x84] TEXT"Every video ticket used to mean watching, pausing, screenshotting, and documenting. Siena handles all of it instantly so your team focuses on work that matters." {Tiempos Text Regular 400 20px/28px ls:normal #000000 start}
+        div [176,3722,512x92] flex-column gap:12px jc:center ai:center ov:hidden
+          div [176,3722,512x92] flex-column gap:10px jc:center ai:center ov:clip
+            div [176,3722,512x24] flex-row gap:10px jc:center ai:center ov:hidden
+              div "star-four-light 1" [176,3722,24x24]
+                div [176,3722,24x24]
+                  svg [176,3722,24x24] ov:hidden svg col:#000000
+              div [210,3722,478x23] flex-column gap:normal jc:flex-start ai:normal maxw:564px z:1
+                p [210,3722,478x23] TEXT"Hours saved per agent weekly" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 left}
+            div [176,3756,512x24] flex-row gap:10px jc:center ai:center ov:hidden
+              div "star-four-light 1" [176,3756,24x24]
+                div [176,3756,24x24]
+                  svg [176,3756,24x24] ov:hidden svg col:#000000
+              div [210,3756,478x23] flex-column gap:normal jc:flex-start ai:normal maxw:564px z:1
+                p [210,3756,478x23] TEXT"Faster ticket resolution" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 left}
+            div [176,3790,512x24] flex-row gap:10px jc:center ai:center ov:hidden
+              div "star-four-light 1" [176,3790,24x24]
+                div [176,3790,24x24]
+                  svg [176,3790,24x24] ov:hidden svg col:#000000
+              div [210,3790,478x23] flex-column gap:normal jc:flex-start ai:normal maxw:564px z:1
+                p [210,3790,478x23] TEXT"Higher team capacity" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 left}
+        div [176,3846,157x58]
+          a "xlg" [176,3846,157x58] flex-row gap:10px jc:center ai:center p:18px 24px bg:#122023 bgi:linear-gradient(90deg, rgb(18, 32, 35) 0%, rgb(18, 32, 35) 20%, rgb(18, 32, 35) 40%, rgb(18, 32, 35) 60%, rgb(18, 32, 35) 80%, rgb(18, 32, 35) 100%) r:16px
+            div "Text" [200,3864,109x22] flex-column gap:normal jc:flex-start ai:normal
+              p [200,3864,109x22] TEXT"Book a demo" {Instrument Sans 600 18px/21.6px ls:normal #FFFFFF left}
+  div "Sticky" [752,1406,512x900] flex-row gap:10px jc:center ai:center p:110px 0px 40px sticky(t:0px r:auto b:auto l:auto) maxw:512px z:1
+    div "Sticky Image" [752,1568,512x647] r:24px maxw:512px
+      div [749,1743,518x296] absolute(t:323.406px r:-262px b:27.4062px l:256px) tf:matrix(1, 0, 0, 1, -259, -148)
+        div "Stage 1" [749,1743,518x296] flex-column gap:24px jc:center ai:center
+          div "Card" [749,1743,518x296] flex-row gap:10px jc:center ai:center p:2px r:16px
+            div "01" [751,1745,514x292] flex-column gap:24px jc:flex-start ai:center p:8px bg:#FAF7F1 r:15px
+              div [759,1753,498x276] flex-row gap:10px jc:center ai:center r:10px ov:clip
+                div [759,1753,498x276] absolute(t:0px r:0px b:0px l:0px) filter:blur(0px) z:1
+                  video [759,1753,498x276] ov:clip video:https://framerusercontent.com/assets/x4A0FFLvT1jKKMmC1BeB2sDrts.mp4 fit:cover loop:true muted:true autoplay:false
+                div [759,1753,498x276] op:0.5 filter:blur(14px) z:0
+                  video [759,1753,498x276] ov:clip video:https://framervideos.b-cdn.net/Abstract%20Landscape%20Moving%20Shapes.mp4 fit:cover loop:true muted:true autoplay:false
+          div "Review" [736,1809,209x116] flex-row gap:12px jc:flex-start ai:center p:1px bgi:linear-gradient(255deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 14.8649%, rgb(251, 86, 70) 32.8829%, rgb(130, 122, 204) 52.2523%, rgb(46, 121, 216) 79.7297%, rgb(171, 171, 171) 100%) r:16px op:0 absolute(t:16px r:322px b:164.375px l:-13px) ov:hidden bf:blur(6px) tf:matrix(1, 0, 0, 1, 0, 50) z:1
+            div [737,1810,207x114] flex-row gap:12px jc:center ai:center p:10px bg:#FFFFFF r:16px
+              div "Text container" [747,1820,187x94] flex-column gap:4px jc:center ai:flex-start
+                div "Great product!" [747,1820,187x94] flex-column gap:normal jc:flex-start ai:normal
+                  p [747,1820,187x94] TEXT"My headphones came damaged out-of-the-box, is this covered by the warranty?" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+          div "Content" [776,1651,463x47] flex-row gap:8px jc:flex-start ai:center r:0px 0px 8px 8px absolute(t:-92px r:-204.297px b:340.594px l:259px) tf:matrix(1, 0, 0, 1, -231.648, 0) z:1
+            div "Frame 2147257924" [776,1651,134x47] flex-row gap:8px jc:flex-start ai:center p:12px 16px bg:#FAF7F1 r:16px
+              div "Order #1342" [792,1663,102x23] flex-column gap:normal jc:flex-start ai:normal
+                p [792,1663,102x23] TEXT"Order #4521" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+            div "•" [918,1665,6x19] flex-column gap:normal jc:flex-start ai:normal
+              p [918,1665,6x19] TEXT"•" {Feature Deck 400 16px/19.2px ls:normal #414D4F start}
+            div "Frame 2147257925" [932,1651,162x47] flex-row gap:8px jc:flex-start ai:center p:12px 16px bg:#FAF7F1 r:16px
+              div "12/01/2024" [948,1663,130x23] flex-column gap:normal jc:flex-start ai:normal
+                p [948,1663,130x23] TEXT"Shipped: Jan 23" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+            div "•" [1102,1665,6x19] flex-column gap:normal jc:flex-start ai:normal
+              p [1102,1665,6x19] TEXT"•" {Feature Deck 400 16px/19.2px ls:normal #414D4F start}
+            div "Frame 2147257926" [1115,1651,124x47] flex-row gap:8px jc:flex-start ai:center p:12px 16px bg:#FAF7F1 r:16px
+              div "Inside 30 days guarantee" [1131,1663,92x23] flex-column gap:normal jc:flex-start ai:normal
+                p [1131,1663,92x23] TEXT"ETA Jan 29" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+##### Your team of expert agents@0@16
+div "Your team of expert agents" [0,4126,1440x1016] flex-column gap:72px jc:center ai:center p:80px 96px bg:#FAF7F1
+  div "Blur out" [0,4126,1440x75] flex-row gap:10px jc:center ai:center bgi:linear-gradient(rgb(255, 255, 255) 0%, rgb(250, 247, 241) 100%) absolute(t:0px r:0px b:941.438px l:0px) ov:hidden
+  div "Blur out" [0,5067,1440x75] flex-row gap:10px jc:center ai:center bgi:linear-gradient(rgb(250, 247, 241) 40%, rgb(255, 255, 255) 100%) absolute(t:941.438px r:0px b:0px l:0px) ov:hidden
+  div "Title" [189,4206,1062x110] flex-column gap:24px jc:center ai:center maxw:1062px z:1
+    div [648,4206,143x22] flex-column gap:normal jc:flex-start ai:normal maxw:564px z:1
+      p [648,4206,143x22] TEXT"how it works" {Instrument Sans 600 16px/22.4px ls:1.7px #122023 uppercase center}
+    div [189,4252,1062x64] flex-column gap:normal jc:flex-start ai:normal z:1
+      h2 [189,4252,1062x64] TEXT"Video intelligence for customer service" {Feature Deck Web Light 400 64px/64px ls:-1.28px #122023 center}
+  div "Container" [120,4388,1200x674] flex-column gap:72px jc:center ai:center maxw:1200px
+    div "Card/Gallery" [120,4388,1200x382] flex-column gap:24px jc:flex-start ai:flex-start p:32px bg:#FFFFFF/0 r:24px z:0
+      div "Card grid" [152,4420,960x318] maxw:960px
+        div "Card" [176,4414,428x245] flex-row gap:10px jc:center ai:center p:2px r:16px absolute(t:-6px r:508px b:79px l:24px)
+          div "01" [178,4416,424x241] flex-column gap:24px jc:flex-start ai:center p:8px bg:#FAF7F1 r:15px
+            div [186,4424,408x225] flex-row gap:10px jc:center ai:center r:10px ov:clip
+              div [186,4424,408x225] z:1
+                video [186,4424,408x225] ov:clip video:https://framerusercontent.com/assets/4gloqJyU9yH0U5zKatZKkGxpiA.mp4 fit:cover loop:true muted:true autoplay:true
+          div [158,4401,464x267] op:0.5 absolute(t:-13px r:-18px b:-9px l:-18px) filter:blur(14px) z:-1
+            video [158,4401,464x267] ov:clip video:https://framervideos.b-cdn.net/Abstract%20Landscape%20Moving%20Shapes.mp4 fit:cover loop:true muted:true autoplay:true
+        div [739,4380,373x251] flex-column gap:16px jc:center ai:center absolute(t:-40px r:0px b:107.188px l:587px)
+          div [925,4410,1x234] op:0.837595 absolute(t:30.8125px r:186.5px b:-54px l:185.5px) tf:matrix(0.853835, 0, 0, 0.853835, 0, -21.1127)
+            div [925,4410,1x234] absolute(t:0px r:0px b:0px l:0px)
+              div [925,4410,1x234]
+                svg [925,4410,1x234] svg col:#000000
+            div [919,4639,12x6] absolute(t:268px r:-6px b:-1px l:-7px)
+              div [919,4639,12x6]
+                svg [919,4639,12x6] svg col:#000000
+          div "Agent-Note" [739,4380,373x60] flex-row gap:normal jc:space-between ai:center p:12px 12px 12px 20px bg:#FFFFFF r:16px
+            div "Analyzing video provided..." [759,4394,161x34] flex-column gap:normal jc:flex-start ai:normal
+              h6 [759,4394,161x34]
+                span [759,4395,100x30]
+                  span [759,4394,16x34] filter:blur(0px) TEXT"A" {Feature Deck Web Regular 400 24px/33.6px ls:normal #122023 start}
+                  span [775,4394,13x34] filter:blur(0px) TEXT"n" {Feature Deck Web Regular 400 24px/33.6px ls:normal #122023 start}
+                  span [788,4394,12x34] filter:blur(0px) TEXT"a" {Feature Deck Web Regular 400 24px/33.6px ls:normal #122023 start}
+                  span [800,4394,6x34] filter:blur(0px) TEXT"l" {Feature Deck Web Regular 400 24px/33.6px ls:normal #122023 start}
+                  span [806,4394,12x34] filter:blur(0px) TEXT"y" {Feature Deck Web Regular 400 24px/33.6px ls:normal #122023 start}
+                  span [818,4394,11x34] filter:blur(0px) TEXT"z" {Feature Deck Web Regular 400 24px/33.6px ls:normal #122023 start}
+                  span [828,4394,6x34] filter:blur(0px) TEXT"i" {Feature Deck Web Regular 400 24px/33.6px ls:normal #122023 start}
+                  span [834,4394,13x34] filter:blur(0px) TEXT"n" {Feature Deck Web Regular 400 24px/33.6px ls:normal #122023 start}
+                  span [848,4394,11x34] filter:blur(0px) TEXT"g" {Feature Deck Web Regular 400 24px/33.6px ls:normal #122023 start}
+                span [863,4395,57x30]
+                  span [863,4394,12x34] filter:blur(0px) TEXT"v" {Feature Deck Web Regular 400 24px/33.6px ls:normal #122023 start}
+                  span [876,4394,6x34] filter:blur(0px) TEXT"i" {Feature Deck Web Regular 400 24px/33.6px ls:normal #122023 start}
+                  span [881,4394,14x34] filter:blur(0px) TEXT"d" {Feature Deck Web Regular 400 24px/33.6px ls:normal #122023 start}
+                  span [895,4394,12x34] filter:blur(0px) TEXT"e" {Feature Deck Web Regular 400 24px/33.6px ls:normal #122023 start}
+                  span [907,4394,13x34] filter:blur(0px) TEXT"o" {Feature Deck Web Regular 400 24px/33.6px ls:normal #122023 start}
+            div [1048,4392,52x36]
+              dotlottie-player [1048,4392,52x36]
+          div "Content" [746,4456,360x175] flex-column gap:16px jc:flex-start ai:center r:0px 0px 8px 8px z:1
+            div "Frame 2147257924" [746,4456,360x47] flex-row gap:8px jc:flex-start ai:center p:12px 16px bg:#FFFFFF r:16px
+              div "Order #1342" [762,4468,328x23] flex-column gap:normal jc:flex-start ai:normal
+                p [762,4468,328x23] TEXT"Recognizing brand, product, and model" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+            div "Frame 2147257925" [757,4520,337x48] flex-row gap:8px jc:flex-start ai:center p:12px 16px bg:#FFFFFF r:16px
+              div "12/01/2024" [773,4532,305x23] flex-column gap:normal jc:flex-start ai:normal
+                p [773,4532,305x23] TEXT"Pulling info from the documentation" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+            div "Frame 2147257926" [816,4590,219x47] flex-row gap:8px jc:flex-start ai:center p:12px 16px bg:#FFFFFF r:16px op:0.874109 tf:matrix(1, 0, 0, 1, 0, 6.29455)
+              div "Inside 30 days guarantee" [832,4602,187x23] flex-column gap:normal jc:flex-start ai:normal
+                p [832,4602,187x23] TEXT"Checking video details" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+          div "Review" [747,4698,357x92] flex-row gap:12px jc:flex-start ai:center p:1px bgi:linear-gradient(255deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 14.8649%, rgb(251, 86, 70) 32.8829%, rgb(130, 122, 204) 52.2523%, rgb(46, 121, 216) 79.7297%, rgb(171, 171, 171) 100%) r:16px op:0.973518 absolute(t:316.594px r:-170.5px b:-158px l:186.5px) ov:hidden bf:blur(6px) tf:matrix(1, 0, 0, 1, -178.5, 1.32408) z:1
+            div [748,4699,355x90] flex-row gap:12px jc:center ai:center p:10px bg:#FFFFFF r:16px
+              div "Text container" [758,4709,335x70] flex-row gap:20px jc:center ai:center
+                div "Great product!" [758,4709,291x70] flex-column gap:normal jc:flex-start ai:normal
+                  p [758,4709,291x70] TEXT"Your grind is too coarse. Try a finer setting and tamp with more pressure." {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+                div "sparkles-two-2" [1069,4732,24x24]
+                  div [1069,4732,24x24]
+                    svg [1069,4732,24x24] ov:hidden svg col:#000000
+        div "Review" [283,4619,209x116] flex-row gap:12px jc:flex-start ai:center p:1px bgi:linear-gradient(255deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 14.8649%, rgb(251, 86, 70) 32.8829%, rgb(130, 122, 204) 52.2523%, rgb(46, 121, 216) 79.7297%, rgb(171, 171, 171) 100%) r:16px absolute(t:198.375px r:620px b:4px l:131px) ov:hidden bf:blur(6px) z:1
+          div [284,4620,207x114] flex-row gap:12px jc:center ai:center p:10px bg:#FFFFFF r:16px
+            div "Text container" [294,4630,187x94] flex-column gap:4px jc:center ai:flex-start
+              div "Great product!" [294,4630,187x94] flex-column gap:normal jc:flex-start ai:normal
+                p [294,4630,187x94] TEXT"My espresso is coming out watery. Can you see what I'm doing wrong?" {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+    div [120,4842,1200x220] flex-row gap:32px jc:center ai:flex-start ov:hidden maxw:1325px
+      div "Title" [120,4842,379x220] flex-column gap:16px jc:center ai:flex-start p:32px 0px 0px maxw:416px z:1
+        div [120,4874,24x24] flex-column gap:normal jc:flex-start ai:normal maxw:564px z:1
+          p [120,4874,24x24] TEXT"" {Font Awesome 6 Sharp Light 400 24px/24px ls:normal #122023 center}
+        div [120,4914,379x38] flex-column gap:normal jc:flex-start ai:normal z:1
+          h5 [120,4914,379x38] TEXT"Capture" {Feature Deck Web Regular 400 32px/38.4px ls:normal #122023 left}
+        div [120,4969,379x94] flex-column gap:normal jc:flex-start ai:normal op:0.8 z:1
+          p [120,4969,379x94] TEXT"Customers send videos through Live Chat, Helpdesks or integrations like Hark. Siena picks them up automatically, no configuration needed." {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #122023 left}
+      div "Title" [531,4842,379x220] flex-column gap:16px jc:center ai:flex-start p:32px 0px 0px maxw:416px z:1
+        div [531,4874,24x24] flex-column gap:normal jc:flex-start ai:normal maxw:564px z:1
+          p [531,4874,24x24] TEXT"" {Font Awesome 6 Sharp Light 400 24px/24px ls:normal #122023 center}
+        div [531,4914,379x38] flex-column gap:normal jc:flex-start ai:normal z:1
+          h5 [531,4914,379x38] TEXT"Understand" {Feature Deck Web Regular 400 32px/38.4px ls:normal #122023 left}
+        div [531,4969,379x94] flex-column gap:normal jc:flex-start ai:normal op:0.8 z:1
+          p [531,4969,379x94] TEXT"Siena watches every frame and extracts what matters. Damaged products, missing parts, shipping issues, defects. Context your team would spend minutes gathering." {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #122023 left}
+      div "Title" [941,4842,379x197] flex-column gap:16px jc:center ai:flex-start p:32px 0px 0px maxw:416px z:1
+        div [941,4874,21x24] flex-column gap:normal jc:flex-start ai:normal maxw:564px z:1
+          p [941,4874,21x24] TEXT"" {Font Awesome 6 Sharp Light 400 24px/24px ls:normal #122023 center}
+        div [941,4914,379x38] flex-column gap:normal jc:flex-start ai:normal z:1
+          h5 [941,4914,379x38] TEXT"Resolve" {Feature Deck Web Regular 400 32px/38.4px ls:normal #122023 left}
+        div [941,4969,379x70] flex-column gap:normal jc:flex-start ai:normal op:0.8 z:1
+          p [941,4969,379x70] TEXT"Claims processed, tickets updated, customers answered. What used to take manual review now happens instantly, at any volume." {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #122023 left}

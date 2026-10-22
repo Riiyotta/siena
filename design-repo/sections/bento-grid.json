@@ -1,0 +1,138 @@
+{
+  "id": "section.bento.grid",
+  "registryId": "section.bento.grid",
+  "typeId": "bento.grid",
+  "version": "1.0.0",
+  "category": "feature",
+  "purpose": "Bento of large white cards + 3-column icon tiles.",
+  "evidenceLevel": "spec-measured",
+  "variants": {
+    "social": "'More in the box': card A + card B + 3x2 tiles.",
+    "reviews": "Integrations header with Siena x platform lockup + 2-card row + tiles.",
+    "docs": "'Built for the way modern brands actually work': 4 cards, staggered mini-doc reveals."
+  },
+  "composes": [
+    "primitive.text",
+    "primitive.icon"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "eyebrow": {
+        "type": "string",
+        "maxWords": 7
+      },
+      "title": {
+        "type": "string",
+        "maxWords": 12,
+        "description": "Plain text; wrap at most one phrase in *asterisks* to render it in the display italic cut.",
+        "pattern": "^[^*]*(\\*[^*]+\\*[^*]*)?$"
+      },
+      "subtitle": {
+        "type": "string",
+        "maxWords": 35
+      },
+      "cards": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string",
+              "maxWords": 6
+            },
+            "text": {
+              "type": "string",
+              "maxWords": 25
+            },
+            "visual": {
+              "type": "string",
+              "maxWords": 3,
+              "pattern": "^[a-z0-9-]+$"
+            }
+          },
+          "required": [
+            "title",
+            "visual"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 1,
+        "maxItems": 4
+      },
+      "tiles": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "icon": {
+              "type": "object",
+              "properties": {
+                "assetRole": {
+                  "const": "icon.glyph"
+                },
+                "codepoint": {
+                  "type": "string",
+                  "pattern": "^U\\+[0-9A-F]{4}$"
+                }
+              },
+              "required": [
+                "assetRole",
+                "codepoint"
+              ],
+              "additionalProperties": false
+            },
+            "title": {
+              "type": "string",
+              "maxWords": 4
+            },
+            "text": {
+              "type": "string",
+              "maxWords": 14
+            }
+          },
+          "required": [
+            "icon",
+            "title",
+            "text"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 0,
+        "maxItems": 6
+      }
+    },
+    "required": [
+      "title",
+      "cards",
+      "tiles"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "scroll-reveal-spring",
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Single column; tiles centered."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "spec.pa.2.4",
+    "spec.pa.3.6",
+    "spec.pb.4.4"
+  ]
+}

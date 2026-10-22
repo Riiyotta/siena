@@ -1,0 +1,42 @@
+/* CLONE_SPEC §10 / §13 — footer link + social button states. */
+.footer-link {
+  display: inline-block;
+  font-family: "Instrument Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0;
+  color: rgba(255, 255, 255, 0.5);
+  white-space: pre;
+}
+.footer-link:hover,
+.footer-link:focus-visible { color: #97BDFF; }
+
+.footer-social {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  border-radius: 12px;
+  background-color: #122023;
+  color: #F4F5F5;
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+}
+/* Framer "Secondary / md" border: 1px rgba(0,0,0,0.5), drawn as overlay (not in layout box). */
+.footer-social::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: inherit;
+  pointer-events: none;
+}
+.footer-social:hover,
+.footer-social:focus-visible {
+  background-color: #F4F5F5;
+  color: #122023;
+}

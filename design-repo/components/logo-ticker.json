@@ -1,0 +1,34 @@
+{
+  "registryId": "component.logo-ticker",
+  "version": "1.0.0",
+  "category": "motion",
+  "description": "Infinite horizontal logo row (list duplicated). Variants: homepage two rows (row 1 right, row 2 left, gap 112/72, no mask); single row with edge mask (compare 45 px/s gap 96; add-ons/product 30 px/s gap 64/96); community masked row gap 96.",
+  "composes": [
+    "primitive.logo-mark"
+  ],
+  "props": {
+    "rows": {
+      "enum": [
+        1,
+        2
+      ]
+    },
+    "speed": {
+      "enum": [
+        "{foundation.speed.ticker}",
+        "{foundation.speed.ticker-compare}"
+      ]
+    },
+    "mask": {
+      "type": "boolean"
+    }
+  },
+  "measuredFrom": [
+    "spec.ticker.speed",
+    "jsx.ticker",
+    "spec.compare.ticker",
+    "spec.pb.ticker",
+    "jsx.co.hticker"
+  ],
+  "motion": "{motion.recipe.ticker-horizontal}"
+}

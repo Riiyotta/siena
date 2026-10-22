@@ -1,0 +1,70 @@
+
+### /terms-of-service
+
+- Document height 1440 = 17630px; content rich-text block 1120x16725 at y=391
+  - [intro] "(intro)" — 5 p, 402 w
+  - [ol>li>h2 (auto-numbered)] "THE PLATFORM" — 1 p, 40 w
+  - [ol>li>h2 (auto-numbered)] "AI GOVERNANCE AND USAGE OF THE PLATFORM" — 6 p, 450 w
+  - [h2] "3. FEES" — 7 p, 487 w
+  - [h2] "4. ORDER FORMS" — 4 p, 176 w
+  - [h2] "5. INTELLECTUAL PROPERTY RIGHTS" — 3 p, 226 w; lists ul(6) (110 w in items)
+  - [h2] "6. USER CONTENT" — 5 p, 514 w; lists ul(6) (128 w in items)
+  - [h2] "7. USER CONDUCT" — 2 p, 117 w; lists ul(12) (295 w in items)
+  - [h2] "8. INDEMNIFICATION" — 5 p, 463 w
+  - [h2] "9. DISCLAIMER" — 1 p, 96 w
+  - [ol>li>h2 (auto-numbered)] "CONFIDENTIALITY" — 5 p, 293 w
+  - [ol>li>h2 (auto-numbered)] "WARRANTY" — 2 p, 259 w
+  - [ol>li>h2 (auto-numbered)] "LIMITATION OF LIABILITY" — 3 p, 273 w
+  - [ol>li>h2 (auto-numbered)] "EXTERNAL SITES" — 1 p, 92 w
+  - [ol>li>h2 (auto-numbered)] "SUSPENSION OR TERMINATION" — 1 p, 160 w
+  - [ol>li>h2 (auto-numbered)] "ASSIGNMENT" — 1 p, 67 w
+  - [ol>li>h2 (auto-numbered)] "PERSONAL DATA" — 2 p, 108 w
+  - [ol>li>h2 (auto-numbered)] "SEVERABILITY AND ENFORCEMENT" — 2 p, 76 w
+  - [ol>li>h2 (auto-numbered)] "GOVERNING LAW AND JURISDICTION" — 4 p, 253 w
+  - [h2] "Data Processing Agreement" — 2 p, 83 w
+  - [h3] "Whereas:" — 0 p, 0 w; lists ol(3) (61 w in items)
+  - [h3] "The parties have agreed as follows:" — 0 p, 253 w; lists ol(6) (1880 w in items)
+  - [h3] "APPENDIX 2" — 2 p, 51 w
+  - [h4] "1. General organizational measures" — 0 p, 0 w; lists ol(2) (81 w in items)
+  - [h4] "2. Training and awareness" — 0 p, 0 w; lists ol(1) (39 w in items)
+  - [h4] "3. Physical and environmental security" — 0 p, 0 w; lists ol(3) (82 w in items)
+  - [h4] "4. Access control" — 0 p, 0 w; lists ol(4) (320 w in items)
+  - [h4] "5. Asset and operations management" — 0 p, 0 w; lists ol(3) (135 w in items)
+  - [h4] "6. Incident management" — 0 p, 0 w; lists ol(3) (165 w in items)
+  - [h3] "APPENDIX 4" — 0 p, 0 w
+  - [h3] "US Data Protection Laws Addendum" — 8 p, 87 w; lists ol(9) ol(4) (1074 w in items)
+
+### /privacy-policy
+
+- Document height 1440 = 13958px; content rich-text block 1120x13044 at y=399
+  - [intro] "(intro)" — 2 p, 116 w
+  - [h2] "1. Scope of this policy" — 1 p, 5 w; lists ul(6) (165 w in items)
+  - [h3] "Who we are and whose data we process:" — 5 p, 237 w; lists ol(7) (62 w in items)
+  - [h2] "2. The information we collect" — 16 p, 989 w; lists ol(1) ul(6) ul(5) ul(3) ol(1) ol(1) ol(1) ol(1) (234 w in items)
+  - [h2] "3. How we use your information" — 2 p, 79 w; lists ul(8) (127 w in items)
+  - [h3] "Aggregate/De-identified information:" — 5 p, 180 w; lists ol(1) ul(7) ol(1) ul(1) ol(1) ul(1) ol(2) ul(3) ol(1) ul(3) (441 w in items)
+  - [h2] "5. Online analytics and advertising" — 0 p, 0 w
+  - [h3] "ANALYTICS" — 2 p, 118 w
+  - [h3] "ONLINE ADVERTISING" — 2 p, 228 w
+  - [h3] "DO NOT TRACK ("DNT")" — 1 p, 60 w
+  - [h2] "6. Disclosure of Information" — 1 p, 9 w
+  - [h3] "Vendors and service providers" — 1 p, 47 w
+  - [h3] "Affiliates and subsidiaries" — 1 p, 20 w
+  - [h3] "Your company" — 1 p, 42 w
+  - [h3] "Protection of Siena and others" — 1 p, 99 w
+  - [h3] "Business transactions" — 1 p, 76 w
+  - [h3] "With your consent or at your direction" — 4 p, 131 w
+  - [h2] "7. Retention of your information" — 2 p, 38 w; lists ol(1) ul(3) ol(1) ul(1) ol(1) ul(3) ol(1) ul(2) ol(1) ul(2) (417 w in items)
+  - [h2] "8. Your rights and your choices" — 1 p, 25 w
+  - [h3] "Your legal rights" — 9 p, 532 w; lists ul(1) ul(1) ul(1) ul(1) ul(1) ul(1) (50 w in items)
+  - [h3] "Marketing communications" — 2 p, 143 w
+  - [h2] "9. Third party links and features" — 1 p, 67 w
+  - [h2] "10. International users" — 1 p, 83 w
+  - [h2] "11. How we protect your information" — 1 p, 52 w
+  - [h2] "12. Privacy information for California users" — 0 p, 0 w
+  - [h3] "Additional information for California residents" — 1 p, 121 w
+  - [h3] "Do not sell rights." — 1 p, 49 w
+  - [h3] "Your California privacy rights" — 13 p, 545 w; lists ul(2) ul(4) (59 w in items)
+  - [h2] "13. Changes to our policy" — 1 p, 76 w
+  - [h2] "14. Contact information" — 2 p, 44 w
+  - [h2] "15. EU representative and DPO" — 2 p, 62 w

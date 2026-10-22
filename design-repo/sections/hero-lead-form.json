@@ -1,0 +1,161 @@
+{
+  "id": "section.hero.lead-form",
+  "registryId": "section.hero.lead-form",
+  "typeId": "hero.lead-form",
+  "version": "1.0.0",
+  "category": "hero",
+  "purpose": "Lead-gen hero: H1 + dimmed sub + 3x2 customer logo grid left; multi-step static form (floating labels, dropdowns, page 1 -> page 2) in a rainbow ring right. No load motion. Never submits.",
+  "evidenceLevel": "measured",
+  "variants": {
+    "pricing": "'Get pricing'; ring 45deg.",
+    "book": "'Book your demo'; ring 34deg; rotated background image."
+  },
+  "composes": [
+    "component.form-card",
+    "primitive.logo-mark"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "headline": {
+        "type": "string",
+        "maxWords": 8
+      },
+      "subtitle": {
+        "type": "string",
+        "maxWords": 25
+      },
+      "logos": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "assetRole": {
+              "const": "logo.customer"
+            },
+            "assetRef": {
+              "type": "string",
+              "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+            },
+            "alt": {
+              "type": "string",
+              "maxWords": 24
+            }
+          },
+          "required": [
+            "assetRole",
+            "assetRef"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 6,
+        "maxItems": 6
+      },
+      "form": {
+        "type": "object",
+        "properties": {
+          "heading": {
+            "type": "string",
+            "maxWords": 3
+          },
+          "pageOne": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "maxWords": 8
+            },
+            "minItems": 4,
+            "maxItems": 4
+          },
+          "pageTwo": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "maxWords": 8
+            },
+            "minItems": 3,
+            "maxItems": 4
+          },
+          "nextLabel": {
+            "type": "string",
+            "maxWords": 2
+          },
+          "submitLabel": {
+            "type": "string",
+            "maxWords": 2
+          },
+          "submitBehavior": {
+            "const": "none"
+          }
+        },
+        "required": [
+          "heading",
+          "pageOne",
+          "pageTwo",
+          "nextLabel",
+          "submitLabel",
+          "submitBehavior"
+        ],
+        "additionalProperties": false
+      },
+      "background": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "const": "illustration.abstract-glow"
+          },
+          "assetRef": {
+            "type": "string",
+            "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 24
+          }
+        },
+        "required": [
+          "assetRole",
+          "assetRef"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "required": [
+      "headline",
+      "subtitle",
+      "logos",
+      "form",
+      "background"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Stacked; logo grid 3x103; form inner padding 24; H2 36/43.2."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustFollow": [
+      "shell.lead-header"
+    ]
+  },
+  "measuredFrom": [
+    "spec.cv.1.2",
+    "spec.cv.1.2a",
+    "jsx.leadhero",
+    "jsx.conv.leadform"
+  ]
+}

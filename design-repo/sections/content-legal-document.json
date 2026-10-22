@@ -1,0 +1,158 @@
+{
+  "id": "section.content.legal-document",
+  "registryId": "section.content.legal-document",
+  "typeId": "content.legal-document",
+  "version": "1.0.0",
+  "category": "content",
+  "purpose": "Legal page: H1 with hairline, 'Last Updated' row (calendar glyph), then the rich-text body. Headings real; ALL body prose is placeholder (structure + word counts only) and must never be generated as legal text.",
+  "evidenceLevel": "measured",
+  "variants": {
+    "terms": "Numbered ol>li>h2 headings + Feature Deck h2s; ends with 'Previous terms' live links.",
+    "privacy": "Instrument Sans 700 36/43.2 h2s, Feature Deck h3s, blue privacy@ mail link."
+  },
+  "composes": [
+    "primitive.text",
+    "primitive.icon",
+    "primitive.link"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "headline": {
+        "type": "string",
+        "maxWords": 4
+      },
+      "lastUpdated": {
+        "type": "string",
+        "maxWords": 4
+      },
+      "blocks": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "enum": [
+                "heading",
+                "paragraph",
+                "list"
+              ]
+            },
+            "text": {
+              "type": "string",
+              "maxWords": 12
+            },
+            "body": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string",
+                  "maxWords": 900
+                },
+                "copySource": {
+                  "enum": [
+                    "placeholder"
+                  ]
+                }
+              },
+              "required": [
+                "text",
+                "copySource"
+              ],
+              "additionalProperties": false
+            },
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "text": {
+                    "type": "string",
+                    "maxWords": 300
+                  },
+                  "copySource": {
+                    "enum": [
+                      "placeholder"
+                    ]
+                  }
+                },
+                "required": [
+                  "text",
+                  "copySource"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1,
+              "maxItems": 15
+            }
+          },
+          "required": [
+            "kind"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 10,
+        "maxItems": 400
+      },
+      "previousVersions": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "label": {
+              "type": "string",
+              "maxWords": 4
+            },
+            "href": {
+              "type": "string",
+              "pattern": "^(/[a-z0-9/#-]*|#[a-z0-9-]+|https://[a-zA-Z0-9.-]+(/[^\\s]*)?|mailto:[a-z.]+@siena\\.cx)$"
+            }
+          },
+          "required": [
+            "label",
+            "href"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 0,
+        "maxItems": 3
+      }
+    },
+    "required": [
+      "headline",
+      "lastUpdated",
+      "blocks"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Padding 96 24 80; H1 48/48; body Tiempos 14/21; spacing 18."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustFollowNav": true
+  },
+  "measuredFrom": [
+    "spec.t4",
+    "jsx.legal",
+    "jsx.legaldata",
+    "spec.content.legaltype"
+  ],
+  "copyPolicy": {
+    "blocks[].body/items": "placeholder only - real legal text must come from Siena counsel, never from a generator"
+  }
+}

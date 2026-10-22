@@ -1,0 +1,5212 @@
+{
+ "rich": [
+  {
+   "fn": "Content",
+   "r": [
+    160,
+    399,
+    1120,
+    13044
+   ],
+   "cnt": 245,
+   "items": [
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      399,
+      1120,
+      117
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 87,
+     "text": "Siena Labs Inc. (\"Siena\", \"we\", \"our\", or \"us\")",
+     "strong": "",
+     "links": [
+      {
+       "h": "https://www.siena.cx/",
+       "t": "https://www.siena.cx/"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      536,
+      1120,
+      47
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 29,
+     "text": "By accessing or using our Services or Site,",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      160,
+      623,
+      1120,
+      43
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 36px/43.2px lsnormal rgb(18, 32, 35)",
+     "words": 5,
+     "text": "1. Scope of this policy",
+     "strong": "1. Scope of this policy | Instrument Sans 700 36px/43.2px lsnormal rgb(18, 32, 35)",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      686,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 5,
+     "text": "For purposes of this Policy:",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ul",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "disc",
+     "n": 6,
+     "r": [
+      160,
+      729,
+      1120,
+      257
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      729,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 20,
+     "text": "An \"Authorized User\" means an individual who accesses",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      753,
+      1120,
+      47
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 26,
+     "text": "A \"Customer\" means an entity that has contracted",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      800,
+      1120,
+      70
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 48,
+     "text": "A \"Customer End User\" means an individual whose",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      870,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 21,
+     "text": "A \"Site Visitor\" means an individual who visits",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      893,
+      1120,
+      70
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 43,
+     "text": "“GDPR” means the Regulation(EU) 2016/679 of the European",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      964,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 7,
+     "text": "“CPRA”means California Privacy Rights Act of 2020.",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h3",
+     "depth": 0,
+     "r": [
+      160,
+      1027,
+      1120,
+      34
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Web Regular 400 24px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 8,
+     "text": "Who we are and whose data we process:",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      1081,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 4,
+     "text": "The data controller of:",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ol",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "decimal",
+     "n": 7,
+     "r": [
+      160,
+      1124,
+      1120,
+      164
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      1124,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 4,
+     "text": "users of our Services;",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      1147,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 4,
+     "text": "visitors of our Site;",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      1171,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 13,
+     "text": "individuals who follow and interact with our profiles",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      1194,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 11,
+     "text": "individuals who contact us via email or other",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      1218,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 12,
+     "text": "individuals who are contacted by us in our",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      1241,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 5,
+     "text": "candidates for our recruitment efforts;",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      1264,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 13,
+     "text": "our business partners (advisors or consultants; contractors and",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      1308,
+      1120,
+      47
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 19,
+     "text": "is Siena Labs Inc., 1209 Orange Street, Wilmington,",
+     "strong": "",
+     "links": [
+      {
+       "h": "mailto:privacy@siena.cx",
+       "t": "privacy@siena.cx"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      1375,
+      1120,
+      70
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 46,
+     "text": "This Policy applies to our handling of information",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      1465,
+      1120,
+      164
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 130,
+     "text": "However, this Policy does not cover information about",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      1649,
+      1120,
+      47
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 38,
+     "text": "If you are a Customer End User and",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      160,
+      1735,
+      1120,
+      43
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 36px/43.2px lsnormal rgb(18, 32, 35)",
+     "words": 5,
+     "text": "2. The information we collect",
+     "strong": "2. The information we collect | Instrument Sans 700 36px/43.2px lsnormal rgb(18, 32, 35)",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      1799,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 16,
+     "text": "We collect, store, and use certain information from",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ol",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "decimal",
+     "n": 1,
+     "r": [
+      160,
+      1842,
+      1120,
+      23
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      1842,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 5,
+     "text": "Information you provide to us",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      1885,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 21,
+     "text": "We collect a variety of information that you",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ul",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "disc",
+     "n": 6,
+     "r": [
+      160,
+      1929,
+      1120,
+      164
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      1929,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 7,
+     "text": "Sign up for and use the Services;",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      1952,
+      1120,
+      47
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 28,
+     "text": "Communicate with us (for example, when you communicate",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      1999,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 19,
+     "text": "Interact with us when we reach out to",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      2023,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 14,
+     "text": "Attend our conferences or events or interact with",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      2046,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 7,
+     "text": "Apply for a job position in Siena;",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      2069,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 11,
+     "text": "Are our business partner (advisor or consultant, contractor",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      2113,
+      1120,
+      47
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 36,
+     "text": "We also obtain your personal information for Third",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ul",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "disc",
+     "n": 5,
+     "r": [
+      160,
+      2180,
+      1120,
+      117
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      2180,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 4,
+     "text": "First and last name",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      2203,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 9,
+     "text": "Personal contact information (email address, phone number, postal",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      2226,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 11,
+     "text": "Online identifiers (such as Username and password associated",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      2250,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 9,
+     "text": "Your position and role in your company or",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      2273,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 18,
+     "text": "In accordance with applicable law, photos, videos, or",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      2317,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 20,
+     "text": "Any other information you choose to directly provide",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      2360,
+      1120,
+      70
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 69,
+     "text": "In cases where personal data is obtained from",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      2450,
+      1120,
+      70
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 48,
+     "text": "Our AI product is used by Siena’s clients",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      2540,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 3,
+     "text": "In such scenarios:",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ul",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "disc",
+     "n": 3,
+     "r": [
+      160,
+      2584,
+      1120,
+      94
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      2584,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 16,
+     "text": "Siena acts as a data processor on behalf",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      2607,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 21,
+     "text": "We process the data strictly in accordance with",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      2631,
+      1120,
+      47
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 33,
+     "text": "The personal data that we process may include",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      2697,
+      1120,
+      70
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 68,
+     "text": "If you are a Customer End User whose",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ol",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "decimal",
+     "n": 1,
+     "r": [
+      160,
+      2788,
+      1120,
+      23
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      2788,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 6,
+     "text": "Information we collect through automated means",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      2831,
+      1120,
+      140
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 117,
+     "text": "When you use our Site or Services, we",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      2992,
+      1120,
+      164
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 154,
+     "text": "To collect this information, we and our service",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ol",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "decimal",
+     "n": 1,
+     "r": [
+      160,
+      3175,
+      1120,
+      23
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      3175,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 5,
+     "text": "Information We collect from others",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      3219,
+      1120,
+      70
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 46,
+     "text": "From time to time, we may collect information",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      3309,
+      1120,
+      47
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 37,
+     "text": "When you \"like\" or \"follow\" us on Facebook,",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ol",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "decimal",
+     "n": 1,
+     "r": [
+      160,
+      3376,
+      1120,
+      23
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      3376,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 6,
+     "text": "Information we collect through automated means",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      3419,
+      1120,
+      140
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 117,
+     "text": "When you use our Site or Services, we",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      3580,
+      1120,
+      164
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 154,
+     "text": "To collect this information, we and our service",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ol",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "decimal",
+     "n": 1,
+     "r": [
+      160,
+      3763,
+      1120,
+      23
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      3763,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 5,
+     "text": "Information we collect from others",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      3807,
+      1120,
+      70
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 46,
+     "text": "From time to time, we may collect information",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      3897,
+      1120,
+      47
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 37,
+     "text": "When you \"like\" or \"follow\" us on Facebook,",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      160,
+      3984,
+      1120,
+      43
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 36px/43.2px lsnormal rgb(18, 32, 35)",
+     "words": 6,
+     "text": "3. How we use your information",
+     "strong": "3. How we use your information | Instrument Sans 700 36px/43.2px lsnormal rgb(18, 32, 35)",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      4047,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 21,
+     "text": "We use your information for various purposes depending",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ul",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "disc",
+     "n": 8,
+     "r": [
+      160,
+      4091,
+      1120,
+      234
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      4091,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 7,
+     "text": "Provide and maintain our Site and Services",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      4114,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 18,
+     "text": "Respond to your inquiries and requests for information,",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      4137,
+      1120,
+      47
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 23,
+     "text": "Engage in analysis and research regarding use of",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      4184,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 12,
+     "text": "Measure the effectiveness of our advertising and deliver",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      4208,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 10,
+     "text": "To suggest Services that may be of interest",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      4231,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 11,
+     "text": "Secure our Site and Services and resolve technical",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      4254,
+      1120,
+      47
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 25,
+     "text": "Comply with any procedures, laws, and regulations which",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      4301,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 21,
+     "text": "Establish, exercise, or defend our legal rights where",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      4345,
+      1120,
+      70
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 58,
+     "text": "We process your personal data to provide our",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h3",
+     "depth": 0,
+     "r": [
+      160,
+      4455,
+      1120,
+      34
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Web Regular 400 24px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 2,
+     "text": "Aggregate/De-identified information:",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      4508,
+      1120,
+      94
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 58,
+     "text": "We may aggregate and/or de-identify any information collected",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      4642,
+      1120,
+      43
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 36px/43.2px lsnormal rgb(18, 32, 35)",
+     "words": 8,
+     "text": "4. Legal bases for use of your information",
+     "strong": "4. Legal bases for use of your information | Instrument Sans 700 36px/43.2px lsnormal rgb(18, 32, 35)",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      4705,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 8,
+     "text": "We process personal data for the following purposes:",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ol",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "decimal",
+     "n": 1,
+     "r": [
+      160,
+      4749,
+      1120,
+      23
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      4749,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 6,
+     "text": "Signing up and using the Services:",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ul",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "disc",
+     "n": 7,
+     "r": [
+      160,
+      4792,
+      1120,
+      375
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      4792,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 23,
+     "text": "performing the contract we are about to enter",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      4815,
+      1120,
+      94
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 47,
+     "text": "providing access to the Application and its features",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 2,
+     "r": [
+      183,
+      4815,
+      1097,
+      47
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 32,
+     "text": "providing access to the Application and its features",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ul",
+     "depth": 2,
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "circle",
+     "n": 2,
+     "r": [
+      183,
+      4862,
+      1097,
+      47
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 3,
+     "r": [
+      183,
+      4862,
+      1097,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 12,
+     "text": "creating and maintaining personal account which You use",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 3,
+     "r": [
+      183,
+      4886,
+      1097,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 5,
+     "text": "texting with our AI chatbot",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      4909,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 11,
+     "text": "ensuring the proper technical functioning of our Site",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      4932,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 16,
+     "text": "profiling for the purpose of analyzing statistics on",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      4956,
+      1120,
+      70
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 43,
+     "text": "carrying out analysis (including statistical analysis) of the",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      5026,
+      1120,
+      70
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 43,
+     "text": "sending marketing, commercial or other information related to",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      5096,
+      1120,
+      70
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 46,
+     "text": "promoting safety, security and integrity of our services",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ol",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "decimal",
+     "n": 1,
+     "r": [
+      160,
+      5187,
+      1120,
+      23
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      5187,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 3,
+     "text": "Communicating with us:",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ul",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "disc",
+     "n": 1,
+     "r": [
+      160,
+      5230,
+      1120,
+      23
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      5230,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 11,
+     "text": "responding to inquiries and comments received (Article 6(1)(f)",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      5273,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 13,
+     "text": "The provision of your personal data is necessary",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ol",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "decimal",
+     "n": 1,
+     "r": [
+      160,
+      5317,
+      1120,
+      23
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      5317,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 19,
+     "text": "Interacting with us when we reach out to",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ul",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "disc",
+     "n": 1,
+     "r": [
+      160,
+      5360,
+      1120,
+      23
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      5360,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 9,
+     "text": "responding to inquiries received (Article 6(1)(f) of the",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ol",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "decimal",
+     "n": 2,
+     "r": [
+      160,
+      5404,
+      1120,
+      47
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      5404,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 14,
+     "text": "Attending our conferences or events or interact with",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      5427,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 7,
+     "text": "Applying for a job position in Siena:",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ul",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "disc",
+     "n": 3,
+     "r": [
+      160,
+      5470,
+      1120,
+      140
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      5470,
+      1120,
+      47
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 26,
+     "text": "keeping records relating to your job application for",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      5517,
+      1120,
+      47
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 30,
+     "text": "carrying out the recruitment process and assessment of",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      5564,
+      1120,
+      47
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 21,
+     "text": "fulfilling legal obligations that arise from the provisions",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      5631,
+      1120,
+      70
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 61,
+     "text": "Providing some of your personal data is necessary",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ol",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "decimal",
+     "n": 1,
+     "r": [
+      160,
+      5721,
+      1120,
+      23
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      5721,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 10,
+     "text": "Our business partners (advisors or consultants, contractors and",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ul",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "disc",
+     "n": 3,
+     "r": [
+      160,
+      5764,
+      1120,
+      70
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      5764,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 10,
+     "text": "contacting with our business partners (article 6(1)(b) of",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      5788,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 12,
+     "text": "contacting with employees of our business partners (Article",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      5811,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 17,
+     "text": "defending and enforcing claims arising from contracts concluded",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      160,
+      5875,
+      1120,
+      43
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 36px/43.2px lsnormal rgb(18, 32, 35)",
+     "words": 5,
+     "text": "5. Online analytics and advertising",
+     "strong": "5. Online analytics and advertising | Instrument Sans 700 36px/43.2px lsnormal rgb(18, 32, 35)",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h3",
+     "depth": 0,
+     "r": [
+      160,
+      5938,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 1,
+     "text": "ANALYTICS",
+     "strong": "ANALYTICS | Tiempos Text Regular 700 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      5981,
+      1120,
+      140
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 117,
+     "text": "We may use third-party web analytics services (such",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      6142,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 1,
+     "text": "‍",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h3",
+     "depth": 0,
+     "r": [
+      160,
+      6185,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 2,
+     "text": "ONLINE ADVERTISING",
+     "strong": "ONLINE ADVERTISING | Tiempos Text Regular 700 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      6229,
+      1120,
+      257
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 227,
+     "text": "In using the Site or Services, we may",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      6506,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 1,
+     "text": "‍",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h3",
+     "depth": 0,
+     "r": [
+      160,
+      6549,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 4,
+     "text": "DO NOT TRACK (\"DNT\")",
+     "strong": "DO NOT TRACK (\"DNT\") | Tiempos Text Regular 700 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      6593,
+      1120,
+      70
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 60,
+     "text": "DNT is a privacy preference that web users",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      160,
+      6703,
+      1120,
+      43
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 36px/43.2px lsnormal rgb(18, 32, 35)",
+     "words": 4,
+     "text": "6. Disclosure of Information",
+     "strong": "6. Disclosure of Information | Instrument Sans 700 36px/43.2px lsnormal rgb(18, 32, 35)",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      6766,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 9,
+     "text": "We will share your information in the following",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h3",
+     "depth": 0,
+     "r": [
+      160,
+      6830,
+      1120,
+      34
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Web Regular 400 24px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 4,
+     "text": "Vendors and service providers",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      6883,
+      1120,
+      70
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 47,
+     "text": "To assist us in meeting business operations needs",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h3",
+     "depth": 0,
+     "r": [
+      160,
+      6993,
+      1120,
+      34
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Web Regular 400 24px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 3,
+     "text": "Affiliates and subsidiaries",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      7047,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 20,
+     "text": "We may share the information we collect within",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h3",
+     "depth": 0,
+     "r": [
+      160,
+      7110,
+      1120,
+      34
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Web Regular 400 24px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 2,
+     "text": "Your company",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      7164,
+      1120,
+      47
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 42,
+     "text": "If you are an Authorized User, we may",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h3",
+     "depth": 0,
+     "r": [
+      160,
+      7251,
+      1120,
+      34
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Web Regular 400 24px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 5,
+     "text": "Protection of Siena and others",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      7304,
+      1120,
+      117
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 99,
+     "text": "By using the Site or Services, you acknowledge",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h3",
+     "depth": 0,
+     "r": [
+      160,
+      7461,
+      1120,
+      34
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Web Regular 400 24px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 2,
+     "text": "Business transactions",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      7515,
+      1120,
+      94
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 76,
+     "text": "In accordance with applicable legal obligations, your information",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h3",
+     "depth": 0,
+     "r": [
+      160,
+      7649,
+      1120,
+      34
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Web Regular 400 24px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 7,
+     "text": "With your consent or at your direction",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      7702,
+      1120,
+      47
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 26,
+     "text": "In addition to the sharing described in this",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      7769,
+      1120,
+      47
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 28,
+     "text": "We do not sell personal data to third",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      7836,
+      1120,
+      47
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 28,
+     "text": "However, we may disclose your personal data to",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      7903,
+      1120,
+      70
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 49,
+     "text": "Your personal data may be transferred by these",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      160,
+      8013,
+      1120,
+      43
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 36px/43.2px lsnormal rgb(18, 32, 35)",
+     "words": 5,
+     "text": "7. Retention of your information",
+     "strong": "7. Retention of your information | Instrument Sans 700 36px/43.2px lsnormal rgb(18, 32, 35)",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      8076,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 17,
+     "text": "We keep your information for no longer than",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      8120,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 21,
+     "text": "Below you will find out how long we",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ol",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "decimal",
+     "n": 1,
+     "r": [
+      160,
+      8163,
+      1120,
+      23
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      8163,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 4,
+     "text": "users of our Services:",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ul",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "disc",
+     "n": 3,
+     "r": [
+      160,
+      8206,
+      1120,
+      94
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      8206,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 28,
+     "text": "we store information about your IP address for",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      8230,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 13,
+     "text": "we store the information contained in cookies in",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      8253,
+      1120,
+      47
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 33,
+     "text": "if you consent to sending you marketing, commercial",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ol",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "decimal",
+     "n": 1,
+     "r": [
+      160,
+      8320,
+      1120,
+      23
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      8320,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 10,
+     "text": "persons who follow and interact with our social",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ul",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "disc",
+     "n": 1,
+     "r": [
+      160,
+      8363,
+      1120,
+      70
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      8363,
+      1120,
+      70
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 62,
+     "text": "we store the data necessary to follow our",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ol",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "decimal",
+     "n": 1,
+     "r": [
+      160,
+      8454,
+      1120,
+      23
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      8454,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 14,
+     "text": "individuals who contact us via email, contact form,",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ul",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "disc",
+     "n": 3,
+     "r": [
+      160,
+      8497,
+      1120,
+      140
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      8497,
+      1120,
+      47
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 30,
+     "text": "we keep the data necessary to respond to",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      8544,
+      1120,
+      47
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 23,
+     "text": "in addition, we retain personal data needed for",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      8591,
+      1120,
+      47
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 32,
+     "text": "if you have consented to sending you marketing,",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ol",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "decimal",
+     "n": 1,
+     "r": [
+      160,
+      8657,
+      1120,
+      23
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      8657,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 3,
+     "text": "candidates for employees:",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ul",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "disc",
+     "n": 2,
+     "r": [
+      160,
+      8701,
+      1120,
+      117
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      8701,
+      1120,
+      47
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 41,
+     "text": "if you do not consent to the processing",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      8748,
+      1120,
+      70
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 43,
+     "text": "if you consent to the processing of your",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ol",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "decimal",
+     "n": 1,
+     "r": [
+      160,
+      8838,
+      1120,
+      23
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      8838,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 10,
+     "text": "our business partners (advisors or consultants, contractors and",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ul",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "disc",
+     "n": 2,
+     "r": [
+      160,
+      8881,
+      1120,
+      94
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      8881,
+      1120,
+      47
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 37,
+     "text": "we retain personal data that we obtain through",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      8928,
+      1120,
+      47
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 34,
+     "text": "additionally, we retain the data we need for",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      160,
+      9015,
+      1120,
+      43
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 36px/43.2px lsnormal rgb(18, 32, 35)",
+     "words": 6,
+     "text": "8. Your rights and your choices",
+     "strong": "8. Your rights and your choices | Instrument Sans 700 36px/43.2px lsnormal rgb(18, 32, 35)",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      9078,
+      1120,
+      47
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 25,
+     "text": "You have certain rights with respect to your",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h3",
+     "depth": 0,
+     "r": [
+      160,
+      9165,
+      1120,
+      34
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Web Regular 400 24px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 3,
+     "text": "Your legal rights",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      9219,
+      1120,
+      70
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 62,
+     "text": "If you would like further information in relation",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ul",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "disc",
+     "n": 1,
+     "r": [
+      160,
+      9309,
+      1120,
+      23
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      9309,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 9,
+     "text": "request access to and rectification of your personal",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      9352,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 21,
+     "text": "At any time you have the right to",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ul",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "disc",
+     "n": 1,
+     "r": [
+      160,
+      9396,
+      1120,
+      23
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      9396,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 11,
+     "text": "delete your personal data and the right to",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      9439,
+      1120,
+      47
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 41,
+     "text": "Upon your request, we will delete the data",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ul",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "disc",
+     "n": 1,
+     "r": [
+      160,
+      9506,
+      1120,
+      23
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      9506,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 4,
+     "text": "right to data relocation",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      9549,
+      1120,
+      94
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 79,
+     "text": "To the extent in which personal data is",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ul",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "disc",
+     "n": 1,
+     "r": [
+      160,
+      9663,
+      1120,
+      23
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      9663,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 5,
+     "text": "right to object to processing",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      9706,
+      1120,
+      47
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 34,
+     "text": "To the extent that your personal data is",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ul",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "disc",
+     "n": 1,
+     "r": [
+      160,
+      9773,
+      1120,
+      23
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      9773,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 10,
+     "text": "the right to lodge a complaint with a",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      9816,
+      1120,
+      47
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 27,
+     "text": "If you believe that our processing of your",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ul",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "disc",
+     "n": 1,
+     "r": [
+      160,
+      9883,
+      1120,
+      23
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      9883,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 11,
+     "text": "the right to withdraw consent to the processing",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      9927,
+      1120,
+      47
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 46,
+     "text": "If we process your personal data on the",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      9993,
+      1120,
+      117
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 98,
+     "text": "Such laws may also permit you to revoke",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      10131,
+      1120,
+      140
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 124,
+     "text": "If you are a Customer End User and",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h3",
+     "depth": 0,
+     "r": [
+      160,
+      10311,
+      1120,
+      34
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Web Regular 400 24px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 2,
+     "text": "Marketing communications",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      10365,
+      1120,
+      140
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 130,
+     "text": "If, in accordance with applicable legal requirements, we",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      10525,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 13,
+     "text": "You can exercise these rights by contacting our",
+     "strong": "",
+     "links": [
+      {
+       "h": "mailto:privacy@siena.cx",
+       "t": "privacy@siena.cx"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      160,
+      10588,
+      1120,
+      43
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 36px/43.2px lsnormal rgb(18, 32, 35)",
+     "words": 6,
+     "text": "9. Third party links and features",
+     "strong": "9. Third party links and features | Instrument Sans 700 36px/43.2px lsnormal rgb(18, 32, 35)",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      10652,
+      1120,
+      70
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 67,
+     "text": "Our Services may contain links to third-party websites.",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      160,
+      10762,
+      1120,
+      43
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 36px/43.2px lsnormal rgb(18, 32, 35)",
+     "words": 3,
+     "text": "10. International users",
+     "strong": "10. International users | Instrument Sans 700 36px/43.2px lsnormal rgb(18, 32, 35)",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      10825,
+      1120,
+      117
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 83,
+     "text": "Your information is maintained and processed by us",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      160,
+      10982,
+      1120,
+      43
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 36px/43.2px lsnormal rgb(18, 32, 35)",
+     "words": 6,
+     "text": "11. How we protect your information",
+     "strong": "11. How we protect your information | Instrument Sans 700 36px/43.2px lsnormal rgb(18, 32, 35)",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      11045,
+      1120,
+      70
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 52,
+     "text": "Siena takes a variety of technical and organizational",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      160,
+      11155,
+      1120,
+      43
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 36px/43.2px lsnormal rgb(18, 32, 35)",
+     "words": 6,
+     "text": "12. Privacy information for California users",
+     "strong": "12. Privacy information for California users | Instrument Sans 700 36px/43.2px lsnormal rgb(18, 32, 35)",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h3",
+     "depth": 0,
+     "r": [
+      160,
+      11239,
+      1120,
+      34
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Web Regular 400 24px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 5,
+     "text": "Additional information for California residents",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      11292,
+      1120,
+      140
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 121,
+     "text": "This section complements other parts of our Policy",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h3",
+     "depth": 0,
+     "r": [
+      160,
+      11473,
+      1120,
+      34
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Web Regular 400 24px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 4,
+     "text": "Do not sell rights.",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      11526,
+      1120,
+      70
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 49,
+     "text": "Please note that the CPRA sets forth certain",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h3",
+     "depth": 0,
+     "r": [
+      160,
+      11637,
+      1120,
+      34
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Web Regular 400 24px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 4,
+     "text": "Your California privacy rights",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      11690,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 13,
+     "text": "In addition to the rights indicated in section",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ul",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "disc",
+     "n": 2,
+     "r": [
+      160,
+      11734,
+      1120,
+      47
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      11734,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 10,
+     "text": "opt out from the sale or sharing of",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      11757,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 9,
+     "text": "limit the use and disclosure of Sensitive Personal",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      11800,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 5,
+     "text": "California Shine the Light Law",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      11844,
+      1120,
+      70
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 54,
+     "text": "California’s “Shine the Light” law gives Californians the",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      11934,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 19,
+     "text": "Your Right To Opt Out of The Sale",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      11977,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 16,
+     "text": "We share your personal information with the third",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      12021,
+      1120,
+      117
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 95,
+     "text": "You have the right to opt out of",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      12158,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 22,
+     "text": "Once you have opted out, we are required",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      12201,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 11,
+     "text": "The right to not be discriminated against for",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      12245,
+      1120,
+      94
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 73,
+     "text": "The CPRA further provides you with the right",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ul",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "disc",
+     "n": 4,
+     "r": [
+      160,
+      12358,
+      1120,
+      94
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      12358,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 6,
+     "text": "Refusing to provide goods or services;",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      12382,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 10,
+     "text": "Charging different prices or fees, including withholding discounts",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      12405,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 10,
+     "text": "Offering a lower quality or standard of goods",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      12428,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 14,
+     "text": "Taking any negative action against employees, job applicants,",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      12472,
+      1120,
+      117
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 91,
+     "text": "Please note that certain information may be exempt",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      12609,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 1,
+     "text": "Children:",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      12652,
+      1120,
+      94
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 79,
+     "text": "Our Service is not intended for children under",
+     "strong": "",
+     "links": [
+      {
+       "h": "mailto:privacy@siena.cx",
+       "t": "privacy@siena.cx"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      12766,
+      1120,
+      70
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 66,
+     "text": "If you would like further information regarding your",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      160,
+      12876,
+      1120,
+      43
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 36px/43.2px lsnormal rgb(18, 32, 35)",
+     "words": 5,
+     "text": "13. Changes to our policy",
+     "strong": "13. Changes to our policy | Instrument Sans 700 36px/43.2px lsnormal rgb(18, 32, 35)",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      12939,
+      1120,
+      94
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 76,
+     "text": "The provisions of Privacy Policy may be subject",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      160,
+      13073,
+      1120,
+      43
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 36px/43.2px lsnormal rgb(18, 32, 35)",
+     "words": 3,
+     "text": "14. Contact information",
+     "strong": "14. Contact information | Instrument Sans 700 36px/43.2px lsnormal rgb(18, 32, 35)",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      13136,
+      1120,
+      47
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 33,
+     "text": "If you have any questions or concerns not",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      13203,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 11,
+     "text": "For any security related questions or communication, contact",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      160,
+      13266,
+      1120,
+      43
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 36px/43.2px lsnormal rgb(18, 32, 35)",
+     "words": 5,
+     "text": "15. EU representative and DPO",
+     "strong": "15. EU representative and DPO | Instrument Sans 700 36px/43.2px lsnormal rgb(18, 32, 35)",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      13330,
+      1120,
+      47
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 31,
+     "text": "We have appointed Honest Tech s.r.l. as our",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      13396,
+      1120,
+      47
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 31,
+     "text": "Additionally, we have appointed Damian Klimas as our",
+     "strong": "",
+     "links": [
+      {
+       "h": "mailto:privacy@siena.cx",
+       "t": "privacy@siena.cx"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    }
+   ]
+  }
+ ],
+ "marker": {
+  "color": "rgb(42, 54, 57)",
+  "fs": "18px",
+  "ff": "\"Tiempos Text Regular\", \"Tiempos Text Regular Placeholder\", sans-serif",
+  "content": "normal",
+  "lst": "\"\"",
+  "pl": "22.86px",
+  "ml": "0px",
+  "mlm": "0px"
+ },
+ "iframes": [
+  {
+   "src": "https://framer.com/edit?framerSiteId=f47910699fc3441f86608d12d38696a628e935e97e59d6623edfd8ace3e982f1&source=www.siena.cx&features=%7B%22editorBarDisableFrameAncestorsSecurity%22%3Afalse%2C%22onPageRichTextBlockSelection%22%3Atrue%7D&loadStart=1792663214527",
+   "r": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "br": "0px",
+   "parBr": "0px"
+  }
+ ],
+ "headings": [
+  {
+   "tag": "H1",
+   "t": "Privacy Policy",
+   "r": [
+    160,
+    160,
+    353,
+    64
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "1. Scope of this policy",
+   "r": [
+    160,
+    623,
+    1120,
+    43
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "Who we are and whose data we process:",
+   "r": [
+    160,
+    1027,
+    1120,
+    34
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "2. The information we collect",
+   "r": [
+    160,
+    1735,
+    1120,
+    43
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "Information you provide to us",
+   "r": [
+    183,
+    1842,
+    1097,
+    23
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "Information we collect through automated means",
+   "r": [
+    183,
+    2788,
+    1097,
+    23
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "Information We collect from others",
+   "r": [
+    183,
+    3175,
+    1097,
+    23
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "Information we collect through automated means",
+   "r": [
+    183,
+    3376,
+    1097,
+    23
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "Information we collect from others",
+   "r": [
+    183,
+    3763,
+    1097,
+    23
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "3. How we use your information",
+   "r": [
+    160,
+    3984,
+    1120,
+    43
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "Aggregate/De-identified information:",
+   "r": [
+    160,
+    4455,
+    1120,
+    34
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "Signing up and using the Services:",
+   "r": [
+    183,
+    4749,
+    1097,
+    23
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "Communicating with us:",
+   "r": [
+    183,
+    5187,
+    1097,
+    23
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "Interacting with us when we reach out to you by phone or email in our sales and marketing efforts:",
+   "r": [
+    183,
+    5317,
+    1097,
+    23
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "Attending our conferences or events or interact with us at other conferences or events:",
+   "r": [
+    183,
+    5404,
+    1097,
+    23
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "Applying for a job position in Siena:",
+   "r": [
+    183,
+    5427,
+    1097,
+    23
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "Our business partners (advisors or consultants, contractors and service providers):",
+   "r": [
+    183,
+    5721,
+    1097,
+    23
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "5. Online analytics and advertising",
+   "r": [
+    160,
+    5875,
+    1120,
+    43
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "ANALYTICS",
+   "r": [
+    160,
+    5938,
+    1120,
+    23
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "ONLINE ADVERTISING",
+   "r": [
+    160,
+    6185,
+    1120,
+    23
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "DO NOT TRACK (\"DNT\")",
+   "r": [
+    160,
+    6549,
+    1120,
+    23
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "6. Disclosure of Information",
+   "r": [
+    160,
+    6703,
+    1120,
+    43
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "Vendors and service providers",
+   "r": [
+    160,
+    6830,
+    1120,
+    34
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "Affiliates and subsidiaries",
+   "r": [
+    160,
+    6993,
+    1120,
+    34
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "Your company",
+   "r": [
+    160,
+    7110,
+    1120,
+    34
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "Protection of Siena and others",
+   "r": [
+    160,
+    7251,
+    1120,
+    34
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "Business transactions",
+   "r": [
+    160,
+    7461,
+    1120,
+    34
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "With your consent or at your direction",
+   "r": [
+    160,
+    7649,
+    1120,
+    34
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "7. Retention of your information",
+   "r": [
+    160,
+    8013,
+    1120,
+    43
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "8. Your rights and your choices",
+   "r": [
+    160,
+    9015,
+    1120,
+    43
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "Your legal rights",
+   "r": [
+    160,
+    9165,
+    1120,
+    34
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "Marketing communications",
+   "r": [
+    160,
+    10311,
+    1120,
+    34
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "9. Third party links and features",
+   "r": [
+    160,
+    10588,
+    1120,
+    43
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "10. International users",
+   "r": [
+    160,
+    10762,
+    1120,
+    43
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "11. How we protect your information",
+   "r": [
+    160,
+    10982,
+    1120,
+    43
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "12. Privacy information for California users",
+   "r": [
+    160,
+    11155,
+    1120,
+    43
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "Additional information for California residents",
+   "r": [
+    160,
+    11239,
+    1120,
+    34
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "Do not sell rights.",
+   "r": [
+    160,
+    11473,
+    1120,
+    34
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "Your California privacy rights",
+   "r": [
+    160,
+    11637,
+    1120,
+    34
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "13. Changes to our policy",
+   "r": [
+    160,
+    12876,
+    1120,
+    43
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "14. Contact information",
+   "r": [
+    160,
+    13073,
+    1120,
+    43
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "15. EU representative and DPO",
+   "r": [
+    160,
+    13266,
+    1120,
+    43
+   ]
+  }
+ ],
+ "cards": [],
+ "probes": [
+  {
+   "label": "body link",
+   "before": {
+    "c": "rgb(18, 32, 35)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "sh": "none",
+    "tf": "none",
+    "op": "1",
+    "td": "underline",
+    "bc": "rgb(18, 32, 35)"
+   },
+   "after": {
+    "c": "rgb(18, 32, 35)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "sh": "none",
+    "tf": "none",
+    "op": "1",
+    "td": "underline",
+    "bc": "rgb(18, 32, 35)",
+    "imgTf": "",
+    "imgP": ""
+   }
+  }
+ ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "section.cards.hover-media",
+  "registryId": "section.cards.hover-media",
+  "typeId": "cards.hover-media",
+  "version": "1.0.0",
+  "category": "feature",
+  "purpose": "Three gradient cards (title + text + graphic); hover fades in a masked looping video or animates the graphic.",
+  "evidenceLevel": "spec-measured",
+  "variants": {
+    "qa": "'Act on what matters': Slack, help desk tasks, internal notes.",
+    "topics": "'Alerts': recurring briefs, topics card, Slack delivery."
+  },
+  "composes": [
+    "primitive.text",
+    "primitive.image"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "eyebrow": {
+        "type": "string",
+        "maxWords": 7
+      },
+      "title": {
+        "type": "string",
+        "maxWords": 12,
+        "description": "Plain text; wrap at most one phrase in *asterisks* to render it in the display italic cut.",
+        "pattern": "^[^*]*(\\*[^*]+\\*[^*]*)?$"
+      },
+      "subtitle": {
+        "type": "string",
+        "maxWords": 35
+      },
+      "cards": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string",
+              "maxWords": 5
+            },
+            "text": {
+              "type": "string",
+              "maxWords": 25
+            },
+            "visual": {
+              "enum": [
+                "slack-video",
+                "tag-network",
+                "notes-video",
+                "prompt",
+                "topic-card"
+              ]
+            }
+          },
+          "required": [
+            "title",
+            "text",
+            "visual"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 3,
+        "maxItems": 3
+      }
+    },
+    "required": [
+      "eyebrow",
+      "title",
+      "cards"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none",
+      "scroll-reveal-spring"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Cards stacked (342)."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "spec.pa.4.6",
+    "spec.pa.5.6"
+  ]
+}

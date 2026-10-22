@@ -1,0 +1,1357 @@
+{
+ "borders": [
+  {
+   "r": [
+    145,
+    194,
+    44,
+    44
+   ],
+   "n": "Icon<Mini - Icon<CX Agent",
+   "b": "1px 1px 1px 1px solid rgba(255, 255, 255, 0.2)",
+   "rad": "12px",
+   "txt": ""
+  },
+  {
+   "r": [
+    145,
+    275,
+    44,
+    44
+   ],
+   "n": "Icon<Mini - Icon<Shopping Agent",
+   "b": "1px 1px 1px 1px solid rgba(255, 255, 255, 0.2)",
+   "rad": "12px",
+   "txt": ""
+  },
+  {
+   "r": [
+    145,
+    356,
+    44,
+    44
+   ],
+   "n": "Icon<Mini - Icon<Reviews Agent",
+   "b": "1px 1px 1px 1px solid rgba(255, 255, 255, 0.2)",
+   "rad": "12px",
+   "txt": ""
+  },
+  {
+   "r": [
+    540,
+    154,
+    44,
+    44
+   ],
+   "n": "Icon<Mini - Icon<Docs",
+   "b": "1px 1px 1px 1px solid rgba(255, 255, 255, 0.2)",
+   "rad": "12px",
+   "txt": ""
+  },
+  {
+   "r": [
+    540,
+    235,
+    44,
+    44
+   ],
+   "n": "Icon<Mini - Icon<Qualty Assurance",
+   "b": "1px 1px 1px 1px solid rgba(255, 255, 255, 0.2)",
+   "rad": "12px",
+   "txt": ""
+  },
+  {
+   "r": [
+    540,
+    315,
+    44,
+    44
+   ],
+   "n": "Icon<Mini - Icon<Topics Explorer",
+   "b": "1px 1px 1px 1px solid rgba(255, 255, 255, 0.2)",
+   "rad": "12px",
+   "txt": ""
+  },
+  {
+   "r": [
+    540,
+    396,
+    44,
+    44
+   ],
+   "n": "Icon<Mini - Icon<Ask Siena",
+   "b": "1px 1px 1px 1px solid rgba(255, 255, 255, 0.2)",
+   "rad": "12px",
+   "txt": ""
+  },
+  {
+   "r": [
+    835,
+    195,
+    70,
+    24
+   ],
+   "n": "Tab<Integrations<Container",
+   "b": "1px 1px 1px 1px solid rgba(0, 0, 0, 0.2)",
+   "rad": "50px",
+   "txt": "SHOPIFY"
+  },
+  {
+   "r": [
+    915,
+    195,
+    70,
+    24
+   ],
+   "n": "Tab<Integrations<Container",
+   "b": "1px 1px 1px 1px solid rgba(0, 0, 0, 0.2)",
+   "rad": "50px",
+   "txt": "ZENDESK"
+  },
+  {
+   "r": [
+    994,
+    195,
+    57,
+    24
+   ],
+   "n": "Tab<Integrations<Container",
+   "b": "1px 1px 1px 1px solid rgba(0, 0, 0, 0.2)",
+   "rad": "50px",
+   "txt": "YOTPO"
+  },
+  {
+   "r": [
+    1061,
+    195,
+    76,
+    24
+   ],
+   "n": "Tab<Integrations<Container",
+   "b": "1px 1px 1px 1px solid rgba(0, 0, 0, 0.2)",
+   "rad": "50px",
+   "txt": "RECHARGE"
+  },
+  {
+   "r": [
+    563,
+    1419,
+    137,
+    48
+   ],
+   "n": "Secondary / md<Right Column<Testimonial",
+   "b": "1px 1px 1px 1px solid rgb(167, 160, 146)",
+   "rad": "12px",
+   "txt": "Read full story"
+  },
+  {
+   "r": [
+    808,
+    4139,
+    40,
+    40
+   ],
+   "n": "Avatar<Compare 4<Sticky",
+   "b": "2px 2px 2px 2px solid rgb(255, 255, 255)",
+   "rad": "99px",
+   "txt": ""
+  },
+  {
+   "r": [
+    808,
+    4298,
+    40,
+    40
+   ],
+   "n": "Avatar<Compare 4<Sticky",
+   "b": "2px 2px 2px 2px solid rgb(255, 255, 255)",
+   "rad": "99px",
+   "txt": ""
+  },
+  {
+   "r": [
+    808,
+    4505,
+    40,
+    40
+   ],
+   "n": "Avatar<Compare 4<Sticky",
+   "b": "2px 2px 2px 2px solid rgb(255, 255, 255)",
+   "rad": "99px",
+   "txt": ""
+  },
+  {
+   "r": [
+    160,
+    8018,
+    347,
+    134
+   ],
+   "n": "Title<Metrics<Main",
+   "b": "1px 0px 0px 0px solid rgba(0, 0, 0, 0.2)",
+   "rad": "0px",
+   "txt": "98%  FASTER RESPONSE TIME"
+  },
+  {
+   "r": [
+    547,
+    8018,
+    347,
+    134
+   ],
+   "n": "Title<Metrics<Main",
+   "b": "1px 0px 0px 0px solid rgba(0, 0, 0, 0.2)",
+   "rad": "0px",
+   "txt": "90%  FASTER RESOLUTION TIME"
+  },
+  {
+   "r": [
+    933,
+    8018,
+    347,
+    134
+   ],
+   "n": "Title<Metrics<Main",
+   "b": "1px 0px 0px 0px solid rgba(0, 0, 0, 0.2)",
+   "rad": "0px",
+   "txt": "+94.7%  AVERAGE CSAT"
+  },
+  {
+   "r": [
+    0,
+    11004,
+    1440,
+    434
+   ],
+   "n": "Desktop",
+   "b": "0px 0px 1px 0px solid rgba(0, 0, 0, 0.2)",
+   "rad": "0px",
+   "txt": "    COMPANY  About Us  Careers  Custom"
+  },
+  {
+   "r": [
+    148,
+    11132,
+    46,
+    48
+   ],
+   "n": "Secondary / md<Left Column<Footer Content",
+   "b": "1px 1px 1px 1px solid rgba(255, 255, 255, 0.2)",
+   "rad": "12px",
+   "txt": ""
+  },
+  {
+   "r": [
+    202,
+    11132,
+    48,
+    48
+   ],
+   "n": "Secondary / md<Left Column<Footer Content",
+   "b": "1px 1px 1px 1px solid rgba(255, 255, 255, 0.2)",
+   "rad": "12px",
+   "txt": ""
+  }
+ ],
+ "icons": [
+  {
+   "r": [
+    157,
+    206,
+    20,
+    20
+   ],
+   "cp": "U+F590",
+   "ff": "\"Font Awesome 6 Sharp Light\"",
+   "fs": "20px",
+   "fw": "400",
+   "c": "rgb(18, 32, 35)",
+   "n": "Text<Icon<Mini - Icon",
+   "next": ""
+  },
+  {
+   "r": [
+    372,
+    409,
+    12,
+    12
+   ],
+   "cp": "U+E31B",
+   "ff": "\"Font Awesome 6 Sharp Light\"",
+   "fs": "12px",
+   "fw": "400",
+   "c": "rgb(249, 80, 64)",
+   "n": "Name<Column<Products",
+   "next": ""
+  },
+  {
+   "r": [
+    157,
+    287,
+    20,
+    20
+   ],
+   "cp": "U+F847",
+   "ff": "\"Font Awesome 6 Sharp Light\"",
+   "fs": "20px",
+   "fw": "400",
+   "c": "rgb(18, 32, 35)",
+   "n": "Text<Icon<Mini - Icon",
+   "next": ""
+  },
+  {
+   "r": [
+    157,
+    368,
+    20,
+    20
+   ],
+   "cp": "U+F005",
+   "ff": "\"Font Awesome 6 Sharp Light\"",
+   "fs": "20px",
+   "fw": "400",
+   "c": "rgb(18, 32, 35)",
+   "n": "Text<Icon<Mini - Icon",
+   "next": ""
+  },
+  {
+   "r": [
+    685,
+    159,
+    12,
+    12
+   ],
+   "cp": "U+E31B",
+   "ff": "\"Font Awesome 6 Sharp Light\"",
+   "fs": "12px",
+   "fw": "400",
+   "c": "rgb(249, 80, 64)",
+   "n": "Name<Title<Column",
+   "next": ""
+  },
+  {
+   "r": [
+    552,
+    166,
+    20,
+    20
+   ],
+   "cp": "U+F46C",
+   "ff": "\"Font Awesome 6 Sharp Light\"",
+   "fs": "20px",
+   "fw": "400",
+   "c": "rgb(18, 32, 35)",
+   "n": "Text<Icon<Mini - Icon",
+   "next": ""
+  },
+  {
+   "r": [
+    552,
+    247,
+    20,
+    20
+   ],
+   "cp": "U+F46C",
+   "ff": "\"Font Awesome 6 Sharp Light\"",
+   "fs": "20px",
+   "fw": "400",
+   "c": "rgb(18, 32, 35)",
+   "n": "Text<Icon<Mini - Icon",
+   "next": ""
+  },
+  {
+   "r": [
+    552,
+    327,
+    20,
+    20
+   ],
+   "cp": "U+F002",
+   "ff": "\"Font Awesome 6 Sharp Light\"",
+   "fs": "20px",
+   "fw": "400",
+   "c": "rgb(18, 32, 35)",
+   "n": "Text<Icon<Mini - Icon",
+   "next": ""
+  },
+  {
+   "r": [
+    552,
+    408,
+    20,
+    20
+   ],
+   "cp": "U+E1E7",
+   "ff": "\"Font Awesome 6 Sharp Light\"",
+   "fs": "20px",
+   "fw": "400",
+   "c": "rgb(18, 32, 35)",
+   "n": "Text<Icon<Mini - Icon",
+   "next": ""
+  },
+  {
+   "r": [
+    949,
+    167,
+    24,
+    16
+   ],
+   "cp": "U+F03D",
+   "ff": "\"Font Awesome 6 Sharp Light\"",
+   "fs": "16px",
+   "fw": "400",
+   "c": "rgb(113, 121, 123)",
+   "n": "ICON<Memory<Menu Cluster",
+   "next": " Video"
+  },
+  {
+   "r": [
+    949,
+    238,
+    24,
+    16
+   ],
+   "cp": "U+F03D",
+   "ff": "\"Font Awesome 6 Sharp Light\"",
+   "fs": "16px",
+   "fw": "400",
+   "c": "rgb(113, 121, 123)",
+   "n": "ICON<Video<Menu Cluster",
+   "next": " Video"
+  },
+  {
+   "r": [
+    949,
+    308,
+    24,
+    16
+   ],
+   "cp": "U+F49E",
+   "ff": "\"Font Awesome 6 Sharp Light\"",
+   "fs": "16px",
+   "fw": "400",
+   "c": "rgb(113, 121, 123)",
+   "n": "ICON<Order Tracking<Menu Cluster",
+   "next": " Order Tracking"
+  },
+  {
+   "r": [
+    178,
+    221,
+    24,
+    16
+   ],
+   "cp": "U+F52D",
+   "ff": "\"Font Awesome 6 Sharp Light\"",
+   "fs": "16px",
+   "fw": "400",
+   "c": "rgb(113, 121, 123)",
+   "n": "ICON<Menu Cluster<Extra Column",
+   "next": " Blog"
+  },
+  {
+   "r": [
+    178,
+    266,
+    24,
+    16
+   ],
+   "cp": "U+F0C0",
+   "ff": "\"Font Awesome 6 Sharp Light\"",
+   "fs": "16px",
+   "fw": "400",
+   "c": "rgb(113, 121, 123)",
+   "n": "ICON<Menu Cluster<Extra Column",
+   "next": " Community"
+  },
+  {
+   "r": [
+    178,
+    311,
+    24,
+    16
+   ],
+   "cp": "U+E472",
+   "ff": "\"Font Awesome 6 Sharp Light\"",
+   "fs": "16px",
+   "fw": "400",
+   "c": "rgb(113, 121, 123)",
+   "n": "ICON<Menu Cluster<Extra Column",
+   "next": " Events"
+  },
+  {
+   "r": [
+    178,
+    356,
+    24,
+    16
+   ],
+   "cp": "U+F144",
+   "ff": "\"Font Awesome 6 Sharp Light\"",
+   "fs": "16px",
+   "fw": "400",
+   "c": "rgb(113, 121, 123)",
+   "n": "ICON<Menu Cluster<Extra Column",
+   "next": " Webinars"
+  },
+  {
+   "r": [
+    178,
+    401,
+    24,
+    16
+   ],
+   "cp": "U+F336",
+   "ff": "\"Font Awesome 6 Sharp Light\"",
+   "fs": "16px",
+   "fw": "400",
+   "c": "rgb(113, 121, 123)",
+   "n": "ICON<Menu Cluster<Extra Column",
+   "next": " Certification"
+  },
+  {
+   "r": [
+    178,
+    446,
+    24,
+    16
+   ],
+   "cp": "U+F1EC",
+   "ff": "\"Font Awesome 6 Sharp Light\"",
+   "fs": "16px",
+   "fw": "400",
+   "c": "rgb(113, 121, 123)",
+   "n": "ICON<Menu Cluster<Extra Column",
+   "next": " ROI Calculator"
+  },
+  {
+   "r": [
+    160,
+    199,
+    24,
+    16
+   ],
+   "cp": "U+E4E2",
+   "ff": "\"Font Awesome 6 Sharp Light\"",
+   "fs": "16px",
+   "fw": "400",
+   "c": "rgb(113, 121, 123)",
+   "n": "ICON<View integrations<Container",
+   "next": " View Integrations"
+  },
+  {
+   "r": [
+    164,
+    11148,
+    14,
+    16
+   ],
+   "cp": "U+F0E1",
+   "ff": "\"Font Awesome 6 Brands Regular\"",
+   "fs": "16px",
+   "fw": "400",
+   "c": "rgb(244, 245, 245)",
+   "n": "Text<Secondary / md<Left Column",
+   "next": ""
+  },
+  {
+   "r": [
+    218,
+    11148,
+    16,
+    16
+   ],
+   "cp": "U+E61B",
+   "ff": "\"Font Awesome 6 Brands Regular\"",
+   "fs": "16px",
+   "fw": "400",
+   "c": "rgb(244, 245, 245)",
+   "n": "Text<Secondary / md<Left Column",
+   "next": ""
+  }
+ ],
+ "imgs": [
+  {
+   "src": "pAbTqaaTXfz9RVYyy244qfh4E.webp",
+   "r": [
+    448,
+    193,
+    265,
+    152
+   ],
+   "ow": 265,
+   "oh": 152,
+   "wow": 265,
+   "woh": 152,
+   "pos": "t:0px r:0px b:0px l:0px w:265.328px h:151.734px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "Variant 1<Resources<Menu Area"
+  },
+  {
+   "src": "JGnGkyrUgWm5fpSCETDcdK3Ko.webp",
+   "r": [
+    472,
+    369,
+    30,
+    30
+   ],
+   "ow": 30,
+   "oh": 30,
+   "wow": 30,
+   "woh": 30,
+   "pos": "t:0px r:0px b:0px l:0px w:30px h:30px",
+   "tf": "none",
+   "rad": "50px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "Andrei Negrau, Siena AI co-founder and CEO",
+   "n": "Variant 1<Resources<Menu Area"
+  },
+  {
+   "src": "6gPxJokSkZLoVr3dFT3bg46GvU.png",
+   "r": [
+    734,
+    193,
+    265,
+    152
+   ],
+   "ow": 265,
+   "oh": 152,
+   "wow": 265,
+   "woh": 152,
+   "pos": "t:0px r:0px b:0px l:0px w:265.344px h:151.734px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "Variant 1<Resources<Menu Area"
+  },
+  {
+   "src": "JGnGkyrUgWm5fpSCETDcdK3Ko.webp",
+   "r": [
+    758,
+    369,
+    30,
+    30
+   ],
+   "ow": 30,
+   "oh": 30,
+   "wow": 30,
+   "woh": 30,
+   "pos": "t:0px r:0px b:0px l:0px w:30px h:30px",
+   "tf": "none",
+   "rad": "50px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "Andrei Negrau, Siena AI co-founder and CEO",
+   "n": "Variant 1<Resources<Menu Area"
+  },
+  {
+   "src": "JsXaXuQMFTUxg1b4aImxuHSlrU.jpeg",
+   "r": [
+    793,
+    369,
+    30,
+    30
+   ],
+   "ow": 30,
+   "oh": 30,
+   "wow": 30,
+   "woh": 30,
+   "pos": "t:0px r:0px b:0px l:0px w:30px h:30px",
+   "tf": "none",
+   "rad": "50px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "Lisa Popovici, Siena AI co-founder and president",
+   "n": "Variant 1<Resources<Menu Area"
+  },
+  {
+   "src": "DQAhfGGzvnqQC9HpTOLVLoH1NQ.webp",
+   "r": [
+    1019,
+    193,
+    265,
+    152
+   ],
+   "ow": 265,
+   "oh": 152,
+   "wow": 265,
+   "woh": 152,
+   "pos": "t:0px r:0px b:0px l:0px w:265.328px h:151.734px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "Variant 1<Resources<Menu Area"
+  },
+  {
+   "src": "JGnGkyrUgWm5fpSCETDcdK3Ko.webp",
+   "r": [
+    1043,
+    369,
+    30,
+    30
+   ],
+   "ow": 30,
+   "oh": 30,
+   "wow": 30,
+   "woh": 30,
+   "pos": "t:0px r:0px b:0px l:0px w:30px h:30px",
+   "tf": "none",
+   "rad": "50px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "Andrei Negrau, Siena AI co-founder and CEO",
+   "n": "Variant 1<Resources<Menu Area"
+  },
+  {
+   "src": "qnJ39G2jMJsaeN5ykV5ZIyZ9Fw.webp",
+   "r": [
+    -425,
+    228,
+    800,
+    862
+   ],
+   "ow": 800,
+   "oh": 862,
+   "wow": 800,
+   "woh": 862,
+   "pos": "t:228px r:1065px b:-190px l:-425px w:800px h:862px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "contain",
+   "op": "50% 0%",
+   "alt": "",
+   "n": "Siena 2<Hero"
+  },
+  {
+   "src": "OJVl4cBpDuZoUt7B55UQZA7rfQ.webp",
+   "r": [
+    1008,
+    153,
+    800,
+    728
+   ],
+   "ow": 800,
+   "oh": 728,
+   "wow": 800,
+   "woh": 728,
+   "pos": "t:153px r:-368px b:-100px l:1008px w:800px h:728.453px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "contain",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "image<Hero"
+  },
+  {
+   "src": "ZCj576JNrFiZ427q7v0w8UiiZtg.svg",
+   "r": [
+    168,
+    1419,
+    140,
+    64
+   ],
+   "ow": 140,
+   "oh": 64,
+   "wow": 140,
+   "woh": 64,
+   "pos": "t:0px r:0px b:0px l:0px w:140px h:64px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "contain",
+   "op": "0% 50%",
+   "alt": "",
+   "n": "Logos<Brand<Right Column"
+  },
+  {
+   "src": "mSwCeM9m9qrwUvrpjLLD0jdLc0.webp",
+   "r": [
+    740,
+    1131,
+    532,
+    532
+   ],
+   "ow": 532,
+   "oh": 532,
+   "wow": 532,
+   "woh": 532,
+   "pos": "t:0px r:0px b:0px l:0px w:532px h:532px",
+   "tf": "none",
+   "rad": "32px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "Testimonial<Content<content"
+  },
+  {
+   "src": "a5SDd3EboOJuKxw06cfwFqcDs.png",
+   "r": [
+    583,
+    2192,
+    20,
+    20
+   ],
+   "ow": 20,
+   "oh": 20,
+   "wow": 354,
+   "woh": 161,
+   "pos": "t:auto r:auto b:auto l:auto w:353.656px h:161px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "fill",
+   "op": "50% 50%",
+   "alt": "Check",
+   "n": "Features<Main"
+  },
+  {
+   "src": "a5SDd3EboOJuKxw06cfwFqcDs.png",
+   "r": [
+    583,
+    2353,
+    20,
+    20
+   ],
+   "ow": 20,
+   "oh": 20,
+   "wow": 354,
+   "woh": 141,
+   "pos": "t:auto r:auto b:auto l:auto w:353.656px h:141px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "fill",
+   "op": "50% 50%",
+   "alt": "Check",
+   "n": "Features<Main"
+  },
+  {
+   "src": "a5SDd3EboOJuKxw06cfwFqcDs.png",
+   "r": [
+    583,
+    2494,
+    20,
+    20
+   ],
+   "ow": 20,
+   "oh": 20,
+   "wow": 354,
+   "woh": 121,
+   "pos": "t:auto r:auto b:auto l:auto w:353.656px h:121px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "fill",
+   "op": "50% 50%",
+   "alt": "Check",
+   "n": "Features<Main"
+  },
+  {
+   "src": "a5SDd3EboOJuKxw06cfwFqcDs.png",
+   "r": [
+    583,
+    2615,
+    20,
+    20
+   ],
+   "ow": 20,
+   "oh": 20,
+   "wow": 354,
+   "woh": 141,
+   "pos": "t:auto r:auto b:auto l:auto w:353.656px h:141px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "fill",
+   "op": "50% 50%",
+   "alt": "Check",
+   "n": "Features<Main"
+  },
+  {
+   "src": "a5SDd3EboOJuKxw06cfwFqcDs.png",
+   "r": [
+    583,
+    2756,
+    20,
+    20
+   ],
+   "ow": 20,
+   "oh": 20,
+   "wow": 354,
+   "woh": 141,
+   "pos": "t:auto r:auto b:auto l:auto w:353.656px h:141px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "fill",
+   "op": "50% 50%",
+   "alt": "Check",
+   "n": "Features<Main"
+  },
+  {
+   "src": "a5SDd3EboOJuKxw06cfwFqcDs.png",
+   "r": [
+    583,
+    2897,
+    20,
+    20
+   ],
+   "ow": 20,
+   "oh": 20,
+   "wow": 354,
+   "woh": 141,
+   "pos": "t:auto r:auto b:auto l:auto w:353.656px h:141px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "fill",
+   "op": "50% 50%",
+   "alt": "Check",
+   "n": "Features<Main"
+  },
+  {
+   "src": "a5SDd3EboOJuKxw06cfwFqcDs.png",
+   "r": [
+    583,
+    3038,
+    20,
+    20
+   ],
+   "ow": 20,
+   "oh": 20,
+   "wow": 354,
+   "woh": 121,
+   "pos": "t:auto r:auto b:auto l:auto w:353.656px h:121px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "fill",
+   "op": "50% 50%",
+   "alt": "Check",
+   "n": "Features<Main"
+  },
+  {
+   "src": "a5SDd3EboOJuKxw06cfwFqcDs.png",
+   "r": [
+    583,
+    3159,
+    20,
+    20
+   ],
+   "ow": 20,
+   "oh": 20,
+   "wow": 354,
+   "woh": 161,
+   "pos": "t:auto r:auto b:auto l:auto w:353.656px h:161px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "fill",
+   "op": "50% 50%",
+   "alt": "Check",
+   "n": "Features<Main"
+  },
+  {
+   "src": "a5SDd3EboOJuKxw06cfwFqcDs.png",
+   "r": [
+    583,
+    3320,
+    20,
+    20
+   ],
+   "ow": 20,
+   "oh": 20,
+   "wow": 354,
+   "woh": 141,
+   "pos": "t:auto r:auto b:auto l:auto w:353.656px h:141px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "fill",
+   "op": "50% 50%",
+   "alt": "Check",
+   "n": "Features<Main"
+  },
+  {
+   "src": "OS7uIQBhEtXd5l7MXZ0qAcM0Lg.png",
+   "r": [
+    752,
+    3936,
+    512,
+    647
+   ],
+   "ow": 512,
+   "oh": 647,
+   "wow": 512,
+   "woh": 647,
+   "pos": "t:0px r:0px b:0px l:0px w:512px h:646.812px",
+   "tf": "none",
+   "rad": "24px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "Hand holding a phone showing the Siena AI chat demo",
+   "n": "Compare 4<Sticky<Scroll Area"
+  },
+  {
+   "src": "D3TQ38q4HpOxmxHoD1u1AW40NI.png",
+   "r": [
+    808,
+    4139,
+    40,
+    40
+   ],
+   "ow": 40,
+   "oh": 40,
+   "wow": 40,
+   "woh": 40,
+   "pos": "t:0px r:0px b:0px l:0px w:40px h:40px",
+   "tf": "none",
+   "rad": "99px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "Avatar<Compare 4<Sticky"
+  },
+  {
+   "src": "RmeNSvdDwpHmyiquwjkQ8HlXlI.webp",
+   "r": [
+    809,
+    4139,
+    38,
+    40
+   ],
+   "ow": 38,
+   "oh": 40,
+   "wow": 38,
+   "woh": 40,
+   "pos": "t:0px r:1px b:0px l:1px w:38px h:40px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "Portrait image of a happy person",
+   "n": "image 1696<Avatar<Compare 4"
+  },
+  {
+   "src": "14aPLwywC9q4flBvXM0s1rLqA8.png",
+   "r": [
+    1168,
+    4224,
+    40,
+    40
+   ],
+   "ow": 40,
+   "oh": 40,
+   "wow": 40,
+   "woh": 40,
+   "pos": "t:0px r:0px b:0px l:0px w:40px h:40px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "contain",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "Brand<Compare 4<Sticky"
+  },
+  {
+   "src": "RmeNSvdDwpHmyiquwjkQ8HlXlI.webp",
+   "r": [
+    809,
+    4298,
+    38,
+    40
+   ],
+   "ow": 38,
+   "oh": 40,
+   "wow": 38,
+   "woh": 40,
+   "pos": "t:0px r:1px b:0px l:1px w:38px h:40px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "Portrait image of a happy person",
+   "n": "image 1696<Avatar<Compare 4"
+  },
+  {
+   "src": "14aPLwywC9q4flBvXM0s1rLqA8.png",
+   "r": [
+    1168,
+    4431,
+    40,
+    40
+   ],
+   "ow": 40,
+   "oh": 40,
+   "wow": 40,
+   "woh": 40,
+   "pos": "t:0px r:0px b:0px l:0px w:40px h:40px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "contain",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "Brand<Compare 4<Sticky"
+  },
+  {
+   "src": "RmeNSvdDwpHmyiquwjkQ8HlXlI.webp",
+   "r": [
+    809,
+    4505,
+    38,
+    40
+   ],
+   "ow": 38,
+   "oh": 40,
+   "wow": 38,
+   "woh": 40,
+   "pos": "t:0px r:1px b:0px l:1px w:38px h:40px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "Portrait image of a happy person",
+   "n": "image 1696<Avatar<Compare 4"
+  },
+  {
+   "src": "5VTp1YGCJLYo9Grib0Ouvyooeag.webp",
+   "r": [
+    0,
+    7444,
+    1440,
+    852
+   ],
+   "ow": 1440,
+   "oh": 852,
+   "wow": 1440,
+   "woh": 852,
+   "pos": "t:0px r:0px b:0px l:0px w:1440px h:852.406px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "Metrics<Main"
+  },
+  {
+   "src": "2qwkMa62FY4R6JZFtpnkwc613e8.svg",
+   "r": [
+    842,
+    7902,
+    241,
+    17
+   ],
+   "ow": 241,
+   "oh": 17,
+   "wow": 241,
+   "woh": 17,
+   "pos": "t:0px r:0px b:0px l:0px w:241px h:17px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "contain",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "Vector 77<Title<Metrics"
+  },
+  {
+   "src": "OKFNY3AXFnnV2q6cBUgzTRwNI0.png",
+   "r": [
+    1191,
+    9326,
+    20,
+    20
+   ],
+   "ow": 20,
+   "oh": 20,
+   "wow": 982,
+   "woh": 159,
+   "pos": "t:auto r:auto b:auto l:auto w:982px h:159px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "fill",
+   "op": "50% 50%",
+   "alt": "icon",
+   "n": "FAQ<Main"
+  },
+  {
+   "src": "klSbquSQSmI4vJp5uAthfEBu4A.png",
+   "r": [
+    1191,
+    9485,
+    20,
+    20
+   ],
+   "ow": 20,
+   "oh": 20,
+   "wow": 982,
+   "woh": 99,
+   "pos": "t:auto r:auto b:auto l:auto w:982px h:99px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "fill",
+   "op": "50% 50%",
+   "alt": "icon",
+   "n": "FAQ<Main"
+  },
+  {
+   "src": "klSbquSQSmI4vJp5uAthfEBu4A.png",
+   "r": [
+    1191,
+    9584,
+    20,
+    20
+   ],
+   "ow": 20,
+   "oh": 20,
+   "wow": 982,
+   "woh": 99,
+   "pos": "t:auto r:auto b:auto l:auto w:982px h:99px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "fill",
+   "op": "50% 50%",
+   "alt": "icon",
+   "n": "FAQ<Main"
+  },
+  {
+   "src": "klSbquSQSmI4vJp5uAthfEBu4A.png",
+   "r": [
+    1191,
+    9683,
+    20,
+    20
+   ],
+   "ow": 20,
+   "oh": 20,
+   "wow": 982,
+   "woh": 99,
+   "pos": "t:auto r:auto b:auto l:auto w:982px h:99px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "fill",
+   "op": "50% 50%",
+   "alt": "icon",
+   "n": "FAQ<Main"
+  },
+  {
+   "src": "klSbquSQSmI4vJp5uAthfEBu4A.png",
+   "r": [
+    1191,
+    9782,
+    20,
+    20
+   ],
+   "ow": 20,
+   "oh": 20,
+   "wow": 982,
+   "woh": 99,
+   "pos": "t:auto r:auto b:auto l:auto w:982px h:99px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "fill",
+   "op": "50% 50%",
+   "alt": "icon",
+   "n": "FAQ<Main"
+  },
+  {
+   "src": "klSbquSQSmI4vJp5uAthfEBu4A.png",
+   "r": [
+    1191,
+    9881,
+    20,
+    20
+   ],
+   "ow": 20,
+   "oh": 20,
+   "wow": 982,
+   "woh": 99,
+   "pos": "t:auto r:auto b:auto l:auto w:982px h:99px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "fill",
+   "op": "50% 50%",
+   "alt": "icon",
+   "n": "FAQ<Main"
+  },
+  {
+   "src": "klSbquSQSmI4vJp5uAthfEBu4A.png",
+   "r": [
+    1191,
+    9980,
+    20,
+    20
+   ],
+   "ow": 20,
+   "oh": 20,
+   "wow": 982,
+   "woh": 99,
+   "pos": "t:auto r:auto b:auto l:auto w:982px h:99px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "fill",
+   "op": "50% 50%",
+   "alt": "icon",
+   "n": "FAQ<Main"
+  },
+  {
+   "src": "klSbquSQSmI4vJp5uAthfEBu4A.png",
+   "r": [
+    1191,
+    10079,
+    20,
+    20
+   ],
+   "ow": 20,
+   "oh": 20,
+   "wow": 982,
+   "woh": 96,
+   "pos": "t:auto r:auto b:auto l:auto w:982px h:96px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "fill",
+   "op": "50% 50%",
+   "alt": "icon",
+   "n": "FAQ<Main"
+  },
+  {
+   "src": "ERYNplIY591uk80wpoa4JGglO8.webp",
+   "r": [
+    0,
+    10249,
+    1440,
+    755
+   ],
+   "ow": 1440,
+   "oh": 755,
+   "wow": 1440,
+   "woh": 755,
+   "pos": "t:0px r:0px b:0px l:0px w:1440px h:754.594px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "Desktop<Main"
+  },
+  {
+   "src": "HB4OWZgksTQCHf8uTWf7S6EYSlE.webp",
+   "r": [
+    612,
+    11275,
+    64,
+    64
+   ],
+   "ow": 64,
+   "oh": 64,
+   "wow": 64,
+   "woh": 64,
+   "pos": "t:0px r:0px b:0px l:0px w:64px h:63.6406px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "AICPA SOC 2 compliance badge",
+   "n": "SOC Non-CPA Logo<Links<Links"
+  }
+ ],
+ "hasNav": true,
+ "navTxt": "We raised a $17M Series A\n\nto build The Agent of Record for consumer brands\n\nProduct\n\nCustomers\n\nResources\n\nPartners\n\nCompany\n\nBook a demo\n\nAI AGENTS\n\nCustomer Service Agent\n\nEmpathic AI for support\n\n"
+}

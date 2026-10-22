@@ -1,0 +1,85 @@
+{
+  "id": "section.lab.who-attend",
+  "registryId": "section.lab.who-attend",
+  "typeId": "lab.who-attend",
+  "version": "1.0.0",
+  "category": "content",
+  "purpose": "'Who should attend?': rule/eyebrow/H2 left, three H3 groups with disc bullet lists right.",
+  "evidenceLevel": "spec-measured",
+  "variants": {
+    "lab": "Groups gap ~48."
+  },
+  "composes": [
+    "primitive.text"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "eyebrow": {
+        "type": "string",
+        "maxWords": 5
+      },
+      "heading": {
+        "type": "string",
+        "maxWords": 4
+      },
+      "groups": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string",
+              "maxWords": 4
+            },
+            "bullets": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "maxWords": 12
+              },
+              "minItems": 3,
+              "maxItems": 4
+            }
+          },
+          "required": [
+            "title",
+            "bullets"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 3,
+        "maxItems": 3
+      }
+    },
+    "required": [
+      "eyebrow",
+      "heading",
+      "groups"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Stacked."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "spec.pb.5.8"
+  ]
+}

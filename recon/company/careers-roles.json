@@ -1,0 +1,249 @@
+[
+ {
+  "dept": "Engineering | 3",
+  "exp": "true,false,false,false,false,false",
+  "panel": {
+   "h": 144,
+   "pad": "0px",
+   "ov": "hidden",
+   "tr": "height 0.24s",
+   "bg": "rgba(0, 0, 0, 0)"
+  },
+  "roles": [
+   {
+    "href": "https://jobs.ashbyhq.com/siena/d978919a-c34f-4465-96f2-66b8277df894",
+    "text": "Engineering Manager, Channels & Platform | Remote - Europe",
+    "h": 48.203125,
+    "pad": "14px 4px",
+    "bb": "1px solid rgba(0, 0, 0, 0.2)",
+    "bt": "0px none rgb(18, 32, 35)",
+    "disp": "flex normal gap:16px tr:background 0.15s",
+    "sp": [
+     "SPAN|Engineering Manager, Channels & Platform|\"Instrument Sans\" 400 16px/19.2px rgb(18, 32, 35) ml:0px w:1077",
+     "SPAN|Remote - Europe|sans-serif 400 13px/normal rgb(113, 121, 123) ml:0px w:99"
+    ]
+   },
+   {
+    "href": "https://jobs.ashbyhq.com/siena/91e5e63a-7b02-4176-8b8f-0747042d756f",
+    "text": "Senior Fullstack Engineer | Argentina",
+    "h": 48.203125,
+    "pad": "14px 4px",
+    "bb": "1px solid rgba(0, 0, 0, 0.2)",
+    "bt": "0px none rgb(18, 32, 35)",
+    "disp": "flex normal gap:16px tr:background 0.15s",
+    "sp": [
+     "SPAN|Senior Fullstack Engineer|\"Instrument Sans\" 400 16px/19.2px rgb(18, 32, 35) ml:0px w:1120",
+     "SPAN|Argentina|sans-serif 400 13px/normal rgb(113, 121, 123) ml:0px w:56"
+    ]
+   },
+   {
+    "href": "https://jobs.ashbyhq.com/siena/9b020e8d-d953-4e52-b13e-f20397cc9199",
+    "text": "Software Engineer, Platform Experience | Argentina",
+    "h": 47.203125,
+    "pad": "14px 4px",
+    "bb": "0px none rgb(18, 32, 35)",
+    "bt": "0px none rgb(18, 32, 35)",
+    "disp": "flex normal gap:16px tr:background 0.15s",
+    "sp": [
+     "SPAN|Software Engineer, Platform Experience|\"Instrument Sans\" 400 16px/19.2px rgb(18, 32, 35) ml:0px w:1120",
+     "SPAN|Argentina|sans-serif 400 13px/normal rgb(113, 121, 123) ml:0px w:56"
+    ]
+   }
+  ]
+ },
+ {
+  "dept": "Product | 2",
+  "exp": "false,true,false,false,false,false",
+  "panel": {
+   "h": 95,
+   "pad": "0px",
+   "ov": "hidden",
+   "tr": "height 0.24s",
+   "bg": "rgba(0, 0, 0, 0)"
+  },
+  "roles": [
+   {
+    "href": "https://jobs.ashbyhq.com/siena/aa0c3428-680c-4e89-9bbd-ec6330272c20",
+    "text": "Product Manager, Agent Platform | London",
+    "h": 48.203125,
+    "pad": "14px 4px",
+    "bb": "1px solid rgba(0, 0, 0, 0.2)",
+    "bt": "0px none rgb(18, 32, 35)",
+    "disp": "flex normal gap:16px tr:background 0.15s",
+    "sp": [
+     "SPAN|Product Manager, Agent Platform|\"Instrument Sans\" 400 16px/19.2px rgb(18, 32, 35) ml:0px w:1133",
+     "SPAN|London|sans-serif 400 13px/normal rgb(113, 121, 123) ml:0px w:43"
+    ]
+   },
+   {
+    "href": "https://jobs.ashbyhq.com/siena/1216b030-76e0-443e-a7a7-7e826d3b3960",
+    "text": "Product Specialist | Remote - Europe",
+    "h": 47.203125,
+    "pad": "14px 4px",
+    "bb": "0px none rgb(18, 32, 35)",
+    "bt": "0px none rgb(18, 32, 35)",
+    "disp": "flex normal gap:16px tr:background 0.15s",
+    "sp": [
+     "SPAN|Product Specialist|\"Instrument Sans\" 400 16px/19.2px rgb(18, 32, 35) ml:0px w:1077",
+     "SPAN|Remote - Europe|sans-serif 400 13px/normal rgb(113, 121, 123) ml:0px w:99"
+    ]
+   }
+  ]
+ },
+ {
+  "dept": "GTM | 2",
+  "exp": "false,false,true,false,false,false",
+  "panel": {
+   "h": 95,
+   "pad": "0px",
+   "ov": "hidden",
+   "tr": "height 0.24s",
+   "bg": "rgba(0, 0, 0, 0)"
+  },
+  "roles": [
+   {
+    "href": "https://jobs.ashbyhq.com/siena/f73532d2-5adf-4e81-8644-4c850ff808df",
+    "text": "Head of Product Education & Community | Toronto",
+    "h": 48.203125,
+    "pad": "14px 4px",
+    "bb": "1px solid rgba(0, 0, 0, 0.2)",
+    "bt": "0px none rgb(18, 32, 35)",
+    "disp": "flex normal gap:16px tr:background 0.15s",
+    "sp": [
+     "SPAN|Head of Product Education & Community|\"Instrument Sans\" 400 16px/19.2px rgb(18, 32, 35) ml:0px w:1133",
+     "SPAN|Toronto|sans-serif 400 13px/normal rgb(113, 121, 123) ml:0px w:43"
+    ]
+   },
+   {
+    "href": "https://jobs.ashbyhq.com/siena/c5430e14-d8bd-4e9a-b36e-4648306dad54",
+    "text": "Senior Solutions Engineer | Austin",
+    "h": 47.203125,
+    "pad": "14px 4px",
+    "bb": "0px none rgb(18, 32, 35)",
+    "bt": "0px none rgb(18, 32, 35)",
+    "disp": "flex normal gap:16px tr:background 0.15s",
+    "sp": [
+     "SPAN|Senior Solutions Engineer|\"Instrument Sans\" 400 16px/19.2px rgb(18, 32, 35) ml:0px w:1140",
+     "SPAN|Austin|sans-serif 400 13px/normal rgb(113, 121, 123) ml:0px w:36"
+    ]
+   }
+  ]
+ },
+ {
+  "dept": "Account Management | 3",
+  "exp": "false,false,false,true,false,false",
+  "panel": {
+   "h": 144,
+   "pad": "0px",
+   "ov": "hidden",
+   "tr": "height 0.24s",
+   "bg": "rgba(0, 0, 0, 0)"
+  },
+  "roles": [
+   {
+    "href": "https://jobs.ashbyhq.com/siena/4c2561b7-4dd6-40ba-8fca-6452df7d5a9a",
+    "text": "Director, Strategic Accounts | New York",
+    "h": 48.203125,
+    "pad": "14px 4px",
+    "bb": "1px solid rgba(0, 0, 0, 0.2)",
+    "bt": "0px none rgb(18, 32, 35)",
+    "disp": "flex normal gap:16px tr:background 0.15s",
+    "sp": [
+     "SPAN|Director, Strategic Accounts|\"Instrument Sans\" 400 16px/19.2px rgb(18, 32, 35) ml:0px w:1121",
+     "SPAN|New York|sans-serif 400 13px/normal rgb(113, 121, 123) ml:0px w:55"
+    ]
+   },
+   {
+    "href": "https://jobs.ashbyhq.com/siena/6335ebaf-54e2-49ae-bc50-4a686de55d9e",
+    "text": "Strategic Account Manager | New York",
+    "h": 48.203125,
+    "pad": "14px 4px",
+    "bb": "1px solid rgba(0, 0, 0, 0.2)",
+    "bt": "0px none rgb(18, 32, 35)",
+    "disp": "flex normal gap:16px tr:background 0.15s",
+    "sp": [
+     "SPAN|Strategic Account Manager|\"Instrument Sans\" 400 16px/19.2px rgb(18, 32, 35) ml:0px w:1121",
+     "SPAN|New York|sans-serif 400 13px/normal rgb(113, 121, 123) ml:0px w:55"
+    ]
+   },
+   {
+    "href": "https://jobs.ashbyhq.com/siena/d593e639-c56e-49d8-937d-29da7dc88a2f",
+    "text": "Strategic Account Manager - London | London",
+    "h": 47.203125,
+    "pad": "14px 4px",
+    "bb": "0px none rgb(18, 32, 35)",
+    "bt": "0px none rgb(18, 32, 35)",
+    "disp": "flex normal gap:16px tr:background 0.15s",
+    "sp": [
+     "SPAN|Strategic Account Manager - London|\"Instrument Sans\" 400 16px/19.2px rgb(18, 32, 35) ml:0px w:1133",
+     "SPAN|London|sans-serif 400 13px/normal rgb(113, 121, 123) ml:0px w:43"
+    ]
+   }
+  ]
+ },
+ {
+  "dept": "Operations | 1",
+  "exp": "false,false,false,false,true,false",
+  "panel": {
+   "h": 47,
+   "pad": "0px",
+   "ov": "hidden",
+   "tr": "height 0.24s",
+   "bg": "rgba(0, 0, 0, 0)"
+  },
+  "roles": [
+   {
+    "href": "https://jobs.ashbyhq.com/siena/ff35146a-5d1c-4da9-8c3f-b32bdfaa41d2",
+    "text": "Senior Talent Partner (FTC) | London",
+    "h": 47.203125,
+    "pad": "14px 4px",
+    "bb": "0px none rgb(18, 32, 35)",
+    "bt": "0px none rgb(18, 32, 35)",
+    "disp": "flex normal gap:16px tr:background 0.15s",
+    "sp": [
+     "SPAN|Senior Talent Partner (FTC)|\"Instrument Sans\" 400 16px/19.2px rgb(18, 32, 35) ml:0px w:1133",
+     "SPAN|London|sans-serif 400 13px/normal rgb(113, 121, 123) ml:0px w:43"
+    ]
+   }
+  ]
+ },
+ {
+  "dept": "Marketing | 2",
+  "exp": "false,false,false,false,false,true",
+  "panel": {
+   "h": 95,
+   "pad": "0px",
+   "ov": "hidden",
+   "tr": "height 0.24s",
+   "bg": "rgba(0, 0, 0, 0)"
+  },
+  "roles": [
+   {
+    "href": "https://jobs.ashbyhq.com/siena/0ac30866-9135-4313-a5b0-54bbc87ccef8",
+    "text": "Founding Content Strategist | United Kingdom",
+    "h": 48.203125,
+    "pad": "14px 4px",
+    "bb": "1px solid rgba(0, 0, 0, 0.2)",
+    "bt": "0px none rgb(18, 32, 35)",
+    "disp": "flex normal gap:16px tr:background 0.15s",
+    "sp": [
+     "SPAN|Founding Content Strategist|\"Instrument Sans\" 400 16px/19.2px rgb(18, 32, 35) ml:0px w:1084",
+     "SPAN|United Kingdom|sans-serif 400 13px/normal rgb(113, 121, 123) ml:0px w:93"
+    ]
+   },
+   {
+    "href": "https://jobs.ashbyhq.com/siena/29c3eb4b-e0cd-4f42-9d17-959c69bebca4",
+    "text": "Founding Creative Director | London",
+    "h": 47.203125,
+    "pad": "14px 4px",
+    "bb": "0px none rgb(18, 32, 35)",
+    "bt": "0px none rgb(18, 32, 35)",
+    "disp": "flex normal gap:16px tr:background 0.15s",
+    "sp": [
+     "SPAN|Founding Creative Director|\"Instrument Sans\" 400 16px/19.2px rgb(18, 32, 35) ml:0px w:1133",
+     "SPAN|London|sans-serif 400 13px/normal rgb(113, 121, 123) ml:0px w:43"
+    ]
+   }
+  ]
+ }
+]

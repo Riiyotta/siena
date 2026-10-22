@@ -1,0 +1,16 @@
+{
+  "registryId": "component.mobile-nav",
+  "version": "1.0.0",
+  "category": "chrome",
+  "description": "Below 768px: fixed 390-wide bar (bg hero sand) with the ink banner (rotating four-point star, 10s per turn) + logo + 52x52 menu button; open state is instant and lists the five items + full-width md CTA.",
+  "composes": [
+    "primitive.logo-mark",
+    "primitive.button",
+    "primitive.icon"
+  ],
+  "props": {},
+  "measuredFrom": [
+    "spec.mobile.nav",
+    "spec.mobile.star"
+  ]
+}

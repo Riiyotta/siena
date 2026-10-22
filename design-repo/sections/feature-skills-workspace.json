@@ -1,0 +1,92 @@
+{
+  "id": "section.feature.skills-workspace",
+  "registryId": "section.feature.skills-workspace",
+  "typeId": "feature.skills-workspace",
+  "version": "1.0.0",
+  "category": "feature",
+  "purpose": "Ask Siena features B: two alternating rows (skills library with tilted skill cards; workspace) with eyebrow, H3, text, star bullets.",
+  "evidenceLevel": "spec-measured",
+  "variants": {
+    "ask": "Cream with top/bottom fades."
+  },
+  "composes": [
+    "primitive.text",
+    "primitive.icon"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "rows": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "eyebrow": {
+              "type": "string",
+              "maxWords": 5
+            },
+            "heading": {
+              "type": "string",
+              "maxWords": 8
+            },
+            "text": {
+              "type": "string",
+              "maxWords": 25
+            },
+            "bullets": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "maxWords": 14
+              },
+              "minItems": 3,
+              "maxItems": 4
+            },
+            "visual": {
+              "type": "string",
+              "maxWords": 3,
+              "pattern": "^[a-z0-9-]+$"
+            }
+          },
+          "required": [
+            "eyebrow",
+            "heading",
+            "text",
+            "bullets",
+            "visual"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 2,
+        "maxItems": 2
+      }
+    },
+    "required": [
+      "rows"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Rows stack."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "spec.pa.6.5"
+  ]
+}

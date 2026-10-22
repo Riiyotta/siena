@@ -1,0 +1,73 @@
+{
+  "id": "section.cta.newsletter",
+  "registryId": "section.cta.newsletter",
+  "typeId": "cta.newsletter",
+  "version": "1.0.0",
+  "category": "conversion",
+  "purpose": "Newsletter signup card ('Be the first to know what's happening') over the metrics image; static form, never submits.",
+  "evidenceLevel": "measured",
+  "variants": {
+    "conversations": "On /conversations* the desktop variant is kept at 390 (input squeezed to 105px) - live quirk.",
+    "events": "/events has a real phone variant (stacked field + full-width button)."
+  },
+  "composes": [
+    "component.form-card"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "heading": {
+        "type": "string",
+        "maxWords": 8
+      },
+      "placeholder": {
+        "type": "string",
+        "maxWords": 1
+      },
+      "submitLabel": {
+        "type": "string",
+        "maxWords": 3
+      },
+      "submitBehavior": {
+        "const": "none"
+      }
+    },
+    "required": [
+      "heading",
+      "placeholder",
+      "submitLabel",
+      "submitBehavior"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "events: padding 40 24, card 342; conversations: desktop card 390 wide kept (quirk)."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustPrecedeFooter": true
+  },
+  "measuredFrom": [
+    "spec.t2",
+    "spec.e3",
+    "jsx.newsletter",
+    "jsx.events"
+  ],
+  "knownQuirks": [
+    "variant conversations keeps the desktop layout on phone (live quirk)."
+  ]
+}

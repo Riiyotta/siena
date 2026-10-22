@@ -1,0 +1,32 @@
+{
+  "registryId": "component.testimonial-slide",
+  "version": "1.0.0",
+  "category": "content",
+  "description": "Quote slide: quote mark, quote (quote role), brand logo slot 140x64, name + uppercase role, optional 'Read full story' secondary button, square/portrait photo radius 32 (optional play badge). Phone: image first, quote 19.2/24.96.",
+  "composes": [
+    "primitive.text",
+    "primitive.logo-mark",
+    "primitive.image",
+    "primitive.button"
+  ],
+  "props": {
+    "quote": {
+      "type": "string",
+      "maxWords": 75
+    },
+    "name": {
+      "type": "string",
+      "maxWords": 4
+    },
+    "role": {
+      "type": "string",
+      "maxWords": 9
+    }
+  },
+  "measuredFrom": [
+    "spec.testimonial.slide",
+    "jsx.slide",
+    "jsx.co.slider",
+    "spec.pa.testimonialcard"
+  ]
+}

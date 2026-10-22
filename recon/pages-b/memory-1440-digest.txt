@@ -1,0 +1,142 @@
+I 9ffhJgVx9g1qv0nTgqvc7QPif3o.png [0,0,1440,900] fit:cover nat:1440,629 r:0px alt:
+D DIV [0,0,1440,6095] bg:#FFFFFF       column gap0px jc:flex-start ai:center  
+T "Capture every detail, personalize every moment." <H1> [189,306,1062,160] Feature Deck Web Light 300 80px/80px ls-0.8px #122023  left  
+T "Siena Memory is the agentic brand intelligence layer that powers superhuman personalization and delivers insights that transform your business." <P> [189,484,630,84] Instrument Sans 500 20px/28px ls-0.2px #122023  left  
+D xlg [189,596,157,58] bg:#122023 bi:linear-gradient(90deg, rgb(18, 32, 35) 0%, rgb(18, 32, 35) 20%, rgb(18, 32, 35) 40%, rgb(18, 32, 35) 60%, rgb(18, 32, 35) 80%, rgb(18, 32, 35) 100%)  r:16px   p:18px 24px row gap10px jc:center ai:center  
+T "Book a demo" <P> [213,614,109,22] Instrument Sans 600 18px/21.6px lsnormal #FFFFFF  left href=./book-a-demo 
+D Feature 1 [120,900,1200,828] bg:#FFFFFF      p:80px 96px row gap64px jc:center ai:center  
+I OS7uIQBhEtXd5l7MXZ0qAcM0Lg.png [696,980,528,668] fit:cover nat:472,597 r:24px alt:
+D 01 [802,1067,380,58] bg:#F3F0EB   r:16px   p:20px column gap24px jc:flex-start ai:flex-start  
+I D3TQ38q4HpOxmxHoD1u1AW40NI.png [753,1083,38,57] fit:cover nat:38,57 r:0px alt:
+T "Has my sculpting shorts order shipped yet?" <P> [822,1087,340,18] Tiempos Text Regular 400 14px/18.2px lsnormal #122023  start  
+T "ai agent that remembers" <STRONG> [216,1089,263,20] Instrument Sans 700 16px/22.4px ls1.7px #122023 uppercase left  
+T "Turn interactions into personalized experiences" <H2> [216,1135,416,256] Feature Deck Web Light 400 64px/64px ls-1.28px #122023  left  
+D Border [734,1142,384,62]  bi:linear-gradient(255deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 14.8649%, rgb(251, 86, 70) 32.8829%, rgb(130, 122, 204) 52.2523%, rgb(46, 121, 216) 79.7297%, rgb(171, 171, 171) 100%)  r:16px   p:2px row gap10px jc:center ai:center  
+D 01 [736,1144,380,58] bg:#EFE5D0   r:16px   p:20px column gap24px jc:flex-start ai:flex-start  
+T "Just went out! You'll have it Friday." <P> [756,1164,340,18] Tiempos Text Regular 400 14px/18.2px lsnormal #122023  start  
+D Avatar [1128,1164,40,40] bg:#122023   r:99px    row gap0px jc:center ai:center  
+D 01 [802,1220,352,58] bg:#F3F0EB   r:16px   p:20px column gap24px jc:flex-start ai:flex-start  
+I D3TQ38q4HpOxmxHoD1u1AW40NI.png [753,1235,38,57] fit:cover nat:38,57 r:0px alt:
+T "Perfect! Hope XL fits, sometimes I need Large." <P> [822,1240,312,18] Tiempos Text Regular 400 14px/18.2px lsnormal #122023  start  
+D DIV [895,1294,131,22] bg:#F3F0EB   r:50px   p:4px 12px row gap10px jc:center ai:center  
+T "5 weeks later" <P> [929,1298,85,14] Geist Mono 400 10px/14px ls0.5px #605C53 uppercase center  
+T "" <P> [907,1299,12,12] Font Awesome 6 Sharp Light 400 12px/12px lsnormal #605C53  left  
+D 01 [802,1332,387,58] bg:#F3F0EB   r:16px   p:20px column gap24px jc:flex-start ai:flex-start  
+I D3TQ38q4HpOxmxHoD1u1AW40NI.png [753,1347,38,57] fit:cover nat:38,57 r:0px alt:
+T "Looking for those sculpting shorts in high-waisted." <P> [822,1352,347,18] Tiempos Text Regular 400 14px/18.2px lsnormal #122023  start  
+D Border [734,1406,384,80]  bi:linear-gradient(255deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 14.8649%, rgb(251, 86, 70) 32.8829%, rgb(130, 122, 204) 52.2523%, rgb(46, 121, 216) 79.7297%, rgb(171, 171, 171) 100%)  r:16px   p:2px row gap10px jc:center ai:center  
+D 01 [736,1408,380,76] bg:#EFE5D0   r:16px   p:20px column gap24px jc:flex-start ai:flex-start  
+T "Siena Memory remembers key details like preferences or feedback and applies them in future interactions. No repetition, just human-like context that makes ever <P> [216,1423,416,117] Tiempos Text Regular 400 18px/23.4px ls-0.18px #2A3639  start  
+T "We have those! You mentioned being between L and XL before. Which worked better?" <P> [756,1428,340,36] Tiempos Text Regular 400 14px/18.2px lsnormal #122023  start  
+D Avatar [1128,1447,40,40] bg:#122023   r:99px    row gap0px jc:center ai:center  
+D 01 [802,1503,287,58] bg:#F3F0EB   r:16px   p:20px column gap24px jc:flex-start ai:flex-start  
+I D3TQ38q4HpOxmxHoD1u1AW40NI.png [753,1518,38,57] fit:cover nat:38,57 r:0px alt:
+T "XL was loose. L would be perfect!" <P> [822,1523,247,18] Tiempos Text Regular 400 14px/18.2px lsnormal #122023  start  
+D Feature 2 [120,1728,1200,828] bg:#FFFFFF      p:80px 96px row gap64px jc:center ai:center  
+I d1NEs0VIe4aSoSGCYqjR4UG4QD8.png [696,1808,528,668] fit:cover nat:471,597 r:24px alt:
+T "tap into every conversation" <STRONG> [216,1876,305,20] Instrument Sans 700 16px/22.4px ls1.7px #122023 uppercase left  
+T "Unlock high-fidelity insights like never before" <H2> [216,1922,416,256] Feature Deck Web Light 400 64px/64px ls-1.28px #122023  left  
+T "Memory transforms conversations into precise, actionable insights. See emerging trends, hidden issues, and exactly what customers care about, in seconds." <P> [216,2210,416,94] Tiempos Text Regular 400 18px/23.4px ls-0.18px #2A3639  start  
+D xlg [216,2351,157,58] bg:#122023 bi:linear-gradient(90deg, rgb(18, 32, 35) 0%, rgb(18, 32, 35) 20%, rgb(18, 32, 35) 40%, rgb(18, 32, 35) 60%, rgb(18, 32, 35) 80%, rgb(18, 32, 35) 100%)  r:16px   p:18px 24px row gap10px jc:center ai:center  
+T "Book a demo" <P> [240,2369,109,22] Instrument Sans 600 18px/21.6px lsnormal #FFFFFF  left href=./book-a-demo 
+I 5VTp1YGCJLYo9Grib0Ouvyooeag.webp [0,2556,1440,732] fit:cover nat:1440,736 r:0px alt:
+D Title [189,2636,1062,572] bg:#F3F0EB   r:48px   p:64px column gap40px jc:center ai:center  
+T "how it works" <P> [253,2700,143,22] Instrument Sans 600 16px/22.4px ls1.7px #122023 uppercase left  
+T "The agentic brand intelligence layer" <H2> [253,2733,472,128] Feature Deck Web Light 400 64px/64px ls-1.28px #122023  left  
+T "" <P> [253,2933,24,24] Font Awesome 6 Sharp Light 400 24px/24px lsnormal #122023  center  
+T "" <P> [575,2933,27,24] Font Awesome 6 Sharp Light 400 24px/24px lsnormal #122023  center  
+T "" <P> [897,2933,30,24] Font Awesome 6 Sharp Light 400 24px/24px lsnormal #122023  center  
+T "Capture" <H3> [253,2973,290,38] Feature Deck Web Regular 400 32px/38.4px lsnormal #122023  left  
+T "Generate" <H3> [575,2973,290,38] Feature Deck Web Regular 400 32px/38.4px lsnormal #122023  left  
+T "Act" <H3> [897,2973,290,38] Feature Deck Web Regular 400 32px/38.4px lsnormal #122023  left  
+T "Memory captures insights from every conversation. Then builds a complete 360° customer profile and references them in future interactions." <P> [253,3027,290,117] Tiempos Text Regular 400 18px/23.4px ls-0.18px #122023  left  
+T "Then Insights generates actionable reports you can share with your entire team. Get weeks of analysis done in minutes." <P> [575,3027,290,94] Tiempos Text Regular 400 18px/23.4px ls-0.18px #122023  left  
+T "Turn insights into strategic actions that move your business forward. Proactively resolve issues, shape product roadmaps, or tailor marketing campaigns." <P> [897,3027,290,117] Tiempos Text Regular 400 18px/23.4px ls-0.18px #122023  left  
+I vOpdH6bt6rHWgyec84XjbD1Lbgc.webp [-102,3093,1643,1377] fit:cover nat:1643,1376 r:0px alt:
+D DIV [0,3288,1440,1682] bg:#F3F0EB      p:80px 96px 56px column gap72px jc:center ai:center  
+T "brands love capturing" <P> [189,3368,244,22] Instrument Sans 600 16px/22.4px ls1.7px #122023 uppercase left  
+T "Memory in action" <H2> [189,3401,448,64] Feature Deck Web Light 400 64px/64px ls-1.28px #122023  left  
+I xZOS9ivaVqrdrylU8tlXkU4nk.png [1081,3527,40,40] fit:fill nat:50,50 r:0px alt:Back Arrow
+I tetr5vA8U5aSyL8yw8kUnqB5Mg.png [1131,3527,40,40] fit:fill nat:50,50 r:0px alt:Next Arrow
+D 3 / Coffee [-1440,3612,248,330] bg:#FFFFFF   r:24px   p:24px column gap24px jc:flex-start ai:flex-start  
+D 4 / Friends [-1168,3612,248,330] bg:#FFFFFF   r:24px   p:24px column gap24px jc:flex-start ai:flex-start  
+D 5 / Promos [-897,3612,248,330] bg:#FFFFFF   r:24px   p:24px column gap24px jc:flex-start ai:flex-start  
+D 6 / Birthday [-625,3612,248,330] bg:#FFFFFF   r:24px   p:24px column gap24px jc:flex-start ai:flex-start  
+D 7 / Shade [-354,3612,248,330] bg:#FFFFFF   r:24px   p:24px column gap24px jc:flex-start ai:flex-start  
+D 8 / Feedback [-82,3612,248,330] bg:#FFFFFF   r:24px   p:24px column gap24px jc:flex-start ai:flex-start  
+D 9 / Hair Type [189,3612,248,330] bg:#FFFFFF   r:24px   p:24px column gap24px jc:flex-start ai:flex-start  
+D 10 / Milestones [461,3612,248,330] bg:#FFFFFF   r:24px   p:24px column gap24px jc:flex-start ai:flex-start  
+D 11 / Travelers [732,3612,248,330] bg:#FFFFFF   r:24px   p:24px column gap24px jc:flex-start ai:flex-start  
+D 12 / Delight [1004,3612,248,330] bg:#FFFFFF   r:24px   p:24px column gap24px jc:flex-start ai:flex-start  
+D 13 / Suggestions [1275,3612,248,330] bg:#FFFFFF   r:24px   p:24px column gap24px jc:flex-start ai:flex-start  
+D 14 / Subscribe [1547,3612,248,330] bg:#FFFFFF   r:24px   p:24px column gap24px jc:flex-start ai:flex-start  
+D 1 / Preference [1818,3612,248,330] bg:#FFFFFF   r:24px   p:24px column gap24px jc:flex-start ai:flex-start  
+D 2 / Social [2090,3612,248,330] bg:#FFFFFF   r:24px   p:24px column gap24px jc:flex-start ai:flex-start  
+D 3 / Coffee [2361,3612,248,330] bg:#FFFFFF   r:24px   p:24px column gap24px jc:flex-start ai:flex-start  
+D 4 / Friends [2633,3612,248,330] bg:#FFFFFF   r:24px   p:24px column gap24px jc:flex-start ai:flex-start  
+T "" <P> [-1416,3636,200,20] Font Awesome 6 Sharp Light 400 20px/20px lsnormal #122023  left  
+T "" <P> [-1144,3636,200,20] Font Awesome 6 Sharp Light 400 20px/20px lsnormal #122023  left  
+T "" <P> [-873,3636,200,20] Font Awesome 6 Sharp Light 400 20px/20px lsnormal #122023  left  
+T "" <P> [-601,3636,200,20] Font Awesome 6 Sharp Light 400 20px/20px lsnormal #122023  left  
+T "" <P> [-330,3636,200,20] Font Awesome 6 Sharp Light 400 20px/20px lsnormal #122023  left  
+T "" <P> [-58,3636,200,20] Font Awesome 6 Sharp Light 400 20px/20px lsnormal #122023  left  
+T "" <P> [213,3636,200,20] Font Awesome 6 Sharp Light 400 20px/20px lsnormal #122023  left  
+T "" <P> [485,3636,200,20] Font Awesome 6 Sharp Light 400 20px/20px lsnormal #122023  left  
+T "" <P> [756,3636,200,20] Font Awesome 6 Sharp Light 400 20px/20px lsnormal #122023  left  
+T "" <P> [1028,3636,200,20] Font Awesome 6 Sharp Light 400 20px/20px lsnormal #122023  left  
+T "" <P> [1299,3636,200,20] Font Awesome 6 Sharp Light 400 20px/20px lsnormal #122023  left  
+T "" <P> [1571,3636,200,20] Font Awesome 6 Sharp Light 400 20px/20px lsnormal #122023  left  
+T "" <P> [1842,3636,200,20] Font Awesome 6 Sharp Light 400 20px/20px lsnormal #122023  left  
+T "" <P> [2114,3636,200,20] Font Awesome 6 Sharp Light 400 20px/20px lsnormal #122023  left  
+T "" <P> [2385,3636,200,20] Font Awesome 6 Sharp Light 400 20px/20px lsnormal #122023  left  
+T "" <P> [2657,3636,200,20] Font Awesome 6 Sharp Light 400 20px/20px lsnormal #122023  left  
+T "Coffee choice" <H3> [-1416,3668,200,34] Feature Deck Web Regular 400 24px/33.6px lsnormal #122023  left  
+T "Friends&Fam" <H3> [-1144,3668,200,34] Feature Deck Web Regular 400 24px/33.6px lsnormal #122023  left  
+T "Promos" <H3> [-873,3668,200,34] Feature Deck Web Regular 400 24px/33.6px lsnormal #122023  left  
+T "Birthday" <H3> [-601,3668,200,34] Feature Deck Web Regular 400 24px/33.6px lsnormal #122023  left  
+T "Shade" <H3> [-330,3668,200,34] Feature Deck Web Regular 400 24px/33.6px lsnormal #122023  left  
+T "Feedback" <H3> [-58,3668,200,34] Feature Deck Web Regular 400 24px/33.6px lsnormal #122023  left  
+T "Hair type" <H3> [213,3668,200,34] Feature Deck Web Regular 400 24px/33.6px lsnormal #122023  left  
+T "Milestones" <H3> [485,3668,200,34] Feature Deck Web Regular 400 24px/33.6px lsnormal #122023  left  
+T "Travelers" <H3> [756,3668,200,34] Feature Deck Web Regular 400 24px/33.6px lsnormal #122023  left  
+T "Delight" <H3> [1028,3668,200,34] Feature Deck Web Regular 400 24px/33.6px lsnormal #122023  left  
+T "Inventory" <H3> [1299,3668,200,34] Feature Deck Web Regular 400 24px/33.6px lsnormal #122023  left  
+T "Subscription" <H3> [1571,3668,200,34] Feature Deck Web Regular 400 24px/33.6px lsnormal #122023  left  
+T "Preference" <H3> [1842,3668,200,34] Feature Deck Web Regular 400 24px/33.6px lsnormal #122023  left  
+T "Social" <H3> [2114,3668,200,34] Feature Deck Web Regular 400 24px/33.6px lsnormal #122023  left  
+T "Coffee choice" <H3> [2385,3668,200,34] Feature Deck Web Regular 400 24px/33.6px lsnormal #122023  left  
+T "Friends&Fam" <H3> [2657,3668,200,34] Feature Deck Web Regular 400 24px/33.6px lsnormal #122023  left  
+T "Capture things that customers tell you about their coffee consumption and preferences." <P> [-1416,3713,200,117] Tiempos Text Regular 400 18px/23.4px ls-0.18px #122023  left  
+T "Capture things that show our customers are referring Earth Breeze to friends and family, and advocating for us." <P> [-1144,3713,200,117] Tiempos Text Regular 400 18px/23.4px ls-0.18px #122023  left  
+T "Capture details that tell you about issues users have understanding their promotion." <P> [-873,3713,200,94] Tiempos Text Regular 400 18px/23.4px ls-0.18px #122023  left  
+T "Capture the customer’s birthday and their family members’ birthdays." <P> [-601,3713,200,94] Tiempos Text Regular 400 18px/23.4px ls-0.18px #122023  left  
+T "The customer mentions their favorite colors and shades." <P> [-330,3713,200,70] Tiempos Text Regular 400 18px/23.4px ls-0.18px #122023  left  
+T "Customers’ opinions — positive or negative — about products, services, and experiences." <P> [-58,3713,200,117] Tiempos Text Regular 400 18px/23.4px ls-0.18px #122023  left  
+T "Capture interest in styling options for straight hair, specifically inquiring about achieving waves." <P> [213,3713,200,117] Tiempos Text Regular 400 18px/23.4px ls-0.18px #122023  left  
+T "Specific details provided by customers that help Siena personalize interactions like events." <P> [485,3713,200,117] Tiempos Text Regular 400 18px/23.4px ls-0.18px #122023  left  
+T "Customers who frequently travel and need on the go options that are portable." <P> [756,3713,200,94] Tiempos Text Regular 400 18px/23.4px ls-0.18px #122023  left  
+T "Standout customer moments that show exceeded expectations and brand loyalty." <P> [1028,3713,200,94] Tiempos Text Regular 400 18px/23.4px ls-0.18px #122023  left  
+T "When customers bring up sold-out products, delays, or order changes due to inventory." <P> [1299,3713,200,94] Tiempos Text Regular 400 18px/23.4px ls-0.18px #122023  left  
+T "Capture customer opinions about the Loftie+ subscription, including reasons." <P> [1571,3713,200,94] Tiempos Text Regular 400 18px/23.4px ls-0.18px #122023  left  
+T "Capture customers’ explicit or implicit likes, dislikes, style choices, or brand affinities." <P> [1842,3713,200,94] Tiempos Text Regular 400 18px/23.4px ls-0.18px #122023  left  
+T "Capture what customers are commenting on social media about our products." <P> [2114,3713,200,117] Tiempos Text Regular 400 18px/23.4px ls-0.18px #122023  left  
+T "Capture things that customers tell you about their coffee consumption and preferences." <P> [2385,3713,200,117] Tiempos Text Regular 400 18px/23.4px ls-0.18px #122023  left  
+T "Capture things that show our customers are referring Earth Breeze to friends and family, and advocating for us." <P> [2657,3713,200,117] Tiempos Text Regular 400 18px/23.4px ls-0.18px #122023  left  
+I y27Z3JPTR70wZ1vySbDPnp3REZI.svg [-1144,3891,35,24] fit:cover nat:29,20 r:0px alt:
+I y27Z3JPTR70wZ1vySbDPnp3REZI.svg [2657,3891,35,24] fit:cover nat:29,20 r:0px alt:
+D content [189,4014,1062,900]  bi:linear-gradient(rgb(255, 255, 255) 0%, rgb(243, 240, 235) 100%)  r:24px   p:24px 16px column gap24px jc:flex-start ai:flex-start  
+D BUTTON [653,4054,40,40] bg:#F4EDDE/0.6   r:40px    row gapnormal jc:center ai:center  
+D BUTTON [747,4054,40,40] bg:#F4EDDE/0.6   r:40px    row gapnormal jc:center ai:center  
+T "1" <SPAN> [705,4064,9,17] Inter 400 14px/16.8px lsnormal #122023  start  
+T "/ 4" <SPAN> [714,4064,22,17] Inter 400 14px/16.8px lsnormal #122023  start  
+I DkKUcZ5MMlNWr9dt9V653q2eWmI.jpg [740,4118,463,463] fit:cover nat:600,600 r:32px alt:
+T "Memory is so cool. We used Siena Memory in a unique way this week for our price increase—flagging all tariff and price-increase inquiries and automatically rou <P> [237,4174,463,466] Instrument Sans 400 25.6px/33.28px ls-0.512px #122023  start  
+I ZeJTO989NVjG9cfH69ugd19p4C0.svg [237,4671,140,64] fit:contain nat:374,76 r:0px alt:
+T "Rebecca Blount" <P> [237,4751,168,28] Instrument Sans 500 20px/28px ls-0.2px #122023  start  
+T "Associate Director, Customer Strategy & Operations" <P> [237,4791,168,50] Instrument Sans 600 12px/16.8px ls0.6px #787368 uppercase left  
+D DIV [0,4969,1440,120]  bi:linear-gradient(rgb(243, 240, 235) 11%, rgba(250, 247, 241, 0) 77%)        
+I ERYNplIY591uk80wpoa4JGglO8.webp [0,4970,1440,691] fit:cover nat:1440,810 r:0px alt:
+D Title [189,5170,1062,291] bg:#F3F0EB   r:48px   p:64px column gap40px jc:center ai:center  
+T "Turn conversations into intelligence" <H2> [253,5234,934,64] Feature Deck Web Light 400 64px/64px ls-1.28px #122023  center  
+D xlg [641,5339,157,58] bg:#122023 bi:linear-gradient(90deg, rgb(18, 32, 35) 0%, rgb(18, 32, 35) 20%, rgb(18, 32, 35) 40%, rgb(18, 32, 35) 60%, rgb(18, 32, 35) 80%, rgb(18, 32, 35) 100%)  r:16px   p:18px 24px row gap10px jc:center ai:center  
+T "Book a demo" <P> [665,5357,109,22] Instrument Sans 600 18px/21.6px lsnormal #FFFFFF  left href=./book-a-demo 

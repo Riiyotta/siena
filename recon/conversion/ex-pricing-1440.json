@@ -1,0 +1,343 @@
+{
+ "borders": [
+  {
+   "r": [
+    792,
+    193,
+    416,
+    94
+   ],
+   "n": "Default<Hero",
+   "b": "0px 0px 1px 0px solid rgba(0, 0, 0, 0)",
+   "rad": "0px",
+   "txt": "Get pricing"
+  },
+  {
+   "r": [
+    96,
+    971,
+    395,
+    197
+   ],
+   "n": "Title",
+   "b": "1px 0px 0px 0px solid rgba(0, 0, 0, 0.2)",
+   "rad": "0px",
+   "txt": "  Platform fee  Access Siena’s core AI "
+  },
+  {
+   "r": [
+    523,
+    971,
+    395,
+    173
+   ],
+   "n": "Title",
+   "b": "1px 0px 0px 0px solid rgba(0, 0, 0, 0.2)",
+   "rad": "0px",
+   "txt": "  Automation Pack  Automate tickets at "
+  },
+  {
+   "r": [
+    949,
+    971,
+    395,
+    173
+   ],
+   "n": "Title",
+   "b": "1px 0px 0px 0px solid rgba(0, 0, 0, 0.2)",
+   "rad": "0px",
+   "txt": "  Support & Implementation Expert onboa"
+  }
+ ],
+ "icons": [
+  {
+   "r": [
+    96,
+    1003,
+    27,
+    24
+   ],
+   "cp": "U+F847",
+   "ff": "\"Font Awesome 6 Sharp Light\"",
+   "fs": "24px",
+   "fw": "400",
+   "c": "rgb(18, 32, 35)",
+   "n": "Title",
+   "next": " Platform fee Access Siena’s core AI engine and u"
+  },
+  {
+   "r": [
+    523,
+    1003,
+    30,
+    24
+   ],
+   "cp": "U+E3F1",
+   "ff": "\"Font Awesome 6 Sharp Light\"",
+   "fs": "24px",
+   "fw": "400",
+   "c": "rgb(18, 32, 35)",
+   "n": "Title",
+   "next": " Automation Pack Automate tickets at just $0.90 e"
+  },
+  {
+   "r": [
+    949,
+    1003,
+    30,
+    24
+   ],
+   "cp": "U+F652",
+   "ff": "\"Font Awesome 6 Sharp Light\"",
+   "fs": "24px",
+   "fw": "400",
+   "c": "rgb(18, 32, 35)",
+   "n": "Title",
+   "next": " Support & Implementation Expert onboarding plus "
+  },
+  {
+   "r": [
+    209,
+    2451,
+    24,
+    24
+   ],
+   "cp": "U+F132",
+   "ff": "\"Font Awesome 6 Sharp Light\"",
+   "fs": "24px",
+   "fw": "300",
+   "c": "rgb(18, 32, 35)",
+   "n": "Title<integrations<integrations",
+   "next": " AI & brand-safety guardrails Brand voice, busine"
+  },
+  {
+   "r": [
+    483,
+    2451,
+    21,
+    24
+   ],
+   "cp": "U+F023",
+   "ff": "\"Font Awesome 6 Sharp Light\"",
+   "fs": "24px",
+   "fw": "300",
+   "c": "rgb(18, 32, 35)",
+   "n": "Title<SSO<integrations",
+   "next": " SSO, roles, audit logs SAML SSO, granular permis"
+  },
+  {
+   "r": [
+    756,
+    2451,
+    24,
+    24
+   ],
+   "cp": "U+F590",
+   "ff": "\"Font Awesome 6 Sharp Light\"",
+   "fs": "24px",
+   "fw": "300",
+   "c": "rgb(18, 32, 35)",
+   "n": "Title<integrations<integrations",
+   "next": " SOC 2 Type II compliant Your data and your custo"
+  },
+  {
+   "r": [
+    1030,
+    2451,
+    24,
+    24
+   ],
+   "cp": "U+F590",
+   "ff": "\"Font Awesome 6 Sharp Light\"",
+   "fs": "24px",
+   "fw": "300",
+   "c": "rgb(18, 32, 35)",
+   "n": "Title<integrations<integrations",
+   "next": " Dedicated support & SLA A named success manager,"
+  }
+ ],
+ "imgs": [
+  {
+   "src": "I79jHrog8xkJyLdp6KBEDj6Ywjk.png",
+   "r": [
+    202,
+    524,
+    126,
+    31
+   ],
+   "ow": 126,
+   "oh": 31,
+   "wow": 126,
+   "woh": 31,
+   "pos": "t:0px r:0px b:0px l:0px w:126px h:31px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "contain",
+   "op": "50% 50%",
+   "alt": "Comfrt logo",
+   "n": "Comfrt<9<Title"
+  },
+  {
+   "src": "BYD0tOgABiRk8bVwCxbpUE5hDs.png",
+   "r": [
+    387,
+    520,
+    101,
+    38
+   ],
+   "ow": 101,
+   "oh": 38,
+   "wow": 101,
+   "woh": 38,
+   "pos": "t:0px r:0px b:0px l:0px w:101px h:38px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "contain",
+   "op": "50% 50%",
+   "alt": "Grüns",
+   "n": "Grüns<1<Title"
+  },
+  {
+   "src": "GtydJWMgnwv6wkRfNUoPlww2jh0.svg",
+   "r": [
+    543,
+    529,
+    132,
+    20
+   ],
+   "ow": 132,
+   "oh": 20,
+   "wow": 132,
+   "woh": 20,
+   "pos": "t:0px r:0px b:0px l:0px w:132px h:20px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "Bombas",
+   "n": "2<Title<Hero"
+  },
+  {
+   "src": "f15R92EBkjPHx4ABojD1VWldk54.png",
+   "r": [
+    199,
+    638,
+    132,
+    29
+   ],
+   "ow": 132,
+   "oh": 29,
+   "wow": 132,
+   "woh": 29,
+   "pos": "t:0px r:0px b:0px l:0px w:132px h:29px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "contain",
+   "op": "50% 50%",
+   "alt": "FIGS logo",
+   "n": "FIGS<4<Title"
+  },
+  {
+   "src": "vtOMWVl8Yp4AVppVcHxc4tGpNo.png",
+   "r": [
+    371,
+    639,
+    132,
+    28
+   ],
+   "ow": 132,
+   "oh": 28,
+   "wow": 132,
+   "woh": 28,
+   "pos": "t:0px r:0px b:0px l:0px w:132px h:28px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "contain",
+   "op": "50% 50%",
+   "alt": "Create logo",
+   "n": "Create<8<Title"
+  },
+  {
+   "src": "ipTDxCOrcnVCeET6yx6vSIolM.png",
+   "r": [
+    543,
+    640,
+    132,
+    26
+   ],
+   "ow": 132,
+   "oh": 26,
+   "wow": 132,
+   "woh": 26,
+   "pos": "t:0px r:0px b:0px l:0px w:132px h:26px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "contain",
+   "op": "50% 50%",
+   "alt": "Spanx",
+   "n": "Spanx<11<Title"
+  },
+  {
+   "src": "LhQ0hZskcxCtirPSSxXE4hUU0yo.webp",
+   "r": [
+    531,
+    -192,
+    909,
+    900
+   ],
+   "ow": 909,
+   "oh": 900,
+   "wow": 909,
+   "woh": 900,
+   "pos": "t:-191.594px r:0px b:0px l:530.953px w:909.047px h:900px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "Book a Demo<Hero"
+  },
+  {
+   "src": "L2fbLFnO4rG3Y9WhTn2Zmg90Q.png",
+   "r": [
+    168,
+    1695,
+    140,
+    64
+   ],
+   "ow": 140,
+   "oh": 64,
+   "wow": 140,
+   "woh": 64,
+   "pos": "t:0px r:0px b:0px l:0px w:140px h:64px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "contain",
+   "op": "0% 50%",
+   "alt": "Spanx logo, Kylah Field testimonial",
+   "n": "Logos<Brand<Right Column"
+  },
+  {
+   "src": "fNESOQNYixOgXSJEMtuui0Hx9FY.webp",
+   "r": [
+    740,
+    1407,
+    532,
+    532
+   ],
+   "ow": 532,
+   "oh": 532,
+   "wow": 532,
+   "woh": 532,
+   "pos": "t:0px r:0px b:0px l:0px w:532px h:532px",
+   "tf": "none",
+   "rad": "32px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "Photo of Kylah Field, VP of Global CX & Insights at Spanx",
+   "n": "Testimonial<Content<content"
+  }
+ ],
+ "hasNav": false,
+ "navTxt": ""
+}

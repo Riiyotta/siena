@@ -1,0 +1,234 @@
+{
+  "id": "section.carousel.memory-in-action",
+  "registryId": "section.carousel.memory-in-action",
+  "typeId": "carousel.memory-in-action",
+  "version": "1.0.0",
+  "category": "social-proof",
+  "purpose": "'Memory in action': autoplaying 4-up memory-category carousel (1.5s interval, drag, loops) + a 4-slide testimonial slider in the same sand section.",
+  "evidenceLevel": "spec-measured",
+  "variants": {
+    "memory": "14 cards; testimonial panel 1062."
+  },
+  "composes": [
+    "component.testimonial-slide",
+    "component.slider-controls"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "eyebrow": {
+        "type": "string",
+        "maxWords": 4
+      },
+      "title": {
+        "type": "string",
+        "maxWords": 4
+      },
+      "cards": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "icon": {
+              "type": "object",
+              "properties": {
+                "assetRole": {
+                  "const": "icon.glyph"
+                },
+                "codepoint": {
+                  "type": "string",
+                  "pattern": "^U\\+[0-9A-F]{4}$"
+                }
+              },
+              "required": [
+                "assetRole",
+                "codepoint"
+              ],
+              "additionalProperties": false
+            },
+            "title": {
+              "type": "string",
+              "maxWords": 3
+            },
+            "text": {
+              "type": "string",
+              "maxWords": 20
+            },
+            "logo": {
+              "type": "object",
+              "properties": {
+                "assetRole": {
+                  "const": "logo.customer"
+                },
+                "assetRef": {
+                  "type": "string",
+                  "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+                },
+                "alt": {
+                  "type": "string",
+                  "maxWords": 24
+                }
+              },
+              "required": [
+                "assetRole",
+                "assetRef"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "icon",
+            "title",
+            "text",
+            "logo"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 4,
+        "maxItems": 14
+      },
+      "slides": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "quote": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string",
+                  "maxWords": 75
+                },
+                "source": {
+                  "enum": [
+                    "verified",
+                    "placeholder"
+                  ]
+                }
+              },
+              "required": [
+                "text",
+                "source"
+              ],
+              "additionalProperties": false
+            },
+            "name": {
+              "type": "string",
+              "maxWords": 4
+            },
+            "role": {
+              "type": "string",
+              "maxWords": 9
+            },
+            "logo": {
+              "type": "object",
+              "properties": {
+                "assetRole": {
+                  "enum": [
+                    "logo.customer",
+                    "logo.partner-investor"
+                  ]
+                },
+                "assetRef": {
+                  "type": "string",
+                  "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+                },
+                "alt": {
+                  "type": "string",
+                  "maxWords": 24
+                }
+              },
+              "required": [
+                "assetRole",
+                "assetRef"
+              ],
+              "additionalProperties": false
+            },
+            "photo": {
+              "type": "object",
+              "properties": {
+                "assetRole": {
+                  "const": "photo.person-real"
+                },
+                "assetRef": {
+                  "type": "string",
+                  "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+                },
+                "alt": {
+                  "type": "string",
+                  "maxWords": 24
+                }
+              },
+              "required": [
+                "assetRole",
+                "assetRef"
+              ],
+              "additionalProperties": false
+            },
+            "storyLink": {
+              "type": "object",
+              "properties": {
+                "label": {
+                  "type": "string",
+                  "maxWords": 4
+                },
+                "href": {
+                  "type": "string",
+                  "pattern": "^(/[a-z0-9/#-]*|#[a-z0-9-]+|https://[a-zA-Z0-9.-]+(/[^\\s]*)?|mailto:[a-z.]+@siena\\.cx)$"
+                }
+              },
+              "required": [
+                "label",
+                "href"
+              ],
+              "additionalProperties": false
+            },
+            "playBadge": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "quote",
+            "name",
+            "role",
+            "photo"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 1,
+        "maxItems": 4
+      }
+    },
+    "required": [
+      "eyebrow",
+      "title",
+      "cards",
+      "slides"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "autoplay-carousel"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "2 cards visible (171 wide); slider image first."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "spec.pb.1.5",
+    "spec.pb.autoplay"
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "id": "section.agents.expert-team",
+  "registryId": "section.agents.expert-team",
+  "typeId": "agents.expert-team",
+  "version": "1.0.0",
+  "category": "feature",
+  "purpose": "'Your team of expert agents': title block, glass panel with a 2-state card carousel of specialist agents, then 4 benefit columns.",
+  "evidenceLevel": "spec-measured",
+  "variants": {
+    "shopping": "Cream section with blob, 4 cards 280x375."
+  },
+  "composes": [
+    "primitive.text",
+    "primitive.image",
+    "primitive.icon"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "eyebrow": {
+        "type": "string",
+        "maxWords": 7
+      },
+      "title": {
+        "type": "string",
+        "maxWords": 12,
+        "description": "Plain text; wrap at most one phrase in *asterisks* to render it in the display italic cut.",
+        "pattern": "^[^*]*(\\*[^*]+\\*[^*]*)?$"
+      },
+      "subtitle": {
+        "type": "string",
+        "maxWords": 35
+      },
+      "panelLabel": {
+        "type": "string",
+        "maxWords": 7
+      },
+      "cards": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string",
+              "maxWords": 5
+            },
+            "text": {
+              "type": "string",
+              "maxWords": 22
+            },
+            "image": {
+              "type": "object",
+              "properties": {
+                "assetRole": {
+                  "const": "photo.editorial-scene"
+                },
+                "assetRef": {
+                  "type": "string",
+                  "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+                },
+                "alt": {
+                  "type": "string",
+                  "maxWords": 24
+                }
+              },
+              "required": [
+                "assetRole",
+                "assetRef"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "title",
+            "text",
+            "image"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 3,
+        "maxItems": 6
+      },
+      "benefits": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "icon": {
+              "type": "object",
+              "properties": {
+                "assetRole": {
+                  "const": "icon.glyph"
+                },
+                "codepoint": {
+                  "type": "string",
+                  "pattern": "^U\\+[0-9A-F]{4}$"
+                }
+              },
+              "required": [
+                "assetRole",
+                "codepoint"
+              ],
+              "additionalProperties": false
+            },
+            "title": {
+              "type": "string",
+              "maxWords": 5
+            },
+            "text": {
+              "type": "string",
+              "maxWords": 14
+            }
+          },
+          "required": [
+            "icon",
+            "title",
+            "text"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 4,
+        "maxItems": 4
+      }
+    },
+    "required": [
+      "eyebrow",
+      "title",
+      "subtitle",
+      "panelLabel",
+      "cards",
+      "benefits"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Arrows hidden; horizontally scrollable track; benefits stack."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "spec.pa.1.5"
+  ]
+}

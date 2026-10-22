@@ -1,0 +1,199 @@
+{
+  "id": "section.testimonials.slider",
+  "registryId": "section.testimonials.slider",
+  "typeId": "testimonials.slider",
+  "version": "1.0.0",
+  "category": "social-proof",
+  "purpose": "Customer proof: manual prev/next slider of quote slides (no autoplay, 300ms slide). Homepage-set routes reuse the verified 11 slides exactly; other routes carry their own slides, and quotes not in the verified set are length-matched placeholders in the clone.",
+  "evidenceLevel": "measured",
+  "variants": {
+    "titled": "Eyebrow + H2 above the slider (home 944 content; book-a-demo/roi 'People are talking' in a gradient panel).",
+    "panel": "No title; slider inside a gradient/flat panel (refer, pricing, partner, shopping, reviews, memory).",
+    "panel-static": "Single static slide, no controls (social, qa A/B, topics, docs).",
+    "compare": "No title, plain panel, controls BELOW the quote column; 5 compare slides."
+  },
+  "composes": [
+    "component.testimonial-slide",
+    "component.slider-controls"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "eyebrow": {
+        "type": "string",
+        "maxWords": 6
+      },
+      "title": {
+        "type": "string",
+        "maxWords": 10
+      },
+      "slides": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "quote": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string",
+                  "maxWords": 75
+                },
+                "source": {
+                  "enum": [
+                    "verified",
+                    "placeholder"
+                  ]
+                }
+              },
+              "required": [
+                "text",
+                "source"
+              ],
+              "additionalProperties": false
+            },
+            "name": {
+              "type": "string",
+              "maxWords": 4
+            },
+            "role": {
+              "type": "string",
+              "maxWords": 9
+            },
+            "logo": {
+              "type": "object",
+              "properties": {
+                "assetRole": {
+                  "enum": [
+                    "logo.customer",
+                    "logo.partner-investor"
+                  ]
+                },
+                "assetRef": {
+                  "type": "string",
+                  "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+                },
+                "alt": {
+                  "type": "string",
+                  "maxWords": 24
+                }
+              },
+              "required": [
+                "assetRole",
+                "assetRef"
+              ],
+              "additionalProperties": false
+            },
+            "photo": {
+              "type": "object",
+              "properties": {
+                "assetRole": {
+                  "const": "photo.person-real"
+                },
+                "assetRef": {
+                  "type": "string",
+                  "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+                },
+                "alt": {
+                  "type": "string",
+                  "maxWords": 24
+                }
+              },
+              "required": [
+                "assetRole",
+                "assetRef"
+              ],
+              "additionalProperties": false
+            },
+            "storyLink": {
+              "type": "object",
+              "properties": {
+                "label": {
+                  "type": "string",
+                  "maxWords": 4
+                },
+                "href": {
+                  "type": "string",
+                  "pattern": "^(/[a-z0-9/#-]*|#[a-z0-9-]+|https://[a-zA-Z0-9.-]+(/[^\\s]*)?|mailto:[a-z.]+@siena\\.cx)$"
+                }
+              },
+              "required": [
+                "label",
+                "href"
+              ],
+              "additionalProperties": false
+            },
+            "playBadge": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "quote",
+            "name",
+            "role",
+            "photo"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 1,
+        "maxItems": 11
+      }
+    },
+    "required": [
+      "slides"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "slide-horizontal",
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Slide stacks image (320x320) first, quote 19.2/24.96, brand row; section padding collapses (56 0 / 136 0 56 on home)."
+    }
+  ],
+  "constraints": {
+    "maxPerPage": 2,
+    "variantRules": {
+      "titled": "eyebrow and title required",
+      "panel-static": "exactly one slide; motion pattern none",
+      "others": "no eyebrow/title"
+    }
+  },
+  "measuredFrom": [
+    "spec.testimonials",
+    "spec.testimonial.slide",
+    "spec.testimonial.behavior",
+    "jsx.testimonials",
+    "jsx.testimonials.data",
+    "jsx.slide",
+    "spec.cv.1.4",
+    "spec.cv.2.3",
+    "spec.cv.3.2",
+    "spec.p3",
+    "spec.r3",
+    "spec.pa.testimonialcard",
+    "jsx.partner.quotes",
+    "jsx.comparedata.quotes",
+    "spec.pa.4.4",
+    "spec.pb.4.6",
+    "jsx.filler"
+  ],
+  "copyPolicy": {
+    "slides[].quote": "verified (hash-matched) or placeholder (must start with 'Placeholder')",
+    "slides[].name/role/logo/photo": "real person data: reuse exact, never invent a person"
+  },
+  "knownQuirks": [
+    "Live-site typo/sic text is kept verbatim in verified quotes (e.g. 'Al' for 'AI' in a compare quote)."
+  ]
+}

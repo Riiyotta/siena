@@ -1,0 +1,54 @@
+{
+  "registryId": "primitive.form-field",
+  "version": "1.0.0",
+  "category": "input",
+  "description": "Static look-alike form control: text/email/tel input, select, textarea, floating-label input (lead forms) or pill multi-select. Never submits anywhere (StaticForm prevents default).",
+  "props": {
+    "control": {
+      "enum": [
+        "text",
+        "email",
+        "tel",
+        "number",
+        "select",
+        "textarea",
+        "floating-text",
+        "floating-select",
+        "pill-multiselect"
+      ]
+    },
+    "label": {
+      "type": "string",
+      "maxWords": 12
+    },
+    "placeholder": {
+      "type": "string",
+      "maxWords": 6
+    },
+    "required": {
+      "type": "boolean"
+    }
+  },
+  "tokens": [
+    "{component.field.height}",
+    "{component.field.padding}",
+    "{radius.input}",
+    "{radius.select}",
+    "{color.border.field}",
+    "{color.border.focus}",
+    "{color.text.placeholder}",
+    "{typography.field-label}",
+    "{typography.field-input}"
+  ],
+  "measuredFrom": [
+    "jsx.co.field",
+    "jsx.co.staticform",
+    "spec.form.fields",
+    "spec.form.states",
+    "spec.lead.textfield"
+  ],
+  "states": {
+    "focus": "border {color.border.focus}, no shadow",
+    "invalid": "native HTML5 validation bubble only"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "registryId": "component.mega-menu",
+  "version": "1.0.0",
+  "category": "chrome",
+  "description": "Hover panels (Product, Resources, Partners, Company) grown out of the same pill (height ~70ms stiff spring; content opacity + y -172 over ~120ms). Product panel: three columns (AI AGENTS, INTELLIGENCE, CAPABILITIES cluster) + menu footer with 'Works with' tags. Resources: cluster + 3 latest blog cards (blog links go to live siena.cx).",
+  "composes": [
+    "primitive.icon",
+    "primitive.text",
+    "primitive.tag-pill",
+    "primitive.badge"
+  ],
+  "props": {
+    "panel": {
+      "enum": [
+        "product",
+        "resources",
+        "partners",
+        "company"
+      ]
+    }
+  },
+  "measuredFrom": [
+    "spec.megamenu.panel",
+    "spec.nav.megamenu",
+    "jsx.megamenu.products",
+    "jsx.megamenu.resources",
+    "jsx.navdata.quirk"
+  ],
+  "knownQuirks": [
+    "Resources cluster hrefs are copied verbatim from the saved live HTML and several point at unrelated pages (e.g. Blog -> /ai-review-management, Community/Events/Webinars/Certification/ROI -> /memory). Replicated deliberately; do not 'fix' in a parity build."
+  ]
+}

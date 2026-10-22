@@ -1,0 +1,122 @@
+#893 <div> [Scroll Area] 0,2084 1440x2600 flex row jc:center ai:flex-start gap:64px ; pad:0px 96px ; bg:rgb(255, 255, 255)
+ #894 <div> [Sticky] 296,2950 273x900 flex column jc:center ai:center gap:10px ; maxW:512px ; pos:sticky t:0px l:auto r:auto b:auto ; z:1 ; STICKY top:0px
+  #895 <div> [1] 296,2950 273x900 flex column jc:center ai:flex-start gap:32px ; z:1
+   #898 <div> [Descriptive 2] 296,3073 273x655 maxW:512px ; rad:24px ; ovf:hidden
+    #899 <div> [Container] 308,3284 248x233 flex column jc:center ai:flex-start gap:10px ; pos:absolute t:327.5px l:136.5px r:-111.5px b:94.7188px ; tf:matrix(1, 0, 0, 1, -124, -116.391)
+     #900 <div> [Labels] 308,3284 248x86 flex column jc:flex-start ai:flex-start gap:6px
+      #901 <div> [Icon] 308,3330 215x40 flex row jc:center ai:center gap:10px ; pad:4px ; bg:rgb(239, 229, 208) ; rad:24px ; ovf:hidden
+       #902 <div> [Patterns] 306,3256 351x188 pos:absolute t:-74px l:-2px r:-134px b:-74px ; ovf:hidden ; z:0
+       #903 <div> [Frame 2087324876] 312,3334 207x32 flex row jc:flex-start ai:center gap:12px ; pad:6px 12px ; bg:rgba(255, 255, 255, 0.5) ; rad:24px ; bdf:blur(2px)
+        #904 <div> [Product recommendations] 324,3340 183x20 flex column jc:flex-start ai:normal gap:normal
+         #906 <li> 324,3340 183x20 pad:0px 0px 0px 14.3998px
+          #907 <p> 338,3340 169x20  T"Add to cart from chat" ["Geist Mono" 400  12px/20px ls:0.48px c:rgb(0, 0, 0) ta:start tt:uppercase]
+      #908 <div> [Icon] 308,3284 215x40 flex row jc:center ai:center gap:10px ; pad:4px ; bg:rgb(239, 229, 208) ; rad:24px ; ovf:hidden
+       #909 <div> [Frame 2087324876] 312,3288 207x32 flex row jc:flex-start ai:center gap:12px ; pad:6px 12px ; bg:rgba(255, 255, 255, 0.5) ; rad:24px ; bdf:blur(2px)
+        #910 <div> [first iNteraction] 324,3294 183x20 flex column jc:flex-start ai:normal gap:normal
+         #912 <li> 324,3294 183x20 pad:0px 0px 0px 14.3998px
+          #913 <p> 338,3294 169x20  T"Conversation Starters" ["Geist Mono" 400  12px/20px ls:0.48px c:rgb(0, 0, 0) ta:start tt:uppercase]
+     #914 <div> [Container] 308,3380 248x137 flex row jc:center ai:center gap:10px ; pad:2px ; bgImg:linear-gradient(255deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 14.8649%, rgb(251, 86, 70) 32.8829%, rgb(130, 122, 204) 52.2523%, rgb(46, 121, 216) 79.7297%, rgb(171, 171, 171) 100%) ; rad:16px ; ovf:hidden
+      #915 <div> [01] 310,3382 244x133 flex column jc:flex-start ai:flex-start gap:24px ; pad:16px ; bg:rgb(250, 247, 241) ; rad:15px
+       #916 <div> [Get your AI superhuman up and running 90% faster and more efficient than the average automation tools. 101% empathy is required to turn around a brand ready to capture the world’s imagination. Meet Siena.] 326,3398 212x101 flex column jc:flex-start ai:normal gap:normal
+        #917 <h6> 326,3398 212x101  T"Reduce friction and shorten the purchase journey." ["Feature Deck Web Regular" 400  24px/33.6px ls:normal c:rgba(18, 32, 35, 0.8) ta:start tt:none]
+   #918 <div> 567,3772 308x62 flex row jc:center ai:center gap:10px ; pos:absolute t:822px l:271px r:-306px b:16px ; op:0.4 ; ovf:clip ; z:1
+    #921 <div> [Variant 1] 566,3786 122x34 ovf:hidden
+     #922 <div> 566,3787 121x32 pos:absolute t:1px l:0px r:1px b:1px
+      #924 <svg> 566,3787 121x32 ovf:hidden ; SVG use:#svg1470285565_4871 vb:null
+    #926 <div> 698,3772 39x62 flex column jc:flex-end ai:normal gap:normal ; z:1
+     #927 <h1> 698,3754 39x80  T"x" ["Feature Deck Web Light" 300  80px/80px ls:-0.8px c:rgb(18, 32, 35) ta:center tt:none]
+    #928 <div> [6] 748,3775 127x56 flex row jc:center ai:center gap:10px ; pad:8px ; bg:rgb(255, 255, 255) ; rad:8px ; ovf:hidden ; z:1
+     #929 <div> [Logos-5] 756,3783 111x40 
+      #931 <svg> 756,3783 111x40 ovf:hidden ; SVG use:#svg-630068008_6901 vb:0 0 111 40
+ #933 <div> [Sticky] 633,2950 512x900 flex row jc:center ai:center gap:10px ; pad:110px 0px 40px ; maxW:512px ; pos:sticky t:0px l:auto r:auto b:auto ; z:1 ; STICKY top:0px
+  #936 <div> [Chat 2] 633,3108 512x655 flex column jc:center ai:center gap:16px ; maxW:512px ; rad:24px ; ovf:hidden
+   #937 <div> [Chat UI] 633,3136 512x599 flex column jc:flex-start ai:flex-start gap:12px ; pad:24px ; bg:rgba(243, 240, 235, 0.3) ; rad:12px ; ovf:hidden ; bdf:blur(8px)
+    #938 <div> [List] 657,3160 464x59 flex column jc:center ai:center gap:10px ; ovf:clip
+     #939 <div> [Container] 657,3160 464x59 flex row jc:center ai:center gap:10px ; pad:2px ; bgImg:linear-gradient(255deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 14.8649%, rgb(251, 86, 70) 32.8829%, rgb(130, 122, 204) 52.2523%, rgb(46, 121, 216) 79.7297%, rgb(171, 171, 171) 100%) ; rad:16px ; ovf:hidden
+      #940 <div> [01] 659,3162 460x55 flex column jc:flex-start ai:flex-start gap:24px ; pad:16px ; bg:rgb(255, 255, 255) ; rad:15px
+       #941 <div> [Get your AI superhuman up and running 90% faster and more efficient than the average automation tools. 101% empathy is required to turn around a brand ready to capture the world’s imagination. Meet Siena.] 675,3178 428x23 flex column jc:flex-start ai:normal gap:normal
+        #942 <p> 675,3178 428x23  T"What's the best cup for a 13-year-old girl?" ["Tiempos Text Regular" 400  18px/23.4px ls:-0.18px c:rgb(42, 54, 57) ta:start tt:none]
+    #943 <div> 657,3231 464x106 flex row jc:flex-end ai:flex-start gap:10px
+     #944 <div> [Container] 774,3231 285x106 flex row jc:center ai:center gap:10px ; pad:2px ; bgImg:linear-gradient(255deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 14.8649%, rgb(251, 86, 70) 32.8829%, rgb(130, 122, 204) 52.2523%, rgb(46, 121, 216) 79.7297%, rgb(171, 171, 171) 100%) ; rad:16px ; ovf:hidden
+      #945 <div> [01] 776,3233 281x102 flex column jc:flex-start ai:flex-start gap:24px ; pad:16px ; bg:rgb(239, 229, 208) ; rad:15px
+       #946 <div> [Get your AI superhuman up and running 90% faster and more efficient than the average automation tools. 101% empathy is required to turn around a brand ready to capture the world’s imagination. Meet Siena.] 792,3249 249x70 flex column jc:flex-start ai:normal gap:normal
+        #947 <p> 792,3249 249x70  T"Here are some fun, in-stock options that would make a great gift for your daughter:" ["Tiempos Text Regular" 400  18px/23.4px ls:-0.18px c:rgb(42, 54, 57) ta:start tt:none]
+     #948 <div> [Brand] 1069,3231 52x52 bg:rgb(255, 255, 255) ; rad:90px
+      #949 <div> [Logos-5] 1076,3248 37x18 bgImg:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 37 18%22><path d=%22M 33.906 13.299 C 33.946 13.332 33.986 13.361 34.022 13.395 C 34.762 14.134 35.504 14.869 36.238 15.612 C 36.618 15.998 36.733 16.464 36.573 16.982 C  ; pos:absolute t:17px l:7.5px r:7.5px b:17px
+    #950 <div> [Footer] 657,3615 464x96 flex column jc:flex-end ai:center gap:8px ; pad:12px 6px 8px ; bg:rgb(255, 255, 255) ; rad:28px ; ovf:hidden
+     #951 <div> [Powered by Tag] 838,3688 100x14 flex row jc:flex-start ai:center gap:4px
+      #952 <div> [Powered by] 838,3688 56x14 flex column jc:flex-start ai:normal gap:normal
+       #953 <p> 838,3688 56x14  T"Powered by" [Inter 500  10px/14px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+      #954 <div> [Logo] 899,3688 40x14 
+       #956 <svg> 899,3688 40x14 ovf:hidden ; SVG use:#svg2021841816_5174 vb:0 0 40 14
+     #958 <div> [Prompt] 663,3627 452x54 flex row jc:center ai:center gap:10px ; pad:2px ; bgImg:linear-gradient(255deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 14.8649%, rgb(251, 86, 70) 32.8829%, rgb(130, 122, 204) 52.2523%, rgb(46, 121, 216) 79.7297%, rgb(171, 171, 171) 100%) ; rad:24px ; ovf:hidden
+      #959 <div> [Header] 665,3629 448x50 flex row jc:space-between ai:center gap:normal ; pad:4px ; bg:rgb(255, 255, 255) ; rad:22px ; ovf:hidden
+       #960 <div> [Content] 669,3633 408x42 flex row jc:flex-start ai:center gap:8px ; pad:4px 12px
+        #961 <div> [What can I help with?] 681,3637 384x34 flex column jc:flex-start ai:normal gap:normal
+         #964 <span> 681,3637 16x34 filter:blur(0px) T"D" ["Feature Deck Web Regular" 400  24px/33.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+         #965 <span> 697,3637 13x34 filter:blur(0px) T"o" ["Feature Deck Web Regular" 400  24px/33.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+         #967 <span> 714,3637 12x34 filter:blur(0px) T"y" ["Feature Deck Web Regular" 400  24px/33.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+         #968 <span> 726,3637 13x34 filter:blur(0px) T"o" ["Feature Deck Web Regular" 400  24px/33.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+         #969 <span> 740,3637 13x34 filter:blur(0px) T"u" ["Feature Deck Web Regular" 400  24px/33.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+         #971 <span> 757,3637 13x34 filter:blur(0px) T"o" ["Feature Deck Web Regular" 400  24px/33.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+         #972 <span> 770,3637 7x34 filter:blur(0px) T"f" ["Feature Deck Web Regular" 400  24px/33.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+         #973 <span> 777,3637 7x34 filter:blur(0px) T"f" ["Feature Deck Web Regular" 400  24px/33.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+         #974 <span> 784,3637 12x34 filter:blur(0px) T"e" ["Feature Deck Web Regular" 400  24px/33.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+         #975 <span> 796,3637 9x34 filter:blur(0px) T"r" ["Feature Deck Web Regular" 400  24px/33.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+         #977 <span> 809,3637 12x34 filter:blur(0px) T"a" ["Feature Deck Web Regular" 400  24px/33.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+         #979 <span> 826,3637 14x34 filter:blur(0px) T"d" ["Feature Deck Web Regular" 400  24px/33.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+         #980 <span> 839,3637 6x34 filter:blur(0px) T"i" ["Feature Deck Web Regular" 400  24px/33.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+         #981 <span> 845,3637 9x34 filter:blur(0px) T"s" ["Feature Deck Web Regular" 400  24px/33.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+         #982 <span> 854,3637 12x34 filter:blur(0px) T"c" ["Feature Deck Web Regular" 400  24px/33.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+         #983 <span> 866,3637 13x34 filter:blur(0px) T"o" ["Feature Deck Web Regular" 400  24px/33.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+         #984 <span> 879,3637 13x34 filter:blur(0px) T"u" ["Feature Deck Web Regular" 400  24px/33.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+         #985 <span> 892,3637 13x34 filter:blur(0px) T"n" ["Feature Deck Web Regular" 400  24px/33.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+         #986 <span> 906,3637 8x34 filter:blur(0px) T"t" ["Feature Deck Web Regular" 400  24px/33.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+         #988 <span> 918,3637 7x34 filter:blur(0px) T"f" ["Feature Deck Web Regular" 400  24px/33.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+         #989 <span> 925,3637 13x34 filter:blur(0px) T"o" ["Feature Deck Web Regular" 400  24px/33.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+         #990 <span> 938,3637 9x34 filter:blur(0px) T"r" ["Feature Deck Web Regular" 400  24px/33.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+         #992 <span> 951,3637 8x34 filter:blur(0px) T"t" ["Feature Deck Web Regular" 400  24px/33.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+         #993 <span> 959,3637 12x34 filter:blur(0px) T"e" ["Feature Deck Web Regular" 400  24px/33.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+         #994 <span> 971,3637 12x34 filter:blur(0px) T"a" ["Feature Deck Web Regular" 400  24px/33.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+         #995 <span> 983,3637 12x34 filter:blur(0px) T"c" ["Feature Deck Web Regular" 400  24px/33.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+         #996 <span> 995,3637 13x34 filter:blur(0px) T"h" ["Feature Deck Web Regular" 400  24px/33.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+         #997 <span> 1008,3637 12x34 filter:blur(0px) T"e" ["Feature Deck Web Regular" 400  24px/33.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+         #998 <span> 1020,3637 9x34 filter:blur(0px) T"r" ["Feature Deck Web Regular" 400  24px/33.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+         #999 <span> 1029,3637 9x34 filter:blur(0px) T"s" ["Feature Deck Web Regular" 400  24px/33.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+         #1000 <span> 1038,3637 10x34 filter:blur(0px) T"?" ["Feature Deck Web Regular" 400  24px/33.6px ls:normal c:rgb(18, 32, 35) ta:start tt:none]
+       #1001 <div> [CTA send] 1077,3638 32x32 
+        #1003 <svg> 1077,3638 32x32 ovf:hidden ; SVG use:#svg-837714755_299 vb:0 0 32 32
+    #1005 <div> [Content] 657,3484 441x119 flex row jc:flex-start ai:center gap:12px ; pad:8px 16px ; bg:rgba(243, 240, 235, 0.7) ; rad:24px ; bdf:blur(10px)
+     #1006 <div> [Text container] 773,3492 309x103 flex column jc:center ai:flex-start gap:8px
+      #1007 <div> [Classic sport shoes] 773,3492 263x23 flex column jc:flex-start ai:normal gap:normal
+       #1008 <p> 773,3492 263x23  T"Trek Kids Tumbler: Sage Florals" ["Tiempos Text Regular" 400  18px/23.4px ls:-0.18px c:rgb(42, 54, 57) ta:start tt:none]
+      #1009 <div> [$157.99] 773,3523 246x23 flex column jc:flex-start ai:normal gap:normal
+       #1010 <p> 773,3523 246x23  T"$36.99" ["Tiempos Text Regular" 400  18px/23.4px ls:-0.18px c:rgb(42, 54, 57) ta:start tt:none]
+      #1011 <div> [Icon] 773,3555 309x40 flex row jc:center ai:center gap:10px ; pad:4px ; bg:rgb(239, 229, 208) ; rad:24px ; ovf:hidden
+       #1012 <div> [Frame 2087324876] 777,3559 301x32 flex row jc:center ai:center gap:12px ; pad:6px 8px ; bg:rgba(255, 255, 255, 0.5) ; rad:24px ; bdf:blur(2px)
+        #1013 <div> [Add to cart] 888,3565 77x20 flex column jc:flex-start ai:normal gap:normal
+         #1014 <p> 888,3565 77x20  T"Add to cart" ["Feature Deck" 400  16px/20px ls:normal c:rgb(10, 10, 10) ta:start tt:none]
+     #1015 <div> [Avatar] 673,3499 88x88 bg:rgba(255, 255, 255, 0.3) ; rad:24px ; ovf:hidden
+      #1016 <div> [image 1696] 672,3499 90x88 pos:absolute t:0px l:-1px r:-1px b:0px
+       #1017 <div> 672,3499 90x88 pos:absolute t:0px l:0px r:0px b:0px
+        #1018 <img> 672,3499 90x88 ovf:clip ; img:https://framerusercontent.com/images/pWyCmypuaJFrdmSKIUqWdXwuTw.webp?scale-down-to=512&width=1500&height=1500 nat:512x512 fit:cover objpos:50% 50% alt:
+    #1019 <div> [Content] 657,3349 441x123 flex row jc:flex-start ai:center gap:12px ; pad:8px 16px ; bg:rgb(250, 247, 241) ; rad:24px ; bdf:blur(10px)
+     #1020 <div> [Text container] 773,3357 309x107 flex column jc:center ai:flex-start gap:8px
+      #1021 <div> [Classic sport shoes] 773,3357 313x23 flex column jc:flex-start ai:normal gap:normal
+       #1022 <p> 773,3357 313x23  T"Trek Kids Tumbler: Smurf Checkmate" ["Tiempos Text Regular" 400  18px/23.4px ls:-0.18px c:rgb(42, 54, 57) ta:start tt:none]
+      #1023 <div> [$157.99] 773,3389 246x23 flex column jc:flex-start ai:normal gap:normal
+       #1024 <p> 773,3389 246x23  T"$32.99" ["Tiempos Text Regular" 400  18px/23.4px ls:-0.18px c:rgb(42, 54, 57) ta:start tt:none]
+      #1025 <div> [Icon] 773,3420 309x44 flex row jc:center ai:center gap:10px ; pad:4px ; bg:rgb(239, 229, 208) ; rad:24px ; ovf:hidden
+       #1026 <div> [Frame 2087324876] 777,3424 301x36 flex row jc:center ai:center gap:12px ; pad:6px 8px ; bg:rgba(255, 255, 255, 0.5) ; rad:24px ; bdf:blur(2px)
+        #1027 <div> [Add to cart] 861,3432 95x20 flex column jc:flex-start ai:normal gap:normal
+         #1028 <p> 861,3432 95x20  T"Added to cart" ["Feature Deck" 400  16px/20px ls:normal c:rgb(10, 10, 10) ta:start tt:none]
+        #1029 <div> [Blue checkmark] 968,3430 24x24 flex row jc:center ai:center gap:10px
+         #1030 <div> [Icon Button] 968,3430 24x24 
+          #1032 <svg> 968,3430 24x24 ovf:hidden ; SVG use:#svg-1621744536_389 vb:0 0 32 32
+     #1034 <div> [Avatar] 673,3367 88x88 bg:rgba(255, 255, 255, 0.3) ; rad:24px ; ovf:hidden
+      #1035 <div> [image 1696] 672,3367 90x88 pos:absolute t:0px l:-1px r:-1px b:0px
+       #1036 <div> 672,3367 90x88 pos:absolute t:0px l:0px r:0px b:0px
+        #1037 <img> 672,3367 90x88 ovf:clip ; img:https://framerusercontent.com/images/QXF1WWOFYMg43MV5R6ha4B4Mqqs.webp?scale-down-to=512&width=1500&height=1500 nat:512x512 fit:cover objpos:50% 50% alt:
+ #1038 <div> 535,2300 370x141 pos:absolute t:216px l:535px r:535px b:2243px ; ovf:clip ; z:0
+ #1039 <div> 535,3103 370x141 pos:absolute t:1019px l:535px r:535px b:1440px ; ovf:clip ; z:0
+ #1040 <div> 535,3663 370x141 pos:absolute t:1579px l:535px r:535px b:880px ; ovf:clip ; z:0

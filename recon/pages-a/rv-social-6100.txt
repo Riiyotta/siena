@@ -1,0 +1,16 @@
+Ask Siena "omg do you ship to canada??? �" @335,1849 320x47 [op,x,y,sx,sy,blur] [0,-159.9,80,1,1,0] -> [1,-159.9,0,1,1,0] start 498ms t50 680ms end 1481ms overshoot -1.2
+Prompt "Yes! We ship everywhere across" @346,1923 306x75 [op,x,y,sx,sy,blur] [0,-153,80,1,1,0] -> [1,-153,0,1,1,0] start 797ms t50 979ms end 1782ms overshoot -1.2
+01 "I need it in every flavour" @804,1979 227x47 [op,x,y,sx,sy,blur] [0,0,80,1,1,0] -> [1,0,0,1,1,0] start 498ms t50 680ms end 1481ms overshoot -1.2
+Prompt "True Sea MossYessss, you’re go" @828,1961 253x98 [op,x,y,sx,sy,blur] [0,-126.5,80,1,1,0] -> [1,-126.5,0,1,1,0] start 797ms t50 979ms end 1782ms overshoot -1.2
+User Message "Deleted by Siena" @770,4134 149x42 [op,x,y,sx,sy,blur] [0,0,150,1,1,0] -> [1,0,0,1,1,0] start 596ms t50 814ms end 1013ms overshoot 0.0
+User Message "Hidden by Siena" @770,4037 148x42 [op,x,y,sx,sy,blur] [0,0,150,1,1,0] -> [1,0,0,1,1,0] start 298ms t50 512ms end 713ms overshoot 0.0
+User Message "Deleted by Siena" @770,4234 149x42 [op,x,y,sx,sy,blur] [0,0,150,1,1,0] -> [1,0,0,1,1,0] start 897ms t50 1114ms end 1313ms overshoot 0.0
+User Message "Flagged for human review" @614,6452 211x42 [op,x,y,sx,sy,blur] [0,-105.5,150,1,1,0] -> [1,-105.5,0,1,1,0] start 447ms t50 646ms end 830ms overshoot 0.0
+Donut "Gaby Hi I’ve been loving your " @586,6202 269x158 [op,x,y,sx,sy,blur] [0,-134.5,150,1,1,0] -> [1,-134.5,0,1,1,0] start 50ms t50 248ms end 430ms overshoot 0.0
+Rectangle 2223 "" @714,6353 13x13 [op,x,y,sx,sy,blur] [0.134,0,0,1.347,1.347,0] -> [0.993,0,0,1.002,1.002,0] start 8ms t50 248ms end 3512ms overshoot -0.0
+Prompt "Influencer detected" @641,6395 159x43 [op,x,y,sx,sy,blur] [0,-79.4,128.3,1,1,0] -> [1,-79.4,-21.7,1,1,0] start 50ms t50 248ms end 430ms overshoot 0.0
+Donut "ThomasHi Gaby, Thomas here. Le" @585,6512 270x71 [op,x,y,sx,sy,blur] [0,-135,70,1,1,0] -> [1,-135,0,1,1,0] start 646ms t50 846ms end 1030ms overshoot 0.0
+SPAN "" @542,7510 2x14 [op,x,y,sx,sy,blur] [0,0,0,1,1,0] -> [1,0,0,1,1,0] start 248ms t50 281ms end 3363ms overshoot 0.0
+Rectangle 2223 "" @507,9615 21x21 [op,x,y,sx,sy,blur] [0.134,0,0,1.347,1.347,0] -> [0.993,0,0,1.002,1.002,0] start 8ms t50 248ms end 3512ms overshoot -0.0
+Rectangle 2223 "" @507,9659 21x21 [op,x,y,sx,sy,blur] [0.133,0,0,1.349,1.349,0] -> [0.993,0,0,1.002,1.002,0] start 8ms t50 248ms end 3512ms overshoot -0.0
+Rectangle 2223 "" @507,9703 21x21 [op,x,y,sx,sy,blur] [0.133,0,0,1.349,1.349,0] -> [0.993,0,0,1.002,1.002,0] start 8ms t50 248ms end 3512ms overshoot -0.0

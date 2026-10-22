@@ -1,0 +1,206 @@
+{
+  "$description": "Component-scoped tokens (approved application of semantic tokens).",
+  "component": {
+    "button": {
+      "xlg": {
+        "height": {
+          "$type": "dimension",
+          "$value": "58px",
+          "$extensions": {
+            "cite": [
+              "spec.hero.type"
+            ]
+          }
+        },
+        "padding": {
+          "$type": "dimension",
+          "$value": "18px 24px",
+          "$extensions": {
+            "cite": [
+              "spec.hero.type"
+            ]
+          }
+        },
+        "radius": {
+          "$type": "dimension",
+          "$value": "{radius.button-xlg}",
+          "$extensions": {
+            "cite": [
+              "spec.hero.type"
+            ]
+          }
+        },
+        "background": {
+          "$type": "color",
+          "$value": "{color.action.primary}",
+          "$extensions": {
+            "cite": [
+              "spec.hero.type"
+            ]
+          }
+        },
+        "hover": {
+          "$type": "gradient",
+          "$value": "{color.action.primary-hover}",
+          "$extensions": {
+            "cite": [
+              "tw.rainbow"
+            ]
+          }
+        },
+        "label": {
+          "$type": "typography",
+          "$value": "{typography.button-xlg}",
+          "$extensions": {
+            "cite": [
+              "spec.hero.type"
+            ]
+          }
+        }
+      },
+      "md": {
+        "height": {
+          "$type": "dimension",
+          "$value": "48px",
+          "$extensions": {
+            "cite": [
+              "spec.footer.links"
+            ]
+          }
+        },
+        "padding": {
+          "$type": "dimension",
+          "$value": "16px",
+          "$extensions": {
+            "cite": [
+              "spec.footer.links"
+            ]
+          }
+        },
+        "radius": {
+          "$type": "dimension",
+          "$value": "{radius.button-md}",
+          "$extensions": {
+            "cite": [
+              "spec.footer.links"
+            ]
+          }
+        },
+        "label": {
+          "$type": "typography",
+          "$value": "{typography.button-md}",
+          "$extensions": {
+            "cite": [
+              "spec.footer.links"
+            ]
+          }
+        }
+      },
+      "secondary-border": {
+        "$type": "color",
+        "$value": "{color.border.secondary-button}",
+        "$extensions": {
+          "cite": [
+            "spec.testimonial.slide"
+          ]
+        }
+      }
+    },
+    "field": {
+      "height": {
+        "$type": "dimension",
+        "$value": "60px",
+        "$extensions": {
+          "cite": [
+            "spec.form.fields"
+          ]
+        }
+      },
+      "padding": {
+        "$type": "dimension",
+        "$value": "20px 16px",
+        "$extensions": {
+          "cite": [
+            "spec.form.fields"
+          ]
+        }
+      },
+      "radius": {
+        "$type": "dimension",
+        "$value": "{radius.input}",
+        "$extensions": {
+          "cite": [
+            "spec.form.fields"
+          ]
+        }
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{color.border.field}",
+        "$extensions": {
+          "cite": [
+            "spec.form.fields"
+          ]
+        }
+      },
+      "border-focus": {
+        "$type": "color",
+        "$value": "{color.border.focus}",
+        "$extensions": {
+          "cite": [
+            "spec.form.states"
+          ]
+        }
+      }
+    },
+    "slider": {
+      "button-size": {
+        "$type": "dimension",
+        "$value": "40px",
+        "$extensions": {
+          "cite": [
+            "spec.slider.controls"
+          ]
+        }
+      },
+      "button-bg": {
+        "$type": "color",
+        "$value": "{color.surface.slider-button}",
+        "$extensions": {
+          "cite": [
+            "spec.slider.controls"
+          ]
+        }
+      }
+    },
+    "tile": {
+      "padding": {
+        "$type": "dimension",
+        "$value": "72px 0",
+        "$extensions": {
+          "cite": [
+            "spec.integrations.tile"
+          ]
+        }
+      },
+      "radius": {
+        "$type": "dimension",
+        "$value": "{radius.tile}",
+        "$extensions": {
+          "cite": [
+            "spec.integrations.tile"
+          ]
+        }
+      },
+      "gap": {
+        "$type": "dimension",
+        "$value": "4px",
+        "$extensions": {
+          "cite": [
+            "spec.integrations.tile"
+          ]
+        }
+      }
+    }
+  }
+}

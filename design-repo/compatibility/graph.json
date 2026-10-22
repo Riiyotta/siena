@@ -1,0 +1,588 @@
+{
+  "$description": "Adjacency and rhythm rules. `adjacency` is derived from every consecutive pair in templates/templates.json (verify_all.py recomputes it). Each rule carries a severity; schema/semantic_validate.py implements every rule id listed here and verify_all.py checks both sets agree.",
+  "adjacency": {
+    "agents.expert-team": {
+      "canPrecede": [
+        "media.reveal-pair"
+      ]
+    },
+    "banner.announcement-strip": {
+      "canPrecede": [
+        "logos.static-row"
+      ]
+    },
+    "bento.grid": {
+      "canPrecede": [
+        "comparison.before-after",
+        "cta.main",
+        "faq.accordion"
+      ]
+    },
+    "capabilities.customer-intelligence": {
+      "canPrecede": [
+        "carousel.playbooks"
+      ]
+    },
+    "cards.hover-media": {
+      "canPrecede": [
+        "comparison.before-after",
+        "mockup.ask-siena"
+      ]
+    },
+    "carousel.memory-in-action": {
+      "canPrecede": [
+        "cta.main"
+      ]
+    },
+    "carousel.playbooks": {
+      "canPrecede": [
+        "showcase.slack"
+      ]
+    },
+    "comparison.before-after": {
+      "canPrecede": [
+        "faq.accordion",
+        "testimonials.slider"
+      ]
+    },
+    "comparison.table": {
+      "canPrecede": [
+        "heading.section-title"
+      ]
+    },
+    "content.conversation-article": {
+      "canPrecede": [
+        "cta.newsletter"
+      ]
+    },
+    "content.conversation-index": {
+      "canPrecede": [
+        "cta.newsletter"
+      ]
+    },
+    "content.legal-document": {
+      "canPrecede": [
+        "shell.footer"
+      ]
+    },
+    "coverage.criteria": {
+      "canPrecede": [
+        "testimonials.slider"
+      ]
+    },
+    "cta.demo-form": {
+      "canPrecede": [
+        "shell.footer"
+      ]
+    },
+    "cta.lab-newsletter": {
+      "canPrecede": [
+        "shell.footer"
+      ]
+    },
+    "cta.main": {
+      "canPrecede": [
+        "overlay.partner-modal",
+        "shell.footer"
+      ]
+    },
+    "cta.newsletter": {
+      "canPrecede": [
+        "shell.footer"
+      ]
+    },
+    "events.empty-list": {
+      "canPrecede": [
+        "cta.newsletter"
+      ]
+    },
+    "faq.accordion": {
+      "canPrecede": [
+        "cta.main",
+        "integrations.logo-grid"
+      ]
+    },
+    "feature.agent-promo": {
+      "canPrecede": [
+        "cta.demo-form"
+      ]
+    },
+    "feature.change-once": {
+      "canPrecede": [
+        "bento.grid"
+      ]
+    },
+    "feature.media-row": {
+      "canPrecede": [
+        "integrations.logo-grid",
+        "steps.how-it-works",
+        "testimonials.slider"
+      ]
+    },
+    "feature.pill-nav-blocks": {
+      "canPrecede": [
+        "bento.grid"
+      ]
+    },
+    "feature.pipeline": {
+      "canPrecede": [
+        "faq.accordion"
+      ]
+    },
+    "feature.skills-workspace": {
+      "canPrecede": [
+        "capabilities.customer-intelligence"
+      ]
+    },
+    "feature.sticky-scroll": {
+      "canPrecede": [
+        "agents.expert-team",
+        "feature.change-once",
+        "feature.pipeline",
+        "feature.skills-workspace",
+        "stats.metrics",
+        "steps.how-it-works",
+        "testimonials.slider"
+      ]
+    },
+    "feature.timer-list": {
+      "canPrecede": [
+        "bento.grid"
+      ]
+    },
+    "features.icon-grid": {
+      "canPrecede": [
+        "roles.open-roles",
+        "testimonials.slider"
+      ]
+    },
+    "features.lottie-grid": {
+      "canPrecede": [
+        "cta.main",
+        "integrations.logo-grid"
+      ]
+    },
+    "heading.section-title": {
+      "canPrecede": [
+        "feature.media-row",
+        "feature.sticky-scroll"
+      ]
+    },
+    "hero.careers": {
+      "canPrecede": [
+        "letter.founders"
+      ]
+    },
+    "hero.community-invite": {
+      "canPrecede": [
+        "shell.footer"
+      ]
+    },
+    "hero.compare": {
+      "canPrecede": [
+        "testimonials.slider"
+      ]
+    },
+    "hero.docs": {
+      "canPrecede": [
+        "feature.sticky-scroll"
+      ]
+    },
+    "hero.home": {
+      "canPrecede": [
+        "feature.sticky-scroll",
+        "testimonials.slider"
+      ]
+    },
+    "hero.insights": {
+      "canPrecede": [
+        "banner.announcement-strip"
+      ]
+    },
+    "hero.lab": {
+      "canPrecede": [
+        "lab.statement"
+      ]
+    },
+    "hero.lead-form": {
+      "canPrecede": [
+        "features.icon-grid"
+      ]
+    },
+    "hero.order-orbits": {
+      "canPrecede": [
+        "logos.ticker-block"
+      ]
+    },
+    "hero.partner": {
+      "canPrecede": [
+        "integrations.logo-grid"
+      ]
+    },
+    "hero.product-photo": {
+      "canPrecede": [
+        "feature.media-row"
+      ]
+    },
+    "hero.product-split": {
+      "canPrecede": [
+        "logos.ticker-block",
+        "testimonials.slider"
+      ]
+    },
+    "hero.referral": {
+      "canPrecede": [
+        "features.icon-grid"
+      ]
+    },
+    "hero.roi": {
+      "canPrecede": [
+        "testimonials.slider"
+      ]
+    },
+    "hero.statement-image": {
+      "canPrecede": [
+        "story.horizontal-scroll"
+      ]
+    },
+    "hero.title-underline": {
+      "canPrecede": [
+        "events.empty-list",
+        "stories.filter-grid"
+      ]
+    },
+    "hero.video-mock": {
+      "canPrecede": [
+        "feature.sticky-scroll"
+      ]
+    },
+    "integrations.logo-grid": {
+      "canPrecede": [
+        "cta.main",
+        "faq.accordion",
+        "testimonial.centered-quote",
+        "testimonials.slider",
+        "trust.enterprise"
+      ]
+    },
+    "lab.last-event": {
+      "canPrecede": [
+        "lab.who-attend"
+      ]
+    },
+    "lab.practitioner": {
+      "canPrecede": [
+        "lab.last-event"
+      ]
+    },
+    "lab.statement": {
+      "canPrecede": [
+        "lab.statement",
+        "steps.how-it-works"
+      ]
+    },
+    "lab.who-attend": {
+      "canPrecede": [
+        "cta.lab-newsletter"
+      ]
+    },
+    "leaderboard.static": {
+      "canPrecede": [
+        "cards.hover-media"
+      ]
+    },
+    "letter.founders": {
+      "canPrecede": [
+        "people.quote-grid"
+      ]
+    },
+    "logos.static-row": {
+      "canPrecede": [
+        "feature.media-row"
+      ]
+    },
+    "logos.ticker-block": {
+      "canPrecede": [
+        "coverage.criteria",
+        "feature.pill-nav-blocks",
+        "feature.sticky-scroll",
+        "heading.section-title",
+        "nav.chip-anchor"
+      ]
+    },
+    "media.reveal-pair": {
+      "canPrecede": [
+        "cta.main"
+      ]
+    },
+    "mockup.ask-siena": {
+      "canPrecede": [
+        "cards.hover-media",
+        "comparison.before-after"
+      ]
+    },
+    "nav.chip-anchor": {
+      "canPrecede": [
+        "feature.sticky-scroll"
+      ]
+    },
+    "overlay.partner-modal": {
+      "canPrecede": [
+        "shell.footer"
+      ]
+    },
+    "people.quote-grid": {
+      "canPrecede": [
+        "features.icon-grid"
+      ]
+    },
+    "quirk.phone-empty-block": {
+      "canPrecede": [
+        "cta.main",
+        "features.lottie-grid"
+      ]
+    },
+    "roles.open-roles": {
+      "canPrecede": [
+        "cta.main"
+      ]
+    },
+    "shell.lab-nav": {
+      "canPrecede": [
+        "hero.lab"
+      ]
+    },
+    "shell.lead-header": {
+      "canPrecede": [
+        "hero.lead-form"
+      ]
+    },
+    "shell.navbar": {
+      "canPrecede": [
+        "content.conversation-article",
+        "content.conversation-index",
+        "content.legal-document",
+        "hero.careers",
+        "hero.community-invite",
+        "hero.compare",
+        "hero.docs",
+        "hero.home",
+        "hero.insights",
+        "hero.order-orbits",
+        "hero.partner",
+        "hero.product-photo",
+        "hero.product-split",
+        "hero.referral",
+        "hero.roi",
+        "hero.statement-image",
+        "hero.title-underline",
+        "hero.video-mock"
+      ]
+    },
+    "showcase.slack": {
+      "canPrecede": [
+        "integrations.logo-grid"
+      ]
+    },
+    "stats.metrics": {
+      "canPrecede": [
+        "integrations.logo-grid",
+        "quirk.phone-empty-block",
+        "stories.carousel"
+      ]
+    },
+    "steps.how-it-works": {
+      "canPrecede": [
+        "carousel.memory-in-action",
+        "lab.practitioner",
+        "quirk.phone-empty-block"
+      ]
+    },
+    "stories.carousel": {
+      "canPrecede": [
+        "features.lottie-grid"
+      ]
+    },
+    "stories.filter-grid": {
+      "canPrecede": [
+        "testimonials.wall-of-love"
+      ]
+    },
+    "story.horizontal-scroll": {
+      "canPrecede": [
+        "team.founders"
+      ]
+    },
+    "team.founders": {
+      "canPrecede": [
+        "integrations.logo-grid"
+      ]
+    },
+    "testimonial.centered-quote": {
+      "canPrecede": [
+        "feature.agent-promo"
+      ]
+    },
+    "testimonials.slider": {
+      "canPrecede": [
+        "comparison.table",
+        "cta.main",
+        "faq.accordion",
+        "feature.sticky-scroll",
+        "feature.timer-list",
+        "heading.section-title",
+        "leaderboard.static",
+        "mockup.ask-siena",
+        "trust.enterprise"
+      ]
+    },
+    "testimonials.wall-of-love": {
+      "canPrecede": [
+        "cta.main"
+      ]
+    },
+    "trust.enterprise": {
+      "canPrecede": [
+        "cta.main",
+        "shell.legal-row"
+      ]
+    }
+  },
+  "rules": [
+    {
+      "id": "NAV_FIRST",
+      "severity": "error",
+      "text": "Exactly one chrome head (shell.navbar | shell.lead-header | shell.lab-nav) and it is the first node."
+    },
+    {
+      "id": "FOOTER_LAST",
+      "severity": "error",
+      "text": "Exactly one chrome tail (shell.footer | shell.legal-row) and it is the last node."
+    },
+    {
+      "id": "CHROME_MATCHES_ROUTE",
+      "severity": "error",
+      "text": "Chrome follows src/routes.js NAV_OVERRIDES: hideChrome routes (/pricing, /book-a-demo) use lead-header + legal-row; hideNav (/ai-lab) uses lab-nav + footer; every other route uses navbar + footer."
+    },
+    {
+      "id": "NAV_OVERRIDE",
+      "severity": "error",
+      "text": "Navbar state/cta/variant match the override table: /careers CTA 'See open roles' -> /careers#open-roles (variant careers-cta); /about-us and /social-agent forced-scrolled; elsewhere auto + 'Book a demo'."
+    },
+    {
+      "id": "ONE_HERO",
+      "severity": "error",
+      "text": "Exactly one hero.* node. Named exception: template.conversations-index, template.conversation-detail and template.legal are hero-less (zero heroes)."
+    },
+    {
+      "id": "HERO_AFTER_CHROME",
+      "severity": "error",
+      "text": "The hero directly follows the chrome head."
+    },
+    {
+      "id": "ONE_PER_PAGE",
+      "severity": "error",
+      "text": "Sections whose contract says onePerPage appear at most once."
+    },
+    {
+      "id": "MAX_PER_PAGE",
+      "severity": "error",
+      "text": "Sections with maxPerPage (testimonials.slider 2 on /qa-agent, lab.statement 2, heading.section-title 2, feature.sticky-scroll 2) respect it."
+    },
+    {
+      "id": "NO_ADJACENT_SAME_SECTION",
+      "severity": "error",
+      "text": "A section type never directly follows itself. Named exceptions: feature.media-row (alternating rows) and lab.statement (intro then what-is on /ai-lab)."
+    },
+    {
+      "id": "CTA_CLOSES_PAGE",
+      "severity": "error",
+      "text": "The last conversion closer (cta.main | cta.demo-form | cta.newsletter | cta.lab-newsletter) is the last content node before the chrome tail; only overlay.partner-modal may sit between (/partner-with-siena)."
+    },
+    {
+      "id": "QUIRK_REGISTERED",
+      "severity": "error",
+      "text": "Replicated live-site quirk sections (quirk.phone-empty-block) appear only on the templates that registered them (add-ons, video)."
+    },
+    {
+      "id": "OUT_OF_SCOPE_ROUTE",
+      "severity": "error",
+      "text": "Out-of-scope sections (blog, customer stories, integrations, product updates, webinars, previous terms) are never routes and never local hrefs; link to https://www.siena.cx instead."
+    },
+    {
+      "id": "LINK_TARGETS",
+      "severity": "error",
+      "text": "Local hrefs resolve to a modelled route (optionally with #anchor); external hosts are in templates.json routing.externalHostAllowlist."
+    },
+    {
+      "id": "FORMS_STATIC",
+      "severity": "error",
+      "text": "Every form is a static look-alike: submitBehavior 'none'. No form posts to Framer, HubSpot, Chili Piper or n8n."
+    },
+    {
+      "id": "EMBED_ALLOWLIST",
+      "severity": "error",
+      "text": "At most one external embed per page, YouTube only, only in content.conversation-article."
+    },
+    {
+      "id": "QUOTE_PROVENANCE",
+      "severity": "error",
+      "text": "A quote marked verified hash-matches a registered verbatim quote for the same person (assets/verified-quotes.json); a placeholder quote starts with 'Placeholder'."
+    },
+    {
+      "id": "PLACEHOLDER_MARKED",
+      "severity": "error",
+      "text": "copySource placeholder text starts with Placeholder/Lorem; real-opening-placeholder-tail carries the lorem tail; real text carries no placeholder vocabulary."
+    },
+    {
+      "id": "TESTIMONIAL_SET",
+      "severity": "error",
+      "text": "Templates that reuse the homepage testimonial set (home, refer, lead-gen, reviews, roi) use verified slides only."
+    },
+    {
+      "id": "TESTIMONIAL_SET_COUNT",
+      "severity": "warn",
+      "text": "Those templates show all 11 slides on the live site; a different count is a notice, not a failure."
+    },
+    {
+      "id": "ROUTE_VARIANT",
+      "severity": "error",
+      "text": "Routes bind specific variants (e.g. /insights hero landing vs subpage; /pricing vs /book-a-demo testimonials)."
+    },
+    {
+      "id": "ROUTE_NODE_RULES",
+      "severity": "error",
+      "text": "Per-route required/forbidden nodes inside a shared template (customer-feedback-analytics has no integrations/testimonial; book-a-demo has no how-pricing/enterprise)."
+    },
+    {
+      "id": "VARIANT_RULES",
+      "severity": "error",
+      "text": "Variant shape rules: titled sliders carry eyebrow+title; panel-static is one slide; home/compare/addons sticky-scroll block counts and CTA placement; integrations CTA presence; hero.home ticker rows; cta.main button action."
+    },
+    {
+      "id": "REPEAT_COUNTS",
+      "severity": "error",
+      "text": "Repeatable nodes stay within the template's measured range (insights 3-6 media rows; memory and topics exactly 2)."
+    },
+    {
+      "id": "MOTION_BUDGET",
+      "severity": "warn",
+      "text": "No real route has more than one scroll-jacking section (sticky-step-switch | hscroll-scrub)."
+    },
+    {
+      "id": "ASSET_ROLE_USAGE",
+      "severity": "error",
+      "text": "Every assetRole is in assets/asset-roles.json and allowed for the section that uses it."
+    },
+    {
+      "id": "UNIQUE_IDS",
+      "severity": "error",
+      "text": "Node ids are unique within a page."
+    },
+    {
+      "id": "MODAL_OPENER",
+      "severity": "error",
+      "text": "overlay.partner-modal is only present with a hero.partner whose CTA opens it."
+    }
+  ]
+}

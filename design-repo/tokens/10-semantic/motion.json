@@ -1,0 +1,222 @@
+{
+  "$description": "Semantic motion recipes. Each is one measured behaviour; `reducedMotionFallback` is what a generated page must do under prefers-reduced-motion (the clone implements these in src/index.css and the per-area stylesheets). A PageSpec node picks a recipe id as motion.pattern; the schema const-locks the fallback per recipe.",
+  "motion": {
+    "recipe": {
+      "none": {
+        "$description": "No motion: element renders in its final state.",
+        "trigger": "none",
+        "reducedMotionFallback": "none",
+        "cite": [
+          "spec.motion.summary"
+        ]
+      },
+      "appear-rise": {
+        "$description": "Framer appear primitive: opacity 0.001 + y 200 to rest, 0.7s tween; staggered delays 0.2/0.3/0.4s with the lead/follow easings.",
+        "trigger": "page load",
+        "reducedMotionFallback": "static",
+        "cite": [
+          "spec.motion.appear",
+          "css.appear"
+        ],
+        "duration": "{foundation.duration.700}",
+        "easing": [
+          "{foundation.easing.appear-lead}",
+          "{foundation.easing.appear-follow}"
+        ],
+        "distance": "{foundation.distance.appear}",
+        "delays": [
+          "{foundation.delay.200}",
+          "{foundation.delay.300}",
+          "{foundation.delay.400}"
+        ]
+      },
+      "appear-fade": {
+        "$description": "Opacity-only appear (no translate), 0.4s.",
+        "trigger": "page load",
+        "reducedMotionFallback": "static",
+        "cite": [
+          "spec.careers.photo"
+        ],
+        "duration": "{foundation.duration.400}",
+        "easing": "{foundation.easing.photo-appear}"
+      },
+      "appear-spring-x": {
+        "$description": "Card slides in from x 150 with a spring (duration 0.4, bounce 0.2).",
+        "trigger": "page load / modal open",
+        "reducedMotionFallback": "static",
+        "cite": [
+          "spec.springx"
+        ],
+        "distance": "{foundation.distance.spring-x}",
+        "spring": "{foundation.spring.form}"
+      },
+      "scroll-reveal-spring": {
+        "$description": "Elements rise from y 50 (80 for the first) with a spring (duration 1, bounce 0.2) once 50% in view; once only.",
+        "trigger": "in view (amount 0.5, once)",
+        "reducedMotionFallback": "static",
+        "cite": [
+          "spec.pb.reveal"
+        ],
+        "spring": "{foundation.spring.reveal}",
+        "threshold": "{foundation.threshold.reveal}"
+      },
+      "chat-stagger": {
+        "$description": "Chat rows fade + rise (+50/+80px), opacity .5s chat-fade, transform .6s chat-spring, staggered delays.",
+        "trigger": "variant activation / in view",
+        "reducedMotionFallback": "static",
+        "cite": [
+          "spec.chat.entrance"
+        ],
+        "distance": [
+          "{foundation.distance.chat}",
+          "{foundation.distance.chat-first}"
+        ],
+        "easing": [
+          "{foundation.easing.chat-fade}",
+          "{foundation.easing.chat-spring}"
+        ]
+      },
+      "ticker-horizontal": {
+        "$description": "Logo row translates linearly forever (list duplicated); 30 px/s, 45 px/s on compare pages; no hover pause.",
+        "trigger": "always",
+        "reducedMotionFallback": "paused",
+        "cite": [
+          "spec.ticker.speed",
+          "spec.compare.ticker",
+          "spec.pb.ticker"
+        ],
+        "speed": [
+          "{foundation.speed.ticker}",
+          "{foundation.speed.ticker-compare}"
+        ]
+      },
+      "ticker-vertical": {
+        "$description": "Three masked columns scroll up/down/up at ~10 px/s.",
+        "trigger": "always",
+        "reducedMotionFallback": "paused",
+        "cite": [
+          "spec.wall.ticker"
+        ],
+        "speed": "{foundation.speed.ticker-vertical}"
+      },
+      "slide-horizontal": {
+        "$description": "Prev/Next slider: outgoing and incoming slides translate together, 300ms slide easing; no autoplay; loops.",
+        "trigger": "click",
+        "reducedMotionFallback": "instant-swap",
+        "cite": [
+          "spec.testimonial.behavior"
+        ],
+        "duration": "{foundation.duration.300}",
+        "easing": "{foundation.easing.slide}"
+      },
+      "crossfade-page": {
+        "$description": "Carousel page change: track opacity 1 to 0 (~120ms), swap, 0 to 1 (~120ms).",
+        "trigger": "click",
+        "reducedMotionFallback": "instant-swap",
+        "cite": [
+          "spec.stories.behavior"
+        ],
+        "duration": "{foundation.duration.120}",
+        "easing": "{foundation.easing.ease-in-out}"
+      },
+      "sticky-step-switch": {
+        "$description": "Sticky visual pinned beside scrolling blocks; the visual variant swaps instantly when the next block crosses 50% of the viewport, then its elements run chat-stagger.",
+        "trigger": "scroll position",
+        "reducedMotionFallback": "static",
+        "cite": [
+          "spec.chat.entrance",
+          "spec.motion.summary"
+        ]
+      },
+      "count-up": {
+        "$description": "Counter animates 25 to 80 over 1.5s easeInOut the first time it enters the viewport; fades in.",
+        "trigger": "in view (once)",
+        "reducedMotionFallback": "static",
+        "cite": [
+          "spec.metrics.counter"
+        ],
+        "duration": "{foundation.duration.1500}"
+      },
+      "accordion": {
+        "$description": "Single-open accordion: height + opacity, ~100ms linear (FAQ) or 240ms (open roles panel); icon swaps instantly.",
+        "trigger": "click",
+        "reducedMotionFallback": "instant-swap",
+        "cite": [
+          "spec.faq.behavior",
+          "spec.roles.panel"
+        ],
+        "duration": [
+          "{foundation.duration.100}",
+          "{foundation.duration.240}"
+        ],
+        "easing": "{foundation.easing.linear}"
+      },
+      "hscroll-scrub": {
+        "$description": "Vertical scroll drives a horizontal track inside a sticky viewport; value smoothed (settles ~550ms).",
+        "trigger": "scroll position",
+        "reducedMotionFallback": "unsmoothed",
+        "cite": [
+          "spec.hscroll.mapping"
+        ],
+        "settle": "{foundation.duration.550}"
+      },
+      "typewriter-loop": {
+        "$description": "Types a phrase (~65ms/char), holds ~1s, deletes (~17ms/char), next phrase; loops.",
+        "trigger": "always",
+        "reducedMotionFallback": "static",
+        "cite": [
+          "spec.pa.typewriter"
+        ],
+        "speed": [
+          "{foundation.speed.type-char}",
+          "{foundation.speed.delete-char}"
+        ]
+      },
+      "letter-blur-reveal": {
+        "$description": "Per-letter reveal from blur(10px)/opacity 0/y 10, 50ms stagger.",
+        "trigger": "activation / mount",
+        "reducedMotionFallback": "static",
+        "cite": [
+          "spec.pb.lettermotion"
+        ],
+        "stagger": "{foundation.speed.letter-stagger}"
+      },
+      "timer-progress": {
+        "$description": "Auto-advancing list: active item's 1px bar fills over ~9s, then the next item activates; loops.",
+        "trigger": "always",
+        "reducedMotionFallback": "paused",
+        "cite": [
+          "spec.pa.timer"
+        ],
+        "duration": "{foundation.duration.9000}"
+      },
+      "autoplay-carousel": {
+        "$description": "Slideshow advances one card every 1.5s with a spring; pauses off-screen.",
+        "trigger": "always (in view)",
+        "reducedMotionFallback": "paused",
+        "cite": [
+          "spec.pb.autoplay"
+        ],
+        "interval": "{foundation.duration.1500}"
+      },
+      "orbit-rotate": {
+        "$description": "Logo chips rotate on concentric orbits (chips counter-rotate); continuous.",
+        "trigger": "always",
+        "reducedMotionFallback": "paused",
+        "cite": [
+          "spec.pb.orbit"
+        ],
+        "speed": "{foundation.speed.orbit}"
+      },
+      "tile-glitch": {
+        "$description": "Decorative pixel tiles rise from y 150 (0.4s) on first visible pixel; replays (animateOnce false).",
+        "trigger": "in view (any pixel, repeat)",
+        "reducedMotionFallback": "static",
+        "cite": [
+          "spec.pb.tiles"
+        ],
+        "distance": "{foundation.distance.tile}"
+      }
+    }
+  }
+}

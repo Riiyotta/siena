@@ -1,0 +1,1 @@
+(()=>{const st=[...document.querySelectorAll('#main div')].filter(e=>getComputedStyle(e).position==='sticky'&&getComputedStyle(e).top==='0px'&&e.offsetWidth===512)[0];if(!st)return 'nost';const t=[...st.querySelectorAll('p')].map(p=>p.textContent);return (t.find(x=>/Create the journey|Got it|Build a returns/.test(x))||'').slice(0,30)+' n='+t.length})()

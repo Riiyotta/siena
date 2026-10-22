@@ -1,0 +1,80 @@
+body [0,0,1440,6625] block pad:0px bg:rgb(255, 255, 255)     
+  div [-422,1161,845,711] block pad:0px bg:rgb(255, 255, 255)  r:6px fixed top:450px  maxw:100%
+    div#ckyPreferenceCenter [-422,1161,845,711] column gapnormal jc:normal ai:normal pad:0px bg:rgb(255, 255, 255)  r:6px  ov:hidden 
+      div [-422,1161,845,69] row gapnormal jc:space-between ai:center pad:22px 24px      
+      div [-422,1230,845,517] block pad:0px 24px     ov:auto 
+        div [-398,1230,797,124] block pad:12px 0px      
+          p [-398,1242,797,48] block pad:0px      
+          p [-398,1290,797,52] block pad:0px      
+        div [-398,1365,797,619] block pad:0px      
+          div#ckyDetailCategorynecessary [-398,1365,797,99] block pad:0px      
+            div [-398,1365,797,98] row gapnormal jc:normal ai:normal pad:0px      
+              div [-376,1365,775,98] block pad:0px      
+                div [-376,1399,775,48] block pad:0px      
+                  p [-376,1399,775,48] block pad:0px      
+          div#ckyDetailCategoryfunctional [-398,1474,797,99] block pad:0px      
+            div [-398,1474,797,98] row gapnormal jc:normal ai:normal pad:0px      
+              div [-376,1474,775,98] block pad:0px      
+                div [-376,1508,775,48] block pad:0px      
+                  p [-376,1508,775,48] block pad:0px      
+          div#ckyDetailCategoryanalytics [-398,1583,797,99] block pad:0px      
+            div [-398,1583,797,98] row gapnormal jc:normal ai:normal pad:0px      
+              div [-376,1583,775,98] block pad:0px      
+                div [-376,1617,775,48] block pad:0px      
+                  p [-376,1617,775,48] block pad:0px      
+          div#ckyDetailCategoryperformance [-398,1692,797,99] block pad:0px      
+            div [-398,1692,797,98] row gapnormal jc:normal ai:normal pad:0px      
+              div [-376,1692,775,98] block pad:0px      
+                div [-376,1726,775,48] block pad:0px      
+                  p [-376,1726,775,48] block pad:0px      
+          div#ckyDetailCategoryadvertisement [-398,1801,797,99] block pad:0px      
+            div [-398,1801,797,98] row gapnormal jc:normal ai:normal pad:0px      
+              div [-376,1801,775,98] block pad:0px      
+                div [-376,1835,775,48] block pad:0px      
+                  p [-376,1835,775,48] block pad:0px      
+          div#ckyDetailCategoryother [-398,1910,797,74] block pad:0px      
+            div [-398,1910,797,74] row gapnormal jc:normal ai:normal pad:0px      
+              div [-376,1910,775,74] block pad:0px      
+      div [-422,1747,845,125] block pad:0px      
+        span [-422,1708,845,40] block pad:0px  bi:linear-gradient(rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%)  absolute top:-39px  
+        div [-422,1747,845,89] row gap8px jc:center ai:center pad:22px 24px      
+  div#main [0,0,1440,6625] block pad:0px      
+    div [0,0,1440,6625] column gap0px jc:flex-start ai:center pad:0px bg:rgb(255, 255, 255)     
+      div [0,0,1440,72] block pad:0px    fixed top:0px  
+        Hero#top [0,0,1440,996] column gap48px jc:flex-start ai:center pad:158px 96px 48px bg:rgb(18, 32, 35)    ov:hidden 
+          Header Content [96,158,1248,438] column gap136px jc:center ai:flex-start pad:0px      maxw:1248px
+            div [96,539,1248,58] row gap24px jc:flex-start ai:center pad:0px     ov:clip 
+          div [96,644,1248,304] column gap10px jc:center ai:flex-start pad:0px     ov:clip 
+            div [96,644,749,304] row gap20px jc:center ai:flex-start pad:0px      
+        Intro [0,996,1440,670] row gap10px jc:flex-start ai:center pad:0px bg:rgb(255, 255, 255)    ov:hidden 
+          Content [0,996,1440,670] row gap10px jc:center ai:center pad:0px     ov:hidden 
+            1 [0,996,1440,670] row gap100px jc:flex-start ai:flex-start pad:80px 96px     ov:hidden maxw:1440px
+        What is AI Labs [0,1666,1440,506] row gap10px jc:flex-start ai:center pad:0px bg:rgb(255, 255, 255)    ov:hidden 
+          Content [0,1666,1440,506] row gap10px jc:center ai:center pad:0px     ov:hidden 
+            1 [0,1666,1440,506] row gap0px jc:flex-start ai:flex-start pad:80px 96px     ov:hidden maxw:1440px
+        Features [0,2172,1440,439] row gap48px jc:flex-start ai:flex-start pad:80px 96px     ov:hidden maxw:1440px
+        Become AI Partner [0,2611,1440,1213] row gap10px jc:flex-start ai:center pad:0px bg:rgb(255, 255, 255)    ov:hidden 
+          Content [0,2611,1440,1213] row gap10px jc:center ai:center pad:0px     ov:hidden 
+            1 [0,2611,1440,1213] column gap100px jc:flex-start ai:center pad:112px 64px 312px bg:rgb(18, 32, 35)    ov:hidden 
+              div [64,2723,1312,224] row gap0px jc:center ai:flex-end pad:0px      maxw:1440px
+              Features [64,3048,1312,301] row gap48px jc:flex-start ai:flex-start pad:0px     ov:hidden maxw:1440px
+                div [64,3048,1312,301] row gap32px jc:center ai:flex-start pad:0px     ov:clip maxw:1312px
+              div#next-lab [64,3448,1312,64] row gapnormal jc:space-between ai:flex-start pad:0px      maxw:1440px
+        What is AI Labs [0,3824,1440,900] row gap10px jc:flex-start ai:center pad:0px bg:rgb(255, 255, 255)    ov:hidden 
+          Content [0,3824,1440,900] column gap10px jc:center ai:center pad:0px     ov:hidden 
+            1 [0,3824,1440,900] column gap64px jc:flex-start ai:flex-start pad:80px 64px     ov:hidden maxw:1440px
+              Features#top-2 [64,4129,1312,516] row gap32px jc:flex-start ai:flex-start pad:0px     ov:hidden 
+                div [64,4129,1312,516] row gap20px jc:flex-start ai:flex-start pad:0px      
+        Who should attend [0,4725,1440,942] row gap10px jc:flex-start ai:center pad:0px bg:rgb(255, 255, 255)    ov:hidden 
+          Content [0,4725,1440,942] row gap10px jc:center ai:center pad:0px     ov:hidden 
+            1 [0,4725,1440,942] row gap0px jc:flex-start ai:flex-start pad:80px 64px     ov:hidden maxw:1440px
+        CTA [0,5667,1440,524] row gap10px jc:flex-start ai:center pad:0px bg:rgb(255, 255, 255)    ov:hidden 
+          Content [0,5667,1440,524] column gap10px jc:center ai:center pad:0px     ov:hidden 
+            1 [0,5667,1440,524] column gap100px jc:flex-start ai:center pad:112px 64px  bi:linear-gradient(149deg, rgb(248, 181, 127) -21%, rgb(248, 181, 127) 21.8257%, rgb(255, 93, 78) 45.0574%, rgb(249, 80, 64) 71.8328%, rgb(253, 163, 172) 100%)   ov:hidden 
+              div [0,5667,1440,524] block pad:0px    absolute top:0px  
+                div [0,5667,1440,524] block pad:0px     ov:hidden 
+                  canvas [0,5667,1440,524] block pad:0px    absolute top:0px ov:clip 
+      div [0,6191,1440,434] block pad:0px      
+        Desktop [0,6191,1440,434] column gap16px jc:flex-start ai:center pad:64px 96px bg:rgb(18, 32, 35)     
+          Footer Content [148,6255,1144,306] row gapnormal jc:space-between ai:flex-start pad:0px      maxw:1144px
+            div [457,6255,835,306] row gap10px jc:center ai:flex-start pad:0px      

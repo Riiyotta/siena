@@ -1,0 +1,17 @@
+// CLONE_SPEC §6 — card list (href, texture image, logo, title). Alt text from saved original HTML.
+export const STORIES = [
+  { href: './customer-stories/spanx-turned-cx-business-driver-brand-experience', texture: 'DPMiuSqRWSzkU0UHR4h91iYq0.webp', textureAlt: 'Person wearing Spanx clothing', logo: 'k1nvbViWWUDVEBy2xaOAlUgRSq0.png', logoAlt: 'Spanx logo', title: 'How Spanx Turned CX Into a Business Driver and Cut Handle Time in Half' },
+  { href: './customer-stories/siena-ai-customer-service-automation-coterie', texture: 'YOvViFV83b6X5W1yHrZSVkn4SMU.webp', textureAlt: 'Coterie customer holding a Coterie diaper box with her child', logo: 'CzG1z9NEKoxzFuwvHCh0Lfb0.png', logoAlt: 'Coterie logo', title: 'Coterie Turns CX into a Revenue Engine with 65% AI Automation' },
+  { href: './customer-stories/dossier-handled-black-friday-customer-service-zero-panic', texture: 'umKHhY4P04DXZNLd8WNXl6Vic.webp', logo: 'LSDtiaYEMw66OjmYASlgwlerh24.svg', title: 'How Dossier Scaled International Growth with AI Agents and Zero Black Friday Panic' },
+  { href: './customer-stories/earth-breeze-scaling-customer-service-with-ai', texture: 'jpuxJKnTDRXC29dw5WxlTTNnY.webp', logo: 'j9kAeRPVaxAXfulnduynsbiTc.svg', title: 'From AI Skeptic To Advocate: How Earth Breeze Scaled Customer Support Without Losing The Human Touch' },
+  { href: './customer-stories/hexclad-customer-service-automation', texture: 'kPPvSpmKy1xNFReOFovLp4mV7Ws.webp', logo: 'DysnuY3oWCVroJab1Mx73kkVg4.svg', title: 'HexClad Boosts CX Efficiency 65% with Customer Service Automation' },
+  { href: './customer-stories/true-sea-moss-response-time-improvement', texture: 'LW7ArPsUXFOKZRJTQF8Z4AhjOlI.webp', logo: 'zy9mRkyxKisAjEUf8L7kCRTiI.png', title: 'True Sea Moss: Achieving 80% Automation and Unlocking a New Product Line with Siena AI' },
+  { href: './customer-stories/comfrt-ai-customer-support-siena', texture: 'ToW6MW4cp3gBOup2II10yGnrs2U.webp', logo: 'cS9mAOIRGNEPFez1Fy9VQGafsQ.png', title: 'How Comfrt Achieved 65% Automation During Explosive Growth' },
+  { href: './customer-stories/ehplabs', texture: 'FXI5vfknke03OzDTIzobJYO34.webp', logo: 'NzrOnMRFggp1QzWUKXstLpP2yVI.png', title: 'How EHPLabs handles 42% more tickets with smarter efficiency and an empowered team' },
+  { href: './customer-stories/fresh-clean-threads-csat-boost', texture: 'Jn5ooLE2tcWjxFHxq3EUR3QO0.webp', logo: 'viVxpvqRgp5ynnq499GrMlfB0Ac.svg', title: 'Fresh Clean Threads Achieves 91% CSAT While Automating Tier 1 CX with Siena' },
+  { href: './customer-stories/simple-modern', texture: 'mkagirHXo48nXzTisyxzBqq9sxU.webp', logo: 'qpbEcjUraVURA3hGESyeVuyZZN4.svg', title: 'How Siena helped Simple Modern achieve a 98% customer satisfaction rating' },
+  { href: './customer-stories/everday-dose', texture: 'dRWUJrVDMAjvJ9UD0eDqRLDzQg.webp', logo: 'RQ1zB2lwHhPRGxGNWzIqaXLRRw.png', title: 'Everyday Dose automates over 70% of shopper inquiries with Siena' },
+  { href: './customer-stories/kitsch', texture: 'ivoud8ABjpSWcfZSnWLHXqkiig.webp', logo: 'NMMaJ8ZBHflI2DXZDaM4Bu6mY4.png', title: 'How Kitsch automates over 68% of their customer support using Siena' },
+  { href: './customer-stories/mud-wtr', texture: 'ffShSqjcvt10pOiPTuBXqcFRsE.webp', logo: 'xm8gLEJzeS3t0TXpRyH46PEmocg.png', title: 'How MUD\\WTR Brewed Up a 4.8 CSAT Score with Siena AI' },
+  { href: './customer-stories/momentous-using-ai-customer-service-agent', texture: '23a8N2UMRHFBv7NlsJEzbn0Q.webp', logo: 'laiTWK4LZfsnrVZHxmAiKK22g.svg', title: 'How Momentous Achieved 100% Customer Satisfaction with Siena' },
+]

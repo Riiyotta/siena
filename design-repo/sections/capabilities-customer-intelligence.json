@@ -1,0 +1,205 @@
+{
+  "id": "section.capabilities.customer-intelligence",
+  "registryId": "section.capabilities.customer-intelligence",
+  "typeId": "capabilities.customer-intelligence",
+  "version": "1.0.0",
+  "category": "feature",
+  "purpose": "Ask Siena customer intelligence: title, text + bullets row, three captioned feature tiles, then a 3-slide portrait testimonial slider inside the same section.",
+  "evidenceLevel": "spec-measured",
+  "variants": {
+    "ask": "Anchor #cx-intelligence."
+  },
+  "composes": [
+    "component.testimonial-slide",
+    "component.slider-controls"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "eyebrow": {
+        "type": "string",
+        "maxWords": 7
+      },
+      "title": {
+        "type": "string",
+        "maxWords": 12,
+        "description": "Plain text; wrap at most one phrase in *asterisks* to render it in the display italic cut.",
+        "pattern": "^[^*]*(\\*[^*]+\\*[^*]*)?$"
+      },
+      "subtitle": {
+        "type": "string",
+        "maxWords": 35
+      },
+      "rowHeading": {
+        "type": "string",
+        "maxWords": 5
+      },
+      "rowText": {
+        "type": "string",
+        "maxWords": 25
+      },
+      "bullets": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "maxWords": 14
+        },
+        "minItems": 3,
+        "maxItems": 3
+      },
+      "tiles": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "maxWords": 12
+        },
+        "minItems": 3,
+        "maxItems": 3
+      },
+      "slides": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "quote": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string",
+                  "maxWords": 75
+                },
+                "source": {
+                  "enum": [
+                    "verified",
+                    "placeholder"
+                  ]
+                }
+              },
+              "required": [
+                "text",
+                "source"
+              ],
+              "additionalProperties": false
+            },
+            "name": {
+              "type": "string",
+              "maxWords": 4
+            },
+            "role": {
+              "type": "string",
+              "maxWords": 9
+            },
+            "logo": {
+              "type": "object",
+              "properties": {
+                "assetRole": {
+                  "enum": [
+                    "logo.customer",
+                    "logo.partner-investor"
+                  ]
+                },
+                "assetRef": {
+                  "type": "string",
+                  "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+                },
+                "alt": {
+                  "type": "string",
+                  "maxWords": 24
+                }
+              },
+              "required": [
+                "assetRole",
+                "assetRef"
+              ],
+              "additionalProperties": false
+            },
+            "photo": {
+              "type": "object",
+              "properties": {
+                "assetRole": {
+                  "const": "photo.person-real"
+                },
+                "assetRef": {
+                  "type": "string",
+                  "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+                },
+                "alt": {
+                  "type": "string",
+                  "maxWords": 24
+                }
+              },
+              "required": [
+                "assetRole",
+                "assetRef"
+              ],
+              "additionalProperties": false
+            },
+            "storyLink": {
+              "type": "object",
+              "properties": {
+                "label": {
+                  "type": "string",
+                  "maxWords": 4
+                },
+                "href": {
+                  "type": "string",
+                  "pattern": "^(/[a-z0-9/#-]*|#[a-z0-9-]+|https://[a-zA-Z0-9.-]+(/[^\\s]*)?|mailto:[a-z.]+@siena\\.cx)$"
+                }
+              },
+              "required": [
+                "label",
+                "href"
+              ],
+              "additionalProperties": false
+            },
+            "playBadge": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "quote",
+            "name",
+            "role",
+            "photo"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 1,
+        "maxItems": 3
+      }
+    },
+    "required": [
+      "eyebrow",
+      "title",
+      "rowHeading",
+      "rowText",
+      "bullets",
+      "tiles",
+      "slides"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "slide-horizontal"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Stacked."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "spec.pa.6.6"
+  ]
+}

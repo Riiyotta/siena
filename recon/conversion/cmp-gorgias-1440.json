@@ -1,0 +1,397 @@
+{
+ "tableStyles": "",
+ "tableHTML": "<table style=\"width:100%;border-collapse:collapse;background-color:var(--token-e0b53605-8deb-448a-9993-705905d5e059, rgb(250, 247, 241));border-radius:24px;overflow:hidden;border:1px solid rgb(238, 238, 238);table-layout:fixed;max-width:100%\"><thead><tr><th style=\"padding:40px;text-align:center;background-color:rgba(0, 0, 0, 0);color:rgb(85, 85, 85);font-family:&quot;Instrument Sans&quot;, &quot;Instrument Sans Placeholder&quot;, sans-serif;font-size:16px;font-style:normal;font-weight:700;letter-spacing:0.06em;line-height:1em;border-bottom:1px solid rgb(238, 238, 238)\"></th><th style=\"padding:40px;text-align:center;background-color:var(--token-2c3eb37f-a3d2-4c4b-a7cd-08b13d1368e8, rgb(255, 255, 255));color:rgb(85, 85, 85);font-family:&quot;Instrument Sans&quot;, &quot;Instrument Sans Placeholder&quot;, sans-serif;font-size:16px;font-style:normal;font-weight:700;letter-spacing:0.06em;line-height:1em;border-bottom:1px solid rgb(238, 238, 238)\">SIENA AI</th><th style=\"padding:40px;text-align:center;background-color:rgba(0, 0, 0, 0);color:rgb(85, 85, 85);font-family:&quot;Instrument Sans&quot;, &quot;Instrument Sans Placeholder&quot;, sans-serif;font-size:16px;font-style:normal;font-weight:700;letter-spacing:0.06em;line-height:1em;border-bottom:1px solid rgb(238, 238, 238)\">GORGIAS AI SUITE</th></tr></thead><tbody><tr style=\"background-color:transparent\"><td style=\"padding:40px;text-align:left;color:rgb(51, 51, 51);font-family:&quot;Instrument Sans&quot;, &quot;Instrument Sans Placeholder&quot;, sans-serif;font-size:24px;font-style:normal;font-weight:400;letter-spacing:0em;line-height:1.2em;border-bottom:1px solid rgb(238, 238, 238);vertical-align:top\">Remembers every customer</td><td style=\"padding:40px;color:rgb(51, 51, 51);font-family:&quot;Tiempos Text Regular&quot;, &quot;Tiempos Text Regular Placeholder&quot;, sans-serif;font-size:20px;font-style:normal;font-weight:400;letter-spacing:0em;line-height:1em;border-bottom:1px solid rgb(238, 238, 238);vertical-align:top;background-color:var(--token-2c3eb37f-a3d2-4c4b-a7cd-08b13d1368e8, rgb(255, 255, 255))\"><div style=\"display:flex;align-items:flex-start;gap:8px;justify-content:flex-start\"><img src=\"https://framerusercontent.com/images/a5SDd3EboOJuKxw06cfwFqcDs.png?width=40&amp;height=40\" alt=\"Check\" style=\"width:20px;height:20px;flex-shrink:0;margin-top:3px\"><span style=\"text-align:left\">Each interaction builds memory, deepening relationships and surfacing insights</span></div></td><td style=\"padding:40px;text-align:left;color:rgb(51, 51, 51);font-family:&quot;Tiempos Text Regular&quot;, &quot;Tiempos Text Regular Placeholder&quot;, sans-serif;font-size:20px;font-style:normal;font-weight:400;letter-spacing:0em;line-height:1em;border-bottom:1px solid rgb(238, 238, 238);vertical-align:top\">Customers repeat themselves, no business insights</td></tr><tr style=\"background-color:transparent\"><td style=\"padding:40px;text-align:left;color:rgb(51, 51, 51);font-family:&quot;Instrument Sans&quot;, &quot;Instrument Sans Placeholder&quot;, sans-serif;font-size:24px;font-style:normal;font-weight:400;letter-spacing:0em;line-height:1.2em;border-bottom:1px solid rgb(238, 238, 238);vertical-align:top\">Tailor tone and style</td><td style=\"padding:40px;color:rgb(51, 51, 51);font-family:&quot;Tiempos Text Regular&quot;, &quot;Tiempos Text Regular Placeholder&quot;, sans-serif;font-size:20px;font-style:normal;font-weight:400;letter-spacing:0em;line-height:1em;border-bottom:1px solid rgb(238, 238, 238);vertical-align:top;background-color:var(--token-2c3eb37f-a3d2-4c4b-a7cd-08b13d1368e8, rgb(255, 255, 255))\"><div style=\"display:flex;align-items:flex-start;gap:8px;justify-content:flex-start\"><img src=\"https://framerusercontent.com/images/a5SDd3EboOJuKxw06cfwFqcDs.png?width=40&amp;height=40\" alt=\"Check\" style=\"width:20px;height:20px;flex-shrink:0;margin-top:3px\"><span style=\"text-align:left\">Multiple agent personas per channel with rich tone and style</span></div></td><td style=\"padding:40px;text-align:left;color:rgb(51, 51, 51);font-family:&quot;Tiempos Text Regular&quot;, &quot;Tiempos Text Regular Placeholder&quot;, sans-serif;font-size:20px;font-style:normal;font-weight:400;letter-spacing:0em;line-height:1em;border-bottom:1px solid rgb(238, 238, 238);vertical-align:top\">Single agent persona with limited tone presets</td></tr><tr style=\"background-color:transparent\"><td style=\"padding:40px;text-align:left;color:rgb(51, 51, 51);font-family:&quot;Instrument Sans&quot;, &quot;Instrument Sans Placeholder&quot;, sans-serif;font-size:24px;font-style:normal;font-weight:400;letter-spacing:0em;line-height:1.2em;border-bottom:1px solid rgb(238, 238, 238);vertical-align:top\">AI-Native or Add-on?</td><td style=\"padding:40px;color:rgb(51, 51, 51);font-family:&quot;Tiempos Text Regular&quot;, &quot;Tiempos Text Regular Placeholder&quot;, sans-serif;font-size:20px;font-style:normal;font-weight:400;letter-spacing:0em;line-height:1em;border-bottom:1px solid rgb(238, 238, 238);vertical-align:top;background-color:var(--token-2c3eb37f-a3d2-4c4b-a7cd-08b13d1368e8, rgb(255, 255, 255))\"><div style=\"display:flex;align-items:flex-start;gap:8px;justify-content:flex-start\"><img src=\"https://framerusercontent.com/images/a5SDd3EboOJuKxw06cfwFqcDs.png?width=40&amp;height=40\" alt=\"Check\" style=\"width:20px;height:20px;flex-shrink:0;margin-top:3px\"><span style=\"text-align:left\">AI-Native platform built from the ground up</span></div></td><td style=\"padding:40px;text-align:left;color:rgb(51, 51, 51);font-family:&quot;Tiempos Text Regular&quot;, &quot;Tiempos Text Regular Placeholder&quot;, sans-serif;font-size:20px;font-style:normal;font-weight:400;letter-spacing:0em;line-height:1em;border-bottom:1px solid rgb(238, 238, 238);vertical-align:top\">Add-on to legacy ticketing system</td></tr><tr style=\"background-color:transparent\"><td style=\"padding:40px;text-align:left;color:rgb(51, 51, 51);font-family:&quot;Instrument Sans&quot;, &quot;Instrument Sans Placeholder&quot;, sans-serif;font-size:24px;font-style:normal;font-weight:400;letter-spacing:0em;line-height:1.2em;border-bottom:1px solid rgb(238, 238, 238);vertical-align:top\">Knowledge &amp; Sources</td><td style=\"padding:40px;color:rgb(51, 51, 51);font-family:&quot;Tiempos Text Regular&quot;, &quot;Tiempos Text Regular Placeholder&quot;, sans-serif;font-size:20px;font-style:normal;font-weight:400;letter-spacing:0em;line-height:1em;border-bottom:1px solid rgb(238, 238, 238);vertical-align:top;background-color:var(--token-2c3eb37f-a3d2-4c4b-a7cd-08b13d1368e8, rgb(255, 255, 255))\"><div style=\"display:flex;align-items:flex-start;gap:8px;justify-content:flex-start\"><img src=\"https://framerusercontent.com/images/a5SDd3EboOJuKxw06cfwFqcDs.png?width=40&amp;height=40\" alt=\"Check\" style=\"width:20px;height:20px;flex-shrink:0;margin-top:3px\"><span style=\"text-align:left\">Domain-level crawl, Google Docs &amp; Sheets, unlimited sources</span></div></td><td style=\"padding:40px;text-align:left;color:rgb(51, 51, 51);font-family:&quot;Tiempos Text Regular&quot;, &quot;Tiempos Text Regular Placeholder&quot;, sans-serif;font-size:20px;font-style:normal;font-weight:400;letter-spacing:0em;line-height:1em;border-bottom:1px solid rgb(238, 238, 238);vertical-align:top\">Manual sub-page entry only, capped at 10 URLs</td></tr><tr style=\"background-color:transparent\"><td style=\"padding:40px;text-align:left;color:rgb(51, 51, 51);font-family:&quot;Instrument Sans&quot;, &quot;Instrument Sans Placeholder&quot;, sans-serif;font-size:24px;font-style:normal;font-weight:400;letter-spacing:0em;line-height:1.2em;border-bottom:1px solid rgb(238, 238, 238);vertical-align:top\">Pre-launch testing</td><td style=\"padding:40px;color:rgb(51, 51, 51);font-family:&quot;Tiempos Text Regular&quot;, &quot;Tiempos Text Regular Placeholder&quot;, sans-serif;font-size:20px;font-style:normal;font-weight:400;letter-spacing:0em;line-height:1em;border-bottom:1px solid rgb(238, 238, 238);vertical-align:top;background-color:var(--token-2c3eb37f-a3d2-4c4b-a7cd-08b13d1368e8, rgb(255, 255, 255))\"><div style=\"display:flex;align-items:flex-start;gap:8px;justify-content:flex-start\"><img src=\"https://framerusercontent.com/images/a5SDd3EboOJuKxw06cfwFqcDs.png?width=40&amp;height=40\" alt=\"Check\" style=\"width:20px;height:20px;flex-shrink:0;margin-top:3px\"><span style=\"text-align:left\">Inline playground with step-by-step reasoning for confident deployments</span></div></td><td style=\"padding:40px;text-align:left;color:rgb(51, 51, 51);font-family:&quot;Tiempos Text Regular&quot;, &quot;Tiempos Text Regular Placeholder&quot;, sans-serif;font-size:20px;font-style:normal;font-weight:400;letter-spacing:0em;line-height:1em;border-bottom:1px solid rgb(238, 238, 238);vertical-align:top\">Basic test view with minimal reasoning trace</td></tr><tr style=\"background-color:transparent\"><td style=\"padding:40px;text-align:left;color:rgb(51, 51, 51);font-family:&quot;Instrument Sans&quot;, &quot;Instrument Sans Placeholder&quot;, sans-serif;font-size:24px;font-style:normal;font-weight:400;letter-spacing:0em;line-height:1.2em;border-bottom:1px solid rgb(238, 238, 238);vertical-align:top\">Configurable response time</td><td style=\"padding:40px;color:rgb(51, 51, 51);font-family:&quot;Tiempos Text Regular&quot;, &quot;Tiempos Text Regular Placeholder&quot;, sans-serif;font-size:20px;font-style:normal;font-weight:400;letter-spacing:0em;line-height:1em;border-bottom:1px solid rgb(238, 238, 238);vertical-align:top;background-color:var(--token-2c3eb37f-a3d2-4c4b-a7cd-08b13d1368e8, rgb(255, 255, 255))\"><div style=\"display:flex;align-items:flex-start;gap:8px;justify-content:flex-start\"><img src=\"https://framerusercontent.com/images/a5SDd3EboOJuKxw06cfwFqcDs.png?width=40&amp;height=40\" alt=\"Check\" style=\"width:20px;height:20px;flex-shrink:0;margin-top:3px\"><span style=\"text-align:left\">Set custom delays per channel for natural conversation flow</span></div></td><td style=\"padding:40px;text-align:left;color:rgb(51, 51, 51);font-family:&quot;Tiempos Text Regular&quot;, &quot;Tiempos Text Regular Placeholder&quot;, sans-serif;font-size:20px;font-style:normal;font-weight:400;letter-spacing:0em;line-height:1em;border-bottom:1px solid rgb(238, 238, 238);vertical-align:top\">Instant responses only</td></tr><tr style=\"background-color:transparent\"><td style=\"padding:40px;text-align:left;color:rgb(51, 51, 51);font-family:&quot;Instrument Sans&quot;, &quot;Instrument Sans Placeholder&quot;, sans-serif;font-size:24px;font-style:normal;font-weight:400;letter-spacing:0em;line-height:1.2em;border-bottom:1px solid rgb(238, 238, 238);vertical-align:top\">Flexible AI disclosure</td><td style=\"padding:40px;color:rgb(51, 51, 51);font-family:&quot;Tiempos Text Regular&quot;, &quot;Tiempos Text Regular Placeholder&quot;, sans-serif;font-size:20px;font-style:normal;font-weight:400;letter-spacing:0em;line-height:1em;border-bottom:1px solid rgb(238, 238, 238);vertical-align:top;background-color:var(--token-2c3eb37f-a3d2-4c4b-a7cd-08b13d1368e8, rgb(255, 255, 255))\"><div style=\"display:flex;align-items:flex-start;gap:8px;justify-content:flex-start\"><img src=\"https://framerusercontent.com/images/a5SDd3EboOJuKxw06cfwFqcDs.png?width=40&amp;height=40\" alt=\"Check\" style=\"width:20px;height:20px;flex-shrink:0;margin-top:3px\"><span style=\"text-align:left\">Full control over AI disclosure</span></div></td><td style=\"padding:40px;text-align:left;color:rgb(51, 51, 51);font-family:&quot;Tiempos Text Regular&quot;, &quot;Tiempos Text Regular Placeholder&quot;, sans-serif;font-size:20px;font-style:normal;font-weight:400;letter-spacing:0em;line-height:1em;border-bottom:1px solid rgb(238, 238, 238);vertical-align:top\">AI disclosure required, no flexibility</td></tr><tr style=\"background-color:transparent\"><td style=\"padding:40px;text-align:left;color:rgb(51, 51, 51);font-family:&quot;Instrument Sans&quot;, &quot;Instrument Sans Placeholder&quot;, sans-serif;font-size:24px;font-style:normal;font-weight:400;letter-spacing:0em;line-height:1.2em;border-bottom:1px solid rgb(238, 238, 238);vertical-align:top\">QA coverage</td><td style=\"padding:40px;color:rgb(51, 51, 51);font-family:&quot;Tiempos Text Regular&quot;, &quot;Tiempos Text Regular Placeholder&quot;, sans-serif;font-size:20px;font-style:normal;font-weight:400;letter-spacing:0em;line-height:1em;border-bottom:1px solid rgb(238, 238, 238);vertical-align:top;background-color:var(--token-2c3eb37f-a3d2-4c4b-a7cd-08b13d1368e8, rgb(255, 255, 255))\"><div style=\"display:flex;align-items:flex-start;gap:8px;justify-content:flex-start\"><img src=\"https://framerusercontent.com/images/a5SDd3EboOJuKxw06cfwFqcDs.png?width=40&amp;height=40\" alt=\"Check\" style=\"width:20px;height:20px;flex-shrink:0;margin-top:3px\"><span style=\"text-align:left\">Evaluate 100% of your conversations against criteria you write in plain language</span></div></td><td style=\"padding:40px;text-align:left;color:rgb(51, 51, 51);font-family:&quot;Tiempos Text Regular&quot;, &quot;Tiempos Text Regular Placeholder&quot;, sans-serif;font-size:20px;font-style:normal;font-weight:400;letter-spacing:0em;line-height:1em;border-bottom:1px solid rgb(238, 238, 238);vertical-align:top\">Lacks an integrated QA automation layer</td></tr><tr style=\"background-color:transparent\"><td style=\"padding:40px;text-align:left;color:rgb(51, 51, 51);font-family:&quot;Instrument Sans&quot;, &quot;Instrument Sans Placeholder&quot;, sans-serif;font-size:24px;font-style:normal;font-weight:400;letter-spacing:0em;line-height:1.2em;border-bottom:1px solid rgb(238, 238, 238);vertical-align:top\">Review management</td><td style=\"padding:40px;color:rgb(51, 51, 51);font-family:&quot;Tiempos Text Regular&quot;, &quot;Tiempos Text Regular Placeholder&quot;, sans-serif;font-size:20px;font-style:normal;font-weight:400;letter-spacing:0em;line-height:1em;border-bottom:1px solid rgb(238, 238, 238);vertical-align:top;background-color:var(--token-2c3eb37f-a3d2-4c4b-a7cd-08b13d1368e8, rgb(255, 255, 255))\"><div style=\"display:flex;align-items:flex-start;gap:8px;justify-content:flex-start\"><img src=\"https://framerusercontent.com/images/a5SDd3EboOJuKxw06cfwFqcDs.png?width=40&amp;height=40\" alt=\"Check\" style=\"width:20px;height:20px;flex-shrink:0;margin-top:3px\"><span style=\"text-align:left\">Fully automates review moderation and responses</span></div></td><td style=\"padding:40px;text-align:left;color:rgb(51, 51, 51);font-family:&quot;Tiempos Text Regular&quot;, &quot;Tiempos Text Regular Placeholder&quot;, sans-serif;font-size:20px;font-style:normal;font-weight:400;letter-spacing:0em;line-height:1em;border-bottom:1px solid rgb(238, 238, 238);vertical-align:top\">No moderation and responses, no automation</td></tr></tbody></table>",
+ "cellStyles": {
+  "th0": "\"Instrument Sans\" 700 16px/16px ls:0.96px c:rgb(85, 85, 85) p:40px bg:rgba(0, 0, 0, 0) bb:1px solid rgb(238, 238, 238) br:0px none rgb(85, 85, 85) va:middle w:353.65625",
+  "th1": "\"Instrument Sans\" 700 16px/16px ls:0.96px c:rgb(85, 85, 85) p:40px bg:rgb(255, 255, 255) bb:1px solid rgb(238, 238, 238) br:0px none rgb(85, 85, 85) va:middle w:353.65625",
+  "td0": "\"Instrument Sans\" 400 24px/28.8px ls:normal c:rgb(51, 51, 51) p:40px bg:rgba(0, 0, 0, 0) bb:1px solid rgb(238, 238, 238) br:0px none rgb(51, 51, 51) va:top w:353.65625",
+  "td1": "\"Tiempos Text Regular\" 400 20px/20px ls:normal c:rgb(51, 51, 51) p:40px bg:rgb(255, 255, 255) bb:1px solid rgb(238, 238, 238) br:0px none rgb(51, 51, 51) va:top w:353.65625",
+  "td2": "\"Tiempos Text Regular\" 400 20px/20px ls:normal c:rgb(51, 51, 51) p:40px bg:rgba(0, 0, 0, 0) bb:1px solid rgb(238, 238, 238) br:0px none rgb(51, 51, 51) va:top w:353.6875",
+  "table": "sans-serif 400 12px/normal ls:normal c:rgb(0, 0, 0) p:0px bg:rgb(250, 247, 241) bb:1px solid rgb(238, 238, 238) br:1px solid rgb(238, 238, 238) va:baseline w:1062 bc:collapse bs:2px rad:24px border:1px solid rgb(238, 238, 238)",
+  "wrap": "DIV ov:visible w:1062"
+ },
+ "cellInner": "<div style=\"display:flex;align-items:flex-start;gap:8px;justify-content:flex-start\"><img src=\"https://framerusercontent.com/images/a5SDd3EboOJuKxw06cfwFqcDs.png?width=40&amp;height=40\" alt=\"Check\" style=\"width:20px;height:20px;flex-shrink:0;margin-top:3px\"><span style=\"text-align:left\">Each interaction builds memory, deepening relationships and surfacing insights</span></div>",
+ "cellInnerStyle": "flex gap:8px ai:flex-start",
+ "ticker": {
+  "secRect": {
+   "x": 0,
+   "y": 800,
+   "width": 1440,
+   "height": 100,
+   "top": 800,
+   "right": 1440,
+   "bottom": 900,
+   "left": 0
+  },
+  "mask": "linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 12.5%, rgb(0, 0, 0) 87.5%, rgba(0, 0, 0, 0) 100%)",
+  "ulTag": "UL",
+  "gap": "96px",
+  "n": 56,
+  "speedPxPerS": -44.91912089211769,
+  "items": [
+   {
+    "w": 176,
+    "h": 32,
+    "name": "1",
+    "img": null,
+    "svg": 156,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 92,
+    "h": 32,
+    "name": "FIGS",
+    "img": null,
+    "svg": 0,
+    "bg": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000",
+    "aria": "true"
+   },
+   {
+    "w": 209,
+    "h": 32,
+    "name": "Madhapy",
+    "img": null,
+    "svg": 0,
+    "bg": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000",
+    "aria": "false"
+   },
+   {
+    "w": 167,
+    "h": 32,
+    "name": "4",
+    "img": null,
+    "svg": 157,
+    "bg": null,
+    "aria": "false"
+   },
+   {
+    "w": 119,
+    "h": 38,
+    "name": "5",
+    "img": null,
+    "svg": 156,
+    "bg": null,
+    "aria": "false"
+   },
+   {
+    "w": 111,
+    "h": 40,
+    "name": "6",
+    "img": null,
+    "svg": 156,
+    "bg": null,
+    "aria": "false"
+   },
+   {
+    "w": 120,
+    "h": 38,
+    "name": "7",
+    "img": null,
+    "svg": 155,
+    "bg": null,
+    "aria": "false"
+   },
+   {
+    "w": 91,
+    "h": 44,
+    "name": "8",
+    "img": null,
+    "svg": 155,
+    "bg": null,
+    "aria": "false"
+   },
+   {
+    "w": 241,
+    "h": 24,
+    "name": "9",
+    "img": null,
+    "svg": 157,
+    "bg": null,
+    "aria": "false"
+   },
+   {
+    "w": 99,
+    "h": 44,
+    "name": "10",
+    "img": null,
+    "svg": 156,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 161,
+    "h": 32,
+    "name": "11",
+    "img": null,
+    "svg": 156,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 207,
+    "h": 38,
+    "name": "12",
+    "img": null,
+    "svg": 77,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 156,
+    "h": 38,
+    "name": "13",
+    "img": null,
+    "svg": 157,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 71,
+    "h": 38,
+    "name": "14",
+    "img": null,
+    "svg": 155,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 112,
+    "h": 38,
+    "name": "15",
+    "img": null,
+    "svg": 157,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 150,
+    "h": 24,
+    "name": "16",
+    "img": null,
+    "svg": 156,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 152,
+    "h": 30,
+    "name": "17",
+    "img": null,
+    "svg": 157,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 188,
+    "h": 40,
+    "name": "18",
+    "img": null,
+    "svg": 155,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 154,
+    "h": 44,
+    "name": "19",
+    "img": null,
+    "svg": 156,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 126,
+    "h": 38,
+    "name": "20",
+    "img": null,
+    "svg": 157,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 178,
+    "h": 30,
+    "name": "21",
+    "img": null,
+    "svg": 157,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 103,
+    "h": 30,
+    "name": "22",
+    "img": null,
+    "svg": 156,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 189,
+    "h": 38,
+    "name": "23",
+    "img": null,
+    "svg": 158,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 86,
+    "h": 44,
+    "name": "24",
+    "img": null,
+    "svg": 153,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 112,
+    "h": 44,
+    "name": "25",
+    "img": null,
+    "svg": 156,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 144,
+    "h": 30,
+    "name": "26",
+    "img": null,
+    "svg": 157,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 82,
+    "h": 44,
+    "name": "27",
+    "img": null,
+    "svg": 156,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 121,
+    "h": 30,
+    "name": "28",
+    "img": null,
+    "svg": 157,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 176,
+    "h": 32,
+    "name": "1",
+    "img": null,
+    "svg": 156,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 92,
+    "h": 32,
+    "name": "FIGS",
+    "img": null,
+    "svg": 0,
+    "bg": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000",
+    "aria": "true"
+   },
+   {
+    "w": 209,
+    "h": 32,
+    "name": "Madhapy",
+    "img": null,
+    "svg": 0,
+    "bg": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000",
+    "aria": "true"
+   },
+   {
+    "w": 167,
+    "h": 32,
+    "name": "4",
+    "img": null,
+    "svg": 157,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 119,
+    "h": 38,
+    "name": "5",
+    "img": null,
+    "svg": 156,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 111,
+    "h": 40,
+    "name": "6",
+    "img": null,
+    "svg": 156,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 120,
+    "h": 38,
+    "name": "7",
+    "img": null,
+    "svg": 155,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 91,
+    "h": 44,
+    "name": "8",
+    "img": null,
+    "svg": 155,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 241,
+    "h": 24,
+    "name": "9",
+    "img": null,
+    "svg": 157,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 99,
+    "h": 44,
+    "name": "10",
+    "img": null,
+    "svg": 156,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 161,
+    "h": 32,
+    "name": "11",
+    "img": null,
+    "svg": 156,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 207,
+    "h": 38,
+    "name": "12",
+    "img": null,
+    "svg": 77,
+    "bg": null,
+    "aria": "true"
+   }
+  ]
+ },
+ "faqNames": [
+  "FAQ"
+ ]
+}

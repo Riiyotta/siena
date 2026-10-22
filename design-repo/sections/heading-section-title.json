@@ -1,0 +1,64 @@
+{
+  "id": "section.heading.section-title",
+  "registryId": "section.heading.section-title",
+  "typeId": "heading.section-title",
+  "version": "1.0.0",
+  "category": "heading",
+  "purpose": "Standalone centered title block (eyebrow? + H2/H1-size display + optional subtitle) introducing the next section.",
+  "evidenceLevel": "measured",
+  "variants": {
+    "compare-intelligence": "'The *intelligence* layer for commerce' at 80/80.",
+    "product": "Product SectionTitle (eyebrow + H2 64 + dimmed subtitle)."
+  },
+  "composes": [
+    "primitive.text"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "eyebrow": {
+        "type": "string",
+        "maxWords": 6
+      },
+      "title": {
+        "type": "string",
+        "maxWords": 10,
+        "description": "Plain text; wrap at most one phrase in *asterisks* to render it in the display italic cut.",
+        "pattern": "^[^*]*(\\*[^*]+\\*[^*]*)?$"
+      },
+      "subtitle": {
+        "type": "string",
+        "maxWords": 30
+      }
+    },
+    "required": [
+      "title"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "56/56 (80px variant) or 48/48."
+    }
+  ],
+  "constraints": {
+    "maxPerPage": 2,
+    "noConsecutive": true
+  },
+  "measuredFrom": [
+    "spec.cv.3.4",
+    "spec.pa.1.3"
+  ]
+}

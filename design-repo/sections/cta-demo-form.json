@@ -1,0 +1,108 @@
+{
+  "id": "section.cta.demo-form",
+  "registryId": "section.cta.demo-form",
+  "typeId": "cta.demo-form",
+  "version": "1.0.0",
+  "category": "conversion",
+  "purpose": "Demo-request card with a static look-alike form (anchor #book-a-demo) over the metrics image. Never submits.",
+  "evidenceLevel": "measured",
+  "variants": {
+    "insights": "Card 790, form 662: name, email, website, help desk, ticket volume, attribution."
+  },
+  "composes": [
+    "component.form-card"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "heading": {
+        "type": "string",
+        "maxWords": 8
+      },
+      "fields": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "label": {
+              "type": "string",
+              "maxWords": 6
+            },
+            "control": {
+              "enum": [
+                "text",
+                "email",
+                "select",
+                "textarea"
+              ]
+            },
+            "placeholder": {
+              "type": "string",
+              "maxWords": 5
+            },
+            "options": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "maxWords": 4
+              },
+              "minItems": 0,
+              "maxItems": 10
+            }
+          },
+          "required": [
+            "label",
+            "control"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 4,
+        "maxItems": 8
+      },
+      "submitLabel": {
+        "type": "string",
+        "maxWords": 2
+      },
+      "submitBehavior": {
+        "const": "none"
+      },
+      "anchorId": {
+        "const": "book-a-demo"
+      }
+    },
+    "required": [
+      "heading",
+      "fields",
+      "submitLabel",
+      "submitBehavior",
+      "anchorId"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Section padding 40 24; card 342 (padding 40 16, radius 24); fields stack; submit full width."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustPrecedeFooter": true
+  },
+  "measuredFrom": [
+    "spec.t1.demoform",
+    "jsx.demoform",
+    "jsx.co.staticform"
+  ]
+}

@@ -1,0 +1,1370 @@
+{
+ "borders": [
+  {
+   "r": [
+    322,
+    53,
+    52,
+    52
+   ],
+   "n": "Logo and Name<Main",
+   "b": "1px 1px 1px 1px solid rgba(0, 0, 0, 0.2)",
+   "rad": "12px",
+   "txt": ""
+  },
+  {
+   "r": [
+    32,
+    1458,
+    137,
+    48
+   ],
+   "n": "Secondary / md<Right Column<Testimonial",
+   "b": "1px 1px 1px 1px solid rgb(167, 160, 146)",
+   "rad": "12px",
+   "txt": "Read full story"
+  },
+  {
+   "r": [
+    48,
+    5280,
+    40,
+    40
+   ],
+   "n": "Avatar<Compare S4<1",
+   "b": "2px 2px 2px 2px solid rgb(255, 255, 255)",
+   "rad": "99px",
+   "txt": ""
+  },
+  {
+   "r": [
+    48,
+    5443,
+    40,
+    40
+   ],
+   "n": "Avatar<Compare S4<1",
+   "b": "2px 2px 2px 2px solid rgb(255, 255, 255)",
+   "rad": "99px",
+   "txt": ""
+  },
+  {
+   "r": [
+    48,
+    5623,
+    40,
+    40
+   ],
+   "n": "Avatar<Compare S4<1",
+   "b": "2px 2px 2px 2px solid rgb(255, 255, 255)",
+   "rad": "99px",
+   "txt": ""
+  },
+  {
+   "r": [
+    29,
+    6094,
+    336,
+    81
+   ],
+   "n": "Big chip<Compare S2<2",
+   "b": "0px 0px 1px 0px solid rgba(36, 36, 43, 0.08)",
+   "rad": "24px",
+   "txt": "chart-simple    Generate personalized r"
+  },
+  {
+   "r": [
+    37,
+    6102,
+    64,
+    65
+   ],
+   "n": "Icon<Big chip<Compare S2",
+   "b": "1px 1px 1px 1px solid rgb(250, 247, 241)",
+   "rad": "16px",
+   "txt": "chart-simple  "
+  },
+  {
+   "r": [
+    37,
+    6352,
+    314,
+    81
+   ],
+   "n": "Big chip<Compare S2<2",
+   "b": "0px 0px 1px 0px solid rgba(36, 36, 43, 0.08)",
+   "rad": "24px",
+   "txt": "chart-simple    Automatic reviews moder"
+  },
+  {
+   "r": [
+    45,
+    6360,
+    64,
+    65
+   ],
+   "n": "Icon<Big chip<Compare S2",
+   "b": "1px 1px 1px 1px solid rgb(250, 247, 241)",
+   "rad": "16px",
+   "txt": "chart-simple  "
+  },
+  {
+   "r": [
+    30,
+    7035,
+    40,
+    40
+   ],
+   "n": "Avatar<Compare S1<2",
+   "b": "2px 2px 2px 2px solid rgb(255, 255, 255)",
+   "rad": "99px",
+   "txt": ""
+  },
+  {
+   "r": [
+    30,
+    7135,
+    40,
+    40
+   ],
+   "n": "Avatar<Compare S1<2",
+   "b": "2px 2px 2px 2px solid rgb(255, 255, 255)",
+   "rad": "99px",
+   "txt": ""
+  },
+  {
+   "r": [
+    130,
+    7183,
+    131,
+    22
+   ],
+   "n": "Compare S1<2<Content",
+   "b": "1px 1px 1px 1px solid rgb(205, 188, 160)",
+   "rad": "50px",
+   "txt": "  5 WEEKS LATER"
+  },
+  {
+   "r": [
+    30,
+    7228,
+    40,
+    40
+   ],
+   "n": "Avatar<Compare S1<2",
+   "b": "2px 2px 2px 2px solid rgb(255, 255, 255)",
+   "rad": "99px",
+   "txt": ""
+  },
+  {
+   "r": [
+    30,
+    7409,
+    40,
+    40
+   ],
+   "n": "Avatar<Compare S1<2",
+   "b": "2px 2px 2px 2px solid rgb(255, 255, 255)",
+   "rad": "99px",
+   "txt": ""
+  },
+  {
+   "r": [
+    56,
+    9394,
+    278,
+    56
+   ],
+   "n": "Title<Metrics<Main",
+   "b": "1px 0px 0px 0px solid rgba(0, 0, 0, 0.2)",
+   "rad": "0px",
+   "txt": "98%  FASTER RESPONSE TIME"
+  },
+  {
+   "r": [
+    56,
+    9474,
+    278,
+    63
+   ],
+   "n": "Title<Metrics<Main",
+   "b": "1px 0px 0px 0px solid rgba(0, 0, 0, 0.2)",
+   "rad": "0px",
+   "txt": "90%  FASTER RESOLUTION TIME"
+  },
+  {
+   "r": [
+    56,
+    9561,
+    278,
+    56
+   ],
+   "n": "Title<Metrics<Main",
+   "b": "1px 0px 0px 0px solid rgba(0, 0, 0, 0.2)",
+   "rad": "0px",
+   "txt": "+94.7%  AVERAGE CSAT"
+  },
+  {
+   "r": [
+    0,
+    12959,
+    390,
+    1080
+   ],
+   "n": "Phone",
+   "b": "0px 0px 1px 0px solid rgba(0, 0, 0, 0.2)",
+   "rad": "0px",
+   "txt": "    COMPANY  About Us  Careers  Custom"
+  },
+  {
+   "r": [
+    256,
+    13927,
+    46,
+    48
+   ],
+   "n": "Secondary / md<Left Column<Footer Content",
+   "b": "1px 1px 1px 1px solid rgba(255, 255, 255, 0.2)",
+   "rad": "12px",
+   "txt": ""
+  },
+  {
+   "r": [
+    310,
+    13927,
+    48,
+    48
+   ],
+   "n": "Secondary / md<Left Column<Footer Content",
+   "b": "1px 1px 1px 1px solid rgba(255, 255, 255, 0.2)",
+   "rad": "12px",
+   "txt": ""
+  }
+ ],
+ "icons": [
+  {
+   "r": [
+    338,
+    67,
+    21,
+    24
+   ],
+   "cp": "U+E0AE",
+   "ff": "\"Font Awesome 6 Pro Regular\"",
+   "fs": "24px",
+   "fw": "400",
+   "c": "rgb(18, 32, 35)",
+   "n": "Logo and Name<Main",
+   "next": ""
+  },
+  {
+   "r": [
+    -46,
+    5974,
+    32,
+    279
+   ],
+   "cp": "U+63 U+68 U+61 U+72 U+74 U+2D U+73 U+69 U+6D U+70 U+6C U+65",
+   "ff": "\"Font Awesome 6 Pro\"",
+   "fs": "32px",
+   "fw": "900",
+   "c": "rgb(250, 247, 241)",
+   "n": "fa-icon<u3764773521_UI_shot_a_text_message_conversation_it_looks_like_a_9ba60c1c-d0b7-4f88-92dc-4be540b77282 1<Patterns",
+   "next": "chart-simple"
+  },
+  {
+   "r": [
+    58,
+    6123,
+    21,
+    24
+   ],
+   "cp": "U+F007",
+   "ff": "\"Font Awesome 6 Sharp Light\"",
+   "fs": "24px",
+   "fw": "400",
+   "c": "rgb(255, 255, 255)",
+   "n": "Icon<Big chip<Compare S2",
+   "next": "chart-simple "
+  },
+  {
+   "r": [
+    203,
+    6318,
+    32,
+    219
+   ],
+   "cp": "U+63 U+68 U+61 U+72 U+74 U+2D U+73 U+69 U+6D U+70 U+6C U+65",
+   "ff": "\"Font Awesome 6 Pro\"",
+   "fs": "32px",
+   "fw": "900",
+   "c": "rgb(250, 247, 241)",
+   "n": "fa-icon<u3764773521_UI_shot_a_text_message_conversation_it_looks_like_a_9ba60c1c-d0b7-4f88-92dc-4be540b77282 1<Patterns",
+   "next": "chart-simple"
+  },
+  {
+   "r": [
+    65,
+    6381,
+    24,
+    24
+   ],
+   "cp": "U+F03E",
+   "ff": "\"Font Awesome 6 Sharp Light\"",
+   "fs": "24px",
+   "fw": "400",
+   "c": "rgb(255, 255, 255)",
+   "n": "Icon<Big chip<Compare S2",
+   "next": "chart-simple "
+  },
+  {
+   "r": [
+    142,
+    7188,
+    12,
+    12
+   ],
+   "cp": "U+F017",
+   "ff": "\"Font Awesome 6 Sharp Light\"",
+   "fs": "12px",
+   "fw": "400",
+   "c": "rgb(96, 92, 83)",
+   "n": "Compare S1<2<Content",
+   "next": "Has my sculpting shorts order shipped yet? Just we"
+  },
+  {
+   "r": [
+    272,
+    13943,
+    14,
+    16
+   ],
+   "cp": "U+F0E1",
+   "ff": "\"Font Awesome 6 Brands Regular\"",
+   "fs": "16px",
+   "fw": "400",
+   "c": "rgb(244, 245, 245)",
+   "n": "Text<Secondary / md<Left Column",
+   "next": ""
+  },
+  {
+   "r": [
+    326,
+    13943,
+    16,
+    16
+   ],
+   "cp": "U+E61B",
+   "ff": "\"Font Awesome 6 Brands Regular\"",
+   "fs": "16px",
+   "fw": "400",
+   "c": "rgb(244, 245, 245)",
+   "n": "Text<Secondary / md<Left Column",
+   "next": ""
+  }
+ ],
+ "imgs": [
+  {
+   "src": "qnJ39G2jMJsaeN5ykV5ZIyZ9Fw.webp",
+   "r": [
+    -209,
+    329,
+    390,
+    411
+   ],
+   "ow": 390,
+   "oh": 411,
+   "wow": 390,
+   "woh": 411,
+   "pos": "t:289px r:209px b:-88px l:-209px w:390px h:411px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "contain",
+   "op": "50% 0%",
+   "alt": "",
+   "n": "Siena 2<Hero"
+  },
+  {
+   "src": "OJVl4cBpDuZoUt7B55UQZA7rfQ.webp",
+   "r": [
+    144,
+    193,
+    614,
+    559
+   ],
+   "ow": 614,
+   "oh": 559,
+   "wow": 614,
+   "woh": 559,
+   "pos": "t:153px r:-368px b:-100px l:144.109px w:613.891px h:558.984px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "contain",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "image<Hero"
+  },
+  {
+   "src": "mSwCeM9m9qrwUvrpjLLD0jdLc0.webp",
+   "r": [
+    32,
+    779,
+    320,
+    320
+   ],
+   "ow": 320,
+   "oh": 320,
+   "wow": 320,
+   "woh": 320,
+   "pos": "t:0px r:0px b:0px l:0px w:320px h:320px",
+   "tf": "none",
+   "rad": "32px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "Testimonial<Content<content"
+  },
+  {
+   "src": "ZCj576JNrFiZ427q7v0w8UiiZtg.svg",
+   "r": [
+    32,
+    1370,
+    140,
+    64
+   ],
+   "ow": 140,
+   "oh": 64,
+   "wow": 140,
+   "woh": 64,
+   "pos": "t:0px r:0px b:0px l:0px w:140px h:64px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "contain",
+   "op": "0% 50%",
+   "alt": "",
+   "n": "Logos<Brand<Right Column"
+  },
+  {
+   "src": "a5SDd3EboOJuKxw06cfwFqcDs.png",
+   "r": [
+    57,
+    1925,
+    20,
+    20
+   ],
+   "ow": 20,
+   "oh": 20,
+   "wow": 308,
+   "woh": 128,
+   "pos": "t:auto r:auto b:auto l:auto w:308px h:128px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "fill",
+   "op": "50% 50%",
+   "alt": "Check",
+   "n": "Features<Main"
+  },
+  {
+   "src": "a5SDd3EboOJuKxw06cfwFqcDs.png",
+   "r": [
+    57,
+    2290,
+    20,
+    20
+   ],
+   "ow": 20,
+   "oh": 20,
+   "wow": 308,
+   "woh": 108,
+   "pos": "t:auto r:auto b:auto l:auto w:308px h:108px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "fill",
+   "op": "50% 50%",
+   "alt": "Check",
+   "n": "Features<Main"
+  },
+  {
+   "src": "a5SDd3EboOJuKxw06cfwFqcDs.png",
+   "r": [
+    57,
+    2616,
+    20,
+    20
+   ],
+   "ow": 20,
+   "oh": 20,
+   "wow": 308,
+   "woh": 88,
+   "pos": "t:auto r:auto b:auto l:auto w:308px h:88px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "fill",
+   "op": "50% 50%",
+   "alt": "Check",
+   "n": "Features<Main"
+  },
+  {
+   "src": "a5SDd3EboOJuKxw06cfwFqcDs.png",
+   "r": [
+    57,
+    2922,
+    20,
+    20
+   ],
+   "ow": 20,
+   "oh": 20,
+   "wow": 308,
+   "woh": 108,
+   "pos": "t:auto r:auto b:auto l:auto w:308px h:108px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "fill",
+   "op": "50% 50%",
+   "alt": "Check",
+   "n": "Features<Main"
+  },
+  {
+   "src": "a5SDd3EboOJuKxw06cfwFqcDs.png",
+   "r": [
+    57,
+    3248,
+    20,
+    20
+   ],
+   "ow": 20,
+   "oh": 20,
+   "wow": 308,
+   "woh": 108,
+   "pos": "t:auto r:auto b:auto l:auto w:308px h:108px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "fill",
+   "op": "50% 50%",
+   "alt": "Check",
+   "n": "Features<Main"
+  },
+  {
+   "src": "a5SDd3EboOJuKxw06cfwFqcDs.png",
+   "r": [
+    57,
+    3602,
+    20,
+    20
+   ],
+   "ow": 20,
+   "oh": 20,
+   "wow": 308,
+   "woh": 108,
+   "pos": "t:auto r:auto b:auto l:auto w:308px h:108px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "fill",
+   "op": "50% 50%",
+   "alt": "Check",
+   "n": "Features<Main"
+  },
+  {
+   "src": "a5SDd3EboOJuKxw06cfwFqcDs.png",
+   "r": [
+    57,
+    3908,
+    20,
+    20
+   ],
+   "ow": 20,
+   "oh": 20,
+   "wow": 308,
+   "woh": 88,
+   "pos": "t:auto r:auto b:auto l:auto w:308px h:88px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "fill",
+   "op": "50% 50%",
+   "alt": "Check",
+   "n": "Features<Main"
+  },
+  {
+   "src": "a5SDd3EboOJuKxw06cfwFqcDs.png",
+   "r": [
+    57,
+    4214,
+    20,
+    20
+   ],
+   "ow": 20,
+   "oh": 20,
+   "wow": 308,
+   "woh": 128,
+   "pos": "t:auto r:auto b:auto l:auto w:308px h:128px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "fill",
+   "op": "50% 50%",
+   "alt": "Check",
+   "n": "Features<Main"
+  },
+  {
+   "src": "a5SDd3EboOJuKxw06cfwFqcDs.png",
+   "r": [
+    57,
+    4560,
+    20,
+    20
+   ],
+   "ow": 20,
+   "oh": 20,
+   "wow": 308,
+   "woh": 88,
+   "pos": "t:auto r:auto b:auto l:auto w:308px h:88px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "fill",
+   "op": "50% 50%",
+   "alt": "Check",
+   "n": "Features<Main"
+  },
+  {
+   "src": "OS7uIQBhEtXd5l7MXZ0qAcM0Lg.png",
+   "r": [
+    24,
+    5252,
+    342,
+    408
+   ],
+   "ow": 342,
+   "oh": 408,
+   "wow": 342,
+   "woh": 408,
+   "pos": "t:0px r:0px b:0px l:0px w:342px h:408px",
+   "tf": "none",
+   "rad": "24px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "Hand holding a phone showing the Siena AI chat demo",
+   "n": "Compare S4<1<Content"
+  },
+  {
+   "src": "D3TQ38q4HpOxmxHoD1u1AW40NI.png",
+   "r": [
+    48,
+    5280,
+    40,
+    40
+   ],
+   "ow": 40,
+   "oh": 40,
+   "wow": 40,
+   "woh": 40,
+   "pos": "t:0px r:0px b:0px l:0px w:40px h:40px",
+   "tf": "none",
+   "rad": "99px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "Avatar<Compare S4<1"
+  },
+  {
+   "src": "RmeNSvdDwpHmyiquwjkQ8HlXlI.webp",
+   "r": [
+    49,
+    5280,
+    38,
+    40
+   ],
+   "ow": 38,
+   "oh": 40,
+   "wow": 38,
+   "woh": 40,
+   "pos": "t:0px r:1px b:0px l:1px w:38px h:40px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "Portrait image of a happy person",
+   "n": "image 1696<Avatar<Compare S4"
+  },
+  {
+   "src": "14aPLwywC9q4flBvXM0s1rLqA8.png",
+   "r": [
+    302,
+    5387,
+    40,
+    40
+   ],
+   "ow": 40,
+   "oh": 40,
+   "wow": 40,
+   "woh": 40,
+   "pos": "t:0px r:0px b:0px l:0px w:40px h:40px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "contain",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "Brand<Compare S4<1"
+  },
+  {
+   "src": "RmeNSvdDwpHmyiquwjkQ8HlXlI.webp",
+   "r": [
+    49,
+    5443,
+    38,
+    40
+   ],
+   "ow": 38,
+   "oh": 40,
+   "wow": 38,
+   "woh": 40,
+   "pos": "t:0px r:1px b:0px l:1px w:38px h:40px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "Portrait image of a happy person",
+   "n": "image 1696<Avatar<Compare S4"
+  },
+  {
+   "src": "14aPLwywC9q4flBvXM0s1rLqA8.png",
+   "r": [
+    302,
+    5565,
+    40,
+    40
+   ],
+   "ow": 40,
+   "oh": 40,
+   "wow": 40,
+   "woh": 40,
+   "pos": "t:0px r:0px b:0px l:0px w:40px h:40px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "contain",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "Brand<Compare S4<1"
+  },
+  {
+   "src": "RmeNSvdDwpHmyiquwjkQ8HlXlI.webp",
+   "r": [
+    49,
+    5623,
+    38,
+    40
+   ],
+   "ow": 38,
+   "oh": 40,
+   "wow": 38,
+   "woh": 40,
+   "pos": "t:0px r:1px b:0px l:1px w:38px h:40px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "Portrait image of a happy person",
+   "n": "image 1696<Avatar<Compare S4"
+  },
+  {
+   "src": "2Jj1BszGAvma1aySjKVmoUyfSI.png",
+   "r": [
+    24,
+    6057,
+    342,
+    408
+   ],
+   "ow": 342,
+   "oh": 408,
+   "wow": 342,
+   "woh": 408,
+   "pos": "t:0px r:0px b:0px l:0px w:342px h:408px",
+   "tf": "none",
+   "rad": "24px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "Hand holding a phone showing the Siena AI chat demo",
+   "n": "Compare S2<2<Content"
+  },
+  {
+   "src": "glo9e1d72RyTANRqrtJjGBiB8.webp",
+   "r": [
+    22,
+    6057,
+    347,
+    408
+   ],
+   "ow": 347,
+   "oh": 408,
+   "wow": 347,
+   "woh": 408,
+   "pos": "t:0px r:-3px b:0px l:-2px w:347px h:408px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "BG<Compare S2<2"
+  },
+  {
+   "src": "eTyaR6EX4QUmmcYkomodjUhpH6Q.png",
+   "r": [
+    -278,
+    5974,
+    496,
+    279
+   ],
+   "ow": 279,
+   "oh": 496,
+   "wow": 279,
+   "woh": 496,
+   "pos": "t:-224px r:75px b:-183px l:-197px w:279px h:496px",
+   "tf": "matrix(0, 1, -1, 0, 0, 0)",
+   "rad": "0px",
+   "of": "fill",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "u3764773521_UI_shot_a_text_message_conversation_it_looks_like_a_9ba60c1c-d0b7-4f88-92dc-4be540b77282 1<Patterns<Icon"
+  },
+  {
+   "src": "Uuv5OWNLroO51e3GWwN9hGnIU.png",
+   "r": [
+    90,
+    6126,
+    32,
+    18
+   ],
+   "ow": 32,
+   "oh": 18,
+   "wow": 32,
+   "woh": 18,
+   "pos": "t:35.7344px r:62.5px b:35.2656px l:62.5px w:32px h:18px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "fill",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "Rectangle<Patterns<Icon"
+  },
+  {
+   "src": "YJCHh6pHXfigS8Roir7x9YirEI.webp",
+   "r": [
+    84,
+    6177,
+    39,
+    39
+   ],
+   "ow": 39,
+   "oh": 39,
+   "wow": 39,
+   "woh": 39,
+   "pos": "t:0px r:1px b:1px l:0px w:39px h:39px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "contain",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "image 1743<Image<Profile"
+  },
+  {
+   "src": "H52yBv0P43yzd8dUlb8CFyENp1s.png",
+   "r": [
+    24,
+    6318,
+    389,
+    219
+   ],
+   "ow": 219,
+   "oh": 389,
+   "wow": 219,
+   "woh": 389,
+   "pos": "t:-115px r:-135px b:-185px l:73px w:219px h:389px",
+   "tf": "matrix(0, 1, -1, 0, 0, 0)",
+   "rad": "0px",
+   "of": "fill",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "u3764773521_UI_shot_a_text_message_conversation_it_looks_like_a_9ba60c1c-d0b7-4f88-92dc-4be540b77282 1<Patterns<Icon"
+  },
+  {
+   "src": "Uuv5OWNLroO51e3GWwN9hGnIU.png",
+   "r": [
+    99,
+    6383,
+    32,
+    18
+   ],
+   "ow": 32,
+   "oh": 18,
+   "wow": 32,
+   "woh": 18,
+   "pos": "t:35.7344px r:62.5px b:35.2656px l:62.5px w:32px h:18px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "fill",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "Rectangle<Patterns<Icon"
+  },
+  {
+   "src": "ZKcNeM6djIjPHCNJzlqVwl6Oz0.webp",
+   "r": [
+    24,
+    7013,
+    342,
+    408
+   ],
+   "ow": 342,
+   "oh": 408,
+   "wow": 342,
+   "woh": 408,
+   "pos": "t:0px r:0px b:0px l:0px w:342px h:408px",
+   "tf": "none",
+   "rad": "24px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "Hand holding a phone showing the Siena AI chat demo",
+   "n": "Compare S1<2<Content"
+  },
+  {
+   "src": "D3TQ38q4HpOxmxHoD1u1AW40NI.png",
+   "r": [
+    31,
+    7032,
+    38,
+    57
+   ],
+   "ow": 38,
+   "oh": 57,
+   "wow": 38,
+   "woh": 57,
+   "pos": "t:-3px r:1px b:-14px l:1px w:38px h:57px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "image 1696<Avatar<Compare S1"
+  },
+  {
+   "src": "14aPLwywC9q4flBvXM0s1rLqA8.png",
+   "r": [
+    321,
+    7085,
+    40,
+    40
+   ],
+   "ow": 40,
+   "oh": 40,
+   "wow": 40,
+   "woh": 40,
+   "pos": "t:0px r:0px b:0px l:0px w:40px h:40px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "contain",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "Brand<Compare S1<2"
+  },
+  {
+   "src": "D3TQ38q4HpOxmxHoD1u1AW40NI.png",
+   "r": [
+    31,
+    7132,
+    38,
+    57
+   ],
+   "ow": 38,
+   "oh": 57,
+   "wow": 38,
+   "woh": 57,
+   "pos": "t:-3px r:1px b:-14px l:1px w:38px h:57px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "image 1696<Avatar<Compare S1"
+  },
+  {
+   "src": "D3TQ38q4HpOxmxHoD1u1AW40NI.png",
+   "r": [
+    31,
+    7225,
+    38,
+    57
+   ],
+   "ow": 38,
+   "oh": 57,
+   "wow": 38,
+   "woh": 57,
+   "pos": "t:-3px r:1px b:-14px l:1px w:38px h:57px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "image 1696<Avatar<Compare S1"
+  },
+  {
+   "src": "14aPLwywC9q4flBvXM0s1rLqA8.png",
+   "r": [
+    321,
+    7293,
+    40,
+    40
+   ],
+   "ow": 40,
+   "oh": 40,
+   "wow": 40,
+   "woh": 40,
+   "pos": "t:0px r:0px b:0px l:0px w:40px h:40px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "contain",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "Brand<Compare S1<2"
+  },
+  {
+   "src": "D3TQ38q4HpOxmxHoD1u1AW40NI.png",
+   "r": [
+    31,
+    7406,
+    38,
+    57
+   ],
+   "ow": 38,
+   "oh": 57,
+   "wow": 38,
+   "woh": 57,
+   "pos": "t:-3px r:1px b:-14px l:1px w:38px h:57px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "image 1696<Avatar<Compare S1"
+  },
+  {
+   "src": "BeLmCXReFiYYClGNyhlGNKeAp70.webp",
+   "r": [
+    -84,
+    7946,
+    560,
+    495
+   ],
+   "ow": 560,
+   "oh": 495,
+   "wow": 560,
+   "woh": 495,
+   "pos": "t:17.2188px r:-23px b:-51px l:-21px w:560px h:494.781px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "Texture background<Visual<Compare S3"
+  },
+  {
+   "src": "E41dkaPjzIYO8X5LquyvnNWA5k.png",
+   "r": [
+    56,
+    7985,
+    68,
+    68
+   ],
+   "ow": 68,
+   "oh": 68,
+   "wow": 68,
+   "woh": 68,
+   "pos": "t:0px r:0px b:0px l:0px w:68px h:68px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "image 1746<Icon Button<Frame 2087325251"
+  },
+  {
+   "src": "1bDMxZj8W2T4NADqgydu75txHrc.webp",
+   "r": [
+    41,
+    8045,
+    259,
+    146
+   ],
+   "ow": 259,
+   "oh": 146,
+   "wow": 259,
+   "woh": 146,
+   "pos": "t:-20.0938px r:-33px b:-78px l:-11px w:259px h:146.094px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "Background<Icon<Text container"
+  },
+  {
+   "src": "w6eD4Ur8zTRM35rkpRmfdnDQ8Fg.webp",
+   "r": [
+    -67,
+    7958,
+    620,
+    355
+   ],
+   "ow": 620,
+   "oh": 355,
+   "wow": 620,
+   "woh": 355,
+   "pos": "t:207.438px r:-100px b:-101.344px l:-4px w:620px h:354.906px",
+   "tf": "matrix(1, 0, 0, 1, 0, -177.453)",
+   "rad": "0px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "Person-Cutout<Visual<Compare S3"
+  },
+  {
+   "src": "5VTp1YGCJLYo9Grib0Ouvyooeag.webp",
+   "r": [
+    0,
+    8847,
+    390,
+    858
+   ],
+   "ow": 390,
+   "oh": 858,
+   "wow": 390,
+   "woh": 858,
+   "pos": "t:0px r:0px b:0px l:0px w:390px h:857.766px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "Metrics<Main"
+  },
+  {
+   "src": "2qwkMa62FY4R6JZFtpnkwc613e8.svg",
+   "r": [
+    75,
+    9337,
+    241,
+    17
+   ],
+   "ow": 241,
+   "oh": 17,
+   "wow": 241,
+   "woh": 17,
+   "pos": "t:0px r:0px b:0px l:0px w:241px h:17px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "contain",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "Vector 77<Title<Metrics"
+  },
+  {
+   "src": "OKFNY3AXFnnV2q6cBUgzTRwNI0.png",
+   "r": [
+    322,
+    9847,
+    20,
+    20
+   ],
+   "ow": 20,
+   "oh": 20,
+   "wow": 294,
+   "woh": 283,
+   "pos": "t:auto r:auto b:auto l:auto w:294px h:283px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "fill",
+   "op": "50% 50%",
+   "alt": "icon",
+   "n": "FAQ<Main"
+  },
+  {
+   "src": "klSbquSQSmI4vJp5uAthfEBu4A.png",
+   "r": [
+    322,
+    10142,
+    20,
+    20
+   ],
+   "ow": 20,
+   "oh": 20,
+   "wow": 294,
+   "woh": 147,
+   "pos": "t:auto r:auto b:auto l:auto w:294px h:147px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "fill",
+   "op": "50% 50%",
+   "alt": "icon",
+   "n": "FAQ<Main"
+  },
+  {
+   "src": "klSbquSQSmI4vJp5uAthfEBu4A.png",
+   "r": [
+    322,
+    10289,
+    20,
+    20
+   ],
+   "ow": 20,
+   "oh": 20,
+   "wow": 294,
+   "woh": 147,
+   "pos": "t:auto r:auto b:auto l:auto w:294px h:147px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "fill",
+   "op": "50% 50%",
+   "alt": "icon",
+   "n": "FAQ<Main"
+  },
+  {
+   "src": "klSbquSQSmI4vJp5uAthfEBu4A.png",
+   "r": [
+    322,
+    10436,
+    20,
+    20
+   ],
+   "ow": 20,
+   "oh": 20,
+   "wow": 294,
+   "woh": 147,
+   "pos": "t:auto r:auto b:auto l:auto w:294px h:147px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "fill",
+   "op": "50% 50%",
+   "alt": "icon",
+   "n": "FAQ<Main"
+  },
+  {
+   "src": "klSbquSQSmI4vJp5uAthfEBu4A.png",
+   "r": [
+    322,
+    10571,
+    20,
+    20
+   ],
+   "ow": 20,
+   "oh": 20,
+   "wow": 294,
+   "woh": 123,
+   "pos": "t:auto r:auto b:auto l:auto w:294px h:123px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "fill",
+   "op": "50% 50%",
+   "alt": "icon",
+   "n": "FAQ<Main"
+  },
+  {
+   "src": "klSbquSQSmI4vJp5uAthfEBu4A.png",
+   "r": [
+    322,
+    10706,
+    20,
+    20
+   ],
+   "ow": 20,
+   "oh": 20,
+   "wow": 294,
+   "woh": 147,
+   "pos": "t:auto r:auto b:auto l:auto w:294px h:147px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "fill",
+   "op": "50% 50%",
+   "alt": "icon",
+   "n": "FAQ<Main"
+  },
+  {
+   "src": "klSbquSQSmI4vJp5uAthfEBu4A.png",
+   "r": [
+    322,
+    10841,
+    20,
+    20
+   ],
+   "ow": 20,
+   "oh": 20,
+   "wow": 294,
+   "woh": 123,
+   "pos": "t:auto r:auto b:auto l:auto w:294px h:123px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "fill",
+   "op": "50% 50%",
+   "alt": "icon",
+   "n": "FAQ<Main"
+  },
+  {
+   "src": "klSbquSQSmI4vJp5uAthfEBu4A.png",
+   "r": [
+    322,
+    10964,
+    20,
+    20
+   ],
+   "ow": 20,
+   "oh": 20,
+   "wow": 294,
+   "woh": 120,
+   "pos": "t:auto r:auto b:auto l:auto w:294px h:120px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "fill",
+   "op": "50% 50%",
+   "alt": "icon",
+   "n": "FAQ<Main"
+  },
+  {
+   "src": "ERYNplIY591uk80wpoa4JGglO8.webp",
+   "r": [
+    0,
+    11126,
+    390,
+    1034
+   ],
+   "ow": 390,
+   "oh": 1034,
+   "wow": 390,
+   "woh": 1034,
+   "pos": "t:0px r:0px b:0px l:0px w:390px h:1033.59px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "",
+   "n": "Phone<Main"
+  },
+  {
+   "src": "HB4OWZgksTQCHf8uTWf7S6EYSlE.webp",
+   "r": [
+    211,
+    13133,
+    64,
+    64
+   ],
+   "ow": 64,
+   "oh": 64,
+   "wow": 64,
+   "woh": 64,
+   "pos": "t:0px r:0px b:0px l:0px w:64px h:63.6406px",
+   "tf": "none",
+   "rad": "0px",
+   "of": "cover",
+   "op": "50% 50%",
+   "alt": "AICPA SOC 2 compliance badge",
+   "n": "SOC Non-CPA Logo<Links<Links"
+  }
+ ],
+ "hasNav": true,
+ "navTxt": "We raised a $17M Series A\n\n"
+}

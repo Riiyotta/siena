@@ -1,0 +1,23 @@
+{
+  "registryId": "component.lottie-feature-card",
+  "version": "1.0.0",
+  "category": "content",
+  "description": "Feature card 608x725 (hero sand, radius 24): H3 (h-card) + serif body + autoplaying looping Lottie (svg renderer, xMidYMid slice). Variants withPading / withoutPading.",
+  "composes": [
+    "primitive.text",
+    "primitive.image"
+  ],
+  "props": {
+    "variant": {
+      "enum": [
+        "padded",
+        "flush"
+      ]
+    }
+  },
+  "measuredFrom": [
+    "spec.featurecard",
+    "spec.lottie",
+    "jsx.featurecard"
+  ]
+}

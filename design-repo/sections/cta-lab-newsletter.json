@@ -1,0 +1,71 @@
+{
+  "id": "section.cta.lab-newsletter",
+  "registryId": "section.cta.lab-newsletter",
+  "typeId": "cta.lab-newsletter",
+  "version": "1.0.0",
+  "category": "conversion",
+  "purpose": "AI Lab newsletter CTA on the peach gradient: square white card, H2, email + 'Sign me up!'. Static: never submits (the live Framer form endpoint must not be called); the success heading swap may be simulated locally.",
+  "evidenceLevel": "spec-measured",
+  "variants": {
+    "lab": "Replaces Main CTA on /ai-lab."
+  },
+  "composes": [
+    "component.form-card"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "heading": {
+        "type": "string",
+        "maxWords": 8
+      },
+      "successHeading": {
+        "type": "string",
+        "maxWords": 8
+      },
+      "placeholder": {
+        "type": "string",
+        "maxWords": 1
+      },
+      "submitLabel": {
+        "type": "string",
+        "maxWords": 3
+      },
+      "submitBehavior": {
+        "const": "none"
+      }
+    },
+    "required": [
+      "heading",
+      "successHeading",
+      "placeholder",
+      "submitLabel",
+      "submitBehavior"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Input and button stack."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustPrecedeFooter": true
+  },
+  "measuredFrom": [
+    "spec.pb.5.9"
+  ]
+}

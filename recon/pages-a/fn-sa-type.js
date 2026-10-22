@@ -1,0 +1,3 @@
+(()=>{const s=[...document.querySelectorAll('[data-framer-name="Scroll Area"]')].find(e=>e.offsetHeight>0);const sp=[...s.querySelectorAll('[data-framer-name="What can I help with?"] span')];const vis=sp.filter(e=>+getComputedStyle(e).opacity>0.5).length;
+const L=s.querySelector('[data-framer-name="List"]');const rows=[...s.querySelectorAll('[data-framer-name="Chat UI"] > div')].map(e=>(+getComputedStyle(e).opacity).toFixed(1)+'/'+(getComputedStyle(e).transform.split(',')[5]||'0').trim().replace(')','').slice(0,5)).join(' ');
+return 'spans '+vis+'/'+sp.length+' list:'+(L?(+getComputedStyle(L).opacity).toFixed(2)+' '+getComputedStyle(L).transform:'-')+' rows:'+rows})()

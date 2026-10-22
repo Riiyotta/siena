@@ -1,0 +1,692 @@
+{
+ "textNames": [
+  "fullName",
+  "workEmail",
+  "companyWebsite",
+  "attribution"
+ ],
+ "default": {
+  "fullName": {
+   "inp": {
+    "tag": "INPUT",
+    "ff": "\"Instrument Sans\", \"Instrument Sans Placeholder\", sans-serif",
+    "fs": "16px",
+    "lh": "20px",
+    "fw": "400",
+    "c": "rgb(18, 32, 35)",
+    "p": "26px 16px 8px",
+    "bg": "rgba(0, 0, 0, 0)",
+    "sh": "none",
+    "tr": "all",
+    "h": 56,
+    "caret": "rgb(18, 32, 35)"
+   },
+   "labelBefore": "rgb(90, 85, 75)",
+   "spans": [
+    {
+     "t": "Full name*",
+     "fs": "16px",
+     "lh": "20px",
+     "c": "rgb(87, 82, 74)",
+     "op": "1",
+     "tf": "matrix(1, 0, 0, 1, 0, 18)",
+     "tr": "transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), font-size 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+     "y": 311,
+     "x": 808
+    },
+    {
+     "t": "*",
+     "fs": "16px",
+     "lh": "20px",
+     "c": "rgb(87, 82, 74)",
+     "op": "1",
+     "tf": "none",
+     "tr": "all",
+     "y": 311,
+     "x": 878
+    }
+   ],
+   "anc": [
+    {
+     "tag": "DIV",
+     "bg": "rgb(255, 255, 255)",
+     "sh": "rgb(205, 188, 160) 0px 0px 0px 1px inset",
+     "rad": "16px",
+     "tr": "all",
+     "r": [
+      792,
+      293,
+      416,
+      56
+     ]
+    },
+    {
+     "tag": "DIV",
+     "bg": "rgba(0, 0, 0, 0)",
+     "sh": "none",
+     "rad": "0px",
+     "tr": "all",
+     "r": [
+      792,
+      293,
+      416,
+      56
+     ]
+    },
+    {
+     "tag": "LABEL",
+     "bg": "rgba(0, 0, 0, 0)",
+     "sh": "none",
+     "rad": "0px",
+     "tr": "all",
+     "r": [
+      792,
+      293,
+      416,
+      56
+     ]
+    }
+   ]
+  },
+  "workEmail": {
+   "inp": {
+    "tag": "INPUT",
+    "ff": "\"Instrument Sans\", \"Instrument Sans Placeholder\", sans-serif",
+    "fs": "16px",
+    "lh": "20px",
+    "fw": "400",
+    "c": "rgb(18, 32, 35)",
+    "p": "26px 16px 8px",
+    "bg": "rgba(0, 0, 0, 0)",
+    "sh": "none",
+    "tr": "all",
+    "h": 56,
+    "caret": "rgb(18, 32, 35)"
+   },
+   "labelBefore": "rgb(90, 85, 75)",
+   "spans": [
+    {
+     "t": "Work email*",
+     "fs": "16px",
+     "lh": "20px",
+     "c": "rgb(87, 82, 74)",
+     "op": "1",
+     "tf": "matrix(1, 0, 0, 1, 0, 18)",
+     "tr": "transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), font-size 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+     "y": 379,
+     "x": 808
+    },
+    {
+     "t": "*",
+     "fs": "16px",
+     "lh": "20px",
+     "c": "rgb(87, 82, 74)",
+     "op": "1",
+     "tf": "none",
+     "tr": "all",
+     "y": 379,
+     "x": 892
+    }
+   ],
+   "anc": [
+    {
+     "tag": "DIV",
+     "bg": "rgb(255, 255, 255)",
+     "sh": "rgb(205, 188, 160) 0px 0px 0px 1px inset",
+     "rad": "16px",
+     "tr": "all",
+     "r": [
+      792,
+      361,
+      416,
+      56
+     ]
+    },
+    {
+     "tag": "DIV",
+     "bg": "rgba(0, 0, 0, 0)",
+     "sh": "none",
+     "rad": "0px",
+     "tr": "all",
+     "r": [
+      792,
+      361,
+      416,
+      56
+     ]
+    },
+    {
+     "tag": "LABEL",
+     "bg": "rgba(0, 0, 0, 0)",
+     "sh": "none",
+     "rad": "0px",
+     "tr": "all",
+     "r": [
+      792,
+      361,
+      416,
+      56
+     ]
+    }
+   ]
+  },
+  "companyWebsite": {
+   "inp": {
+    "tag": "INPUT",
+    "ff": "\"Instrument Sans\", \"Instrument Sans Placeholder\", sans-serif",
+    "fs": "16px",
+    "lh": "20px",
+    "fw": "400",
+    "c": "rgb(18, 32, 35)",
+    "p": "26px 16px 8px",
+    "bg": "rgba(0, 0, 0, 0)",
+    "sh": "none",
+    "tr": "all",
+    "h": 56,
+    "caret": "rgb(18, 32, 35)"
+   },
+   "labelBefore": "rgb(90, 85, 75)",
+   "spans": [
+    {
+     "t": "Brand website*",
+     "fs": "16px",
+     "lh": "20px",
+     "c": "rgb(87, 82, 74)",
+     "op": "1",
+     "tf": "matrix(1, 0, 0, 1, 0, 18)",
+     "tr": "transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), font-size 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+     "y": 447,
+     "x": 808
+    },
+    {
+     "t": "*",
+     "fs": "16px",
+     "lh": "20px",
+     "c": "rgb(87, 82, 74)",
+     "op": "1",
+     "tf": "none",
+     "tr": "all",
+     "y": 447,
+     "x": 911
+    }
+   ],
+   "anc": [
+    {
+     "tag": "DIV",
+     "bg": "rgb(255, 255, 255)",
+     "sh": "rgb(205, 188, 160) 0px 0px 0px 1px inset",
+     "rad": "16px",
+     "tr": "all",
+     "r": [
+      792,
+      429,
+      416,
+      56
+     ]
+    },
+    {
+     "tag": "DIV",
+     "bg": "rgba(0, 0, 0, 0)",
+     "sh": "none",
+     "rad": "0px",
+     "tr": "all",
+     "r": [
+      792,
+      429,
+      416,
+      56
+     ]
+    },
+    {
+     "tag": "LABEL",
+     "bg": "rgba(0, 0, 0, 0)",
+     "sh": "none",
+     "rad": "0px",
+     "tr": "all",
+     "r": [
+      792,
+      429,
+      416,
+      56
+     ]
+    }
+   ]
+  },
+  "attribution": {
+   "inp": {
+    "tag": "TEXTAREA",
+    "ff": "\"Instrument Sans\", \"Instrument Sans Placeholder\", sans-serif",
+    "fs": "16px",
+    "lh": "20px",
+    "fw": "400",
+    "c": "rgb(18, 32, 35)",
+    "p": "30px 16px 10px",
+    "bg": "rgba(0, 0, 0, 0)",
+    "sh": "none",
+    "tr": "all",
+    "h": 0,
+    "caret": "rgb(18, 32, 35)"
+   },
+   "labelBefore": "rgb(90, 85, 75)",
+   "spans": [
+    {
+     "t": "Where did you hear about us?*",
+     "fs": "16px",
+     "lh": "20px",
+     "c": "rgb(87, 82, 74)",
+     "op": "1",
+     "tf": "none",
+     "tr": "transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), font-size 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+     "y": 0,
+     "x": 0
+    },
+    {
+     "t": "*",
+     "fs": "16px",
+     "lh": "20px",
+     "c": "rgb(87, 82, 74)",
+     "op": "1",
+     "tf": "none",
+     "tr": "all",
+     "y": 0,
+     "x": 0
+    }
+   ],
+   "anc": [
+    {
+     "tag": "DIV",
+     "bg": "rgb(255, 255, 255)",
+     "sh": "rgb(205, 188, 160) 0px 0px 0px 1px inset",
+     "rad": "16px",
+     "tr": "all",
+     "r": [
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "tag": "DIV",
+     "bg": "rgba(0, 0, 0, 0)",
+     "sh": "none",
+     "rad": "0px",
+     "tr": "all",
+     "r": [
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "tag": "LABEL",
+     "bg": "rgba(0, 0, 0, 0)",
+     "sh": "none",
+     "rad": "0px",
+     "tr": "all",
+     "r": [
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ]
+  }
+ },
+ "focus": {
+  "inp": {
+   "tag": "INPUT",
+   "ff": "\"Instrument Sans\", \"Instrument Sans Placeholder\", sans-serif",
+   "fs": "16px",
+   "lh": "20px",
+   "fw": "400",
+   "c": "rgb(18, 32, 35)",
+   "p": "26px 16px 8px",
+   "bg": "rgba(0, 0, 0, 0)",
+   "sh": "none",
+   "tr": "all",
+   "h": 56,
+   "caret": "rgb(18, 32, 35)"
+  },
+  "labelBefore": "rgb(90, 85, 75)",
+  "spans": [
+   {
+    "t": "Full name*",
+    "fs": "12px",
+    "lh": "20px",
+    "c": "rgb(70, 81, 83)",
+    "op": "1",
+    "tf": "matrix(1, 0, 0, 1, 0, 9)",
+    "tr": "transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), font-size 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+    "y": 302,
+    "x": 808
+   },
+   {
+    "t": "*",
+    "fs": "12px",
+    "lh": "20px",
+    "c": "rgb(70, 81, 83)",
+    "op": "1",
+    "tf": "none",
+    "tr": "all",
+    "y": 304,
+    "x": 860
+   }
+  ],
+  "anc": [
+   {
+    "tag": "DIV",
+    "bg": "rgb(255, 255, 255)",
+    "sh": "rgb(0, 153, 255) 0px 0px 0px 1px inset",
+    "rad": "16px",
+    "tr": "all",
+    "r": [
+     792,
+     293,
+     416,
+     56
+    ]
+   },
+   {
+    "tag": "DIV",
+    "bg": "rgba(0, 0, 0, 0)",
+    "sh": "none",
+    "rad": "0px",
+    "tr": "all",
+    "r": [
+     792,
+     293,
+     416,
+     56
+    ]
+   },
+   {
+    "tag": "LABEL",
+    "bg": "rgba(0, 0, 0, 0)",
+    "sh": "none",
+    "rad": "0px",
+    "tr": "all",
+    "r": [
+     792,
+     293,
+     416,
+     56
+    ]
+   }
+  ]
+ },
+ "typed": {
+  "inp": {
+   "tag": "INPUT",
+   "ff": "\"Instrument Sans\", \"Instrument Sans Placeholder\", sans-serif",
+   "fs": "16px",
+   "lh": "20px",
+   "fw": "400",
+   "c": "rgb(18, 32, 35)",
+   "p": "26px 16px 8px",
+   "bg": "rgba(0, 0, 0, 0)",
+   "sh": "none",
+   "tr": "all",
+   "h": 56,
+   "caret": "rgb(18, 32, 35)"
+  },
+  "labelBefore": "rgb(90, 85, 75)",
+  "spans": [
+   {
+    "t": "Full name*",
+    "fs": "12px",
+    "lh": "20px",
+    "c": "rgb(70, 81, 83)",
+    "op": "1",
+    "tf": "matrix(1, 0, 0, 1, 0, 9)",
+    "tr": "transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), font-size 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+    "y": 302,
+    "x": 808
+   },
+   {
+    "t": "*",
+    "fs": "12px",
+    "lh": "20px",
+    "c": "rgb(70, 81, 83)",
+    "op": "1",
+    "tf": "none",
+    "tr": "all",
+    "y": 304,
+    "x": 860
+   }
+  ],
+  "anc": [
+   {
+    "tag": "DIV",
+    "bg": "rgb(255, 255, 255)",
+    "sh": "rgb(0, 153, 255) 0px 0px 0px 1px inset",
+    "rad": "16px",
+    "tr": "all",
+    "r": [
+     792,
+     293,
+     416,
+     56
+    ]
+   },
+   {
+    "tag": "DIV",
+    "bg": "rgba(0, 0, 0, 0)",
+    "sh": "none",
+    "rad": "0px",
+    "tr": "all",
+    "r": [
+     792,
+     293,
+     416,
+     56
+    ]
+   },
+   {
+    "tag": "LABEL",
+    "bg": "rgba(0, 0, 0, 0)",
+    "sh": "none",
+    "rad": "0px",
+    "tr": "all",
+    "r": [
+     792,
+     293,
+     416,
+     56
+    ]
+   }
+  ]
+ },
+ "blurFilled": {
+  "inp": {
+   "tag": "INPUT",
+   "ff": "\"Instrument Sans\", \"Instrument Sans Placeholder\", sans-serif",
+   "fs": "16px",
+   "lh": "20px",
+   "fw": "400",
+   "c": "rgb(18, 32, 35)",
+   "p": "26px 16px 8px",
+   "bg": "rgba(0, 0, 0, 0)",
+   "sh": "none",
+   "tr": "all",
+   "h": 56,
+   "caret": "rgb(18, 32, 35)"
+  },
+  "labelBefore": "rgb(90, 85, 75)",
+  "spans": [
+   {
+    "t": "Full name*",
+    "fs": "12px",
+    "lh": "20px",
+    "c": "rgb(70, 81, 83)",
+    "op": "1",
+    "tf": "matrix(1, 0, 0, 1, 0, 9)",
+    "tr": "transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), font-size 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+    "y": 302,
+    "x": 808
+   },
+   {
+    "t": "*",
+    "fs": "12px",
+    "lh": "20px",
+    "c": "rgb(70, 81, 83)",
+    "op": "1",
+    "tf": "none",
+    "tr": "all",
+    "y": 304,
+    "x": 860
+   }
+  ],
+  "anc": [
+   {
+    "tag": "DIV",
+    "bg": "rgb(255, 255, 255)",
+    "sh": "rgb(205, 188, 160) 0px 0px 0px 1px inset",
+    "rad": "16px",
+    "tr": "all",
+    "r": [
+     792,
+     293,
+     416,
+     56
+    ]
+   },
+   {
+    "tag": "DIV",
+    "bg": "rgba(0, 0, 0, 0)",
+    "sh": "none",
+    "rad": "0px",
+    "tr": "all",
+    "r": [
+     792,
+     293,
+     416,
+     56
+    ]
+   },
+   {
+    "tag": "LABEL",
+    "bg": "rgba(0, 0, 0, 0)",
+    "sh": "none",
+    "rad": "0px",
+    "tr": "all",
+    "r": [
+     792,
+     293,
+     416,
+     56
+    ]
+   }
+  ]
+ },
+ "hover": {
+  "inp": {
+   "tag": "INPUT",
+   "ff": "\"Instrument Sans\", \"Instrument Sans Placeholder\", sans-serif",
+   "fs": "16px",
+   "lh": "20px",
+   "fw": "400",
+   "c": "rgb(18, 32, 35)",
+   "p": "26px 16px 8px",
+   "bg": "rgba(0, 0, 0, 0)",
+   "sh": "none",
+   "tr": "all",
+   "h": 56,
+   "caret": "rgb(18, 32, 35)"
+  },
+  "labelBefore": "rgb(90, 85, 75)",
+  "spans": [
+   {
+    "t": "Brand website*",
+    "fs": "16px",
+    "lh": "20px",
+    "c": "rgb(87, 82, 74)",
+    "op": "1",
+    "tf": "matrix(1, 0, 0, 1, 0, 18)",
+    "tr": "transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), font-size 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
+    "y": 447,
+    "x": 808
+   },
+   {
+    "t": "*",
+    "fs": "16px",
+    "lh": "20px",
+    "c": "rgb(87, 82, 74)",
+    "op": "1",
+    "tf": "none",
+    "tr": "all",
+    "y": 447,
+    "x": 911
+   }
+  ],
+  "anc": [
+   {
+    "tag": "DIV",
+    "bg": "rgb(255, 255, 255)",
+    "sh": "rgb(205, 188, 160) 0px 0px 0px 1px inset",
+    "rad": "16px",
+    "tr": "all",
+    "r": [
+     792,
+     429,
+     416,
+     56
+    ]
+   },
+   {
+    "tag": "DIV",
+    "bg": "rgba(0, 0, 0, 0)",
+    "sh": "none",
+    "rad": "0px",
+    "tr": "all",
+    "r": [
+     792,
+     429,
+     416,
+     56
+    ]
+   },
+   {
+    "tag": "LABEL",
+    "bg": "rgba(0, 0, 0, 0)",
+    "sh": "none",
+    "rad": "0px",
+    "tr": "all",
+    "r": [
+     792,
+     429,
+     416,
+     56
+    ]
+   }
+  ]
+ },
+ "dropdowns": [
+  {
+   "st": {
+    "txt": "What is your primary goal with Siena?*\n, required\nSelect one or more…",
+    "bg": "rgb(255, 255, 255)",
+    "sh": "rgb(205, 188, 160) 0px 0px 0px 1px inset",
+    "p": "26px 44px 8px 16px",
+    "rad": "16px",
+    "h": 56
+   },
+   "pan": {
+    "html": "<input type=\"checkbox\" name=\"opt-what_is_your_primary_goal_with_siena\" style=\"width: 15px; height: 15px; margin: 0px; accent-color: rgb(18, 32, 35); flex: 0 0 auto; cursor: pointer;\">"
+   },
+   "after": {
+    "bg": "rgb(255, 255, 255)",
+    "sh": "rgb(0, 153, 255) 0px 0px 0px 1px inset",
+    "spans": [
+     "What is your primary goal with Siena?*\n, required|12px|20px|rgb(70, 81, 83)|matrix(1, 0, 0, 1, 0, 9)|1",
+     "*|12px|20px|rgb(70, 81, 83)|none|1",
+     ", required|12px|20px|rgb(70, 81, 83)|none|1",
+     "Select one or more…|16px|20px|rgb(90, 85, 75)|none|1"
+    ]
+   },
+   "optHoverBg": null
+  }
+ ]
+}

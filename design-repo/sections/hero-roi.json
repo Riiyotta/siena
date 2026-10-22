@@ -1,0 +1,128 @@
+{
+  "id": "section.hero.roi",
+  "registryId": "section.hero.roi",
+  "typeId": "hero.roi",
+  "version": "1.0.0",
+  "category": "hero",
+  "purpose": "ROI calculator hero: H1, dimmed sub, 'WHAT TO EXPECT' list left; the 3-step calculator card (numbers -> details -> 1st-year projections) right. Calculation is local and deterministic; step 2 never posts anywhere.",
+  "evidenceLevel": "spec-measured",
+  "variants": {
+    "roi": "Hero sand, 1013 tall, blur image behind the card."
+  },
+  "composes": [
+    "component.form-card",
+    "primitive.text"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "headline": {
+        "type": "string",
+        "maxWords": 6
+      },
+      "subtitle": {
+        "type": "string",
+        "maxWords": 12
+      },
+      "eyebrow": {
+        "type": "string",
+        "maxWords": 3
+      },
+      "expectations": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "maxWords": 8
+        },
+        "minItems": 4,
+        "maxItems": 4
+      },
+      "calculator": {
+        "type": "object",
+        "properties": {
+          "stepHeadings": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "maxWords": 8
+            },
+            "minItems": 3,
+            "maxItems": 3
+          },
+          "intro": {
+            "type": "string",
+            "maxWords": 20
+          },
+          "numberFields": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "maxWords": 6
+            },
+            "minItems": 6,
+            "maxItems": 6
+          },
+          "contactFields": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "maxWords": 6
+            },
+            "minItems": 4,
+            "maxItems": 4
+          },
+          "formula": {
+            "const": "roi-v1"
+          },
+          "submitBehavior": {
+            "const": "none"
+          }
+        },
+        "required": [
+          "stepHeadings",
+          "intro",
+          "numberFields",
+          "contactFields",
+          "formula",
+          "submitBehavior"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "required": [
+      "headline",
+      "subtitle",
+      "eyebrow",
+      "expectations",
+      "calculator"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "appear-rise",
+      "appear-spring-x"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Card 342 wide; every row stacks; buttons full width."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustFollowNav": true
+  },
+  "measuredFrom": [
+    "spec.pb.6.1",
+    "spec.pb.6.2"
+  ],
+  "notes": "formula roi-v1 (spec 6.2): rate=automationRate/100 (default 20); costPerTicket=(inHouse+bpo+helpDesk)/tickets; automated=tickets*rate; revenue=automated*0.02*AOV*0.3; savings=automated*costPerTicket; yearlyROI=savings+revenue-24000; costPerConv from the volume tier table; display '$'+toFixed(2)."
+}

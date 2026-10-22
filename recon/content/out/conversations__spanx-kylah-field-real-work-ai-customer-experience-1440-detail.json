@@ -1,0 +1,1932 @@
+{
+ "rich": [
+  {
+   "fn": "Summary",
+   "r": [
+    320,
+    1018,
+    800,
+    328
+   ],
+   "cnt": 3,
+   "items": [
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      1018,
+      800,
+      58
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 54,
+     "text": "Kylah Field is VP of Global Customer Experience",
+     "strong": "",
+     "links": [
+      {
+       "h": "https://www.linkedin.com/in/kylah-field-210540a2/",
+       "t": "Kylah Field"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      1096,
+      800,
+      115
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 88,
+     "text": "Field’s biggest lesson: technology alone doesn’t make an",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      1231,
+      800,
+      115
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 110,
+     "text": "The rollout itself was deliberately slow. Spanx started",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    }
+   ]
+  },
+  {
+   "fn": "Transcript",
+   "r": [
+    320,
+    2059,
+    800,
+    5597
+   ],
+   "cnt": 57,
+   "items": [
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      320,
+      2059,
+      800,
+      36
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 36px/36px lsnormal rgb(18, 32, 35)",
+     "words": 9,
+     "text": "Meet Kylah Field: From Cost Center to Business Driver",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      2115,
+      800,
+      58
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 45,
+     "text": "Kylah (0:02) My name is Kylah. I work",
+     "strong": "Kylah | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=2aXY6SKJQvA&t=2s",
+       "t": "(0:02)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      2193,
+      800,
+      38
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 27,
+     "text": "We’ve been working together for, I would say,",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      2251,
+      800,
+      77
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 70,
+     "text": "Lisa (0:32) Yeah, you were one of the",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=2aXY6SKJQvA&t=32s",
+       "t": "(0:32)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      2348,
+      800,
+      77
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 70,
+     "text": "Kylah (1:01) Yeah, I think the CX that",
+     "strong": "Kylah | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=2aXY6SKJQvA&t=61s",
+       "t": "(1:01)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      2445,
+      800,
+      115
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 115,
+     "text": "For us at Spanx in particular, it’s given",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      2580,
+      800,
+      38
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 35,
+     "text": "As I mentioned, I also own consumer insights.",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      320,
+      2659,
+      800,
+      36
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 36px/36px lsnormal rgb(18, 32, 35)",
+     "words": 8,
+     "text": "Why Every AI Agent Needs a Dedicated Owner",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      2715,
+      800,
+      58
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 39,
+     "text": "Lisa (2:15) We were talking about this earlier,",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=2aXY6SKJQvA&t=135s",
+       "t": "(2:15)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      2792,
+      800,
+      96
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 107,
+     "text": "Kylah (2:29) Yeah. So from a hiring perspective,",
+     "strong": "Kylah | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=2aXY6SKJQvA&t=149s",
+       "t": "(2:29)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      2908,
+      800,
+      77
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 84,
+     "text": "So for me, we hired a person to",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      320,
+      3025,
+      800,
+      72
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 36px/36px lsnormal rgb(18, 32, 35)",
+     "words": 10,
+     "text": "The Business Case: Personalization at Scale Without Tripling the Team",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      3117,
+      800,
+      58
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 53,
+     "text": "Lisa (3:33) So I think what you’ve done",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=2aXY6SKJQvA&t=213s",
+       "t": "(3:33)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      3195,
+      800,
+      115
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 115,
+     "text": "Kylah (3:48) Yeah. So for us, obviously Spanx",
+     "strong": "Kylah | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=2aXY6SKJQvA&t=228s",
+       "t": "(3:48)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      3330,
+      800,
+      58
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 45,
+     "text": "Lisa (4:28) And did the decision come from",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=2aXY6SKJQvA&t=268s",
+       "t": "(4:28)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      3407,
+      800,
+      134
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 142,
+     "text": "Kylah (4:42) Yeah, on our end it was",
+     "strong": "Kylah | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=2aXY6SKJQvA&t=282s",
+       "t": "(4:42)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      320,
+      3582,
+      800,
+      36
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 36px/36px lsnormal rgb(18, 32, 35)",
+     "words": 7,
+     "text": "Choosing a Vendor: Why Brand Voice Won",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      3638,
+      800,
+      38
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 33,
+     "text": "Lisa (5:27) That’s amazing, thank you for sharing.",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=2aXY6SKJQvA&t=327s",
+       "t": "(5:27)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      3696,
+      800,
+      58
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 56,
+     "text": "Kylah (5:38) Yeah, transparently, we talked to a",
+     "strong": "Kylah | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=2aXY6SKJQvA&t=338s",
+       "t": "(5:38)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      3774,
+      800,
+      96
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 93,
+     "text": "Our customers are coming to us for a",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      3890,
+      800,
+      134
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 132,
+     "text": "So for me, brand voice and tone, and",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      320,
+      4064,
+      800,
+      36
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 36px/36px lsnormal rgb(18, 32, 35)",
+     "words": 9,
+     "text": "The Surprise: AI Raised the Bar for Human Agents",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      4120,
+      800,
+      96
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 90,
+     "text": "Lisa (7:10) That’s a very detailed way of",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=2aXY6SKJQvA&t=430s",
+       "t": "(7:10)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      4236,
+      800,
+      77
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 62,
+     "text": "Kylah (7:40) Yeah, I would say what surprised",
+     "strong": "Kylah | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=2aXY6SKJQvA&t=460s",
+       "t": "(7:40)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      4333,
+      800,
+      173
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 151,
+     "text": "We use a number of different guidelines for",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      320,
+      4546,
+      800,
+      36
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 36px/36px lsnormal rgb(18, 32, 35)",
+     "words": 9,
+     "text": "When Customers Ask for Their AI Agent by Name",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      4602,
+      800,
+      77
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 60,
+     "text": "Lisa (8:58) I’ve heard that before. I think",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=2aXY6SKJQvA&t=538s",
+       "t": "(8:58)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      4699,
+      800,
+      134
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 137,
+     "text": "Kylah (9:23) Yeah, I mean, I think some",
+     "strong": "Kylah | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=2aXY6SKJQvA&t=563s",
+       "t": "(9:23)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      4853,
+      800,
+      19
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 12,
+     "text": "Lisa (10:12) Wow. And do you disclose that",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=2aXY6SKJQvA&t=612s",
+       "t": "(10:12)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      4892,
+      800,
+      19
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 16,
+     "text": "Kylah (10:15) We do. But I guess once",
+     "strong": "Kylah | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=2aXY6SKJQvA&t=615s",
+       "t": "(10:15)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      4932,
+      800,
+      77
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 75,
+     "text": "Lisa (10:22) In terms of channel distribution, you",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=2aXY6SKJQvA&t=622s",
+       "t": "(10:22)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      5028,
+      800,
+      115
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 92,
+     "text": "Kylah (10:52) Yeah, I mean, I’ve used different",
+     "strong": "Kylah | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=2aXY6SKJQvA&t=652s",
+       "t": "(10:52)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      5164,
+      800,
+      77
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 64,
+     "text": "Lisa (11:14) Yeah, the memory and the context",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=2aXY6SKJQvA&t=674s",
+       "t": "(11:14)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      5260,
+      800,
+      77
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 71,
+     "text": "Kylah (11:44) We actually have customers who ask",
+     "strong": "Kylah | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=2aXY6SKJQvA&t=704s",
+       "t": "(11:44)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      320,
+      5377,
+      800,
+      36
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 36px/36px lsnormal rgb(18, 32, 35)",
+     "words": 9,
+     "text": "From Inbox to Insights: How AI Freed the Team",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      5433,
+      800,
+      38
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 32,
+     "text": "Lisa (12:11) I want to talk a little",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=2aXY6SKJQvA&t=731s",
+       "t": "(12:11)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      5492,
+      800,
+      134
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 131,
+     "text": "Kylah (12:22) I mean, I think a couple",
+     "strong": "Kylah | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=2aXY6SKJQvA&t=742s",
+       "t": "(12:22)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      5646,
+      800,
+      96
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 96,
+     "text": "But then I also think the rest of",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      5762,
+      800,
+      38
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 37,
+     "text": "Lisa (13:34) Yeah, so they can spend more",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=2aXY6SKJQvA&t=814s",
+       "t": "(13:34)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      5821,
+      800,
+      173
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 167,
+     "text": "Kylah (13:46) Yeah, so I’d say shipping and",
+     "strong": "Kylah | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=2aXY6SKJQvA&t=826s",
+       "t": "(13:46)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      6013,
+      800,
+      115
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 103,
+     "text": "We’ve also been able to leverage it for",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      320,
+      6169,
+      800,
+      36
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 36px/36px lsnormal rgb(18, 32, 35)",
+     "words": 8,
+     "text": "Proving Revenue Impact and Advice for Getting Started",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      6225,
+      800,
+      38
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 40,
+     "text": "Lisa (15:13) Yeah, that’s amazing. I love how,",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=2aXY6SKJQvA&t=913s",
+       "t": "(15:13)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      6283,
+      800,
+      77
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 69,
+     "text": "Kylah (15:30) I think it’s also been easier",
+     "strong": "Kylah | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=2aXY6SKJQvA&t=930s",
+       "t": "(15:30)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      6380,
+      800,
+      58
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 41,
+     "text": "Lisa (15:56) Yeah. Because this was actually one",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=2aXY6SKJQvA&t=956s",
+       "t": "(15:56)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      6457,
+      800,
+      77
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 81,
+     "text": "Kylah (16:11) Almost. I’d say, in the three",
+     "strong": "Kylah | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=2aXY6SKJQvA&t=971s",
+       "t": "(16:11)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      6554,
+      800,
+      38
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 33,
+     "text": "Lisa (16:37) Amazing, super cool. And then, as",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=2aXY6SKJQvA&t=997s",
+       "t": "(16:37)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      6613,
+      800,
+      77
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 76,
+     "text": "Kylah (16:47) Yeah, so we track CSAT, we",
+     "strong": "Kylah | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=2aXY6SKJQvA&t=1007s",
+       "t": "(16:47)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      6709,
+      800,
+      115
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 123,
+     "text": "I think a lot of organizations are excited",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      6845,
+      800,
+      19
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 18,
+     "text": "Lisa (17:55) How are you thinking about scaling",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=2aXY6SKJQvA&t=1075s",
+       "t": "(17:55)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      6884,
+      800,
+      115
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 103,
+     "text": "Kylah (18:02) I think we talked a little",
+     "strong": "Kylah | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=2aXY6SKJQvA&t=1082s",
+       "t": "(18:02)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      7019,
+      800,
+      58
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 61,
+     "text": "I think there’s a lot of revenue that",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      7097,
+      800,
+      154
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 156,
+     "text": "Lisa (18:58) Yeah, I think it’s been helpful",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=2aXY6SKJQvA&t=1138s",
+       "t": "(18:58)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      7270,
+      800,
+      38
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 40,
+     "text": "Kylah (19:50) If you’re skeptical, I think my",
+     "strong": "Kylah | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=2aXY6SKJQvA&t=1190s",
+       "t": "(19:50)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      7329,
+      800,
+      115
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 127,
+     "text": "The other thing I’d say is I feel",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      7464,
+      800,
+      154
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 160,
+     "text": "And I think a lot of people expect",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      7638,
+      800,
+      19
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 12,
+     "text": "Lisa (21:34) Well, thank you so much. I",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=2aXY6SKJQvA&t=1294s",
+       "t": "(21:34)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    }
+   ]
+  },
+  {
+   "fn": "FAQ",
+   "r": [
+    320,
+    7773,
+    800,
+    783
+   ],
+   "cnt": 10,
+   "items": [
+    {
+     "tag": "h3",
+     "depth": 0,
+     "r": [
+      320,
+      7773,
+      800,
+      67
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 28px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 14,
+     "text": "Why did Spanx choose an AI vendor based on brand voice instead of technology?",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      7860,
+      800,
+      58
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 48,
+     "text": "Because Spanx customers share personal, intimate details, like",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h3",
+     "depth": 0,
+     "r": [
+      320,
+      7958,
+      800,
+      34
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 28px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 7,
+     "text": "Does AI customer experience replace human agents?",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      8011,
+      800,
+      58
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 44,
+     "text": "No. At Spanx, AI freed human agents from",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h3",
+     "depth": 0,
+     "r": [
+      320,
+      8109,
+      800,
+      67
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 28px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 12,
+     "text": "What’s the biggest mistake companies make when adopting AI for customer experience?",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      8196,
+      800,
+      58
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 43,
+     "text": "Treating it as a plug-and-play tool instead of",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h3",
+     "depth": 0,
+     "r": [
+      320,
+      8294,
+      800,
+      34
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 28px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 9,
+     "text": "How do customers react to AI customer service agents?",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      8347,
+      800,
+      58
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 50,
+     "text": "At Spanx, customers have started asking for the",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h3",
+     "depth": 0,
+     "r": [
+      320,
+      8445,
+      800,
+      34
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 28px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 9,
+     "text": "How much of Spanx’s customer service does Siena automate?",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      8498,
+      800,
+      58
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 45,
+     "text": "About 50% of Spanx’s customer conversations run through",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    }
+   ]
+  }
+ ],
+ "marker": {
+  "color": "rgb(18, 32, 35)",
+  "fs": "16px",
+  "ff": "\"Instrument Sans\", \"Instrument Sans Placeholder\", sans-serif",
+  "content": "normal",
+  "lst": "\"\"",
+  "pl": "21.312px",
+  "ml": "0px",
+  "mlm": "0px"
+ },
+ "iframes": [
+  {
+   "src": "https://www.youtube.com/embed/2aXY6SKJQvA?autoplay=0&mute=1&controls=1&rel=0",
+   "r": [
+    320,
+    520,
+    800,
+    450
+   ],
+   "br": "0px",
+   "parBr": "10px"
+  },
+  {
+   "src": "https://framer.com/edit?framerSiteId=f47910699fc3441f86608d12d38696a628e935e97e59d6623edfd8ace3e982f1&source=www.siena.cx&features=%7B%22editorBarDisableFrameAncestorsSecurity%22%3Afalse%2C%22onPageRichTextBlockSelection%22%3Atrue%7D&loadStart=1792663271384",
+   "r": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "br": "0px",
+   "parBr": "0px"
+  }
+ ],
+ "video": {
+  "r": [
+   320,
+   520,
+   800,
+   450
+  ],
+  "html": "<div class=\"framer-1g8aimx\" data-framer-name=\"Video\"><div class=\"framer-18b49hm-container\"><div style=\"position: relative; width: 100%; aspect-ratio: 1.7778 / 1; border-radius: 10px; overflow: hidden;\"><iframe title=\"Kylah Field on AI Customer Experience: Why It Takes Real Work, Not a Quick Fix\" src=\"https://www.youtube.com/embed/2aXY6SKJQvA?autoplay=0&amp;mute=1&amp;controls=1&amp;rel=0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\" loading=\"lazy\" style=\"width: 100%; height: 100%; display: block; border-width: medium; border-style: none; border-color: currentcolor; border-image: none;\"></iframe></div></div></div>"
+ },
+ "headings": [
+  {
+   "tag": "H1",
+   "t": "Kylah Field on AI Customer Experience: Why It Takes Real Work, Not a Quick Fix",
+   "r": [
+    320,
+    212,
+    800,
+    192
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "Key takeaways",
+   "r": [
+    320,
+    1394,
+    800,
+    48
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "Chapters",
+   "r": [
+    320,
+    1722,
+    800,
+    48
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "Full transcript",
+   "r": [
+    320,
+    1991,
+    800,
+    48
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "Meet Kylah Field: From Cost Center to Business Driver",
+   "r": [
+    320,
+    2059,
+    800,
+    36
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "Why Every AI Agent Needs a Dedicated Owner",
+   "r": [
+    320,
+    2659,
+    800,
+    36
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "The Business Case: Personalization at Scale Without Tripling the Team",
+   "r": [
+    320,
+    3025,
+    800,
+    72
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "Choosing a Vendor: Why Brand Voice Won",
+   "r": [
+    320,
+    3582,
+    800,
+    36
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "The Surprise: AI Raised the Bar for Human Agents",
+   "r": [
+    320,
+    4064,
+    800,
+    36
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "When Customers Ask for Their AI Agent by Name",
+   "r": [
+    320,
+    4546,
+    800,
+    36
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "From Inbox to Insights: How AI Freed the Team",
+   "r": [
+    320,
+    5377,
+    800,
+    36
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "Proving Revenue Impact and Advice for Getting Started",
+   "r": [
+    320,
+    6169,
+    800,
+    36
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "Frequently asked questions",
+   "r": [
+    320,
+    7705,
+    800,
+    48
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "Why did Spanx choose an AI vendor based on brand voice instead of technology?",
+   "r": [
+    320,
+    7773,
+    800,
+    67
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "Does AI customer experience replace human agents?",
+   "r": [
+    320,
+    7958,
+    800,
+    34
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "What’s the biggest mistake companies make when adopting AI for customer experience?",
+   "r": [
+    320,
+    8109,
+    800,
+    67
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "How do customers react to AI customer service agents?",
+   "r": [
+    320,
+    8294,
+    800,
+    34
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "How much of Spanx’s customer service does Siena automate?",
+   "r": [
+    320,
+    8445,
+    800,
+    34
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "Be the first to know what's happening",
+   "r": [
+    389,
+    8840,
+    663,
+    128
+   ]
+  }
+ ],
+ "cards": [],
+ "probes": [
+  {
+   "label": "kicker link",
+   "before": {
+    "c": "rgb(18, 32, 35)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "sh": "none",
+    "tf": "none",
+    "op": "1",
+    "td": "underline",
+    "bc": "rgb(18, 32, 35)"
+   },
+   "after": {
+    "c": "rgb(18, 32, 35)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "sh": "none",
+    "tf": "none",
+    "op": "1",
+    "td": "underline",
+    "bc": "rgb(18, 32, 35)",
+    "imgTf": "",
+    "imgP": ""
+   }
+  },
+  {
+   "label": "chapter link",
+   "before": {
+    "c": "rgb(18, 32, 35)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "sh": "none",
+    "tf": "none",
+    "op": "1",
+    "td": "underline",
+    "bc": "rgb(18, 32, 35)"
+   },
+   "after": {
+    "c": "rgb(18, 32, 35)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "sh": "none",
+    "tf": "none",
+    "op": "1",
+    "td": "underline",
+    "bc": "rgb(18, 32, 35)",
+    "imgTf": "",
+    "imgP": ""
+   }
+  },
+  {
+   "label": "body link",
+   "before": {
+    "c": "rgb(18, 32, 35)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "sh": "none",
+    "tf": "none",
+    "op": "1",
+    "td": "underline",
+    "bc": "rgb(18, 32, 35)"
+   },
+   "after": {
+    "c": "rgb(18, 32, 35)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "sh": "none",
+    "tf": "none",
+    "op": "1",
+    "td": "underline",
+    "bc": "rgb(18, 32, 35)",
+    "imgTf": "",
+    "imgP": ""
+   }
+  }
+ ]
+}

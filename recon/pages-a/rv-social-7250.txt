@@ -1,0 +1,17 @@
+Ask Siena "omg do you ship to canada??? �" @335,1849 320x47 [op,x,y,sx,sy,blur] [0,-159.9,80,1,1,0] -> [1,-159.9,0,1,1,0] start 494ms t50 678ms end 1481ms overshoot -1.2
+Prompt "Yes! We ship everywhere across" @346,1923 306x75 [op,x,y,sx,sy,blur] [0,-153,80,1,1,0] -> [1,-153,0,1,1,0] start 795ms t50 980ms end 1778ms overshoot -1.2
+01 "I need it in every flavour" @804,1979 227x47 [op,x,y,sx,sy,blur] [0,0,80,1,1,0] -> [1,0,0,1,1,0] start 494ms t50 678ms end 1481ms overshoot -1.2
+Prompt "True Sea MossYessss, you’re go" @828,1961 253x98 [op,x,y,sx,sy,blur] [0,-126.5,80,1,1,0] -> [1,-126.5,0,1,1,0] start 795ms t50 980ms end 1778ms overshoot -1.2
+User Message "Deleted by Siena" @770,4134 149x42 [op,x,y,sx,sy,blur] [0,0,150,1,1,0] -> [1,0,0,1,1,0] start 595ms t50 813ms end 1012ms overshoot 0.0
+User Message "Hidden by Siena" @770,4037 148x42 [op,x,y,sx,sy,blur] [0,0,150,1,1,0] -> [1,0,0,1,1,0] start 297ms t50 512ms end 712ms overshoot 0.0
+User Message "Deleted by Siena" @770,4234 149x42 [op,x,y,sx,sy,blur] [0,0,150,1,1,0] -> [1,0,0,1,1,0] start 896ms t50 1361ms end 1361ms overshoot 0.0
+Rectangle 2223 "" @710,6350 20x20 [op,x,y,sx,sy,blur] [0.822,0,0,0.351,0.351,0] -> [0.375,0,0,-0.439,-0.439,0] start 8ms t50 562ms end 3511ms overshoot -0.3
+Avatar "" @611,7567 132x132 [op,x,y,sx,sy,blur] [0,0,100,0.985,0.985,0] -> [1,0,0,0.985,0.985,0] start 1045ms t50 1361ms end 2028ms overshoot 0.0
+Avatar "" @708,7568 146x146 [op,x,y,sx,sy,blur] [0,0,100,0.94,0.94,0] -> [1,0,0,0.94,0.94,0] start 1096ms t50 1546ms end 2230ms overshoot 0.0
+Avatar "" @804,7568 146x146 [op,x,y,sx,sy,blur] [0,0,100,0.94,0.94,0] -> [1,0,0,0.94,0.94,0] start 1629ms t50 1946ms end 2628ms overshoot 0.0
+Review "Based on the data these are th" @493,7494 455x101 [op,x,y,sx,sy,blur] [0,-227.5,29.6,1,1,0] -> [1,-227.5,-50.4,1,1,0] start 728ms t50 912ms end 1712ms overshoot -1.1
+Prompt "What's trending well this week" @493,7413 455x52 [op,x,y,sx,sy,blur] [0,-227.5,80,1,1,0] -> [1,-227.5,0,1,1,0] start 329ms t50 512ms end 1361ms overshoot -1.2
+SPAN "" @720,7432 2x14 [op,x,y,sx,sy,blur] [0,0,0,1,1,0] -> [1,0,0,1,1,0] start 397ms t50 429ms end 3496ms overshoot 0.0
+Rectangle 2223 "" @501,9609 33x33 [op,x,y,sx,sy,blur] [0.822,0,0,0.351,0.351,0] -> [0.375,0,0,-0.439,-0.439,0] start 8ms t50 562ms end 3511ms overshoot -0.3
+Rectangle 2223 "" @501,9653 33x33 [op,x,y,sx,sy,blur] [0.822,0,0,0.351,0.351,0] -> [0.375,0,0,-0.439,-0.439,0] start 8ms t50 562ms end 3511ms overshoot -0.3
+Rectangle 2223 "" @501,9697 33x33 [op,x,y,sx,sy,blur] [0.822,0,0,0.351,0.351,0] -> [0.375,0,0,-0.439,-0.439,0] start 8ms t50 562ms end 3511ms overshoot -0.3

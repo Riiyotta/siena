@@ -1,0 +1,113 @@
+{
+  "id": "section.feature.timer-list",
+  "registryId": "section.feature.timer-list",
+  "typeId": "feature.timer-list",
+  "version": "1.0.0",
+  "category": "feature",
+  "purpose": "Reviews intelligence: visual (swaps per item) + list of 3 items with 1px progress tracks; auto-advances every ~9s, loops.",
+  "evidenceLevel": "spec-measured",
+  "variants": {
+    "reviews": "Cream section."
+  },
+  "composes": [
+    "primitive.text",
+    "primitive.icon"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "eyebrow": {
+        "type": "string",
+        "maxWords": 7
+      },
+      "title": {
+        "type": "string",
+        "maxWords": 12,
+        "description": "Plain text; wrap at most one phrase in *asterisks* to render it in the display italic cut.",
+        "pattern": "^[^*]*(\\*[^*]+\\*[^*]*)?$"
+      },
+      "subtitle": {
+        "type": "string",
+        "maxWords": 35
+      },
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "icon": {
+              "type": "object",
+              "properties": {
+                "assetRole": {
+                  "const": "icon.glyph"
+                },
+                "codepoint": {
+                  "type": "string",
+                  "pattern": "^U\\+[0-9A-F]{4}$"
+                }
+              },
+              "required": [
+                "assetRole",
+                "codepoint"
+              ],
+              "additionalProperties": false
+            },
+            "title": {
+              "type": "string",
+              "maxWords": 5
+            },
+            "text": {
+              "type": "string",
+              "maxWords": 35
+            },
+            "visual": {
+              "type": "string",
+              "maxWords": 3,
+              "pattern": "^[a-z0-9-]+$"
+            }
+          },
+          "required": [
+            "icon",
+            "title",
+            "text",
+            "visual"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 3,
+        "maxItems": 3
+      }
+    },
+    "required": [
+      "eyebrow",
+      "title",
+      "subtitle",
+      "items"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "timer-progress"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Visual above the list."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "spec.pa.3.5",
+    "spec.pa.timer"
+  ]
+}

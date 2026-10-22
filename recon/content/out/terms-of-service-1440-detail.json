@@ -1,0 +1,4732 @@
+{
+ "rich": [
+  {
+   "fn": "Content",
+   "r": [
+    160,
+    391,
+    1120,
+    16725
+   ],
+   "cnt": 220,
+   "items": [
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      391,
+      1120,
+      70
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 71,
+     "text": "These Terms of Use (the “Terms”) set forth",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      481,
+      1120,
+      70
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 47,
+     "text": "Please carefully read these Terms as they contain",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      571,
+      1120,
+      140
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 118,
+     "text": "These Terms are a legal agreement between you",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      732,
+      1120,
+      47
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 49,
+     "text": "In case you use the Platform and or",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      799,
+      1120,
+      117
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 117,
+     "text": "We reserve the right to change the Terms",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ol",
+     "depth": 0,
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "decimal",
+     "n": 1,
+     "r": [
+      160,
+      956,
+      1120,
+      34
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      956,
+      1120,
+      34
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "29.76px",
+     "st": "Feature Deck Web Regular 400 24px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 2,
+     "text": "THE PLATFORM",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      1009,
+      1120,
+      70
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 40,
+     "text": "1.1. The Platform can be accessed by Clients",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ol",
+     "depth": 0,
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "decimal",
+     "n": 1,
+     "r": [
+      160,
+      1120,
+      1120,
+      34
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      1120,
+      1120,
+      34
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "29.76px",
+     "st": "Feature Deck Web Regular 400 24px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 7,
+     "text": "AI GOVERNANCE AND USAGE OF THE PLATFORM",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      1173,
+      1120,
+      211
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 184,
+     "text": "2.1. Subject to compliance with these Terms of",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      1404,
+      1120,
+      47
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 35,
+     "text": "2.2. When using the Platform, if required by",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      1471,
+      1120,
+      94
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 61,
+     "text": "2.3. Client acknowledges that components of the Service",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      1584,
+      1120,
+      94
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 79,
+     "text": "2.4. Siena does not permit any of its",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      1698,
+      1120,
+      70
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 40,
+     "text": "2.5. Client is solely responsible for (i) providing",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      1788,
+      1120,
+      70
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 51,
+     "text": "2.6. Siena conducts training sessions for its personnel",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      160,
+      1898,
+      1120,
+      34
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Web Regular 400 24px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 2,
+     "text": "3. FEES",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      1952,
+      1120,
+      94
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 88,
+     "text": "3.1. Siena may offer a free trial period",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      2066,
+      1120,
+      94
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 74,
+     "text": "3.2. Client agrees to pay all invoiced amounts",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      2179,
+      1120,
+      70
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 47,
+     "text": "3.3. The subscription to the Platform and its",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      2269,
+      1120,
+      47
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 32,
+     "text": "3.4. For multi-year agreements, any unused automated features",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      2336,
+      1120,
+      94
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 73,
+     "text": "3.5. If the use of Siena's services exceeds",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      2450,
+      1120,
+      117
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 94,
+     "text": "3.6. The payment of the Fee shall be",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      2587,
+      1120,
+      94
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 79,
+     "text": "3.7. Siena has the right to change the",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      160,
+      2720,
+      1120,
+      34
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Web Regular 400 24px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 3,
+     "text": "4. ORDER FORMS",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      2774,
+      1120,
+      70
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 55,
+     "text": "4.1. These Terms and Conditions constitute the general",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      2864,
+      1120,
+      47
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 40,
+     "text": "4.2. The Order Form constitutes an integral part",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      2931,
+      1120,
+      70
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 50,
+     "text": "4.3. In the event that the provisions of",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      3021,
+      1120,
+      47
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 31,
+     "text": "4.4. Any additional, conflicting or different terms proposed",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      160,
+      3108,
+      1120,
+      34
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Web Regular 400 24px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 4,
+     "text": "5. INTELLECTUAL PROPERTY RIGHTS",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      3162,
+      1120,
+      117
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 100,
+     "text": "5.1. Unless otherwise indicated by us, all elements",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      3299,
+      1120,
+      70
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 59,
+     "text": "5.2. Client and You, as applicable, can use",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ul",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "disc",
+     "n": 6,
+     "r": [
+      160,
+      3389,
+      1120,
+      164
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      3389,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 14,
+     "text": "use the Platform, the Site or the Content",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      3412,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 12,
+     "text": "use any data mining, robots or similar data",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      3436,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 18,
+     "text": "sell, rent, lease, lend, redistribute, sublicense or make",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      3459,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 19,
+     "text": "copy, reverse engineer, decompile, disassemble or attempt to",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      3483,
+      1120,
+      47
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 27,
+     "text": "modify, alter or otherwise make any derivative uses",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      3529,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 20,
+     "text": "remove, alter or obscure any copyright, trademark or",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      3573,
+      1120,
+      94
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 67,
+     "text": "5.3. Any use of the Platform, the Site",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      160,
+      3706,
+      1120,
+      34
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Web Regular 400 24px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 3,
+     "text": "6. USER CONTENT",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      3760,
+      1120,
+      70
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 59,
+     "text": "6.1. In case Client or the Client’s Users",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      3850,
+      1120,
+      94
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 63,
+     "text": "6.2. Client grants Siena a non-exclusive, term-limited, royalty-free,",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      3964,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 20,
+     "text": "6.3. It is a violation of this Agreement",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ul",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "disc",
+     "n": 6,
+     "r": [
+      160,
+      4007,
+      1120,
+      211
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      4007,
+      1120,
+      47
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 33,
+     "text": "is illegal or unlawful, that would constitute, encourage",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      4054,
+      1120,
+      70
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 31,
+     "text": "is defamatory, profane, obscene, pornographic, sexually explicit, indecent,",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      4124,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 15,
+     "text": "impersonates any person or entity or otherwise misrepresents",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      4148,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 21,
+     "text": "may infringe or violate any patent, trademark, trade",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      4171,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 17,
+     "text": "contains or depicts any statements, remarks or claims",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      4195,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 11,
+     "text": "is designed to deceive or trick the users",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      4238,
+      1120,
+      234
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 209,
+     "text": "6.4. Subject to Siena’s confidentiality obligations hereunder, Client",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      4492,
+      1120,
+      187
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 163,
+     "text": "6.5. To the extent technically feasible, upon termination",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      160,
+      4719,
+      1120,
+      34
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Web Regular 400 24px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 3,
+     "text": "7. USER CONDUCT",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      4773,
+      1120,
+      94
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 82,
+     "text": "7.1. Client and You, as applicable, are solely",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ul",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "disc",
+     "n": 12,
+     "r": [
+      160,
+      4886,
+      1120,
+      468
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      4886,
+      1120,
+      47
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 41,
+     "text": "use the Platform and the Site for any",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      4933,
+      1120,
+      70
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 41,
+     "text": "use the Platform and the Site to violate",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      5003,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 23,
+     "text": "remove any copyright, trademark or other proprietary rights",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      5027,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 12,
+     "text": "modify, adapt, hack, translate, or reverse engineer the",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      5050,
+      1120,
+      47
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 27,
+     "text": "use any robot, spider, crawler, scraper or other",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      5097,
+      1120,
+      47
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 34,
+     "text": "attempt to indicate in any manner that you",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      5144,
+      1120,
+      47
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 23,
+     "text": "upload, send, distribute or disseminate any User Content",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      5191,
+      1120,
+      47
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 20,
+     "text": "distribute any other harmful components such as, including",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      5238,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 17,
+     "text": "impersonate another person by any mean (e.g., by",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      5261,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 11,
+     "text": "exploit the Platform and the Site for any",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      5284,
+      1120,
+      47
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 25,
+     "text": "access or use the Platform and the Site",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      5331,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 21,
+     "text": "register on the Platform and the Site on",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      5375,
+      1120,
+      47
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 35,
+     "text": "7.2. Client hereby certifies that Client will comply",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      160,
+      5461,
+      1120,
+      34
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Web Regular 400 24px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 2,
+     "text": "8. INDEMNIFICATION",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      5515,
+      1120,
+      234
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 141,
+     "text": "8.1. Siena will indemnify, defend and hold harmless",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      5769,
+      1120,
+      140
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 78,
+     "text": "8.2. If a Claim is likely, alleged, or",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      5929,
+      1120,
+      140
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 114,
+     "text": "8.3. Customer shall defend, indemnify, and hold harmless",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      6090,
+      1120,
+      117
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 93,
+     "text": "8.4. The party seeking indemnification (the \"Indemnified Party\")",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      6227,
+      1120,
+      47
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 37,
+     "text": "8.5. Siena will defend and indemnify Customer against",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      160,
+      6314,
+      1120,
+      34
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Web Regular 400 24px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 2,
+     "text": "9. DISCLAIMER",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      6367,
+      1120,
+      117
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 96,
+     "text": "9.1. Siena does not represent or warrant that",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ol",
+     "depth": 0,
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "decimal",
+     "n": 1,
+     "r": [
+      160,
+      6524,
+      1120,
+      34
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      6524,
+      1120,
+      34
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "44.64px",
+     "st": "Feature Deck Web Regular 400 24px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 1,
+     "text": "CONFIDENTIALITY",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      6578,
+      1120,
+      70
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 56,
+     "text": "10.1. The Client and You, as applicable, agree",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      6668,
+      1120,
+      94
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 71,
+     "text": "10.2. The Client and You, as applicable, shall",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      6782,
+      1120,
+      47
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 43,
+     "text": "10.3. Nothing in these Terms will impose any",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      6849,
+      1120,
+      70
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 60,
+     "text": "10.4. The Confidential Information will not include any",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      6939,
+      1120,
+      94
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 63,
+     "text": "10.5. If the The Client and You, as",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ol",
+     "depth": 0,
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "decimal",
+     "n": 1,
+     "r": [
+      160,
+      7072,
+      1120,
+      34
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      7072,
+      1120,
+      34
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "44.64px",
+     "st": "Feature Deck Web Regular 400 24px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 1,
+     "text": "WARRANTY",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      7126,
+      1120,
+      234
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 201,
+     "text": "11.1. Siena represents and warrants to Client that",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      7380,
+      1120,
+      70
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 58,
+     "text": "11.2. Client shall report to Siena any breach",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ol",
+     "depth": 0,
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "decimal",
+     "n": 1,
+     "r": [
+      160,
+      7490,
+      1120,
+      34
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      7490,
+      1120,
+      34
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "44.64px",
+     "st": "Feature Deck Web Regular 400 24px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 3,
+     "text": "LIMITATION OF LIABILITY",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      7544,
+      1120,
+      187
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 154,
+     "text": "12.1. To the maximum extent permitted by applicable",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      7751,
+      1120,
+      94
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 66,
+     "text": "12.3. Client and You, as applicable, acknowledge that",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      7865,
+      1120,
+      70
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 53,
+     "text": "12.4. Each Party's total aggregate contractual and tort",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ol",
+     "depth": 0,
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "decimal",
+     "n": 1,
+     "r": [
+      160,
+      7975,
+      1120,
+      34
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      7975,
+      1120,
+      34
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "44.64px",
+     "st": "Feature Deck Web Regular 400 24px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 2,
+     "text": "EXTERNAL SITES",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      8029,
+      1120,
+      117
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 92,
+     "text": "13.1. The Platform and the Site may contain",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ol",
+     "depth": 0,
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "decimal",
+     "n": 1,
+     "r": [
+      160,
+      8186,
+      1120,
+      34
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      8186,
+      1120,
+      34
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "44.64px",
+     "st": "Feature Deck Web Regular 400 24px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 3,
+     "text": "SUSPENSION OR TERMINATION",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      8239,
+      1120,
+      187
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 160,
+     "text": "14.1. In case Client or You, as applicable,",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ol",
+     "depth": 0,
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "decimal",
+     "n": 1,
+     "r": [
+      160,
+      8467,
+      1120,
+      34
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      8467,
+      1120,
+      34
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "44.64px",
+     "st": "Feature Deck Web Regular 400 24px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 1,
+     "text": "ASSIGNMENT",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      8520,
+      1120,
+      70
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 67,
+     "text": "15.1. Siena may assign these Terms and/or any",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ol",
+     "depth": 0,
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "decimal",
+     "n": 1,
+     "r": [
+      160,
+      8630,
+      1120,
+      34
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      8630,
+      1120,
+      34
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "44.64px",
+     "st": "Feature Deck Web Regular 400 24px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 2,
+     "text": "PERSONAL DATA",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      8684,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 20,
+     "text": "16.1. Please refer to our Privacy Policy for",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      8727,
+      1120,
+      117
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 88,
+     "text": "16.2. In the event that the processing of",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ol",
+     "depth": 0,
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "decimal",
+     "n": 1,
+     "r": [
+      160,
+      8884,
+      1120,
+      34
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      8884,
+      1120,
+      34
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "44.64px",
+     "st": "Feature Deck Web Regular 400 24px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 3,
+     "text": "SEVERABILITY AND ENFORCEMENT",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      8938,
+      1120,
+      47
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 39,
+     "text": "17.1. If any provision of these Terms shall",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      9005,
+      1120,
+      47
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 37,
+     "text": "17.2. Enforcement of these Terms is solely in",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ol",
+     "depth": 0,
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "decimal",
+     "n": 1,
+     "r": [
+      160,
+      9092,
+      1120,
+      34
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      9092,
+      1120,
+      34
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "44.64px",
+     "st": "Feature Deck Web Regular 400 24px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 4,
+     "text": "GOVERNING LAW AND JURISDICTION",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      9145,
+      1120,
+      164
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 137,
+     "text": "18.1. These Terms will be governed by and",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      9329,
+      1120,
+      117
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 96,
+     "text": "18.2. For any dispute with Siena, Client and",
+     "strong": "",
+     "links": [
+      {
+       "h": "mailto:legal@siena.cx",
+       "t": "legal@siena.cx"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      9466,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 6,
+     "text": "Appendix A - Data processing Agreement",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      9509,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 14,
+     "text": "For a signed copy of the DPA (including",
+     "strong": "",
+     "links": [
+      {
+       "h": "https://sienaai.trust.site/",
+       "t": "click here"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      160,
+      9553,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 3,
+     "text": "Data Processing Agreement",
+     "strong": "Data Processing Agreement | Tiempos Text Regular 700 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      9596,
+      1120,
+      70
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 57,
+     "text": "This Data Processing Agreement (\"DPA\") is entered into",
+     "strong": "Siena Labs Inc. (Siena) | Tiempos Text Regular 700 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      9686,
+      1120,
+      47
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 26,
+     "text": "This DPA forms an integral part of and",
+     "strong": "",
+     "links": [
+      {
+       "h": "https://www.siena.cx/terms-of-service",
+       "t": "Terms of Service"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "h3",
+     "depth": 0,
+     "r": [
+      160,
+      9753,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 1,
+     "text": "Whereas:",
+     "strong": "Whereas: | Tiempos Text Regular 700 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ol",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "decimal",
+     "n": 3,
+     "r": [
+      160,
+      9797,
+      1120,
+      94
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      9797,
+      1120,
+      47
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 24,
+     "text": "the Customer is interested in using software application",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      9844,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 17,
+     "text": "Customer's use of the Services requires that Customer",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      9867,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 20,
+     "text": "the Parties wish to set forth their mutual",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h3",
+     "depth": 0,
+     "r": [
+      160,
+      9910,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 6,
+     "text": "The parties have agreed as follows:",
+     "strong": "The parties have agreed as follows: | Tiempos Text Regular 700 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ol",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "decimal",
+     "n": 6,
+     "r": [
+      160,
+      9954,
+      1120,
+      3439
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      9954,
+      1120,
+      501
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 288,
+     "text": "SUBJECT MATTER OF DPA1.1. Data Processing Agreement is",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      10455,
+      1120,
+      1424
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 835,
+     "text": "OBLIGATIONS OF THE PARTIES2.1. Customer, as the data",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      11879,
+      1120,
+      177
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 62,
+     "text": "DATA TRANSFER3.1. Siena may transfer Personal Data if:3.1.1.",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      12056,
+      1120,
+      114
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 62,
+     "text": "LIABILITY4.1. Siena's liability arising out of or related",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      12169,
+      1120,
+      70
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 37,
+     "text": "Jurisdiction specific data protection clauses5.1. If Customer is",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      12239,
+      1120,
+      1153
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 394,
+     "text": "FINAL PROVISIONS6.1. The DPA is concluded for the",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h4",
+     "depth": 2,
+     "r": [
+      183,
+      12239,
+      1097,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 2,
+     "text": "FINAL PROVISIONS",
+     "strong": "FINAL PROVISIONS | Tiempos Text Regular 700 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 2,
+     "r": [
+      183,
+      12283,
+      1097,
+      94
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 90,
+     "text": "6.1. The DPA is concluded for the term",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 2,
+     "r": [
+      183,
+      12396,
+      1097,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 16,
+     "text": "6.2. Termination of the DPA is the basis",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 2,
+     "r": [
+      183,
+      12440,
+      1097,
+      47
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 24,
+     "text": "6.3. Amendments to the DPA are possible only",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 2,
+     "r": [
+      183,
+      12507,
+      1097,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 22,
+     "text": "6.4. Any terms capitalized and not defined in",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 2,
+     "r": [
+      183,
+      12550,
+      1097,
+      47
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 26,
+     "text": "6.5. Any disputes having to do with the",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 2,
+     "r": [
+      183,
+      12617,
+      1097,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 20,
+     "text": "6.6. The Appendices to the DPA are an",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 2,
+     "r": [
+      183,
+      12660,
+      1097,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 11,
+     "text": "6.6.1. Appendix No. 1 - Scope of entrustment",
+     "strong": "6.6.1. Appendix No. 1 - Scope of entrustment of personal data; | Tiempos Text Regular 700 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 2,
+     "r": [
+      183,
+      12704,
+      1097,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 12,
+     "text": "6.6.2. Appendix No. 2 - Summary of security",
+     "strong": "6.6.2. Appendix No. 2 - Summary of security measures implemented by Siena; | Tiempos Text Regular 700 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 2,
+     "r": [
+      183,
+      12747,
+      1097,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 8,
+     "text": "6.6.3. Appendix No. 3 - List of sub-processors;",
+     "strong": "6.6.3. Appendix No. 3 - List of sub-processors; | Tiempos Text Regular 700 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 2,
+     "r": [
+      183,
+      12791,
+      1097,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 10,
+     "text": "6.6.4. Appendix No. 4 - US Data Protection",
+     "strong": "6.6.4. Appendix No. 4 - US Data Protection Laws Addendum. | Tiempos Text Regular 700 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 2,
+     "r": [
+      183,
+      12834,
+      1097,
+      70
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 7,
+     "text": "APPENDIX 1.Scope of entrustment of personal data",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ol",
+     "depth": 2,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "decimal",
+     "n": 5,
+     "r": [
+      183,
+      12924,
+      1097,
+      468
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 3,
+     "r": [
+      183,
+      12924,
+      1097,
+      94
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 59,
+     "text": "The nature and purposes of processing: processing of",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 3,
+     "r": [
+      183,
+      13018,
+      1097,
+      164
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 20,
+     "text": "Data subject categories:Controller’s employees and coworkers,Controller’s clients,Controller’s potential",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 4,
+     "r": [
+      206,
+      13018,
+      1074,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 3,
+     "text": "Data subject categories:",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ul",
+     "depth": 4,
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "square",
+     "n": 6,
+     "r": [
+      206,
+      13041,
+      1074,
+      140
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 5,
+     "r": [
+      206,
+      13041,
+      1074,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 4,
+     "text": "Controller’s employees and coworkers,",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 5,
+     "r": [
+      206,
+      13065,
+      1074,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 2,
+     "text": "Controller’s clients,",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 5,
+     "r": [
+      206,
+      13088,
+      1074,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 3,
+     "text": "Controller’s potential clients",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 5,
+     "r": [
+      206,
+      13111,
+      1074,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 2,
+     "text": "Controller’s contractors",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 5,
+     "r": [
+      206,
+      13135,
+      1074,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 3,
+     "text": "Controller’s potential contractors",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 5,
+     "r": [
+      206,
+      13158,
+      1074,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 9,
+     "text": "Any other person contacting the Controller on any",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 3,
+     "r": [
+      183,
+      13182,
+      1097,
+      117
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 20,
+     "text": "Type of personal data:Contact information; Content of the",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 4,
+     "r": [
+      206,
+      13182,
+      1074,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 4,
+     "text": "Type of personal data:",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ul",
+     "depth": 4,
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "square",
+     "n": 4,
+     "r": [
+      206,
+      13205,
+      1074,
+      94
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 5,
+     "r": [
+      206,
+      13205,
+      1074,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 2,
+     "text": "Contact information;",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 5,
+     "r": [
+      206,
+      13228,
+      1074,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 4,
+     "text": "Content of the inquiry/notification/message;",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 5,
+     "r": [
+      206,
+      13252,
+      1074,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 8,
+     "text": "Data on the established cooperation or concluded contract;",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 5,
+     "r": [
+      206,
+      13275,
+      1074,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 5,
+     "text": "Data contained in the inquiry/notification/message;",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 3,
+     "r": [
+      183,
+      13299,
+      1097,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 12,
+     "text": "Location where personal data will be processed: European",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 3,
+     "r": [
+      183,
+      13322,
+      1097,
+      70
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 49,
+     "text": "Data processed by the Controller on its own",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h3",
+     "depth": 0,
+     "r": [
+      160,
+      13412,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 2,
+     "text": "APPENDIX 2",
+     "strong": "APPENDIX 2 | Tiempos Text Regular 700 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      13456,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 7,
+     "text": "Summary of security measures implemented by Siena‍",
+     "strong": "Summary of security measures implemented by Siena | Tiempos Text Regular 700 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      13499,
+      1120,
+      70
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 44,
+     "text": "This document describes security measures that Siena has",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h4",
+     "depth": 0,
+     "r": [
+      160,
+      13589,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 4,
+     "text": "1. General organizational measures",
+     "strong": "1. General organizational measures | Tiempos Text Regular 700 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ol",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "decimal",
+     "n": 2,
+     "r": [
+      160,
+      13633,
+      1120,
+      140
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      13633,
+      1120,
+      94
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 55,
+     "text": "Data Protection Officer and Compliance Program. Siena has",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      13726,
+      1120,
+      47
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 26,
+     "text": "Confidentiality. Siena’s entire personnel is subject to confidentiality",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h4",
+     "depth": 0,
+     "r": [
+      160,
+      13793,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 4,
+     "text": "2. Training and awareness",
+     "strong": "2. Training and awareness | Tiempos Text Regular 700 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ol",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "decimal",
+     "n": 1,
+     "r": [
+      160,
+      13837,
+      1120,
+      70
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      13837,
+      1120,
+      70
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 39,
+     "text": "Personnel training. Siena conducts regular training sessions for",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h4",
+     "depth": 0,
+     "r": [
+      160,
+      13927,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 5,
+     "text": "3. Physical and environmental security",
+     "strong": "3. Physical and environmental security | Tiempos Text Regular 700 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ol",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "decimal",
+     "n": 3,
+     "r": [
+      160,
+      13970,
+      1120,
+      140
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      13970,
+      1120,
+      47
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 34,
+     "text": "Physical access to data centers. Customer Data is",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      14017,
+      1120,
+      47
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 28,
+     "text": "Protection from disruptions. Siena takes reasonable measures per",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      14064,
+      1120,
+      47
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 20,
+     "text": "Component disposal. Siena takes reasonable measures per industry",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h4",
+     "depth": 0,
+     "r": [
+      160,
+      14131,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 3,
+     "text": "4. Access control",
+     "strong": "4. Access control | Tiempos Text Regular 700 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ol",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "decimal",
+     "n": 4,
+     "r": [
+      160,
+      14174,
+      1120,
+      492
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      14174,
+      1120,
+      164
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 112,
+     "text": "Access authorization. Siena maintains a comprehensive register of",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      14338,
+      1120,
+      117
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 79,
+     "text": "Limitation of privileges. A restricted and designated group",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      14455,
+      1120,
+      117
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 75,
+     "text": "Authentication of users. Siena employs industry-recognized solutions, including",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      14572,
+      1120,
+      94
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 54,
+     "text": "Monitoring. Siena continuously monitors its information systems to",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h4",
+     "depth": 0,
+     "r": [
+      160,
+      14686,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 5,
+     "text": "5. Asset and operations management",
+     "strong": "5. Asset and operations management | Tiempos Text Regular 700 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ol",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "decimal",
+     "n": 3,
+     "r": [
+      160,
+      14729,
+      1120,
+      211
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      14729,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 11,
+     "text": "Endpoint protection. All computing endpoints are encrypted and",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      14752,
+      1120,
+      70
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 51,
+     "text": "Backup copies. Siena regularly creates backups of service",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      14823,
+      1120,
+      117
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 73,
+     "text": "Integrity and confidentiality. All personnel are required to",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h4",
+     "depth": 0,
+     "r": [
+      160,
+      14960,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 3,
+     "text": "6. Incident management",
+     "strong": "6. Incident management | Tiempos Text Regular 700 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ol",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "decimal",
+     "n": 3,
+     "r": [
+      160,
+      15003,
+      1120,
+      257
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      15003,
+      1120,
+      94
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 55,
+     "text": "Malicious software. Siena has implemented comprehensive anti-malware controls",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      15097,
+      1120,
+      94
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 62,
+     "text": "Incident record. Siena maintains a detailed record of",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      15190,
+      1120,
+      70
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 48,
+     "text": "Service monitoring. Siena conducts regular verification and monitoring",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h3",
+     "depth": 0,
+     "r": [
+      160,
+      15280,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 2,
+     "text": "APPENDIX 4",
+     "strong": "APPENDIX 4 | Tiempos Text Regular 700 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h3",
+     "depth": 0,
+     "r": [
+      160,
+      15324,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 5,
+     "text": "US Data Protection Laws Addendum",
+     "strong": "US Data Protection Laws Addendum | Tiempos Text Regular 700 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      15367,
+      1120,
+      70
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 36,
+     "text": "1. The following terms and conditions apply additionally",
+     "strong": "CCPA | Tiempos Text Regular 700 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ol",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "decimal",
+     "n": 9,
+     "r": [
+      160,
+      15458,
+      1120,
+      702
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      15458,
+      1120,
+      47
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 29,
+     "text": "where we process CCPA Covered Data we are",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      15504,
+      1120,
+      70
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 61,
+     "text": "unless explicitly stated otherwise, in sections 1 –",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      15575,
+      1120,
+      47
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 27,
+     "text": "as a service provider, we will process CCPA",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      15621,
+      1120,
+      140
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 129,
+     "text": "as a service provider, we undertake not to:",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      15762,
+      1120,
+      211
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 183,
+     "text": "we will: (i) comply with obligations applicable to",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      15972,
+      1120,
+      70
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 48,
+     "text": "you have the right to take reasonable and",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      16043,
+      1120,
+      47
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 29,
+     "text": "you have the right to monitor our compliance",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      16089,
+      1120,
+      23
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 18,
+     "text": "we certify that we understand and will comply",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      16113,
+      1120,
+      47
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 25,
+     "text": "we acknowledge and confirm that we do not",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      16180,
+      1120,
+      47
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 38,
+     "text": "2. The following terms and conditions apply additionally",
+     "strong": "US State Privacy Laws Covered Data | Tiempos Text Regular 700 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "ol",
+     "depth": 0,
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "ls": "decimal",
+     "n": 4,
+     "r": [
+      160,
+      16247,
+      1120,
+      609
+     ]
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      16247,
+      1120,
+      94
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 88,
+     "text": "for the purposes of this Addendum, the term",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      16340,
+      1120,
+      94
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 69,
+     "text": "unless explicitly stated otherwise, in sections 1 –",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      16434,
+      1120,
+      304
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 263,
+     "text": "we will: (i) adhere to your instructions regarding",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "li",
+     "depth": 1,
+     "r": [
+      160,
+      16738,
+      1120,
+      117
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "22.86px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 105,
+     "text": "taking into account the nature of processing and",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      16875,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 4,
+     "text": "Previous terms of services",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      16918,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 3,
+     "text": "June 12th, 2025",
+     "strong": "",
+     "links": [
+      {
+       "h": "./terms-of-services/06122025-terms-of-service",
+       "t": "June 12th, 2025"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      16962,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 3,
+     "text": "February 20th, 2025",
+     "strong": "",
+     "links": [
+      {
+       "h": "./terms-of-services/02202025-terms-of-service",
+       "t": "February 20th, 2025"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      17005,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 3,
+     "text": "October 4th, 2024",
+     "strong": "",
+     "links": [
+      {
+       "h": "./terms-of-services/10042024-terms-of-service",
+       "t": "October 4th, 2024"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      17049,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 0,
+     "text": "",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      160,
+      17092,
+      1120,
+      23
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Tiempos Text Regular 400 18px/23.4px ls-0.18px rgb(42, 54, 57)",
+     "words": 0,
+     "text": "",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    }
+   ]
+  }
+ ],
+ "marker": {
+  "color": "rgb(18, 32, 35)",
+  "fs": "24px",
+  "ff": "\"Feature Deck Web Regular\", \"Feature Deck Web Regular Placeholder\", sans-serif",
+  "content": "normal",
+  "lst": "\"\"",
+  "pl": "29.76px",
+  "ml": "0px",
+  "mlm": "0px"
+ },
+ "iframes": [
+  {
+   "src": "https://framer.com/edit?framerSiteId=f47910699fc3441f86608d12d38696a628e935e97e59d6623edfd8ace3e982f1&source=www.siena.cx&features=%7B%22editorBarDisableFrameAncestorsSecurity%22%3Afalse%2C%22onPageRichTextBlockSelection%22%3Atrue%7D&loadStart=1792663162433",
+   "r": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "br": "0px",
+   "parBr": "0px"
+  }
+ ],
+ "headings": [
+  {
+   "tag": "H1",
+   "t": "Terms of Service",
+   "r": [
+    160,
+    160,
+    423,
+    64
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "THE PLATFORM",
+   "r": [
+    190,
+    956,
+    1090,
+    34
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "AI GOVERNANCE AND USAGE OF THE PLATFORM",
+   "r": [
+    190,
+    1120,
+    1090,
+    34
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "3. FEES",
+   "r": [
+    160,
+    1898,
+    1120,
+    34
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "4. ORDER FORMS",
+   "r": [
+    160,
+    2720,
+    1120,
+    34
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "5. INTELLECTUAL PROPERTY RIGHTS",
+   "r": [
+    160,
+    3108,
+    1120,
+    34
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "6. USER CONTENT",
+   "r": [
+    160,
+    3706,
+    1120,
+    34
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "7. USER CONDUCT",
+   "r": [
+    160,
+    4719,
+    1120,
+    34
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "8. INDEMNIFICATION",
+   "r": [
+    160,
+    5461,
+    1120,
+    34
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "9. DISCLAIMER",
+   "r": [
+    160,
+    6314,
+    1120,
+    34
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "CONFIDENTIALITY",
+   "r": [
+    205,
+    6524,
+    1075,
+    34
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "WARRANTY",
+   "r": [
+    205,
+    7072,
+    1075,
+    34
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "LIMITATION OF LIABILITY",
+   "r": [
+    205,
+    7490,
+    1075,
+    34
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "EXTERNAL SITES",
+   "r": [
+    205,
+    7975,
+    1075,
+    34
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "SUSPENSION OR TERMINATION",
+   "r": [
+    205,
+    8186,
+    1075,
+    34
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "ASSIGNMENT",
+   "r": [
+    205,
+    8467,
+    1075,
+    34
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "PERSONAL DATA",
+   "r": [
+    205,
+    8630,
+    1075,
+    34
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "SEVERABILITY AND ENFORCEMENT",
+   "r": [
+    205,
+    8884,
+    1075,
+    34
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "GOVERNING LAW AND JURISDICTION",
+   "r": [
+    205,
+    9092,
+    1075,
+    34
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "Data Processing Agreement",
+   "r": [
+    160,
+    9553,
+    1120,
+    23
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "Whereas:",
+   "r": [
+    160,
+    9753,
+    1120,
+    23
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "The parties have agreed as follows:",
+   "r": [
+    160,
+    9910,
+    1120,
+    23
+   ]
+  },
+  {
+   "tag": "H4",
+   "t": "SUBJECT MATTER OF DPA",
+   "r": [
+    183,
+    9954,
+    1097,
+    23
+   ]
+  },
+  {
+   "tag": "H4",
+   "t": "OBLIGATIONS OF THE PARTIES",
+   "r": [
+    183,
+    10455,
+    1097,
+    23
+   ]
+  },
+  {
+   "tag": "H4",
+   "t": "DATA TRANSFER",
+   "r": [
+    183,
+    11879,
+    1097,
+    23
+   ]
+  },
+  {
+   "tag": "H4",
+   "t": "LIABILITY",
+   "r": [
+    183,
+    12056,
+    1097,
+    23
+   ]
+  },
+  {
+   "tag": "H4",
+   "t": "Jurisdiction specific data protection clauses5.1. If Customer is subject to any data protection laws of jurisdictions listed in Appendix 4, then the terms of Appendix 4 supplement the clauses of sections 1 - 4 of this DPA.",
+   "r": [
+    183,
+    12169,
+    1097,
+    70
+   ]
+  },
+  {
+   "tag": "H4",
+   "t": "FINAL PROVISIONS",
+   "r": [
+    183,
+    12239,
+    1097,
+    23
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "APPENDIX 2",
+   "r": [
+    160,
+    13412,
+    1120,
+    23
+   ]
+  },
+  {
+   "tag": "H4",
+   "t": "1. General organizational measures",
+   "r": [
+    160,
+    13589,
+    1120,
+    23
+   ]
+  },
+  {
+   "tag": "H4",
+   "t": "2. Training and awareness",
+   "r": [
+    160,
+    13793,
+    1120,
+    23
+   ]
+  },
+  {
+   "tag": "H4",
+   "t": "3. Physical and environmental security",
+   "r": [
+    160,
+    13927,
+    1120,
+    23
+   ]
+  },
+  {
+   "tag": "H4",
+   "t": "4. Access control",
+   "r": [
+    160,
+    14131,
+    1120,
+    23
+   ]
+  },
+  {
+   "tag": "H4",
+   "t": "5. Asset and operations management",
+   "r": [
+    160,
+    14686,
+    1120,
+    23
+   ]
+  },
+  {
+   "tag": "H4",
+   "t": "6. Incident management",
+   "r": [
+    160,
+    14960,
+    1120,
+    23
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "APPENDIX 4",
+   "r": [
+    160,
+    15280,
+    1120,
+    23
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "US Data Protection Laws Addendum",
+   "r": [
+    160,
+    15324,
+    1120,
+    23
+   ]
+  }
+ ],
+ "cards": [],
+ "probes": [
+  {
+   "label": "body link",
+   "before": {
+    "c": "rgb(18, 32, 35)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "sh": "none",
+    "tf": "none",
+    "op": "1",
+    "td": "underline",
+    "bc": "rgb(18, 32, 35)"
+   },
+   "after": {
+    "c": "rgb(18, 32, 35)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "sh": "none",
+    "tf": "none",
+    "op": "1",
+    "td": "underline",
+    "bc": "rgb(18, 32, 35)",
+    "imgTf": "",
+    "imgP": ""
+   }
+  }
+ ]
+}

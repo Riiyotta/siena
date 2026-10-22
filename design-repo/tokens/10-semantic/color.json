@@ -1,0 +1,328 @@
+{
+  "$description": "Semantic colour roles; every $value references tokens/00-foundation. Generators reference these, never a hex.",
+  "color": {
+    "text": {
+      "primary": {
+        "$type": "color",
+        "$value": "{foundation.color.ink.900}",
+        "$extensions": {
+          "cite": [
+            "spec.color.table"
+          ]
+        }
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{foundation.color.ink.700}",
+        "$extensions": {
+          "cite": [
+            "spec.color.table"
+          ]
+        }
+      },
+      "tertiary": {
+        "$type": "color",
+        "$value": "{foundation.color.ink.600}",
+        "$extensions": {
+          "cite": [
+            "spec.color.table"
+          ]
+        }
+      },
+      "muted": {
+        "$type": "color",
+        "$value": "{foundation.color.ink.500}",
+        "$extensions": {
+          "cite": [
+            "spec.color.table"
+          ]
+        }
+      },
+      "label": {
+        "$type": "color",
+        "$value": "{foundation.color.alpha.ink-80}",
+        "$description": "Form labels, answers.",
+        "$extensions": {
+          "cite": [
+            "spec.form.fields"
+          ]
+        }
+      },
+      "tag": {
+        "$type": "color",
+        "$value": "{foundation.color.warm.600}",
+        "$description": "Mono tag text.",
+        "$extensions": {
+          "cite": [
+            "spec.color.table"
+          ]
+        }
+      },
+      "role-muted": {
+        "$type": "color",
+        "$value": "{foundation.color.warm.500}",
+        "$description": "Panel testimonial role line.",
+        "$extensions": {
+          "cite": [
+            "spec.testimonial.slide"
+          ]
+        }
+      },
+      "placeholder": {
+        "$type": "color",
+        "$value": "{foundation.color.warm.450}",
+        "$extensions": {
+          "cite": [
+            "spec.form.fields"
+          ]
+        }
+      },
+      "on-dark": {
+        "$type": "color",
+        "$value": "{foundation.color.neutral.0}",
+        "$extensions": {
+          "cite": [
+            "spec.pricing.enterprise"
+          ]
+        }
+      },
+      "on-dark-muted": {
+        "$type": "color",
+        "$value": "{foundation.color.alpha.white-50}",
+        "$extensions": {
+          "cite": [
+            "spec.footer.links"
+          ]
+        }
+      },
+      "display-strong": {
+        "$type": "color",
+        "$value": "{foundation.color.neutral.1000}",
+        "$description": "H4-40 form/card headers.",
+        "$extensions": {
+          "cite": [
+            "spec.company.shorthands"
+          ]
+        }
+      },
+      "notice": {
+        "$type": "color",
+        "$value": "{foundation.color.accent.coral}",
+        "$description": "'Coming soon'.",
+        "$extensions": {
+          "cite": [
+            "spec.color.table"
+          ]
+        }
+      },
+      "link-hover-on-dark": {
+        "$type": "color",
+        "$value": "{foundation.color.accent.link-hover}",
+        "$extensions": {
+          "cite": [
+            "spec.footer.links"
+          ]
+        }
+      }
+    },
+    "surface": {
+      "page": {
+        "$type": "color",
+        "$value": "{foundation.color.neutral.0}",
+        "$extensions": {
+          "cite": [
+            "spec.color.table"
+          ]
+        }
+      },
+      "hero": {
+        "$type": "color",
+        "$value": "{foundation.color.warm.100}",
+        "$extensions": {
+          "cite": [
+            "spec.color.table"
+          ]
+        }
+      },
+      "cream": {
+        "$type": "color",
+        "$value": "{foundation.color.warm.50}",
+        "$extensions": {
+          "cite": [
+            "spec.color.table"
+          ]
+        }
+      },
+      "sand": {
+        "$type": "color",
+        "$value": "{foundation.color.warm.150}",
+        "$extensions": {
+          "cite": [
+            "spec.color.table"
+          ]
+        }
+      },
+      "bubble-siena": {
+        "$type": "color",
+        "$value": "{foundation.color.warm.200}",
+        "$extensions": {
+          "cite": [
+            "spec.chat.gradient"
+          ]
+        }
+      },
+      "dark": {
+        "$type": "color",
+        "$value": "{foundation.color.ink.900}",
+        "$extensions": {
+          "cite": [
+            "spec.pricing.enterprise"
+          ]
+        }
+      },
+      "glass": {
+        "$type": "color",
+        "$value": "{foundation.color.alpha.white-60}",
+        "$extensions": {
+          "cite": [
+            "spec.pa.rainbow255"
+          ]
+        }
+      },
+      "slider-button": {
+        "$type": "color",
+        "$value": "{foundation.color.alpha.sand-60}",
+        "$extensions": {
+          "cite": [
+            "spec.slider.controls"
+          ]
+        }
+      }
+    },
+    "border": {
+      "field": {
+        "$type": "color",
+        "$value": "{foundation.color.warm.400}",
+        "$extensions": {
+          "cite": [
+            "spec.form.fields"
+          ]
+        }
+      },
+      "quiet": {
+        "$type": "color",
+        "$value": "{foundation.color.alpha.black-20}",
+        "$extensions": {
+          "cite": [
+            "spec.company.shorthands"
+          ]
+        }
+      },
+      "secondary-button": {
+        "$type": "color",
+        "$value": "{foundation.color.warm.450}",
+        "$extensions": {
+          "cite": [
+            "spec.testimonial.slide"
+          ]
+        }
+      },
+      "focus": {
+        "$type": "color",
+        "$value": "{foundation.color.accent.focus}",
+        "$extensions": {
+          "cite": [
+            "spec.form.states"
+          ]
+        }
+      },
+      "table": {
+        "$type": "color",
+        "$value": "{foundation.color.neutral.100}",
+        "$extensions": {
+          "cite": [
+            "spec.compare.table"
+          ]
+        }
+      }
+    },
+    "action": {
+      "primary": {
+        "$type": "color",
+        "$value": "{foundation.color.ink.900}",
+        "$description": "xlg / md dark button.",
+        "$extensions": {
+          "cite": [
+            "spec.hero.type"
+          ]
+        }
+      },
+      "primary-hover": {
+        "$type": "gradient",
+        "$value": "{foundation.gradient.rainbow-button}",
+        "$description": "Instant swap, no transition.",
+        "$extensions": {
+          "cite": [
+            "tw.rainbow"
+          ]
+        }
+      },
+      "form-hover": {
+        "$type": "gradient",
+        "$value": "{foundation.gradient.rainbow-form-button}",
+        "$extensions": {
+          "cite": [
+            "spec.content.formbutton"
+          ]
+        }
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{foundation.color.neutral.0}",
+        "$extensions": {
+          "cite": [
+            "spec.testimonial.slide"
+          ]
+        }
+      }
+    },
+    "decor": {
+      "gradient-border": {
+        "$type": "gradient",
+        "$value": "{foundation.gradient.rainbow-border}",
+        "$extensions": {
+          "cite": [
+            "spec.chat.gradient"
+          ]
+        }
+      },
+      "gradient-ring": {
+        "$type": "gradient",
+        "$value": "{foundation.gradient.rainbow-ring}",
+        "$extensions": {
+          "cite": [
+            "spec.form.ring"
+          ]
+        }
+      },
+      "card-hover-ring": {
+        "$type": "gradient",
+        "$value": "{foundation.gradient.rainbow-card-hover}",
+        "$extensions": {
+          "cite": [
+            "spec.storygrid.hover"
+          ]
+        }
+      },
+      "highlight": {
+        "$type": "color",
+        "$value": "{foundation.color.accent.highlight}",
+        "$extensions": {
+          "cite": [
+            "spec.pa.pillhighlight"
+          ]
+        }
+      }
+    }
+  }
+}

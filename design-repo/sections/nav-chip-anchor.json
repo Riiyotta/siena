@@ -1,0 +1,70 @@
+{
+  "id": "section.nav.chip-anchor",
+  "registryId": "section.nav.chip-anchor",
+  "typeId": "nav.chip-anchor",
+  "version": "1.0.0",
+  "category": "navigation",
+  "purpose": "Small sticky chip nav (top 88) with in-page anchors; active link highlights by scroll position.",
+  "evidenceLevel": "spec-measured",
+  "variants": {
+    "ask": "BUILD | CUSTOMER INTELLIGENCE."
+  },
+  "composes": [
+    "primitive.link"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "links": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "label": {
+              "type": "string",
+              "maxWords": 2
+            },
+            "href": {
+              "type": "string",
+              "pattern": "^(/[a-z0-9/#-]*|#[a-z0-9-]+|https://[a-zA-Z0-9.-]+(/[^\\s]*)?|mailto:[a-z.]+@siena\\.cx)$"
+            }
+          },
+          "required": [
+            "label",
+            "href"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 2,
+        "maxItems": 3
+      }
+    },
+    "required": [
+      "links"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Same chip, centered."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "spec.pa.6.3"
+  ]
+}

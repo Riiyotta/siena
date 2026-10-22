@@ -1,0 +1,96 @@
+{
+  "id": "section.lab.last-event",
+  "registryId": "section.lab.last-event",
+  "typeId": "lab.last-event",
+  "version": "1.0.0",
+  "category": "content",
+  "purpose": "'From our last LAB': rule, eyebrow, H2 and one past-event card among photo tiles.",
+  "evidenceLevel": "spec-measured",
+  "variants": {
+    "lab": "Card 433x516 without button."
+  },
+  "composes": [
+    "component.event-card"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "eyebrow": {
+        "type": "string",
+        "maxWords": 3
+      },
+      "heading": {
+        "type": "string",
+        "maxWords": 5
+      },
+      "event": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "maxWords": 3
+          },
+          "format": {
+            "type": "string",
+            "maxWords": 2
+          },
+          "title": {
+            "type": "string",
+            "maxWords": 8
+          },
+          "subtitle": {
+            "type": "string",
+            "maxWords": 8
+          },
+          "time": {
+            "type": "string",
+            "maxWords": 3
+          },
+          "location": {
+            "type": "string",
+            "maxWords": 3
+          }
+        },
+        "required": [
+          "date",
+          "format",
+          "title",
+          "subtitle",
+          "time",
+          "location"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "required": [
+      "eyebrow",
+      "heading",
+      "event"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "tile-glitch",
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Card full width."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "spec.pb.5.7"
+  ]
+}

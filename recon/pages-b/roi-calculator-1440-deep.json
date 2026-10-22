@@ -1,0 +1,217 @@
+{
+ "pre": [
+  {
+   "n": "A",
+   "ap": null,
+   "y": -78,
+   "x": 8,
+   "w": 188,
+   "h": 43,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, 0, -86)",
+   "txt": "Skip to main content"
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 0,
+   "x": 120,
+   "w": 1200,
+   "h": 115,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -600, 0)",
+   "txt": "We raised a $17M Series A  to build The Agent of R"
+  },
+  {
+   "n": "DIV",
+   "ap": "163s3bf",
+   "y": 160,
+   "x": 189,
+   "w": 499,
+   "h": 160,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, 0, 0)",
+   "txt": "See the ROI for yourself"
+  },
+  {
+   "n": "DIV",
+   "ap": "1mzs3gq",
+   "y": 344,
+   "x": 189,
+   "w": 499,
+   "h": 28,
+   "op": "0.82",
+   "txt": "Discover exactly how much you'll save with AI agen"
+  },
+  {
+   "n": "DIV",
+   "ap": null,
+   "y": 452,
+   "x": 189,
+   "w": 499,
+   "h": 22,
+   "op": "0.82",
+   "txt": "WHAT TO EXPECT"
+  },
+  {
+   "n": "DIV",
+   "ap": "f0nir",
+   "y": 160,
+   "x": 752,
+   "w": 499,
+   "h": 733,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, 0, 0)",
+   "txt": "Plug in your numbers & forecast your future  Use o"
+  },
+  {
+   "n": "P",
+   "ap": null,
+   "y": 592,
+   "x": 951,
+   "w": 65,
+   "h": 18,
+   "op": "0.2",
+   "txt": "(optional)"
+  },
+  {
+   "n": "SPAN",
+   "ap": null,
+   "y": 1288,
+   "x": 709,
+   "w": 31,
+   "h": 17,
+   "op": "0.4",
+   "txt": " / 11"
+  }
+ ],
+ "appearIds": [
+  {
+   "id": "163s3bf",
+   "n": null,
+   "y": 160,
+   "txt": "See the ROI for yourself"
+  },
+  {
+   "id": "1mzs3gq",
+   "n": null,
+   "y": 344,
+   "txt": "Discover exactly how much you'll save with AI agents."
+  },
+  {
+   "id": "ttsu9b",
+   "n": null,
+   "y": 452,
+   "txt": "WHAT TO EXPECT    Immediate cost reduction    Higher effic"
+  },
+  {
+   "id": "f0nir",
+   "n": null,
+   "y": 160,
+   "txt": "Plug in your numbers & forecast your future  Use our ROI cal"
+  }
+ ],
+ "tickers": [],
+ "post": [
+  {
+   "n": "A",
+   "y": 2502,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, 0, -86)",
+   "txt": "Skip to main content"
+  },
+  {
+   "n": "DIV",
+   "y": 2580,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, -600, 0)",
+   "txt": "We raised a $17M Series A  to build The "
+  },
+  {
+   "n": "DIV",
+   "y": 160,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, 0, 0)",
+   "txt": "See the ROI for yourself"
+  },
+  {
+   "n": "DIV",
+   "y": 344,
+   "op": "0.82",
+   "txt": "Discover exactly how much you'll save wi"
+  },
+  {
+   "n": "DIV",
+   "y": 452,
+   "op": "0.82",
+   "txt": "WHAT TO EXPECT"
+  },
+  {
+   "n": "DIV",
+   "y": 160,
+   "op": "1",
+   "tf": "matrix(1, 0, 0, 1, 0, 0)",
+   "txt": "Plug in your numbers & forecast your fut"
+  },
+  {
+   "n": "P",
+   "y": 592,
+   "op": "0.2",
+   "txt": "(optional)"
+  },
+  {
+   "n": "SPAN",
+   "y": 1288,
+   "op": "0.4",
+   "txt": " / 11"
+  }
+ ],
+ "sticky": [],
+ "videos": [],
+ "iframes": [],
+ "lottie": [],
+ "slideshows": [],
+ "svgs": [
+  {
+   "file": "roi-calculator-Hero-ff1708.svg",
+   "n": "Hero",
+   "y": 815,
+   "w": 17,
+   "h": 17,
+   "count": 1
+  },
+  {
+   "file": "roi-calculator-content-db51ec.svg",
+   "n": "content",
+   "y": 1288,
+   "w": 18,
+   "h": 18,
+   "count": 1
+  },
+  {
+   "file": "roi-calculator-content-157f33.svg",
+   "n": "content",
+   "y": 1288,
+   "w": 18,
+   "h": 18,
+   "count": 1
+  },
+  {
+   "file": "roi-calculator--c7837d.svg",
+   "n": "“",
+   "y": 1341,
+   "w": 30,
+   "h": 24,
+   "count": 1
+  },
+  {
+   "file": "roi-calculator-siena-320693.svg",
+   "n": "siena",
+   "y": 3110,
+   "w": 122,
+   "h": 32,
+   "count": 1
+  }
+ ],
+ "H": 3480
+}

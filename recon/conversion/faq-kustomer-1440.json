@@ -1,0 +1,104 @@
+{
+ "faq": {
+  "items": [
+   {
+    "q": "Why do brands choose Siena over Kustomer AI?",
+    "a": "Ecommerce brands select Siena for its purpose-built AI architecture, not retrofitted helpdesk features. We consistently achieve 80% automation rates that strengthen with use. Siena integrates with your current helpdesk platform (Zendesk, Kustomer, Gorgias, and others), eliminating vendor lock-in. When you migrate helpdesks, Siena seamlessly transitions with you.",
+    "icon": "OKFNY3AXFnnV2q6cBUgzTRwNI0.png"
+   },
+   {
+    "q": "Does Siena require me to use a specific helpdesk?",
+    "a": "No. Siena sits on top of your existing helpdesk—whether that's Zendesk, Kustomer, Gorgias, Dixa, or others. You can switch helpdesks anytime without losing Siena. Kustomer AI only works with the Kustomer helpdesk, locking you into their ecosystem. If you ever want to change your helpdesk, you lose your AI investment with Kustomer AI.",
+    "icon": "klSbquSQSmI4vJp5uAthfEBu4A.png"
+   },
+   {
+    "q": "What if I want to switch from Kustomer AI to another helpdesk in the future?",
+    "a": "With Siena, switching is seamless. Siena integrates with major helpdesks like Zendesk, Kustomer, Dixa, Gladly, and Intercom, so you can move platforms while keeping all your AI automations, workflows, and training intact. Kustomer AI is dependent on the Kustomer helpdesk. If you leave Kustomer AI, you start over.",
+    "icon": "klSbquSQSmI4vJp5uAthfEBu4A.png"
+   },
+   {
+    "q": "Can Siena work across multiple channels?",
+    "a": "Absolutely. Siena works across email, SMS, chat, WhatsApp, social media (Instagram, Facebook, TikTok), voice, and more—all from a unified AI that maintains context across channels. Your customers get the same experience whether they reach out on Instagram or email.",
+    "icon": "klSbquSQSmI4vJp5uAthfEBu4A.png"
+   },
+   {
+    "q": "Does Siena handle pre-purchase and post-purchase interactions?",
+    "a": "Yes. Siena's Shopping Agent handles product discovery, recommendations, and conversions, while the Customer Service Agent manages post-purchase support like returns, exchanges, and tracking.",
+    "icon": "klSbquSQSmI4vJp5uAthfEBu4A.png"
+   },
+   {
+    "q": "Why does Siena include implementation support instead of self-service setup?",
+    "a": "Because high-quality automation requires expertise most brands don't have yet. Our implementation team manages setup from day one: connecting systems, structuring your knowledge base, and configuring automations that mirror your business. We apply proven frameworks from hundreds of implementations to get your workflows performing at production quality before launch. Other platforms rely on self-service because their automation is limited to basic deflection. Siena powers complex workflows like returns, exchanges, and subscription management. You reach reliable automation faster than trial and error.",
+    "icon": "klSbquSQSmI4vJp5uAthfEBu4A.png"
+   },
+   {
+    "q": "Is Siena suitable for enterprise brands?",
+    "a": "Yes. Siena is trusted by enterprise brands and is SOC 2, GDPR, CPRA, and HIPAA compliant. Our reasoning architecture provides the visibility, control, and explainability enterprise teams need. We offer dedicated onboarding, Slack support, and custom integrations for complex tech stacks.",
+    "icon": "klSbquSQSmI4vJp5uAthfEBu4A.png"
+   }
+  ],
+  "html": "<div  data-framer-name=\"FAQ\"><div ><!--$--><script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Why do brands choose Siena over Kustomer AI?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Ecommerce brands select Siena for its purpose-built AI architecture, not retrofitted helpdesk features. We consistently achieve 80% automation rates that strengthen with use. Siena integrates with your current helpdesk platform (Zendesk, Kustomer, Gorgias, and others), eliminating vendor lock-in. When you migrate helpdesks, Siena seamlessly transitions with you.\"}},{\"@type\":\"Question\",\"name\":\"Does Siena require me to use a specific helpdesk?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"No. Siena sits on top of your existing helpdesk—whether that's Zendesk, Kustomer, Gorgias, Dixa, or others. You can switch helpdesks anytime without losing Siena. Kustomer AI only works with the Kustomer helpdesk, locking you into their ecosystem. If you ever want to change your helpdesk, you lose your AI investment with Kustomer AI.\"}},{\"@type\":\"Question\",\"name\":\"What if I want to switch from Kustomer AI to another helpdesk in the future?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"With Siena, switching is seamless. Siena integrates with major helpdesks like Zendesk, Kustomer, Dixa, Gladly, and Intercom, so you can move platforms while keeping all your AI automations, workflows, and training intact. Kustomer AI is dependent on the Kustomer helpdesk. If you leave Kustomer AI, you start over.\"}},{\"@type\":\"Question\",\"name\":\"Can Siena work across multiple channels?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Absolutely. Siena works across email, SMS, chat, WhatsApp, social media (Instagram, Facebook, TikTok), voice, and more—all from a unified AI that maintains context across channels. Your customers get the same experience whether they reach out on Instagram or email.\"}},{\"@type\":\"Question\",\"name\":\"Does Siena handle pre-purchase and post-purchase interactions?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. Siena's Shopping Agent handles product discovery, recommendations, and conversions, while the Customer Service Agent manages post-purchase support like returns, exchanges, and tracking.\"}},{\"@type\":\"Question\",\"name\":\"Why does Siena include implementation support instead of self-service setup?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Because high-quality automation requires expertise most brands don't have yet. Our implementation team manages setup from day one: connecting systems, structuring your knowledge base, and configuring automations that mirror your business. We apply proven frameworks from hundreds of implementations to get your workflows performing at production quality before launch.\\n\\nOther platforms rely on self-service because their automation is limited to basic deflection. Siena powers complex workflows like returns, exchanges, and subscription management. You reach reliable automation faster than trial and error.\"}},{\"@type\":\"Question\",\"name\":\"Is Siena suitable for enterprise brands?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. Siena is trusted by enterprise brands and is SOC 2, GDPR, CPRA, and HIPAA compliant. Our reasoning architecture provides the visibility, control, and explainability enterprise teams need. We offer dedicated onboarding, Slack support, and custom integrations for complex tech stacks.\"}}]}</script><div style=\"display:flex;flex-direction:column;width:100%"
+ },
+ "timeline": [
+  "0 159 1 84 99 0 24 none klSbqu rgba(18, 32, 35, 0) all",
+  "871 159 1 84 99 0 24 none OKFNY3 rgba(18, 32, 35, 0) all",
+  "873 157 1 82 101 0 26 none OKFNY3 rgba(18, 32, 35, 0) all",
+  "883 151 0.866 76 107 0.134 32 none OKFNY3 rgba(18, 32, 35, 0) all",
+  "901 140 0.699 65 118 0.301 43 none OKFNY3 rgba(18, 32, 35, 0) all",
+  "917 130 0.533 55 128 0.467 53 none OKFNY3 rgba(18, 32, 35, 0) all",
+  "934 121 0.366 46 137 0.634 62 none OKFNY3 rgba(18, 32, 35, 0) all",
+  "951 110 0.199 35 148 0.801 73 none OKFNY3 rgba(18, 32, 35, 0) all",
+  "967 100 0.033 25 158 0.967 83 none OKFNY3 rgba(18, 32, 35, 0) all",
+  "984 99 0 24 159 1 84 none OKFNY3 rgba(18, 32, 35, 0) all"
+ ],
+ "hover": {
+  "bg": "rgba(18, 32, 35, 0)",
+  "c": "rgb(18, 32, 35)",
+  "cursor": "pointer",
+  "tr": "all"
+ },
+ "styles": {
+  "item": {
+   "style": "border-radius:0;overflow:hidden;border-bottom-style:solid;border-bottom-color:var(--token-3bd0289b-d5ca-48c8-85fb-e6f5896d5779, rgba(0, 0, 0, 0.2));border-bottom-width:0px 0px 1px 0px",
+   "ff": "sans-serif",
+   "fs": "12px",
+   "lh": "normal",
+   "fw": "400",
+   "c": "rgb(0, 0, 0)"
+  },
+  "head": {
+   "style": "cursor:pointer;display:flex;align-items:center;justify-content:space-between;font-family:\"Instrument Sans\", \"Instrument Sans Placeholder\", sans-serif;font-size:20px;font-weight:500;color:var(--token-76690f9a-b442-46af-8a97-1e9974f4bb5d, rgb(18, 32, 35));background:rgba(18, 32, 35, 0);padding-top:24px;padding-right:0px;padding-bottom:24px;padding-left:0px",
+   "ff": "\"Instrument Sans\", \"Instrument Sans Placeholder\", sans-serif",
+   "fs": "20px",
+   "lh": "normal",
+   "fw": "500",
+   "c": "rgb(18, 32, 35)"
+  },
+  "q": {
+   "style": "width:20px;height:20px;margin-left:0px;margin-right:0px;order:1",
+   "ff": "\"Instrument Sans\", \"Instrument Sans Placeholder\", sans-serif",
+   "fs": "20px",
+   "lh": "normal",
+   "fw": "500",
+   "c": "rgb(18, 32, 35)"
+  },
+  "ans": {
+   "style": "display: flex; align-items: start; flex-direction: column; font-family: \"Instrument Sans\", \"Instrument Sans Placeholder\", sans-serif; font-size: 16px; font-weight: 400; color: rgba(18, 32, 35, 0.8); background: rgba(43, 98, 237, 0); overflow: hidden; padding: 0px 0px 24px; height: 0px; opacity: 0; will-change: transform;",
+   "ff": "\"Instrument Sans\", \"Instrument Sans Placeholder\", sans-serif",
+   "fs": "16px",
+   "lh": "normal",
+   "fw": "400",
+   "c": "rgba(18, 32, 35, 0.8)"
+  },
+  "ansInner": null,
+  "img": "width:20px;height:20px;margin-left:0px;margin-right:0px;order:1",
+  "wrap": {
+   "style": "margin-bottom:0px",
+   "ff": "sans-serif",
+   "fs": "12px",
+   "lh": "normal",
+   "fw": "400",
+   "c": "rgb(0, 0, 0)"
+  }
+ }
+}

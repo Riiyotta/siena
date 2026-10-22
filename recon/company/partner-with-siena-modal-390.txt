@@ -1,0 +1,128 @@
+DIV[] 0,0 390x900 bg rgba(0, 0, 0, 0.8)
+DIV[] 24,90 342x720 bgi linear-gradient(rgb(242, 229, 154) 0%, rgb(254, 199, 150) 24.3243%, rgb(251, 86, 70) 40.0901%, rgb(130, 122, 204) 59.9099%, rgb(46, 121, 216) 77.4775% ; pad 3px ; row gap10px jcflex-start aiflex-start ; rad 16px
+ DIV[] 27,93 336x714 bg rgb(243, 240, 235) ; pad 24px ; column gap32px jcflex-start aicenter ; rad 14px
+   FORM[Mobile] 51,117 288x1565 column gap24px jcflex-start aiflex-start
+    DIV[] 51,117 288x53 pad 0px 0px 24px ; row gap10px jccenter aicenter ; border 0px 0px 1px solid rgba(0, 0, 0, 0.2)
+     DIV[] 51,117 288x29 column gapnormal jcflex-start ainormal
+      H4[] 51,117 288x29 "Join our partner program" "Feature Deck Web Regular" 400 24px/28.8px lsnormal rgb(0, 0, 0) left
+    DIV[] 51,194 288x187 column gap24px jccenter aicenter
+     LABEL[] 51,194 288x81 column gap6px jcflex-start aiflex-start
+      DIV[] 51,194 75x15 column gapnormal jcflex-start ainormal
+        STRONG[] 51,192 75x18 "First name*" "Instrument Sans" 600 14px/15.4px lsnormal rgba(18, 32, 35, 0.8) start
+      DIV[] 51,215 288x60 bg rgb(255, 255, 255) ; pad 20px 16px ; row gapnormal jcnormal aicenter ; rad 16px
+       INPUT[] 67,235 256x20 FIELD type=text name=First Name ph="John" req=true
+     LABEL[] 51,299 288x81 column gap6px jcflex-start aiflex-start
+      DIV[] 51,299 73x15 column gapnormal jcflex-start ainormal
+        STRONG[] 51,297 73x18 "Last name*" "Instrument Sans" 600 14px/15.4px lsnormal rgba(18, 32, 35, 0.8) start
+      DIV[] 51,321 288x60 bg rgb(255, 255, 255) ; pad 20px 16px ; row gapnormal jcnormal aicenter ; rad 16px
+       INPUT[] 67,341 256x20 FIELD type=text name=Last Name ph="Smith" req=true
+    DIV[] 51,405 288x187 column gap24px jccenter aicenter
+     LABEL[] 51,405 288x81 column gap6px jcflex-start aiflex-start
+      DIV[] 51,405 97x15 column gapnormal jcflex-start ainormal
+        STRONG[] 51,403 97x18 "Email address*" "Instrument Sans" 600 14px/15.4px lsnormal rgba(18, 32, 35, 0.8) start
+      DIV[] 51,426 288x60 bg rgb(255, 255, 255) ; pad 20px 16px ; row gapnormal jcnormal aicenter ; rad 16px
+       INPUT[] 67,446 256x20 FIELD type=email name=Email ph="john.smit@example.com" req=true
+     LABEL[] 51,510 288x81 column gap6px jcflex-start aiflex-start
+      DIV[] 51,510 118x15 column gapnormal jcflex-start ainormal
+        STRONG[] 51,508 118x18 "Business website*" "Instrument Sans" 600 14px/15.4px lsnormal rgba(18, 32, 35, 0.8) start
+      DIV[] 51,531 288x60 bg rgb(255, 255, 255) ; pad 20px 16px ; row gapnormal jcnormal aicenter ; rad 16px
+       INPUT[] 67,551 256x20 FIELD type=text name=website ph="www.mywebsite.com" req=true
+    DIV[] 51,615 288x187 column gap24px jccenter aicenter
+     LABEL[] 51,615 288x81 column gap6px jcflex-start aiflex-start
+      DIV[] 51,615 33x15 column gapnormal jcflex-start ainormal
+        STRONG[] 51,613 33x18 "City*" "Instrument Sans" 600 14px/15.4px lsnormal rgba(18, 32, 35, 0.8) start
+      DIV[] 51,637 288x60 bg rgb(255, 255, 255) ; pad 20px 16px ; row gapnormal jcnormal aicenter ; rad 16px
+       INPUT[] 67,657 256x20 FIELD type=text name=City ph="San Francisco" req=true
+     LABEL[] 51,721 288x81 column gap6px jcflex-start aiflex-start
+      DIV[] 51,721 60x15 column gapnormal jcflex-start ainormal
+        STRONG[] 51,719 60x18 "Country*" "Instrument Sans" 600 14px/15.4px lsnormal rgba(18, 32, 35, 0.8) start
+      DIV[] 51,742 288x60 bg rgb(255, 255, 255) ; pad 20px 16px ; row gapnormal jcnormal aicenter ; rad 16px
+       INPUT[] 67,762 256x20 FIELD type=text name=Country ph="United States" req=true
+    DIV[] 51,826 288x187 column gap24px jccenter aicenter
+     LABEL[] 51,826 288x81 column gap10px jcflex-start aiflex-start
+      DIV[] 51,826 149x15 column gapnormal jcflex-start ainormal
+        STRONG[] 51,824 149x18 "How big is your team?*" "Instrument Sans" 600 14px/15.4px lsnormal rgba(18, 32, 35, 0.8) start
+      DIV[] 51,852 288x56 bg rgb(255, 255, 255) ; pad 0px 16px 0px 0px ; rad 15px
+       SELECT[] 51,852 272x56 pad 20px 16px ; FIELD type=select-one name=Team ph="undefined" req=true opts=Select one…|1-10|11-50|51-100|101-500|501+
+     LABEL[] 51,932 288x81 column gap10px jcflex-start aiflex-start
+      DIV[] 51,932 88x15 column gapnormal jcflex-start ainormal
+        STRONG[] 51,930 88x18 "Partner type*" "Instrument Sans" 600 14px/15.4px lsnormal rgba(18, 32, 35, 0.8) start
+      DIV[] 51,957 288x56 bg rgb(255, 255, 255) ; pad 0px 16px 0px 0px ; rad 15px
+       SELECT[] 51,957 272x56 pad 20px 16px ; FIELD type=select-one name=Type ph="undefined" req=true opts=Select one…|Partner (Agency)|Partner (BPO)|Help Desk Partner|Individual Affiliate Partner|Tech Partner|VC
+    LABEL[] 51,1037 288x97 column gap10px jcflex-start aiflex-start
+     DIV[] 51,1037 196x31 column gapnormal jcflex-start ainormal
+       STRONG[] 51,1035 196x18 "How many clients do you have" "Instrument Sans" 600 14px/15.4px lsnormal rgba(18, 32, 35, 0.8) start
+       STRONG[] 51,1050 70x18 "at a time?*" "Instrument Sans" 600 14px/15.4px lsnormal rgba(18, 32, 35, 0.8) start
+     DIV[] 51,1078 288x56 bg rgb(255, 255, 255) ; pad 0px 16px 0px 0px ; rad 15px
+      SELECT[] 51,1078 272x56 pad 20px 16px ; FIELD type=select-one name=clients ph="undefined" req=true opts=Select one…|0-5|6-15|16-30|31+
+    LABEL[Input/Buttons] 51,1158 288x297 column gap10px jcflex-start aiflex-start
+     DIV[] 51,1158 258x15 column gapnormal jcflex-start ainormal
+       STRONG[] 51,1156 258x18 "Which platform(s) do your clients use?*" "Instrument Sans" 600 14px/15.4px lsnormal rgba(18, 32, 35, 0.8) start
+      DIV[] 51,1183 288x272 column gap12px jcnormal ainormal
+       INPUT[] 51,1183 288x272 bg rgb(255, 255, 255) ; pad 1px 2px ; op 0 ; FIELD type=text name=Buttons ph="" req=true
+       DIV[] 51,1183 288x56 row gap12px jcstart aistart
+        BUTTON[] 51,1183 63x42 bg rgb(255, 255, 255) ; pad 14px ; column gap10px jcnormal ainormal ; rad 16px
+         SPAN[] 65,1197 35x14 "Shopify" "Instrument Sans" 400 14px/14px lsnormal rgb(18, 32, 35) center
+         DIV[] 51,1183 63x42 rad 16px
+        BUTTON[] 126,1183 63x56 bg rgb(255, 255, 255) ; pad 14px ; column gap10px jcnormal ainormal ; rad 16px
+         SPAN[] 140,1197 35x28 "Shopify Plus" "Instrument Sans" 400 14px/14px lsnormal rgb(18, 32, 35) center
+         DIV[] 126,1183 63x56 rad 16px
+        BUTTON[] 201,1183 63x42 bg rgb(255, 255, 255) ; pad 14px ; column gap10px jcnormal ainormal ; rad 16px
+         SPAN[] 215,1197 35x14 "Gorgias" "Instrument Sans" 400 14px/14px lsnormal rgb(18, 32, 35) center
+         DIV[] 201,1183 63x42 rad 16px
+        BUTTON[] 276,1183 63x42 bg rgb(255, 255, 255) ; pad 14px ; column gap10px jcnormal ainormal ; rad 16px
+         SPAN[] 290,1197 35x14 "Zendesk" "Instrument Sans" 400 14px/14px lsnormal rgb(18, 32, 35) center
+         DIV[] 276,1183 63x42 rad 16px
+       DIV[] 51,1251 288x42 row gap12px jcstart aistart
+        BUTTON[] 51,1251 63x42 bg rgb(255, 255, 255) ; pad 14px ; column gap10px jcnormal ainormal ; rad 16px
+         SPAN[] 65,1265 35x14 "Gladly" "Instrument Sans" 400 14px/14px lsnormal rgb(18, 32, 35) center
+         DIV[] 51,1251 63x42 rad 16px
+        BUTTON[] 126,1251 63x42 bg rgb(255, 255, 255) ; pad 14px ; column gap10px jcnormal ainormal ; rad 16px
+         SPAN[] 140,1265 35x14 "Intercom" "Instrument Sans" 400 14px/14px lsnormal rgb(18, 32, 35) center
+         DIV[] 126,1251 63x42 rad 16px
+        BUTTON[] 201,1251 63x42 bg rgb(255, 255, 255) ; pad 14px ; column gap10px jcnormal ainormal ; rad 16px
+         SPAN[] 215,1265 35x14 "Kustomer" "Instrument Sans" 400 14px/14px lsnormal rgb(18, 32, 35) center
+         DIV[] 201,1251 63x42 rad 16px
+        BUTTON[] 276,1251 63x42 bg rgb(255, 255, 255) ; pad 14px ; column gap10px jcnormal ainormal ; rad 16px
+         SPAN[] 290,1265 35x14 "Recharge" "Instrument Sans" 400 14px/14px lsnormal rgb(18, 32, 35) center
+         DIV[] 276,1251 63x42 rad 16px
+       DIV[] 51,1305 288x42 row gap12px jcstart aistart
+        BUTTON[] 51,1305 63x42 bg rgb(255, 255, 255) ; pad 14px ; column gap10px jcnormal ainormal ; rad 16px
+         SPAN[] 65,1319 35x14 "Skio" "Instrument Sans" 400 14px/14px lsnormal rgb(18, 32, 35) center
+         DIV[] 51,1305 63x42 rad 16px
+        BUTTON[] 126,1305 63x42 bg rgb(255, 255, 255) ; pad 14px ; column gap10px jcnormal ainormal ; rad 16px
+         SPAN[] 140,1319 35x14 "Smarttr" "Instrument Sans" 400 14px/14px lsnormal rgb(18, 32, 35) center
+         DIV[] 126,1305 63x42 rad 16px
+        BUTTON[] 201,1305 63x42 bg rgb(255, 255, 255) ; pad 14px ; column gap10px jcnormal ainormal ; rad 16px
+         SPAN[] 215,1319 35x14 "OrderGroove" "Instrument Sans" 400 14px/14px lsnormal rgb(18, 32, 35) center
+         DIV[] 201,1305 63x42 rad 16px
+        BUTTON[] 276,1305 63x42 bg rgb(255, 255, 255) ; pad 14px ; column gap10px jcnormal ainormal ; rad 16px
+         SPAN[] 290,1319 35x14 "BigCommerce" "Instrument Sans" 400 14px/14px lsnormal rgb(18, 32, 35) center
+         DIV[] 276,1305 63x42 rad 16px
+       DIV[] 51,1359 288x42 row gap12px jcstart aistart
+        BUTTON[] 51,1359 63x42 bg rgb(255, 255, 255) ; pad 14px ; column gap10px jcnormal ainormal ; rad 16px
+         SPAN[] 65,1373 35x14 "Magento" "Instrument Sans" 400 14px/14px lsnormal rgb(18, 32, 35) center
+         DIV[] 51,1359 63x42 rad 16px
+        BUTTON[] 126,1359 63x42 bg rgb(255, 255, 255) ; pad 14px ; column gap10px jcnormal ainormal ; rad 16px
+         SPAN[] 140,1373 35x14 "Salesforce" "Instrument Sans" 400 14px/14px lsnormal rgb(18, 32, 35) center
+         DIV[] 126,1359 63x42 rad 16px
+        BUTTON[] 201,1359 63x42 bg rgb(255, 255, 255) ; pad 14px ; column gap10px jcnormal ainormal ; rad 16px
+         SPAN[] 215,1373 35x14 "Squarespace" "Instrument Sans" 400 14px/14px lsnormal rgb(18, 32, 35) center
+         DIV[] 201,1359 63x42 rad 16px
+        BUTTON[] 276,1359 63x42 bg rgb(255, 255, 255) ; pad 14px ; column gap10px jcnormal ainormal ; rad 16px
+         SPAN[] 290,1373 35x14 "Square" "Instrument Sans" 400 14px/14px lsnormal rgb(18, 32, 35) center
+         DIV[] 276,1359 63x42 rad 16px
+       DIV[] 51,1413 288x42 row gap12px jcstart aistart
+        BUTTON[] 51,1413 63x42 bg rgb(255, 255, 255) ; pad 14px ; column gap10px jcnormal ainormal ; rad 16px
+         SPAN[] 65,1427 35x14 "Other" "Instrument Sans" 400 14px/14px lsnormal rgb(18, 32, 35) center
+         DIV[] 51,1413 63x42 rad 16px
+    DIV[] 51,1479 288x121 row gap16px jccenter aicenter
+     LABEL[] 51,1479 288x121 column gap6px jcflex-start aiflex-start
+      DIV[] 51,1479 402x15 column gapnormal jcflex-start ainormal
+        STRONG[] 51,1477 402x18 "Drop us a line! Why do you want to join our partner program?*" "Instrument Sans" 600 14px/15.4px lsnormal rgba(18, 32, 35, 0.8) start
+      DIV[] 51,1501 288x100 bg rgb(255, 255, 255) ; row gapnormal jcnormal aicenter ; rad 16px
+       TEXTAREA[] 51,1501 288x100 pad 20px 16px ; row gapnormal jcnormal ainormal ; FIELD type=textarea name=dropLine ph="Write us something..." req=true
+    DIV[] 51,1625 288x58 row gap10px jcflex-end aicenter
+      BUTTON[Default] 51,1625 288x58 bg rgb(18, 32, 35) ; bgi linear-gradient(90deg, rgb(18, 32, 35) 0%, rgb(18, 32, 35) 20%, rgb(18, 32, 35) 40%, rgb(18, 32, 35) 60%, rgb(18, 32, 35) 80%, rgb(18, 32, 35) 100%) ; pad 18px 24px ; row gap0px jccenter aicenter ; rad 16px
+       DIV[] 164,1643 62x22 column gapnormal jcflex-start ainormal
+        P[] 164,1643 62x22 "Submit" "Instrument Sans" 600 18px/21.6px lsnormal rgb(255, 255, 255) left

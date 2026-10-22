@@ -1,0 +1,25 @@
+{
+  "registryId": "component.feature-item",
+  "version": "1.0.0",
+  "category": "content",
+  "description": "Icon + title + body item with a 1px top border and 32px padding-top (careers 'How we work', partner benefits, refer criteria, pricing 'How does pricing work', how-it-works columns).",
+  "composes": [
+    "primitive.icon",
+    "primitive.text",
+    "primitive.divider"
+  ],
+  "props": {
+    "title": {
+      "type": "string",
+      "maxWords": 6
+    },
+    "body": {
+      "type": "string",
+      "maxWords": 30
+    }
+  },
+  "measuredFrom": [
+    "spec.featureitem",
+    "jsx.co.featureitem"
+  ]
+}

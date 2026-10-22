@@ -1,0 +1,100 @@
+{
+  "id": "section.overlay.partner-modal",
+  "registryId": "section.overlay.partner-modal",
+  "typeId": "overlay.partner-modal",
+  "version": "1.0.0",
+  "category": "conversion",
+  "purpose": "'Join our partner program' modal: backdrop rgba black 0.8, ring panel springs in from x 150, scrollable static form; closes on backdrop click. Never submits.",
+  "evidenceLevel": "measured",
+  "variants": {
+    "partner": "600x720 panel."
+  },
+  "composes": [
+    "component.form-card"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "heading": {
+        "type": "string",
+        "maxWords": 5
+      },
+      "fields": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "label": {
+              "type": "string",
+              "maxWords": 12
+            },
+            "control": {
+              "enum": [
+                "text",
+                "email",
+                "select",
+                "pill-multiselect",
+                "textarea"
+              ]
+            },
+            "options": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "maxWords": 4
+              },
+              "minItems": 0,
+              "maxItems": 20
+            }
+          },
+          "required": [
+            "label",
+            "control"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 8,
+        "maxItems": 14
+      },
+      "submitLabel": {
+        "type": "string",
+        "maxWords": 2
+      },
+      "submitBehavior": {
+        "const": "none"
+      }
+    },
+    "required": [
+      "heading",
+      "fields",
+      "submitLabel",
+      "submitBehavior"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "appear-spring-x"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Panel 342 wide, fields single column."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "requiresOpener": "hero.partner"
+  },
+  "measuredFrom": [
+    "spec.p5",
+    "jsx.partnermodal"
+  ]
+}

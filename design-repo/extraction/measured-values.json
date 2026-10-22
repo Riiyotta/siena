@@ -1,0 +1,2865 @@
+{
+  "$description": "Evidence ledger. Every `cite`/`measuredFrom` id used anywhere in the repo resolves here to a project-relative file + line range + strings that must occur inside that range. verify_all.py re-checks range AND content when the source project sits beside design-repo/, and degrades to a warning (never a failure) when it does not (standalone copy). sourceSnapshot hashes flag drift of the cited files as a warning.",
+  "sourceProject": {
+    "relation": "design-repo/ lives inside the clone project root; citations are relative to that root.",
+    "liveOrigin": "https://www.siena.cx/"
+  },
+  "citations": {
+    "css.addons.empty": {
+      "file": "src/styles/conversion.css",
+      "lines": "1279-1280",
+      "mustContain": [
+        "/* Exact replica of the live empty block (see AiNativeVsAddOns.jsx) */"
+      ]
+    },
+    "css.appear": {
+      "file": "src/index.css",
+      "lines": "32-33",
+      "mustContain": [
+        "@keyframes appear-up",
+        "opacity: 0.001; transform: translateY(200px)",
+        "prefers-reduced-motion: reduce"
+      ]
+    },
+    "css.compare.integrations.quirk": {
+      "file": "src/styles/conversion.css",
+      "lines": "1201-1202",
+      "mustContain": [
+        "/* Live phone quirk, replicated: the Integrations section keeps a fixed 799px box with overflow clipped;"
+      ]
+    },
+    "css.fontfaces": {
+      "file": "src/index.css",
+      "lines": "1-19",
+      "mustContain": [
+        "@font-face { font-family: 'Instrument Sans'; font-weight: 400",
+        "Tiempos Text Regular Italic",
+        "Font Awesome 6 Brands",
+        "Geist Mono",
+        "Lato"
+      ]
+    },
+    "css.video.quirk": {
+      "file": "src/styles/product-b.css",
+      "lines": "695-698",
+      "mustContain": [
+        "/* LIVE-SITE QUIRK (§2.4, replicated for parity, scoped to /video): Framer's Main wrapper renders an",
+        ".pb-video .vc-phone-blank { display: block; width: 100%; height: 1000px;"
+      ]
+    },
+    "jsx.about": {
+      "file": "src/pages/AboutUs.jsx",
+      "lines": "20-47",
+      "mustContain": [
+        "export default function AboutUs()",
+        "<HScrollStory />",
+        "<OurTeam />"
+      ]
+    },
+    "jsx.addons": {
+      "file": "src/pages/AiNativeVsAddOns.jsx",
+      "lines": "45-57",
+      "mustContain": [
+        "export default function AiNativeVsAddOns()",
+        "cv-addons-empty"
+      ]
+    },
+    "jsx.book": {
+      "file": "src/pages/BookADemo.jsx",
+      "lines": "8-27",
+      "mustContain": [
+        "export default function BookADemo()"
+      ]
+    },
+    "jsx.bookdemo": {
+      "file": "src/components/cta/BookDemoButton.jsx",
+      "lines": "3-11",
+      "mustContain": [
+        "export default function BookDemoButton()",
+        "rounded-[16px] bg-ink px-[24px] py-[18px]",
+        "hover:bg-rainbow"
+      ]
+    },
+    "jsx.careers": {
+      "file": "src/pages/Careers.jsx",
+      "lines": "57-139",
+      "mustContain": [
+        "export default function Careers()"
+      ]
+    },
+    "jsx.careers.letter": {
+      "file": "src/pages/Careers.jsx",
+      "lines": "9-13",
+      "mustContain": [
+        "// Founders letter is long-form prose → length-matched placeholder copy (build instructions)."
+      ]
+    },
+    "jsx.chatmock": {
+      "file": "src/components/scroll-area/ChatMock.jsx",
+      "lines": "174-176",
+      "mustContain": [
+        "export default function ChatMock"
+      ]
+    },
+    "jsx.co.faicon": {
+      "file": "src/components/company/shared.jsx",
+      "lines": "6-14",
+      "mustContain": [
+        "export function FaIcon(",
+        "brands"
+      ]
+    },
+    "jsx.co.featureitem": {
+      "file": "src/components/company/shared.jsx",
+      "lines": "43-52",
+      "mustContain": [
+        "export function FeatureItem("
+      ]
+    },
+    "jsx.co.field": {
+      "file": "src/components/company/FormField.jsx",
+      "lines": "3-15",
+      "mustContain": [
+        "export function Field(",
+        "placeholder"
+      ]
+    },
+    "jsx.co.hticker": {
+      "file": "src/components/company/HTicker.jsx",
+      "lines": "5-24",
+      "mustContain": [
+        "const SPEED = 30"
+      ]
+    },
+    "jsx.co.iconbutton": {
+      "file": "src/components/company/shared.jsx",
+      "lines": "34-41",
+      "mustContain": [
+        "export function IconButton("
+      ]
+    },
+    "jsx.co.logogrid": {
+      "file": "src/components/company/LogoGrid.jsx",
+      "lines": "4-18",
+      "mustContain": [
+        "export default function LogoGrid("
+      ]
+    },
+    "jsx.co.roles": {
+      "file": "src/components/company/RolesList.jsx",
+      "lines": "59-98",
+      "mustContain": [
+        "function Panel({ open, id, children })",
+        "export default function RolesList()"
+      ]
+    },
+    "jsx.co.slider": {
+      "file": "src/components/company/CompanySlider.jsx",
+      "lines": "17-36",
+      "mustContain": [
+        "export default function CompanySlider("
+      ]
+    },
+    "jsx.co.staticform": {
+      "file": "src/components/company/FormField.jsx",
+      "lines": "15-20",
+      "mustContain": [
+        "export function StaticForm(",
+        "preventDefault"
+      ]
+    },
+    "jsx.co.storycard": {
+      "file": "src/components/company/StoryGrid.jsx",
+      "lines": "8-29",
+      "mustContain": [
+        "function StoryCard("
+      ]
+    },
+    "jsx.co.vticker": {
+      "file": "src/components/company/VerticalTicker.jsx",
+      "lines": "6-25",
+      "mustContain": [
+        "const SPEED = 10 // px/s",
+        "function LoveCard("
+      ]
+    },
+    "jsx.co.xlg": {
+      "file": "src/components/company/shared.jsx",
+      "lines": "16-32",
+      "mustContain": [
+        "export function XlgButton("
+      ]
+    },
+    "jsx.community": {
+      "file": "src/pages/Community.jsx",
+      "lines": "32-80",
+      "mustContain": [
+        "export default function Community()"
+      ]
+    },
+    "jsx.companycta": {
+      "file": "src/components/company/CompanyCta.jsx",
+      "lines": "3-9",
+      "mustContain": [
+        "// MainCta variants (specs/company.md A5 / C6 / U4 / P4 / R4).",
+        "'narrow' (200px 96px — measured quirk on /customers + /refer-a-friend)"
+      ]
+    },
+    "jsx.comparedata.quotes": {
+      "file": "src/components/conversion/compareData.js",
+      "lines": "8-28",
+      "mustContain": [
+        "quote: 'We found Siena to be the most powerful solution for AI customer support.",
+        "quote: 'When I compared all the AI solutions"
+      ]
+    },
+    "jsx.comparetemplate": {
+      "file": "src/components/conversion/CompareTemplate.jsx",
+      "lines": "24-45",
+      "mustContain": [
+        "export default function CompareTemplate({ data, kind })"
+      ]
+    },
+    "jsx.content.convcard": {
+      "file": "src/pages/Conversations.jsx",
+      "lines": "24-35",
+      "mustContain": [
+        "{CONVERSATIONS.map((c) => (",
+        "ct-clamp4"
+      ]
+    },
+    "jsx.conv.article": {
+      "file": "src/components/content/ConversationArticle.jsx",
+      "lines": "71-110",
+      "mustContain": [
+        "export default function ConversationArticle({ slug })",
+        "youtube"
+      ]
+    },
+    "jsx.conv.faq": {
+      "file": "src/components/conversion/Faq.jsx",
+      "lines": "5-45",
+      "mustContain": [
+        "function Item({ q, a, open, onToggle, last })",
+        "OKFNY3AXFnnV2q6cBUgzTRwNI0.png"
+      ]
+    },
+    "jsx.conv.index": {
+      "file": "src/pages/Conversations.jsx",
+      "lines": "7",
+      "mustContain": [
+        "// At 390 the card grid replicates the live 2 x 340px overflow bug"
+      ]
+    },
+    "jsx.conv.leadform": {
+      "file": "src/components/conversion/LeadForm.jsx",
+      "lines": "6-23",
+      "mustContain": [
+        "const GOALS = [",
+        "const HELPDESKS"
+      ]
+    },
+    "jsx.conv.table": {
+      "file": "src/components/conversion/CompareTable.jsx",
+      "lines": "7-56",
+      "mustContain": [
+        "export default function CompareTable("
+      ]
+    },
+    "jsx.conv.ui": {
+      "file": "src/components/conversion/ui.jsx",
+      "lines": "6-37",
+      "mustContain": [
+        "export function DarkButton(",
+        "export function LeadHeader()"
+      ]
+    },
+    "jsx.convcta": {
+      "file": "src/components/conversion/ConvCta.jsx",
+      "lines": "4",
+      "mustContain": [
+        "// kind 'compare': phone frame keeps padding 200px 96px (card 198 wide, H2 wraps narrow — live quirk)."
+      ]
+    },
+    "jsx.convhero": {
+      "file": "src/components/conversion/ConvHero.jsx",
+      "lines": "5-34",
+      "mustContain": [
+        "export function CompareHero("
+      ]
+    },
+    "jsx.countup": {
+      "file": "src/components/metrics/CountUp.jsx",
+      "lines": "27-56",
+      "mustContain": [
+        "export default function CountUp(",
+        "prefers-reduced-motion: reduce"
+      ]
+    },
+    "jsx.customers": {
+      "file": "src/pages/Customers.jsx",
+      "lines": "9-40",
+      "mustContain": [
+        "export default function Customers()"
+      ]
+    },
+    "jsx.demoform": {
+      "file": "src/components/content/DemoFormCta.jsx",
+      "lines": "35-74",
+      "mustContain": [
+        "export default function DemoFormCta()"
+      ]
+    },
+    "jsx.enterprise": {
+      "file": "src/components/conversion/LeadSections.jsx",
+      "lines": "85-108",
+      "mustContain": [
+        "export function Enterprise()"
+      ]
+    },
+    "jsx.events": {
+      "file": "src/pages/Events.jsx",
+      "lines": "7-45",
+      "mustContain": [
+        "export default function Events()"
+      ]
+    },
+    "jsx.featurecard": {
+      "file": "src/components/features/FeatureCard.jsx",
+      "lines": "4-15",
+      "mustContain": [
+        "export default function FeatureCard("
+      ]
+    },
+    "jsx.features": {
+      "file": "src/components/Features.jsx",
+      "lines": "6-23",
+      "mustContain": [
+        "export default function Features()"
+      ]
+    },
+    "jsx.filler": {
+      "file": "src/components/company/filler.js",
+      "lines": "5-6",
+      "mustContain": [
+        "export function filler(length, seed = 0) {",
+        "'Placeholder quote:'"
+      ]
+    },
+    "jsx.footer": {
+      "file": "src/components/Footer.jsx",
+      "lines": "28-39",
+      "mustContain": [
+        "export default function Footer()"
+      ]
+    },
+    "jsx.footerlinks": {
+      "file": "src/components/footer/footerLinks.js",
+      "lines": "4-48",
+      "mustContain": [
+        "export const company = [",
+        "siteHref('/blog')",
+        "siteHref('/integrations')"
+      ]
+    },
+    "jsx.hero": {
+      "file": "src/components/Hero.jsx",
+      "lines": "8-47",
+      "mustContain": [
+        "export default function Hero()"
+      ]
+    },
+    "jsx.howpricing": {
+      "file": "src/components/conversion/LeadSections.jsx",
+      "lines": "55-74",
+      "mustContain": [
+        "export function HowPricing()"
+      ]
+    },
+    "jsx.hscroll": {
+      "file": "src/components/company/HScrollStory.jsx",
+      "lines": "7",
+      "mustContain": [
+        "const LERP = 0.15"
+      ]
+    },
+    "jsx.insights": {
+      "file": "src/components/content/InsightsPage.jsx",
+      "lines": "14-41",
+      "mustContain": [
+        "function Hero({ page })"
+      ]
+    },
+    "jsx.insights.routes": {
+      "file": "src/components/content/insightsData.js",
+      "lines": "10-12",
+      "mustContain": [
+        "export const INSIGHTS_PAGES = {"
+      ]
+    },
+    "jsx.insightsdata": {
+      "file": "src/components/content/insightsData.js",
+      "lines": "5",
+      "mustContain": [
+        "// \"opening words + word count\", so body copy = recorded opening + placeholder filler to that count."
+      ]
+    },
+    "jsx.integrations": {
+      "file": "src/components/Integrations.jsx",
+      "lines": "8-37",
+      "mustContain": [
+        "export default function Integrations()"
+      ]
+    },
+    "jsx.kustomer.quirk": {
+      "file": "src/components/conversion/compareData.js",
+      "lines": "107-108",
+      "mustContain": [
+        "// Live phone quirk (kustomer-390.json): the phone H1 renders the homepage phone headline instead."
+      ]
+    },
+    "jsx.leadhero": {
+      "file": "src/components/conversion/LeadSections.jsx",
+      "lines": "15-44",
+      "mustContain": [
+        "export function LeadHero("
+      ]
+    },
+    "jsx.legal": {
+      "file": "src/components/content/LegalPage.jsx",
+      "lines": "86-113",
+      "mustContain": [
+        "export default function LegalPage("
+      ]
+    },
+    "jsx.legaldata": {
+      "file": "src/components/content/legalData.js",
+      "lines": "1-2",
+      "mustContain": [
+        "// Legal page STRUCTURE (T4/T5)",
+        "every body node only records a word count"
+      ]
+    },
+    "jsx.maincta": {
+      "file": "src/components/MainCta.jsx",
+      "lines": "6-25",
+      "mustContain": [
+        "export default function MainCta()"
+      ]
+    },
+    "jsx.megamenu.products": {
+      "file": "src/components/nav/MegaMenu.jsx",
+      "lines": "56-90",
+      "mustContain": [
+        "export function ProductsPanel()"
+      ]
+    },
+    "jsx.megamenu.resources": {
+      "file": "src/components/nav/MegaMenu.jsx",
+      "lines": "142-161",
+      "mustContain": [
+        "export function ResourcesPanel()"
+      ]
+    },
+    "jsx.metrics": {
+      "file": "src/components/Metrics.jsx",
+      "lines": "4-33",
+      "mustContain": [
+        "const STATS = ["
+      ]
+    },
+    "jsx.nav.cta": {
+      "file": "src/components/Nav.jsx",
+      "lines": "60",
+      "mustContain": [
+        "const { ctaLabel = 'Book a demo', ctaHref = DEMO_HREF } = useNavOverrides()"
+      ]
+    },
+    "jsx.nav.force": {
+      "file": "src/components/Nav.jsx",
+      "lines": "76",
+      "mustContain": [
+        "const scrolled = useScrolled(useNavOverrides().forceScrolled)"
+      ]
+    },
+    "jsx.nav.scroll": {
+      "file": "src/components/Nav.jsx",
+      "lines": "10-29",
+      "mustContain": [
+        "const SCROLL_THRESHOLD = 160",
+        "function useNavOverrides()",
+        "function useScrolled(force = false)"
+      ]
+    },
+    "jsx.navdata.quirk": {
+      "file": "src/components/nav/navData.js",
+      "lines": "46-53",
+      "mustContain": [
+        "hrefs copied verbatim from the saved HTML",
+        "title: 'Blog'",
+        "href: '/ai-review-management' }",
+        "title: 'ROI Calculator'"
+      ]
+    },
+    "jsx.newsletter": {
+      "file": "src/components/content/NewsletterCta.jsx",
+      "lines": "3-5",
+      "mustContain": [
+        "// T2.3 newsletter CTA (all /conversations* routes). At 390 the live site keeps this desktop"
+      ]
+    },
+    "jsx.ourteam": {
+      "file": "src/components/company/OurTeam.jsx",
+      "lines": "4-11",
+      "mustContain": [
+        "// The five-paragraph team letter is long-form prose: rendered as length-matched placeholder copy"
+      ]
+    },
+    "jsx.partner": {
+      "file": "src/pages/PartnerWithSiena.jsx",
+      "lines": "44-102",
+      "mustContain": [
+        "export default function PartnerWithSiena()"
+      ]
+    },
+    "jsx.partner.quotes": {
+      "file": "src/pages/PartnerWithSiena.jsx",
+      "lines": "33",
+      "mustContain": [
+        "// Quotes are third-party testimonials → length-matched placeholders (filler.js); names/roles exact."
+      ]
+    },
+    "jsx.partnermodal": {
+      "file": "src/components/company/PartnerModal.jsx",
+      "lines": "53-92",
+      "mustContain": [
+        "export default function PartnerModal({ open, onClose })"
+      ]
+    },
+    "jsx.placeholder.lorem": {
+      "file": "src/components/content/placeholder.js",
+      "lines": "1-2",
+      "mustContain": [
+        "// Neutral lorem-ipsum filler."
+      ]
+    },
+    "jsx.pricing": {
+      "file": "src/pages/Pricing.jsx",
+      "lines": "8-24",
+      "mustContain": [
+        "export default function Pricing()"
+      ]
+    },
+    "jsx.refer": {
+      "file": "src/pages/ReferAFriend.jsx",
+      "lines": "23-97",
+      "mustContain": [
+        "export default function ReferAFriend()"
+      ]
+    },
+    "jsx.scrollarea": {
+      "file": "src/components/ScrollArea.jsx",
+      "lines": "28-67",
+      "mustContain": [
+        "export default function ScrollArea()"
+      ]
+    },
+    "jsx.singleticker": {
+      "file": "src/components/conversion/SingleTicker.jsx",
+      "lines": "6-15",
+      "mustContain": [
+        "export default function SingleTicker({ logos, speed })"
+      ]
+    },
+    "jsx.slide": {
+      "file": "src/components/testimonials/Slide.jsx",
+      "lines": "40-66",
+      "mustContain": [
+        "export default function Slide("
+      ]
+    },
+    "jsx.stickyarea": {
+      "file": "src/components/conversion/StickyArea.jsx",
+      "lines": "35-74",
+      "mustContain": [
+        "export default function StickyArea({ kind, blocks })"
+      ]
+    },
+    "jsx.stories": {
+      "file": "src/components/CustomerStories.jsx",
+      "lines": "10-29",
+      "mustContain": [
+        "const FADE_MS = 120"
+      ]
+    },
+    "jsx.testimonials": {
+      "file": "src/components/Testimonials.jsx",
+      "lines": "17-46",
+      "mustContain": [
+        "export default function Testimonials()"
+      ]
+    },
+    "jsx.testimonials.data": {
+      "file": "src/components/testimonials/data.js",
+      "lines": "2-13",
+      "mustContain": [
+        "export const TESTIMONIALS = [",
+        "name: 'Kylah Field'"
+      ]
+    },
+    "jsx.testimonials.duration": {
+      "file": "src/components/Testimonials.jsx",
+      "lines": "7",
+      "mustContain": [
+        "const DURATION_MS = 300"
+      ]
+    },
+    "jsx.ticker": {
+      "file": "src/components/hero/LogoTicker.jsx",
+      "lines": "3-7",
+      "mustContain": [
+        "const SPEED = 30",
+        "px/s"
+      ]
+    },
+    "jsx.tile": {
+      "file": "src/components/integrations/IntegrationTile.jsx",
+      "lines": "2-7",
+      "mustContain": [
+        "export default function IntegrationTile("
+      ]
+    },
+    "jsx.wall.placeholder": {
+      "file": "src/components/company/customersData.js",
+      "lines": "47",
+      "mustContain": [
+        "// U3 wall of love. icon: FA6 Brands codepoint. Quotes are length-matched placeholders (see filler.js)."
+      ]
+    },
+    "spec.a1": {
+      "file": "specs/company.md",
+      "lines": "40-46",
+      "mustContain": [
+        "## A1. Hero — NEW"
+      ]
+    },
+    "spec.a2": {
+      "file": "specs/company.md",
+      "lines": "46-63",
+      "mustContain": [
+        "## A2. Horizontal scroll story"
+      ]
+    },
+    "spec.a3": {
+      "file": "specs/company.md",
+      "lines": "63-82",
+      "mustContain": [
+        "## A3. \"Our team\" (Feedback) — NEW"
+      ]
+    },
+    "spec.a4": {
+      "file": "specs/company.md",
+      "lines": "82-100",
+      "mustContain": [
+        "## A4. \"Backed by great partners\""
+      ]
+    },
+    "spec.a5": {
+      "file": "specs/company.md",
+      "lines": "100-103",
+      "mustContain": [
+        "## A5. Main CTA — VARIANT of `MainCta`"
+      ]
+    },
+    "spec.ailab.eventcard": {
+      "file": "specs/product-b.md",
+      "lines": "420-426",
+      "mustContain": [
+        "- Upcoming events row at y 644",
+        "\"Past Event\" cards **364x304**"
+      ]
+    },
+    "spec.announcement": {
+      "file": "CLONE_SPEC.md",
+      "lines": "78-82",
+      "mustContain": [
+        "### Announcement bar (`<a href=\"https://www.siena.cx/blog/siena-raises-17m-series-a\">`)"
+      ]
+    },
+    "spec.c1": {
+      "file": "specs/company.md",
+      "lines": "112-121",
+      "mustContain": [
+        "## C1. Hero — NEW (structure like homepage hero minus images/tickers)"
+      ]
+    },
+    "spec.c2": {
+      "file": "specs/company.md",
+      "lines": "121-135",
+      "mustContain": [
+        "## C2. \"Creators and doers\" founders letter"
+      ]
+    },
+    "spec.c3": {
+      "file": "specs/company.md",
+      "lines": "135-152",
+      "mustContain": [
+        "## C3. \"Why people build here\" — NEW"
+      ]
+    },
+    "spec.c4": {
+      "file": "specs/company.md",
+      "lines": "152-168",
+      "mustContain": [
+        "## C4. \"How we work\" — NEW"
+      ]
+    },
+    "spec.c5": {
+      "file": "specs/company.md",
+      "lines": "168-189",
+      "mustContain": [
+        "## C5. \"Explore our open roles\""
+      ]
+    },
+    "spec.c6": {
+      "file": "specs/company.md",
+      "lines": "189-192",
+      "mustContain": [
+        "## C6. Main CTA — VARIANT of `MainCta`"
+      ]
+    },
+    "spec.careers.photo": {
+      "file": "specs/company.md",
+      "lines": "132",
+      "mustContain": [
+        "Motion: the photo card has appear id 1golsxi",
+        "cubic-bezier(0.94,0,0,1)"
+      ]
+    },
+    "spec.chat.entrance": {
+      "file": "CLONE_SPEC.md",
+      "lines": "185",
+      "mustContain": [
+        "Message entrance per variant (rAF-measured)",
+        "cubic-bezier(.22,1,.36,1)",
+        "cubic-bezier(.34,1.2,.64,1)"
+      ]
+    },
+    "spec.chat.gradient": {
+      "file": "CLONE_SPEC.md",
+      "lines": "188",
+      "mustContain": [
+        "Siena (right, justify end): bubble wrapped in 2px gradient border",
+        "linear-gradient(255deg, #F2E59A 0%"
+      ]
+    },
+    "spec.chatmock": {
+      "file": "CLONE_SPEC.md",
+      "lines": "182-204",
+      "mustContain": [
+        "### Pillar switching (scroll-driven, discrete)"
+      ]
+    },
+    "spec.co.forms": {
+      "file": "specs/company.md",
+      "lines": "23",
+      "mustContain": [
+        "Forms on /community, /events, /partner-with-siena, /refer-a-friend are **native Framer forms**",
+        "clone as static look-alike forms"
+      ]
+    },
+    "spec.co.nav": {
+      "file": "specs/company.md",
+      "lines": "25-32",
+      "mustContain": [
+        "## Global: Nav / Footer on these routes",
+        "**/careers**",
+        "**/about-us**"
+      ]
+    },
+    "spec.color.table": {
+      "file": "CLONE_SPEC.md",
+      "lines": "29-44",
+      "mustContain": [
+        "### Color tokens (measured)",
+        "| ink | `#122023`",
+        "| coral | `#F95040`",
+        "rainbow (button hover)"
+      ]
+    },
+    "spec.company.shorthands": {
+      "file": "specs/company.md",
+      "lines": "9-19",
+      "mustContain": [
+        "| shorthand | desktop (>=810) | phone (<810) |",
+        "**H1-hero**",
+        "**Body-serif**",
+        "**Btn-secondary-md (icon)**"
+      ]
+    },
+    "spec.compare.table": {
+      "file": "specs/conversion.md",
+      "lines": "196-197",
+      "mustContain": [
+        "`table { width:100%; table-layout:fixed;",
+        "#EEEEEE",
+        "#555555"
+      ]
+    },
+    "spec.compare.ticker": {
+      "file": "specs/conversion.md",
+      "lines": "175",
+      "mustContain": [
+        "**Single logo ticker** (NOT the homepage two-row ticker)",
+        "left at 45 px/s"
+      ]
+    },
+    "spec.content.formbutton": {
+      "file": "specs/content.md",
+      "lines": "116",
+      "mustContain": [
+        "Form `<button>` (Submit / Sign me up!): → `linear-gradient(90deg, #F2E59A 0%, #FEC796 15.7658%"
+      ]
+    },
+    "spec.content.legaltype": {
+      "file": "specs/content.md",
+      "lines": "213-224",
+      "mustContain": [
+        "### T4.2 Legal typography",
+        "**`#0099FF`**",
+        "Tiempos Text Regular 400 **18px/23.4px ls −0.18px**"
+      ]
+    },
+    "spec.content.richtext": {
+      "file": "specs/content.md",
+      "lines": "183-194",
+      "mustContain": [
+        "### T3.4 Rich-text blocks — typography",
+        "Feature Deck **Condensed Web Regular** 400",
+        "**16px/19.2px, ls −0.16px**"
+      ]
+    },
+    "spec.conv.motion": {
+      "file": "specs/conversion.md",
+      "lines": "496-516",
+      "mustContain": [
+        "## 8. Motion & interaction summary (these pages)",
+        "**45 px/s**",
+        "**100ms linear**"
+      ]
+    },
+    "spec.convcard": {
+      "file": "specs/content.md",
+      "lines": "140-145",
+      "mustContain": [
+        "- Card (`<a>`): **519x356**"
+      ]
+    },
+    "spec.cv.1": {
+      "file": "specs/conversion.md",
+      "lines": "24-30",
+      "mustContain": [
+        "## 1. /pricing  (https://www.siena.cx/pricing)",
+        "**Nav: DIFFERENT from homepage.**"
+      ]
+    },
+    "spec.cv.1.2": {
+      "file": "specs/conversion.md",
+      "lines": "36-78",
+      "mustContain": [
+        "### 1.2 Hero — NEW"
+      ]
+    },
+    "spec.cv.1.2a": {
+      "file": "specs/conversion.md",
+      "lines": "49-78",
+      "mustContain": [
+        "#### 1.2a Form card + form (static look-alike; must not submit)"
+      ]
+    },
+    "spec.cv.1.3": {
+      "file": "specs/conversion.md",
+      "lines": "78-88",
+      "mustContain": [
+        "### 1.3 \"How does pricing work?\" — NEW"
+      ]
+    },
+    "spec.cv.1.4": {
+      "file": "specs/conversion.md",
+      "lines": "88-96",
+      "mustContain": [
+        "### 1.4 Testimonials — VARIANT of homepage `Testimonials`"
+      ]
+    },
+    "spec.cv.1.5": {
+      "file": "specs/conversion.md",
+      "lines": "96-108",
+      "mustContain": [
+        "### 1.5 Enterprise-grade safety — NEW"
+      ]
+    },
+    "spec.cv.2": {
+      "file": "specs/conversion.md",
+      "lines": "128-134",
+      "mustContain": [
+        "## 2. /book-a-demo  (https://www.siena.cx/book-a-demo)"
+      ]
+    },
+    "spec.cv.2.3": {
+      "file": "specs/conversion.md",
+      "lines": "145-149",
+      "mustContain": [
+        "### 2.3 Testimonials — VARIANT of homepage `Testimonials`"
+      ]
+    },
+    "spec.cv.3": {
+      "file": "specs/conversion.md",
+      "lines": "159-166",
+      "mustContain": [
+        "## 3. Compare template",
+        "Section stack (Gorgias 1440)"
+      ]
+    },
+    "spec.cv.3.1": {
+      "file": "specs/conversion.md",
+      "lines": "167-179",
+      "mustContain": [
+        "### 3.1 Hero — VARIANT of homepage `Hero`"
+      ]
+    },
+    "spec.cv.3.12": {
+      "file": "specs/conversion.md",
+      "lines": "284-285",
+      "mustContain": [
+        "### 3.12 Mobile section order (390) — differs from desktop"
+      ]
+    },
+    "spec.cv.3.2": {
+      "file": "specs/conversion.md",
+      "lines": "179-192",
+      "mustContain": [
+        "### 3.2 Testimonials — VARIANT of homepage `Testimonials` (Gorgias version)"
+      ]
+    },
+    "spec.cv.3.3": {
+      "file": "specs/conversion.md",
+      "lines": "192-213",
+      "mustContain": [
+        "### 3.3 Comparison table — NEW"
+      ]
+    },
+    "spec.cv.3.4": {
+      "file": "specs/conversion.md",
+      "lines": "213-215",
+      "mustContain": [
+        "### 3.4 \"The *intelligence* layer for commerce\" title"
+      ]
+    },
+    "spec.cv.3.5": {
+      "file": "specs/conversion.md",
+      "lines": "217-244",
+      "mustContain": [
+        "### 3.5 Sticky scroll area — VARIANT of homepage `ScrollArea` (4 blocks instead of 3)"
+      ]
+    },
+    "spec.cv.3.7": {
+      "file": "specs/conversion.md",
+      "lines": "247-260",
+      "mustContain": [
+        "### 3.7 Integrations — VARIANT of homepage `Integrations`"
+      ]
+    },
+    "spec.cv.3.8": {
+      "file": "specs/conversion.md",
+      "lines": "260-272",
+      "mustContain": [
+        "### 3.8 FAQ — NEW (accordion)"
+      ]
+    },
+    "spec.cv.3.9": {
+      "file": "specs/conversion.md",
+      "lines": "272-275",
+      "mustContain": [
+        "### 3.9 Main CTA — VARIANT of homepage `MainCta`"
+      ]
+    },
+    "spec.cv.6": {
+      "file": "specs/conversion.md",
+      "lines": "376-382",
+      "mustContain": [
+        "## 6. /ai-native-customer-service-vs-help-desk-ai-add-ons"
+      ]
+    },
+    "spec.cv.6.1": {
+      "file": "specs/conversion.md",
+      "lines": "384-397",
+      "mustContain": [
+        "### 6.1 Hero — VARIANT of homepage `Hero`"
+      ]
+    },
+    "spec.cv.6.2": {
+      "file": "specs/conversion.md",
+      "lines": "397-418",
+      "mustContain": [
+        "### 6.2 Sticky scroll area — VARIANT of homepage `ScrollArea`"
+      ]
+    },
+    "spec.cv.6.3": {
+      "file": "specs/conversion.md",
+      "lines": "418-419",
+      "mustContain": [
+        "### 6.3 Metrics — VARIANT of homepage `Metrics`"
+      ]
+    },
+    "spec.cv.6.4": {
+      "file": "specs/conversion.md",
+      "lines": "421-433",
+      "mustContain": [
+        "### 6.4 Features — VARIANT of homepage `Features`"
+      ]
+    },
+    "spec.cv.6.7": {
+      "file": "specs/conversion.md",
+      "lines": "437-455",
+      "mustContain": [
+        "### 6.7 Mobile (390)",
+        "**Empty white block (5408–6408):**"
+      ]
+    },
+    "spec.e1": {
+      "file": "specs/company.md",
+      "lines": "324-326",
+      "mustContain": [
+        "## E1. Title — VARIANT of the /customers hero title (U1)"
+      ]
+    },
+    "spec.e2": {
+      "file": "specs/company.md",
+      "lines": "328-331",
+      "mustContain": [
+        "## E2. Events list — NEW"
+      ]
+    },
+    "spec.e3": {
+      "file": "specs/company.md",
+      "lines": "333-344",
+      "mustContain": [
+        "## E3. Newsletter signup — NEW"
+      ]
+    },
+    "spec.enterprise.cards": {
+      "file": "specs/conversion.md",
+      "lines": "100-105",
+      "mustContain": [
+        "  - Cards row: flex row, **gap 24px**, 4 cards **250x304**"
+      ]
+    },
+    "spec.eyebrow.h2": {
+      "file": "CLONE_SPEC.md",
+      "lines": "136-137",
+      "mustContain": [
+        "Eyebrow \"CUSTOMER STORIES\": Instrument Sans **600, 16px / 22.4px",
+        "64px / 64px, ls −1.28px"
+      ]
+    },
+    "spec.faq.behavior": {
+      "file": "specs/conversion.md",
+      "lines": "269",
+      "mustContain": [
+        "**Animation (rAF-measured):** starts ~0–20ms after click",
+        "≈100ms"
+      ]
+    },
+    "spec.faq.item": {
+      "file": "specs/conversion.md",
+      "lines": "264-267",
+      "mustContain": [
+        "  - Item: `overflow:hidden; border-bottom: 3px solid rgba(0,0,0,0.2)`"
+      ]
+    },
+    "spec.featurecard": {
+      "file": "CLONE_SPEC.md",
+      "lines": "265-271",
+      "mustContain": [
+        "- Two card variants:",
+        "**withPading**",
+        "**withoutPading**"
+      ]
+    },
+    "spec.featureitem": {
+      "file": "specs/company.md",
+      "lines": "154-157",
+      "mustContain": [
+        "- Grid max-width 1200: `repeat(3, 378.66px)`, **row-gap 64, column-gap 32**",
+        "border-top 1px solid rgba(0,0,0,0.2)"
+      ]
+    },
+    "spec.features": {
+      "file": "CLONE_SPEC.md",
+      "lines": "260-282",
+      "mustContain": [
+        "## 7. Features — \"The agentic commerce platform\""
+      ]
+    },
+    "spec.features.card": {
+      "file": "CLONE_SPEC.md",
+      "lines": "264",
+      "mustContain": [
+        "Grid: wrapper 1248 wide (max 1328)",
+        "radius **24px**"
+      ]
+    },
+    "spec.footer": {
+      "file": "CLONE_SPEC.md",
+      "lines": "305-322",
+      "mustContain": [
+        "## 10. Footer (1440: y 10595, height 434)",
+        "PARTNERS"
+      ]
+    },
+    "spec.footer.links": {
+      "file": "CLONE_SPEC.md",
+      "lines": "314",
+      "mustContain": [
+        "Link: Instrument Sans **500 16px / 16px**, color **`rgba(255,255,255,0.5)`**; **hover color `#97BDFF`**"
+      ]
+    },
+    "spec.form.fields": {
+      "file": "specs/company.md",
+      "lines": "302",
+      "mustContain": [
+        "Field = `<label>` flex column gap **6**",
+        "`#CDBCA0`",
+        "**`#A7A092`**"
+      ]
+    },
+    "spec.form.ring": {
+      "file": "specs/company.md",
+      "lines": "299",
+      "mustContain": [
+        "Right: **form card** 583x596 (max 640): outer = gradient ring, padding **3px**, radius **18**",
+        "linear-gradient(45deg, #F2E59A 0%"
+      ]
+    },
+    "spec.form.states": {
+      "file": "specs/company.md",
+      "lines": "313",
+      "mustContain": [
+        "**States (measured):** focus → wrapper border color **`#0099FF`**",
+        "linear-gradient(90deg, #F2E59A 0%, #FEC796 15.77%"
+      ]
+    },
+    "spec.global.breakpoints": {
+      "file": "CLONE_SPEC.md",
+      "lines": "13",
+      "mustContain": [
+        "Framer breakpoints (from `__framer__breakpoints`)",
+        "Desktop `min-width:1200px`",
+        "max-width:809.98px",
+        "max-width:767.98px"
+      ]
+    },
+    "spec.global.layout": {
+      "file": "CLONE_SPEC.md",
+      "lines": "14",
+      "mustContain": [
+        "Page width at 1440: content is full-bleed sections with **96px horizontal padding**"
+      ]
+    },
+    "spec.hero": {
+      "file": "CLONE_SPEC.md",
+      "lines": "110-132",
+      "mustContain": [
+        "## 2. Hero (1440: 0–900)",
+        "**Logo tickers** (part of hero)"
+      ]
+    },
+    "spec.hero.mobile": {
+      "file": "CLONE_SPEC.md",
+      "lines": "344-350",
+      "mustContain": [
+        "### Hero (mobile)",
+        "**Different H1 copy on mobile: \"Empathic AI CX agents designed for commerce\"**"
+      ]
+    },
+    "spec.hero.type": {
+      "file": "CLONE_SPEC.md",
+      "lines": "114-116",
+      "mustContain": [
+        "H1 \"The AI CX operating system for consumer brands\"",
+        "80px / 80px, letter-spacing −0.8px",
+        "500, 20px / 28px, ls −0.2px",
+        "600 18px / 21.6px"
+      ]
+    },
+    "spec.home.order": {
+      "file": "CLONE_SPEC.md",
+      "lines": "17-27",
+      "mustContain": [
+        "| Section | y | h | bg | padding | gap |",
+        "| Main CTA | 9840 | 755 |",
+        "| Footer | 10595 | 434 |"
+      ]
+    },
+    "spec.hscroll.mapping": {
+      "file": "specs/company.md",
+      "lines": "49",
+      "mustContain": [
+        "**Scroll mapping (measured):**",
+        "≈**550ms**"
+      ]
+    },
+    "spec.insights.select": {
+      "file": "specs/content.md",
+      "lines": "108",
+      "mustContain": [
+        "Select wrapper: **56 tall**, radius **15**"
+      ]
+    },
+    "spec.integrations": {
+      "file": "CLONE_SPEC.md",
+      "lines": "282-295",
+      "mustContain": [
+        "## 8. Integrations (1440: y≈9064, height 776)"
+      ]
+    },
+    "spec.integrations.tile": {
+      "file": "CLONE_SPEC.md",
+      "lines": "288",
+      "mustContain": [
+        "Tile: bg `#F3F0EB`, radius **4px**, padding `72px 0`"
+      ]
+    },
+    "spec.lead.textfield": {
+      "file": "specs/conversion.md",
+      "lines": "56-61",
+      "mustContain": [
+        "- **Text field** (Full name / Work email / Brand website):"
+      ]
+    },
+    "spec.leadform.dropdown": {
+      "file": "specs/conversion.md",
+      "lines": "65",
+      "mustContain": [
+        "Open state: button ring `inset 0 0 0 1px #0099FF`. **Panel**",
+        "rgba(18,32,35,.15) 0 10px 30px 0"
+      ]
+    },
+    "spec.leadform.label": {
+      "file": "specs/conversion.md",
+      "lines": "59",
+      "mustContain": [
+        "**Floating label** (span, left 16px)",
+        "cubic-bezier(.4,0,.2,1)",
+        "**`#57524A`**"
+      ]
+    },
+    "spec.lottie": {
+      "file": "CLONE_SPEC.md",
+      "lines": "278",
+      "mustContain": [
+        "**Lottie playback (from Framer Lottie component source + JSON):**"
+      ]
+    },
+    "spec.m1": {
+      "file": "specs/company.md",
+      "lines": "291-320",
+      "mustContain": [
+        "## M1. Hero + \"Request an invite\" form — NEW"
+      ]
+    },
+    "spec.maincta": {
+      "file": "CLONE_SPEC.md",
+      "lines": "295-305",
+      "mustContain": [
+        "## 9. Main CTA (1440: y≈9840, height 755)"
+      ]
+    },
+    "spec.maincta.card": {
+      "file": "CLONE_SPEC.md",
+      "lines": "300",
+      "mustContain": [
+        "Card: max-width **1062** (1062x355), bg **`#F3F0EB`**, radius **48px**, padding **64px**"
+      ]
+    },
+    "spec.megamenu.panel": {
+      "file": "CLONE_SPEC.md",
+      "lines": "99-105",
+      "mustContain": [
+        "Products panel: 3 columns of 379px",
+        "\"Coming soon\"",
+        "Menu Footer"
+      ]
+    },
+    "spec.metrics.counter": {
+      "file": "CLONE_SPEC.md",
+      "lines": "224",
+      "mustContain": [
+        "**Count-up (from the Framer component source, exact props):**",
+        "from: 25, to: 80, duration: 1.5s"
+      ]
+    },
+    "spec.metrics.section": {
+      "file": "CLONE_SPEC.md",
+      "lines": "208-224",
+      "mustContain": [
+        "## 5. Metrics (1440: y≈4600, height 852)"
+      ]
+    },
+    "spec.metrics.type": {
+      "file": "CLONE_SPEC.md",
+      "lines": "216",
+      "mustContain": [
+        "Counter: Feature Deck Condensed Web Regular 400, **260px",
+        "390px"
+      ]
+    },
+    "spec.mobile.nav": {
+      "file": "CLONE_SPEC.md",
+      "lines": "338-342",
+      "mustContain": [
+        "### Mobile nav (fixed, full width 390",
+        "Opened state (height 587"
+      ]
+    },
+    "spec.mobile.scrollarea": {
+      "file": "CLONE_SPEC.md",
+      "lines": "357-361",
+      "mustContain": [
+        "### Scroll Area (mobile, static — no pinning)"
+      ]
+    },
+    "spec.mobile.sections": {
+      "file": "CLONE_SPEC.md",
+      "lines": "326-336",
+      "mustContain": [
+        "| Section | y | h | padding | gap | notes |",
+        "| Scroll Area | 1897 | 3140 |"
+      ]
+    },
+    "spec.mobile.star": {
+      "file": "CLONE_SPEC.md",
+      "lines": "339",
+      "mustContain": [
+        "Star rotates **clockwise at ~36°/s (10s per turn), linear, infinite**"
+      ]
+    },
+    "spec.mobile.type": {
+      "file": "CLONE_SPEC.md",
+      "lines": "324",
+      "mustContain": [
+        "Document height at 390: **13534px**",
+        "H2 **48px / 48px, ls −0.96px**"
+      ]
+    },
+    "spec.motion.appear": {
+      "file": "CLONE_SPEC.md",
+      "lines": "64-70",
+      "mustContain": [
+        "### Global motion primitive (Framer \"appear\" / scroll reveal)",
+        "duration: 0.7s",
+        "cubic-bezier(0, 0.91, 0.14, 0.85)",
+        "cubic-bezier(0, 0.91, 0.78, 1)"
+      ]
+    },
+    "spec.motion.summary": {
+      "file": "CLONE_SPEC.md",
+      "lines": "400-420",
+      "mustContain": [
+        "## 13. Interaction & motion summary (quick reference)",
+        "| Metric counter |",
+        "| Mobile banner star |"
+      ]
+    },
+    "spec.nav.megamenu": {
+      "file": "CLONE_SPEC.md",
+      "lines": "98",
+      "mustContain": [
+        "Timing (rAF): pill height animates 64→491",
+        "cubic-bezier(.2,.8,.2,1)"
+      ]
+    },
+    "spec.nav.scrolled": {
+      "file": "CLONE_SPEC.md",
+      "lines": "87-89",
+      "mustContain": [
+        "Scrolled state (switches between scrollY 150–160",
+        "rgba(0,0,0,0.22) 0px 0.602px 1.325px -1.583px",
+        "~250ms ease-in-out"
+      ]
+    },
+    "spec.navlink.hover": {
+      "file": "CLONE_SPEC.md",
+      "lines": "407",
+      "mustContain": [
+        "| Nav link (Customers etc.) | hover |"
+      ]
+    },
+    "spec.p1": {
+      "file": "specs/company.md",
+      "lines": "348-366",
+      "mustContain": [
+        "## P1. Hero + \"Why partner with Siena?\" benefits card"
+      ]
+    },
+    "spec.p2": {
+      "file": "specs/company.md",
+      "lines": "366-374",
+      "mustContain": [
+        "## P2. \"Backed by best-in-class partners\" logo grids"
+      ]
+    },
+    "spec.p3": {
+      "file": "specs/company.md",
+      "lines": "374-390",
+      "mustContain": [
+        "## P3. Partner testimonials slider"
+      ]
+    },
+    "spec.p4": {
+      "file": "specs/company.md",
+      "lines": "390-393",
+      "mustContain": [
+        "## P4. CTA — VARIANT of `MainCta`"
+      ]
+    },
+    "spec.p5": {
+      "file": "specs/company.md",
+      "lines": "395-422",
+      "mustContain": [
+        "## P5. \"Join our partner program\" modal form"
+      ]
+    },
+    "spec.pa.0": {
+      "file": "specs/product-a.md",
+      "lines": "17-58",
+      "mustContain": [
+        "## 0. Cross-page notes (apply to all 6 routes)"
+      ]
+    },
+    "spec.pa.1.1": {
+      "file": "specs/product-a.md",
+      "lines": "66-88",
+      "mustContain": [
+        "### 1.1 Hero — NEW (two-column; tickers = homepage ticker, IDENTICAL content)"
+      ]
+    },
+    "spec.pa.1.3": {
+      "file": "specs/product-a.md",
+      "lines": "97-101",
+      "mustContain": [
+        "### 1.3 Section title block — NEW"
+      ]
+    },
+    "spec.pa.1.4": {
+      "file": "specs/product-a.md",
+      "lines": "104-123",
+      "mustContain": [
+        "### 1.4 Scroll Area (sticky, 3 steps)"
+      ]
+    },
+    "spec.pa.1.5": {
+      "file": "specs/product-a.md",
+      "lines": "123-141",
+      "mustContain": [
+        "### 1.5 \"Your team of expert agents\" — NEW"
+      ]
+    },
+    "spec.pa.1.6": {
+      "file": "specs/product-a.md",
+      "lines": "141-152",
+      "mustContain": [
+        "### 1.6 \"Content display (Timer)\" — NEW"
+      ]
+    },
+    "spec.pa.2.1": {
+      "file": "specs/product-a.md",
+      "lines": "169-186",
+      "mustContain": [
+        "### 2.1 Hero — NEW (\"ProductHeroSplit\""
+      ]
+    },
+    "spec.pa.2.2": {
+      "file": "specs/product-a.md",
+      "lines": "186-188",
+      "mustContain": [
+        "### 2.2 Logos (tickers) — IDENTICAL ticker content; VARIANT container"
+      ]
+    },
+    "spec.pa.2.3": {
+      "file": "specs/product-a.md",
+      "lines": "190-224",
+      "mustContain": [
+        "### 2.3 Features — NEW (title + sticky section pill-nav + 6 stacked feature blocks)"
+      ]
+    },
+    "spec.pa.2.4": {
+      "file": "specs/product-a.md",
+      "lines": "224-233",
+      "mustContain": [
+        "### 2.4 \"More in the box\" bento — NEW"
+      ]
+    },
+    "spec.pa.2.5": {
+      "file": "specs/product-a.md",
+      "lines": "233-240",
+      "mustContain": [
+        "### 2.5 FAQ — NEW (reusable \"Faq\" accordion)"
+      ]
+    },
+    "spec.pa.2.6": {
+      "file": "specs/product-a.md",
+      "lines": "240-245",
+      "mustContain": [
+        "### 2.6 Integrations — VARIANT of homepage Integrations"
+      ]
+    },
+    "spec.pa.2.7": {
+      "file": "specs/product-a.md",
+      "lines": "245-252",
+      "mustContain": [
+        "### 2.7 Enterprise — NEW (reused on ask-siena; see §6)"
+      ]
+    },
+    "spec.pa.2.8": {
+      "file": "specs/product-a.md",
+      "lines": "252-254",
+      "mustContain": [
+        "### 2.8 Main CTA — VARIANT of homepage MainCta"
+      ]
+    },
+    "spec.pa.3.3": {
+      "file": "specs/product-a.md",
+      "lines": "286-301",
+      "mustContain": [
+        "### 3.3 Features + sticky Scroll Area — VARIANT of homepage ScrollArea"
+      ]
+    },
+    "spec.pa.3.4": {
+      "file": "specs/product-a.md",
+      "lines": "301-306",
+      "mustContain": [
+        "### 3.4 Testimonials — homepage Testimonials **slider content IDENTICAL**"
+      ]
+    },
+    "spec.pa.3.5": {
+      "file": "specs/product-a.md",
+      "lines": "306-321",
+      "mustContain": [
+        "### 3.5 \"Content display (Timer)\" — NEW (auto-advancing 3-item feature list with progress bars)"
+      ]
+    },
+    "spec.pa.3.6": {
+      "file": "specs/product-a.md",
+      "lines": "321-327",
+      "mustContain": [
+        "### 3.6 Integrations + bento"
+      ]
+    },
+    "spec.pa.4.10": {
+      "file": "specs/product-a.md",
+      "lines": "392",
+      "mustContain": [
+        "### 4.10 FAQ — VARIANT of §2.5 Faq"
+      ]
+    },
+    "spec.pa.4.11": {
+      "file": "specs/product-a.md",
+      "lines": "394",
+      "mustContain": [
+        "### 4.11 Main CTA — VARIANT: heading **\"Make your customer experience AI-native\"**"
+      ]
+    },
+    "spec.pa.4.3": {
+      "file": "specs/product-a.md",
+      "lines": "352-359",
+      "mustContain": [
+        "### 4.3 Complete Coverage — NEW"
+      ]
+    },
+    "spec.pa.4.4": {
+      "file": "specs/product-a.md",
+      "lines": "359",
+      "mustContain": [
+        "### 4.4 Testimonial A — VARIANT (§0)"
+      ]
+    },
+    "spec.pa.4.5": {
+      "file": "specs/product-a.md",
+      "lines": "361-368",
+      "mustContain": [
+        "### 4.5 Leaderboard — NEW"
+      ]
+    },
+    "spec.pa.4.6": {
+      "file": "specs/product-a.md",
+      "lines": "368-376",
+      "mustContain": [
+        "### 4.6 \"Act on what matters\""
+      ]
+    },
+    "spec.pa.4.7": {
+      "file": "specs/product-a.md",
+      "lines": "376-383",
+      "mustContain": [
+        "### 4.7 \"Turn your quality data into answers\""
+      ]
+    },
+    "spec.pa.4.8": {
+      "file": "specs/product-a.md",
+      "lines": "383-390",
+      "mustContain": [
+        "### 4.8 Before / With Siena — NEW"
+      ]
+    },
+    "spec.pa.5.1": {
+      "file": "specs/product-a.md",
+      "lines": "409-419",
+      "mustContain": [
+        "### 5.1 Hero — VARIANT of split hero (§2.1)"
+      ]
+    },
+    "spec.pa.5.3": {
+      "file": "specs/product-a.md",
+      "lines": "421-429",
+      "mustContain": [
+        "### 5.3 Features — NEW (2 alternating text/visual rows"
+      ]
+    },
+    "spec.pa.5.6": {
+      "file": "specs/product-a.md",
+      "lines": "435-443",
+      "mustContain": [
+        "### 5.6 Alerts — NEW (reuses qa §4.6 card style)"
+      ]
+    },
+    "spec.pa.5.7": {
+      "file": "specs/product-a.md",
+      "lines": "443-448",
+      "mustContain": [
+        "### 5.7 Comparison — VARIANT of qa §4.8 Before/With Siena"
+      ]
+    },
+    "spec.pa.6.1": {
+      "file": "specs/product-a.md",
+      "lines": "464-471",
+      "mustContain": [
+        "### 6.1 Hero — NEW variant of split hero"
+      ]
+    },
+    "spec.pa.6.10": {
+      "file": "specs/product-a.md",
+      "lines": "527",
+      "mustContain": [
+        "### 6.10 Enterprise — VARIANT of §2.7"
+      ]
+    },
+    "spec.pa.6.3": {
+      "file": "specs/product-a.md",
+      "lines": "473-477",
+      "mustContain": [
+        "### 6.3 Sticky chip nav — NEW"
+      ]
+    },
+    "spec.pa.6.4": {
+      "file": "specs/product-a.md",
+      "lines": "477-491",
+      "mustContain": [
+        "### 6.4 Features A (\"Your partner in building agents\")"
+      ]
+    },
+    "spec.pa.6.5": {
+      "file": "specs/product-a.md",
+      "lines": "491-497",
+      "mustContain": [
+        "### 6.5 Features B (skills library + workspace) — NEW"
+      ]
+    },
+    "spec.pa.6.6": {
+      "file": "specs/product-a.md",
+      "lines": "497-508",
+      "mustContain": [
+        "### 6.6 Key Capabilities"
+      ]
+    },
+    "spec.pa.6.7": {
+      "file": "specs/product-a.md",
+      "lines": "508-518",
+      "mustContain": [
+        "### 6.7 Playbooks — NEW carousel"
+      ]
+    },
+    "spec.pa.6.8": {
+      "file": "specs/product-a.md",
+      "lines": "518-524",
+      "mustContain": [
+        "### 6.8 \"Ask Siena lives in Slack\" — NEW"
+      ]
+    },
+    "spec.pa.8": {
+      "file": "specs/product-a.md",
+      "lines": "633-653",
+      "mustContain": [
+        "## 8. New reusable components introduced by these pages"
+      ]
+    },
+    "spec.pa.9": {
+      "file": "specs/product-a.md",
+      "lines": "653-656",
+      "mustContain": [
+        "## 9. Things Playwright could not measure exactly (explicit)",
+        "WebGL `<canvas>`"
+      ]
+    },
+    "spec.pa.criteria-ticker": {
+      "file": "specs/product-a.md",
+      "lines": "356",
+      "mustContain": [
+        "**Criteria gallery ticker:**",
+        "**left at 35 px/s**"
+      ]
+    },
+    "spec.pa.order.ask": {
+      "file": "specs/product-a.md",
+      "lines": "462",
+      "mustContain": [
+        "Section order @1440 (y/h): Hero 0/800 · Logos block 800/176"
+      ]
+    },
+    "spec.pa.order.qa": {
+      "file": "specs/product-a.md",
+      "lines": "339-340",
+      "mustContain": [
+        "Section order @1440 (y/h): Hero 0/744 · Logos 744/96 · Complete Coverage 840/864",
+        "**Mobile order differs:**"
+      ]
+    },
+    "spec.pa.order.reviews": {
+      "file": "specs/product-a.md",
+      "lines": "267",
+      "mustContain": [
+        "Section order @1440: Hero 0/752 · Logos 752/96 · Features (title + sticky Scroll Area) 848/3134"
+      ]
+    },
+    "spec.pa.order.shopping": {
+      "file": "specs/product-a.md",
+      "lines": "63",
+      "mustContain": [
+        "Section order @1440 (y / h): Hero 0/1026 · Testimonial 1026/868 · Title block 1894/190"
+      ]
+    },
+    "spec.pa.order.social": {
+      "file": "specs/product-a.md",
+      "lines": "167",
+      "mustContain": [
+        "Section order @1440 (y/h): Hero 0/752 · Logos 752/96 · Features 848/8291"
+      ]
+    },
+    "spec.pa.order.topics": {
+      "file": "specs/product-a.md",
+      "lines": "406-407",
+      "mustContain": [
+        "Section order @1440 (y/h): Hero 0/760 · Logos 760/96 · Features 856/2158",
+        "**Mobile order differs:**"
+      ]
+    },
+    "spec.pa.pillhighlight": {
+      "file": "specs/product-a.md",
+      "lines": "193",
+      "mustContain": [
+        "**Sticky pill nav** wrapper: `position: sticky; top: 128px; z 5`"
+      ]
+    },
+    "spec.pa.rainbow255": {
+      "file": "specs/product-a.md",
+      "lines": "13",
+      "mustContain": [
+        "\"RAINBOW255\" = `linear-gradient(255deg, #F2E59A 0%"
+      ]
+    },
+    "spec.pa.testimonialcard": {
+      "file": "specs/product-a.md",
+      "lines": "34-40",
+      "mustContain": [
+        "### Testimonial card (\"Testimonials\" sections on product pages)"
+      ]
+    },
+    "spec.pa.timer": {
+      "file": "specs/product-a.md",
+      "lines": "318",
+      "mustContain": [
+        "**Timer:** the active item's progress bar grows linearly 0 → 406px over **≈9s**"
+      ]
+    },
+    "spec.pa.typewriter": {
+      "file": "specs/product-a.md",
+      "lines": "468",
+      "mustContain": [
+        "Typewriter (measured): types **≈65ms/char**",
+        "deletes **≈17ms/char**"
+      ]
+    },
+    "spec.pb.0": {
+      "file": "specs/product-b.md",
+      "lines": "10-29",
+      "mustContain": [
+        "## 0. Shared notes for all six routes"
+      ]
+    },
+    "spec.pb.1": {
+      "file": "specs/product-b.md",
+      "lines": "29-32",
+      "mustContain": [
+        "## 1. /memory",
+        "Section order (1440): Hero 0–900"
+      ]
+    },
+    "spec.pb.1.1": {
+      "file": "specs/product-b.md",
+      "lines": "34-45",
+      "mustContain": [
+        "### 1.1 Hero — NEW layout (reuses the product LogoTicker variant)"
+      ]
+    },
+    "spec.pb.1.2": {
+      "file": "specs/product-b.md",
+      "lines": "45-64",
+      "mustContain": [
+        "### 1.2 \"Feature 1\" (text left, chat mock right)"
+      ]
+    },
+    "spec.pb.1.3": {
+      "file": "specs/product-b.md",
+      "lines": "64-75",
+      "mustContain": [
+        "### 1.3 \"Feature 2\" (text left, image right)"
+      ]
+    },
+    "spec.pb.1.4": {
+      "file": "specs/product-b.md",
+      "lines": "75-86",
+      "mustContain": [
+        "### 1.4 \"How it works\" — VARIANT of homepage `Metrics` shell"
+      ]
+    },
+    "spec.pb.1.5": {
+      "file": "specs/product-b.md",
+      "lines": "86-122",
+      "mustContain": [
+        "### 1.5 \"Memory in action\" carousel + testimonial"
+      ]
+    },
+    "spec.pb.1.6": {
+      "file": "specs/product-b.md",
+      "lines": "122-126",
+      "mustContain": [
+        "### 1.6 CTA — VARIANT of `MainCta`"
+      ]
+    },
+    "spec.pb.2": {
+      "file": "specs/product-b.md",
+      "lines": "136-138",
+      "mustContain": [
+        "## 2. /video",
+        "Section order (1440): Hero 0–1216"
+      ]
+    },
+    "spec.pb.2.1": {
+      "file": "specs/product-b.md",
+      "lines": "146-163",
+      "mustContain": [
+        "### 2.1 Hero — NEW (centered text + animated video mock + logo ticker)"
+      ]
+    },
+    "spec.pb.2.2": {
+      "file": "specs/product-b.md",
+      "lines": "163-186",
+      "mustContain": [
+        "### 2.2 Features title + sticky Scroll Area — VARIANT of homepage `ScrollArea`"
+      ]
+    },
+    "spec.pb.2.3": {
+      "file": "specs/product-b.md",
+      "lines": "186-205",
+      "mustContain": [
+        "### 2.3 How it works — NEW (gallery animation + 3 columns like /memory 1.4)"
+      ]
+    },
+    "spec.pb.2.4": {
+      "file": "specs/product-b.md",
+      "lines": "205-210",
+      "mustContain": [
+        "### 2.4 CTA — homepage `MainCta` with no top fade"
+      ]
+    },
+    "spec.pb.3": {
+      "file": "specs/product-b.md",
+      "lines": "217-219",
+      "mustContain": [
+        "## 3. /order-tracking",
+        "Section order (1440): Hero 0–1251"
+      ]
+    },
+    "spec.pb.3.1": {
+      "file": "specs/product-b.md",
+      "lines": "222-247",
+      "mustContain": [
+        "### 3.1 Hero — NEW (centered text + rotating carrier orbits + chat)"
+      ]
+    },
+    "spec.pb.3.2": {
+      "file": "specs/product-b.md",
+      "lines": "247-250",
+      "mustContain": [
+        "### 3.2 Logo ticker — VARIANT of the product ticker (§0)"
+      ]
+    },
+    "spec.pb.3.3": {
+      "file": "specs/product-b.md",
+      "lines": "252-269",
+      "mustContain": [
+        "### 3.3 Features title + sticky Scroll Area — VARIANT of homepage `ScrollArea` (same as /video 2.2, 2 blocks)"
+      ]
+    },
+    "spec.pb.3.4": {
+      "file": "specs/product-b.md",
+      "lines": "269-282",
+      "mustContain": [
+        "### 3.4 \"Simplify your stack\" — NEW (text + animated pipeline)"
+      ]
+    },
+    "spec.pb.3.5": {
+      "file": "specs/product-b.md",
+      "lines": "282-298",
+      "mustContain": [
+        "### 3.5 FAQ — NEW (accordion)"
+      ]
+    },
+    "spec.pb.3.6": {
+      "file": "specs/product-b.md",
+      "lines": "298-300",
+      "mustContain": [
+        "### 3.6 CTA — IDENTICAL to homepage `MainCta` except the fade color"
+      ]
+    },
+    "spec.pb.4": {
+      "file": "specs/product-b.md",
+      "lines": "309-312",
+      "mustContain": [
+        "## 4. /products/docs",
+        "Section order (1440): Hero 0–1016"
+      ]
+    },
+    "spec.pb.4.1": {
+      "file": "specs/product-b.md",
+      "lines": "321-338",
+      "mustContain": [
+        "### 4.1 Hero — NEW"
+      ]
+    },
+    "spec.pb.4.2": {
+      "file": "specs/product-b.md",
+      "lines": "338-344",
+      "mustContain": [
+        "### 4.2 \"One home for everything your team knows.\""
+      ]
+    },
+    "spec.pb.4.3": {
+      "file": "specs/product-b.md",
+      "lines": "344-355",
+      "mustContain": [
+        "### 4.3 \"Change it once.\" — NEW"
+      ]
+    },
+    "spec.pb.4.4": {
+      "file": "specs/product-b.md",
+      "lines": "355-368",
+      "mustContain": [
+        "### 4.4 \"Built for the way modern brands actually work.\" bento — NEW"
+      ]
+    },
+    "spec.pb.4.5": {
+      "file": "specs/product-b.md",
+      "lines": "368-376",
+      "mustContain": [
+        "### 4.5 \"Your knowledge base, finally built for your agent.\" Before / With Siena — NEW"
+      ]
+    },
+    "spec.pb.4.6": {
+      "file": "specs/product-b.md",
+      "lines": "376-378",
+      "mustContain": [
+        "### 4.6 Testimonial — VARIANT of homepage `Testimonials` slide (single, static)"
+      ]
+    },
+    "spec.pb.4.7": {
+      "file": "specs/product-b.md",
+      "lines": "381-383",
+      "mustContain": [
+        "### 4.7 FAQ — the §3.5 `Faq` component with different width and items"
+      ]
+    },
+    "spec.pb.5": {
+      "file": "specs/product-b.md",
+      "lines": "399-400",
+      "mustContain": [
+        "## 5. /ai-lab"
+      ]
+    },
+    "spec.pb.5.0": {
+      "file": "specs/product-b.md",
+      "lines": "403-413",
+      "mustContain": [
+        "### 5.0 NAV — DIFFERENT on this page"
+      ]
+    },
+    "spec.pb.5.1": {
+      "file": "specs/product-b.md",
+      "lines": "413-429",
+      "mustContain": [
+        "### 5.1 Hero — NEW"
+      ]
+    },
+    "spec.pb.5.2": {
+      "file": "specs/product-b.md",
+      "lines": "429-438",
+      "mustContain": [
+        "### 5.2 Pixel tiles (decorative, all sections)"
+      ]
+    },
+    "spec.pb.5.3": {
+      "file": "specs/product-b.md",
+      "lines": "438-442",
+      "mustContain": [
+        "### 5.3 Intro — NEW"
+      ]
+    },
+    "spec.pb.5.4": {
+      "file": "specs/product-b.md",
+      "lines": "442-446",
+      "mustContain": [
+        "### 5.4 \"What is AI Lab\" — NEW"
+      ]
+    },
+    "spec.pb.5.5": {
+      "file": "specs/product-b.md",
+      "lines": "446-454",
+      "mustContain": [
+        "### 5.5 \"How it works\" 3 columns — NEW",
+        "**Live-site quirk:**"
+      ]
+    },
+    "spec.pb.5.6": {
+      "file": "specs/product-b.md",
+      "lines": "454-465",
+      "mustContain": [
+        "### 5.6 \"Become an AI practitioner\" (dark block) — NEW"
+      ]
+    },
+    "spec.pb.5.7": {
+      "file": "specs/product-b.md",
+      "lines": "465-469",
+      "mustContain": [
+        "### 5.7 \"From our last LAB\" — NEW"
+      ]
+    },
+    "spec.pb.5.8": {
+      "file": "specs/product-b.md",
+      "lines": "469-476",
+      "mustContain": [
+        "### 5.8 \"Who should attend?\" — NEW"
+      ]
+    },
+    "spec.pb.5.9": {
+      "file": "specs/product-b.md",
+      "lines": "476-485",
+      "mustContain": [
+        "### 5.9 Newsletter CTA — NEW (replaces MainCta on this page)"
+      ]
+    },
+    "spec.pb.6": {
+      "file": "specs/product-b.md",
+      "lines": "492-494",
+      "mustContain": [
+        "## 6. /roi-calculator",
+        "Section order: Hero + calculator 0–1013"
+      ]
+    },
+    "spec.pb.6.1": {
+      "file": "specs/product-b.md",
+      "lines": "497-508",
+      "mustContain": [
+        "### 6.1 Hero — NEW"
+      ]
+    },
+    "spec.pb.6.2": {
+      "file": "specs/product-b.md",
+      "lines": "508-564",
+      "mustContain": [
+        "### 6.2 ROI calculator — NEW (exact behaviour)",
+        "**Clone recommendation:** don't post to Siena's production HubSpot/n8n.",
+        "yearlyROI = totalSavings + sienaDrivenRevenue - 24000"
+      ]
+    },
+    "spec.pb.6.3": {
+      "file": "specs/product-b.md",
+      "lines": "564-570",
+      "mustContain": [
+        "### 6.3 Testimonials \"People are talking\" — VARIANT of homepage `Testimonials`",
+        "**390 (live quirk):**"
+      ]
+    },
+    "spec.pb.6.4": {
+      "file": "specs/product-b.md",
+      "lines": "570-571",
+      "mustContain": [
+        "### 6.4 CTA — VARIANT of `MainCta`"
+      ]
+    },
+    "spec.pb.7": {
+      "file": "specs/product-b.md",
+      "lines": "578-597",
+      "mustContain": [
+        "## 7. Reuse matrix (quick reference)"
+      ]
+    },
+    "spec.pb.autoplay": {
+      "file": "specs/product-b.md",
+      "lines": "91",
+      "mustContain": [
+        "`itemAmount: 4` visible, **gap 24**",
+        "**`intervalControl: 1.5`**"
+      ]
+    },
+    "spec.pb.lettermotion": {
+      "file": "specs/product-b.md",
+      "lines": "194",
+      "mustContain": [
+        "**The text animates per character:**",
+        "**stagger 0.05s per character**"
+      ]
+    },
+    "spec.pb.orbit": {
+      "file": "specs/product-b.md",
+      "lines": "231",
+      "mustContain": [
+        "**Inner orbit** \"Direction - Left\" 342x342",
+        "−18.0°/s"
+      ]
+    },
+    "spec.pb.reveal": {
+      "file": "specs/product-b.md",
+      "lines": "15",
+      "mustContain": [
+        "**Scroll-reveal primitive used on these pages**",
+        "bounce:0.2, duration:1",
+        "__framer__threshold:0.5"
+      ]
+    },
+    "spec.pb.ticker": {
+      "file": "specs/product-b.md",
+      "lines": "17-22",
+      "mustContain": [
+        "**Shared \"product\" logo ticker**",
+        "LEFT at 30 px/s",
+        "gap **64px**"
+      ]
+    },
+    "spec.pb.tiles": {
+      "file": "specs/product-b.md",
+      "lines": "436",
+      "mustContain": [
+        "**Motion (exact, page module):** each tile/photo is a scroll-reveal from `{opacity:0, y:150}`",
+        "**`animateOnce: false`**"
+      ]
+    },
+    "spec.pricing.enterprise": {
+      "file": "specs/conversion.md",
+      "lines": "97",
+      "mustContain": [
+        "Section \"Enterprise\": 1440x760, bg **`#122023`**, padding **96px**"
+      ]
+    },
+    "spec.pricing.header": {
+      "file": "specs/conversion.md",
+      "lines": "32-34",
+      "mustContain": [
+        "### 1.1 Header logo — NEW (tiny)"
+      ]
+    },
+    "spec.pricing.legal": {
+      "file": "specs/conversion.md",
+      "lines": "108-109",
+      "mustContain": [
+        "### 1.6 Legal row (page footer) — NEW"
+      ]
+    },
+    "spec.pricing.prev-button": {
+      "file": "specs/conversion.md",
+      "lines": "76",
+      "mustContain": [
+        "**Previous** (`Secondary / md`, 96x48, bg **`#F3F0EB`**",
+        "linear-gradient(90deg, #F7DD93 0%"
+      ]
+    },
+    "spec.r1": {
+      "file": "specs/company.md",
+      "lines": "426-445",
+      "mustContain": [
+        "## R1. Hero + \"Submit a referral\" form"
+      ]
+    },
+    "spec.r2": {
+      "file": "specs/company.md",
+      "lines": "445-455",
+      "mustContain": [
+        "## R2. \"How do I know who to refer?\" criteria"
+      ]
+    },
+    "spec.r3": {
+      "file": "specs/company.md",
+      "lines": "455-463",
+      "mustContain": [
+        "## R3. Testimonials — VARIANT of `Testimonials`"
+      ]
+    },
+    "spec.r4": {
+      "file": "specs/company.md",
+      "lines": "463-465",
+      "mustContain": [
+        "## R4. Main CTA — VARIANT"
+      ]
+    },
+    "spec.roles.panel": {
+      "file": "specs/company.md",
+      "lines": "177",
+      "mustContain": [
+        "Panel: `height 0 → auto` with `overflow:hidden; transition: height 240ms`"
+      ]
+    },
+    "spec.roles.row": {
+      "file": "specs/company.md",
+      "lines": "178",
+      "mustContain": [
+        "    - Role row `<a target=_blank>`"
+      ]
+    },
+    "spec.scrollarea": {
+      "file": "CLONE_SPEC.md",
+      "lines": "165-208",
+      "mustContain": [
+        "## 4. Sticky \"Scroll Area\" — 3 pillars + chat mock"
+      ]
+    },
+    "spec.slider.controls": {
+      "file": "CLONE_SPEC.md",
+      "lines": "139",
+      "mustContain": [
+        "Controls row (top, centered, 40px tall)",
+        "rgba(244,237,222,0.6)",
+        "stroke:#A7A092"
+      ]
+    },
+    "spec.springx": {
+      "file": "specs/company.md",
+      "lines": "314",
+      "mustContain": [
+        "Motion: the whole form card has an appear (id j8iu4u): **x 150→0",
+        "spring {duration 0.4, bounce 0.2}"
+      ]
+    },
+    "spec.stories": {
+      "file": "CLONE_SPEC.md",
+      "lines": "228-260",
+      "mustContain": [
+        "## 6. Customer Stories carousel (1440: y≈5453, height 1076)"
+      ]
+    },
+    "spec.stories.behavior": {
+      "file": "CLONE_SPEC.md",
+      "lines": "256",
+      "mustContain": [
+        "**Behavior (measured):** no autoplay (static for 9s+). Next/Prev advance by one page",
+        "≈**120ms**"
+      ]
+    },
+    "spec.stories.hover": {
+      "file": "CLONE_SPEC.md",
+      "lines": "240",
+      "mustContain": [
+        "**Hover:** container padding-top 32 → 56px",
+        "cubic-bezier(.34,1.3,.64,1)"
+      ]
+    },
+    "spec.storycard": {
+      "file": "CLONE_SPEC.md",
+      "lines": "235-240",
+      "mustContain": [
+        "- Story card (`<a>` to the story URL): 544x458"
+      ]
+    },
+    "spec.storygrid.card": {
+      "file": "specs/company.md",
+      "lines": "216-221",
+      "mustContain": [
+        "  - Card `<a>` 293x**396**: padding **2px**, radius **24**"
+      ]
+    },
+    "spec.storygrid.hover": {
+      "file": "specs/company.md",
+      "lines": "221",
+      "mustContain": [
+        "**Hover:** ring bg changes from `#F4EDDE` to a vertical rainbow",
+        "≈**150ms**"
+      ]
+    },
+    "spec.t1": {
+      "file": "specs/content.md",
+      "lines": "22-38",
+      "mustContain": [
+        "## T1. Insights product-landing template",
+        "`/insights/customer-feedback-analytics-software` has **no Integrations and no Testimonial section**"
+      ]
+    },
+    "spec.t1.announce": {
+      "file": "specs/content.md",
+      "lines": "51-52",
+      "mustContain": [
+        "### T1.2 Announcement strip"
+      ]
+    },
+    "spec.t1.demoform": {
+      "file": "specs/content.md",
+      "lines": "100-114",
+      "mustContain": [
+        "### T1.8 Demo-request CTA"
+      ]
+    },
+    "spec.t1.feature": {
+      "file": "specs/content.md",
+      "lines": "57-67",
+      "mustContain": [
+        "### T1.4 Feature row (\"Feature 1\")"
+      ]
+    },
+    "spec.t1.hero": {
+      "file": "specs/content.md",
+      "lines": "40-51",
+      "mustContain": [
+        "### T1.1 Hero",
+        "\"Login\""
+      ]
+    },
+    "spec.t1.integrations": {
+      "file": "specs/content.md",
+      "lines": "67-81",
+      "mustContain": [
+        "### T1.5 Integrations (VARIANT of homepage `Integrations`)"
+      ]
+    },
+    "spec.t1.logos": {
+      "file": "specs/content.md",
+      "lines": "54-55",
+      "mustContain": [
+        "### T1.3 Logos row"
+      ]
+    },
+    "spec.t1.notes": {
+      "file": "specs/content.md",
+      "lines": "654-661",
+      "mustContain": [
+        "### R1 notes (measured per-route deltas)"
+      ]
+    },
+    "spec.t1.promo": {
+      "file": "specs/content.md",
+      "lines": "85-100",
+      "mustContain": [
+        "### T1.7 AI-agent promo"
+      ]
+    },
+    "spec.t1.testimonial": {
+      "file": "specs/content.md",
+      "lines": "81-83",
+      "mustContain": [
+        "### T1.6 Testimonial (\"Testimonials 2\")"
+      ]
+    },
+    "spec.t2": {
+      "file": "specs/content.md",
+      "lines": "121-164",
+      "mustContain": [
+        "## T2. Conversations index (`/conversations`)"
+      ]
+    },
+    "spec.t2.quirk": {
+      "file": "specs/content.md",
+      "lines": "17",
+      "mustContain": [
+        "5. **Live-site bug on `/conversations` at 390**",
+        "2 columns of 340px"
+      ]
+    },
+    "spec.t3": {
+      "file": "specs/content.md",
+      "lines": "164-203",
+      "mustContain": [
+        "## T3. Conversation detail / transcript template"
+      ]
+    },
+    "spec.t4": {
+      "file": "specs/content.md",
+      "lines": "203-230",
+      "mustContain": [
+        "## T4/T5. Legal template"
+      ]
+    },
+    "spec.tablet.unmeasured": {
+      "file": "CLONE_SPEC.md",
+      "lines": "422",
+      "mustContain": [
+        "Tablet (810–1199) was not separately measured"
+      ]
+    },
+    "spec.testimonial.behavior": {
+      "file": "CLONE_SPEC.md",
+      "lines": "161",
+      "mustContain": [
+        "**Behavior (measured):** NO autoplay (counter static for 20s+)",
+        "cubic-bezier(0.45, 0, 0.55, 1)"
+      ]
+    },
+    "spec.testimonial.slide": {
+      "file": "CLONE_SPEC.md",
+      "lines": "142-148",
+      "mustContain": [
+        "Slide (944 x 486): flex row",
+        "25.6px / 33.28px, ls −0.512px",
+        "radius **32px**",
+        "border 1px solid `#A7A092`"
+      ]
+    },
+    "spec.testimonials": {
+      "file": "CLONE_SPEC.md",
+      "lines": "132-165",
+      "mustContain": [
+        "## 3. Testimonials slider (1440: y 900–1880)"
+      ]
+    },
+    "spec.ticker.speed": {
+      "file": "CLONE_SPEC.md",
+      "lines": "124",
+      "mustContain": [
+        "**Row 1 moves RIGHT (left→right) at 30 px/s; Row 2 moves LEFT at 30 px/s**"
+      ]
+    },
+    "spec.u1": {
+      "file": "specs/company.md",
+      "lines": "200-207",
+      "mustContain": [
+        "## U1. Hero title — NEW"
+      ]
+    },
+    "spec.u2": {
+      "file": "specs/company.md",
+      "lines": "207-264",
+      "mustContain": [
+        "## U2. Story grid with filter + Load more"
+      ]
+    },
+    "spec.u3": {
+      "file": "specs/company.md",
+      "lines": "264-281",
+      "mustContain": [
+        "## U3. \"Love around the world\""
+      ]
+    },
+    "spec.u4": {
+      "file": "specs/company.md",
+      "lines": "281-283",
+      "mustContain": [
+        "## U4. Main CTA — VARIANT of `MainCta`"
+      ]
+    },
+    "spec.wall.ticker": {
+      "file": "specs/company.md",
+      "lines": "268",
+      "mustContain": [
+        "**Speeds (rAF-measured):** col 1 moves **up** at **9.8–10 px/s**"
+      ]
+    },
+    "spec.wallcard": {
+      "file": "specs/company.md",
+      "lines": "269",
+      "mustContain": [
+        "  - Card: 320 wide, bg `#FFFFFF`, radius **24**, padding **24**"
+      ]
+    },
+    "src.app.chrome": {
+      "file": "src/App.jsx",
+      "lines": "53-64",
+      "mustContain": [
+        "// Nav + Footer, unless the route renders its own (NAV_OVERRIDES hideChrome / hideNav)",
+        "{!hideChrome && !hideNav && <Nav />}",
+        "{!hideChrome && <Footer />}"
+      ]
+    },
+    "src.home": {
+      "file": "src/pages/Home.jsx",
+      "lines": "10-22",
+      "mustContain": [
+        "export default function Home()",
+        "<MainCta />"
+      ]
+    },
+    "src.page.compare": {
+      "file": "src/pages/CompareGorgias.jsx",
+      "lines": "5-7",
+      "mustContain": [
+        "export default function CompareGorgias()"
+      ]
+    },
+    "src.page.convdetail": {
+      "file": "src/pages/ConversationThrive.jsx",
+      "lines": "4-6",
+      "mustContain": [
+        "export default function ConversationThrive()"
+      ]
+    },
+    "src.page.conversations": {
+      "file": "src/pages/Conversations.jsx",
+      "lines": "8-40",
+      "mustContain": [
+        "export default function Conversations()",
+        "<NewsletterCta />"
+      ]
+    },
+    "src.page.insights": {
+      "file": "src/pages/Insights.jsx",
+      "lines": "4-6",
+      "mustContain": [
+        "export default function Insights()"
+      ]
+    },
+    "src.page.privacy": {
+      "file": "src/pages/PrivacyPolicy.jsx",
+      "lines": "5-7",
+      "mustContain": [
+        "export default function PrivacyPolicy()"
+      ]
+    },
+    "src.page.shopping": {
+      "file": "src/pages/ShoppingAgent.jsx",
+      "lines": "17-39",
+      "mustContain": [
+        "export default function ShoppingAgent()",
+        "<ContentTimer />"
+      ]
+    },
+    "src.page.social": {
+      "file": "src/pages/SocialAgent.jsx",
+      "lines": "34-49",
+      "mustContain": [
+        "export default function SocialAgent()",
+        "<Enterprise variant=\"social\""
+      ]
+    },
+    "src.page.terms": {
+      "file": "src/pages/TermsOfService.jsx",
+      "lines": "6-8",
+      "mustContain": [
+        "export default function TermsOfService()"
+      ]
+    },
+    "src.routes.list": {
+      "file": "src/routes.js",
+      "lines": "3-37",
+      "mustContain": [
+        "export const ROUTES = [",
+        "['/privacy-policy', 'PrivacyPolicy']"
+      ]
+    },
+    "src.routes.overrides": {
+      "file": "src/routes.js",
+      "lines": "46-54",
+      "mustContain": [
+        "export const NAV_OVERRIDES = {",
+        "'/careers': { ctaLabel: 'See open roles', ctaHref: '/careers#open-roles' }",
+        "'/book-a-demo': { hideChrome: true }"
+      ]
+    },
+    "src.routes.scope": {
+      "file": "src/routes.js",
+      "lines": "1-2",
+      "mustContain": [
+        "// Standalone siena.cx routes cloned locally (blog, customer stories, integrations,",
+        "product updates and webinars are out of scope"
+      ]
+    },
+    "src.routes.sitehref": {
+      "file": "src/routes.js",
+      "lines": "42-43",
+      "mustContain": [
+        "// Local path for cloned routes, live siena.cx URL for everything else.",
+        "https://www.siena.cx${path}"
+      ]
+    },
+    "tw.colors": {
+      "file": "tailwind.config.js",
+      "lines": "9-11",
+      "mustContain": [
+        "ink: '#122023'",
+        "coral: '#F95040'",
+        "'hero-bg': '#F3F0EB'"
+      ]
+    },
+    "tw.fonts": {
+      "file": "tailwind.config.js",
+      "lines": "13-23",
+      "mustContain": [
+        "fontFamily: {",
+        "Feature Deck Web Light",
+        "Tiempos Text Regular",
+        "Geist Mono"
+      ]
+    },
+    "tw.rainbow": {
+      "file": "tailwind.config.js",
+      "lines": "25",
+      "mustContain": [
+        "rainbow: 'linear-gradient(90deg, #F2E59A 0%"
+      ]
+    },
+    "tw.screens": {
+      "file": "tailwind.config.js",
+      "lines": "6",
+      "mustContain": [
+        "screens: { md: '768px', tablet: '810px', desktop: '1200px' }"
+      ]
+    }
+  },
+  "sourceSnapshot": {
+    "algorithm": "sha256 hex, first 16 chars",
+    "files": {
+      "CLONE_SPEC.md": "2e09852832961334",
+      "specs/company.md": "8f3884d5c8b83320",
+      "specs/content.md": "d016220606b86879",
+      "specs/conversion.md": "4cbdc2952b890b03",
+      "specs/product-a.md": "f52a0a45ca753d1f",
+      "specs/product-b.md": "668b1e03c8c4bd4d",
+      "src/App.jsx": "4f9201cd413852b8",
+      "src/components/CustomerStories.jsx": "652f1b1f66af01e3",
+      "src/components/Features.jsx": "aa645f7d769e7c07",
+      "src/components/Footer.jsx": "59ca11d80fef18b9",
+      "src/components/Hero.jsx": "bd8c61321e8cd6ef",
+      "src/components/Integrations.jsx": "9156adb18499b5fd",
+      "src/components/MainCta.jsx": "960707bbcd39a188",
+      "src/components/Metrics.jsx": "218647a9ed46df08",
+      "src/components/Nav.jsx": "84e160374914eb82",
+      "src/components/ScrollArea.jsx": "c6167a69626cc475",
+      "src/components/Testimonials.jsx": "a43857ee3257137a",
+      "src/components/company/CompanyCta.jsx": "19ca0d9c29cd4ab5",
+      "src/components/company/CompanySlider.jsx": "23332341365ad030",
+      "src/components/company/FormField.jsx": "db3dee2cb561743d",
+      "src/components/company/HScrollStory.jsx": "abfeb52e1e3200e7",
+      "src/components/company/HTicker.jsx": "c3b76115c0ee8ce1",
+      "src/components/company/LogoGrid.jsx": "9976ff0c60b8f399",
+      "src/components/company/OurTeam.jsx": "b1de52563319bfb3",
+      "src/components/company/PartnerModal.jsx": "f25445740cca71d8",
+      "src/components/company/RolesList.jsx": "284f1ea9a9178083",
+      "src/components/company/StoryGrid.jsx": "aabdf476730347d2",
+      "src/components/company/VerticalTicker.jsx": "8ef3dcbd3320fd52",
+      "src/components/company/customersData.js": "30202986cc292667",
+      "src/components/company/filler.js": "0eca133007d61b00",
+      "src/components/company/shared.jsx": "fa8a1c30ac35447f",
+      "src/components/content/ConversationArticle.jsx": "14f141e332761eee",
+      "src/components/content/DemoFormCta.jsx": "d7a66ae773d8a5eb",
+      "src/components/content/InsightsPage.jsx": "61be77a5b19cd659",
+      "src/components/content/LegalPage.jsx": "99520ffe6f8291be",
+      "src/components/content/NewsletterCta.jsx": "580ae7c582cba2dd",
+      "src/components/content/insightsData.js": "f3f0f689a3aba974",
+      "src/components/content/legalData.js": "965689419661f62f",
+      "src/components/content/placeholder.js": "2d3270dbca627317",
+      "src/components/conversion/CompareTable.jsx": "94c4963ecc44f413",
+      "src/components/conversion/CompareTemplate.jsx": "692678496db58d1f",
+      "src/components/conversion/ConvCta.jsx": "9985bb87525085e8",
+      "src/components/conversion/ConvHero.jsx": "45885a7be7ecff29",
+      "src/components/conversion/Faq.jsx": "8afe23ee8f1350ce",
+      "src/components/conversion/LeadForm.jsx": "69a2adf3521fa3b3",
+      "src/components/conversion/LeadSections.jsx": "184c21e2f78cd807",
+      "src/components/conversion/SingleTicker.jsx": "cbf21b5b63b43385",
+      "src/components/conversion/StickyArea.jsx": "60b3a419e83b12e5",
+      "src/components/conversion/compareData.js": "2731d3bf4f237314",
+      "src/components/conversion/ui.jsx": "24432644b445d055",
+      "src/components/cta/BookDemoButton.jsx": "23d3bf643fec078d",
+      "src/components/features/FeatureCard.jsx": "0fdef394ffe8940e",
+      "src/components/footer/footerLinks.js": "17f776ae4bfe307d",
+      "src/components/hero/LogoTicker.jsx": "4ac57e89f4492447",
+      "src/components/integrations/IntegrationTile.jsx": "e26e614fd31917c6",
+      "src/components/metrics/CountUp.jsx": "cb9cb4f1c41544e8",
+      "src/components/nav/MegaMenu.jsx": "33a62bb8519032a6",
+      "src/components/nav/navData.js": "8d901e2dc6fdef23",
+      "src/components/scroll-area/ChatMock.jsx": "c380469326788d3e",
+      "src/components/testimonials/Slide.jsx": "4606477870d08073",
+      "src/components/testimonials/data.js": "8321ab2b353f45cb",
+      "src/index.css": "6985f5c516f74728",
+      "src/pages/AboutUs.jsx": "096650061856614d",
+      "src/pages/AiNativeVsAddOns.jsx": "56a43f07465a968b",
+      "src/pages/BookADemo.jsx": "ccf4a3e38a932c07",
+      "src/pages/Careers.jsx": "6e8cad96dad89878",
+      "src/pages/Community.jsx": "3cd2cbc63c951317",
+      "src/pages/CompareGorgias.jsx": "1f628d66eefda110",
+      "src/pages/ConversationThrive.jsx": "ef72bf13f2b8783c",
+      "src/pages/Conversations.jsx": "fdd4b4ed0c1bac72",
+      "src/pages/Customers.jsx": "35cb46602f85f8bd",
+      "src/pages/Events.jsx": "2301624e2d2ed1e3",
+      "src/pages/Home.jsx": "1eeb2b2fc4fa1b46",
+      "src/pages/Insights.jsx": "80ed19cb87fc3347",
+      "src/pages/PartnerWithSiena.jsx": "9db99130b4f4ff0a",
+      "src/pages/Pricing.jsx": "e4dc9246381906bc",
+      "src/pages/PrivacyPolicy.jsx": "eac4a931b0f62eb5",
+      "src/pages/ReferAFriend.jsx": "addb7bbff2f2769b",
+      "src/pages/ShoppingAgent.jsx": "2224a90fe125ab99",
+      "src/pages/SocialAgent.jsx": "e545d6361ba66fbb",
+      "src/pages/TermsOfService.jsx": "ffb8b1b136d0a053",
+      "src/routes.js": "be2d5156767c95e6",
+      "src/styles/conversion.css": "98d24644532a94d3",
+      "src/styles/product-b.css": "f5aa3f979aee65d5",
+      "tailwind.config.js": "82b0e6e67cca1218"
+    }
+  },
+  "routeInventory": {
+    "/": "src/pages/Home.jsx",
+    "/shopping-agent": "src/pages/ShoppingAgent.jsx",
+    "/social-agent": "src/pages/SocialAgent.jsx",
+    "/ai-review-management": "src/pages/AiReviewManagement.jsx",
+    "/qa-agent": "src/pages/QaAgent.jsx",
+    "/topics-explorer": "src/pages/TopicsExplorer.jsx",
+    "/ask-siena": "src/pages/AskSiena.jsx",
+    "/memory": "src/pages/Memory.jsx",
+    "/video": "src/pages/Video.jsx",
+    "/order-tracking": "src/pages/OrderTracking.jsx",
+    "/products/docs": "src/pages/Docs.jsx",
+    "/ai-lab": "src/pages/AiLab.jsx",
+    "/roi-calculator": "src/pages/RoiCalculator.jsx",
+    "/about-us": "src/pages/AboutUs.jsx",
+    "/careers": "src/pages/Careers.jsx",
+    "/customers": "src/pages/Customers.jsx",
+    "/community": "src/pages/Community.jsx",
+    "/events": "src/pages/Events.jsx",
+    "/partner-with-siena": "src/pages/PartnerWithSiena.jsx",
+    "/refer-a-friend": "src/pages/ReferAFriend.jsx",
+    "/pricing": "src/pages/Pricing.jsx",
+    "/book-a-demo": "src/pages/BookADemo.jsx",
+    "/compare/siena-ai-vs-gorgias-ai": "src/pages/CompareGorgias.jsx",
+    "/compare/siena-ai-vs-kustomer-ai": "src/pages/CompareKustomer.jsx",
+    "/ai-native-customer-service-vs-help-desk-ai-add-ons": "src/pages/AiNativeVsAddOns.jsx",
+    "/insights": "src/pages/Insights.jsx",
+    "/insights/sentiment-analysis-online": "src/pages/InsightSentimentAnalysis.jsx",
+    "/insights/voice-of-customer-software": "src/pages/InsightVoiceOfCustomer.jsx",
+    "/insights/customer-feedback-analytics-software": "src/pages/InsightFeedbackAnalytics.jsx",
+    "/conversations": "src/pages/Conversations.jsx",
+    "/conversations/thrive-causemetics-ai-customer-service-automation": "src/pages/ConversationThrive.jsx",
+    "/conversations/prose-ai-customer-service-automation": "src/pages/ConversationProse.jsx",
+    "/conversations/spanx-kylah-field-real-work-ai-customer-experience": "src/pages/ConversationSpanx.jsx",
+    "/terms-of-service": "src/pages/TermsOfService.jsx",
+    "/privacy-policy": "src/pages/PrivacyPolicy.jsx"
+  },
+  "stubRoutesAtBuild": [],
+  "quirks": {
+    "phone-grid-overflow": {
+      "route": "/conversations",
+      "section": "content.conversation-index",
+      "what": "At 390 the card grid keeps 2 x 340px columns in a 350px container; cards overflow and clip.",
+      "cite": [
+        "spec.t2.quirk",
+        "jsx.conv.index"
+      ]
+    },
+    "newsletter-desktop-on-phone": {
+      "route": "/conversations*",
+      "section": "cta.newsletter",
+      "what": "Newsletter card keeps its desktop variant at 390 (input 105px).",
+      "cite": [
+        "jsx.newsletter"
+      ]
+    },
+    "addons-phone-empty-block": {
+      "route": "/ai-native-customer-service-vs-help-desk-ai-add-ons",
+      "section": "quirk.phone-empty-block",
+      "what": "1000px empty white block between Metrics and Features at phone width.",
+      "cite": [
+        "spec.cv.6.7",
+        "jsx.addons",
+        "css.addons.empty"
+      ]
+    },
+    "video-phone-empty-block": {
+      "route": "/video",
+      "section": "quirk.phone-empty-block",
+      "what": "Empty white 390x1000 frame before the CTA on phone; CTA keeps desktop padding.",
+      "cite": [
+        "spec.pb.2.4"
+      ]
+    },
+    "compare-phone-integrations": {
+      "route": "/compare/*",
+      "section": "integrations.logo-grid",
+      "what": "On phone Integrations renders after the CTA with a clipped fixed-height box.",
+      "cite": [
+        "spec.cv.3.12",
+        "css.compare.integrations.quirk"
+      ]
+    },
+    "kustomer-phone-headline": {
+      "route": "/compare/siena-ai-vs-kustomer-ai",
+      "section": "hero.compare",
+      "what": "Phone H1 shows the homepage phone headline instead of the page headline.",
+      "cite": [
+        "jsx.kustomer.quirk"
+      ]
+    },
+    "cta-narrow-phone": {
+      "route": "/customers, /refer-a-friend, /compare/*, /video",
+      "section": "cta.main",
+      "what": "Phone CTA frame keeps 200px 96px padding: card ~198px wide, H2 wraps to many lines.",
+      "cite": [
+        "jsx.companycta",
+        "jsx.convcta",
+        "spec.pb.2.4"
+      ]
+    },
+    "nav-resources-misrouted": {
+      "route": "all routes with the global nav",
+      "section": "shell.navbar",
+      "what": "Mega-menu Resources hrefs copied verbatim from the live HTML point at unrelated pages.",
+      "cite": [
+        "jsx.navdata.quirk"
+      ]
+    },
+    "roi-phone-slider-row": {
+      "route": "/roi-calculator",
+      "section": "testimonials.slider",
+      "what": "Live phone slide stays a row (143px columns); the spec recommends the homepage mobile layout instead.",
+      "cite": [
+        "spec.pb.6.3"
+      ]
+    },
+    "lab-white-eyebrows": {
+      "route": "/ai-lab",
+      "section": "steps.how-it-works",
+      "what": "2nd/3rd 'How it works' eyebrows are white on white.",
+      "cite": [
+        "spec.pb.5.5"
+      ]
+    }
+  },
+  "histogram": "extraction/style-histogram.json",
+  "unmeasured": [
+    "Tablet 810-1199.98px on every route (fluid desktop; CLONE_SPEC 13 last line).",
+    "Topics Explorer hero WebGL canvas internals.",
+    "Order-tracking cobe globe pixels.",
+    "AI Lab grain canvases.",
+    "Events list cards (CMS empty on the live site)."
+  ]
+}

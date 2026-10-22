@@ -1,0 +1,116 @@
+{
+  "id": "section.hero.docs",
+  "registryId": "section.hero.docs",
+  "typeId": "hero.docs",
+  "version": "1.0.0",
+  "category": "hero",
+  "purpose": "Docs hero: centered H1 with a wiping swash, sub, CTA; a browser-frame docs mock surrounded by six tilted doc cards that spring in.",
+  "evidenceLevel": "spec-measured",
+  "variants": {
+    "docs": "White, 1016 tall."
+  },
+  "composes": [
+    "primitive.text",
+    "primitive.button",
+    "primitive.image"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "headline": {
+        "type": "string",
+        "maxWords": 8
+      },
+      "subtitle": {
+        "type": "string",
+        "maxWords": 25
+      },
+      "cta": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string",
+            "maxWords": 4
+          },
+          "href": {
+            "type": "string",
+            "pattern": "^(/[a-z0-9/#-]*|#[a-z0-9-]+|https://[a-zA-Z0-9.-]+(/[^\\s]*)?|mailto:[a-z.]+@siena\\.cx)$"
+          },
+          "style": {
+            "enum": [
+              "xlg-dark"
+            ]
+          }
+        },
+        "required": [
+          "label",
+          "href",
+          "style"
+        ],
+        "additionalProperties": false
+      },
+      "swash": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "const": "illustration.swash"
+          },
+          "assetRef": {
+            "type": "string",
+            "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 24
+          }
+        },
+        "required": [
+          "assetRole",
+          "assetRef"
+        ],
+        "additionalProperties": false
+      },
+      "docCards": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "maxWords": 5
+        },
+        "minItems": 4,
+        "maxItems": 8
+      }
+    },
+    "required": [
+      "headline",
+      "subtitle",
+      "cta",
+      "swash",
+      "docCards"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "appear-rise"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Visual scales (~60%)."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustFollowNav": true
+  },
+  "measuredFrom": [
+    "spec.pb.4.1"
+  ]
+}

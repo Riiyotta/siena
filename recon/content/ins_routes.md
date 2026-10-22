@@ -1,0 +1,218 @@
+
+### /insights
+
+- Title tag: "Siena Insights, formerly Idiomatic - Customer feedback analysis with AI"; document height 1440 = 7941px, 390 = 9519px
+- **Hero** (y 0, h 658 @1440; h 859 @390) 
+  - p: "Siena Insights, formerly Idiomatic"
+  - h1: "Turn feedback into insights you can trust"
+  - p (body, 15 words): starts "Stay in tune with the voice…"
+  - p: "Book a demo"
+  - img `VKHdNmxFVDSgMwwUTZNi0WmJ4k.svg` box 606x434 at x770, natural-ish [606, 432], object-fit contain
+- **announcement** (y 658, h 177 @1440; h 179 @390) 
+  - p: "Idiomatic is now Siena Insights, with the same great features plus more innovation and support."
+- **Logos** (y 835, h 206 @1440; h 244 @390) 
+  - img `RcdtrxM5jv83GuYPt3fegafLYE.svg` box 136x46 at x364, natural-ish [150, 24], object-fit contain
+  - img `r2W6as2bHWbtrfk5iuHQjFsp1R8.svg` box 136x46 at x556, natural-ish [106, 31], object-fit contain
+  - img `qvKxkoZLyMmJdvAE9tNTPqFq5hQ.svg` box 136x46 at x748, natural-ish [108, 32], object-fit contain
+  - img `3DYeO3vzL0aossMXlU9JfDBK8f0.svg` box 136x46 at x940, natural-ish [128, 32], object-fit contain
+- **Feature 1** (y 1041, h 672 @1440; h 705 @390) image LEFT / text right
+  - h2: "Find what to focus on in seconds"
+  - p (body, 23 words): starts "Get a clear overview of customer…"
+  - img `HfktNRmsAoNia3x1j5mJvxcdL0Q.svg` box 512x512 at x176, natural-ish [800, 357], object-fit contain
+- **Feature 1** (y 1713, h 672 @1440; h 772 @390) text LEFT / image right
+  - h2: "Stay in the loop when things change fast"
+  - p (body, 31 words): starts "Get instant Slack alerts when feedback…"
+  - img `det6EhIvWp8r7Ya2JlpMeyK5R8.png` box 512x512 at x752, natural-ish [512, 307], object-fit contain
+- **Feature 1** (y 2385, h 672 @1440; h 809 @390) image LEFT / text right
+  - h2: "Your customer data, now in plain English"
+  - p (body, 24 words): starts "Chat with your data like you're…"
+  - p: "Book a demo"
+  - img `RUoFYDLGaRP5h1vQu2qaSeuBAjw.png` box 512x512 at x176, natural-ish [512, 338], object-fit contain
+- **Feature 1** (y 3057, h 672 @1440; h 705 @390) text LEFT / image right
+  - h2: "Sentiment analysismade simple"
+  - p (body, 19 words): starts "Stay on top of customer feelings,…"
+  - img `7c9xveioz1zbxWxFVO2t6p1XhY.png` box 512x512 at x752, natural-ish [512, 315], object-fit contain
+- **Feature 1** (y 3729, h 672 @1440; h 680 @390) image LEFT / text right
+  - h2: "Know what every ticket costs"
+  - p (body, 27 words): starts "Track the true cost of resolving…"
+  - img `oRcxQbBbFEDD9rKRlVasJbMjX0.png` box 512x512 at x176, natural-ish [512, 282], object-fit contain
+- **Integrations** (y 4401, h 708 @1440; h 1079 @390) 
+  - p: "Integrate with your existing platforms"
+  - h2: "See your customers across every channel"
+  - strong: "...and  many more"
+- **Testimonials 2** (y 5109, h 436 @1440; h 375 @390) 
+  - h3: "What our customers say"
+  - p (body, 21 words): starts "“Siena Insights gave us the customer…"
+  - p: "Upwork"
+  - p: "Customer Support Team"
+  - img `PGTIAdOBFUHqD4uWC2d28jqi9I.png` box 50x50 at x608, natural-ish [50, 50], object-fit cover
+- **Feature 1** (y 5546, h 970 @1440; h 987 @390) text LEFT / image right
+  - p: "Siena AI agent"
+  - h2: "Insights is just the beginning"
+  - p (body, 20 words): starts "Take the next step with our…"
+  - p: "Learn more"
+  - img `OS7uIQBhEtXd5l7MXZ0qAcM0Lg.png` box 640x810 at x704, natural-ish [592, 749], object-fit cover
+- **CTA** (y 6515, h 991 @1440; h 1004 @390) 
+  - h4: "Book a personalized demo now"
+  - p: "Submit"
+  - Buttons (xlg): "Book a demo" @y574 bg rgb(18, 32, 35); "Book a demo" @y2826 bg rgb(18, 32, 35); "Learn more" @y6163 bg rgb(18, 32, 35)
+  - Button hrefs: "Book a demo" → ./; "Book a demo" → ./; "Learn more" → ./
+
+### /insights/sentiment-analysis-online
+
+- Title tag: "Online AI sentiment analysis software | Siena Insights, formerly Idiomatic"; document height 1440 = 6633px, 390 = 8213px
+- **Hero** (y 0, h 694 @1440; h 945 @390) 
+  - p: "Siena Insights, formerly Idiomatic"
+  - h1: "AI-driven sentiment analysis software"
+  - p (body, 26 words): starts "Understand your customer’s sentiment just like…"
+  - p: "Book a demo"
+  - p: "Login"
+  - img `uaM0A3GiLu0NROIvudKMalml2b4.png` box 606x434 at x770, natural-ish [606, 391], object-fit contain
+- **announcement** (y 694, h 177 @1440; h 179 @390) 
+  - p: "Idiomatic is now Siena Insights, with the same great features plus more innovation and support."
+- **Logos** (y 871, h 206 @1440; h 244 @390) 
+  - img `RcdtrxM5jv83GuYPt3fegafLYE.svg` box 136x46 at x364, natural-ish [150, 24], object-fit contain
+  - img `r2W6as2bHWbtrfk5iuHQjFsp1R8.svg` box 136x46 at x556, natural-ish [106, 31], object-fit contain
+  - img `qvKxkoZLyMmJdvAE9tNTPqFq5hQ.svg` box 136x46 at x748, natural-ish [108, 32], object-fit contain
+  - img `3DYeO3vzL0aossMXlU9JfDBK8f0.svg` box 136x46 at x940, natural-ish [128, 32], object-fit contain
+- **Feature 1** (y 1077, h 672 @1440; h 702 @390) image LEFT / text right
+  - h2: "Know when your strategy works"
+  - p (body, 24 words): starts "Monitor customer sentiment and easily see…"
+  - img `7c9xveioz1zbxWxFVO2t6p1XhY.png` box 512x512 at x176, natural-ish [512, 315], object-fit contain
+- **Feature 1** (y 1749, h 672 @1440; h 820 @390) text LEFT / image right
+  - h2: "Effortless sentiment analysis, powered by AI"
+  - p (body, 37 words): starts "Our AI automatically identifies and categorizes…"
+  - img `Ch5kap0GfB7vpcnRuTb8jYPV86o.png` box 512x512 at x752, natural-ish [512, 315], object-fit contain
+- **Feature 1** (y 2421, h 672 @1440; h 758 @390) image LEFT / text right
+  - h2: "Stay informed with tailored reports"
+  - p (body, 26 words): starts "Effortlessly create custom reports to track…"
+  - img `CZf5b1hc6bqRL4RdIWcY4DwOHmw.png` box 512x512 at x176, natural-ish [512, 281], object-fit contain
+- **Integrations** (y 3093, h 708 @1440; h 1079 @390) 
+  - p: "Integrate with your existing platforms"
+  - h2: "See your sentimant data in your stack"
+  - strong: "...and  many more"
+- **Testimonials 2** (y 3801, h 436 @1440; h 375 @390) 
+  - h3: "What our customers say"
+  - p (body, 21 words): starts "“Siena Insights gave us the customer…"
+  - p: "Upwork"
+  - p: "Customer Support Team"
+  - img `PGTIAdOBFUHqD4uWC2d28jqi9I.png` box 50x50 at x608, natural-ish [50, 50], object-fit cover
+- **Feature 1** (y 4238, h 970 @1440; h 987 @390) text LEFT / image right
+  - p: "Siena AI agent"
+  - h2: "Insights is just the beginning"
+  - p (body, 20 words): starts "Take the next step with our…"
+  - p: "Learn more"
+  - img `OS7uIQBhEtXd5l7MXZ0qAcM0Lg.png` box 640x810 at x704, natural-ish [592, 749], object-fit cover
+- **CTA** (y 5207, h 991 @1440; h 1004 @390) 
+  - h4: "Book a personalized demo now"
+  - p: "Submit"
+  - Buttons (xlg): "Book a demo" @y602 bg rgb(18, 32, 35); "Login" @y602 bg rgb(255, 255, 255); "Learn more" @y4855 bg rgb(18, 32, 35)
+  - Button hrefs: "Book a demo" → ./sentiment-analysis-online#book-a-demo; "Login" → https://idiomatic.io/?login=true; "Learn more" → ../
+
+### /insights/voice-of-customer-software
+
+- Title tag: "AI-driven voice of customer (VoC) software | Siena Insights, formerly Idiomatic"; document height 1440 = 7233px, 390 = 8792px
+- **Hero** (y 0, h 622 @1440; h 883 @390) 
+  - p: "Siena Insights, formerly Idiomatic"
+  - h1: "Voice of customer software"
+  - p (body, 26 words): starts "Understand your customer’s sentiment just like…"
+  - p: "Book a demo"
+  - img `MOanKo50R049QJz0dIR4rVeJzSU.png` box 606x434 at x770, natural-ish [606, 402], object-fit contain
+- **announcement** (y 622, h 177 @1440; h 179 @390) 
+  - p: "Idiomatic is now Siena Insights, with the same great features plus more innovation and support."
+- **Logos** (y 799, h 206 @1440; h 244 @390) 
+  - img `RcdtrxM5jv83GuYPt3fegafLYE.svg` box 136x46 at x364, natural-ish [150, 24], object-fit contain
+  - img `r2W6as2bHWbtrfk5iuHQjFsp1R8.svg` box 136x46 at x556, natural-ish [106, 31], object-fit contain
+  - img `qvKxkoZLyMmJdvAE9tNTPqFq5hQ.svg` box 136x46 at x748, natural-ish [108, 32], object-fit contain
+  - img `3DYeO3vzL0aossMXlU9JfDBK8f0.svg` box 136x46 at x940, natural-ish [128, 32], object-fit contain
+- **Feature 1** (y 1005, h 672 @1440; h 728 @390) image LEFT / text right
+  - h2: "Quickly uncover what needs attention"
+  - p (body, 19 words): starts "Effortlessly capture the voice of your…"
+  - img `Qf5PSeGvhhkja3WG3J4iL67YMo.png` box 512x512 at x176, natural-ish [512, 228], object-fit contain
+- **Feature 1** (y 1677, h 672 @1440; h 705 @390) text LEFT / image right
+  - h2: "Your data, now a conversation away"
+  - p (body, 19 words): starts "Skip the complicated reports. Chat directly…"
+  - img `3p6ErMGR3qwEHMsMXGFXDDzSY.png` box 512x512 at x752, natural-ish [512, 349], object-fit contain
+- **Feature 1** (y 2349, h 672 @1440; h 736 @390) image LEFT / text right
+  - h2: "Triage tickets by listening to your customers"
+  - p (body, 22 words): starts "Improve support experiences by automatically routing…"
+  - img `Ch5kap0GfB7vpcnRuTb8jYPV86o.png` box 512x512 at x176, natural-ish [512, 315], object-fit contain
+- **Feature 1** (y 3021, h 672 @1440; h 705 @390) text LEFT / image right
+  - h2: "Never miss a critical customer insight"
+  - p (body, 20 words): starts "Be the first to know when…"
+  - img `det6EhIvWp8r7Ya2JlpMeyK5R8.png` box 512x512 at x752, natural-ish [512, 307], object-fit contain
+- **Integrations** (y 3693, h 708 @1440; h 1079 @390) 
+  - p: "Integrate with your existing platforms"
+  - h2: "See your customers across every channel"
+  - strong: "...and  many more"
+- **Testimonials 2** (y 4401, h 436 @1440; h 375 @390) 
+  - h3: "What our customers say"
+  - p (body, 21 words): starts "“Siena Insights gave us the customer…"
+  - p: "Upwork"
+  - p: "Customer Support Team"
+  - img `PGTIAdOBFUHqD4uWC2d28jqi9I.png` box 50x50 at x608, natural-ish [50, 50], object-fit cover
+- **Feature 1** (y 4838, h 970 @1440; h 1035 @390) text LEFT / image right
+  - p: "Siena AI agent"
+  - h2: "Customer thoughts are simply the start"
+  - p (body, 20 words): starts "Take the next step with our…"
+  - p: "Learn more"
+  - img `OS7uIQBhEtXd5l7MXZ0qAcM0Lg.png` box 640x810 at x704, natural-ish [592, 749], object-fit cover
+- **CTA** (y 5808, h 991 @1440; h 1004 @390) 
+  - h4: "Book a personalized demo now"
+  - p: "Submit"
+  - Buttons (xlg): "Book a demo" @y529 bg rgb(18, 32, 35); "Learn more" @y5455 bg rgb(18, 32, 35)
+  - Button hrefs: "Book a demo" → ./voice-of-customer-software#book-a-demo; "Learn more" → ../
+
+### /insights/customer-feedback-analytics-software
+
+- Title tag: "AI customer feedback analytics software | Siena Insights"; document height 1440 = 7420px, 390 = 9032px
+- **Hero** (y 0, h 610 @1440; h 838 @390) 
+  - p: "Siena Insights, formerly Idiomatic"
+  - h1: "Customer feedback analytics"
+  - p (body, 22 words): starts "Stop sorting through feedback manually. Our…"
+  - p: "Book a demo"
+  - img `MOanKo50R049QJz0dIR4rVeJzSU.png` box 606x434 at x770, natural-ish [606, 402], object-fit contain
+- **announcement** (y 610, h 177 @1440; h 179 @390) 
+  - p: "Idiomatic is now Siena Insights, with the same great features plus more innovation and support."
+- **Logos** (y 787, h 206 @1440; h 244 @390) 
+  - img `RcdtrxM5jv83GuYPt3fegafLYE.svg` box 136x46 at x364, natural-ish [150, 24], object-fit contain
+  - img `r2W6as2bHWbtrfk5iuHQjFsp1R8.svg` box 136x46 at x556, natural-ish [106, 31], object-fit contain
+  - img `qvKxkoZLyMmJdvAE9tNTPqFq5hQ.svg` box 136x46 at x748, natural-ish [108, 32], object-fit contain
+  - img `3DYeO3vzL0aossMXlU9JfDBK8f0.svg` box 136x46 at x940, natural-ish [128, 32], object-fit contain
+- **Feature 1** (y 993, h 672 @1440; h 837 @390) image LEFT / text right
+  - h2: "Uncover what drives customer feedback"
+  - p (body, 26 words): starts "Identify pain points, sentiment, and key…"
+  - p (body, 17 words): starts "Eliminate guesswork and time-consuming manual analysis…"
+  - img `lV97h3YK7dQbjW2cbAIBC01A.png` box 512x512 at x176, natural-ish [512, 315], object-fit contain
+- **Feature 1** (y 1665, h 672 @1440; h 776 @390) text LEFT / image right
+  - h2: "Smart categorization for clearer customer insights"
+  - p (body, 20 words): starts "Understand customer issues the way they…"
+  - img `Qf5PSeGvhhkja3WG3J4iL67YMo.png` box 512x512 at x752, natural-ish [512, 228], object-fit contain
+- **Feature 1** (y 2337, h 672 @1440; h 795 @390) image LEFT / text right
+  - h2: "Summarized ticket trends, zero manual effort"
+  - p (body, 18 words): starts "Summaries highlight recurring themes across tickets,…"
+  - p: "Book a demo"
+  - img `LUS5wlXrRoHsPbxmRVmkIFCbFEM.png` box 512x512 at x176, natural-ish [512, 261], object-fit contain
+- **Feature 1** (y 3009, h 672 @1440; h 728 @390) text LEFT / image right
+  - h2: "Segment users and discover key issues instantly"
+  - p (body, 25 words): starts "Use custom filters to track specific…"
+  - img `Anb0KYlydsovepxrpF5P1UX0.png` box 512x512 at x752, natural-ish [512, 293], object-fit contain
+- **Feature 1** (y 3681, h 672 @1440; h 798 @390) image LEFT / text right
+  - h2: "Uncover sentiment in every customer interaction"
+  - p (body, 32 words): starts "Quickly identify whether customer sentiment is…"
+  - img `QRLCkks2NazFmhzOsVjN9JNE.png` box 512x512 at x176, natural-ish [512, 315], object-fit contain
+- **Feature 1** (y 4353, h 672 @1440; h 728 @390) text LEFT / image right
+  - h2: "Let customer words drive ticket prioritization"
+  - p (body, 21 words): starts "Critical issues surface instantly by analyzing…"
+  - img `Ch5kap0GfB7vpcnRuTb8jYPV86o.png` box 512x512 at x752, natural-ish [512, 315], object-fit contain
+- **Feature 1** (y 5025, h 970 @1440; h 987 @390) text LEFT / image right
+  - p: "Siena AI agent"
+  - h2: "Insights is just the beginning"
+  - p (body, 20 words): starts "Take the next step with our…"
+  - p: "Learn more"
+  - img `OS7uIQBhEtXd5l7MXZ0qAcM0Lg.png` box 640x810 at x704, natural-ish [592, 749], object-fit cover
+- **CTA** (y 5995, h 991 @1440; h 1004 @390) 
+  - h4: "Book a personalized demo now"
+  - p: "Submit"
+  - Buttons (xlg): "Book a demo" @y529 bg rgb(18, 32, 35); "Book a demo" @y2814 bg rgb(18, 32, 35); "Learn more" @y5642 bg rgb(18, 32, 35)
+  - Button hrefs: "Book a demo" → ./customer-feedback-analytics-software#book-a-demo; "Book a demo" → ./customer-feedback-analytics-software#book-a-demo; "Learn more" → ../

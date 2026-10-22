@@ -1,0 +1,75 @@
+{
+  "id": "section.shell.lead-header",
+  "registryId": "section.shell.lead-header",
+  "typeId": "shell.lead-header",
+  "version": "1.0.0",
+  "category": "shell",
+  "purpose": "Logo-only header on the lead-gen pages (replaces Nav; absolutely positioned, scrolls away).",
+  "evidenceLevel": "measured",
+  "variants": {
+    "standard": "Logo 122x34 inside a 1062 row, padding 24 40."
+  },
+  "composes": [
+    "component.lead-chrome"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "logo": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "const": "brand.siena-wordmark"
+          },
+          "assetRef": {
+            "type": "string",
+            "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 24
+          }
+        },
+        "required": [
+          "assetRole",
+          "assetRef"
+        ],
+        "additionalProperties": false
+      },
+      "href": {
+        "const": "/"
+      }
+    },
+    "required": [
+      "logo",
+      "href"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Padding 24px; logo at x 24."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustBeFirst": true
+  },
+  "measuredFrom": [
+    "spec.pricing.header",
+    "jsx.conv.ui",
+    "src.routes.overrides"
+  ]
+}

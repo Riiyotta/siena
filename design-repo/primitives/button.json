@@ -1,0 +1,57 @@
+{
+  "registryId": "primitive.button",
+  "version": "1.0.0",
+  "category": "action",
+  "description": "Dark xlg / md button, white secondary-md button, form submit button and the round social icon button. Hover on dark buttons swaps to the rainbow gradient instantly (no transition).",
+  "props": {
+    "style": {
+      "enum": [
+        "xlg-dark",
+        "xlg-light",
+        "md-dark",
+        "secondary-md",
+        "form-submit",
+        "icon-social",
+        "load-more"
+      ]
+    },
+    "label": {
+      "type": "string",
+      "maxWords": 5
+    },
+    "href": {
+      "type": "string"
+    },
+    "action": {
+      "enum": [
+        "navigate",
+        "open-modal",
+        "submit-static"
+      ]
+    }
+  },
+  "tokens": [
+    "{component.button.xlg.height}",
+    "{component.button.xlg.padding}",
+    "{radius.button-xlg}",
+    "{radius.button-md}",
+    "{color.action.primary}",
+    "{color.action.primary-hover}",
+    "{color.action.form-hover}",
+    "{component.button.secondary-border}",
+    "{typography.button-xlg}",
+    "{typography.button-md}"
+  ],
+  "measuredFrom": [
+    "jsx.bookdemo",
+    "jsx.co.xlg",
+    "jsx.co.iconbutton",
+    "spec.hero.type",
+    "spec.content.formbutton",
+    "spec.company.shorthands"
+  ],
+  "states": {
+    "hover": "background {color.action.primary-hover} (dark) / {color.action.form-hover} (form submit); icon-social inverts to {color.surface.dark} bg",
+    "focus-visible": "same as hover in the clone"
+  }
+}

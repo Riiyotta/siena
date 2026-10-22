@@ -1,0 +1,20 @@
+{
+  "registryId": "component.conversation-card",
+  "version": "1.0.0",
+  "category": "content",
+  "description": "Conversation index card 519x356: 205px cover image, byline (name · brand), Tiempos excerpt clamped to 4 lines; no hover.",
+  "composes": [
+    "primitive.image",
+    "primitive.text"
+  ],
+  "props": {
+    "excerpt": {
+      "type": "string",
+      "maxWords": 30
+    }
+  },
+  "measuredFrom": [
+    "spec.convcard",
+    "jsx.content.convcard"
+  ]
+}

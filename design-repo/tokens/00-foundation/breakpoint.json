@@ -1,0 +1,73 @@
+{
+  "$description": "Framer breakpoints. Only 1440 (desktop) and 390 (phone) were ever measured. Tablet 810-1199.98 was NEVER measured on any route: it renders the desktop structure with fluid widths, and nothing in this repo describes tablet-specific behaviour.",
+  "foundation": {
+    "breakpoint": {
+      "phone-max": {
+        "$type": "dimension",
+        "$value": "809.98px",
+        "$description": "Framer Phone variant: max-width 809.98px.",
+        "$extensions": {
+          "cite": [
+            "spec.global.breakpoints",
+            "tw.screens"
+          ]
+        }
+      },
+      "nav-mobile-max": {
+        "$type": "dimension",
+        "$value": "767.98px",
+        "$description": "Nav switches to the mobile bar below 768px (Tailwind md 768).",
+        "$extensions": {
+          "cite": [
+            "spec.global.breakpoints",
+            "tw.screens"
+          ]
+        }
+      },
+      "tablet-min": {
+        "$type": "dimension",
+        "$value": "810px",
+        "$description": "Tablet start. UNMEASURED range (810-1199.98): fluid desktop.",
+        "$extensions": {
+          "cite": [
+            "spec.global.breakpoints",
+            "spec.tablet.unmeasured",
+            "tw.screens"
+          ],
+          "measured": false
+        }
+      },
+      "desktop-min": {
+        "$type": "dimension",
+        "$value": "1200px",
+        "$description": "Framer Desktop variant.",
+        "$extensions": {
+          "cite": [
+            "spec.global.breakpoints",
+            "tw.screens"
+          ]
+        }
+      },
+      "measured-desktop": {
+        "$type": "dimension",
+        "$value": "1440px",
+        "$description": "Viewport width of every desktop measurement.",
+        "$extensions": {
+          "cite": [
+            "spec.global.layout"
+          ]
+        }
+      },
+      "measured-phone": {
+        "$type": "dimension",
+        "$value": "390px",
+        "$description": "Viewport width of every phone measurement.",
+        "$extensions": {
+          "cite": [
+            "spec.mobile.type"
+          ]
+        }
+      }
+    }
+  }
+}

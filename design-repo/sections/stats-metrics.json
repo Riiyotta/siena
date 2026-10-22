@@ -1,0 +1,105 @@
+{
+  "id": "section.stats.metrics",
+  "registryId": "section.stats.metrics",
+  "typeId": "stats.metrics",
+  "version": "1.0.0",
+  "category": "proof",
+  "purpose": "Proof-of-scale card over a full-bleed image: big condensed count-up (25 to 80%), headline, swash, three static stats.",
+  "evidenceLevel": "measured",
+  "variants": {
+    "home": "Headline Feature Deck Regular 40/48 black.",
+    "addons": "Headline Tiempos 29/43.5 ink (only typography differs)."
+  },
+  "composes": [
+    "component.metric-counter"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "counterTo": {
+        "const": 80
+      },
+      "headline": {
+        "type": "string",
+        "maxWords": 24
+      },
+      "stats": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "string",
+              "maxWords": 1
+            },
+            "label": {
+              "type": "string",
+              "maxWords": 4
+            }
+          },
+          "required": [
+            "value",
+            "label"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 3,
+        "maxItems": 3
+      },
+      "background": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "const": "illustration.abstract-glow"
+          },
+          "assetRef": {
+            "type": "string",
+            "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 24
+          }
+        },
+        "required": [
+          "assetRole",
+          "assetRef"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "required": [
+      "counterTo",
+      "headline",
+      "stats",
+      "background"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "count-up"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Card padding 32, counter 120px, stats become rows (value 32 + label 14/19.6)."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "spec.metrics.section",
+    "spec.metrics.counter",
+    "jsx.metrics",
+    "spec.cv.6.3"
+  ]
+}

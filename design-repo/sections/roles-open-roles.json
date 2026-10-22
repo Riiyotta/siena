@@ -1,0 +1,105 @@
+{
+  "id": "section.roles.open-roles",
+  "registryId": "section.roles.open-roles",
+  "typeId": "roles.open-roles",
+  "version": "1.0.0",
+  "category": "company",
+  "purpose": "Open roles accordion (anchor #open-roles): H2 + total count, CORS-fallback status note, departments (one open at a time) with role rows to Ashby.",
+  "evidenceLevel": "measured",
+  "variants": {
+    "careers": "Static fallback list of 13 roles."
+  },
+  "composes": [
+    "component.role-row"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "heading": {
+        "type": "string",
+        "maxWords": 5
+      },
+      "statusNote": {
+        "type": "string",
+        "maxWords": 20
+      },
+      "departments": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "maxWords": 3
+            },
+            "roles": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "title": {
+                    "type": "string",
+                    "maxWords": 8
+                  },
+                  "location": {
+                    "type": "string",
+                    "maxWords": 4
+                  },
+                  "href": {
+                    "type": "string",
+                    "pattern": "^(/[a-z0-9/#-]*|#[a-z0-9-]+|https://[a-zA-Z0-9.-]+(/[^\\s]*)?|mailto:[a-z.]+@siena\\.cx)$"
+                  }
+                },
+                "required": [
+                  "title",
+                  "location",
+                  "href"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1,
+              "maxItems": 6
+            }
+          },
+          "required": [
+            "name",
+            "roles"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 1,
+        "maxItems": 8
+      }
+    },
+    "required": [
+      "heading",
+      "statusNote",
+      "departments"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "accordion"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "H2 stays 64px and wraps (component not responsive)."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "spec.c5",
+    "jsx.co.roles"
+  ]
+}

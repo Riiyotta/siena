@@ -1,0 +1,17 @@
+{
+  "registryId": "component.metric-counter",
+  "version": "1.0.0",
+  "category": "content",
+  "description": "Big condensed counter (25 to 80 over 1.5s easeInOut, once in view) + '%' + display H2 + hand-drawn swash; three static stats with eyebrow labels.",
+  "composes": [
+    "primitive.text",
+    "primitive.image"
+  ],
+  "props": {},
+  "measuredFrom": [
+    "spec.metrics.section",
+    "spec.metrics.counter",
+    "jsx.countup"
+  ],
+  "motion": "{motion.recipe.count-up}"
+}

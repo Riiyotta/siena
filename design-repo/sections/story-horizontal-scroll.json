@@ -1,0 +1,100 @@
+{
+  "id": "section.story.horizontal-scroll",
+  "registryId": "section.story.horizontal-scroll",
+  "typeId": "story.horizontal-scroll",
+  "version": "1.0.0",
+  "category": "narrative",
+  "purpose": "Scroll-jacked horizontal story: a 7500px section with a sticky viewport whose 5321px track translates with scroll (smoothed). Five panels + a connector.",
+  "evidenceLevel": "measured",
+  "variants": {
+    "about": "Panels: origin (eyebrow+H2+paragraph), integration, intelligence, scale (H4 over glow), mission."
+  },
+  "composes": [
+    "primitive.text",
+    "primitive.image",
+    "primitive.icon"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "panels": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "eyebrow": {
+              "type": "string",
+              "maxWords": 5
+            },
+            "heading": {
+              "type": "string",
+              "maxWords": 24
+            },
+            "paragraph": {
+              "type": "string",
+              "maxWords": 50
+            },
+            "image": {
+              "type": "object",
+              "properties": {
+                "assetRole": {
+                  "enum": [
+                    "illustration.editorial",
+                    "illustration.abstract-glow",
+                    "photo.editorial-scene"
+                  ]
+                },
+                "assetRef": {
+                  "type": "string",
+                  "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+                },
+                "alt": {
+                  "type": "string",
+                  "maxWords": 24
+                }
+              },
+              "required": [
+                "assetRole",
+                "assetRef"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "minItems": 5,
+        "maxItems": 5
+      }
+    },
+    "required": [
+      "panels"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "hscroll-scrub"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "6000px container, 2344px track, panels 391-429 wide."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "spec.a2",
+    "spec.hscroll.mapping",
+    "jsx.hscroll"
+  ]
+}

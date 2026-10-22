@@ -1,0 +1,7 @@
+Ask Siena "BFCM prep call transcripyourb" @795,3447 421x63 [op,x,y,sx,sy,blur] [0,-209.9,46,1,1,0] -> [0,0,80,1,1,0] start 67ms t50 603ms end 603ms overshoot -209.3
+Bars "BFCM prep call transcrip" @1026,3511 40x40 [op,x,y,sx,sy,blur] [0,0,50,1,1,0] -> [0,-20,50,1,1,0] start 36ms t50 603ms end 603ms overshoot -150.0
+Bars "Returns SOP.pdfConfirm order i" @1082,3508 43x43 [op,x,y,sx,sy,blur] [0,-43.5,50,1,1,0] -> [0,0,28.5,1,1,0] start 67ms t50 603ms end 603ms overshoot -98.0
+DIV "Verified and live" @1076,3534 54x12 [op,x,y,sx,sy,blur] [1,-32.5,0,1,1,0] -> [1,-27.2,0,1,1,0] start 67ms t50 132ms end 603ms overshoot 0.0
+Ask Siena "@AskSiena what were our top es" @499,9011 399x87 [op,x,y,sx,sy,blur] [0,-199.5,80,1,1,0] -> [1,-199.5,0,1,1,0] start 234ms t50 698ms end 1498ms overshoot -1.2
+Ask Siena "Top drivers last week across 1" @507,9145 475x87 [op,x,y,sx,sy,blur] [0,0,80,1,1,0] -> [1,0,0,1,1,0] start 234ms t50 698ms end 1498ms overshoot -1.2
+Bars "Customers requests during BFCM" @533,9195 372x272 [op,x,y,sx,sy,blur] [0,0,80,1,1,0] -> [1,0,0,1,1,0] start 234ms t50 848ms end 1530ms overshoot 0.0

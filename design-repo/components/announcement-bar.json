@@ -1,0 +1,23 @@
+{
+  "registryId": "component.announcement-bar",
+  "version": "1.0.0",
+  "category": "chrome",
+  "description": "Ink bar under/above the pill (desktop: 1168x43, radius 0 0 16 16) linking to the Series A blog post on live siena.cx: italic display line + sans line.",
+  "composes": [
+    "primitive.text",
+    "primitive.link"
+  ],
+  "props": {
+    "italic": {
+      "type": "string",
+      "maxWords": 7
+    },
+    "text": {
+      "type": "string",
+      "maxWords": 10
+    }
+  },
+  "measuredFrom": [
+    "spec.announcement"
+  ]
+}

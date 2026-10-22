@@ -1,0 +1,27 @@
+{
+  "registryId": "primitive.icon",
+  "version": "1.0.0",
+  "category": "media",
+  "description": "Font Awesome 6 Sharp Light / Brands glyph addressed by codepoint (licensed icon font), or the four-point star bullet SVG.",
+  "props": {
+    "codepoint": {
+      "type": "string",
+      "pattern": "^U\\+[0-9A-F]{4}$"
+    },
+    "set": {
+      "enum": [
+        "sharp-light",
+        "brands",
+        "sharp-regular"
+      ]
+    }
+  },
+  "tokens": [
+    "{foundation.font.family.icon-light}",
+    "{foundation.font.family.icon-brands}"
+  ],
+  "measuredFrom": [
+    "jsx.co.faicon",
+    "spec.color.table"
+  ]
+}

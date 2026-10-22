@@ -1,0 +1,4 @@
+y2580 x0 Secondary / md 0x0 1px 1px 1px 1px solid #A7A092 r:12px txt:Read full story
+y3046 x0 Desktop 1440x434 0px 0px 1px 0px solid #000000/0.2 r:0px txt:cOMPANYAbout UsCareersCustomersSecurit
+y3174 x148 Secondary / md 46x48 1px 1px 1px 1px solid #FFFFFF/0.2 r:12px txt:
+y3174 x202 Secondary / md 48x48 1px 1px 1px 1px solid #FFFFFF/0.2 r:12px txt:

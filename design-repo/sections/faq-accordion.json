@@ -1,0 +1,81 @@
+{
+  "id": "section.faq.accordion",
+  "registryId": "section.faq.accordion",
+  "typeId": "faq.accordion",
+  "version": "1.0.0",
+  "category": "support",
+  "purpose": "FAQ: centered 'FAQ' H2 + sand panel of single-open accordion items (first open by default, ~100ms).",
+  "evidenceLevel": "measured",
+  "variants": {
+    "compare": "Panel 1062 radius 24.",
+    "product": "Social 894/48, qa/topics/order-tracking 1062/24, docs 894."
+  },
+  "composes": [
+    "component.faq-item"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "title": {
+        "const": "FAQ"
+      },
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "question": {
+              "type": "string",
+              "maxWords": 18
+            },
+            "answer": {
+              "type": "string",
+              "maxWords": 80
+            }
+          },
+          "required": [
+            "question",
+            "answer"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 3,
+        "maxItems": 8
+      }
+    },
+    "required": [
+      "title",
+      "items"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "accordion"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Panel 342, padding 24; questions wrap."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "spec.cv.3.8",
+    "spec.faq.behavior",
+    "jsx.conv.faq",
+    "spec.pa.2.5",
+    "spec.pa.4.10",
+    "spec.pb.3.5",
+    "spec.pb.4.7"
+  ]
+}

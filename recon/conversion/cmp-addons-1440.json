@@ -1,0 +1,382 @@
+{
+ "ticker": {
+  "secRect": {
+   "x": 0,
+   "y": 800,
+   "width": 1440,
+   "height": 100,
+   "top": 800,
+   "right": 1440,
+   "bottom": 900,
+   "left": 0
+  },
+  "mask": "linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 12.5%, rgb(0, 0, 0) 87.5%, rgba(0, 0, 0, 0) 100%)",
+  "ulTag": "UL",
+  "gap": "96px",
+  "n": 54,
+  "speedPxPerS": -30.376448383099415,
+  "items": [
+   {
+    "w": 176,
+    "h": 32,
+    "name": "1",
+    "img": null,
+    "svg": 156,
+    "bg": null,
+    "aria": "false"
+   },
+   {
+    "w": 159,
+    "h": 32,
+    "name": "2",
+    "img": null,
+    "svg": 0,
+    "bg": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000",
+    "aria": "false"
+   },
+   {
+    "w": 209,
+    "h": 32,
+    "name": "Madhapy",
+    "img": null,
+    "svg": 0,
+    "bg": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000",
+    "aria": "false"
+   },
+   {
+    "w": 167,
+    "h": 32,
+    "name": "4",
+    "img": null,
+    "svg": 157,
+    "bg": null,
+    "aria": "false"
+   },
+   {
+    "w": 119,
+    "h": 38,
+    "name": "5",
+    "img": null,
+    "svg": 156,
+    "bg": null,
+    "aria": "false"
+   },
+   {
+    "w": 111,
+    "h": 40,
+    "name": "6",
+    "img": null,
+    "svg": 156,
+    "bg": null,
+    "aria": "false"
+   },
+   {
+    "w": 120,
+    "h": 38,
+    "name": "7",
+    "img": null,
+    "svg": 155,
+    "bg": null,
+    "aria": "false"
+   },
+   {
+    "w": 91,
+    "h": 44,
+    "name": "8",
+    "img": null,
+    "svg": 155,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 241,
+    "h": 24,
+    "name": "9",
+    "img": null,
+    "svg": 157,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 99,
+    "h": 44,
+    "name": "10",
+    "img": null,
+    "svg": 156,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 161,
+    "h": 32,
+    "name": "11",
+    "img": null,
+    "svg": 156,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 207,
+    "h": 38,
+    "name": "12",
+    "img": null,
+    "svg": 77,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 156,
+    "h": 38,
+    "name": "13",
+    "img": null,
+    "svg": 157,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 71,
+    "h": 38,
+    "name": "14",
+    "img": null,
+    "svg": 155,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 112,
+    "h": 38,
+    "name": "15",
+    "img": null,
+    "svg": 157,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 150,
+    "h": 24,
+    "name": "16",
+    "img": null,
+    "svg": 156,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 152,
+    "h": 30,
+    "name": "17",
+    "img": null,
+    "svg": 157,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 188,
+    "h": 40,
+    "name": "18",
+    "img": null,
+    "svg": 155,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 176,
+    "h": 32,
+    "name": "1",
+    "img": null,
+    "svg": 156,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 159,
+    "h": 32,
+    "name": "2",
+    "img": null,
+    "svg": 0,
+    "bg": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000",
+    "aria": "true"
+   },
+   {
+    "w": 209,
+    "h": 32,
+    "name": "Madhapy",
+    "img": null,
+    "svg": 0,
+    "bg": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000",
+    "aria": "true"
+   },
+   {
+    "w": 167,
+    "h": 32,
+    "name": "4",
+    "img": null,
+    "svg": 157,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 119,
+    "h": 38,
+    "name": "5",
+    "img": null,
+    "svg": 156,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 111,
+    "h": 40,
+    "name": "6",
+    "img": null,
+    "svg": 156,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 120,
+    "h": 38,
+    "name": "7",
+    "img": null,
+    "svg": 155,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 91,
+    "h": 44,
+    "name": "8",
+    "img": null,
+    "svg": 155,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 241,
+    "h": 24,
+    "name": "9",
+    "img": null,
+    "svg": 157,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 99,
+    "h": 44,
+    "name": "10",
+    "img": null,
+    "svg": 156,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 161,
+    "h": 32,
+    "name": "11",
+    "img": null,
+    "svg": 156,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 207,
+    "h": 38,
+    "name": "12",
+    "img": null,
+    "svg": 77,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 156,
+    "h": 38,
+    "name": "13",
+    "img": null,
+    "svg": 157,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 71,
+    "h": 38,
+    "name": "14",
+    "img": null,
+    "svg": 155,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 112,
+    "h": 38,
+    "name": "15",
+    "img": null,
+    "svg": 157,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 150,
+    "h": 24,
+    "name": "16",
+    "img": null,
+    "svg": 156,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 152,
+    "h": 30,
+    "name": "17",
+    "img": null,
+    "svg": 157,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 188,
+    "h": 40,
+    "name": "18",
+    "img": null,
+    "svg": 155,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 176,
+    "h": 32,
+    "name": "1",
+    "img": null,
+    "svg": 156,
+    "bg": null,
+    "aria": "true"
+   },
+   {
+    "w": 159,
+    "h": 32,
+    "name": "2",
+    "img": null,
+    "svg": 0,
+    "bg": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000",
+    "aria": "true"
+   },
+   {
+    "w": 209,
+    "h": 32,
+    "name": "Madhapy",
+    "img": null,
+    "svg": 0,
+    "bg": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000",
+    "aria": "true"
+   },
+   {
+    "w": 167,
+    "h": 32,
+    "name": "4",
+    "img": null,
+    "svg": 157,
+    "bg": null,
+    "aria": "true"
+   }
+  ]
+ },
+ "faqNames": []
+}

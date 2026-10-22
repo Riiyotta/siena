@@ -1,0 +1,1 @@
+(()=>{const s=[...document.querySelectorAll('[data-framer-name="Scroll Area"]')].find(e=>e.offsetHeight>0);const v=[...s.querySelectorAll('[data-framer-name^="Reviews"]')].map(e=>e.getAttribute('data-framer-name')).join('/');return v})()

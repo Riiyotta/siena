@@ -1,0 +1,1243 @@
+{
+ "/terms-of-service@1440": {
+  "borders": [
+   {
+    "fn": "Title",
+    "tag": "DIV",
+    "r": [
+     160,
+     160,
+     1120,
+     114
+    ],
+    "after": {
+     "content": "\"\"",
+     "pos": "absolute",
+     "inset": "0px 0px 0px 0px",
+     "bd": "0px 0px 1px 0px solid rgba(0, 0, 0, 0.2)",
+     "br": "0px",
+     "bg": "rgba(0, 0, 0, 0)"
+    },
+    "vars": "#0003|0px|1px|solid"
+   },
+   {
+    "fn": "Desktop",
+    "tag": "DIV",
+    "r": [
+     0,
+     17196,
+     1440,
+     434
+    ],
+    "after": {
+     "content": "\"\"",
+     "pos": "absolute",
+     "inset": "0px 0px 0px 0px",
+     "bd": "0px 0px 1px 0px solid rgba(0, 0, 0, 0.2)",
+     "br": "0px",
+     "bg": "rgba(0, 0, 0, 0)"
+    },
+    "vars": "#0003|0px|1px|solid"
+   }
+  ],
+  "inputs": [],
+  "buttons": [],
+  "hover": []
+ },
+ "/conversations@1440": {
+  "borders": [
+   {
+    "fn": "Card",
+    "tag": "A",
+    "r": [
+     189,
+     395,
+     519,
+     356
+    ],
+    "after": {
+     "content": "\"\"",
+     "pos": "absolute",
+     "inset": "0px 0px 0px 0px",
+     "bd": "1px 1px 1px 1px solid rgba(0, 0, 0, 0.2)",
+     "br": "16px",
+     "bg": "rgba(0, 0, 0, 0)"
+    },
+    "vars": "#0003|1px|1px|solid"
+   },
+   {
+    "fn": "Card",
+    "tag": "A",
+    "r": [
+     732,
+     395,
+     519,
+     356
+    ],
+    "after": {
+     "content": "\"\"",
+     "pos": "absolute",
+     "inset": "0px 0px 0px 0px",
+     "bd": "1px 1px 1px 1px solid rgba(0, 0, 0, 0.2)",
+     "br": "16px",
+     "bg": "rgba(0, 0, 0, 0)"
+    },
+    "vars": "#0003|1px|1px|solid"
+   },
+   {
+    "fn": "Card",
+    "tag": "A",
+    "r": [
+     189,
+     776,
+     519,
+     356
+    ],
+    "after": {
+     "content": "\"\"",
+     "pos": "absolute",
+     "inset": "0px 0px 0px 0px",
+     "bd": "1px 1px 1px 1px solid rgba(0, 0, 0, 0.2)",
+     "br": "16px",
+     "bg": "rgba(0, 0, 0, 0)"
+    },
+    "vars": "#0003|1px|1px|solid"
+   },
+   {
+    "fn": null,
+    "tag": "DIV",
+    "r": [
+     389,
+     1592,
+     506,
+     60
+    ],
+    "after": {
+     "content": "\"\"",
+     "pos": "absolute",
+     "inset": "0px 0px 0px 0px",
+     "bd": "1px 1px 1px 1px solid rgb(205, 188, 160)",
+     "br": "16px",
+     "bg": "rgba(0, 0, 0, 0)"
+    },
+    "vars": "|||"
+   },
+   {
+    "fn": null,
+    "tag": "DIV",
+    "r": [
+     389,
+     1628,
+     505,
+     24
+    ],
+    "after": {
+     "content": "\"\"",
+     "pos": "absolute",
+     "inset": "0px 0px 0px 0px",
+     "bd": "1px 1px 1px 1px solid rgba(136, 136, 136, 0.1)",
+     "br": "10px",
+     "bg": "rgba(0, 0, 0, 0)"
+    },
+    "vars": "|||"
+   },
+   {
+    "fn": "Desktop",
+    "tag": "DIV",
+    "r": [
+     0,
+     1836,
+     1440,
+     434
+    ],
+    "after": {
+     "content": "\"\"",
+     "pos": "absolute",
+     "inset": "0px 0px 0px 0px",
+     "bd": "0px 0px 1px 0px solid rgba(0, 0, 0, 0.2)",
+     "br": "0px",
+     "bg": "rgba(0, 0, 0, 0)"
+    },
+    "vars": "#0003|0px|1px|solid"
+   }
+  ],
+  "inputs": [
+   {
+    "tag": "INPUT",
+    "type": "email",
+    "name": "Email",
+    "ph": "john.smith@example.com",
+    "r": [
+     405,
+     1612,
+     474,
+     20
+    ],
+    "font": "\"Instrument Sans\" 400 16px/16px lsnormal",
+    "color": "rgb(18, 32, 35)",
+    "phColor": "rgb(167, 160, 146)",
+    "pad": "0px",
+    "bg": "rgba(0, 0, 0, 0)",
+    "bd": "0px none rgb(18, 32, 35)",
+    "br": "0px",
+    "parBg": "rgb(255, 255, 255)",
+    "parBr": "16px",
+    "parSh": "none",
+    "parAfter": {
+     "content": "\"\"",
+     "pos": "absolute",
+     "inset": "0px 0px 0px 0px",
+     "bd": "1px 1px 1px 1px solid rgb(205, 188, 160)",
+     "br": "16px",
+     "bg": "rgba(0, 0, 0, 0)"
+    },
+    "req": true
+   },
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "name": "FormId",
+    "ph": "",
+    "r": [
+     401,
+     1640,
+     481,
+     0
+    ],
+    "font": "Inter 400 14px/16.8px lsnormal",
+    "color": "rgb(153, 153, 153)",
+    "phColor": "rgb(153, 153, 153)",
+    "pad": "0px",
+    "bg": "rgba(0, 0, 0, 0)",
+    "bd": "0px none rgb(153, 153, 153)",
+    "br": "0px",
+    "parBg": "rgba(187, 187, 187, 0.15)",
+    "parBr": "10px",
+    "parSh": "none",
+    "parAfter": {
+     "content": "\"\"",
+     "pos": "absolute",
+     "inset": "0px 0px 0px 0px",
+     "bd": "1px 1px 1px 1px solid rgba(136, 136, 136, 0.1)",
+     "br": "10px",
+     "bg": "rgba(0, 0, 0, 0)"
+    },
+    "req": false
+   }
+  ],
+  "buttons": [
+   {
+    "t": "Sign me up!",
+    "h": null,
+    "r": [
+     904,
+     1593,
+     147,
+     58
+    ],
+    "bg": "rgb(18, 32, 35)",
+    "bgi": "linear-gradient(90deg, rgb(18, 32, 35) 0%, rgb(18, 32, 35) 20%, rgb(18, 32, 35) 40%, rgb(18, 32, 35) 60%, rgb(18, 32, 35) 80%, rgb(18, 32, 35) 100%)",
+    "br": "16px",
+    "pad": "18px 24px",
+    "sh": "none",
+    "after": null
+   }
+  ],
+  "hover": [
+   {
+    "sel": "form button",
+    "before": {
+     "bg": "rgb(18, 32, 35)",
+     "bgi": "linear-gradient(90deg, rgb(18, 32, 35) 0%, rgb(18, 32, 35) 20%, rgb(18, 32, 35) 40%, rgb(18, 32, 35) 60%, rgb(18, 32, 35) 80%, rgb(18, 32, 35) 100%)",
+     "sh": "none",
+     "tf": "none",
+     "kids": [],
+     "after": null,
+     "tr": "all",
+     "color": "rgb(0, 0, 0)"
+    },
+    "after": {
+     "bg": "rgba(0, 0, 0, 0)",
+     "bgi": "linear-gradient(90deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 15.7658%, rgb(251, 86, 70) 30.6306%, rgb(130, 122, 204) 48.1982%, rgb(46, 121, 216) 77.027%, rgb(41, 79, 186) 100%)",
+     "sh": "none",
+     "tf": "none",
+     "kids": [],
+     "after": null,
+     "tr": "all",
+     "color": "rgb(0, 0, 0)"
+    }
+   },
+   {
+    "sel": "a[data-framer-name=\"Card\"]",
+    "before": {
+     "bg": "rgb(255, 255, 255)",
+     "bgi": "none",
+     "sh": "none",
+     "tf": "none",
+     "kids": [],
+     "after": "rgba(0, 0, 0, 0.2) 1px",
+     "tr": "all",
+     "color": "rgb(0, 0, 238)"
+    },
+    "after": {
+     "bg": "rgb(255, 255, 255)",
+     "bgi": "none",
+     "sh": "none",
+     "tf": "none",
+     "kids": [],
+     "after": "rgba(0, 0, 0, 0.2) 1px",
+     "tr": "all",
+     "color": "rgb(0, 0, 238)"
+    }
+   }
+  ]
+ },
+ "/insights/sentiment-analysis-online@1440": {
+  "borders": [
+   {
+    "fn": null,
+    "tag": "DIV",
+    "r": [
+     389,
+     5391,
+     662,
+     80
+    ],
+    "after": {
+     "content": "\"\"",
+     "pos": "absolute",
+     "inset": "0px 0px 0px 0px",
+     "bd": "0px 0px 1px 0px solid rgba(0, 0, 0, 0.2)",
+     "br": "0px",
+     "bg": "rgba(0, 0, 0, 0)"
+    },
+    "vars": "#0003|0px|1px|solid"
+   },
+   {
+    "fn": null,
+    "tag": "DIV",
+    "r": [
+     389,
+     5517,
+     323,
+     60
+    ],
+    "after": {
+     "content": "\"\"",
+     "pos": "absolute",
+     "inset": "0px 0px 0px 0px",
+     "bd": "1px 1px 1px 1px solid rgb(205, 188, 160)",
+     "br": "16px",
+     "bg": "rgba(0, 0, 0, 0)"
+    },
+    "vars": "|||"
+   },
+   {
+    "fn": null,
+    "tag": "DIV",
+    "r": [
+     728,
+     5517,
+     323,
+     60
+    ],
+    "after": {
+     "content": "\"\"",
+     "pos": "absolute",
+     "inset": "0px 0px 0px 0px",
+     "bd": "1px 1px 1px 1px solid rgb(205, 188, 160)",
+     "br": "16px",
+     "bg": "rgba(0, 0, 0, 0)"
+    },
+    "vars": "|||"
+   },
+   {
+    "fn": null,
+    "tag": "DIV",
+    "r": [
+     389,
+     5622,
+     323,
+     60
+    ],
+    "after": {
+     "content": "\"\"",
+     "pos": "absolute",
+     "inset": "0px 0px 0px 0px",
+     "bd": "1px 1px 1px 1px solid rgb(205, 188, 160)",
+     "br": "16px",
+     "bg": "rgba(0, 0, 0, 0)"
+    },
+    "vars": "|||"
+   },
+   {
+    "fn": null,
+    "tag": "DIV",
+    "r": [
+     728,
+     5626,
+     323,
+     56
+    ],
+    "after": {
+     "content": "\"\"",
+     "pos": "absolute",
+     "inset": "0px 0px 0px 0px",
+     "bd": "1px 1px 1px 1px solid rgb(205, 188, 160)",
+     "br": "15px",
+     "bg": "rgba(0, 0, 0, 0)"
+    },
+    "vars": "|||"
+   },
+   {
+    "fn": null,
+    "tag": "DIV",
+    "r": [
+     389,
+     5732,
+     662,
+     56
+    ],
+    "after": {
+     "content": "\"\"",
+     "pos": "absolute",
+     "inset": "0px 0px 0px 0px",
+     "bd": "1px 1px 1px 1px solid rgb(205, 188, 160)",
+     "br": "15px",
+     "bg": "rgba(0, 0, 0, 0)"
+    },
+    "vars": "|||"
+   },
+   {
+    "fn": null,
+    "tag": "DIV",
+    "r": [
+     389,
+     5833,
+     662,
+     100
+    ],
+    "after": {
+     "content": "\"\"",
+     "pos": "absolute",
+     "inset": "0px 0px 0px 0px",
+     "bd": "1px 1px 1px 1px solid rgb(205, 188, 160)",
+     "br": "16px",
+     "bg": "rgba(0, 0, 0, 0)"
+    },
+    "vars": "|||"
+   },
+   {
+    "fn": "Desktop",
+    "tag": "DIV",
+    "r": [
+     0,
+     6199,
+     1440,
+     434
+    ],
+    "after": {
+     "content": "\"\"",
+     "pos": "absolute",
+     "inset": "0px 0px 0px 0px",
+     "bd": "0px 0px 1px 0px solid rgba(0, 0, 0, 0.2)",
+     "br": "0px",
+     "bg": "rgba(0, 0, 0, 0)"
+    },
+    "vars": "#0003|0px|1px|solid"
+   }
+  ],
+  "inputs": [
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "name": "fullName",
+    "ph": "John Smith",
+    "r": [
+     405,
+     5537,
+     291,
+     20
+    ],
+    "font": "\"Instrument Sans\" 400 16px/16px lsnormal",
+    "color": "rgb(18, 32, 35)",
+    "phColor": "rgb(167, 160, 146)",
+    "pad": "0px",
+    "bg": "rgba(0, 0, 0, 0)",
+    "bd": "0px none rgb(18, 32, 35)",
+    "br": "0px",
+    "parBg": "rgb(255, 255, 255)",
+    "parBr": "16px",
+    "parSh": "none",
+    "parAfter": {
+     "content": "\"\"",
+     "pos": "absolute",
+     "inset": "0px 0px 0px 0px",
+     "bd": "1px 1px 1px 1px solid rgb(205, 188, 160)",
+     "br": "16px",
+     "bg": "rgba(0, 0, 0, 0)"
+    },
+    "req": true
+   },
+   {
+    "tag": "INPUT",
+    "type": "email",
+    "name": "workEmail",
+    "ph": "john.smith@business.com",
+    "r": [
+     744,
+     5537,
+     291,
+     20
+    ],
+    "font": "\"Instrument Sans\" 400 16px/16px lsnormal",
+    "color": "rgb(18, 32, 35)",
+    "phColor": "rgb(167, 160, 146)",
+    "pad": "0px",
+    "bg": "rgba(0, 0, 0, 0)",
+    "bd": "0px none rgb(18, 32, 35)",
+    "br": "0px",
+    "parBg": "rgb(255, 255, 255)",
+    "parBr": "16px",
+    "parSh": "none",
+    "parAfter": {
+     "content": "\"\"",
+     "pos": "absolute",
+     "inset": "0px 0px 0px 0px",
+     "bd": "1px 1px 1px 1px solid rgb(205, 188, 160)",
+     "br": "16px",
+     "bg": "rgba(0, 0, 0, 0)"
+    },
+    "req": true
+   },
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "name": "business_website",
+    "ph": "www.mywebsite.com",
+    "r": [
+     405,
+     5642,
+     291,
+     20
+    ],
+    "font": "\"Instrument Sans\" 400 16px/16px lsnormal",
+    "color": "rgb(18, 32, 35)",
+    "phColor": "rgb(167, 160, 146)",
+    "pad": "0px",
+    "bg": "rgba(0, 0, 0, 0)",
+    "bd": "0px none rgb(18, 32, 35)",
+    "br": "0px",
+    "parBg": "rgb(255, 255, 255)",
+    "parBr": "16px",
+    "parSh": "none",
+    "parAfter": {
+     "content": "\"\"",
+     "pos": "absolute",
+     "inset": "0px 0px 0px 0px",
+     "bd": "1px 1px 1px 1px solid rgb(205, 188, 160)",
+     "br": "16px",
+     "bg": "rgba(0, 0, 0, 0)"
+    },
+    "req": true
+   },
+   {
+    "tag": "SELECT",
+    "type": "select-one",
+    "name": "helpDesk",
+    "r": [
+     728,
+     5626,
+     307,
+     56
+    ],
+    "font": "\"Instrument Sans\" 400 16px/16px lsnormal",
+    "color": "rgb(167, 160, 146)",
+    "phColor": "rgb(167, 160, 146)",
+    "pad": "20px 16px",
+    "bg": "rgba(0, 0, 0, 0)",
+    "bd": "0px none rgb(167, 160, 146)",
+    "br": "0px",
+    "parBg": "rgb(255, 255, 255)",
+    "parBr": "15px",
+    "parSh": "none",
+    "parAfter": {
+     "content": "\"\"",
+     "pos": "absolute",
+     "inset": "0px 0px 0px 0px",
+     "bd": "1px 1px 1px 1px solid rgb(205, 188, 160)",
+     "br": "15px",
+     "bg": "rgba(0, 0, 0, 0)"
+    },
+    "opts": [
+     "Select one…",
+     "Gorgias",
+     "Zendesk",
+     "Kustomer",
+     "Gladly",
+     "Intercom",
+     "Salesforce",
+     "Other"
+    ],
+    "req": true
+   },
+   {
+    "tag": "SELECT",
+    "type": "select-one",
+    "name": "ticketVolume",
+    "r": [
+     389,
+     5732,
+     646,
+     56
+    ],
+    "font": "\"Instrument Sans\" 400 16px/16px lsnormal",
+    "color": "rgb(167, 160, 146)",
+    "phColor": "rgb(167, 160, 146)",
+    "pad": "20px 16px",
+    "bg": "rgba(0, 0, 0, 0)",
+    "bd": "0px none rgb(167, 160, 146)",
+    "br": "0px",
+    "parBg": "rgb(255, 255, 255)",
+    "parBr": "15px",
+    "parSh": "none",
+    "parAfter": {
+     "content": "\"\"",
+     "pos": "absolute",
+     "inset": "0px 0px 0px 0px",
+     "bd": "1px 1px 1px 1px solid rgb(205, 188, 160)",
+     "br": "15px",
+     "bg": "rgba(0, 0, 0, 0)"
+    },
+    "opts": [
+     "Select one…",
+     "<5,000",
+     "5,000-10,000",
+     "10,000-20,000",
+     "20,000-30,000",
+     "Over 30,000"
+    ],
+    "req": true
+   },
+   {
+    "tag": "TEXTAREA",
+    "type": "textarea",
+    "name": "attribution",
+    "ph": "Write us something...",
+    "r": [
+     389,
+     5833,
+     662,
+     100
+    ],
+    "font": "\"Instrument Sans\" 400 16px/16px lsnormal",
+    "color": "rgb(18, 32, 35)",
+    "phColor": "rgb(167, 160, 146)",
+    "pad": "20px 16px",
+    "bg": "rgba(0, 0, 0, 0)",
+    "bd": "0px none rgb(18, 32, 35)",
+    "br": "0px",
+    "parBg": "rgb(255, 255, 255)",
+    "parBr": "16px",
+    "parSh": "none",
+    "parAfter": {
+     "content": "\"\"",
+     "pos": "absolute",
+     "inset": "0px 0px 0px 0px",
+     "bd": "1px 1px 1px 1px solid rgb(205, 188, 160)",
+     "br": "16px",
+     "bg": "rgba(0, 0, 0, 0)"
+    },
+    "req": true
+   }
+  ],
+  "buttons": [
+   {
+    "t": "Book a demo",
+    "h": "./sentiment-analysis-online#book-a-demo",
+    "r": [
+     64,
+     602,
+     157,
+     58
+    ],
+    "bg": "rgb(18, 32, 35)",
+    "bgi": "linear-gradient(90deg, rgb(18, 32, 35) 0%, rgb(18, 32, 35) 20%, rgb(18, 32, 35) 40%, rgb(18, 32, 35) 60%, rgb(18, 32, 35) 80%, rgb(18, 32, 35) 100%)",
+    "br": "16px",
+    "pad": "18px 24px",
+    "sh": "none",
+    "after": null
+   },
+   {
+    "t": "Login",
+    "h": "https://idiomatic.io/?login=true",
+    "r": [
+     233,
+     602,
+     96,
+     58
+    ],
+    "bg": "rgb(255, 255, 255)",
+    "bgi": "linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 20%, rgb(255, 255, 255) 40%, rgb(255, 255, 255) 60%, rgb(255, 255, 255) 80%, rgb(255, 255, 255) 100%)",
+    "br": "16px",
+    "pad": "18px 24px",
+    "sh": "none",
+    "after": null
+   },
+   {
+    "t": "Learn more",
+    "h": "../",
+    "r": [
+     96,
+     4855,
+     144,
+     58
+    ],
+    "bg": "rgb(18, 32, 35)",
+    "bgi": "linear-gradient(90deg, rgb(18, 32, 35) 0%, rgb(18, 32, 35) 20%, rgb(18, 32, 35) 40%, rgb(18, 32, 35) 60%, rgb(18, 32, 35) 80%, rgb(18, 32, 35) 100%)",
+    "br": "16px",
+    "pad": "18px 24px",
+    "sh": "none",
+    "after": null
+   },
+   {
+    "t": "Submit",
+    "h": null,
+    "r": [
+     941,
+     5957,
+     110,
+     58
+    ],
+    "bg": "rgb(18, 32, 35)",
+    "bgi": "linear-gradient(90deg, rgb(18, 32, 35) 0%, rgb(18, 32, 35) 20%, rgb(18, 32, 35) 40%, rgb(18, 32, 35) 60%, rgb(18, 32, 35) 80%, rgb(18, 32, 35) 100%)",
+    "br": "16px",
+    "pad": "18px 24px",
+    "sh": "none",
+    "after": null
+   }
+  ],
+  "hover": [
+   {
+    "sel": "a[data-framer-name=\"xlg\"]",
+    "before": {
+     "bg": "rgb(18, 32, 35)",
+     "bgi": "linear-gradient(90deg, rgb(18, 32, 35) 0%, rgb(18, 32, 35) 20%, rgb(18, 32, 35) 40%, rgb(18, 32, 35) 60%, rgb(18, 32, 35) 80%, rgb(18, 32, 35) 100%)",
+     "sh": "none",
+     "tf": "none",
+     "kids": [],
+     "after": null,
+     "tr": "all",
+     "color": "rgb(0, 0, 238)"
+    },
+    "after": {
+     "bg": "rgba(0, 0, 0, 0)",
+     "bgi": "linear-gradient(90deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 21.4087%, rgb(251, 86, 70) 36.0976%, rgb(130, 122, 204) 60.5158%, rgb(46, 121, 216) 89%, rgb(41, 79, 186) 100%)",
+     "sh": "none",
+     "tf": "none",
+     "kids": [],
+     "after": null,
+     "tr": "all",
+     "color": "rgb(0, 0, 238)"
+    }
+   },
+   {
+    "sel": "form button",
+    "before": {
+     "bg": "rgb(18, 32, 35)",
+     "bgi": "linear-gradient(90deg, rgb(18, 32, 35) 0%, rgb(18, 32, 35) 20%, rgb(18, 32, 35) 40%, rgb(18, 32, 35) 60%, rgb(18, 32, 35) 80%, rgb(18, 32, 35) 100%)",
+     "sh": "none",
+     "tf": "none",
+     "kids": [],
+     "after": null,
+     "tr": "all",
+     "color": "rgb(0, 0, 0)"
+    },
+    "after": {
+     "bg": "rgba(0, 0, 0, 0)",
+     "bgi": "linear-gradient(90deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 15.7658%, rgb(251, 86, 70) 30.6306%, rgb(130, 122, 204) 48.1982%, rgb(46, 121, 216) 77.027%, rgb(41, 79, 186) 100%)",
+     "sh": "none",
+     "tf": "none",
+     "kids": [],
+     "after": null,
+     "tr": "all",
+     "color": "rgb(0, 0, 0)"
+    }
+   }
+  ]
+ },
+ "/insights@390": {
+  "borders": [
+   {
+    "fn": null,
+    "tag": "DIV",
+    "r": [
+     40,
+     7515,
+     310,
+     90
+    ],
+    "after": {
+     "content": "\"\"",
+     "pos": "absolute",
+     "inset": "0px 0px 0px 0px",
+     "bd": "0px 0px 1px 0px solid rgba(0, 0, 0, 0.2)",
+     "br": "0px",
+     "bg": "rgba(0, 0, 0, 0)"
+    },
+    "vars": "#0003|0px|1px|solid"
+   },
+   {
+    "fn": null,
+    "tag": "DIV",
+    "r": [
+     40,
+     7650,
+     310,
+     60
+    ],
+    "after": {
+     "content": "\"\"",
+     "pos": "absolute",
+     "inset": "0px 0px 0px 0px",
+     "bd": "1px 1px 1px 1px solid rgb(205, 188, 160)",
+     "br": "16px",
+     "bg": "rgba(0, 0, 0, 0)"
+    },
+    "vars": "|||"
+   },
+   {
+    "fn": null,
+    "tag": "DIV",
+    "r": [
+     40,
+     7755,
+     310,
+     60
+    ],
+    "after": {
+     "content": "\"\"",
+     "pos": "absolute",
+     "inset": "0px 0px 0px 0px",
+     "bd": "1px 1px 1px 1px solid rgb(205, 188, 160)",
+     "br": "16px",
+     "bg": "rgba(0, 0, 0, 0)"
+    },
+    "vars": "|||"
+   },
+   {
+    "fn": null,
+    "tag": "DIV",
+    "r": [
+     40,
+     7861,
+     310,
+     60
+    ],
+    "after": {
+     "content": "\"\"",
+     "pos": "absolute",
+     "inset": "0px 0px 0px 0px",
+     "bd": "1px 1px 1px 1px solid rgb(205, 188, 160)",
+     "br": "16px",
+     "bg": "rgba(0, 0, 0, 0)"
+    },
+    "vars": "|||"
+   },
+   {
+    "fn": null,
+    "tag": "DIV",
+    "r": [
+     40,
+     7970,
+     310,
+     56
+    ],
+    "after": {
+     "content": "\"\"",
+     "pos": "absolute",
+     "inset": "0px 0px 0px 0px",
+     "bd": "1px 1px 1px 1px solid rgb(205, 188, 160)",
+     "br": "15px",
+     "bg": "rgba(0, 0, 0, 0)"
+    },
+    "vars": "|||"
+   },
+   {
+    "fn": null,
+    "tag": "DIV",
+    "r": [
+     40,
+     8076,
+     310,
+     56
+    ],
+    "after": {
+     "content": "\"\"",
+     "pos": "absolute",
+     "inset": "0px 0px 0px 0px",
+     "bd": "1px 1px 1px 1px solid rgb(205, 188, 160)",
+     "br": "15px",
+     "bg": "rgba(0, 0, 0, 0)"
+    },
+    "vars": "|||"
+   },
+   {
+    "fn": null,
+    "tag": "DIV",
+    "r": [
+     40,
+     8177,
+     310,
+     100
+    ],
+    "after": {
+     "content": "\"\"",
+     "pos": "absolute",
+     "inset": "0px 0px 0px 0px",
+     "bd": "1px 1px 1px 1px solid rgb(205, 188, 160)",
+     "br": "16px",
+     "bg": "rgba(0, 0, 0, 0)"
+    },
+    "vars": "|||"
+   },
+   {
+    "fn": "Phone",
+    "tag": "DIV",
+    "r": [
+     0,
+     8439,
+     390,
+     1080
+    ],
+    "after": {
+     "content": "\"\"",
+     "pos": "absolute",
+     "inset": "0px 0px 0px 0px",
+     "bd": "0px 0px 1px 0px solid rgba(0, 0, 0, 0.2)",
+     "br": "0px",
+     "bg": "rgba(0, 0, 0, 0)"
+    },
+    "vars": "#0003|0px|1px|solid"
+   }
+  ],
+  "inputs": [
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "name": "fullName",
+    "ph": "John Smith",
+    "r": [
+     56,
+     7670,
+     278,
+     20
+    ],
+    "font": "\"Instrument Sans\" 400 16px/16px lsnormal",
+    "color": "rgb(18, 32, 35)",
+    "phColor": "rgb(167, 160, 146)",
+    "pad": "0px",
+    "bg": "rgba(0, 0, 0, 0)",
+    "bd": "0px none rgb(18, 32, 35)",
+    "br": "0px",
+    "parBg": "rgb(255, 255, 255)",
+    "parBr": "16px",
+    "parSh": "none",
+    "parAfter": {
+     "content": "\"\"",
+     "pos": "absolute",
+     "inset": "0px 0px 0px 0px",
+     "bd": "1px 1px 1px 1px solid rgb(205, 188, 160)",
+     "br": "16px",
+     "bg": "rgba(0, 0, 0, 0)"
+    },
+    "req": true
+   },
+   {
+    "tag": "INPUT",
+    "type": "email",
+    "name": "workEmail",
+    "ph": "john.smith@business.com",
+    "r": [
+     56,
+     7775,
+     278,
+     20
+    ],
+    "font": "\"Instrument Sans\" 400 16px/16px lsnormal",
+    "color": "rgb(18, 32, 35)",
+    "phColor": "rgb(167, 160, 146)",
+    "pad": "0px",
+    "bg": "rgba(0, 0, 0, 0)",
+    "bd": "0px none rgb(18, 32, 35)",
+    "br": "0px",
+    "parBg": "rgb(255, 255, 255)",
+    "parBr": "16px",
+    "parSh": "none",
+    "parAfter": {
+     "content": "\"\"",
+     "pos": "absolute",
+     "inset": "0px 0px 0px 0px",
+     "bd": "1px 1px 1px 1px solid rgb(205, 188, 160)",
+     "br": "16px",
+     "bg": "rgba(0, 0, 0, 0)"
+    },
+    "req": true
+   },
+   {
+    "tag": "INPUT",
+    "type": "text",
+    "name": "business_website",
+    "ph": "www.mywebsite.com",
+    "r": [
+     56,
+     7881,
+     278,
+     20
+    ],
+    "font": "\"Instrument Sans\" 400 16px/16px lsnormal",
+    "color": "rgb(18, 32, 35)",
+    "phColor": "rgb(167, 160, 146)",
+    "pad": "0px",
+    "bg": "rgba(0, 0, 0, 0)",
+    "bd": "0px none rgb(18, 32, 35)",
+    "br": "0px",
+    "parBg": "rgb(255, 255, 255)",
+    "parBr": "16px",
+    "parSh": "none",
+    "parAfter": {
+     "content": "\"\"",
+     "pos": "absolute",
+     "inset": "0px 0px 0px 0px",
+     "bd": "1px 1px 1px 1px solid rgb(205, 188, 160)",
+     "br": "16px",
+     "bg": "rgba(0, 0, 0, 0)"
+    },
+    "req": true
+   },
+   {
+    "tag": "SELECT",
+    "type": "select-one",
+    "name": "helpDesk",
+    "r": [
+     40,
+     7970,
+     294,
+     56
+    ],
+    "font": "\"Instrument Sans\" 400 16px/16px lsnormal",
+    "color": "rgb(167, 160, 146)",
+    "phColor": "rgb(167, 160, 146)",
+    "pad": "20px 16px",
+    "bg": "rgba(0, 0, 0, 0)",
+    "bd": "0px none rgb(167, 160, 146)",
+    "br": "0px",
+    "parBg": "rgb(255, 255, 255)",
+    "parBr": "15px",
+    "parSh": "none",
+    "parAfter": {
+     "content": "\"\"",
+     "pos": "absolute",
+     "inset": "0px 0px 0px 0px",
+     "bd": "1px 1px 1px 1px solid rgb(205, 188, 160)",
+     "br": "15px",
+     "bg": "rgba(0, 0, 0, 0)"
+    },
+    "opts": [
+     "Select one…",
+     "Gorgias",
+     "Zendesk",
+     "Kustomer",
+     "Gladly",
+     "Intercom",
+     "Salesforce",
+     "Other"
+    ],
+    "req": true
+   },
+   {
+    "tag": "SELECT",
+    "type": "select-one",
+    "name": "ticketVolume",
+    "r": [
+     40,
+     8076,
+     294,
+     56
+    ],
+    "font": "\"Instrument Sans\" 400 16px/16px lsnormal",
+    "color": "rgb(167, 160, 146)",
+    "phColor": "rgb(167, 160, 146)",
+    "pad": "20px 16px",
+    "bg": "rgba(0, 0, 0, 0)",
+    "bd": "0px none rgb(167, 160, 146)",
+    "br": "0px",
+    "parBg": "rgb(255, 255, 255)",
+    "parBr": "15px",
+    "parSh": "none",
+    "parAfter": {
+     "content": "\"\"",
+     "pos": "absolute",
+     "inset": "0px 0px 0px 0px",
+     "bd": "1px 1px 1px 1px solid rgb(205, 188, 160)",
+     "br": "15px",
+     "bg": "rgba(0, 0, 0, 0)"
+    },
+    "opts": [
+     "Select one…",
+     "<5,000",
+     "5,000-10,000",
+     "10,000-20,000",
+     "20,000-30,000",
+     "Over 30,000"
+    ],
+    "req": true
+   },
+   {
+    "tag": "TEXTAREA",
+    "type": "textarea",
+    "name": "attribution",
+    "ph": "Write us something...",
+    "r": [
+     40,
+     8177,
+     310,
+     100
+    ],
+    "font": "\"Instrument Sans\" 400 16px/16px lsnormal",
+    "color": "rgb(18, 32, 35)",
+    "phColor": "rgb(167, 160, 146)",
+    "pad": "20px 16px",
+    "bg": "rgba(0, 0, 0, 0)",
+    "bd": "0px none rgb(18, 32, 35)",
+    "br": "0px",
+    "parBg": "rgb(255, 255, 255)",
+    "parBr": "16px",
+    "parSh": "none",
+    "parAfter": {
+     "content": "\"\"",
+     "pos": "absolute",
+     "inset": "0px 0px 0px 0px",
+     "bd": "1px 1px 1px 1px solid rgb(205, 188, 160)",
+     "br": "16px",
+     "bg": "rgba(0, 0, 0, 0)"
+    },
+    "req": true
+   }
+  ],
+  "buttons": [
+   {
+    "t": "Book a demo",
+    "h": "./",
+    "r": [
+     24,
+     487,
+     157,
+     58
+    ],
+    "bg": "rgb(18, 32, 35)",
+    "bgi": "linear-gradient(90deg, rgb(18, 32, 35) 0%, rgb(18, 32, 35) 20%, rgb(18, 32, 35) 40%, rgb(18, 32, 35) 60%, rgb(18, 32, 35) 80%, rgb(18, 32, 35) 100%)",
+    "br": "16px",
+    "pad": "18px 24px",
+    "sh": "none",
+    "after": null
+   },
+   {
+    "t": "Book a demo",
+    "h": "./",
+    "r": [
+     24,
+     3496,
+     157,
+     58
+    ],
+    "bg": "rgb(18, 32, 35)",
+    "bgi": "linear-gradient(90deg, rgb(18, 32, 35) 0%, rgb(18, 32, 35) 20%, rgb(18, 32, 35) 40%, rgb(18, 32, 35) 60%, rgb(18, 32, 35) 80%, rgb(18, 32, 35) 100%)",
+    "br": "16px",
+    "pad": "18px 24px",
+    "sh": "none",
+    "after": null
+   },
+   {
+    "t": "Learn more",
+    "h": "./",
+    "r": [
+     24,
+     6775,
+     144,
+     58
+    ],
+    "bg": "rgb(18, 32, 35)",
+    "bgi": "linear-gradient(90deg, rgb(18, 32, 35) 0%, rgb(18, 32, 35) 20%, rgb(18, 32, 35) 40%, rgb(18, 32, 35) 60%, rgb(18, 32, 35) 80%, rgb(18, 32, 35) 100%)",
+    "br": "16px",
+    "pad": "18px 24px",
+    "sh": "none",
+    "after": null
+   },
+   {
+    "t": "Submit",
+    "h": null,
+    "r": [
+     40,
+     8301,
+     310,
+     58
+    ],
+    "bg": "rgb(18, 32, 35)",
+    "bgi": "linear-gradient(90deg, rgb(18, 32, 35) 0%, rgb(18, 32, 35) 20%, rgb(18, 32, 35) 40%, rgb(18, 32, 35) 60%, rgb(18, 32, 35) 80%, rgb(18, 32, 35) 100%)",
+    "br": "16px",
+    "pad": "18px 24px",
+    "sh": "none",
+    "after": null
+   }
+  ],
+  "hover": [
+   {
+    "sel": "a[data-framer-name=\"xlg\"]",
+    "before": {
+     "bg": "rgb(18, 32, 35)",
+     "bgi": "linear-gradient(90deg, rgb(18, 32, 35) 0%, rgb(18, 32, 35) 20%, rgb(18, 32, 35) 40%, rgb(18, 32, 35) 60%, rgb(18, 32, 35) 80%, rgb(18, 32, 35) 100%)",
+     "sh": "none",
+     "tf": "none",
+     "kids": [],
+     "after": null,
+     "tr": "all",
+     "color": "rgb(0, 0, 238)"
+    },
+    "after": {
+     "bg": "rgba(0, 0, 0, 0)",
+     "bgi": "linear-gradient(90deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 21.4087%, rgb(251, 86, 70) 36.0976%, rgb(130, 122, 204) 60.5158%, rgb(46, 121, 216) 89%, rgb(41, 79, 186) 100%)",
+     "sh": "none",
+     "tf": "none",
+     "kids": [],
+     "after": null,
+     "tr": "all",
+     "color": "rgb(0, 0, 238)"
+    }
+   },
+   {
+    "sel": "form button",
+    "before": {
+     "bg": "rgb(18, 32, 35)",
+     "bgi": "linear-gradient(90deg, rgb(18, 32, 35) 0%, rgb(18, 32, 35) 20%, rgb(18, 32, 35) 40%, rgb(18, 32, 35) 60%, rgb(18, 32, 35) 80%, rgb(18, 32, 35) 100%)",
+     "sh": "none",
+     "tf": "none",
+     "kids": [],
+     "after": null,
+     "tr": "all",
+     "color": "rgb(0, 0, 0)"
+    },
+    "after": {
+     "bg": "rgba(0, 0, 0, 0)",
+     "bgi": "linear-gradient(90deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 15.7658%, rgb(251, 86, 70) 30.6306%, rgb(130, 122, 204) 48.1982%, rgb(46, 121, 216) 77.027%, rgb(41, 79, 186) 100%)",
+     "sh": "none",
+     "tf": "none",
+     "kids": [],
+     "after": null,
+     "tr": "all",
+     "color": "rgb(0, 0, 0)"
+    }
+   }
+  ]
+ }
+}

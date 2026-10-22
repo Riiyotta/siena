@@ -1,0 +1,52 @@
+{
+  "id": "section.events.empty-list",
+  "registryId": "section.events.empty-list",
+  "typeId": "events.empty-list",
+  "version": "1.0.0",
+  "category": "content",
+  "purpose": "Events list in its only reachable state: the empty-state card (CMS empty; no event card design is measurable).",
+  "evidenceLevel": "measured",
+  "variants": {
+    "events": "1008x600 gradient card."
+  },
+  "composes": [
+    "primitive.text"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "emptyMessage": {
+        "type": "string",
+        "maxWords": 10
+      }
+    },
+    "required": [
+      "emptyMessage"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "342x600, H4 24/28.8."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "spec.e2",
+    "jsx.events"
+  ]
+}

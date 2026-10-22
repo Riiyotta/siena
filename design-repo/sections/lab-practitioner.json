@@ -1,0 +1,96 @@
+{
+  "id": "section.lab.practitioner",
+  "registryId": "section.lab.practitioner",
+  "typeId": "lab.practitioner",
+  "version": "1.0.0",
+  "category": "content",
+  "purpose": "Dark 'Become an AI practitioner' block: white rule/eyebrow/H2 + statement, four numbered columns, then the #next-lab heading (empty below).",
+  "evidenceLevel": "spec-measured",
+  "variants": {
+    "lab": "Ink wrapper, padding 112 64 312."
+  },
+  "composes": [
+    "primitive.text"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "eyebrow": {
+        "type": "string",
+        "maxWords": 3
+      },
+      "heading": {
+        "type": "string",
+        "maxWords": 5
+      },
+      "statement": {
+        "type": "string",
+        "maxWords": 25
+      },
+      "columns": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "number": {
+              "type": "string",
+              "maxWords": 1
+            },
+            "title": {
+              "type": "string",
+              "maxWords": 3
+            },
+            "body": {
+              "type": "string",
+              "maxWords": 30
+            }
+          },
+          "required": [
+            "number",
+            "title",
+            "body"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 4,
+        "maxItems": 4
+      },
+      "nextLabHeading": {
+        "type": "string",
+        "maxWords": 3
+      }
+    },
+    "required": [
+      "eyebrow",
+      "heading",
+      "statement",
+      "columns",
+      "nextLabHeading"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "tile-glitch",
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Columns stack."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "spec.pb.5.6"
+  ]
+}

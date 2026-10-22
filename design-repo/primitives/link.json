@@ -1,0 +1,32 @@
+{
+  "registryId": "primitive.link",
+  "version": "1.0.0",
+  "category": "action",
+  "description": "Inline or nav link. Nav links get a 1px coral underline that slides in from the left on hover (~350ms spring); footer links turn link-hover blue.",
+  "props": {
+    "label": {
+      "type": "string",
+      "maxWords": 6
+    },
+    "href": {
+      "type": "string"
+    },
+    "context": {
+      "enum": [
+        "nav",
+        "footer",
+        "inline",
+        "legal-row"
+      ]
+    }
+  },
+  "tokens": [
+    "{typography.nav-link}",
+    "{color.text.on-dark-muted}",
+    "{color.text.link-hover-on-dark}"
+  ],
+  "measuredFrom": [
+    "spec.navlink.hover",
+    "spec.footer.links"
+  ]
+}

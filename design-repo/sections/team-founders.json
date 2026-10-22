@@ -1,0 +1,164 @@
+{
+  "id": "section.team.founders",
+  "registryId": "section.team.founders",
+  "typeId": "team.founders",
+  "version": "1.0.0",
+  "category": "company",
+  "purpose": "'Our team' letter + founders portrait with names and LinkedIn/X buttons; links to careers.",
+  "evidenceLevel": "measured",
+  "variants": {
+    "about": "Row gap 120; phone puts the image first."
+  },
+  "composes": [
+    "primitive.text",
+    "primitive.button",
+    "primitive.image"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "eyebrow": {
+        "type": "string",
+        "maxWords": 3
+      },
+      "heading": {
+        "type": "string",
+        "maxWords": 5
+      },
+      "paragraphs": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "text": {
+              "type": "string",
+              "maxWords": 45
+            },
+            "copySource": {
+              "enum": [
+                "real",
+                "placeholder"
+              ]
+            }
+          },
+          "required": [
+            "text",
+            "copySource"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 3,
+        "maxItems": 6
+      },
+      "cta": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string",
+            "maxWords": 4
+          },
+          "href": {
+            "type": "string",
+            "pattern": "^(/[a-z0-9/#-]*|#[a-z0-9-]+|https://[a-zA-Z0-9.-]+(/[^\\s]*)?|mailto:[a-z.]+@siena\\.cx)$"
+          },
+          "style": {
+            "enum": [
+              "xlg-dark"
+            ]
+          }
+        },
+        "required": [
+          "label",
+          "href",
+          "style"
+        ],
+        "additionalProperties": false
+      },
+      "portrait": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "const": "photo.person-real"
+          },
+          "assetRef": {
+            "type": "string",
+            "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 24
+          }
+        },
+        "required": [
+          "assetRole",
+          "assetRef"
+        ],
+        "additionalProperties": false
+      },
+      "founders": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "maxWords": 3
+            },
+            "linkedin": {
+              "type": "string",
+              "pattern": "^(/[a-z0-9/#-]*|#[a-z0-9-]+|https://[a-zA-Z0-9.-]+(/[^\\s]*)?|mailto:[a-z.]+@siena\\.cx)$"
+            },
+            "x": {
+              "type": "string",
+              "pattern": "^(/[a-z0-9/#-]*|#[a-z0-9-]+|https://[a-zA-Z0-9.-]+(/[^\\s]*)?|mailto:[a-z.]+@siena\\.cx)$"
+            }
+          },
+          "required": [
+            "name",
+            "linkedin",
+            "x"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 2,
+        "maxItems": 2
+      }
+    },
+    "required": [
+      "eyebrow",
+      "heading",
+      "paragraphs",
+      "cta",
+      "portrait",
+      "founders"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Column, image first, founders stacked; body 14/21."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "spec.a3",
+    "jsx.ourteam"
+  ],
+  "copyPolicy": {
+    "paragraphs": "4 of 5 paragraphs are placeholder in the clone (OurTeam.jsx)"
+  }
+}

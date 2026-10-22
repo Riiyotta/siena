@@ -1,0 +1,303 @@
+##### Hero@0@9
+div "Hero" [0,0,1440x900] flex-column gap:0px jc:center ai:center p:180px 96px 120px ov:hidden
+  div [0,0,1440x900] absolute(t:0px r:0px b:0px l:0px)
+    img [0,0,1440x900] ov:clip src:9ffhJgVx9g1qv0nTgqvc7QPif3o.png fit:cover pos:50% 50%
+  div "Title" [189,306,1062x348] flex-column gap:28px jc:center ai:flex-start ov:hidden maxw:1062px z:1
+    div [189,306,1062x262] flex-column gap:18px jc:center ai:flex-start
+      div [189,306,1062x160] flex-column gap:24px jc:flex-start ai:flex-start
+        div [189,306,1062x160] flex-column gap:normal jc:flex-start ai:normal tf:matrix(1, 0, 0, 1, 0, 0) z:1
+          h1 [189,306,1062x160] TEXT"Capture every detail, personalize every moment." {Feature Deck Web Light 300 80px/80px ls:-0.8px #122023 left}
+            br [875,294,0x104]
+      div [189,484,630x84] flex-column gap:normal jc:flex-start ai:normal op:0.82 maxw:630px tf:matrix(1, 0, 0, 1, 0, 0) z:1
+        p [189,484,630x84] TEXT"Siena Memory is the agentic brand intelligence layer that powers superhuman personalization and delivers insights that transform your business." {Instrument Sans 500 20px/28px ls:-0.2px #122023 left}
+    div [189,596,157x58] tf:matrix(1, 0, 0, 1, 0, 0)
+      a "xlg" [189,596,157x58] flex-row gap:10px jc:center ai:center p:18px 24px bg:#122023 bgi:linear-gradient(90deg, rgb(18, 32, 35) 0%, rgb(18, 32, 35) 20%, rgb(18, 32, 35) 40%, rgb(18, 32, 35) 60%, rgb(18, 32, 35) 80%, rgb(18, 32, 35) 100%) r:16px
+        div "Text" [213,614,109x22] flex-column gap:normal jc:flex-start ai:normal
+          p [213,614,109x22] TEXT"Book a demo" {Instrument Sans 600 18px/21.6px ls:normal #FFFFFF left}
+    div [0,800,1440x100]
+      section [0,800,1440x100] flex-row gap:normal jc:normal ai:center ov:hidden maxw:100%
+            div "1" [-193,834,176x32] ov:hidden
+                div [-193,834,176x32]
+            div "2" [47,834,159x32] ov:hidden
+            div "Madhapy" [270,834,209x32] ov:hidden
+              div "Madhapy" [270,834,209x32] bgi:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 209 32%22><g transform=%22translate(0 -0.005)%22><path d=%22M 0 0.005 L 208.762 0.005 L 20 absolute(t:0px r:0px b:0px l:0
+            div "4" [543,834,167x32] ov:hidden
+                div [543,834,167x32]
+            div "5" [774,831,119x38] ov:hidden
+                div [774,831,119x38]
+            div "6" [957,830,111x40] ov:hidden
+                div [957,830,111x40]
+            div "7" [1132,831,120x38] ov:hidden
+                div [1132,831,120x38]
+            div "8" [1316,828,91x44] ov:hidden
+                div [1316,828,91x44]
+            div "9" [1471,838,241x24] ov:hidden
+                div [1471,838,241x24]
+            div "10" [1776,828,99x44] ov:hidden
+                div [1776,828,99x44]
+            div "11" [1939,834,161x32] ov:hidden
+                div [1939,834,161x32]
+            div "12" [2164,831,207x38] ov:hidden
+                div [2164,831,207x38]
+            div "13" [2435,831,156x38] ov:hidden
+                div [2435,831,156x38]
+            div "14" [2655,831,71x38] ov:hidden
+                div [2655,831,71x38]
+            div "15" [2790,831,112x38] ov:hidden
+                div [2790,831,112x38]
+            div "16" [2966,838,150x24] ov:hidden
+                div [2966,838,150x24]
+            div "17" [3180,835,152x30] ov:hidden
+                div [3180,835,152x30]
+            div "18" [3396,830,188x40] ov:hidden
+                div [3396,830,188x40]
+            div "19" [3648,828,154x44] ov:hidden
+                div [3648,828,154x44]
+            div "20" [3866,831,126x38] ov:hidden
+                div [3866,831,126x38]
+            div "21" [4056,835,178x30] ov:hidden
+                div [4056,835,178x30]
+            div "22" [4298,835,103x30] ov:hidden
+                div [4298,835,103x30]
+            div "23" [4465,831,189x38] ov:hidden
+                div [4465,831,189x38]
+            div "24" [4718,828,86x44] ov:hidden
+                div [4718,828,86x44]
+            div "25" [4868,828,112x44] ov:hidden
+                div [4868,828,112x44]
+            div "26" [5044,835,144x30] ov:hidden
+                div [5044,835,144x30]
+            div "27" [5252,828,82x44] ov:hidden
+                div [5252,828,82x44]
+            div "28" [5398,835,121x30] ov:hidden
+                div [5398,835,121x30]
+            div "29" [5583,831,107x38] ov:hidden
+                div [5583,831,107x38]
+            div "1" [5754,834,176x32] ov:hidden
+                div [5754,834,176x32]
+            div "2" [5994,834,159x32] ov:hidden
+            div "Madhapy" [6217,834,209x32] ov:hidden
+              div "Madhapy" [6217,834,209x32] bgi:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 209 32%22><g transform=%22translate(0 -0.005)%22><path d=%22M 0 0.005 L 208.762 0.005 L 20 absolute(t:0px r:0px b:0px l:
+            div "4" [6490,834,167x32] ov:hidden
+                div [6490,834,167x32]
+            div "5" [6721,831,119x38] ov:hidden
+                div [6721,831,119x38]
+            div "6" [6904,830,111x40] ov:hidden
+                div [6904,830,111x40]
+            div "7" [7079,831,120x38] ov:hidden
+                div [7079,831,120x38]
+            div "8" [7263,828,91x44] ov:hidden
+                div [7263,828,91x44]
+            div "9" [7418,838,241x24] ov:hidden
+                div [7418,838,241x24]
+            div "10" [7723,828,99x44] ov:hidden
+                div [7723,828,99x44]
+            div "11" [7886,834,161x32] ov:hidden
+                div [7886,834,161x32]
+            div "12" [8111,831,207x38] ov:hidden
+                div [8111,831,207x38]
+            div "13" [8382,831,156x38] ov:hidden
+                div [8382,831,156x38]
+            div "14" [8602,831,71x38] ov:hidden
+                div [8602,831,71x38]
+            div "15" [8737,831,112x38] ov:hidden
+                div [8737,831,112x38]
+            div "16" [8913,838,150x24] ov:hidden
+                div [8913,838,150x24]
+            div "17" [9127,835,152x30] ov:hidden
+                div [9127,835,152x30]
+            div "18" [9343,830,188x40] ov:hidden
+                div [9343,830,188x40]
+            div "19" [9595,828,154x44] ov:hidden
+                div [9595,828,154x44]
+            div "20" [9813,831,126x38] ov:hidden
+                div [9813,831,126x38]
+            div "21" [10003,835,178x30] ov:hidden
+                div [10003,835,178x30]
+            div "22" [10245,835,103x30] ov:hidden
+                div [10245,835,103x30]
+            div "23" [10412,831,189x38] ov:hidden
+                div [10412,831,189x38]
+            div "24" [10665,828,86x44] ov:hidden
+                div [10665,828,86x44]
+            div "25" [10815,828,112x44] ov:hidden
+                div [10815,828,112x44]
+            div "26" [10991,835,144x30] ov:hidden
+                div [10991,835,144x30]
+            div "27" [11199,828,82x44] ov:hidden
+                div [11199,828,82x44]
+            div "28" [11345,835,121x30] ov:hidden
+                div [11345,835,121x30]
+            div "29" [11530,831,107x38] ov:hidden
+                div [11530,831,107x38]
+##### Feature 1
+div "Feature 1" [120,900,1200x828] flex-row gap:64px jc:center ai:center p:80px 96px bg:#FFFFFF ov:hidden maxw:1200px
+  div "Title" [216,1088,416x451] flex-column gap:32px jc:center ai:flex-start maxw:512px z:1
+    div [216,1088,416x302] flex-column gap:24px jc:center ai:center
+      div [216,1088,416x22] flex-column gap:normal jc:flex-start ai:normal maxw:564px z:1
+        p [216,1088,416x22]
+          strong [216,1089,263x20] TEXT"ai agent that remembers" {Instrument Sans 700 16px/22.4px ls:1.7px #122023 uppercase left}
+      div [216,1135,416x256] flex-column gap:normal jc:flex-start ai:normal z:1
+        h2 [216,1135,416x256] TEXT"Turn interactions into personalized experiences" {Feature Deck Web Light 400 64px/64px ls:-1.28px #122023 left}
+    div [216,1423,416x117] flex-column gap:normal jc:flex-start ai:normal maxw:564px z:1
+      p [216,1423,416x117] TEXT"Siena Memory remembers key details like preferences or feedback and applies them in future interactions. No repetition, just human-like context that makes every customer feel uniquely known." {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+  div "Image - portait" [696,980,528x668] flex-column gap:16px jc:center ai:center p:56px r:24px
+    div [696,980,528x668] r:24px absolute(t:0px r:0px b:0px l:0px)
+      img [696,980,528x668] r:24px ov:clip src:OS7uIQBhEtXd5l7MXZ0qAcM0Lg.png fit:cover pos:50% 50%
+    div [752,1067,416x493] flex-column gap:16px jc:center ai:flex-start
+      div [752,1067,430x58] flex-row gap:10px jc:center ai:flex-end ov:hidden
+        div "Avatar" [752,1086,40x40] r:99px ov:hidden
+          div "image 1696" [753,1083,38x57] absolute(t:-3px r:1px b:-14px l:1px)
+            div [753,1083,38x57] absolute(t:0px r:0px b:0px l:0px)
+              img [753,1083,38x57] ov:clip src:D3TQ38q4HpOxmxHoD1u1AW40NI.png fit:cover pos:50% 50%
+        div "01" [802,1067,380x58] flex-column gap:24px jc:flex-start ai:flex-start p:20px bg:#F3F0EB r:16px maxw:387px
+          div "Get your AI superhuman up and running 90% faster and more efficient than the average automation tools. 101% empathy is required to turn around a brand ready to capture the world’s imagination. Meet Siena." [822,1087,340x18] flex-column gap:normal jc:flex-start ai:normal
+            p [822,1087,340x18] TEXT"Has my sculpting shorts order shipped yet?" {Tiempos Text Regular 400 14px/18.2px ls:normal #122023 start}
+      div [752,1142,416x62] flex-row gap:10px jc:flex-end ai:flex-end ov:hidden
+        div "Border" [734,1142,384x62] flex-row gap:10px jc:center ai:center p:2px bgi:linear-gradient(255deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 14.8649%, rgb(251, 86, 70) 32.8829%, rgb(130, 122, 204) 52.2523%, rgb(46, 121, 216) 79.7297%, rgb(171, 171, 171) 100%) r:16px ov:hidden
+          div "01" [736,1144,380x58] flex-column gap:24px jc:flex-start ai:flex-start p:20px bg:#EFE5D0 r:16px
+            div "Get your AI superhuman up and running 90% faster and more efficient than the average automation tools. 101% empathy is required to turn around a brand ready to capture the world’s imagination. Meet Siena." [756,1164,340x18] flex-column gap:normal jc:flex-start ai:normal
+              p [756,1164,340x18] TEXT"Just went out! You'll have it Friday." {Tiempos Text Regular 400 14px/18.2px ls:normal #122023 start}
+        div "Avatar" [1128,1164,40x40] flex-row gap:0px jc:center ai:center bg:#122023 r:99px ov:hidden
+          div "Siena" [1142,1177,12x13]
+            div [1142,1177,12x13]
+      div [752,1220,402x58] flex-row gap:10px jc:center ai:flex-end ov:hidden
+        div "Avatar" [752,1238,40x40] r:99px ov:hidden
+          div "image 1696" [753,1235,38x57] absolute(t:-3px r:1px b:-14px l:1px)
+            div [753,1235,38x57] absolute(t:0px r:0px b:0px l:0px)
+              img [753,1235,38x57] ov:clip src:D3TQ38q4HpOxmxHoD1u1AW40NI.png fit:cover pos:50% 50%
+        div "01" [802,1220,352x58] flex-column gap:24px jc:flex-start ai:flex-start p:20px bg:#F3F0EB r:16px maxw:387px
+          div "Get your AI superhuman up and running 90% faster and more efficient than the average automation tools. 101% empathy is required to turn around a brand ready to capture the world’s imagination. Meet Siena." [822,1240,312x18] flex-column gap:normal jc:flex-start ai:normal
+            p [822,1240,312x18] TEXT"Perfect! Hope XL fits, sometimes I need Large." {Tiempos Text Regular 400 14px/18.2px ls:normal #122023 start}
+      div [752,1294,416x22] flex-row gap:0px jc:center ai:center ov:hidden
+        div [752,1304,143x1] bg:#F3F0EB ov:hidden
+        div [895,1294,131x22] flex-row gap:10px jc:center ai:center p:4px 12px bg:#F3F0EB r:50px ov:hidden
+          div [907,1299,12x12] flex-column gap:normal jc:flex-start ai:normal
+            p [907,1299,12x12] TEXT"" {Font Awesome 6 Sharp Light 400 12px/12px ls:normal #605C53 left}
+          div [929,1298,85x14] flex-column gap:normal jc:flex-start ai:normal
+            p [929,1298,85x14] TEXT"5 weeks later" {Geist Mono 400 10px/14px ls:0.5px #605C53 uppercase center}
+        div [1025,1304,143x1] bg:#F3F0EB ov:hidden
+      div [752,1332,437x58] flex-row gap:10px jc:center ai:flex-end ov:hidden
+        div "Avatar" [752,1350,40x40] r:99px ov:hidden
+          div "image 1696" [753,1347,38x57] absolute(t:-3px r:1px b:-14px l:1px)
+            div [753,1347,38x57] absolute(t:0px r:0px b:0px l:0px)
+              img [753,1347,38x57] ov:clip src:D3TQ38q4HpOxmxHoD1u1AW40NI.png fit:cover pos:50% 50%
+        div "01" [802,1332,387x58] flex-column gap:24px jc:flex-start ai:flex-start p:20px bg:#F3F0EB r:16px maxw:387px
+          div "Get your AI superhuman up and running 90% faster and more efficient than the average automation tools. 101% empathy is required to turn around a brand ready to capture the world’s imagination. Meet Siena." [822,1352,347x18] flex-column gap:normal jc:flex-start ai:normal
+            p [822,1352,347x18] TEXT"Looking for those sculpting shorts in high-waisted." {Tiempos Text Regular 400 14px/18.2px ls:normal #122023 start}
+      div [752,1406,416x80] flex-row gap:10px jc:flex-end ai:flex-end ov:hidden
+        div "Border" [734,1406,384x80] flex-row gap:10px jc:center ai:center p:2px bgi:linear-gradient(255deg, rgb(242, 229, 154) 0%, rgb(254, 199, 150) 14.8649%, rgb(251, 86, 70) 32.8829%, rgb(130, 122, 204) 52.2523%, rgb(46, 121, 216) 79.7297%, rgb(171, 171, 171) 100%) r:16px ov:hidden
+          div "01" [736,1408,380x76] flex-column gap:24px jc:flex-start ai:flex-start p:20px bg:#EFE5D0 r:16px
+            div "Get your AI superhuman up and running 90% faster and more efficient than the average automation tools. 101% empathy is required to turn around a brand ready to capture the world’s imagination. Meet Siena." [756,1428,340x36] flex-column gap:normal jc:flex-start ai:normal
+              p [756,1428,340x36] TEXT"We have those! You mentioned being between L and XL before. Which worked better?" {Tiempos Text Regular 400 14px/18.2px ls:normal #122023 start}
+        div "Avatar" [1128,1447,40x40] flex-row gap:0px jc:center ai:center bg:#122023 r:99px ov:hidden
+          div "Siena" [1142,1460,12x13]
+            div [1142,1460,12x13]
+      div [752,1503,337x58] flex-row gap:10px jc:center ai:flex-end ov:hidden
+        div "Avatar" [752,1521,40x40] r:99px ov:hidden
+          div "image 1696" [753,1518,38x57] absolute(t:-3px r:1px b:-14px l:1px)
+            div [753,1518,38x57] absolute(t:0px r:0px b:0px l:0px)
+              img [753,1518,38x57] ov:clip src:D3TQ38q4HpOxmxHoD1u1AW40NI.png fit:cover pos:50% 50%
+        div "01" [802,1503,287x58] flex-column gap:24px jc:flex-start ai:flex-start p:20px bg:#F3F0EB r:16px maxw:387px
+          div "Get your AI superhuman up and running 90% faster and more efficient than the average automation tools. 101% empathy is required to turn around a brand ready to capture the world’s imagination. Meet Siena." [822,1523,247x18] flex-column gap:normal jc:flex-start ai:normal
+            p [822,1523,247x18] TEXT"XL was loose. L would be perfect!" {Tiempos Text Regular 400 14px/18.2px ls:normal #122023 start}
+##### Feature 2
+div "Feature 2" [120,1728,1200x828] flex-row gap:64px jc:center ai:center p:80px 96px bg:#FFFFFF ov:hidden maxw:1200px
+  div "Title" [216,1875,416x534] flex-column gap:48px jc:center ai:flex-start maxw:512px z:1
+    div [216,1875,416x428] flex-column gap:32px jc:center ai:center ov:hidden
+      div [216,1875,416x302] flex-column gap:24px jc:center ai:center
+        div [216,1875,416x22] flex-column gap:normal jc:flex-start ai:normal maxw:564px z:1
+          p [216,1875,416x22]
+            strong [216,1876,305x20] TEXT"tap into every conversation" {Instrument Sans 700 16px/22.4px ls:1.7px #122023 uppercase left}
+        div [216,1922,416x256] flex-column gap:normal jc:flex-start ai:normal z:1
+          h2 [216,1922,416x256] TEXT"Unlock high-fidelity insights like never before" {Feature Deck Web Light 400 64px/64px ls:-1.28px #122023 left}
+      div [216,2210,416x94] flex-column gap:normal jc:flex-start ai:normal maxw:564px z:1
+        p [216,2210,416x94] TEXT"Memory transforms conversations into precise, actionable insights. See emerging trends, hidden issues, and exactly what customers care about, in seconds." {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #2A3639 start}
+    div [216,2351,157x58]
+      a "xlg" [216,2351,157x58] flex-row gap:10px jc:center ai:center p:18px 24px bg:#122023 bgi:linear-gradient(90deg, rgb(18, 32, 35) 0%, rgb(18, 32, 35) 20%, rgb(18, 32, 35) 40%, rgb(18, 32, 35) 60%, rgb(18, 32, 35) 80%, rgb(18, 32, 35) 100%) r:16px
+        div "Text" [240,2369,109x22] flex-column gap:normal jc:flex-start ai:normal
+          p [240,2369,109x22] TEXT"Book a demo" {Instrument Sans 600 18px/21.6px ls:normal #FFFFFF left}
+  div "Image - portait" [696,1808,528x668] flex-column gap:16px jc:center ai:center p:56px r:24px
+    div [696,1808,528x668] r:24px absolute(t:0px r:0px b:0px l:0px)
+      img [696,1808,528x668] r:24px ov:clip src:d1NEs0VIe4aSoSGCYqjR4UG4QD8.png fit:cover pos:50% 50%
+##### content@0@14
+div "content" [189,4014,1062x900] flex-column gap:24px jc:flex-start ai:flex-start p:24px 16px bgi:linear-gradient(rgb(255, 255, 255) 0%, rgb(243, 240, 235) 100%) r:24px maxw:1062px
+  div [205,4038,1030x852]
+    div [205,4038,1030x852] flex-column gap:normal jc:normal ai:normal p:16px 32px 48px
+      div [237,4054,966x788] flex-column gap:normal jc:normal ai:normal
+        div [237,4054,966x40] flex-row gap:normal jc:center ai:center
+          div [653,4054,135x40] flex-row gap:12px jc:normal ai:center
+            button [653,4054,40x40] flex-row gap:normal jc:center ai:center bg:#F4EDDE/0.6 r:40px ov:hidden z:10
+            div [705,4065,31x17]
+              span [705,4064,9x17] TEXT"1" {Inter 400 14px/16.8px ls:normal #122023 start}
+              span [714,4064,22x17] op:0.4 TEXT"/ 4" {Inter 400 14px/16.8px ls:normal #122023 start}
+            button [747,4054,40x40] flex-row gap:normal jc:center ai:center bg:#F4EDDE/0.6 r:40px ov:hidden z:10
+        div [237,4118,966x724] flex-column gap:normal jc:flex-start ai:normal
+          div [237,4118,966x724]
+            div [237,4118,966x724]
+              div [237,4118,966x724] flex-column gap:24px jc:center ai:center
+                div [237,4118,966x724] flex-column gap:80px jc:flex-start ai:flex-start
+                  div "Content" [237,4118,966x724] flex-column gap:10px jc:center ai:center
+                    div "Testimonial" [237,4118,966x724] flex-row gap:40px jc:center ai:flex-start
+                      div [237,4118,463x724] flex-column gap:32px jc:center ai:flex-start ov:hidden maxw:600px
+                        div "“" [237,4118,30x24]
+                          div [237,4118,30x24]
+                        div [237,4174,463x466] flex-column gap:24px jc:center ai:flex-start ov:hidden
+                          div "Name" [237,4174,463x466] flex-column gap:normal jc:flex-start ai:normal
+                            p [237,4174,463x466] TEXT"Memory is so cool. We used Siena Memory in a unique way this week for our price increase—flagging all tariff and price-increase inquiries and automatically routing them to a senior associate for precisely worded responses. This kept sensitive c
+                        div "Right Column" [237,4671,463x170] flex-row gap:normal jc:space-between ai:flex-start
+                          div "Brand" [237,4671,168x170] flex-column gap:16px jc:flex-start ai:flex-start
+                            div "person" [237,4751,168x90] flex-column gap:12px jc:flex-start ai:flex-start
+                      div [740,4118,463x463] r:32px maxw:600px
+                        div [740,4118,463x463] r:32px absolute(t:0px r:0px b:0px l:0px)
+                          img [740,4118,463x463] r:32px ov:clip src:DkKUcZ5MMlNWr9dt9V653q2eWmI.jpg fit:cover pos:50% 50%
+##### Metrics@0@9
+div "Metrics" [0,2556,1440x732] flex-row gap:64px jc:center ai:center p:80px 96px ov:hidden
+  div [0,2556,1440x732] absolute(t:0px r:0px b:0px l:0px)
+    img [0,2556,1440x732] ov:clip src:5VTp1YGCJLYo9Grib0Ouvyooeag.webp fit:cover pos:50% 50%
+  div "Title" [189,2636,1062x572] flex-column gap:40px jc:center ai:center p:64px bg:#F3F0EB r:48px maxw:1062px z:1
+    div "Title" [253,2700,934x160] flex-row gap:24px jc:center ai:flex-end maxw:1325px z:1
+      div [253,2700,934x160] flex-column gap:10px jc:center ai:flex-start
+        div [253,2700,143x22] flex-column gap:normal jc:flex-start ai:normal maxw:564px z:1
+          p [253,2700,143x22] TEXT"how it works" {Instrument Sans 600 16px/22.4px ls:1.7px #122023 uppercase left}
+        div [253,2733,472x128] flex-column gap:normal jc:flex-start ai:normal z:1
+          h2 [253,2733,472x128] TEXT"The agentic brand intelligence layer" {Feature Deck Web Light 400 64px/64px ls:-1.28px #122023 left}
+            br [725,2724,0x82]
+    div [253,2901,934x243] flex-row gap:32px jc:center ai:flex-start ov:hidden maxw:1325px
+      div "Title" [253,2901,290x243] flex-column gap:16px jc:center ai:flex-start p:32px 0px 0px maxw:416px z:1
+        div [253,2933,24x24] flex-column gap:normal jc:flex-start ai:normal maxw:564px z:1
+          p [253,2933,24x24] TEXT"" {Font Awesome 6 Sharp Light 400 24px/24px ls:normal #122023 center}
+        div [253,2973,290x38] flex-column gap:normal jc:flex-start ai:normal z:1
+          h3 [253,2973,290x38] TEXT"Capture" {Feature Deck Web Regular 400 32px/38.4px ls:normal #122023 left}
+        div [253,3027,290x117] flex-column gap:normal jc:flex-start ai:normal op:0.8 z:1
+          p [253,3027,290x117] TEXT"Memory captures insights from every conversation. Then builds a complete 360° customer profile and references them in future interactions." {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #122023 left}
+      div "Title" [575,2901,290x220] flex-column gap:16px jc:center ai:flex-start p:32px 0px 0px maxw:416px z:1
+        div [575,2933,27x24] flex-column gap:normal jc:flex-start ai:normal maxw:564px z:1
+          p [575,2933,27x24] TEXT"" {Font Awesome 6 Sharp Light 400 24px/24px ls:normal #122023 center}
+        div [575,2973,290x38] flex-column gap:normal jc:flex-start ai:normal z:1
+          h3 [575,2973,290x38] TEXT"Generate" {Feature Deck Web Regular 400 32px/38.4px ls:normal #122023 left}
+        div [575,3027,290x94] flex-column gap:normal jc:flex-start ai:normal op:0.8 z:1
+          p [575,3027,290x94] TEXT"Then Insights generates actionable reports you can share with your entire team. Get weeks of analysis done in minutes." {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #122023 left}
+      div "Title" [897,2901,290x243] flex-column gap:16px jc:center ai:flex-start p:32px 0px 0px maxw:416px z:1
+        div [897,2933,30x24] flex-column gap:normal jc:flex-start ai:normal maxw:564px z:1
+          p [897,2933,30x24] TEXT"" {Font Awesome 6 Sharp Light 400 24px/24px ls:normal #122023 center}
+        div [897,2973,290x38] flex-column gap:normal jc:flex-start ai:normal z:1
+          h3 [897,2973,290x38] TEXT"Act" {Feature Deck Web Regular 400 32px/38.4px ls:normal #122023 left}
+        div [897,3027,290x117] flex-column gap:normal jc:flex-start ai:normal op:0.8 z:1
+          p [897,3027,290x117] TEXT"Turn insights into strategic actions that move your business forward. Proactively resolve issues, shape product roadmaps, or tailor marketing campaigns." {Tiempos Text Regular 400 18px/23.4px ls:-0.18px #122023 left}
+##### CTA@0@10
+div "CTA" [0,4970,1440x691] flex-column gap:10px jc:center ai:center ov:clip
+  div [0,4970,1440x691] z:1
+    div "Desktop" [0,4970,1440x691] flex-row gap:10px jc:center ai:center p:200px 96px ov:hidden
+      div [0,4970,1440x691] absolute(t:0px r:0px b:0px l:0px)
+        img [0,4970,1440x691] ov:clip src:ERYNplIY591uk80wpoa4JGglO8.webp fit:cover pos:50% 50%
+      div "Title" [189,5170,1062x291] flex-column gap:40px jc:center ai:center p:64px bg:#F3F0EB r:48px maxw:1062px z:1
+        div [253,5234,934x163] flex-column gap:41px jc:center ai:center
+          div [253,5234,934x64] flex-column gap:24px jc:center ai:center
+            div [253,5234,934x64] flex-column gap:normal jc:flex-start ai:normal z:1
+              h2 [253,5234,934x64] TEXT"Turn conversations into intelligence" {Feature Deck Web Light 400 64px/64px ls:-1.28px #122023 center}
+          div [641,5339,157x58]
+            a "xlg" [641,5339,157x58] flex-row gap:10px jc:center ai:center p:18px 24px bg:#122023 bgi:linear-gradient(90deg, rgb(18, 32, 35) 0%, rgb(18, 32, 35) 20%, rgb(18, 32, 35) 40%, rgb(18, 32, 35) 60%, rgb(18, 32, 35) 80%, rgb(18, 32, 35) 100%) r:16px
+              div "Text" [665,5357,109x22] flex-column gap:normal jc:flex-start ai:normal
+                p [665,5357,109x22] TEXT"Book a demo" {Instrument Sans 600 18px/21.6px ls:normal #FFFFFF left}
+  div [0,4969,1440x120] bgi:linear-gradient(rgb(243, 240, 235) 11%, rgba(250, 247, 241, 0) 77%) absolute(t:-1px r:0px b:571.594px l:0px) ov:hidden z:1

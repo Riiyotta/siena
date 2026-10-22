@@ -1,0 +1,308 @@
+[
+ {
+  "i": 0,
+  "x": 224,
+  "w": 320,
+  "h": 628,
+  "mask": "linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 27.5%, rgb(0, 0, 0) 72.5%, rgba(0, 0, 0, 0) 100%)",
+  "lis": 2,
+  "liH": [
+   2864,
+   2864
+  ],
+  "ulGap": "16px",
+  "speed": [
+   0,
+   -9.826071749599576
+  ],
+  "card": {
+   "w": 320,
+   "h": 268,
+   "bg": "rgb(255, 255, 255)",
+   "pad": "24px",
+   "rad": "24px",
+   "gap": "16px",
+   "sh": "none",
+   "border": "1px solid rgba(0, 0, 0, 0.2)"
+  },
+  "hoverPause": null,
+  "items": [
+   {
+    "text": "This is such a cool feature and a great executive summary! Super helpful for other features we might want to introduce on site or in the CX experience.",
+    "name": "Yuxi Liu",
+    "handle": "@yuxiliu",
+    "icon": "U+F198",
+    "img": "sGwnNQeTHWr7A1joug53j9mibc.webp 32x32",
+    "h": 268,
+    "font": "\"Instrument Sans\" 500 20px/28px"
+   },
+   {
+    "text": "Been nothing but a pleasure to work with you all! It’s a serious testament to your talent, skill, and work ethic to accomplish all that you have over the last year! I’d be remiss if I didn’t thank you all for the extraordinary partnership, and collaboration over the last year.",
+    "name": "Tanner Nelson",
+    "handle": "@tanneranelson",
+    "icon": "U+F08C",
+    "img": "TLdXrM0Ns5C205YXarfUnZoUuY.webp 100x100",
+    "h": 408,
+    "font": "\"Instrument Sans\" 500 20px/28px"
+   },
+   {
+    "text": "AI is the game changer for our customer service, and while we love our friends at Gorgias, we use Siena AI for this and have done so for almost 2 years. Highly recommend.",
+    "name": "Rachel Reid",
+    "handle": "@rachelreid-sb",
+    "icon": "U+F08C",
+    "img": "41lIr5VsLY7853gfB7CIVgCQAw.webp 32x30",
+    "h": 268,
+    "font": "\"Instrument Sans\" 500 20px/28px"
+   },
+   {
+    "text": "We signed up with Siena about 3 weeks ago and close to 70% of our tickets are being automated already. And the responses are incredible! It's a slam dunk for any brand that takes customer success seriously.",
+    "name": "Mordechai Hoffman",
+    "handle": "@mordechaihoff",
+    "icon": "U+E61A",
+    "img": "MMYBnqDv5MUAT7ixRfBpEQILI.jpg 400x400",
+    "h": 324,
+    "font": "\"Instrument Sans\" 500 20px/28px"
+   },
+   {
+    "text": "Thank me once you have Siena set up. You won’t believe how good it is and how much time it saves your team. I have some incredible conversations with customers that blew my mind.",
+    "name": "Mordechai Hoffman",
+    "handle": "@mordechaihoff",
+    "icon": "U+E61A",
+    "img": "MMYBnqDv5MUAT7ixRfBpEQILI.jpg 400x400",
+    "h": 296,
+    "font": "\"Instrument Sans\" 500 20px/28px"
+   },
+   {
+    "text": "…but as far as Al Automation for CX there is no better solution than Siena Al from my experience. Integrates seamlessly with Gorgias and can be optimized to handle up to 80% of inbound ticket volume. Highly recommend Siena Al for anyone looking to add automation to their CS program.",
+    "name": "Chris Thompson",
+    "handle": "@chris-thompson",
+    "icon": "U+F08C",
+    "img": "5Q9fybvG1Blbexlw8P6VqAvM.webp 43x43",
+    "h": 408,
+    "font": "\"Instrument Sans\" 500 20px/28px"
+   },
+   {
+    "text": "I love staying on top of emerging trends and tools in the Al space, so we frequently take demos to see what's out there. There are SO many Al tools popping up every day (just got a cold outreach in my inbox this morning from a brand new one), but Siena Al consistently is leaps.",
+    "name": "Cate Marquese",
+    "handle": "@cminall",
+    "icon": "U+F198",
+    "img": "WVZA37Bad6K0ss9JDOjwLhH2aUs.webp 32x32",
+    "h": 380,
+    "font": "\"Instrument Sans\" 500 20px/28px"
+   },
+   {
+    "text": "This Al response to one of our support tickets is mind blowing.",
+    "name": "Al perfectly articulated why our newest tote is at a higher price. I'm not sure l could have crafted a better response. This is why we're such big fans of Siena Al.",
+    "handle": "Bryan Porter",
+    "icon": "U+40",
+    "img": "7kFHraTWYSJ7R2Fi994w9w96VQ.png 509x509",
+    "h": 372,
+    "font": "\"Instrument Sans\" 500 20px/28px"
+   }
+  ]
+ },
+ {
+  "i": 1,
+  "x": 560,
+  "w": 320,
+  "h": 628,
+  "mask": "linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 27.5%, rgb(0, 0, 0) 72.5%, rgba(0, 0, 0, 0) 100%)",
+  "lis": 2,
+  "liH": [
+   2864,
+   2864
+  ],
+  "ulGap": "16px",
+  "speed": [
+   0,
+   9.826071749599576
+  ],
+  "card": {
+   "w": 320,
+   "h": 372,
+   "bg": "rgb(255, 255, 255)",
+   "pad": "24px",
+   "rad": "24px",
+   "gap": "16px",
+   "sh": "none",
+   "border": "1px solid rgba(0, 0, 0, 0.2)"
+  },
+  "hoverPause": null,
+  "items": [
+   {
+    "text": "This Al response to one of our support tickets is mind blowing.",
+    "name": "Al perfectly articulated why our newest tote is at a higher price. I'm not sure l could have crafted a better response. This is why we're such big fans of Siena Al.",
+    "handle": "Bryan Porter",
+    "icon": "U+40",
+    "img": "7kFHraTWYSJ7R2Fi994w9w96VQ.png 509x509",
+    "h": 372,
+    "font": "\"Instrument Sans\" 500 20px/28px"
+   },
+   {
+    "text": "I love staying on top of emerging trends and tools in the Al space, so we frequently take demos to see what's out there. There are SO many Al tools popping up every day (just got a cold outreach in my inbox this morning from a brand new one), but Siena Al consistently is leaps.",
+    "name": "Cate Marquese",
+    "handle": "@cminall",
+    "icon": "U+F198",
+    "img": "WVZA37Bad6K0ss9JDOjwLhH2aUs.webp 32x32",
+    "h": 380,
+    "font": "\"Instrument Sans\" 500 20px/28px"
+   },
+   {
+    "text": "…but as far as Al Automation for CX there is no better solution than Siena Al from my experience. Integrates seamlessly with Gorgias and can be optimized to handle up to 80% of inbound ticket volume. Highly recommend Siena Al for anyone looking to add automation to their CS program.",
+    "name": "Chris Thompson",
+    "handle": "@chris-thompson",
+    "icon": "U+F08C",
+    "img": "5Q9fybvG1Blbexlw8P6VqAvM.webp 43x43",
+    "h": 408,
+    "font": "\"Instrument Sans\" 500 20px/28px"
+   },
+   {
+    "text": "We signed up with Siena about 3 weeks ago and close to 70% of our tickets are being automated already. And the responses are incredible! It's a slam dunk for any brand that takes customer success seriously.",
+    "name": "Mordechai Hoffman",
+    "handle": "@mordechaihoff",
+    "icon": "U+E61A",
+    "img": "MMYBnqDv5MUAT7ixRfBpEQILI.jpg 400x400",
+    "h": 324,
+    "font": "\"Instrument Sans\" 500 20px/28px"
+   },
+   {
+    "text": "Thank me once you have Siena set up. You won’t believe how good it is and how much time it saves your team. I have some incredible conversations with customers that blew my mind.",
+    "name": "Mordechai Hoffman",
+    "handle": "@mordechaihoff",
+    "icon": "U+E61A",
+    "img": "MMYBnqDv5MUAT7ixRfBpEQILI.jpg 400x400",
+    "h": 296,
+    "font": "\"Instrument Sans\" 500 20px/28px"
+   },
+   {
+    "text": "AI is the game changer for our customer service, and while we love our friends at Gorgias, we use Siena AI for this and have done so for almost 2 years. Highly recommend.",
+    "name": "Rachel Reid",
+    "handle": "@rachelreid-sb",
+    "icon": "U+F08C",
+    "img": "41lIr5VsLY7853gfB7CIVgCQAw.webp 32x30",
+    "h": 268,
+    "font": "\"Instrument Sans\" 500 20px/28px"
+   },
+   {
+    "text": "Been nothing but a pleasure to work with you all! It’s a serious testament to your talent, skill, and work ethic to accomplish all that you have over the last year! I’d be remiss if I didn’t thank you all for the extraordinary partnership, and collaboration over the last year.",
+    "name": "Tanner Nelson",
+    "handle": "@tanneranelson",
+    "icon": "U+F08C",
+    "img": "TLdXrM0Ns5C205YXarfUnZoUuY.webp 100x100",
+    "h": 408,
+    "font": "\"Instrument Sans\" 500 20px/28px"
+   },
+   {
+    "text": "This is such a cool feature and a great executive summary! Super helpful for other features we might want to introduce on site or in the CX experience.",
+    "name": "Yuxi Liu",
+    "handle": "@yuxiliu",
+    "icon": "U+F198",
+    "img": "sGwnNQeTHWr7A1joug53j9mibc.webp 32x32",
+    "h": 268,
+    "font": "\"Instrument Sans\" 500 20px/28px"
+   }
+  ]
+ },
+ {
+  "i": 2,
+  "x": 896,
+  "w": 320,
+  "h": 628,
+  "mask": "linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 27.5%, rgb(0, 0, 0) 72.5%, rgba(0, 0, 0, 0) 100%)",
+  "lis": 2,
+  "liH": [
+   2864,
+   2864
+  ],
+  "ulGap": "16px",
+  "speed": [
+   0,
+   -9.826071749599576
+  ],
+  "card": {
+   "w": 320,
+   "h": 408,
+   "bg": "rgb(255, 255, 255)",
+   "pad": "24px",
+   "rad": "24px",
+   "gap": "16px",
+   "sh": "none",
+   "border": "1px solid rgba(0, 0, 0, 0.2)"
+  },
+  "hoverPause": null,
+  "items": [
+   {
+    "text": "…but as far as Al Automation for CX there is no better solution than Siena Al from my experience. Integrates seamlessly with Gorgias and can be optimized to handle up to 80% of inbound ticket volume. Highly recommend Siena Al for anyone looking to add automation to their CS program.",
+    "name": "Chris Thompson",
+    "handle": "@chris-thompson",
+    "icon": "U+F08C",
+    "img": "5Q9fybvG1Blbexlw8P6VqAvM.webp 43x43",
+    "h": 408,
+    "font": "\"Instrument Sans\" 500 20px/28px"
+   },
+   {
+    "text": "I love staying on top of emerging trends and tools in the Al space, so we frequently take demos to see what's out there. There are SO many Al tools popping up every day (just got a cold outreach in my inbox this morning from a brand new one), but Siena Al consistently is leaps.",
+    "name": "Cate Marquese",
+    "handle": "@cminall",
+    "icon": "U+F198",
+    "img": "WVZA37Bad6K0ss9JDOjwLhH2aUs.webp 32x32",
+    "h": 380,
+    "font": "\"Instrument Sans\" 500 20px/28px"
+   },
+   {
+    "text": "This Al response to one of our support tickets is mind blowing.",
+    "name": "Al perfectly articulated why our newest tote is at a higher price. I'm not sure l could have crafted a better response. This is why we're such big fans of Siena Al.",
+    "handle": "Bryan Porter",
+    "icon": "U+40",
+    "img": "7kFHraTWYSJ7R2Fi994w9w96VQ.png 509x509",
+    "h": 372,
+    "font": "\"Instrument Sans\" 500 20px/28px"
+   },
+   {
+    "text": "We signed up with Siena about 3 weeks ago and close to 70% of our tickets are being automated already. And the responses are incredible! It's a slam dunk for any brand that takes customer success seriously.",
+    "name": "Mordechai Hoffman",
+    "handle": "@mordechaihoff",
+    "icon": "U+E61A",
+    "img": "MMYBnqDv5MUAT7ixRfBpEQILI.jpg 400x400",
+    "h": 324,
+    "font": "\"Instrument Sans\" 500 20px/28px"
+   },
+   {
+    "text": "Thank me once you have Siena set up. You won’t believe how good it is and how much time it saves your team. I have some incredible conversations with customers that blew my mind.",
+    "name": "Mordechai Hoffman",
+    "handle": "@mordechaihoff",
+    "icon": "U+E61A",
+    "img": "MMYBnqDv5MUAT7ixRfBpEQILI.jpg 400x400",
+    "h": 296,
+    "font": "\"Instrument Sans\" 500 20px/28px"
+   },
+   {
+    "text": "AI is the game changer for our customer service, and while we love our friends at Gorgias, we use Siena AI for this and have done so for almost 2 years. Highly recommend.",
+    "name": "Rachel Reid",
+    "handle": "@rachelreid-sb",
+    "icon": "U+F08C",
+    "img": "41lIr5VsLY7853gfB7CIVgCQAw.webp 32x30",
+    "h": 268,
+    "font": "\"Instrument Sans\" 500 20px/28px"
+   },
+   {
+    "text": "Been nothing but a pleasure to work with you all! It’s a serious testament to your talent, skill, and work ethic to accomplish all that you have over the last year! I’d be remiss if I didn’t thank you all for the extraordinary partnership, and collaboration over the last year.",
+    "name": "Tanner Nelson",
+    "handle": "@tanneranelson",
+    "icon": "U+F08C",
+    "img": "TLdXrM0Ns5C205YXarfUnZoUuY.webp 100x100",
+    "h": 408,
+    "font": "\"Instrument Sans\" 500 20px/28px"
+   },
+   {
+    "text": "This is such a cool feature and a great executive summary! Super helpful for other features we might want to introduce on site or in the CX experience.",
+    "name": "Yuxi Liu",
+    "handle": "@yuxiliu",
+    "icon": "U+F198",
+    "img": "sGwnNQeTHWr7A1joug53j9mibc.webp 32x32",
+    "h": 268,
+    "font": "\"Instrument Sans\" 500 20px/28px"
+   }
+  ]
+ }
+]

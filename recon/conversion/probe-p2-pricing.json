@@ -1,0 +1,145 @@
+{
+ "nextDefault": {
+  "bg": "rgb(18, 32, 35)",
+  "bgi": "linear-gradient(90deg, rgb(18, 32, 35) 0%, rgb(18, 32, 35) 20%, rgb(18, 32, 35) 40%, rgb(18, 32, 35) 60%, rgb(18, 32, 35) 80%, rgb(18, 32, 35) 100%)",
+  "rad": "12px",
+  "p": "16px",
+  "sh": "none"
+ },
+ "switch": [
+  [
+   1,
+   "Page 1:1:none:792 DIV:1:none:792 DIV:1:none:792 Page 2:1:none:0"
+  ],
+  [
+   82,
+   "Page 1:1:none:0 DIV:1:none:0 DIV:1:none:0 Page 2:1:matrix(1, 0, 0, 1, 0, 0):792"
+  ],
+  [
+   468,
+   "Page 1:1:none:0 DIV:1:none:0 DIV:1:none:0 Page 2:1:none:792"
+  ]
+ ],
+ "p2": [
+  {
+   "tag": "DIV",
+   "n": "Previous Button",
+   "t": "Previous",
+   "r": [
+    973,
+    565,
+    96,
+    48
+   ],
+   "bg": "rgba(0, 0, 0, 0)",
+   "bgi": "none",
+   "sh": "none",
+   "br": "0px none rgb(0, 0, 0)",
+   "rad": "0px",
+   "p": "0px",
+   "txt": "\"Instrument Sans\" 500 16px/16px rgb(18, 32, 35)"
+  },
+  {
+   "tag": "DIV",
+   "n": "Previous",
+   "t": "Previous",
+   "r": [
+    973,
+    565,
+    96,
+    48
+   ],
+   "bg": "rgba(0, 0, 0, 0)",
+   "bgi": "none",
+   "sh": "none",
+   "br": "0px none rgb(0, 0, 0)",
+   "rad": "0px",
+   "p": "0px",
+   "txt": "\"Instrument Sans\" 500 16px/16px rgb(18, 32, 35)"
+  },
+  {
+   "tag": "A",
+   "n": "Secondary / md",
+   "t": "Previous",
+   "r": [
+    973,
+    565,
+    96,
+    48
+   ],
+   "bg": "rgb(243, 240, 235)",
+   "bgi": "linear-gradient(90deg, rgb(243, 240, 235) 0%, rgb(243, 240, 235) 20%, rgb(243, 240, 235) 40%, rgb(243, 240, 235) 60%, rgb(243, 240, 235) 80%, rgb(243, 240, 235) 100%)",
+   "sh": "none",
+   "br": "0px none rgb(0, 0, 0)",
+   "rad": "12.4594% / 25%",
+   "p": "16px",
+   "txt": "\"Instrument Sans\" 500 16px/16px rgb(18, 32, 35)"
+  },
+  {
+   "tag": "DIV",
+   "n": "Text",
+   "t": "Previous",
+   "r": [
+    989,
+    581,
+    64,
+    16
+   ],
+   "bg": "rgba(0, 0, 0, 0)",
+   "bgi": "none",
+   "sh": "none",
+   "br": "0px none rgb(0, 0, 0)",
+   "rad": "0px",
+   "p": "0px",
+   "txt": "\"Instrument Sans\" 500 16px/16px rgb(18, 32, 35)"
+  },
+  {
+   "tag": "BUTTON",
+   "n": null,
+   "t": "Get pricing",
+   "r": [
+    1086,
+    566,
+    122,
+    46
+   ],
+   "bg": "rgba(0, 0, 0, 0)",
+   "bgi": "linear-gradient(90deg, rgb(247, 221, 147) 0%, rgb(254, 199, 150) 14.8649%, rgb(251, 86, 70) 31.982%, rgb(130, 122, 204) 53.6036%, rgb(46, 121, 216) 75.6757%, rgb(41, 79, 186) 100%)",
+   "sh": "none",
+   "br": "0px outset rgb(0, 0, 0)",
+   "rad": "10px",
+   "p": "15px 20px",
+   "txt": "\"Instrument Sans\" 500 16px/16px rgb(244, 245, 245)"
+  }
+ ],
+ "prevHover": {
+  "bg": "rgb(18, 32, 35)",
+  "bgi": "linear-gradient(90deg, rgb(18, 32, 35) 0%, rgb(18, 32, 35) 20%, rgb(18, 32, 35) 40%, rgb(18, 32, 35) 60%, rgb(18, 32, 35) 80%, rgb(18, 32, 35) 100%)",
+  "sh": "none",
+  "c": "rgb(255, 255, 255)"
+ },
+ "submitDefault": {
+  "bg": "rgb(18, 32, 35)",
+  "bgi": "linear-gradient(90deg, rgb(18, 32, 35) 0%, rgb(18, 32, 35) 20%, rgb(18, 32, 35) 40%, rgb(18, 32, 35) 60%, rgb(18, 32, 35) 80%, rgb(18, 32, 35) 100%)",
+  "sh": "none",
+  "op": "1",
+  "c": "rgb(244, 245, 245)",
+  "html": "<button type=\"submit\"  data-highlight=\"true\" data-reset=\"button\" tabindex=\"0\" style=\"background-image: ; background-position-x: ; background-position-y: ; background-size: ; background-repeat: ; background-attachment: ; background-origin: ; background-clip: ; background-color: var(--token-76690f9a-b442-46af-8a97-1e9974f4bb5d, rgb(18, 32, 35)); border-radius: 10px; opacity: 1; transform-origin: 50% 50% 0px; will-change: auto; transform: none;\" data-framer-name=\"Default\"><div  data-framer-component-type=\"RichTextContainer\" style=\"--extracted-r6o4lv: var(--token-a01e8b38-a03c-405e-abb3-2ad2ac229f40, rgb(244, 245, 245)); --framer-link-text-color: rgb(0, 153, 255); --framer-link-text-decoration: underline; transform: none; transform-origin: 50% 50% 0px; opacity: 1;\"><p  data-styles-preset=\"MwyX"
+ },
+ "submitHover": {
+  "bg": "rgba(0, 0, 0, 0)",
+  "bgi": "linear-gradient(90deg, rgb(247, 221, 147) 0%, rgb(254, 199, 150) 14.8649%, rgb(251, 86, 70) 31.982%, rgb(130, 122, 204) 53.6036%, rgb(46, 121, 216) 75.6757%, rgb(41, 79, 186) 100%)",
+  "sh": "none",
+  "op": "1"
+ },
+ "p2social": "Get pricing\nMonthly average tickets*\n, required\nSelect one…\nHelp desk*\n, required\nSelect one…\nWhat do you use for social today?\nSelect any that apply…\nWhere did you hear about us?*\n\nPrevious\n\nGet pricing",
+ "socialOpts": [
+  "Sprout Social",
+  "Hootsuite",
+  "Dash Social",
+  "Emplifi",
+  "Our helpdesk",
+  "The social platforms directly",
+  "Other"
+ ]
+}

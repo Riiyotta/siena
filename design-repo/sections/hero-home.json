@@ -1,0 +1,173 @@
+{
+  "id": "section.hero.home",
+  "registryId": "section.hero.home",
+  "typeId": "hero.home",
+  "version": "1.0.0",
+  "category": "hero",
+  "purpose": "Brand-defining opening: centered H1 + subtitle + xlg demo CTA over the sand hero with two decorative editorial images and two counter-moving customer-logo ticker rows; blends to white below.",
+  "evidenceLevel": "measured",
+  "variants": {
+    "home": "Homepage (1440x900, tickers inside the hero bottom).",
+    "addons": "Add-ons landing: same images repositioned, two-paragraph subtitle, single 18-logo ticker at 30 px/s, no blur-out."
+  },
+  "composes": [
+    "primitive.text",
+    "primitive.button",
+    "primitive.image",
+    "component.logo-ticker"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "headline": {
+        "type": "string",
+        "maxWords": 12,
+        "description": "Plain text; wrap at most one phrase in *asterisks* to render it in the display italic cut.",
+        "pattern": "^[^*]*(\\*[^*]+\\*[^*]*)?$"
+      },
+      "phoneHeadline": {
+        "type": "string",
+        "maxWords": 8
+      },
+      "subtitle": {
+        "type": "string",
+        "maxWords": 30
+      },
+      "subtitleSecondary": {
+        "type": "string",
+        "maxWords": 6
+      },
+      "cta": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string",
+            "maxWords": 4
+          },
+          "href": {
+            "type": "string",
+            "pattern": "^(/[a-z0-9/#-]*|#[a-z0-9-]+|https://[a-zA-Z0-9.-]+(/[^\\s]*)?|mailto:[a-z.]+@siena\\.cx)$"
+          },
+          "style": {
+            "enum": [
+              "xlg-dark"
+            ]
+          }
+        },
+        "required": [
+          "label",
+          "href",
+          "style"
+        ],
+        "additionalProperties": false
+      },
+      "images": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "assetRole": {
+              "enum": [
+                "illustration.editorial",
+                "illustration.abstract-glow"
+              ]
+            },
+            "assetRef": {
+              "type": "string",
+              "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+            },
+            "alt": {
+              "type": "string",
+              "maxWords": 24
+            }
+          },
+          "required": [
+            "assetRole",
+            "assetRef"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 1,
+        "maxItems": 3
+      },
+      "tickerRows": {
+        "type": "array",
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "assetRole": {
+                "const": "logo.customer"
+              },
+              "assetRef": {
+                "type": "string",
+                "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 24
+              }
+            },
+            "required": [
+              "assetRole",
+              "assetRef"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 10,
+          "maxItems": 32
+        },
+        "minItems": 1,
+        "maxItems": 2
+      }
+    },
+    "required": [
+      "headline",
+      "subtitle",
+      "cta",
+      "images",
+      "tickerRows"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "appear-rise"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ],
+    "builtIn": [
+      "ticker-horizontal (always on)"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "H1 swaps to the phone headline (56/56); one decorative image (H7uKK...) behind text; ticker gap 72; padding 112 24 160."
+    },
+    {
+      "at": "{foundation.breakpoint.tablet-min}",
+      "change": "Unmeasured: desktop structure with fluid widths."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustFollowNav": true
+  },
+  "measuredFrom": [
+    "spec.hero",
+    "spec.hero.mobile",
+    "jsx.hero",
+    "spec.cv.6.1",
+    "spec.motion.appear"
+  ],
+  "copyPolicy": {
+    "headline": "real",
+    "subtitle": "real"
+  }
+}

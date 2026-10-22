@@ -1,0 +1,93 @@
+{
+  "id": "section.shell.lab-nav",
+  "registryId": "section.shell.lab-nav",
+  "typeId": "shell.lab-nav",
+  "version": "1.0.0",
+  "category": "shell",
+  "purpose": "AI Lab's own nav: full-width dark 72px bar (white wordmark, white links with simple dark dropdowns, md CTA); phone: cream bar without banner. Replaces the global Nav on /ai-lab only.",
+  "evidenceLevel": "spec-measured",
+  "variants": {
+    "dark": "Only on /ai-lab (NAV_OVERRIDES hideNav)."
+  },
+  "composes": [
+    "primitive.logo-mark",
+    "primitive.link",
+    "primitive.button"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "links": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "label": {
+              "type": "string",
+              "maxWords": 2
+            },
+            "href": {
+              "type": "string",
+              "pattern": "^(/[a-z0-9/#-]*|#[a-z0-9-]+|https://[a-zA-Z0-9.-]+(/[^\\s]*)?|mailto:[a-z.]+@siena\\.cx)$"
+            }
+          },
+          "required": [
+            "label",
+            "href"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 5,
+        "maxItems": 5
+      },
+      "cta": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string",
+            "maxWords": 4
+          },
+          "href": {
+            "type": "string",
+            "pattern": "^(/[a-z0-9/#-]*|#[a-z0-9-]+|https://[a-zA-Z0-9.-]+(/[^\\s]*)?|mailto:[a-z.]+@siena\\.cx)$"
+          }
+        },
+        "required": [
+          "label",
+          "href"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "required": [
+      "links",
+      "cta"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "390x80 cream bar, dark logo, bordered 52px menu button."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustBeFirst": true
+  },
+  "measuredFrom": [
+    "spec.pb.5.0",
+    "src.routes.overrides"
+  ]
+}

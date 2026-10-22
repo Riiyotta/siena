@@ -1,0 +1,31 @@
+{
+  "registryId": "primitive.gradient-ring",
+  "version": "1.0.0",
+  "category": "surface",
+  "description": "Gradient frame: an outer element painted with a rainbow gradient + padding (1, 2 or 3px) around an inner panel with radius R-1 (bubbles) or R-4 (form cards).",
+  "props": {
+    "thickness": {
+      "enum": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "gradient": {
+      "enum": [
+        "gradient-border",
+        "gradient-ring"
+      ]
+    }
+  },
+  "tokens": [
+    "{color.decor.gradient-border}",
+    "{color.decor.gradient-ring}",
+    "{radius.ring-outer}",
+    "{radius.ring-inner}"
+  ],
+  "measuredFrom": [
+    "spec.chat.gradient",
+    "spec.form.ring"
+  ]
+}

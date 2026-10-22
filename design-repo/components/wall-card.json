@@ -1,0 +1,16 @@
+{
+  "registryId": "component.wall-card",
+  "version": "1.0.0",
+  "category": "content",
+  "description": "Wall-of-love card 320 wide: quote (sans 500 20/28), avatar 32, name + handle, brand glyph (LinkedIn/Slack/X).",
+  "composes": [
+    "primitive.text",
+    "primitive.avatar",
+    "primitive.icon"
+  ],
+  "props": {},
+  "measuredFrom": [
+    "spec.wallcard",
+    "jsx.co.vticker"
+  ]
+}

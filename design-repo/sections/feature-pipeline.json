@@ -1,0 +1,72 @@
+{
+  "id": "section.feature.pipeline",
+  "registryId": "section.feature.pipeline",
+  "typeId": "feature.pipeline",
+  "version": "1.0.0",
+  "category": "feature",
+  "purpose": "'Simplify your stack': H3 + paragraph + bullets left, animated tracking pipeline (capsule, agent note, pulsing dot) right.",
+  "evidenceLevel": "spec-measured",
+  "variants": {
+    "order-tracking": "Cream with fades."
+  },
+  "composes": [
+    "primitive.text",
+    "primitive.image"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "heading": {
+        "type": "string",
+        "maxWords": 5
+      },
+      "paragraph": {
+        "type": "string",
+        "maxWords": 30
+      },
+      "bullets": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "maxWords": 10
+        },
+        "minItems": 3,
+        "maxItems": 3
+      },
+      "agentNote": {
+        "type": "string",
+        "maxWords": 5
+      }
+    },
+    "required": [
+      "heading",
+      "paragraph",
+      "bullets",
+      "agentNote"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "scroll-reveal-spring"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Column; heading becomes H2 Light 48/48."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "spec.pb.3.4"
+  ]
+}

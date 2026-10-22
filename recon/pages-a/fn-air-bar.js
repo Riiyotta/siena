@@ -1,0 +1,2 @@
+(()=>{const s=[...document.querySelectorAll('[data-framer-name="Content display (Timer)"]')].find(e=>e.offsetHeight>0);
+return [...s.querySelectorAll('div')].filter(e=>{const r=e.getBoundingClientRect();return r.height>0&&r.height<=3&&r.x>800}).map(e=>{const r=e.getBoundingClientRect();const cs=getComputedStyle(e);return Math.round(r.y)+':'+Math.round(r.width)+':'+(cs.backgroundColor.replace('rgb','').replace(/ /g,''))+(cs.backgroundImage!=='none'?':G':'')}).join(' ')})()

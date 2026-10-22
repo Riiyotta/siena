@@ -1,0 +1,108 @@
+{
+  "id": "section.cta.main",
+  "registryId": "section.cta.main",
+  "typeId": "cta.main",
+  "version": "1.0.0",
+  "category": "conversion",
+  "purpose": "Closing conversion card over a full-bleed image: H2 + one xlg button (demo, email or partner modal). Optional top fade blending from the previous section.",
+  "evidenceLevel": "measured",
+  "variants": {
+    "cream-fade": "Top blur-out from cream (home, reviews).",
+    "white-fade": "Top fade from white (careers, qa, topics, order-tracking, docs).",
+    "dark-fade": "Dark fade out of the Enterprise section (social, ask-siena).",
+    "sand-fade": "120px fade from hero sand (memory).",
+    "no-fade": "No fade (about, customers, refer, compare, add-ons, video, shopping, roi).",
+    "metrics-image": "Partner page: metrics background image, wide card, opens the partner modal."
+  },
+  "composes": [
+    "primitive.text",
+    "primitive.button",
+    "primitive.image"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "heading": {
+        "type": "string",
+        "maxWords": 14
+      },
+      "button": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string",
+            "maxWords": 4
+          },
+          "href": {
+            "type": "string",
+            "pattern": "^(/[a-z0-9/#-]*|#[a-z0-9-]+|https://[a-zA-Z0-9.-]+(/[^\\s]*)?|mailto:[a-z.]+@siena\\.cx)$"
+          },
+          "action": {
+            "enum": [
+              "navigate",
+              "open-modal"
+            ]
+          }
+        },
+        "required": [
+          "label",
+          "action"
+        ],
+        "additionalProperties": false
+      },
+      "phoneLayout": {
+        "enum": [
+          "standard",
+          "narrow-quirk"
+        ]
+      }
+    },
+    "required": [
+      "heading",
+      "button",
+      "phoneLayout"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Card padding 32 radius 32; 'narrow-quirk' keeps the desktop 200px 96px padding so the card is ~198 wide and the H2 wraps to many lines (measured on customers, refer, compare, video)."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustPrecedeFooter": true
+  },
+  "measuredFrom": [
+    "spec.maincta",
+    "jsx.maincta",
+    "spec.a5",
+    "spec.c6",
+    "spec.u4",
+    "spec.p4",
+    "spec.r4",
+    "jsx.companycta",
+    "spec.cv.3.9",
+    "jsx.convcta",
+    "spec.pa.2.8",
+    "spec.pa.4.11",
+    "spec.pb.1.6",
+    "spec.pb.3.6",
+    "spec.pb.6.4"
+  ],
+  "knownQuirks": [
+    "phoneLayout narrow-quirk replicates a live phone layout bug; generation should use 'standard' unless a parity copy of those routes is required."
+  ]
+}

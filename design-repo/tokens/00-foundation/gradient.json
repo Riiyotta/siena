@@ -1,0 +1,100 @@
+{
+  "$description": "Measured gradients. Hover/focus gradients are not visible in a static computed-style dump, so they cite the spec line that measured them.",
+  "foundation": {
+    "gradient": {
+      "rainbow-button": {
+        "$type": "gradient",
+        "$value": "linear-gradient(90deg, #F2E59A 0%, #FEC796 21.4087%, #FB5646 36.0976%, #827ACC 60.5158%, #2E79D8 89%, #294FBA 100%)",
+        "$description": "Dark-button hover/focus (instant swap).",
+        "$extensions": {
+          "cite": [
+            "tw.rainbow",
+            "spec.color.table"
+          ]
+        }
+      },
+      "rainbow-form-button": {
+        "$type": "gradient",
+        "$value": "linear-gradient(90deg, #F2E59A 0%, #FEC796 15.7658%, #FB5646 30.6306%, #827ACC 48.1982%, #2E79D8 77.027%, #294FBA 100%)",
+        "$description": "Form <button> hover (Submit, Sign me up!, Apply to join).",
+        "$extensions": {
+          "cite": [
+            "spec.content.formbutton",
+            "spec.form.states"
+          ]
+        }
+      },
+      "rainbow-lead-submit": {
+        "$type": "gradient",
+        "$value": "linear-gradient(90deg, #F7DD93 0%, #FEC796 14.8649%, #FB5646 31.982%, #827ACC 53.6036%, #2E79D8 75.6757%, #294FBA 100%)",
+        "$description": "Lead-form page-2 submit hover.",
+        "$extensions": {
+          "cite": [
+            "spec.pricing.prev-button"
+          ]
+        }
+      },
+      "rainbow-ring": {
+        "$type": "gradient",
+        "$value": "linear-gradient(45deg, #F2E59A 0%, #FEC796 24.32%, #FB5646 40.09%, #827ACC 59.91%, #2E79D8 77.48%, #294FBA 100%)",
+        "$description": "3px ring around form cards; angle varies per page (45/42/34/180deg) with identical stops.",
+        "$extensions": {
+          "cite": [
+            "spec.form.ring"
+          ]
+        }
+      },
+      "rainbow-border": {
+        "$type": "gradient",
+        "$value": "linear-gradient(255deg, #F2E59A 0%, #FEC796 14.8649%, #FB5646 32.8829%, #827ACC 52.2523%, #2E79D8 79.7297%, #ABABAB 100%)",
+        "$description": "1-2px gradient border around Siena chat bubbles and product cards (RAINBOW255).",
+        "$extensions": {
+          "cite": [
+            "spec.chat.gradient",
+            "spec.pa.rainbow255"
+          ]
+        }
+      },
+      "rainbow-card-hover": {
+        "$type": "gradient",
+        "$value": "linear-gradient(180deg, #F2E59A 0%, #FEC796 11.71%, #FB5646 26.58%, #827ACC 52.25%, #2E79D8 76.58%, #2E79D8 100%)",
+        "$description": "Customer story-grid card ring on hover.",
+        "$extensions": {
+          "cite": [
+            "spec.storygrid.hover"
+          ]
+        }
+      },
+      "fade-hero-to-white": {
+        "$type": "gradient",
+        "$value": "linear-gradient(0deg, #FFFFFF 0%, #F3F0EB 84%)",
+        "$description": "Homepage hero 'Blur out' under the fold.",
+        "$extensions": {
+          "cite": [
+            "spec.color.table"
+          ]
+        }
+      },
+      "fade-cream-down": {
+        "$type": "gradient",
+        "$value": "linear-gradient(180deg, #FAF7F1 0%, rgba(255,255,255,0) 100%)",
+        "$description": "Main CTA top 'Blur out' (from cream).",
+        "$extensions": {
+          "cite": [
+            "spec.maincta.card"
+          ]
+        }
+      },
+      "panel-white-to-sand": {
+        "$type": "gradient",
+        "$value": "linear-gradient(0deg, #FFFFFF 0%, #F3F0EB 100%)",
+        "$description": "Testimonial panels on refer/partner/shopping.",
+        "$extensions": {
+          "cite": [
+            "spec.company.shorthands"
+          ]
+        }
+      }
+    }
+  }
+}

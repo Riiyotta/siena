@@ -1,0 +1,1 @@
+(()=>{const f=document.querySelector('[data-framer-name="Hero"] [data-framer-name="Header"]');if(!f)return 'none';return [...f.querySelectorAll('h6,p,span')].filter(e=>e.children.length===0).map(e=>e.textContent+'@'+(+getComputedStyle(e).opacity).toFixed(1)+'/'+Math.round(e.getBoundingClientRect().y)).join(' | ').slice(0,300)})()

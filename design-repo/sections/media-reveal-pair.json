@@ -1,0 +1,105 @@
+{
+  "id": "section.media.reveal-pair",
+  "registryId": "section.media.reveal-pair",
+  "typeId": "media.reveal-pair",
+  "version": "1.0.0",
+  "category": "feature",
+  "purpose": "Sticky row of two image cards that reveal (image grows from 1px, text rises) as markers pass, joined by a scroll-linked gradient progress line.",
+  "evidenceLevel": "spec-measured",
+  "variants": {
+    "shopping": "'A unified intelligence layer for every customer journey'."
+  },
+  "composes": [
+    "primitive.image",
+    "primitive.text"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "eyebrow": {
+        "type": "string",
+        "maxWords": 7
+      },
+      "title": {
+        "type": "string",
+        "maxWords": 12,
+        "description": "Plain text; wrap at most one phrase in *asterisks* to render it in the display italic cut.",
+        "pattern": "^[^*]*(\\*[^*]+\\*[^*]*)?$"
+      },
+      "subtitle": {
+        "type": "string",
+        "maxWords": 35
+      },
+      "cards": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "image": {
+              "type": "object",
+              "properties": {
+                "assetRole": {
+                  "const": "photo.editorial-scene"
+                },
+                "assetRef": {
+                  "type": "string",
+                  "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+                },
+                "alt": {
+                  "type": "string",
+                  "maxWords": 24
+                }
+              },
+              "required": [
+                "assetRole",
+                "assetRef"
+              ],
+              "additionalProperties": false
+            },
+            "text": {
+              "type": "string",
+              "maxWords": 30
+            }
+          },
+          "required": [
+            "image",
+            "text"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 2,
+        "maxItems": 2
+      }
+    },
+    "required": [
+      "eyebrow",
+      "title",
+      "subtitle",
+      "cards"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "scroll-reveal-spring"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Cards stack (sticky top 40), vertical progress line."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "spec.pa.1.6"
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "id": "section.hero.lab",
+  "registryId": "section.hero.lab",
+  "typeId": "hero.lab",
+  "version": "1.0.0",
+  "category": "hero",
+  "purpose": "AI Lab dark hero: '– AI Lab' H1, H3 tagline, two light/dark buttons, roundtable photo, two upcoming event cards.",
+  "evidenceLevel": "spec-measured",
+  "variants": {
+    "lab": "Ink 996 tall with pixel tiles."
+  },
+  "composes": [
+    "component.event-card",
+    "primitive.button"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "headline": {
+        "type": "string",
+        "maxWords": 4
+      },
+      "tagline": {
+        "type": "string",
+        "maxWords": 10
+      },
+      "buttons": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "label": {
+              "type": "string",
+              "maxWords": 4
+            },
+            "href": {
+              "type": "string",
+              "pattern": "^(/[a-z0-9/#-]*|#[a-z0-9-]+|https://[a-zA-Z0-9.-]+(/[^\\s]*)?|mailto:[a-z.]+@siena\\.cx)$"
+            },
+            "style": {
+              "enum": [
+                "xlg-light",
+                "xlg-dark"
+              ]
+            }
+          },
+          "required": [
+            "label",
+            "href",
+            "style"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 2,
+        "maxItems": 2
+      },
+      "photo": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "const": "photo.editorial-scene"
+          },
+          "assetRef": {
+            "type": "string",
+            "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 24
+          }
+        },
+        "required": [
+          "assetRole",
+          "assetRef"
+        ],
+        "additionalProperties": false
+      },
+      "events": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "date": {
+              "type": "string",
+              "maxWords": 3
+            },
+            "format": {
+              "type": "string",
+              "maxWords": 2
+            },
+            "title": {
+              "type": "string",
+              "maxWords": 8
+            },
+            "subtitle": {
+              "type": "string",
+              "maxWords": 6
+            },
+            "time": {
+              "type": "string",
+              "maxWords": 6
+            },
+            "location": {
+              "type": "string",
+              "maxWords": 3
+            },
+            "link": {
+              "type": "object",
+              "properties": {
+                "label": {
+                  "type": "string",
+                  "maxWords": 3
+                },
+                "href": {
+                  "type": "string",
+                  "pattern": "^(/[a-z0-9/#-]*|#[a-z0-9-]+|https://[a-zA-Z0-9.-]+(/[^\\s]*)?|mailto:[a-z.]+@siena\\.cx)$"
+                }
+              },
+              "required": [
+                "label",
+                "href"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "date",
+            "format",
+            "title",
+            "subtitle",
+            "time",
+            "location",
+            "link"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 1,
+        "maxItems": 2
+      }
+    },
+    "required": [
+      "headline",
+      "tagline",
+      "buttons",
+      "photo",
+      "events"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "appear-rise"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ],
+    "builtIn": [
+      "tile-glitch decorative pixel tiles"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "H3 36/43.2; event cards side by side."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "spec.pb.5.1",
+    "spec.ailab.eventcard",
+    "spec.pb.5.2"
+  ]
+}

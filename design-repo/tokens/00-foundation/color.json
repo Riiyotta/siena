@@ -1,0 +1,381 @@
+{
+  "$description": "Foundation colour primitives. Each value is either a top entry of extraction/style-histogram.json (usage counts across 42 Playwright computed-style dumps, recorded per token as $extensions.histogram) or a measured hover/focus/gradient value that a static computed-style dump cannot capture (cited spec line). No colour here is invented. Light theme only: the source has no dark mode.",
+  "foundation": {
+    "color": {
+      "ink": {
+        "900": {
+          "$type": "color",
+          "$value": "#122023",
+          "$description": "Primary text, dark buttons, announcement bar, footer, enterprise section.",
+          "$extensions": {
+            "cite": [
+              "tw.colors",
+              "spec.color.table"
+            ],
+            "histogram": "textColor:#122023=2712; background:#122023=335"
+          }
+        },
+        "700": {
+          "$type": "color",
+          "$value": "#2A3639",
+          "$description": "Secondary text: body serif, bullets, menu descriptions.",
+          "$extensions": {
+            "cite": [
+              "tw.colors",
+              "spec.color.table"
+            ],
+            "histogram": "textColor:#2A3639=1046"
+          }
+        },
+        "600": {
+          "$type": "color",
+          "$value": "#414D4F",
+          "$description": "Tertiary text: menu footer links, stuck pill-nav labels, select chevron fill.",
+          "$extensions": {
+            "cite": [
+              "tw.colors",
+              "spec.color.table"
+            ],
+            "histogram": "textColor:#414D4F=36"
+          }
+        },
+        "500": {
+          "$type": "color",
+          "$value": "#71797B",
+          "$description": "Muted: menu icons, role locations, count pills.",
+          "$extensions": {
+            "cite": [
+              "tw.colors",
+              "spec.color.table"
+            ],
+            "histogram": "textColor:#71797B=180"
+          }
+        }
+      },
+      "warm": {
+        "50": {
+          "$type": "color",
+          "$value": "#FAF7F1",
+          "$description": "Cream: scrolled nav, stories, integrations, comparison table.",
+          "$extensions": {
+            "cite": [
+              "tw.colors",
+              "spec.color.table"
+            ],
+            "histogram": "background:#FAF7F1=138"
+          }
+        },
+        "100": {
+          "$type": "color",
+          "$value": "#F3F0EB",
+          "$description": "Hero background, cards, tiles, form panels (source name hero-bg).",
+          "$extensions": {
+            "cite": [
+              "tw.colors",
+              "spec.color.table"
+            ],
+            "histogram": "background:#F3F0EB=490"
+          }
+        },
+        "150": {
+          "$type": "color",
+          "$value": "#F4EDDE",
+          "$description": "Sand: mega-menu clusters, story-card ring, chips (source name sand).",
+          "$extensions": {
+            "cite": [
+              "tw.colors",
+              "spec.color.table"
+            ],
+            "histogram": "background:#F4EDDE=206"
+          }
+        },
+        "200": {
+          "$type": "color",
+          "$value": "#EFE5D0",
+          "$description": "Siena chat bubble fill, announcement copy, chip hover (source name ann-cream).",
+          "$extensions": {
+            "cite": [
+              "tw.colors",
+              "spec.color.table"
+            ],
+            "histogram": "background:#EFE5D0=94; textColor:#EFE5D0=18"
+          }
+        },
+        "400": {
+          "$type": "color",
+          "$value": "#CDBCA0",
+          "$description": "Field borders, dividers, tag-pill borders (source name sand-line).",
+          "$extensions": {
+            "cite": [
+              "tw.colors",
+              "spec.color.table",
+              "spec.form.fields"
+            ],
+            "histogram": "background:#CDBCA0=15"
+          }
+        },
+        "450": {
+          "$type": "color",
+          "$value": "#A7A092",
+          "$description": "Input placeholder, slider chevron stroke, secondary-button border.",
+          "$extensions": {
+            "cite": [
+              "spec.form.fields",
+              "spec.slider.controls",
+              "spec.testimonial.slide"
+            ]
+          }
+        },
+        "500": {
+          "$type": "color",
+          "$value": "#787368",
+          "$description": "Small uppercase role line on panel testimonials; insights announcement strip.",
+          "$extensions": {
+            "cite": [
+              "spec.testimonial.slide"
+            ],
+            "histogram": "textColor:#787368=20"
+          }
+        },
+        "600": {
+          "$type": "color",
+          "$value": "#605C53",
+          "$description": "Geist Mono tags (source name mono-label).",
+          "$extensions": {
+            "cite": [
+              "tw.colors",
+              "spec.color.table"
+            ],
+            "histogram": "textColor:#605C53=122"
+          }
+        },
+        "650": {
+          "$type": "color",
+          "$value": "#57524A",
+          "$description": "Lead-form floating label at rest.",
+          "$extensions": {
+            "cite": [
+              "spec.leadform.label"
+            ],
+            "histogram": "textColor:#57524A=36"
+          }
+        }
+      },
+      "accent": {
+        "yellow": {
+          "$type": "color",
+          "$value": "#F2E59A",
+          "$description": "Announcement italic; first rainbow stop.",
+          "$extensions": {
+            "cite": [
+              "tw.colors",
+              "spec.color.table"
+            ],
+            "histogram": "textColor:#F2E59A=24"
+          }
+        },
+        "highlight": {
+          "$type": "color",
+          "$value": "#F7DD93",
+          "$description": "Pill-nav active highlight, progress-line stop.",
+          "$extensions": {
+            "cite": [
+              "spec.pa.pillhighlight"
+            ]
+          }
+        },
+        "coral": {
+          "$type": "color",
+          "$value": "#F95040",
+          "$description": "'Coming soon' labels, pulsing dots.",
+          "$extensions": {
+            "cite": [
+              "tw.colors",
+              "spec.color.table"
+            ],
+            "histogram": "textColor:#F95040=72"
+          }
+        },
+        "link-hover": {
+          "$type": "color",
+          "$value": "#97BDFF",
+          "$description": "Footer link hover.",
+          "$extensions": {
+            "cite": [
+              "spec.footer.links"
+            ]
+          }
+        },
+        "focus": {
+          "$type": "color",
+          "$value": "#0099FF",
+          "$description": "Form focus border; privacy-policy email links.",
+          "$extensions": {
+            "cite": [
+              "spec.form.states",
+              "spec.content.legaltype"
+            ],
+            "histogram": "textColor:#0099FF=8"
+          }
+        }
+      },
+      "neutral": {
+        "0": {
+          "$type": "color",
+          "$value": "#FFFFFF",
+          "$description": "Page background, cards, inputs.",
+          "$extensions": {
+            "cite": [
+              "spec.color.table"
+            ],
+            "histogram": "background:#FFFFFF=491; textColor:#FFFFFF=304"
+          }
+        },
+        "50": {
+          "$type": "color",
+          "$value": "#F4F5F5",
+          "$description": "Text on dark chips and active filter chips.",
+          "$extensions": {
+            "cite": [
+              "spec.company.shorthands"
+            ],
+            "histogram": "textColor:#F4F5F5=69"
+          }
+        },
+        "100": {
+          "$type": "color",
+          "$value": "#EEEEEE",
+          "$description": "Comparison-table rules.",
+          "$extensions": {
+            "cite": [
+              "spec.compare.table"
+            ]
+          }
+        },
+        "600": {
+          "$type": "color",
+          "$value": "#555555",
+          "$description": "Comparison-table header labels.",
+          "$extensions": {
+            "cite": [
+              "spec.compare.table"
+            ],
+            "histogram": "textColor:#555555=44"
+          }
+        },
+        "800": {
+          "$type": "color",
+          "$value": "#333333",
+          "$description": "Comparison-table cell text.",
+          "$extensions": {
+            "cite": [
+              "spec.compare.table"
+            ],
+            "histogram": "textColor:#333333=120"
+          }
+        },
+        "1000": {
+          "$type": "color",
+          "$value": "#000000",
+          "$description": "Display H4/H3 in form headers and metrics headline.",
+          "$extensions": {
+            "cite": [
+              "spec.company.shorthands"
+            ],
+            "histogram": "textColor:#000000=183"
+          }
+        }
+      },
+      "alpha": {
+        "black-20": {
+          "$type": "color",
+          "$value": "rgba(0,0,0,0.2)",
+          "$description": "Quiet hairline borders (Framer ::after borders), dividers.",
+          "$extensions": {
+            "cite": [
+              "spec.company.shorthands"
+            ],
+            "histogram": "background:rgba(0,0,0,0.2)=46"
+          }
+        },
+        "black-50": {
+          "$type": "color",
+          "$value": "rgba(0,0,0,0.5)",
+          "$description": "Muted inline text (author lines, handles).",
+          "$extensions": {
+            "cite": [
+              "spec.color.table"
+            ],
+            "histogram": "textColor:rgba(0,0,0,0.5)=126"
+          }
+        },
+        "ink-80": {
+          "$type": "color",
+          "$value": "rgba(18,32,35,0.8)",
+          "$description": "Form labels, FAQ answers, captions.",
+          "$extensions": {
+            "cite": [
+              "spec.form.fields"
+            ],
+            "histogram": "textColor:rgba(18,32,35,0.8)=133"
+          }
+        },
+        "white-50": {
+          "$type": "color",
+          "$value": "rgba(255,255,255,0.5)",
+          "$description": "Footer links at rest; glass panels.",
+          "$extensions": {
+            "cite": [
+              "spec.footer.links"
+            ],
+            "histogram": "textColor:rgba(255,255,255,0.5)=952"
+          }
+        },
+        "white-60": {
+          "$type": "color",
+          "$value": "rgba(255,255,255,0.6)",
+          "$description": "Glass cards on product pages.",
+          "$extensions": {
+            "cite": [
+              "spec.pa.rainbow255"
+            ],
+            "histogram": "background:rgba(255,255,255,0.6)=6"
+          }
+        },
+        "white-90": {
+          "$type": "color",
+          "$value": "rgba(255,255,255,0.9)",
+          "$description": "Suggestion pills in chat mocks.",
+          "$extensions": {
+            "cite": [
+              "spec.pa.rainbow255"
+            ],
+            "histogram": "background:rgba(255,255,255,0.9)=6"
+          }
+        },
+        "sand-60": {
+          "$type": "color",
+          "$value": "rgba(244,237,222,0.6)",
+          "$description": "Round slider prev/next buttons.",
+          "$extensions": {
+            "cite": [
+              "spec.slider.controls"
+            ],
+            "histogram": "background:rgba(244,237,222,0.6)=22"
+          }
+        },
+        "cream-70": {
+          "$type": "color",
+          "$value": "rgba(250,247,241,0.7)",
+          "$description": "Integration tiles inside the add-ons sticky card.",
+          "$extensions": {
+            "cite": [
+              "spec.compare.ticker"
+            ],
+            "histogram": "background:rgba(250,247,241,0.7)=8"
+          }
+        }
+      }
+    }
+  }
+}

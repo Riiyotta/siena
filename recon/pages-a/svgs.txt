@@ -1,0 +1,80 @@
+shopping-agent-Logos-5-d4b67.svg 87x31 [Logos-5] uses:shopping-agent@1440#471,shopping-agent@390#68,ask-siena@1440#1446,ask-siena@390#1253
+shopping-agent-Icon-Black-d8122.svg 20x20 [Icon-Black] uses:shopping-agent@1440#524,social-agent@390#1095
+shopping-agent-content-73425.svg 18x18 [content] uses:shopping-agent@1440#820,shopping-agent@390#417,ai-review-management@1440#923,ai-review-management@390#690,ask-siena@1440#1299,ask-siena@1440#1578,ask-siena@390#1106,ask-siena@390#1385
+shopping-agent-content-02043.svg 18x18 [content] uses:shopping-agent@1440#826,shopping-agent@390#423,ai-review-management@1440#929,ai-review-management@390#696,ask-siena@1440#1305,ask-siena@1440#1584,ask-siena@390#1112,ask-siena@390#1391
+shopping-agent-Variant-1-4a4b3.svg 121x32 [Variant 1] uses:shopping-agent@1440#917,shopping-agent@390#576
+shopping-agent-sparkles-two-2-f6c5b.svg 20x20 [sparkles-two-2] uses:shopping-agent@1440#936,shopping-agent@1440#944,shopping-agent@1440#952,shopping-agent@390#522,shopping-agent@390#530,shopping-agent@390#538
+shopping-agent-Logo-c6c43.svg 40x14 [Logo] uses:shopping-agent@1440#970,shopping-agent@390#556
+shopping-agent-CTA-send-90871.svg 32x32 [CTA send] uses:shopping-agent@1440#1023,shopping-agent@390#565
+shopping-agent-caret-left-1-80c65.svg 24x24 [caret-left 1] uses:shopping-agent@1440#1054
+shopping-agent-caret-right-1-6516a.svg 24x24 [caret-right 1] uses:shopping-agent@1440#1059
+shopping-agent-Logos-5-bg-96b11.svg 37x18 [Logos-5-bg] uses:shopping-agent@1440#963,shopping-agent@390#549
+social-agent-Avatar-0a99a.svg 22x22 [Avatar] uses:social-agent@1440#460,social-agent@1440#864,social-agent@390#57,social-agent@390#456
+social-agent-Avatar-fe29a.svg 28x28 [Avatar] uses:social-agent@1440#465,social-agent@1440#895,social-agent@390#62,social-agent@390#487
+social-agent-Social-Media-Mockup-94262.svg 23x20 [Social Media Mockup] uses:social-agent@1440#488,social-agent@1440#1572,social-agent@390#85,social-agent@390#1155
+social-agent-Social-Media-Mockup-8e27d.svg 20x20 [Social Media Mockup] uses:social-agent@1440#496,social-agent@1440#1580,social-agent@390#93,social-agent@390#1163
+social-agent-Social-Media-Mockup-6c633.svg 20x20 [Social Media Mockup] uses:social-agent@1440#504,social-agent@1440#1588,social-agent@390#101,social-agent@390#1171
+social-agent-Social-Media-Mockup-fdf95.svg 15x20 [Social Media Mockup] uses:social-agent@1440#511,social-agent@1440#1595,social-agent@390#108,social-agent@390#1178
+social-agent-Vector-1b0ea.svg 24x24 [Vector] uses:social-agent@1440#531,social-agent@1440#546,social-agent@1440#926,social-agent@1440#1271,social-agent@1440#1559,social-agent@1440#1615,social-agent@1440#1775,social-agent@390#128+6
+social-agent-Resting-Resting-9f1f7.svg 103x41 [Resting -Resting] uses:social-agent@1440#816,social-agent@390#413
+social-agent-Icon-Black-19603.svg 25x25 [Icon-Black] uses:social-agent@1440#1165,social-agent@390#753
+social-agent-Avatar-9c9df.svg 12x12 [Avatar] uses:social-agent@1440#1198,social-agent@1440#1247,social-agent@1440#1276,social-agent@1440#1780,social-agent@390#783,social-agent@390#832,social-agent@390#861,social-agent@390#1363
+social-agent-Avatar-fffb4.svg 12x12 [Avatar] uses:social-agent@1440#1217,social-agent@390#802
+social-agent-Social-Media-Mockup-7ca40.svg 12x12 [Social Media Mockup] uses:social-agent@1440#1366,social-agent@390#950
+social-agent-Sticky-Image-d5f20.svg 11x160 [Sticky Image] uses:social-agent@1440#1391,social-agent@390#975
+social-agent-sparkles-two-2-6aa85.svg 16x16 [sparkles-two-2] uses:social-agent@1440#1479,social-agent@390#1062,qa-agent@1440#1323,qa-agent@390#914,topics-explorer@1440#1177,topics-explorer@390#774
+social-agent-1-53c56.svg 138x1 [1] uses:social-agent@1440#1706,social-agent@390#1289
+social-agent-1-1a3c1.svg 142x26 [1] uses:social-agent@1440#1716,social-agent@390#1299
+social-agent-1-e1ce2.svg 136x21 [1] uses:social-agent@1440#1721,social-agent@390#1304
+social-agent-Vector-80b9e.svg 128x26 [Vector] uses:social-agent@1440#1908,social-agent@390#1491
+social-agent-Vector-3e1a2.svg 138x39 [Vector] uses:social-agent@1440#1914,social-agent@390#1497
+social-agent-Logos-cfefc.svg 129x37 [Logos] uses:social-agent@1440#1920,social-agent@390#1503
+social-agent-Union-f4ce1.svg 187x37 [Union] uses:social-agent@1440#1936,social-agent@390#1519
+social-agent-Vector-bg-0bf0d.svg 24x24 [Vector-bg] uses:social-agent@1440#476,social-agent@390#73
+social-agent-Avatar-bg-02769.svg 18x18 [Avatar-bg] uses:social-agent@1440#1422,social-agent@390#1006
+social-agent-Icon-Button-bg-badaf.svg 15x15 [Icon Button-bg] uses:social-agent@1440#1744,social-agent@390#1327,ask-siena@1440#890,ask-siena@390#693
+social-agent-star-four-light-1-e3ce8.svg 16x16 [star-four-light 1] uses:social-agent@390#530,social-agent@390#538,social-agent@390#546,social-agent@390#713,social-agent@390#721,social-agent@390#729,social-agent@390#894,social-agent@390#902+28
+ai-review-management-Vector-d70f1.svg 12x12 [Vector] uses:ai-review-management@1440#470,ai-review-management@1440#475,ai-review-management@1440#480,ai-review-management@1440#485,ai-review-management@1440#490,ai-review-management@1440#1291,ai-review-management@1440#1296,ai-review-management@1440#1301+68
+ai-review-management-Line-38-7d528.svg 166x3 [Line 38] uses:ai-review-management@1440#494,ai-review-management@1440#1312,ai-review-management@1440#1342,ai-review-management@1440#1376,ai-review-management@1440#1487,ai-review-management@390#91,ai-review-management@390#542,ai-review-management@390#621+8
+ai-review-management-Icon-Button-01472.svg 48x48 [Icon Button] uses:ai-review-management@1440#870,ai-review-management@1440#884,ai-review-management@390#405,ai-review-management@390#419,qa-agent@1440#472,qa-agent@1440#1083,qa-agent@390#69,qa-agent@390#674
+ai-review-management-Icon-Button-96c02.svg 39x39 [Icon Button] uses:ai-review-management@1440#877,ai-review-management@390#412,qa-agent@1440#1107,qa-agent@1440#1138,qa-agent@390#698,qa-agent@390#729
+ai-review-management-siena-a3950.svg 122x32 [siena] uses:ai-review-management@1440#1421,ai-review-management@390#1436
+ai-review-management-Vector-04990.svg 114x32 [Vector] uses:ai-review-management@1440#1430,ai-review-management@390#1445
+ai-review-management-Icon-Button-ec0de.svg 32x32 [Icon Button] uses:ai-review-management@1440#1497,ai-review-management@390#1512
+ai-review-management-Vector-bg-f33ea.svg 16x16 [Vector-bg] uses:ai-review-management@1440#1309
+ai-review-management-Icon-Button-8ccf3.svg 32x32 [Icon Button] uses:ai-review-management@390#674
+ai-review-management-Logo-70c24.svg 40x14 [Logo] uses:ai-review-management@390#1214
+qa-agent-slack-logo-54b46.svg 96x96 [slack logo] uses:qa-agent@1440#1160,qa-agent@390#751,topics-explorer@1440#1278,topics-explorer@390#875
+qa-agent-01-b5efe.svg 350x175 [01] uses:qa-agent@1440#1182,qa-agent@390#773
+qa-agent-Notes-ed4f2.svg 96x97 [Notes] uses:qa-agent@1440#1269,qa-agent@390#860
+qa-agent-Icon-Button-bg-0c4ee.svg 39x39 [Icon Button-bg] uses:qa-agent@1440#483,qa-agent@390#80
+qa-agent-Icon-Button-bg-6aadf.svg 39x39 [Icon Button-bg] uses:qa-agent@1440#490,qa-agent@390#87
+topics-explorer-arrow-up-right-71860.svg 18x18 [arrow-up-right] uses:topics-explorer@1440#872,topics-explorer@1440#895,topics-explorer@1440#968,topics-explorer@1440#991,topics-explorer@390#469,topics-explorer@390#492,topics-explorer@390#565,topics-explorer@390#588
+topics-explorer-arrow-up-right-0ce40.svg 18x18 [arrow-up-right] uses:topics-explorer@1440#879,topics-explorer@1440#902,topics-explorer@1440#975,topics-explorer@1440#998,topics-explorer@390#476,topics-explorer@390#499,topics-explorer@390#572,topics-explorer@390#595
+topics-explorer-Sticky-Image-ccff5.svg 651x1 [Sticky Image] uses:topics-explorer@1440#1008,topics-explorer@1440#1012,topics-explorer@1440#1016,topics-explorer@1440#1020,topics-explorer@390#605,topics-explorer@390#609,topics-explorer@390#613,topics-explorer@390#617
+topics-explorer-Visual-c952e.svg 11x95 [Visual] uses:topics-explorer@1440#1218
+topics-explorer-Vector-79d67.svg 30x33 [Vector] uses:topics-explorer@1440#1256,topics-explorer@390#853
+topics-explorer-arrow-up-right-f7aaf.svg 18x18 [arrow-up-right] uses:topics-explorer@1440#1266,topics-explorer@390#863
+topics-explorer-Sticky-Image-bg-b112f.svg 44x44 [Sticky Image-bg] uses:topics-explorer@1440#1023,topics-explorer@1440#1033,topics-explorer@1440#1035,topics-explorer@1440#1045,topics-explorer@390#620,topics-explorer@390#630,topics-explorer@390#632,topics-explorer@390#642
+topics-explorer-Sticky-Image-bg-d8cc4.svg 19x19 [Sticky Image-bg] uses:topics-explorer@1440#1025,topics-explorer@1440#1027,topics-explorer@1440#1029,topics-explorer@1440#1031,topics-explorer@1440#1047,topics-explorer@1440#1049,topics-explorer@390#622,topics-explorer@390#624+4
+topics-explorer-Sticky-Image-bg-1d373.svg 32x32 [Sticky Image-bg] uses:topics-explorer@1440#1037,topics-explorer@390#634
+topics-explorer-Sticky-Image-bg-a339a.svg 69x69 [Sticky Image-bg] uses:topics-explorer@1440#1039,topics-explorer@390#636
+topics-explorer-Sticky-Image-bg-b15d0.svg 38x38 [Sticky Image-bg] uses:topics-explorer@1440#1041,topics-explorer@390#638
+topics-explorer-Topic-bg-ba3f2.svg 101x101 [Topic-bg] uses:topics-explorer@1440#1043,topics-explorer@390#640
+topics-explorer-Visual-2bab8.svg 11x95 [Visual] uses:topics-explorer@390#815
+ask-siena-1-7d6a5.svg 52x24 [1] uses:ask-siena@1440#723,ask-siena@390#320
+ask-siena-Icon-Button-9c4aa.svg 15x15 [Icon Button] uses:ask-siena@1440#910,ask-siena@390#713
+ask-siena-Patterns-237e3.svg 376x1 [Patterns] uses:ask-siena@1440#1152,ask-siena@1440#1156,ask-siena@1440#1160,ask-siena@1440#1164,ask-siena@390#959,ask-siena@390#963,ask-siena@390#967,ask-siena@390#971
+ask-siena-Patterns-d09a4.svg 27x27 [Patterns] uses:ask-siena@1440#1169,ask-siena@1440#1194,ask-siena@1440#1199,ask-siena@1440#1224,ask-siena@390#976,ask-siena@390#1001,ask-siena@390#1006,ask-siena@390#1031
+ask-siena-Patterns-3a1d8.svg 12x12 [Patterns] uses:ask-siena@1440#1174,ask-siena@1440#1179,ask-siena@1440#1184,ask-siena@1440#1189,ask-siena@1440#1229,ask-siena@1440#1234,ask-siena@390#981,ask-siena@390#986+4
+ask-siena-Patterns-3ae47.svg 20x20 [Patterns] uses:ask-siena@1440#1204,ask-siena@390#1011
+ask-siena-Patterns-ce8cc.svg 42x42 [Patterns] uses:ask-siena@1440#1209,ask-siena@390#1016
+ask-siena-Patterns-2a9ec.svg 23x23 [Patterns] uses:ask-siena@1440#1214,ask-siena@390#1021
+ask-siena-Topic-740db.svg 62x62 [Topic] uses:ask-siena@1440#1219,ask-siena@390#1026
+ask-siena-Prompt-f03b2.svg 29x29 [Prompt] uses:ask-siena@1440#1274,ask-siena@390#1081
+ask-siena-Prompt-c416a.svg 29x29 [Prompt] uses:ask-siena@1440#1278,ask-siena@390#1085
+ask-siena-Prompt-081b4.svg 29x29 [Prompt] uses:ask-siena@1440#1282,ask-siena@390#1089
+ask-siena-Prompt-0453c.svg 29x29 [Prompt] uses:ask-siena@1440#1286,ask-siena@390#1093
+ask-siena-Logos-12-cbb2f.svg 82x20 [Logos-12] uses:ask-siena@1440#1434,ask-siena@390#1241
+ask-siena-Logos-6-20e5a.svg 63x20 [Logos-6] uses:ask-siena@1440#1459,ask-siena@390#1266
+ask-siena-Icon-Button-bg-bd612.svg 8x8 [Icon Button-bg] uses:ask-siena@390#456,ask-siena@390#564

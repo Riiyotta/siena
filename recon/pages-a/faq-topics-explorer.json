@@ -1,0 +1,22 @@
+[
+ {
+  "q": "How is Siena Topics Explorer different from tagging in my help desk?",
+  "a": "Your help desk tags depend on agents. Who's working, how busy they are, how they interpret each ticket. Topics Explorer reads every conversation automatically and applies the same consistent lens every time. No training, no maintenance, no gaps."
+ },
+ {
+  "q": "Do I need to build a taxonomy before Siena Topics Explorer can work?",
+  "a": "There's nothing to configure before you can start seeing data. Topics Explorer starts classifying conversations as soon as it's connected. Most teams have a working dashboard within their first day."
+ },
+ {
+  "q": "How many conversations does it analyze?",
+  "a": "Every single one. Not a sample, not a selection. Every conversation that comes through your support operation, across every channel, every day."
+ },
+ {
+  "q": "How is this different from Medallia or Qualtrics?",
+  "a": "Medallia and Qualtrics run on surveys. That means you're hearing from the customers who respond, not all of them. Topics Explorer is built from your actual support conversations, so it covers 100% of your customer interactions with no survey design, no response rate problem, no lag."
+ },
+ {
+  "q": "Can our product, marketing, or ops teams use this too?",
+  "a": "It's built for CX teams, but the insights travel well. Product managers, merchandising, and ops leads use it to track which SKUs need attention, where the self-serve experience is breaking down, or what to address before a launch. And because Ask Siena connects directly to Slack, any team can surface answers from your conversation data without ever opening a dashboard or asking the CX team."
+ }
+]

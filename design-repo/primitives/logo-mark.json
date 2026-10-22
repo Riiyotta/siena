@@ -1,0 +1,23 @@
+{
+  "registryId": "primitive.logo-mark",
+  "version": "1.0.0",
+  "category": "media",
+  "description": "Brand/customer/partner/integration logo, object-fit contain inside a fixed slot (140x64 on testimonials, tiles on grids). Real trademarks: reuse exact files only.",
+  "props": {
+    "assetRole": {
+      "enum": [
+        "brand.siena-wordmark",
+        "logo.customer",
+        "logo.partner-investor",
+        "logo.integration"
+      ]
+    }
+  },
+  "tokens": [
+    "{component.tile.padding}"
+  ],
+  "measuredFrom": [
+    "spec.testimonial.slide",
+    "spec.integrations.tile"
+  ]
+}

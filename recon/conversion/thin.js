@@ -1,0 +1,1 @@
+(()=>{const o=[];document.querySelectorAll('body *').forEach(e=>{const r=e.getBoundingClientRect();if(r.width>40&&r.height>0&&r.height<=3){const s=getComputedStyle(e);o.push([e.tagName,e.getAttribute('data-framer-name'),Math.round(r.x),Math.round(r.y+scrollY),Math.round(r.width),r.height,s.backgroundColor,s.borderTop,s.opacity].join(' | '))}});return o.join('\n')})()

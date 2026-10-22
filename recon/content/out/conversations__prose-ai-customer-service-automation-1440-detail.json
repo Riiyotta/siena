@@ -1,0 +1,2287 @@
+{
+ "rich": [
+  {
+   "fn": "Summary",
+   "r": [
+    320,
+    954,
+    800,
+    309
+   ],
+   "cnt": 3,
+   "items": [
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      954,
+      800,
+      77
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 58,
+     "text": "Jessica has spent seven and a half years",
+     "strong": "",
+     "links": [
+      {
+       "h": "https://www.linkedin.com/in/jessica-weiss-2500a6161/",
+       "t": "Jessica"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      1051,
+      800,
+      96
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 79,
+     "text": "Before Siena, Prose automated nothing. The team ran",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      1167,
+      800,
+      96
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 81,
+     "text": "Today Siena handles Prose’s tier-one product questions (ingredient",
+     "strong": "",
+     "links": [
+      {
+       "h": "../blog/dedicated-ai-vs-help-desk-ai-add-ons",
+       "t": "AI-native platform over a help-desk add-"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    }
+   ]
+  },
+  {
+   "fn": "Transcript",
+   "r": [
+    320,
+    2072,
+    800,
+    6776
+   ],
+   "cnt": 70,
+   "items": [
+    {
+     "tag": "div",
+     "depth": 0,
+     "r": [
+      320,
+      2072,
+      800,
+      1
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Inter 400 16px/19.2px lsnormal rgb(0, 0, 0)",
+     "words": 0,
+     "text": "",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      320,
+      2113,
+      800,
+      36
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 36px/36px lsnormal rgb(18, 32, 35)",
+     "words": 6,
+     "text": "Why personalized beauty makes CX harder",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      2169,
+      800,
+      96
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 89,
+     "text": "Jessica (0:02) My name is Jessica. I work",
+     "strong": "Jessica | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=2s",
+       "t": "(0:02)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      2285,
+      800,
+      38
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 22,
+     "text": "Lisa (0:30) What do you think makes CX",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=30s",
+       "t": "(0:30)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      2344,
+      800,
+      192
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 192,
+     "text": "Jessica (0:38) I think that when a product",
+     "strong": "Jessica | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=38s",
+       "t": "(0:38)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      2556,
+      800,
+      19
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 11,
+     "text": "Lisa (1:40) What did your support operations look",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=100s",
+       "t": "(1:40)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "div",
+     "depth": 0,
+     "r": [
+      320,
+      2595,
+      800,
+      1
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Inter 400 16px/19.2px lsnormal rgb(0, 0, 0)",
+     "words": 0,
+     "text": "",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      320,
+      2636,
+      800,
+      36
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 36px/36px lsnormal rgb(18, 32, 35)",
+     "words": 6,
+     "text": "What support looked like before Siena",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      2692,
+      800,
+      211
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 217,
+     "text": "Jessica (1:44) Before Siena, we did not automate",
+     "strong": "Jessica | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=104s",
+       "t": "(1:44)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "div",
+     "depth": 0,
+     "r": [
+      320,
+      2923,
+      800,
+      1
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Inter 400 16px/19.2px lsnormal rgb(0, 0, 0)",
+     "words": 0,
+     "text": "",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      320,
+      2964,
+      800,
+      72
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 36px/36px lsnormal rgb(18, 32, 35)",
+     "words": 9,
+     "text": "Reducing noise, and why the custom integration was non-negotiable",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      3056,
+      800,
+      19
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 16,
+     "text": "Lisa (2:44) What other benefits do you think",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=164s",
+       "t": "(2:44)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      3095,
+      800,
+      134
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 125,
+     "text": "Jessica (2:49) When we onboarded Siena, our goal",
+     "strong": "Jessica | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=169s",
+       "t": "(2:49)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      3250,
+      800,
+      96
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 87,
+     "text": "Lisa (3:24) Can you share a little bit",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=204s",
+       "t": "(3:24)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      3366,
+      800,
+      173
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 179,
+     "text": "Jessica (3:52) It’s really important for us specifically.",
+     "strong": "Jessica | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=232s",
+       "t": "(3:52)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "div",
+     "depth": 0,
+     "r": [
+      320,
+      3558,
+      800,
+      1
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Inter 400 16px/19.2px lsnormal rgb(0, 0, 0)",
+     "words": 0,
+     "text": "",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      320,
+      3599,
+      800,
+      36
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 36px/36px lsnormal rgb(18, 32, 35)",
+     "words": 9,
+     "text": "Does emotional, identity-driven beauty raise the bar for AI?",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      3655,
+      800,
+      58
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 52,
+     "text": "Lisa (4:43) That’s amazing. As this category is",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=283s",
+       "t": "(4:43)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      3733,
+      800,
+      192
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 183,
+     "text": "Jessica (4:58) I think we’re in kind of",
+     "strong": "Jessica | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=298s",
+       "t": "(4:58)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "div",
+     "depth": 0,
+     "r": [
+      320,
+      3945,
+      800,
+      1
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Inter 400 16px/19.2px lsnormal rgb(0, 0, 0)",
+     "words": 0,
+     "text": "",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      320,
+      3986,
+      800,
+      72
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 36px/36px lsnormal rgb(18, 32, 35)",
+     "words": 11,
+     "text": "Tiering AI: simple questions to Siena, nuance and troubleshooting to agents",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      4078,
+      800,
+      19
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 17,
+     "text": "Lisa (5:50) What do you think about AI",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=350s",
+       "t": "(5:50)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      4117,
+      800,
+      115
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 107,
+     "text": "Jessica (5:54) So we’ve broken it up into",
+     "strong": "Jessica | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=354s",
+       "t": "(5:54)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      4253,
+      800,
+      19
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 17,
+     "text": "Lisa (6:27) Do you have any programs, like",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=387s",
+       "t": "(6:27)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      4292,
+      800,
+      173
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 167,
+     "text": "Jessica (6:35) We have a very extensive —",
+     "strong": "Jessica | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=395s",
+       "t": "(6:35)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "div",
+     "depth": 0,
+     "r": [
+      320,
+      4485,
+      800,
+      1
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Inter 400 16px/19.2px lsnormal rgb(0, 0, 0)",
+     "words": 0,
+     "text": "",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      320,
+      4526,
+      800,
+      36
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 36px/36px lsnormal rgb(18, 32, 35)",
+     "words": 10,
+     "text": "What the beauty industry gets wrong about CX and AI",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      4582,
+      800,
+      19
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 16,
+     "text": "Lisa (7:24) What do you feel like the",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=444s",
+       "t": "(7:24)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      4621,
+      800,
+      230
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 227,
+     "text": "Jessica (7:29) I think it’s many things. I",
+     "strong": "Jessica | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=449s",
+       "t": "(7:29)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "div",
+     "depth": 0,
+     "r": [
+      320,
+      4871,
+      800,
+      1
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Inter 400 16px/19.2px lsnormal rgb(0, 0, 0)",
+     "words": 0,
+     "text": "",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      320,
+      4912,
+      800,
+      36
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 36px/36px lsnormal rgb(18, 32, 35)",
+     "words": 7,
+     "text": "How buying hair care online will change",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      4968,
+      800,
+      19
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 18,
+     "text": "Lisa (8:34) How do you think it will",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=514s",
+       "t": "(8:34)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      5007,
+      800,
+      192
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 185,
+     "text": "Jessica (8:37) I think it’ll look so different.",
+     "strong": "Jessica | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=517s",
+       "t": "(8:37)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "div",
+     "depth": 0,
+     "r": [
+      320,
+      5219,
+      800,
+      1
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Inter 400 16px/19.2px lsnormal rgb(0, 0, 0)",
+     "words": 0,
+     "text": "",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      320,
+      5260,
+      800,
+      72
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 36px/36px lsnormal rgb(18, 32, 35)",
+     "words": 10,
+     "text": "Surfacing insights in minutes, and catching problems before they surface",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      5352,
+      800,
+      19
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 19,
+     "text": "Lisa (9:26) What has your experience been like,",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=566s",
+       "t": "(9:26)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      5392,
+      800,
+      230
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 240,
+     "text": "Jessica (9:33) I would say we’ve barely scratched",
+     "strong": "Jessica | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=573s",
+       "t": "(9:33)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      5642,
+      800,
+      38
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 31,
+     "text": "Lisa (10:47) Do you have other examples where",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=647s",
+       "t": "(10:47)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      5700,
+      800,
+      230
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 247,
+     "text": "Jessica (10:55) We haven’t caught anything yet, knock",
+     "strong": "Jessica | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=655s",
+       "t": "(10:55)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      5951,
+      800,
+      19
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 19,
+     "text": "Lisa (12:09) Do you have any projects or",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=729s",
+       "t": "(12:09)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "div",
+     "depth": 0,
+     "r": [
+      320,
+      5990,
+      800,
+      1
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Inter 400 16px/19.2px lsnormal rgb(0, 0, 0)",
+     "words": 0,
+     "text": "",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      320,
+      6031,
+      800,
+      36
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 36px/36px lsnormal rgb(18, 32, 35)",
+     "words": 7,
+     "text": "Turning CX into a proactive, insight-driven function",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      6087,
+      800,
+      115
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 111,
+     "text": "Jessica (12:14) I think that it will unlock",
+     "strong": "Jessica | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=734s",
+       "t": "(12:14)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      6222,
+      800,
+      19
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 19,
+     "text": "Lisa (12:50) Do you feel like it changes",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=770s",
+       "t": "(12:50)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      6262,
+      800,
+      115
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 114,
+     "text": "Jessica (12:57) I mean, I think that it",
+     "strong": "Jessica | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=777s",
+       "t": "(12:57)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      6397,
+      800,
+      38
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 33,
+     "text": "Lisa (13:28) Do you still see CX in",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=808s",
+       "t": "(13:28)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "div",
+     "depth": 0,
+     "r": [
+      320,
+      6455,
+      800,
+      1
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Inter 400 16px/19.2px lsnormal rgb(0, 0, 0)",
+     "words": 0,
+     "text": "",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      320,
+      6496,
+      800,
+      36
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 36px/36px lsnormal rgb(18, 32, 35)",
+     "words": 8,
+     "text": "Is CX still treated as a cost center?",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      6552,
+      800,
+      115
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 120,
+     "text": "Jessica (13:40) I think that it’s starting to",
+     "strong": "Jessica | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=820s",
+       "t": "(13:40)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      6687,
+      800,
+      58
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 43,
+     "text": "Lisa (14:08) When you adopted AI, I think",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=848s",
+       "t": "(14:08)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "div",
+     "depth": 0,
+     "r": [
+      320,
+      6765,
+      800,
+      1
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Inter 400 16px/19.2px lsnormal rgb(0, 0, 0)",
+     "words": 0,
+     "text": "",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      320,
+      6806,
+      800,
+      72
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 36px/36px lsnormal rgb(18, 32, 35)",
+     "words": 13,
+     "text": "How the team reacted to adopting AI, and the skills that matter now",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      6898,
+      800,
+      134
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 138,
+     "text": "Jessica (14:24) I think our team was pretty",
+     "strong": "Jessica | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=864s",
+       "t": "(14:24)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      7052,
+      800,
+      38
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 23,
+     "text": "Lisa (15:02) What do you think are the",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=902s",
+       "t": "(15:02)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      7111,
+      800,
+      134
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 142,
+     "text": "Jessica (15:11) I think people that ask questions",
+     "strong": "Jessica | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=911s",
+       "t": "(15:11)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      7265,
+      800,
+      19
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 17,
+     "text": "Lisa (15:47) I feel like these skills all",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=947s",
+       "t": "(15:47)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      7304,
+      800,
+      154
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 147,
+     "text": "Jessica (15:52) Constantly changing. A small model change",
+     "strong": "Jessica | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=952s",
+       "t": "(15:52)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      7478,
+      800,
+      19
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 20,
+     "text": "Lisa (16:29) Have you been adding other AI",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=989s",
+       "t": "(16:29)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      7517,
+      800,
+      230
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 239,
+     "text": "Jessica (16:32) As an organization, we are using",
+     "strong": "Jessica | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=992s",
+       "t": "(16:32)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      7768,
+      800,
+      38
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 33,
+     "text": "Lisa (17:41) What are you working on, for",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=1061s",
+       "t": "(17:41)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "div",
+     "depth": 0,
+     "r": [
+      320,
+      7826,
+      800,
+      1
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Inter 400 16px/19.2px lsnormal rgb(0, 0, 0)",
+     "words": 0,
+     "text": "",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h2",
+     "depth": 0,
+     "r": [
+      320,
+      7867,
+      800,
+      72
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 36px/36px lsnormal rgb(18, 32, 35)",
+     "words": 11,
+     "text": "The roadmap ahead, and advice for brands choosing AI-native vs. add-on",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      7959,
+      800,
+      173
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 176,
+     "text": "Jessica (17:51) We plan out our roadmap with",
+     "strong": "Jessica | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=1071s",
+       "t": "(17:51)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      8152,
+      800,
+      38
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 21,
+     "text": "Lisa (18:41) What’s one conversation you wish more",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=1121s",
+       "t": "(18:41)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      8210,
+      800,
+      77
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 66,
+     "text": "Jessica (18:49) I would say to be very",
+     "strong": "Jessica | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=1129s",
+       "t": "(18:49)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      8307,
+      800,
+      19
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 13,
+     "text": "Lisa (19:09) How would you describe Ask Siena",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=1149s",
+       "t": "(19:09)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      8346,
+      800,
+      211
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 235,
+     "text": "Jessica (19:12) I don’t know. That’s really difficult,",
+     "strong": "Jessica | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=1152s",
+       "t": "(19:12)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      8578,
+      800,
+      38
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 36,
+     "text": "Lisa (20:20) What would you advise someone that",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=1220s",
+       "t": "(20:20)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      8636,
+      800,
+      173
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 169,
+     "text": "Jessica (20:34) I think it’s really about the",
+     "strong": "Jessica | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=1234s",
+       "t": "(20:34)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      8829,
+      800,
+      19
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 16,
+     "text": "Lisa (21:28) Those are good criteria for helping",
+     "strong": "Lisa | Instrument Sans 700 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "links": [
+      {
+       "h": "https://www.youtube.com/watch?v=BgO6VVwRznA&t=1288s",
+       "t": "(21:28)"
+      }
+     ],
+     "nl": 1,
+     "img": ""
+    }
+   ]
+  },
+  {
+   "fn": "FAQ",
+   "r": [
+    320,
+    8964,
+    800,
+    730
+   ],
+   "cnt": 10,
+   "items": [
+    {
+     "tag": "h3",
+     "depth": 0,
+     "r": [
+      320,
+      8964,
+      800,
+      67
+     ],
+     "mt": "0px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 28px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 15,
+     "text": "What’s Prose’s advice for brands choosing between an AI-native platform and a help-desk AI add-on?",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      9051,
+      800,
+      38
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 32,
+     "text": "Decide how much control you need over the",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h3",
+     "depth": 0,
+     "r": [
+      320,
+      9130,
+      800,
+      34
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 28px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 13,
+     "text": "Why did Prose need a custom AI integration instead of an off-the-shelf tool?",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      9183,
+      800,
+      58
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 52,
+     "text": "Prose isn’t on Shopify and runs its own",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h3",
+     "depth": 0,
+     "r": [
+      320,
+      9281,
+      800,
+      34
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 28px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 10,
+     "text": "How does Prose split work between Siena and human agents?",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      9334,
+      800,
+      58
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 34,
+     "text": "Siena handles tier-one product questions with clear, factual",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h3",
+     "depth": 0,
+     "r": [
+      320,
+      9432,
+      800,
+      34
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 28px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 8,
+     "text": "What happened when Prose had a subscription-cancellation bug?",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      9486,
+      800,
+      58
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 35,
+     "text": "A brief bug meant users couldn’t cancel subscriptions",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "h3",
+     "depth": 0,
+     "r": [
+      320,
+      9583,
+      800,
+      34
+     ],
+     "mt": "40px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Feature Deck Condensed Web Regular 400 28px/33.6px lsnormal rgb(18, 32, 35)",
+     "words": 9,
+     "text": "How does Prose use Ask Siena beyond ticket automation?",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    },
+    {
+     "tag": "p",
+     "depth": 0,
+     "r": [
+      320,
+      9637,
+      800,
+      58
+     ],
+     "mt": "20px",
+     "mb": "0px",
+     "pl": "0px",
+     "st": "Instrument Sans 400 16px/19.2px ls-0.16px rgb(18, 32, 35)",
+     "words": 47,
+     "text": "As a research and insight tool. Jessica uses",
+     "strong": "",
+     "links": [],
+     "nl": 0,
+     "img": ""
+    }
+   ]
+  }
+ ],
+ "marker": {
+  "color": "rgb(18, 32, 35)",
+  "fs": "16px",
+  "ff": "\"Instrument Sans\", \"Instrument Sans Placeholder\", sans-serif",
+  "content": "normal",
+  "lst": "\"\"",
+  "pl": "21.312px",
+  "ml": "0px",
+  "mlm": "0px"
+ },
+ "iframes": [
+  {
+   "src": "https://www.youtube.com/embed/BgO6VVwRznA?autoplay=0&mute=1&controls=1&rel=0",
+   "r": [
+    320,
+    456,
+    800,
+    450
+   ],
+   "br": "0px",
+   "parBr": "10px"
+  },
+  {
+   "src": "https://framer.com/edit?framerSiteId=f47910699fc3441f86608d12d38696a628e935e97e59d6623edfd8ace3e982f1&source=www.siena.cx&features=%7B%22editorBarDisableFrameAncestorsSecurity%22%3Afalse%2C%22onPageRichTextBlockSelection%22%3Atrue%7D&loadStart=1792663234550",
+   "r": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "br": "0px",
+   "parBr": "0px"
+  }
+ ],
+ "video": {
+  "r": [
+   320,
+   456,
+   800,
+   450
+  ],
+  "html": "<div class=\"framer-1g8aimx\" data-framer-name=\"Video\"><div class=\"framer-18b49hm-container\"><div style=\"position: relative; width: 100%; aspect-ratio: 1.7778 / 1; border-radius: 10px; overflow: hidden;\"><iframe title=\"Prose's CX Manager on Turning AI into a CX Analyst\" src=\"https://www.youtube.com/embed/BgO6VVwRznA?autoplay=0&amp;mute=1&amp;controls=1&amp;rel=0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\" loading=\"lazy\" style=\"width: 100%; height: 100%; display: block; border-width: medium; border-style: none; border-color: currentcolor; border-image: none;\"></iframe></div></div></div>"
+ },
+ "headings": [
+  {
+   "tag": "H1",
+   "t": "Prose's CX Manager on Turning AI into a CX Analyst",
+   "r": [
+    320,
+    212,
+    800,
+    128
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "Key takeaways",
+   "r": [
+    320,
+    1311,
+    800,
+    48
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "Chapters",
+   "r": [
+    320,
+    1658,
+    800,
+    48
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "Full transcript",
+   "r": [
+    320,
+    2004,
+    800,
+    48
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "Why personalized beauty makes CX harder",
+   "r": [
+    320,
+    2113,
+    800,
+    36
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "What support looked like before Siena",
+   "r": [
+    320,
+    2636,
+    800,
+    36
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "Reducing noise, and why the custom integration was non-negotiable",
+   "r": [
+    320,
+    2964,
+    800,
+    72
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "Does emotional, identity-driven beauty raise the bar for AI?",
+   "r": [
+    320,
+    3599,
+    800,
+    36
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "Tiering AI: simple questions to Siena, nuance and troubleshooting to agents",
+   "r": [
+    320,
+    3986,
+    800,
+    72
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "What the beauty industry gets wrong about CX and AI",
+   "r": [
+    320,
+    4526,
+    800,
+    36
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "How buying hair care online will change",
+   "r": [
+    320,
+    4912,
+    800,
+    36
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "Surfacing insights in minutes, and catching problems before they surface",
+   "r": [
+    320,
+    5260,
+    800,
+    72
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "Turning CX into a proactive, insight-driven function",
+   "r": [
+    320,
+    6031,
+    800,
+    36
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "Is CX still treated as a cost center?",
+   "r": [
+    320,
+    6496,
+    800,
+    36
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "How the team reacted to adopting AI, and the skills that matter now",
+   "r": [
+    320,
+    6806,
+    800,
+    72
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "The roadmap ahead, and advice for brands choosing AI-native vs. add-on",
+   "r": [
+    320,
+    7867,
+    800,
+    72
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "Frequently asked questions",
+   "r": [
+    320,
+    8896,
+    800,
+    48
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "What’s Prose’s advice for brands choosing between an AI-native platform and a help-desk AI add-on?",
+   "r": [
+    320,
+    8964,
+    800,
+    67
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "Why did Prose need a custom AI integration instead of an off-the-shelf tool?",
+   "r": [
+    320,
+    9130,
+    800,
+    34
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "How does Prose split work between Siena and human agents?",
+   "r": [
+    320,
+    9281,
+    800,
+    34
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "What happened when Prose had a subscription-cancellation bug?",
+   "r": [
+    320,
+    9432,
+    800,
+    34
+   ]
+  },
+  {
+   "tag": "H3",
+   "t": "How does Prose use Ask Siena beyond ticket automation?",
+   "r": [
+    320,
+    9583,
+    800,
+    34
+   ]
+  },
+  {
+   "tag": "H2",
+   "t": "Be the first to know what's happening",
+   "r": [
+    389,
+    9978,
+    663,
+    128
+   ]
+  }
+ ],
+ "cards": [],
+ "probes": [
+  {
+   "label": "kicker link",
+   "before": {
+    "c": "rgb(18, 32, 35)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "sh": "none",
+    "tf": "none",
+    "op": "1",
+    "td": "underline",
+    "bc": "rgb(18, 32, 35)"
+   },
+   "after": {
+    "c": "rgb(18, 32, 35)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "sh": "none",
+    "tf": "none",
+    "op": "1",
+    "td": "underline",
+    "bc": "rgb(18, 32, 35)",
+    "imgTf": "",
+    "imgP": ""
+   }
+  },
+  {
+   "label": "chapter link",
+   "before": {
+    "c": "rgb(18, 32, 35)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "sh": "none",
+    "tf": "none",
+    "op": "1",
+    "td": "underline",
+    "bc": "rgb(18, 32, 35)"
+   },
+   "after": {
+    "c": "rgb(18, 32, 35)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "sh": "none",
+    "tf": "none",
+    "op": "1",
+    "td": "underline",
+    "bc": "rgb(18, 32, 35)",
+    "imgTf": "",
+    "imgP": ""
+   }
+  },
+  {
+   "label": "body link",
+   "before": {
+    "c": "rgb(18, 32, 35)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "sh": "none",
+    "tf": "none",
+    "op": "1",
+    "td": "underline",
+    "bc": "rgb(18, 32, 35)"
+   },
+   "after": {
+    "c": "rgb(18, 32, 35)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "sh": "none",
+    "tf": "none",
+    "op": "1",
+    "td": "underline",
+    "bc": "rgb(18, 32, 35)",
+    "imgTf": "",
+    "imgP": ""
+   }
+  }
+ ]
+}

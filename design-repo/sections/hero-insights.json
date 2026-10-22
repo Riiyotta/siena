@@ -1,0 +1,140 @@
+{
+  "id": "section.hero.insights",
+  "registryId": "section.hero.insights",
+  "typeId": "hero.insights",
+  "version": "1.0.0",
+  "category": "hero",
+  "purpose": "Insights product-landing hero: eyebrow, H1, subtitle and demo/login buttons left; product illustration right.",
+  "evidenceLevel": "measured",
+  "variants": {
+    "landing": "/insights: global appear primitive, 80%-ink subtitle.",
+    "subpage": "Subpages: H1 mount fade only, full-ink subtitle; one subpage adds a white 'Login' button."
+  },
+  "composes": [
+    "primitive.text",
+    "primitive.button",
+    "primitive.image"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "eyebrow": {
+        "type": "string",
+        "maxWords": 5
+      },
+      "headline": {
+        "type": "string",
+        "maxWords": 10
+      },
+      "subtitle": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string",
+            "maxWords": 30
+          },
+          "copySource": {
+            "enum": [
+              "real",
+              "real-opening-placeholder-tail"
+            ]
+          }
+        },
+        "required": [
+          "text",
+          "copySource"
+        ],
+        "additionalProperties": false
+      },
+      "buttons": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "label": {
+              "type": "string",
+              "maxWords": 3
+            },
+            "href": {
+              "type": "string",
+              "pattern": "^(/[a-z0-9/#-]*|#[a-z0-9-]+|https://[a-zA-Z0-9.-]+(/[^\\s]*)?|mailto:[a-z.]+@siena\\.cx)$"
+            },
+            "style": {
+              "enum": [
+                "xlg-dark",
+                "xlg-light"
+              ]
+            }
+          },
+          "required": [
+            "label",
+            "href",
+            "style"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 1,
+        "maxItems": 2
+      },
+      "media": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "const": "product.ui-mock-image"
+          },
+          "assetRef": {
+            "type": "string",
+            "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 24
+          }
+        },
+        "required": [
+          "assetRole",
+          "assetRef"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "required": [
+      "eyebrow",
+      "headline",
+      "subtitle",
+      "buttons",
+      "media"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "appear-rise",
+      "scroll-reveal-spring"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Column, gap 100; H1 56/56; image 342x245 under the buttons."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustFollowNav": true
+  },
+  "measuredFrom": [
+    "spec.t1.hero",
+    "jsx.insights",
+    "jsx.insightsdata"
+  ],
+  "copyPolicy": {
+    "subtitle": "real opening words + placeholder tail in the clone (spec recorded only opening + word count)"
+  }
+}

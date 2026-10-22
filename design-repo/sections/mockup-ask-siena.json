@@ -1,0 +1,97 @@
+{
+  "id": "section.mockup.ask-siena",
+  "registryId": "section.mockup.ask-siena",
+  "typeId": "mockup.ask-siena",
+  "version": "1.0.0",
+  "category": "feature",
+  "purpose": "Ask Siena mock card: title inside the card, 4 example question cards, answer composer.",
+  "evidenceLevel": "spec-measured",
+  "variants": {
+    "qa": "Question cards on glass.",
+    "topics": "White question cards; composer reveal on view."
+  },
+  "composes": [
+    "primitive.text"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "eyebrow": {
+        "type": "string",
+        "maxWords": 4
+      },
+      "heading": {
+        "type": "string",
+        "maxWords": 10
+      },
+      "text": {
+        "type": "string",
+        "maxWords": 25
+      },
+      "questions": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "category": {
+              "type": "string",
+              "maxWords": 3
+            },
+            "question": {
+              "type": "string",
+              "maxWords": 14
+            }
+          },
+          "required": [
+            "category",
+            "question"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 4,
+        "maxItems": 4
+      },
+      "answer": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "maxWords": 20
+        },
+        "minItems": 1,
+        "maxItems": 3
+      }
+    },
+    "required": [
+      "eyebrow",
+      "heading",
+      "text",
+      "questions",
+      "answer"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "scroll-reveal-spring",
+      "appear-rise"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Stacked cards."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "spec.pa.4.7"
+  ]
+}

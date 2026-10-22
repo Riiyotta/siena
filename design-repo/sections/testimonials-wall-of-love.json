@@ -1,0 +1,130 @@
+{
+  "id": "section.testimonials.wall-of-love",
+  "registryId": "section.testimonials.wall-of-love",
+  "typeId": "testimonials.wall-of-love",
+  "version": "1.0.0",
+  "category": "social-proof",
+  "purpose": "'Love around the world': three masked vertical tickers of social quotes (up/down/up, ~10 px/s). Quotes are placeholders in the clone.",
+  "evidenceLevel": "measured",
+  "variants": {
+    "customers": "3 columns desktop, 1 column phone."
+  },
+  "composes": [
+    "component.wall-card"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string",
+        "maxWords": 6,
+        "description": "Plain text; wrap at most one phrase in *asterisks* to render it in the display italic cut.",
+        "pattern": "^[^*]*(\\*[^*]+\\*[^*]*)?$"
+      },
+      "cards": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "quote": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string",
+                  "maxWords": 55
+                },
+                "source": {
+                  "enum": [
+                    "verified",
+                    "placeholder"
+                  ]
+                }
+              },
+              "required": [
+                "text",
+                "source"
+              ],
+              "additionalProperties": false
+            },
+            "name": {
+              "type": "string",
+              "maxWords": 3
+            },
+            "handle": {
+              "type": "string",
+              "maxWords": 1
+            },
+            "avatar": {
+              "type": "object",
+              "properties": {
+                "assetRole": {
+                  "const": "photo.person-real"
+                },
+                "assetRef": {
+                  "type": "string",
+                  "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+                },
+                "alt": {
+                  "type": "string",
+                  "maxWords": 24
+                }
+              },
+              "required": [
+                "assetRole",
+                "assetRef"
+              ],
+              "additionalProperties": false
+            },
+            "network": {
+              "enum": [
+                "linkedin",
+                "slack",
+                "x"
+              ]
+            }
+          },
+          "required": [
+            "quote",
+            "name",
+            "handle",
+            "avatar",
+            "network"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 4,
+        "maxItems": 12
+      }
+    },
+    "required": [
+      "title",
+      "cards"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "ticker-vertical"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "One column moving down."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "spec.u3",
+    "jsx.co.vticker",
+    "jsx.wall.placeholder"
+  ]
+}

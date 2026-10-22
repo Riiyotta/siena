@@ -1,0 +1,32 @@
+{
+  "registryId": "primitive.image",
+  "version": "1.0.0",
+  "category": "media",
+  "description": "Raster/SVG image referencing a closed assetRole (see assets/asset-roles.json). object-fit cover or contain as measured per use.",
+  "props": {
+    "assetRole": {
+      "type": "string"
+    },
+    "assetRef": {
+      "type": "string"
+    },
+    "alt": {
+      "type": "string",
+      "maxWords": 24
+    },
+    "fit": {
+      "enum": [
+        "cover",
+        "contain"
+      ]
+    }
+  },
+  "tokens": [
+    "{radius.media}",
+    "{radius.card}"
+  ],
+  "measuredFrom": [
+    "spec.testimonial.slide",
+    "spec.integrations.tile"
+  ]
+}

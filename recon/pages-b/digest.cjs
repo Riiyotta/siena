@@ -1,0 +1,11 @@
+const fs=require('fs');const [f,y0,y1]=[process.argv[2],+(process.argv[3]||115),+(process.argv[4]||1e9)];
+const d=JSON.parse(fs.readFileSync(f));const s=d.secs[0];
+const inR=b=>b[1]>=y0&&b[1]<y1;
+const rgb=c=>{const m=c.match(/rgba?\(([^)]+)\)/);if(!m)return c;const p=m[1].split(',').map(x=>+x);const h='#'+p.slice(0,3).map(x=>x.toString(16).padStart(2,'0')).join('').toUpperCase();return p.length>3&&p[3]!==1?`${h}/${p[3]}`:h};
+const items=[];
+s.texts.filter(t=>inR(t.b)).forEach(t=>items.push([t.b[1],`T ${JSON.stringify(t.t).slice(0,160)} <${t.tag}> [${t.b}] ${t.ff.replace(/"/g,'')} ${t.fw}${t.fst||''} ${t.fs}/${t.lh} ls${t.ls} ${rgb(t.col)} ${t.tt||''} ${t.ta} ${t.href?'href='+t.href:''} ${t.grad?'GRAD '+t.grad:''}`]));
+s.imgs.filter(t=>inR(t.b)).forEach(t=>items.push([t.b[1],`I ${t.src.split('/').pop().split('?')[0]} [${t.b}] fit:${t.fit} nat:${t.nat} r:${t.r} alt:${t.alt}`]));
+s.vids.filter(t=>inR(t.b)).forEach(t=>items.push([t.b[1],`V ${JSON.stringify(t)}`]));
+s.svgs.filter(t=>inR(t.b)).forEach(t=>items.push([t.b[1],`S [${t.b}] fill:${t.fill} col:${rgb(t.color)} len${t.html}`]));
+if(process.argv[5]!=='nodeco')s.deco.filter(t=>inR(t.b)).forEach(t=>items.push([t.b[1],`D ${t.n||t.tag} [${t.b}] ${t.bg?'bg:'+rgb(t.bg):''} ${t.bi?'bi:'+t.bi:''} ${t.bd?'bd:'+t.bd:''} ${t.r?'r:'+t.r:''} ${t.sh?'sh:'+t.sh:''} ${t.bf?'bf:'+t.bf:''} ${t.p?'p:'+t.p:''} ${t.d||''} ${t.op?'op:'+t.op:''} ${t.tf?'tf:'+t.tf:''}`]));
+items.sort((a,b)=>a[0]-b[0]).forEach(i=>console.log(i[1]));

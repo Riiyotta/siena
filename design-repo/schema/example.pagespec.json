@@ -1,0 +1,875 @@
+{
+  "id": "page.home",
+  "route": "/",
+  "template": "template.home",
+  "theme": "light",
+  "head": {
+    "title": "Empathic AI Agents for commerce | Siena AI"
+  },
+  "nodes": [
+    {
+      "id": "nav",
+      "type": "shell.navbar",
+      "variant": "standard",
+      "content": {
+        "state": "auto",
+        "cta": {
+          "label": "Book a demo",
+          "href": "/book-a-demo"
+        }
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "id": "hero",
+      "type": "hero.home",
+      "variant": "home",
+      "motion": {
+        "pattern": "appear-rise",
+        "reducedMotionFallback": "static"
+      },
+      "content": {
+        "headline": "The AI CX operating system for consumer brands",
+        "phoneHeadline": "Empathic AI CX agents designed for commerce",
+        "subtitle": "One intelligence layer powering agents across every customer surface.",
+        "cta": {
+          "label": "Book a demo",
+          "href": "/book-a-demo",
+          "style": "xlg-dark"
+        },
+        "images": [
+          {
+            "assetRole": "illustration.editorial",
+            "assetRef": "assets/jBdT2KuAbfPtfHNsxcWh0L50xk.webp"
+          },
+          {
+            "assetRole": "illustration.editorial",
+            "assetRef": "assets/rYyvabwLjN7jv9XBL68Sm664.webp"
+          },
+          {
+            "assetRole": "illustration.editorial",
+            "assetRef": "assets/H7uKKouy1m2eWQvMjbwrSblQx8k.webp"
+          }
+        ],
+        "tickerRows": [
+          [
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/f15R92EBkjPHx4ABojD1VWldk54.png"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/BYD0tOgABiRk8bVwCxbpUE5hDs.png"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/I79jHrog8xkJyLdp6KBEDj6Ywjk.png"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "svg/ticker1-equip.svg"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "svg/ticker1-Frame-2147258052.svg"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "svg/ticker1-Frame-2147258050.svg"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "svg/ticker1-Needed.svg"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/AB6e3uLpTQG8MoiIYeswvgR1GA.png"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "svg/ticker1-Frame-2147258061.svg"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/NGj7RyixG3yYMakHsu1cO8b6klI.png"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/ipTDxCOrcnVCeET6yx6vSIolM.png"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "svg/ticker1-HULKEN.svg"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/MnVE0BFmVRvV32TDagBO3MssNY.png"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/i2qCrmnuVe4OD7RkXFSbqnY0o.png"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/rOc0IEQNBGJ76FgKzvRKGjbcbGg.png"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/fdkHiF9k6hfvcOWgBULP1tDgg.png"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/aBQONPNCeQCU0SqkWRHkXpSoNk.png"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/01c5Ez5C3s4VcuLV6gPlc8yB5c.png"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/BF4xUaeD4YUpgGlCeLKENEShs.png"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/GrSuxeP4qHZfVZMHtiRVRUQ0.png"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/WZUVOxO5CPk8xzCiAVuV7qeY4.png"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/xNHZgR86NWvMO4uy5gMz1IaAN2k.png"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/DwE5NbsNDqCLV0O8FiYnNwd5J9Q.png"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/tsgaXgk1czp5NS3XVEmeI6TMltY.png"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/vtOMWVl8Yp4AVppVcHxc4tGpNo.png"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/zeY8w7ISWrHStJnkXCdAnzIaxJY.png"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/HOcdDOlX0hJ6EU68vfvBF5jCUGE.png"
+            }
+          ],
+          [
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/Aq6DzXdXu4MIKIcTeI2owZxxhQ.png"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "svg/ticker2-LSKD.svg"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "svg/ticker2-Boll-Branch.svg"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/6WBJxjksOnKu3mL0PsTPuQADs.png"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/bzS2XUgsscNzELr0gNAayVKekY.png"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "svg/ticker2-thrive-cosmetics.svg"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/mU9foxMbfbNFjX55TF6RML94o5w.png"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "svg/ticker2-bobbie.svg"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "svg/ticker2-chomps.svg"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "svg/ticker2-Bombas.svg"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/b2mO2fGmA8ARZmKgdykvpeAPrg.png"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/G7lpPlrCCK1xV0p0XWoTqux6a8U.png"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/0CkQpG5EAX41ml1wF3tjjPdotQ.png"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/mDzDj68vfBprOTH463ChzCX4ta0.png"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/AbK666gYUVOE6etVCauHftBiDw.png"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "svg/ticker2-Frame-2147258057.svg"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/hHeTF32MpR3bsAzmupGcNyzumJE.png"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/m5Kqr62Erb3p4vigoPO8AQoO4.png"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/WJ2PkYGeJwYvXglVbDo5EJbwA.png"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/fjLrxICsMQHzaBjdYLxrrdrM3G4.png"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/6TcxRVWhKfaQLssEe0VL9Rz3jE.png"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/509GeCyOIKTykzHVuIYfbXEVRs.png"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/ucZZwgyXL4NtHMRCxf3UVY15Z8.png"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/q4mMPfBgmsWhR5QXDWppAKW4LQ.png"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/3o2qMi9la5gCGIKiRiCV9lmGojc.png"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/paeH4OeAad02akgwspGrjBHzQ.png"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/uKIlrqsg58S1O0V1EsLphiI5er4.png"
+            },
+            {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/WgL5fhIpF14sixWUViAY9qNxhE.png"
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials.slider",
+      "variant": "titled",
+      "motion": {
+        "pattern": "slide-horizontal",
+        "reducedMotionFallback": "instant-swap"
+      },
+      "content": {
+        "eyebrow": "CUSTOMER STORIES",
+        "title": "The best CX teams work with Siena",
+        "slides": [
+          {
+            "quote": {
+              "text": "Siena felt like a girlfriend from day one. It handles 50% of our conversations at 90%+ CSAT, cut handle time in half, and customers ask for it by name. I'm winning budget conversations against marketing because I can tie CX directly to revenue.",
+              "source": "verified"
+            },
+            "name": "Kylah Field",
+            "role": "VP of Global CX & Insights at Spanx",
+            "logo": {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/L2fbLFnO4rG3Y9WhTn2Zmg90Q.png",
+              "alt": "Spanx logo, Kylah Field testimonial"
+            },
+            "photo": {
+              "assetRole": "photo.person-real",
+              "assetRef": "assets/fNESOQNYixOgXSJEMtuui0Hx9FY.webp"
+            },
+            "playBadge": true
+          },
+          {
+            "quote": {
+              "text": "We nailed the marketing engine, but we had a massive gap understanding the customer after the order hit the door. Fifteen minutes with Ask Siena told us what people actually wanted: to try other flavors without committing to a full jar. That became a sampler stick pack. It's now going into Whole Foods, Target, and Sprouts.",
+              "source": "verified"
+            },
+            "name": "Luka K.",
+            "role": "CMO",
+            "logo": {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/zy9mRkyxKisAjEUf8L7kCRTiI.png",
+              "alt": "True Sea Moss logo"
+            },
+            "photo": {
+              "assetRole": "photo.person-real",
+              "assetRef": "assets/14BhRmpWpVdupNzRDWDyl6HLiXo.jpeg"
+            }
+          },
+          {
+            "quote": {
+              "text": "When we launched at Costco, we built a weekly voice-of-customer report for the retail team with Ask Siena. That kept the whole company looped in on what customers were saying in real time, instead of waiting for an NPS survey to come in. AI isn't replacing the team. It's letting them focus on the conversations that actually need them.",
+              "source": "verified"
+            },
+            "name": "Jordan Cyphert",
+            "role": "CX Lead, Grüns",
+            "logo": {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/rkQSVnRUYjX0Hlg02GThujHqHA.svg",
+              "alt": "Grüns logo"
+            },
+            "photo": {
+              "assetRole": "photo.person-real",
+              "assetRef": "assets/kPr9cRN3VBdtgk6KmaZZRhIY4.png"
+            }
+          },
+          {
+            "quote": {
+              "text": "We found Siena to be the most powerful solution for AI customer support. The nice thing is that we were able to take Siena and all the training we did with it and move it to a more enterprise CX platform that better suited our needs.",
+              "source": "verified"
+            },
+            "name": "Jeremy Thurswell",
+            "role": "COO",
+            "logo": {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/ZCj576JNrFiZ427q7v0w8UiiZtg.svg",
+              "alt": "Kitsch logo"
+            },
+            "photo": {
+              "assetRole": "photo.person-real",
+              "assetRef": "assets/mSwCeM9m9qrwUvrpjLLD0jdLc0.webp"
+            },
+            "storyLink": {
+              "label": "Read full story",
+              "href": "https://www.siena.cx/customer-stories/kitsch"
+            }
+          },
+          {
+            "quote": {
+              "text": "With Siena, we've shifted CX from being a cost center to a revenue driver. That transformation has been a game-changing unlock for our business.",
+              "source": "verified"
+            },
+            "name": "Paige Zachs",
+            "role": "VP Supply Chain, Operations & Customer",
+            "logo": {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/CzG1z9NEKoxzFuwvHCh0Lfb0.png",
+              "alt": "Coterie logo"
+            },
+            "photo": {
+              "assetRole": "photo.person-real",
+              "assetRef": "assets/Z4VsshvZYNbyXEEsuHV3JcIQxjU.webp"
+            },
+            "storyLink": {
+              "label": "Read full story",
+              "href": "https://www.siena.cx/customer-stories/siena-ai-customer-service-automation-coterie"
+            }
+          },
+          {
+            "quote": {
+              "text": "If you’re apprehensive about AI, just test it out. I have not seen a single person disappointed by it. I know companies using Siena and I’ve not heard one person have a bad experience with it. It will definitely change your customer service department for the better.",
+              "source": "verified"
+            },
+            "name": "Todd Baxter",
+            "role": "COO",
+            "logo": {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/xAzAxHg9uu56tJLbvkJPJvd1e8.svg",
+              "alt": "Madhappy logo"
+            },
+            "photo": {
+              "assetRole": "photo.person-real",
+              "assetRef": "assets/lV428mPWufYALmrhx8ICYhS9ug.png"
+            }
+          },
+          {
+            "quote": {
+              "text": "As Global Head of Customer Support at HexClad, my bar for AI is simple: it must scale without sacrificing experience. During our Q4 volume surge, Siena AI handled high-ticket volume while staying on-brand, helping us maintain quality and protect CSAT when it mattered most. Siena is a true force multiplier for modern support.",
+              "source": "verified"
+            },
+            "name": "Andrew Jobson",
+            "role": "Global Head of Customer Support",
+            "logo": {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/DysnuY3oWCVroJab1Mx73kkVg4.svg",
+              "alt": "HexClad logo"
+            },
+            "photo": {
+              "assetRole": "photo.person-real",
+              "assetRef": "assets/nNMta3dpfWXvxbQtC7D3o7fNw.webp"
+            },
+            "storyLink": {
+              "label": "Read full story",
+              "href": "https://www.siena.cx/customer-stories/hexclad-customer-service-automation"
+            }
+          },
+          {
+            "quote": {
+              "text": "The quality of response that Siena comes up with is phenomenal. We've even taken inspiration from her responses and added them to our existing customer-facing communications.",
+              "source": "verified"
+            },
+            "name": "Jessica Weiss",
+            "role": "CX Lead Product Partner",
+            "logo": {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/66oijjynMEzxJycxZmwXpzxdwfk.png",
+              "alt": "Prose logo"
+            },
+            "photo": {
+              "assetRole": "photo.person-real",
+              "assetRef": "assets/CSFOwfJPv9MTZrAS0E4tQAAy1Y.webp"
+            },
+            "storyLink": {
+              "label": "Read full story",
+              "href": "https://www.siena.cx/customer-stories/prose"
+            }
+          },
+          {
+            "quote": {
+              "text": "Siena’s unique responses are what people love most. We’ve had customers say her answers inspired them to purchase, because they just felt so comfortable with her. They feel that safety with Siena, which helps them purchase.",
+              "source": "verified"
+            },
+            "name": "Beatriz Lopes",
+            "role": "Head of Customer Experience",
+            "logo": {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/ikIL7p9YfMlpheplknlVvSqmzeI.svg",
+              "alt": "Everyday Dose logo"
+            },
+            "photo": {
+              "assetRole": "photo.person-real",
+              "assetRef": "assets/nwyJSyodbx9qhQYvMPKpR7DXyk.webp"
+            },
+            "storyLink": {
+              "label": "Read full story",
+              "href": "https://www.siena.cx/customer-stories/everday-dose"
+            }
+          },
+          {
+            "quote": {
+              "text": "We chose Siena because it has the best admin UI, offers great control over automations, and is built specifically for eCommerce. It allows our in-house team to focus on complicated tickets while providing 24/7 support.",
+              "source": "verified"
+            },
+            "name": "Bryan Porter",
+            "role": "Co-founder, Chief eCommerce Officer",
+            "logo": {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/pdpeaTrKFMv0hrJBF3RGbQ0ErwM.png",
+              "alt": "Simple Modern logo"
+            },
+            "photo": {
+              "assetRole": "photo.person-real",
+              "assetRef": "assets/L3duexlM5SB9tib8w9MTlnCfdlo.webp"
+            },
+            "storyLink": {
+              "label": "Read full story",
+              "href": "https://www.siena.cx/customer-stories/simple-modern"
+            }
+          },
+          {
+            "quote": {
+              "text": "Since implementing Siena, we've taken back the time we spent on high ticket volume and expanded our team's roles across marketing and product development. It's transformed how we operate.",
+              "source": "verified"
+            },
+            "name": "Cate Marques",
+            "role": "CXO",
+            "logo": {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/FAmVCc3xLG8QUhmtyJ3WkBGEeU.png",
+              "alt": "Terra Kaffe logo"
+            },
+            "photo": {
+              "assetRole": "photo.person-real",
+              "assetRef": "assets/WVZA37Bad6K0ss9JDOjwLhH2aUs.webp"
+            },
+            "storyLink": {
+              "label": "Read full story",
+              "href": "https://www.siena.cx/customer-stories/terra-kaffe"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "pillars",
+      "type": "feature.sticky-scroll",
+      "variant": "home",
+      "motion": {
+        "pattern": "sticky-step-switch",
+        "reducedMotionFallback": "static"
+      },
+      "content": {
+        "blocks": [
+          {
+            "heading": "The CX platform built for agents",
+            "bullets": [
+              {
+                "text": "AI agents that run support, shopping, social, QA, and VoC"
+              },
+              {
+                "text": "One system to consolidate your full CX stack"
+              },
+              {
+                "text": "Designed for AI from day one. Platform agnostic"
+              }
+            ],
+            "cta": {
+              "label": "Book a demo",
+              "href": "/book-a-demo",
+              "style": "xlg-dark"
+            },
+            "visual": {
+              "variant": "chat-v1",
+              "background": {
+                "assetRole": "image.card-background",
+                "assetRef": "assets/OS7uIQBhEtXd5l7MXZ0qAcM0Lg.png"
+              }
+            }
+          },
+          {
+            "heading": "Brand intelligence that unlocks growth at scale",
+            "bullets": [
+              {
+                "text": "Turn customer interactions into strategic business insights"
+              },
+              {
+                "text": "Activate intelligence across teams to drive revenue and retention"
+              },
+              {
+                "text": "Delight customers by anticipating needs better than anyone else"
+              }
+            ],
+            "cta": {
+              "label": "Book a demo",
+              "href": "/book-a-demo",
+              "style": "xlg-dark"
+            },
+            "visual": {
+              "variant": "chat-v2-product",
+              "background": {
+                "assetRole": "image.card-background",
+                "assetRef": "assets/9jAbqJZIRcnPqEcOjQ13ZPF0.webp"
+              }
+            }
+          },
+          {
+            "heading": "Your brand voice unified across all channels",
+            "bullets": [
+              {
+                "text": "AI Personas built on your tone, voice, and customer language"
+              },
+              {
+                "text": "Channel-specific design that holds together as one brand"
+              },
+              {
+                "text": "Every interaction reinforces what makes your brand yours"
+              }
+            ],
+            "cta": {
+              "label": "Book a demo",
+              "href": "/book-a-demo",
+              "style": "xlg-dark"
+            },
+            "visual": {
+              "variant": "personas",
+              "background": {
+                "assetRole": "image.card-background",
+                "assetRef": "assets/HrlKm73yASgQyND1oNoZ1Ub0Kj4.jpg"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "metrics",
+      "type": "stats.metrics",
+      "variant": "home",
+      "motion": {
+        "pattern": "count-up",
+        "reducedMotionFallback": "static"
+      },
+      "content": {
+        "counterTo": 80,
+        "headline": "Brands using Siena automate up to 80% of customer interactions, achieving faster response times, quicker resolutions, and higher customer satisfaction.",
+        "stats": [
+          {
+            "value": "98%",
+            "label": "FASTER RESPONSE TIME"
+          },
+          {
+            "value": "90%",
+            "label": "FASTER RESOLUTION TIME"
+          },
+          {
+            "value": "+94.7%",
+            "label": "AVERAGE CSAT"
+          }
+        ],
+        "background": {
+          "assetRole": "illustration.abstract-glow",
+          "assetRef": "assets/5VTp1YGCJLYo9Grib0Ouvyooeag.webp"
+        }
+      }
+    },
+    {
+      "id": "stories",
+      "type": "stories.carousel",
+      "variant": "home",
+      "motion": {
+        "pattern": "crossfade-page",
+        "reducedMotionFallback": "instant-swap"
+      },
+      "content": {
+        "eyebrow": "CUSTOMER STORIES",
+        "title": "Teams delivering real results with Siena",
+        "cards": [
+          {
+            "title": "How Spanx Turned CX Into a Business Driver and Cut Handle Time in Half",
+            "href": "https://www.siena.cx/customer-stories/spanx-turned-cx-business-driver-brand-experience",
+            "logo": {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/k1nvbViWWUDVEBy2xaOAlUgRSq0.png"
+            },
+            "texture": {
+              "assetRole": "illustration.abstract-glow",
+              "assetRef": "assets/DPMiuSqRWSzkU0UHR4h91iYq0.webp"
+            }
+          },
+          {
+            "title": "Coterie Turns CX into a Revenue Engine with 65% AI Automation",
+            "href": "https://www.siena.cx/customer-stories/siena-ai-customer-service-automation-coterie",
+            "logo": {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/CzG1z9NEKoxzFuwvHCh0Lfb0.png"
+            },
+            "texture": {
+              "assetRole": "illustration.abstract-glow",
+              "assetRef": "assets/YOvViFV83b6X5W1yHrZSVkn4SMU.webp"
+            }
+          },
+          {
+            "title": "How Dossier Scaled International Growth with AI Agents and Zero Black Friday Panic",
+            "href": "https://www.siena.cx/customer-stories/dossier-handled-black-friday-customer-service-zero-panic",
+            "logo": {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/LSDtiaYEMw66OjmYASlgwlerh24.svg"
+            },
+            "texture": {
+              "assetRole": "illustration.abstract-glow",
+              "assetRef": "assets/umKHhY4P04DXZNLd8WNXl6Vic.webp"
+            }
+          },
+          {
+            "title": "HexClad Boosts CX Efficiency 65% with Customer Service Automation",
+            "href": "https://www.siena.cx/customer-stories/hexclad-customer-service-automation",
+            "logo": {
+              "assetRole": "logo.customer",
+              "assetRef": "assets/DysnuY3oWCVroJab1Mx73kkVg4.svg"
+            },
+            "texture": {
+              "assetRole": "illustration.abstract-glow",
+              "assetRef": "assets/kPPvSpmKy1xNFReOFovLp4mV7Ws.webp"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "features",
+      "type": "features.lottie-grid",
+      "variant": "home",
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "content": {
+        "title": "The *agentic* commerce platform",
+        "cards": [
+          {
+            "title": "Drive sales with generative product recommendations",
+            "body": "Help customers find the right product, complete their routine, or try something new. Siena knows your customers and makes intelligent, in-the-moment suggestions that drive revenue and retention.",
+            "layout": "padded",
+            "animation": {
+              "assetRole": "animation.lottie",
+              "assetRef": "lottie/Yj4sSaxX1lj2BJ0zDHApkOYrAc.json"
+            }
+          },
+          {
+            "title": "Scale social media engagement and moderation",
+            "body": "Turn social interactions into revenue. Siena engages shoppers on social channels, answers product questions, captures buying intent, and converts community engagement into tangible ecommerce growth.",
+            "layout": "flush",
+            "animation": {
+              "assetRole": "animation.lottie",
+              "assetRef": "lottie/2SUH2iKa4WHmLxFfRKqSoDKPFE.json"
+            }
+          },
+          {
+            "title": "Automate post-purchase complex workflows",
+            "body": "From “where’s my order?” to “I want to start my return”, Siena handles it all- updating addresses, generating labels, issuing refunds, and sending replacements in a single flow.",
+            "layout": "flush",
+            "animation": {
+              "assetRole": "animation.lottie",
+              "assetRef": "lottie/8x8925f7O1ubkoHd3O0JGjTaJ90.json"
+            }
+          },
+          {
+            "title": "Put subscription management on autopilot",
+            "body": "More loyalty, less churn. Siena makes it easy to skip, pause, or swap- while capturing insights, offering alternatives, and boosting AOV with smart recommendations.",
+            "layout": "padded",
+            "animation": {
+              "assetRole": "animation.lottie",
+              "assetRef": "lottie/r7wrKhoWmmfGDRbROSM3mDkucw.json"
+            }
+          },
+          {
+            "title": "Enhance human collaboration & agent assist",
+            "body": "Build or tweak workflows in minutes with AI Assistant. Draft on-brand replies or translations with Copilot. Make follow-ups clear and easy with Collaborative AI Routing that explains every handoff with a note.",
+            "layout": "padded",
+            "animation": {
+              "assetRole": "animation.lottie",
+              "assetRef": "lottie/Idu0bhnuv8QhZT2N8wCZas9hDLU.json"
+            }
+          },
+          {
+            "title": "Enterprise-grade safety and brand control",
+            "body": "Trusted by some of the fastest ecommerce and retail companies, our agents meet the highest enterprise standards with guardrails and granular controls that keep every interaction on brand and on policy.",
+            "layout": "flush",
+            "animation": {
+              "assetRole": "animation.lottie",
+              "assetRef": "lottie/c8ewDRBxrmLafbjmNUdqBKM8otg.json"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "integrations",
+      "type": "integrations.logo-grid",
+      "variant": "home",
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "content": {
+        "title": "Integrate with your existing stack",
+        "groups": [
+          {
+            "tiles": [
+              {
+                "logo": {
+                  "assetRole": "logo.integration",
+                  "assetRef": "svg/integration-0-Logos.svg",
+                  "alt": "Shopify"
+                }
+              },
+              {
+                "logo": {
+                  "assetRole": "logo.integration",
+                  "assetRef": "assets/S1CA7BjDsQfmui51TcPvAyGtRxA.svg",
+                  "alt": "Yotpo"
+                }
+              },
+              {
+                "logo": {
+                  "assetRole": "logo.integration",
+                  "assetRef": "assets/4ivCVwCJknXe4l2YnVNdadGF4.svg",
+                  "alt": "AfterShip"
+                }
+              },
+              {
+                "logo": {
+                  "assetRole": "logo.integration",
+                  "assetRef": "assets/tRZ3CBzNJw2sWeG9jlHuvjm3vs.svg",
+                  "alt": "ShipBob"
+                }
+              },
+              {
+                "logo": {
+                  "assetRole": "logo.integration",
+                  "assetRef": "assets/lJNzlwA3aybr9aHp0a2x2qsApOs.svg",
+                  "alt": "Loop"
+                }
+              },
+              {
+                "logo": {
+                  "assetRole": "logo.integration",
+                  "assetRef": "svg/integration-5-Union.svg",
+                  "alt": "Recharge"
+                }
+              },
+              {
+                "label": "Helpdesks"
+              },
+              {
+                "label": "Custom Apps"
+              }
+            ]
+          }
+        ],
+        "cta": {
+          "label": "Explore all integrations",
+          "href": "https://www.siena.cx/integrations"
+        }
+      }
+    },
+    {
+      "id": "cta",
+      "type": "cta.main",
+      "variant": "cream-fade",
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "content": {
+        "heading": "See how fast-growing brands scale with Siena",
+        "button": {
+          "label": "Book a demo",
+          "href": "/book-a-demo",
+          "action": "navigate"
+        },
+        "phoneLayout": "standard"
+      }
+    },
+    {
+      "id": "footer",
+      "type": "shell.footer",
+      "variant": "standard",
+      "content": {
+        "linkSet": "global",
+        "complianceBadge": {
+          "assetRole": "badge.compliance",
+          "assetRef": "assets/HB4OWZgksTQCHf8uTWf7S6EYSlE.webp",
+          "alt": "SOC 2 Type II"
+        }
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    }
+  ]
+}

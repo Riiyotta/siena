@@ -1,0 +1,255 @@
+{
+  "id": "section.feature.pill-nav-blocks",
+  "registryId": "section.feature.pill-nav-blocks",
+  "typeId": "feature.pill-nav-blocks",
+  "version": "1.0.0",
+  "category": "feature",
+  "purpose": "Social features: title, sticky pill nav (6 anchors, highlight follows the active block), six centered feature blocks (H3 + text + mock visual + bold-lead bullets) with one static testimonial between blocks 1 and 2.",
+  "evidenceLevel": "spec-measured",
+  "variants": {
+    "social": "Blocks gap 228; pill shrinks when stuck."
+  },
+  "composes": [
+    "component.chat-mock",
+    "component.testimonial-slide",
+    "primitive.link"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "eyebrow": {
+        "type": "string",
+        "maxWords": 7
+      },
+      "title": {
+        "type": "string",
+        "maxWords": 12,
+        "description": "Plain text; wrap at most one phrase in *asterisks* to render it in the display italic cut.",
+        "pattern": "^[^*]*(\\*[^*]+\\*[^*]*)?$"
+      },
+      "subtitle": {
+        "type": "string",
+        "maxWords": 35
+      },
+      "pillLinks": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "label": {
+              "type": "string",
+              "maxWords": 1
+            },
+            "href": {
+              "type": "string",
+              "pattern": "^(/[a-z0-9/#-]*|#[a-z0-9-]+|https://[a-zA-Z0-9.-]+(/[^\\s]*)?|mailto:[a-z.]+@siena\\.cx)$"
+            }
+          },
+          "required": [
+            "label",
+            "href"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 6,
+        "maxItems": 6
+      },
+      "blocks": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "anchor": {
+              "type": "string",
+              "maxWords": 1,
+              "pattern": "^[a-z]+$"
+            },
+            "heading": {
+              "type": "string",
+              "maxWords": 10
+            },
+            "text": {
+              "type": "string",
+              "maxWords": 30
+            },
+            "bullets": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "lead": {
+                    "type": "string",
+                    "maxWords": 6
+                  },
+                  "text": {
+                    "type": "string",
+                    "maxWords": 14
+                  }
+                },
+                "required": [
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 3,
+              "maxItems": 3
+            },
+            "visual": {
+              "type": "string",
+              "maxWords": 3,
+              "pattern": "^[a-z0-9-]+$"
+            }
+          },
+          "required": [
+            "anchor",
+            "heading",
+            "text",
+            "bullets",
+            "visual"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 6,
+        "maxItems": 6
+      },
+      "testimonial": {
+        "type": "object",
+        "properties": {
+          "quote": {
+            "type": "object",
+            "properties": {
+              "text": {
+                "type": "string",
+                "maxWords": 75
+              },
+              "source": {
+                "enum": [
+                  "verified",
+                  "placeholder"
+                ]
+              }
+            },
+            "required": [
+              "text",
+              "source"
+            ],
+            "additionalProperties": false
+          },
+          "name": {
+            "type": "string",
+            "maxWords": 4
+          },
+          "role": {
+            "type": "string",
+            "maxWords": 9
+          },
+          "logo": {
+            "type": "object",
+            "properties": {
+              "assetRole": {
+                "enum": [
+                  "logo.customer",
+                  "logo.partner-investor"
+                ]
+              },
+              "assetRef": {
+                "type": "string",
+                "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 24
+              }
+            },
+            "required": [
+              "assetRole",
+              "assetRef"
+            ],
+            "additionalProperties": false
+          },
+          "photo": {
+            "type": "object",
+            "properties": {
+              "assetRole": {
+                "const": "photo.person-real"
+              },
+              "assetRef": {
+                "type": "string",
+                "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 24
+              }
+            },
+            "required": [
+              "assetRole",
+              "assetRef"
+            ],
+            "additionalProperties": false
+          },
+          "storyLink": {
+            "type": "object",
+            "properties": {
+              "label": {
+                "type": "string",
+                "maxWords": 4
+              },
+              "href": {
+                "type": "string",
+                "pattern": "^(/[a-z0-9/#-]*|#[a-z0-9-]+|https://[a-zA-Z0-9.-]+(/[^\\s]*)?|mailto:[a-z.]+@siena\\.cx)$"
+              }
+            },
+            "required": [
+              "label",
+              "href"
+            ],
+            "additionalProperties": false
+          },
+          "playBadge": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "quote",
+          "name",
+          "role",
+          "photo"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "required": [
+      "eyebrow",
+      "title",
+      "pillLinks",
+      "blocks",
+      "testimonial"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "scroll-reveal-spring"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Pill becomes a 2-column grid; H3 36/43.2; visuals 358 wide."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "spec.pa.2.3",
+    "spec.pa.pillhighlight"
+  ]
+}

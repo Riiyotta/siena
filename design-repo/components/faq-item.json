@@ -1,0 +1,27 @@
+{
+  "registryId": "component.faq-item",
+  "version": "1.0.0",
+  "category": "content",
+  "description": "Accordion row: question (sans 500 20) + 20x20 chevron PNG swapped open/closed; answer (sans 16, ink-80). Single-open, first item open by default, ~100ms linear height+opacity.",
+  "composes": [
+    "primitive.text",
+    "primitive.image",
+    "primitive.divider"
+  ],
+  "props": {
+    "question": {
+      "type": "string",
+      "maxWords": 18
+    },
+    "answer": {
+      "type": "string",
+      "maxWords": 80
+    }
+  },
+  "measuredFrom": [
+    "spec.faq.item",
+    "spec.faq.behavior",
+    "jsx.conv.faq"
+  ],
+  "motion": "{motion.recipe.accordion}"
+}

@@ -1,0 +1,412 @@
+{
+  "$description": "Font families, sizes and weights. Every family is a self-hosted woff2 declared in src/index.css; Feature Deck and Tiempos are commercially licensed to Siena (see assets/asset-roles.json fontLicensing) and Font Awesome 6 Sharp/Pro are licensed icon fonts. Sizes are the histogram values actually rendered.",
+  "foundation": {
+    "font": {
+      "family": {
+        "sans": {
+          "$type": "fontFamily",
+          "$value": "\"Instrument Sans\", sans-serif",
+          "$description": "UI and body sans (Google font, OFL).",
+          "$extensions": {
+            "cite": [
+              "tw.fonts",
+              "css.fontfaces"
+            ],
+            "histogram": "fontFamily:Instrument Sans=3533"
+          }
+        },
+        "display-light": {
+          "$type": "fontFamily",
+          "$value": "\"Feature Deck Web Light\", sans-serif",
+          "$description": "H1/H2 display. Commercial licence.",
+          "$extensions": {
+            "cite": [
+              "tw.fonts",
+              "css.fontfaces"
+            ],
+            "histogram": "fontFamily:Feature Deck Web Light=166"
+          }
+        },
+        "display-light-italic": {
+          "$type": "fontFamily",
+          "$value": "\"Feature Deck Web Light Italic\", sans-serif",
+          "$description": "Emphasis span inside display headings.",
+          "$extensions": {
+            "cite": [
+              "tw.fonts",
+              "css.fontfaces"
+            ],
+            "histogram": "fontFamily:Feature Deck Web Light Italic=40"
+          }
+        },
+        "display-regular": {
+          "$type": "fontFamily",
+          "$value": "\"Feature Deck Web Regular\", sans-serif",
+          "$description": "Card titles, H3/H4.",
+          "$extensions": {
+            "cite": [
+              "tw.fonts",
+              "css.fontfaces"
+            ],
+            "histogram": "fontFamily:Feature Deck Web Regular=192"
+          }
+        },
+        "display-condensed": {
+          "$type": "fontFamily",
+          "$value": "\"Feature Deck Condensed Web Regular\", sans-serif",
+          "$description": "Metric numerals, transcript chapter headings.",
+          "$extensions": {
+            "cite": [
+              "tw.fonts",
+              "css.fontfaces"
+            ],
+            "histogram": "fontFamily:Feature Deck Condensed Web Regular=92"
+          }
+        },
+        "serif": {
+          "$type": "fontFamily",
+          "$value": "\"Tiempos Text Regular\", serif",
+          "$description": "Body serif, bullets, chat bubbles. Commercial licence.",
+          "$extensions": {
+            "cite": [
+              "tw.fonts",
+              "css.fontfaces"
+            ],
+            "histogram": "fontFamily:Tiempos Text Regular=1447"
+          }
+        },
+        "serif-italic": {
+          "$type": "fontFamily",
+          "$value": "\"Tiempos Text Regular Italic\", serif",
+          "$description": "Italic inside serif mock text (product pages).",
+          "$extensions": {
+            "cite": [
+              "css.fontfaces"
+            ]
+          }
+        },
+        "mono": {
+          "$type": "fontFamily",
+          "$value": "\"Geist Mono\", monospace",
+          "$description": "Uppercase tags, pill-nav labels.",
+          "$extensions": {
+            "cite": [
+              "tw.fonts",
+              "css.fontfaces"
+            ],
+            "histogram": "fontFamily:Geist Mono=116"
+          }
+        },
+        "ui-inter": {
+          "$type": "fontFamily",
+          "$value": "\"Inter\", sans-serif",
+          "$description": "Slider counter, customers filter label only.",
+          "$extensions": {
+            "cite": [
+              "css.fontfaces"
+            ],
+            "histogram": "fontFamily:Inter=49"
+          }
+        },
+        "icon-light": {
+          "$type": "fontFamily",
+          "$value": "\"Font Awesome 6 Sharp Light\"",
+          "$description": "Icon glyphs by codepoint. Licensed icon font.",
+          "$extensions": {
+            "cite": [
+              "tw.fonts",
+              "css.fontfaces"
+            ],
+            "histogram": "fontFamily:Font Awesome 6 Sharp Light=406"
+          }
+        },
+        "icon-brands": {
+          "$type": "fontFamily",
+          "$value": "\"Font Awesome 6 Brands\"",
+          "$description": "Social glyphs.",
+          "$extensions": {
+            "cite": [
+              "tw.fonts",
+              "css.fontfaces"
+            ],
+            "histogram": "fontFamily:Font Awesome 6 Brands Regular=148"
+          }
+        },
+        "icon-regular": {
+          "$type": "fontFamily",
+          "$value": "\"Font Awesome 6 Sharp Regular\"",
+          "$description": "A few ask-siena icons.",
+          "$extensions": {
+            "cite": [
+              "css.fontfaces"
+            ]
+          }
+        }
+      },
+      "weight": {
+        "300": {
+          "$type": "fontWeight",
+          "$value": 300,
+          "$extensions": {
+            "cite": [
+              "spec.company.shorthands"
+            ],
+            "histogram": "fontWeight:300=75"
+          }
+        },
+        "400": {
+          "$type": "fontWeight",
+          "$value": 400,
+          "$extensions": {
+            "cite": [
+              "spec.company.shorthands"
+            ],
+            "histogram": "fontWeight:400=3613"
+          }
+        },
+        "500": {
+          "$type": "fontWeight",
+          "$value": 500,
+          "$extensions": {
+            "cite": [
+              "spec.company.shorthands"
+            ],
+            "histogram": "fontWeight:500=1566"
+          }
+        },
+        "600": {
+          "$type": "fontWeight",
+          "$value": 600,
+          "$extensions": {
+            "cite": [
+              "spec.company.shorthands"
+            ],
+            "histogram": "fontWeight:600=508"
+          }
+        },
+        "700": {
+          "$type": "fontWeight",
+          "$value": 700,
+          "$extensions": {
+            "cite": [
+              "spec.company.shorthands"
+            ],
+            "histogram": "fontWeight:700=449"
+          }
+        }
+      },
+      "size": {
+        "10": {
+          "$type": "dimension",
+          "$value": "10px",
+          "$extensions": {
+            "cite": [
+              "spec.company.shorthands"
+            ],
+            "histogram": "fontSize:10px=116"
+          }
+        },
+        "12": {
+          "$type": "dimension",
+          "$value": "12px",
+          "$extensions": {
+            "cite": [
+              "spec.company.shorthands"
+            ],
+            "histogram": "fontSize:12px=470"
+          }
+        },
+        "14": {
+          "$type": "dimension",
+          "$value": "14px",
+          "$extensions": {
+            "cite": [
+              "spec.company.shorthands"
+            ],
+            "histogram": "fontSize:14px=1013"
+          }
+        },
+        "16": {
+          "$type": "dimension",
+          "$value": "16px",
+          "$extensions": {
+            "cite": [
+              "spec.company.shorthands"
+            ],
+            "histogram": "fontSize:16px=2742"
+          }
+        },
+        "18": {
+          "$type": "dimension",
+          "$value": "18px",
+          "$extensions": {
+            "cite": [
+              "spec.company.shorthands"
+            ],
+            "histogram": "fontSize:18px=828"
+          }
+        },
+        "19.2": {
+          "$type": "dimension",
+          "$value": "19.2px",
+          "$extensions": {
+            "cite": [
+              "spec.company.shorthands"
+            ],
+            "histogram": "fontSize:19.2px=6"
+          }
+        },
+        "20": {
+          "$type": "dimension",
+          "$value": "20px",
+          "$extensions": {
+            "cite": [
+              "spec.company.shorthands"
+            ],
+            "histogram": "fontSize:20px=457"
+          }
+        },
+        "23": {
+          "$type": "dimension",
+          "$value": "23px",
+          "$extensions": {
+            "cite": [
+              "spec.company.shorthands"
+            ],
+            "histogram": "fontSize:23px=15"
+          }
+        },
+        "24": {
+          "$type": "dimension",
+          "$value": "24px",
+          "$extensions": {
+            "cite": [
+              "spec.company.shorthands"
+            ],
+            "histogram": "fontSize:24px=168"
+          }
+        },
+        "25.6": {
+          "$type": "dimension",
+          "$value": "25.6px",
+          "$extensions": {
+            "cite": [
+              "spec.company.shorthands"
+            ],
+            "histogram": "fontSize:25.6px=6"
+          }
+        },
+        "28": {
+          "$type": "dimension",
+          "$value": "28px",
+          "$extensions": {
+            "cite": [
+              "spec.company.shorthands"
+            ],
+            "histogram": "fontSize:28px=43"
+          }
+        },
+        "32": {
+          "$type": "dimension",
+          "$value": "32px",
+          "$extensions": {
+            "cite": [
+              "spec.company.shorthands"
+            ],
+            "histogram": "fontSize:32px=41"
+          }
+        },
+        "36": {
+          "$type": "dimension",
+          "$value": "36px",
+          "$extensions": {
+            "cite": [
+              "spec.company.shorthands"
+            ],
+            "histogram": "fontSize:36px=59"
+          }
+        },
+        "40": {
+          "$type": "dimension",
+          "$value": "40px",
+          "$extensions": {
+            "cite": [
+              "spec.company.shorthands"
+            ],
+            "histogram": "fontSize:40px=22"
+          }
+        },
+        "48": {
+          "$type": "dimension",
+          "$value": "48px",
+          "$extensions": {
+            "cite": [
+              "spec.company.shorthands"
+            ],
+            "histogram": "fontSize:48px=66"
+          }
+        },
+        "52": {
+          "$type": "dimension",
+          "$value": "52px",
+          "$extensions": {
+            "cite": [
+              "spec.company.shorthands"
+            ],
+            "histogram": "fontSize:52px=13"
+          }
+        },
+        "56": {
+          "$type": "dimension",
+          "$value": "56px",
+          "$extensions": {
+            "cite": [
+              "spec.company.shorthands"
+            ],
+            "histogram": "fontSize:56px=22"
+          }
+        },
+        "64": {
+          "$type": "dimension",
+          "$value": "64px",
+          "$extensions": {
+            "cite": [
+              "spec.company.shorthands"
+            ],
+            "histogram": "fontSize:64px=82"
+          }
+        },
+        "80": {
+          "$type": "dimension",
+          "$value": "80px",
+          "$extensions": {
+            "cite": [
+              "spec.company.shorthands"
+            ],
+            "histogram": "fontSize:80px=23"
+          }
+        },
+        "120": {
+          "$type": "dimension",
+          "$value": "120px",
+          "$extensions": {
+            "cite": [
+              "spec.company.shorthands"
+            ],
+            "histogram": "fontSize:120px=6"
+          }
+        },
+        "260": {
+          "$type": "dimension",
+          "$value": "260px",
+          "$extensions": {
+            "cite": [
+              "spec.company.shorthands"
+            ],
+            "histogram": "fontSize:260px=6"
+          }
+        }
+      }
+    }
+  }
+}
