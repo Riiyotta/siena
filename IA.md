@@ -1,8 +1,8 @@
 # Siena AI (siena.cx) local clone
 
-Source: Siena AI (siena.cx) local clone · https://www.siena.cx/ (originally Framer), rebuilt in React 18 + Vite + Tailwind v3 + react-router-dom v6 at /Users/riyaghosh/V3/siena
+Source: Siena AI (siena.cx) local clone · https://www.siena.cx/ (originally Framer), rebuilt in React 18 + Vite + Tailwind v3 + react-router-dom v6, local clone
 Status: **measured-from-codebase** · production approved: **false**
-35 routes · 29 templates · 122 unique sections
+35 routes · 29 templates · 129 unique sections
 
 > Generated from `ia.json` by `build.mjs`. Edit the JSON, not this file.
 
@@ -73,7 +73,7 @@ component library or stays local to its page.
 | `hero.insights` | HERO | 2 | 4 | `content/InsightsPage.jsx > Hero` | All four insights routes. |
 | `proof.insights-logos` | PROOF | 2 | 4 | `content/InsightsPage.jsx > Logos` | All four insights routes. |
 | `product.insights-feature-rows` | PRODUCT | 2 | 4 | `content/InsightsPage.jsx > FeatureRow` | All four insights routes. |
-| `product.insights-agent-promo` | PRODUCT | 2 | 4 | `content/InsightsPage.jsx > Promo` | All four insights routes. |
+| `convert.insights-agent-promo` | CONVERT | 2 | 4 | `content/InsightsPage.jsx > Promo` | All four insights routes. |
 | `content.insights-announcement` | CONTENT | 2 | 4 | `content/InsightsPage.jsx > Announcement` | All four insights routes. |
 | `convert.demo-form-cta` | CONVERT | 2 | 4 | `content/DemoFormCta.jsx` | All four insights routes. |
 | `convert.newsletter-cta` | CONVERT | 2 | 4 | `content/NewsletterCta.jsx` | The conversations index and the three conversation detail pages. |
@@ -84,7 +84,12 @@ component library or stays local to its page.
 | `convert.conv-cta` | CONVERT | 2 | 3 | `conversion/ConvCta.jsx` | Both compare pages and the add-ons page. |
 | `proof.insights-testimonial` | PROOF | 1 | 3 | `content/InsightsPage.jsx > Testimonial` | The insights hub and the sentiment-analysis and voice-of-customer subpages. |
 | `stack.insights-integrations` | STACK | 1 | 3 | `content/InsightsPage.jsx > Integrations` | The insights hub and the sentiment-analysis and voice-of-customer subpages. |
-| `content.conversation-article` | CONTENT | 1 | 3 | `content/ConversationArticle.jsx` | The three conversation detail pages. |
+| `content.article-header` | CONTENT | 1 | 3 | `content/ConversationArticle.jsx > header` | The three conversation detail pages. |
+| `content.article-video` | CONTENT | 1 | 3 | `content/ConversationArticle.jsx > video` | The three conversation detail pages. |
+| `content.article-summary` | CONTENT | 1 | 3 | `content/ConversationArticle.jsx > Block (summary, takeaways)` | The three conversation detail pages. |
+| `content.article-chapters` | CONTENT | 1 | 3 | `content/ConversationArticle.jsx > Block (chapters)` | The three conversation detail pages. |
+| `content.article-transcript-chapter` | CONTENT | 1 | 3 | `content/ConversationArticle.jsx > Transcript` | The three conversation detail pages. |
+| `content.article-faq` | CONTENT | 1 | 3 | `content/ConversationArticle.jsx > Block (faq)` | The three conversation detail pages. |
 | `chrome.lead-header` | CHROME | 2 | 2 | `conversion/ui.jsx > LeadHeader` | The pricing and book-a-demo pages (NAV_OVERRIDES hideChrome). |
 | `chrome.legal-row` | CHROME | 2 | 2 | `conversion/ui.jsx > LegalRow` | The pricing and book-a-demo pages (NAV_OVERRIDES hideChrome). |
 | `hero.underline-title` | HERO | 2 | 2 | `company/UnderlineTitle.jsx` | The customers and events pages. |
@@ -100,7 +105,8 @@ component library or stays local to its page.
 | `stack.conv-integrations` | STACK | 1 | 2 | `conversion/ConvIntegrations.jsx` | Both compare pages. |
 | `evaluate.compare-table` | EVALUATE | 1 | 2 | `conversion/CompareTable.jsx` | Both compare pages. |
 | `faq.conv-faq` | FAQ | 1 | 2 | `conversion/Faq.jsx` | Both compare pages. |
-| `content.legal-document` | CONTENT | 1 | 2 | `content/LegalPage.jsx` | Terms of service and privacy policy pages. |
+| `content.legal-header` | CONTENT | 1 | 2 | `content/LegalPage.jsx > header` | Terms of service and privacy policy pages. |
+| `content.legal-section` | CONTENT | 1 | 2 | `content/LegalPage.jsx > lg-rt` | Terms of service and privacy policy pages. |
 | `chrome.ai-lab-nav` | CHROME | 1 | 1 | `product-b/AiLabNav.jsx` | Only the AI Lab page (NAV_OVERRIDES hideNav). |
 | `hero.home` | HERO | 1 | 1 | `Hero.jsx` | Homepage only. |
 | `hero.shopping-agent` | HERO | 1 | 1 | `product/shopping/ShoppingHero.jsx` | Shopping Agent page only. |
@@ -178,7 +184,8 @@ component library or stays local to its page.
 | `company.ai-lab-who` | COMPANY | 1 | 1 | `pages/AiLab.jsx > al-who` | AI Lab page only. |
 | `content.customer-story-grid` | CONTENT | 1 | 1 | `company/StoryGrid.jsx` | Customers page only. |
 | `content.events-list` | CONTENT | 1 | 1 | `pages/Events.jsx > ev-list` | Events page only. |
-| `content.conversations-index` | CONTENT | 1 | 1 | `pages/Conversations.jsx` | Conversations index page only. |
+| `content.conversations-header` | CONTENT | 1 | 1 | `pages/Conversations.jsx > header` | Conversations index page only. |
+| `content.conversations-grid` | CONTENT | 1 | 1 | `pages/Conversations.jsx > ct-conv-grid` | Conversations index page only. |
 | `convert.main-cta` | CONVERT | 1 | 1 | `MainCta.jsx` | Homepage only. |
 | `convert.events-newsletter` | CONVERT | 1 | 1 | `pages/Events.jsx > ev-news` | Events page only. |
 | `convert.ai-lab-newsletter` | CONVERT | 1 | 1 | `pages/AiLab.jsx > Newsletter` | AI Lab page only. |
@@ -186,7 +193,7 @@ component library or stays local to its page.
 
 **32 shared sections** appear in more than one template and belong in a component library.
 
-**90 single-use sections** appear in exactly one template. Building these
+**97 single-use sections** appear in exactly one template. Building these
 as "reusable" components up front would be speculative — keep them page-local
 until a second caller actually appears.
 
@@ -568,7 +575,7 @@ until a second caller actually appears.
 | 5 | PRODUCT | `product.insights-feature-rows` | shared ×2 |
 | 6 | STACK | `stack.insights-integrations` | page-local |
 | 7 | PROOF | `proof.insights-testimonial` | page-local |
-| 8 | PRODUCT | `product.insights-agent-promo` | shared ×2 |
+| 8 | CONVERT | `convert.insights-agent-promo` | shared ×2 |
 | 9 | CONVERT | `convert.demo-form-cta` | shared ×2 |
 | 10 | CHROME | `chrome.site-footer` | shared ×27 |
 
@@ -583,7 +590,7 @@ until a second caller actually appears.
 | 3 | CONTENT | `content.insights-announcement` | shared ×2 |
 | 4 | PROOF | `proof.insights-logos` | shared ×2 |
 | 5 | PRODUCT | `product.insights-feature-rows` | shared ×2 |
-| 6 | PRODUCT | `product.insights-agent-promo` | shared ×2 |
+| 6 | CONVERT | `convert.insights-agent-promo` | shared ×2 |
 | 7 | CONVERT | `convert.demo-form-cta` | shared ×2 |
 | 8 | CHROME | `chrome.site-footer` | shared ×27 |
 
@@ -594,9 +601,10 @@ until a second caller actually appears.
 | # | category | section | |
 |---:|---|---|---|
 | 1 | CHROME | `chrome.site-nav` | shared ×26 |
-| 2 | CONTENT | `content.conversations-index` | page-local |
-| 3 | CONVERT | `convert.newsletter-cta` | shared ×2 |
-| 4 | CHROME | `chrome.site-footer` | shared ×27 |
+| 2 | CONTENT | `content.conversations-header` | page-local |
+| 3 | CONTENT | `content.conversations-grid` | page-local |
+| 4 | CONVERT | `convert.newsletter-cta` | shared ×2 |
+| 5 | CHROME | `chrome.site-footer` | shared ×27 |
 
 ### Conversation detail — `template.conversation-detail`
 
@@ -605,9 +613,14 @@ until a second caller actually appears.
 | # | category | section | |
 |---:|---|---|---|
 | 1 | CHROME | `chrome.site-nav` | shared ×26 |
-| 2 | CONTENT | `content.conversation-article` | page-local |
-| 3 | CONVERT | `convert.newsletter-cta` | shared ×2 |
-| 4 | CHROME | `chrome.site-footer` | shared ×27 |
+| 2 | CONTENT | `content.article-header` | page-local |
+| 3 | CONTENT | `content.article-video` | page-local |
+| 4 | CONTENT | `content.article-summary` | page-local |
+| 5 | CONTENT | `content.article-chapters` | page-local |
+| 6 | CONTENT | `content.article-transcript-chapter` | page-local |
+| 7 | CONTENT | `content.article-faq` | page-local |
+| 8 | CONVERT | `convert.newsletter-cta` | shared ×2 |
+| 9 | CHROME | `chrome.site-footer` | shared ×27 |
 
 ### Legal document — `template.legal`
 
@@ -616,8 +629,9 @@ until a second caller actually appears.
 | # | category | section | |
 |---:|---|---|---|
 | 1 | CHROME | `chrome.site-nav` | shared ×26 |
-| 2 | CONTENT | `content.legal-document` | page-local |
-| 3 | CHROME | `chrome.site-footer` | shared ×27 |
+| 2 | CONTENT | `content.legal-header` | page-local |
+| 3 | CONTENT | `content.legal-section` | page-local |
+| 4 | CHROME | `chrome.site-footer` | shared ×27 |
 
 ## Section reference
 
@@ -949,10 +963,6 @@ _Explanations of what a Siena product does: scroll areas, feature rows, bentos, 
 
 · All four insights routes. · appears on 4 routes · implemented by `content/InsightsPage.jsx > FeatureRow`
 
-**`product.insights-agent-promo`** — AI-agent promo row with a chat mock (variant of homepage ScrollArea block one).
-
-· All four insights routes. · appears on 4 routes · implemented by `content/InsightsPage.jsx > Promo`
-
 ### STACK
 
 _How Siena fits a brand's existing tools and risk requirements: integrations grids and enterprise-grade safety blocks._
@@ -1093,21 +1103,53 @@ _Editorial or CMS-style body content: article bodies, legal text, index grids, e
 
 · All four insights routes. · appears on 4 routes · implemented by `content/InsightsPage.jsx > Announcement`
 
-**`content.conversations-index`** — Conversations index: eyebrow, H1, intro and a card grid of interviews (cards link via siteHref).
+**`content.conversations-header`** — Conversations index page header: kicker, H1, serif intro and hairline (a content header, not a hero).
 
-· Conversations index page only. · appears on 1 routes · implemented by `pages/Conversations.jsx`
+· Conversations index page only. · appears on 1 routes · implemented by `pages/Conversations.jsx > header`
 
-**`content.conversation-article`** — Interview article body: header, video, summary, key takeaways, chapters, full transcript and FAQ blocks; data keyed by slug.
+**`content.conversations-grid`** — Two-column grid of interview cards (photo, guest, brand, excerpt; cards link via siteHref).
 
-· The three conversation detail pages. · appears on 3 routes · implemented by `content/ConversationArticle.jsx`
+· Conversations index page only. · appears on 1 routes · implemented by `pages/Conversations.jsx > ct-conv-grid`
 
-**`content.legal-document`** — Legal document: H1, last-updated row and rich-text body rendered from legalData nodes (Terms adds a previous-versions tail).
+**`content.article-header`** — Interview article header: kicker link and date, H1, guest line and hairline.
 
-· Terms of service and privacy policy pages. · appears on 2 routes · implemented by `content/LegalPage.jsx`
+· The three conversation detail pages. · appears on 3 routes · implemented by `content/ConversationArticle.jsx > header`
+
+**`content.article-video`** — Interview video: the one YouTube embed in the clone.
+
+· The three conversation detail pages. · appears on 3 routes · implemented by `content/ConversationArticle.jsx > video`
+
+**`content.article-summary`** — Interview summary block and Key takeaways list.
+
+· The three conversation detail pages. · appears on 3 routes · implemented by `content/ConversationArticle.jsx > Block (summary, takeaways)`
+
+**`content.article-chapters`** — Chapters index: one time-stamped anchor link per transcript chapter.
+
+· The three conversation detail pages. · appears on 3 routes · implemented by `content/ConversationArticle.jsx > Block (chapters)`
+
+**`content.article-transcript-chapter`** — One transcript chapter: chapter H2 and its speaker turns; repeated once per chapter.
+
+· The three conversation detail pages. · appears on 3 routes · implemented by `content/ConversationArticle.jsx > Transcript`
+
+**`content.article-faq`** — Frequently asked questions: H3 questions with plain paragraph answers (not an accordion).
+
+· The three conversation detail pages. · appears on 3 routes · implemented by `content/ConversationArticle.jsx > Block (faq)`
+
+**`content.legal-header`** — Legal document header: H1 with hairline and the last-updated row (a content header, not a hero).
+
+· Terms of service and privacy policy pages. · appears on 2 routes · implemented by `content/LegalPage.jsx > header`
+
+**`content.legal-section`** — One heading-bounded part of a legal document (optional heading plus rich-text blocks); repeated once per top-level heading. Terms adds a previous-versions tail to the last part.
+
+· Terms of service and privacy policy pages. · appears on 2 routes · implemented by `content/LegalPage.jsx > lg-rt`
 
 ### CONVERT
 
 _Conversion endings and capture: closing CTAs, demo/newsletter forms, application modals._
+
+**`convert.insights-agent-promo`** — Cross-sell conversion row: eyebrow, H2, body and a Learn more button next to a chat mock (variant of homepage ScrollArea block one). Classed as a conversion block, not a feature.
+
+· All four insights routes. · appears on 4 routes · implemented by `content/InsightsPage.jsx > Promo`
 
 **`convert.main-cta`** — Homepage closing CTA: image-backed card with H2 and Book a demo.
 

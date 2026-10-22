@@ -2,8 +2,20 @@
   "id": "section.hero.docs",
   "registryId": "section.hero.docs",
   "typeId": "hero.docs",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "hero",
+  "semantic": {
+    "id": "semantic.hero.docs",
+    "category": "hero"
+  },
+  "source": {
+    "id": "source.spec.pb.4.1",
+    "tag": "measured-spec",
+    "citation": "spec.pb.4.1",
+    "file": "specs/product-b.md",
+    "lines": "321-338"
+  },
+  "retrievalEligible": true,
   "purpose": "Docs hero: centered H1 with a wiping swash, sub, CTA; a browser-frame docs mock surrounded by six tilted doc cards that spring in.",
   "evidenceLevel": "spec-measured",
   "variants": {

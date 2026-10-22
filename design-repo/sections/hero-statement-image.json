@@ -2,8 +2,20 @@
   "id": "section.hero.statement-image",
   "registryId": "section.hero.statement-image",
   "typeId": "hero.statement-image",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "hero",
+  "semantic": {
+    "id": "semantic.hero.statement-image",
+    "category": "hero"
+  },
+  "source": {
+    "id": "source.jsx.about",
+    "tag": "clone-component",
+    "citation": "jsx.about",
+    "file": "src/pages/AboutUs.jsx",
+    "lines": "20-47"
+  },
+  "retrievalEligible": true,
   "purpose": "About-us mission statement: centered H1 over a full-bleed painterly illustration.",
   "evidenceLevel": "measured",
   "variants": {

@@ -2,8 +2,20 @@
   "id": "section.hero.community-invite",
   "registryId": "section.hero.community-invite",
   "typeId": "hero.community-invite",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "hero",
+  "semantic": {
+    "id": "semantic.hero.community-invite",
+    "category": "hero"
+  },
+  "source": {
+    "id": "source.jsx.community",
+    "tag": "clone-component",
+    "citation": "jsx.community",
+    "file": "src/pages/Community.jsx",
+    "lines": "32-80"
+  },
+  "retrievalEligible": true,
   "purpose": "Community hero: H1, sub, star bullets left; 'Request an invite' static form in a rainbow ring right; masked logo ticker at the bottom.",
   "evidenceLevel": "measured",
   "variants": {

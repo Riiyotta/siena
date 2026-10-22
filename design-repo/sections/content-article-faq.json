@@ -1,0 +1,102 @@
+{
+  "id": "section.content.article-faq",
+  "registryId": "section.content.article-faq",
+  "typeId": "content.article-faq",
+  "version": "1.1.0",
+  "category": "content",
+  "semantic": {
+    "id": "semantic.content.article-faq",
+    "category": "content"
+  },
+  "source": {
+    "id": "source.jsx.conv.article",
+    "tag": "clone-component",
+    "citation": "jsx.conv.article",
+    "file": "src/components/content/ConversationArticle.jsx",
+    "lines": "71-110"
+  },
+  "retrievalEligible": true,
+  "purpose": "Conversation article 'Frequently asked questions': H3 questions with plain (non-accordion) answers in the 800 column. Distinct from faq.accordion.",
+  "evidenceLevel": "measured",
+  "variants": {
+    "standard": "800 column block with block H2, H3 questions and paragraph answers."
+  },
+  "composes": [
+    "primitive.text"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "faq": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "question": {
+              "type": "string",
+              "maxWords": 16
+            },
+            "answer": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string",
+                  "maxWords": 90
+                },
+                "copySource": {
+                  "enum": [
+                    "placeholder"
+                  ]
+                }
+              },
+              "required": [
+                "text",
+                "copySource"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "question",
+            "answer"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 2,
+        "maxItems": 8
+      }
+    },
+    "required": [
+      "faq"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Block H2 24/28.8."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "spec.t3",
+    "jsx.conv.article",
+    "jsx.placeholder.lorem"
+  ],
+  "copyPolicy": {
+    "faq answers": "placeholder in the clone (lorem); questions are real"
+  }
+}

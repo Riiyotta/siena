@@ -2,8 +2,20 @@
   "id": "section.hero.home",
   "registryId": "section.hero.home",
   "typeId": "hero.home",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "hero",
+  "semantic": {
+    "id": "semantic.hero.home",
+    "category": "hero"
+  },
+  "source": {
+    "id": "source.jsx.hero",
+    "tag": "clone-component",
+    "citation": "jsx.hero",
+    "file": "src/components/Hero.jsx",
+    "lines": "8-47"
+  },
+  "retrievalEligible": true,
   "purpose": "Brand-defining opening: centered H1 + subtitle + xlg demo CTA over the sand hero with two decorative editorial images and two counter-moving customer-logo ticker rows; blends to white below.",
   "evidenceLevel": "measured",
   "variants": {

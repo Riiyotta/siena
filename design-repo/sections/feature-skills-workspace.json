@@ -2,8 +2,20 @@
   "id": "section.feature.skills-workspace",
   "registryId": "section.feature.skills-workspace",
   "typeId": "feature.skills-workspace",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "feature",
+  "semantic": {
+    "id": "semantic.feature.skills-workspace",
+    "category": "feature"
+  },
+  "source": {
+    "id": "source.spec.pa.6.5",
+    "tag": "measured-spec",
+    "citation": "spec.pa.6.5",
+    "file": "specs/product-a.md",
+    "lines": "491-497"
+  },
+  "retrievalEligible": true,
   "purpose": "Ask Siena features B: two alternating rows (skills library with tilted skill cards; workspace) with eyebrow, H3, text, star bullets.",
   "evidenceLevel": "spec-measured",
   "variants": {

@@ -2,8 +2,20 @@
   "id": "section.showcase.slack",
   "registryId": "section.showcase.slack",
   "typeId": "showcase.slack",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "feature",
+  "semantic": {
+    "id": "semantic.showcase.slack",
+    "category": "feature"
+  },
+  "source": {
+    "id": "source.spec.pa.6.8",
+    "tag": "measured-spec",
+    "citation": "spec.pa.6.8",
+    "file": "specs/product-a.md",
+    "lines": "518-524"
+  },
+  "retrievalEligible": true,
   "purpose": "'Ask Siena lives in Slack': Slack-thread mock card and three captions with top dividers.",
   "evidenceLevel": "spec-measured",
   "variants": {

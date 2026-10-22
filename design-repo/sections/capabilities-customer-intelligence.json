@@ -2,8 +2,20 @@
   "id": "section.capabilities.customer-intelligence",
   "registryId": "section.capabilities.customer-intelligence",
   "typeId": "capabilities.customer-intelligence",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "feature",
+  "semantic": {
+    "id": "semantic.capabilities.customer-intelligence",
+    "category": "feature"
+  },
+  "source": {
+    "id": "source.spec.pa.6.6",
+    "tag": "measured-spec",
+    "citation": "spec.pa.6.6",
+    "file": "specs/product-a.md",
+    "lines": "497-508"
+  },
+  "retrievalEligible": true,
   "purpose": "Ask Siena customer intelligence: title, text + bullets row, three captioned feature tiles, then a 3-slide portrait testimonial slider inside the same section.",
   "evidenceLevel": "spec-measured",
   "variants": {

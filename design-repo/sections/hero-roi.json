@@ -2,8 +2,20 @@
   "id": "section.hero.roi",
   "registryId": "section.hero.roi",
   "typeId": "hero.roi",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "hero",
+  "semantic": {
+    "id": "semantic.hero.roi",
+    "category": "hero"
+  },
+  "source": {
+    "id": "source.spec.pb.6.1",
+    "tag": "measured-spec",
+    "citation": "spec.pb.6.1",
+    "file": "specs/product-b.md",
+    "lines": "497-508"
+  },
+  "retrievalEligible": true,
   "purpose": "ROI calculator hero: H1, dimmed sub, 'WHAT TO EXPECT' list left; the 3-step calculator card (numbers -> details -> 1st-year projections) right. Calculation is local and deterministic; step 2 never posts anywhere.",
   "evidenceLevel": "spec-measured",
   "variants": {

@@ -2,8 +2,20 @@
   "id": "section.hero.lab",
   "registryId": "section.hero.lab",
   "typeId": "hero.lab",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "hero",
+  "semantic": {
+    "id": "semantic.hero.lab",
+    "category": "hero"
+  },
+  "source": {
+    "id": "source.spec.pb.5.1",
+    "tag": "measured-spec",
+    "citation": "spec.pb.5.1",
+    "file": "specs/product-b.md",
+    "lines": "413-429"
+  },
+  "retrievalEligible": true,
   "purpose": "AI Lab dark hero: '– AI Lab' H1, H3 tagline, two light/dark buttons, roundtable photo, two upcoming event cards.",
   "evidenceLevel": "spec-measured",
   "variants": {

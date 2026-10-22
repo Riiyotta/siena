@@ -2,8 +2,20 @@
   "id": "section.story.horizontal-scroll",
   "registryId": "section.story.horizontal-scroll",
   "typeId": "story.horizontal-scroll",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "narrative",
+  "semantic": {
+    "id": "semantic.story.horizontal-scroll",
+    "category": "narrative"
+  },
+  "source": {
+    "id": "source.jsx.hscroll",
+    "tag": "clone-component",
+    "citation": "jsx.hscroll",
+    "file": "src/components/company/HScrollStory.jsx",
+    "lines": "7"
+  },
+  "retrievalEligible": true,
   "purpose": "Scroll-jacked horizontal story: a 7500px section with a sticky viewport whose 5321px track translates with scroll (smoothed). Five panels + a connector.",
   "evidenceLevel": "measured",
   "variants": {

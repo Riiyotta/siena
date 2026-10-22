@@ -2,8 +2,20 @@
   "id": "section.feature.media-row",
   "registryId": "section.feature.media-row",
   "typeId": "feature.media-row",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "feature",
+  "semantic": {
+    "id": "semantic.feature.media-row",
+    "category": "feature"
+  },
+  "source": {
+    "id": "source.jsx.insights",
+    "tag": "clone-component",
+    "citation": "jsx.insights",
+    "file": "src/components/content/InsightsPage.jsx",
+    "lines": "14-41"
+  },
+  "retrievalEligible": true,
   "purpose": "Alternating text + media row (repeatable). Image side alternates starting left.",
   "evidenceLevel": "measured",
   "variants": {

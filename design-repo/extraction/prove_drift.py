@@ -27,7 +27,7 @@ def scratch():
     shutil.copytree(DR, dst, ignore=shutil.ignore_patterns("__pycache__", "*.zip", ".DS_Store"))
     if HAVE_SRC:
         mv = json.load(open(os.path.join(DR, "extraction", "measured-values.json"), encoding="utf-8"))
-        for rel in sorted({c["file"] for c in mv["citations"].values()} | {"src/routes.js", "CLONE_SPEC.md"}):
+        for rel in sorted({c["file"] for c in mv["citations"].values()} | {"src/routes.js", "CLONE_SPEC.md", "ia.json", "IA.md", "matrix.csv"}):
             s = os.path.join(PARENT, rel)
             if os.path.exists(s):
                 os.makedirs(os.path.dirname(os.path.join(tmp, rel)), exist_ok=True)
@@ -68,6 +68,29 @@ def edit_routes_src(dst):
     open(p, "w", encoding="utf-8").write(s)
 
 
+def ia_text(rel, fn):
+    """Edit a sibling IA file (ia.json / IA.md / matrix.csv) in the scratch tree, beside design-repo/."""
+    def edit_ia(dst):
+        p = os.path.join(os.path.dirname(dst), rel)
+        text = open(p, encoding="utf-8").read()
+        open(p, "w", encoding="utf-8").write(fn(text))
+    return edit_ia
+
+
+def grow_hero(sh, new_h=3500):
+    for n in sh["routes"]["/"]["nodes"]:
+        if n["section"] == "hero.home":
+            d = new_h - n["heightPx"]
+            n["heightPx"] = new_h
+            sh["routes"]["/"]["inFlowHeightPx"] += d
+            sh["routes"]["/"]["documentHeightPx"] += d
+
+
+def whitelist_short(sh):
+    grow_hero(sh)
+    sh["heroWhitelist"].append({"route": "/", "section": "hero.home", "reviewedBy": "someone", "justification": "too short", "maxHeightPx": 4000})
+
+
 def tamper_hist(d):
     d["foundation"]["color"]["ink"]["900"]["$extensions"]["histogram"] = "textColor:#122023=9999"
 
@@ -101,6 +124,28 @@ CASES = [
     ("policy category that is not a catalog key", "token-policy", lambda d: edit(d, "tokens/llm/token-policy.json", lambda j: j["rules"]["rawValueRestrictions"].__setitem__("shadow", "x"))),
     ("histogram evidence falsified on a token", "token-evidence", lambda d: edit(d, "tokens/00-foundation/color.json", tamper_hist)),
     ("broken real example", "example", lambda d: edit(d, "schema/example.pagespec.json", lambda j: j["nodes"].pop(1))),
+    # ---- retrieval eligibility, provenance vs taxonomy, classification
+    ("partner modal flipped to retrievalEligible true in its contract", "retrieval", lambda d: edit(d, "sections/overlay-partner-modal.json", lambda j: [j.__setitem__("retrievalEligible", True), j.pop("retrievalIneligibleReason")])),
+    ("retrievalIneligibleSections entry dropped from the allowlist", "retrieval", lambda d: edit(d, "tokens/llm/component-allowlist.json", lambda j: j["retrievalIneligibleSections"].remove("section.quirk.phone-empty-block"))),
+    ("an ordinary section flagged ineligible", "retrieval", lambda d: edit(d, "sections/hero-home.json", lambda j: [j.__setitem__("retrievalEligible", False), j.__setitem__("retrievalIneligibleReason", "Pretend this hero is a utility block so retrieval skips it.")])),
+    ("retrievalEligible stored as a string", "section-contract", lambda d: edit(d, "sections/overlay-partner-modal.json", lambda j: j.__setitem__("retrievalEligible", "false"))),
+    ("semantic.category drifts from the section category", "section-contract", lambda d: edit(d, "sections/hero-home.json", lambda j: j["semantic"].__setitem__("category", "feature"))),
+    ("source.lines no longer match the cited lines", "section-contract", lambda d: edit(d, "sections/hero-home.json", lambda j: j["source"].__setitem__("lines", "1-2"))),
+    ("source citation points at an undefined id", "section-contract", lambda d: edit(d, "sections/hero-home.json", lambda j: [j["source"].__setitem__("citation", "jsx.ghost"), j["source"].__setitem__("id", "source.jsx.ghost")])),
+    ("conversion promo classed back as a feature", "class-policy", lambda d: edit(d, "sections/cta-agent-promo.json", lambda j: [j.__setitem__("category", "feature"), j["semantic"].__setitem__("category", "feature")])),
+    ("unreviewed CTA field added to a feature section", "class-policy", lambda d: edit(d, "sections/features-icon-grid.json", lambda j: j["contentModel"]["properties"].__setitem__("cta", {"type": "object"}))),
+    # ---- whole-page-wrapper gate (recorded real heights)
+    ("hero measured at 3500px without a review", "wrapper-gate", lambda d: edit(d, "extraction/measured-values.json", lambda j: grow_hero(j["sectionHeights"]))),
+    ("whitelisted hero with a too-short justification", "wrapper-gate", lambda d: edit(d, "extraction/measured-values.json", lambda j: whitelist_short(j["sectionHeights"]))),
+    ("a route's recorded measurements removed", "wrapper-gate", lambda d: edit(d, "extraction/measured-values.json", lambda j: j["sectionHeights"]["routes"].pop("/pricing"))),
+    ("one section's height missing", "wrapper-gate", lambda d: edit(d, "extraction/measured-values.json", lambda j: j["sectionHeights"]["routes"]["/"]["nodes"][2].pop("heightPx"))),
+    ("a hero-like block (H1 outside the hero)", "wrapper-gate", lambda d: edit(d, "extraction/measured-values.json", lambda j: [j["sectionHeights"]["routes"]["/"]["nodes"][1].__setitem__("h1Count", 0), j["sectionHeights"]["routes"]["/"]["nodes"][2].__setitem__("h1Count", 1)])),
+    ("unrelated routes sharing one template", "wrapper-gate", lambda d: edit(d, "extraction/measured-values.json", lambda j: j["sectionHeights"]["routes"]["/book-a-demo"].update(nodes=[n for n in j["sectionHeights"]["routes"]["/book-a-demo"]["nodes"] if n["section"] != "testimonials.slider"]))),
+    # ---- IA parity (ia.json / IA.md / matrix.csv beside design-repo/)
+    ("ia.json brings back the superseded legal-document section", "ia-parity", ia_text("ia.json", lambda t: t.replace('"content.legal-section"', '"content.legal-document"', 1))),
+    ("ia.json drops a route", "ia-parity", ia_text("ia.json", lambda t: t.replace('"/privacy-policy"', '"/privacy-policy-x"', 1))),
+    ("matrix.csv stale (a section row removed)", "ia-parity", ia_text("matrix.csv", lambda t: "\n".join(l for l in t.split("\n") if not l.startswith("content.legal-section,")))),
+    ("IA.md stale (section no longer mentioned)", "ia-parity", ia_text("IA.md", lambda t: t.replace("`content.article-faq`", "`content.article-faqq`"))),
     ("machine path in the docs", "abs-path", lambda d: append(d, "README.md", "\n/Us" + "ers/someone/design-repo\n")),
 ]
 
@@ -108,7 +153,7 @@ CASES = [
 def main():
     bad = skipped = 0
     for name, tag, fn in CASES:
-        if tag in ("citation", "nav-overrides") and not HAVE_SRC:
+        if tag in ("citation", "nav-overrides", "ia-parity") and not HAVE_SRC:
             print(f"SKIPPED {name:52} needs the clone source beside design-repo/")
             skipped += 1
             continue

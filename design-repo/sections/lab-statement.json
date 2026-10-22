@@ -2,8 +2,20 @@
   "id": "section.lab.statement",
   "registryId": "section.lab.statement",
   "typeId": "lab.statement",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "content",
+  "semantic": {
+    "id": "semantic.lab.statement",
+    "category": "content"
+  },
+  "source": {
+    "id": "source.spec.pb.5.3",
+    "tag": "measured-spec",
+    "citation": "spec.pb.5.3",
+    "file": "specs/product-b.md",
+    "lines": "438-442"
+  },
+  "retrievalEligible": true,
   "purpose": "AI Lab statement row: 2px rule, optional eyebrow + H2, and a large Instrument Sans 36/43.2 statement.",
   "evidenceLevel": "spec-measured",
   "variants": {

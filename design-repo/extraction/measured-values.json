@@ -2636,6 +2636,21 @@
       "mustContain": [
         "screens: { md: '768px', tablet: '810px', desktop: '1200px' }"
       ]
+    },
+    "jsx.conv.article.chapter": {
+      "file": "src/components/content/ConversationArticle.jsx",
+      "lines": "44",
+      "mustContain": [
+        "id={chapterId(n, title)}",
+        "className=\"ct-rt-ch\""
+      ]
+    },
+    "jsx.legal.body": {
+      "file": "src/components/content/LegalPage.jsx",
+      "lines": "106",
+      "mustContain": [
+        "<div className=\"lg-rt max-w-[1120px]\">"
+      ]
     }
   },
   "sourceSnapshot": {
@@ -2769,7 +2784,7 @@
   "quirks": {
     "phone-grid-overflow": {
       "route": "/conversations",
-      "section": "content.conversation-index",
+      "section": "content.conversation-grid",
       "what": "At 390 the card grid keeps 2 x 340px columns in a 350px container; cards overflow and clip.",
       "cite": [
         "spec.t2.quirk",
@@ -2861,5 +2876,4276 @@
     "Order-tracking cobe globe pixels.",
     "AI Lab grain canvases.",
     "Events list cards (CMS empty on the live site)."
-  ]
+  ],
+  "sectionHeights": {
+    "viewportPx": 1440,
+    "tool": "extraction/measure_heights.mjs + extraction/height-probes.json (Playwright, Chromium, full-page scroll warm-up, 1440x900)",
+    "routes": {
+      "/": {
+        "documentHeightPx": 11008,
+        "inFlowHeightPx": 11007,
+        "unattributedPx": 1,
+        "h1Total": 1,
+        "nodes": [
+          {
+            "section": "shell.navbar",
+            "variant": "standard",
+            "heightPx": 0,
+            "topPx": null,
+            "inFlow": false,
+            "blocks": [],
+            "h1Count": 0
+          },
+          {
+            "section": "hero.home",
+            "variant": "home",
+            "heightPx": 900,
+            "topPx": 0,
+            "inFlow": true,
+            "blocks": [
+              "section.relative.flex"
+            ],
+            "h1Count": 1
+          },
+          {
+            "section": "testimonials.slider",
+            "variant": "titled",
+            "heightPx": 958,
+            "topPx": 900,
+            "inFlow": true,
+            "blocks": [
+              "section.t-section"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "feature.sticky-scroll",
+            "variant": "home",
+            "heightPx": 2720,
+            "topPx": 1858,
+            "inFlow": true,
+            "blocks": [
+              "section.sa-section"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "stats.metrics",
+            "variant": "home",
+            "heightPx": 853,
+            "topPx": 4578,
+            "inFlow": true,
+            "blocks": [
+              "section.m-section"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "stories.carousel",
+            "variant": "home",
+            "heightPx": 1076,
+            "topPx": 5431,
+            "inFlow": true,
+            "blocks": [
+              "section.relative.flex"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "features.lottie-grid",
+            "variant": "home",
+            "heightPx": 2535,
+            "topPx": 6508,
+            "inFlow": true,
+            "blocks": [
+              "section.relative.flex"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "integrations.logo-grid",
+            "variant": "home",
+            "heightPx": 776,
+            "topPx": 9043,
+            "inFlow": true,
+            "blocks": [
+              "section.relative.flex"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "cta.main",
+            "variant": "cream-fade",
+            "heightPx": 755,
+            "topPx": 9819,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "shell.footer",
+            "variant": "standard",
+            "heightPx": 434,
+            "topPx": 10573,
+            "inFlow": true,
+            "blocks": [
+              "footer(global)"
+            ],
+            "h1Count": 0
+          }
+        ]
+      },
+      "/about-us": {
+        "documentHeightPx": 11172,
+        "inFlowHeightPx": 11172,
+        "unattributedPx": 0,
+        "h1Total": 1,
+        "nodes": [
+          {
+            "section": "shell.navbar",
+            "variant": "forced-scrolled",
+            "heightPx": 0,
+            "topPx": null,
+            "inFlow": false,
+            "blocks": [],
+            "h1Count": 0
+          },
+          {
+            "section": "hero.statement-image",
+            "variant": "about",
+            "heightPx": 900,
+            "topPx": 0,
+            "inFlow": true,
+            "blocks": [
+              "section.ab-hero"
+            ],
+            "h1Count": 1
+          },
+          {
+            "section": "story.horizontal-scroll",
+            "variant": "about",
+            "heightPx": 7500,
+            "topPx": 900,
+            "inFlow": true,
+            "blocks": [
+              "section.hs-section"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "team.founders",
+            "variant": "about",
+            "heightPx": 947,
+            "topPx": 8400,
+            "inFlow": true,
+            "blocks": [
+              "section.ab-team"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "integrations.logo-grid",
+            "variant": "about-investors",
+            "heightPx": 700,
+            "topPx": 9347,
+            "inFlow": true,
+            "blocks": [
+              "section.ab-investors"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "cta.main",
+            "variant": "no-fade",
+            "heightPx": 691,
+            "topPx": 10047,
+            "inFlow": true,
+            "blocks": [
+              "section.co-cta.co-cta--brands"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "shell.footer",
+            "variant": "standard",
+            "heightPx": 434,
+            "topPx": 10738,
+            "inFlow": true,
+            "blocks": [
+              "footer(global)"
+            ],
+            "h1Count": 0
+          }
+        ]
+      },
+      "/ai-lab": {
+        "documentHeightPx": 6624,
+        "inFlowHeightPx": 6624,
+        "unattributedPx": 0,
+        "h1Total": 1,
+        "nodes": [
+          {
+            "section": "shell.lab-nav",
+            "variant": "dark",
+            "heightPx": 0,
+            "topPx": null,
+            "inFlow": false,
+            "blocks": [],
+            "h1Count": 0
+          },
+          {
+            "section": "hero.lab",
+            "variant": "lab",
+            "heightPx": 996,
+            "topPx": 0,
+            "inFlow": true,
+            "blocks": [
+              "section#top.al-hero"
+            ],
+            "h1Count": 1
+          },
+          {
+            "section": "lab.statement",
+            "variant": "intro",
+            "heightPx": 670,
+            "topPx": 996,
+            "inFlow": true,
+            "blocks": [
+              "section.al-intro"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "lab.statement",
+            "variant": "what-is",
+            "heightPx": 506,
+            "topPx": 1666,
+            "inFlow": true,
+            "blocks": [
+              "section.al-what"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "steps.how-it-works",
+            "variant": "lab",
+            "heightPx": 439,
+            "topPx": 2172,
+            "inFlow": true,
+            "blocks": [
+              "section.al-how"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "lab.practitioner",
+            "variant": "lab",
+            "heightPx": 1213,
+            "topPx": 2611,
+            "inFlow": true,
+            "blocks": [
+              "section.al-dark"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "lab.last-event",
+            "variant": "lab",
+            "heightPx": 900,
+            "topPx": 3824,
+            "inFlow": true,
+            "blocks": [
+              "section.al-last"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "lab.who-attend",
+            "variant": "lab",
+            "heightPx": 942,
+            "topPx": 4724,
+            "inFlow": true,
+            "blocks": [
+              "section.al-who"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "cta.lab-newsletter",
+            "variant": "lab",
+            "heightPx": 524,
+            "topPx": 5666,
+            "inFlow": true,
+            "blocks": [
+              "section.al-cta-section"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "shell.footer",
+            "variant": "standard",
+            "heightPx": 434,
+            "topPx": 6190,
+            "inFlow": true,
+            "blocks": [
+              "footer(global)"
+            ],
+            "h1Count": 0
+          }
+        ]
+      },
+      "/ai-native-customer-service-vs-help-desk-ai-add-ons": {
+        "documentHeightPx": 8293,
+        "inFlowHeightPx": 8293,
+        "unattributedPx": 0,
+        "h1Total": 1,
+        "nodes": [
+          {
+            "section": "shell.navbar",
+            "variant": "standard",
+            "heightPx": 0,
+            "topPx": null,
+            "inFlow": false,
+            "blocks": [],
+            "h1Count": 0
+          },
+          {
+            "section": "hero.home",
+            "variant": "addons",
+            "heightPx": 900,
+            "topPx": 0,
+            "inFlow": true,
+            "blocks": [
+              "section.cv-hero.cv-hero--addons"
+            ],
+            "h1Count": 1
+          },
+          {
+            "section": "feature.sticky-scroll",
+            "variant": "addons",
+            "heightPx": 2800,
+            "topPx": 900,
+            "inFlow": true,
+            "blocks": [
+              "section.sa-section.cv-sa"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "stats.metrics",
+            "variant": "addons",
+            "heightPx": 853,
+            "topPx": 3700,
+            "inFlow": true,
+            "blocks": [
+              "section.m-section"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "quirk.phone-empty-block",
+            "variant": "addons",
+            "heightPx": 0,
+            "topPx": null,
+            "inFlow": false,
+            "blocks": [],
+            "h1Count": 0,
+            "note": "phone-only block: display none at 1440 (replicates the live empty block at phone width only)"
+          },
+          {
+            "section": "features.lottie-grid",
+            "variant": "addons",
+            "heightPx": 2551,
+            "topPx": 4553,
+            "inFlow": true,
+            "blocks": [
+              "section.cv-features.relative"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "cta.main",
+            "variant": "no-fade",
+            "heightPx": 755,
+            "topPx": 7104,
+            "inFlow": true,
+            "blocks": [
+              "section.cv-cta.cv-cta--addons"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "shell.footer",
+            "variant": "standard",
+            "heightPx": 434,
+            "topPx": 7859,
+            "inFlow": true,
+            "blocks": [
+              "footer(global)"
+            ],
+            "h1Count": 0
+          }
+        ]
+      },
+      "/ai-review-management": {
+        "documentHeightPx": 8118,
+        "inFlowHeightPx": 8117,
+        "unattributedPx": 1,
+        "h1Total": 1,
+        "nodes": [
+          {
+            "section": "shell.navbar",
+            "variant": "standard",
+            "heightPx": 0,
+            "topPx": null,
+            "inFlow": false,
+            "blocks": [],
+            "h1Count": 0
+          },
+          {
+            "section": "hero.product-split",
+            "variant": "reviews",
+            "heightPx": 752,
+            "topPx": 0,
+            "inFlow": true,
+            "blocks": [
+              "section.ph-hero.ph--reviews"
+            ],
+            "h1Count": 1
+          },
+          {
+            "section": "logos.ticker-block",
+            "variant": "two-row",
+            "heightPx": 96,
+            "topPx": 752,
+            "inFlow": true,
+            "blocks": [
+              "div.pa-logos"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "feature.sticky-scroll",
+            "variant": "product",
+            "heightPx": 3134,
+            "topPx": 848,
+            "inFlow": true,
+            "blocks": [
+              "section.rf-section"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "testimonials.slider",
+            "variant": "panel",
+            "heightPx": 756,
+            "topPx": 3982,
+            "inFlow": true,
+            "blocks": [
+              "section.pt-section.pt--reviews"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "feature.timer-list",
+            "variant": "reviews",
+            "heightPx": 1114,
+            "topPx": 4738,
+            "inFlow": true,
+            "blocks": [
+              "section.rt-section"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "bento.grid",
+            "variant": "reviews",
+            "heightPx": 1076,
+            "topPx": 5853,
+            "inFlow": true,
+            "blocks": [
+              "section.ri-section"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "cta.main",
+            "variant": "cream-fade",
+            "heightPx": 755,
+            "topPx": 6929,
+            "inFlow": true,
+            "blocks": [
+              "section.pa-cta.pa-cta--reviews"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "shell.footer",
+            "variant": "standard",
+            "heightPx": 434,
+            "topPx": 7684,
+            "inFlow": true,
+            "blocks": [
+              "footer(global)"
+            ],
+            "h1Count": 0
+          }
+        ]
+      },
+      "/ask-siena": {
+        "documentHeightPx": 12478,
+        "inFlowHeightPx": 12478,
+        "unattributedPx": 0,
+        "h1Total": 1,
+        "nodes": [
+          {
+            "section": "shell.navbar",
+            "variant": "standard",
+            "heightPx": 0,
+            "topPx": null,
+            "inFlow": false,
+            "blocks": [],
+            "h1Count": 0
+          },
+          {
+            "section": "hero.product-split",
+            "variant": "ask",
+            "heightPx": 800,
+            "topPx": 0,
+            "inFlow": true,
+            "blocks": [
+              "section.ph-hero.ph--ask"
+            ],
+            "h1Count": 1
+          },
+          {
+            "section": "logos.ticker-block",
+            "variant": "two-row",
+            "heightPx": 176,
+            "topPx": 800,
+            "inFlow": true,
+            "blocks": [
+              "div.ask-logos"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "nav.chip-anchor",
+            "variant": "ask",
+            "heightPx": 30,
+            "topPx": 976,
+            "inFlow": true,
+            "blocks": [
+              "div.an-wrap"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "feature.sticky-scroll",
+            "variant": "product",
+            "heightPx": 3251,
+            "topPx": 1006,
+            "inFlow": true,
+            "blocks": [
+              "section#build.aa-section"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "feature.skills-workspace",
+            "variant": "ask",
+            "heightPx": 1480,
+            "topPx": 4257,
+            "inFlow": true,
+            "blocks": [
+              "section.ab-section"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "capabilities.customer-intelligence",
+            "variant": "ask",
+            "heightPx": 1969,
+            "topPx": 5737,
+            "inFlow": true,
+            "blocks": [
+              "section#cx-intelligence.ac-section"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "carousel.playbooks",
+            "variant": "ask",
+            "heightPx": 841,
+            "topPx": 7706,
+            "inFlow": true,
+            "blocks": [
+              "section.ap-section"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "showcase.slack",
+            "variant": "ask",
+            "heightPx": 1258,
+            "topPx": 8547,
+            "inFlow": true,
+            "blocks": [
+              "section.as-section"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "integrations.logo-grid",
+            "variant": "product",
+            "heightPx": 744,
+            "topPx": 9806,
+            "inFlow": true,
+            "blocks": [
+              "section.pa-int.pa-int--ask"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "trust.enterprise",
+            "variant": "product",
+            "heightPx": 740,
+            "topPx": 10549,
+            "inFlow": true,
+            "blocks": [
+              "section.pa-ent.pa-ent--ask"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "cta.main",
+            "variant": "dark-fade",
+            "heightPx": 755,
+            "topPx": 11289,
+            "inFlow": true,
+            "blocks": [
+              "section.pa-cta.pa-cta--ask"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "shell.footer",
+            "variant": "standard",
+            "heightPx": 434,
+            "topPx": 12044,
+            "inFlow": true,
+            "blocks": [
+              "footer(global)"
+            ],
+            "h1Count": 0
+          }
+        ]
+      },
+      "/book-a-demo": {
+        "documentHeightPx": 1750,
+        "inFlowHeightPx": 1750,
+        "unattributedPx": 0,
+        "h1Total": 1,
+        "nodes": [
+          {
+            "section": "shell.lead-header",
+            "variant": "standard",
+            "heightPx": 0,
+            "topPx": null,
+            "inFlow": false,
+            "blocks": [],
+            "h1Count": 0,
+            "note": "absolutely positioned over the hero (scrolls away): no in-flow height"
+          },
+          {
+            "section": "hero.lead-form",
+            "variant": "book",
+            "heightPx": 708,
+            "topPx": 0,
+            "inFlow": true,
+            "blocks": [
+              "section.cv-lead-hero.cv-lead-hero--book"
+            ],
+            "h1Count": 1
+          },
+          {
+            "section": "testimonials.slider",
+            "variant": "titled",
+            "heightPx": 945,
+            "topPx": 708,
+            "inFlow": true,
+            "blocks": [
+              "section.cvt.cvt--book"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "shell.legal-row",
+            "variant": "standard",
+            "heightPx": 97,
+            "topPx": 1653,
+            "inFlow": true,
+            "blocks": [
+              "footer.cv-legal"
+            ],
+            "h1Count": 0
+          }
+        ]
+      },
+      "/careers": {
+        "documentHeightPx": 4853,
+        "inFlowHeightPx": 4852,
+        "unattributedPx": 1,
+        "h1Total": 1,
+        "nodes": [
+          {
+            "section": "shell.navbar",
+            "variant": "careers-cta",
+            "heightPx": 0,
+            "topPx": null,
+            "inFlow": false,
+            "blocks": [],
+            "h1Count": 0
+          },
+          {
+            "section": "hero.careers",
+            "variant": "careers",
+            "heightPx": 566,
+            "topPx": 0,
+            "inFlow": true,
+            "blocks": [
+              "section.ca-hero"
+            ],
+            "h1Count": 1
+          },
+          {
+            "section": "letter.founders",
+            "variant": "careers",
+            "heightPx": 867,
+            "topPx": 566,
+            "inFlow": true,
+            "blocks": [
+              "section.ca-letter"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "people.quote-grid",
+            "variant": "careers",
+            "heightPx": 812,
+            "topPx": 1433,
+            "inFlow": true,
+            "blocks": [
+              "section.ca-why"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "features.icon-grid",
+            "variant": "careers",
+            "heightPx": 706,
+            "topPx": 2246,
+            "inFlow": true,
+            "blocks": [
+              "section.ca-how"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "roles.open-roles",
+            "variant": "careers",
+            "heightPx": 712,
+            "topPx": 2952,
+            "inFlow": true,
+            "blocks": [
+              "section#open-roles.ca-roles"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "cta.main",
+            "variant": "white-fade",
+            "heightPx": 755,
+            "topPx": 3664,
+            "inFlow": true,
+            "blocks": [
+              "section.co-cta.co-cta--careers"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "shell.footer",
+            "variant": "standard",
+            "heightPx": 434,
+            "topPx": 4419,
+            "inFlow": true,
+            "blocks": [
+              "footer(global)"
+            ],
+            "h1Count": 0
+          }
+        ]
+      },
+      "/community": {
+        "documentHeightPx": 1412,
+        "inFlowHeightPx": 1411,
+        "unattributedPx": 1,
+        "h1Total": 1,
+        "nodes": [
+          {
+            "section": "shell.navbar",
+            "variant": "standard",
+            "heightPx": 0,
+            "topPx": null,
+            "inFlow": false,
+            "blocks": [],
+            "h1Count": 0
+          },
+          {
+            "section": "hero.community-invite",
+            "variant": "community",
+            "heightPx": 977,
+            "topPx": 0,
+            "inFlow": true,
+            "blocks": [
+              "section.cm-hero"
+            ],
+            "h1Count": 1
+          },
+          {
+            "section": "shell.footer",
+            "variant": "standard",
+            "heightPx": 434,
+            "topPx": 977,
+            "inFlow": true,
+            "blocks": [
+              "footer(global)"
+            ],
+            "h1Count": 0
+          }
+        ]
+      },
+      "/compare/siena-ai-vs-gorgias-ai": {
+        "documentHeightPx": 11439,
+        "inFlowHeightPx": 11439,
+        "unattributedPx": 0,
+        "h1Total": 1,
+        "nodes": [
+          {
+            "section": "shell.navbar",
+            "variant": "standard",
+            "heightPx": 0,
+            "topPx": null,
+            "inFlow": false,
+            "blocks": [],
+            "h1Count": 0
+          },
+          {
+            "section": "hero.compare",
+            "variant": "compare",
+            "heightPx": 1011,
+            "topPx": 0,
+            "inFlow": true,
+            "blocks": [
+              "section.cv-hero.cv-hero--compare",
+              "div.cv-fade"
+            ],
+            "h1Count": 1,
+            "note": "includes the 111px sand-to-white fade element that follows the hero"
+          },
+          {
+            "section": "testimonials.slider",
+            "variant": "compare",
+            "heightPx": 904,
+            "topPx": 1011,
+            "inFlow": true,
+            "blocks": [
+              "section.cvt.cvt--gorgias"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "comparison.table",
+            "variant": "compare",
+            "heightPx": 1583,
+            "topPx": 1915,
+            "inFlow": true,
+            "blocks": [
+              "section.cv-cmp"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "heading.section-title",
+            "variant": "compare-intelligence",
+            "heightPx": 240,
+            "topPx": 3498,
+            "inFlow": true,
+            "blocks": [
+              "div.cv-intel"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "feature.sticky-scroll",
+            "variant": "compare",
+            "heightPx": 3706,
+            "topPx": 3738,
+            "inFlow": true,
+            "blocks": [
+              "section.sa-section.cv-sa"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "stats.metrics",
+            "variant": "home",
+            "heightPx": 853,
+            "topPx": 7444,
+            "inFlow": true,
+            "blocks": [
+              "section.m-section"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "integrations.logo-grid",
+            "variant": "compare",
+            "heightPx": 800,
+            "topPx": 8297,
+            "inFlow": true,
+            "blocks": [
+              "section.cv-int"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "faq.accordion",
+            "variant": "compare",
+            "heightPx": 1153,
+            "topPx": 9097,
+            "inFlow": true,
+            "blocks": [
+              "section.cv-faq"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "cta.main",
+            "variant": "no-fade",
+            "heightPx": 755,
+            "topPx": 10250,
+            "inFlow": true,
+            "blocks": [
+              "section.cv-cta.cv-cta--compare"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "shell.footer",
+            "variant": "standard",
+            "heightPx": 434,
+            "topPx": 11005,
+            "inFlow": true,
+            "blocks": [
+              "footer(global)"
+            ],
+            "h1Count": 0
+          }
+        ]
+      },
+      "/compare/siena-ai-vs-kustomer-ai": {
+        "documentHeightPx": 11686,
+        "inFlowHeightPx": 11686,
+        "unattributedPx": 0,
+        "h1Total": 1,
+        "nodes": [
+          {
+            "section": "shell.navbar",
+            "variant": "standard",
+            "heightPx": 0,
+            "topPx": null,
+            "inFlow": false,
+            "blocks": [],
+            "h1Count": 0
+          },
+          {
+            "section": "hero.compare",
+            "variant": "compare",
+            "heightPx": 1011,
+            "topPx": 0,
+            "inFlow": true,
+            "blocks": [
+              "section.cv-hero.cv-hero--compare",
+              "div.cv-fade"
+            ],
+            "h1Count": 1,
+            "note": "includes the 111px sand-to-white fade element (rendered after the testimonial on this route)"
+          },
+          {
+            "section": "testimonials.slider",
+            "variant": "compare",
+            "heightPx": 888,
+            "topPx": 900,
+            "inFlow": true,
+            "blocks": [
+              "section.cvt.cvt--kustomer"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "comparison.table",
+            "variant": "compare",
+            "heightPx": 1945,
+            "topPx": 1899,
+            "inFlow": true,
+            "blocks": [
+              "section.cv-cmp"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "heading.section-title",
+            "variant": "compare-intelligence",
+            "heightPx": 240,
+            "topPx": 3844,
+            "inFlow": true,
+            "blocks": [
+              "div.cv-intel"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "feature.sticky-scroll",
+            "variant": "compare",
+            "heightPx": 3706,
+            "topPx": 4084,
+            "inFlow": true,
+            "blocks": [
+              "section.sa-section.cv-sa"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "stats.metrics",
+            "variant": "home",
+            "heightPx": 853,
+            "topPx": 7790,
+            "inFlow": true,
+            "blocks": [
+              "section.m-section"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "integrations.logo-grid",
+            "variant": "compare",
+            "heightPx": 800,
+            "topPx": 8643,
+            "inFlow": true,
+            "blocks": [
+              "section.cv-int"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "faq.accordion",
+            "variant": "compare",
+            "heightPx": 1054,
+            "topPx": 9443,
+            "inFlow": true,
+            "blocks": [
+              "section.cv-faq"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "cta.main",
+            "variant": "no-fade",
+            "heightPx": 755,
+            "topPx": 10497,
+            "inFlow": true,
+            "blocks": [
+              "section.cv-cta.cv-cta--compare"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "shell.footer",
+            "variant": "standard",
+            "heightPx": 434,
+            "topPx": 11252,
+            "inFlow": true,
+            "blocks": [
+              "footer(global)"
+            ],
+            "h1Count": 0
+          }
+        ]
+      },
+      "/conversations": {
+        "documentHeightPx": 2270,
+        "inFlowHeightPx": 2269,
+        "unattributedPx": 1,
+        "h1Total": 1,
+        "nodes": [
+          {
+            "section": "shell.navbar",
+            "variant": "standard",
+            "heightPx": 0,
+            "topPx": null,
+            "inFlow": false,
+            "blocks": [],
+            "h1Count": 0
+          },
+          {
+            "section": "content.index-header",
+            "variant": "standard",
+            "heightPx": 395,
+            "topPx": 0,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full > div.flex.w-full"
+            ],
+            "h1Count": 1
+          },
+          {
+            "section": "content.conversation-grid",
+            "variant": "standard",
+            "heightPx": 836,
+            "topPx": 395,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full > div.ct-conv-grid.grid"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "cta.newsletter",
+            "variant": "conversations",
+            "heightPx": 604,
+            "topPx": 1232,
+            "inFlow": true,
+            "blocks": [
+              "section.relative.flex"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "shell.footer",
+            "variant": "standard",
+            "heightPx": 434,
+            "topPx": 1836,
+            "inFlow": true,
+            "blocks": [
+              "footer(global)"
+            ],
+            "h1Count": 0
+          }
+        ]
+      },
+      "/conversations/prose-ai-customer-service-automation": {
+        "documentHeightPx": 11425,
+        "inFlowHeightPx": 11425,
+        "unattributedPx": 0,
+        "h1Total": 1,
+        "nodes": [
+          {
+            "section": "shell.navbar",
+            "variant": "standard",
+            "heightPx": 0,
+            "topPx": null,
+            "inFlow": false,
+            "blocks": [],
+            "h1Count": 0
+          },
+          {
+            "section": "content.article-header",
+            "variant": "standard",
+            "heightPx": 456,
+            "topPx": 0,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > header.flex.w-full"
+            ],
+            "h1Count": 1
+          },
+          {
+            "section": "media.video-embed",
+            "variant": "standard",
+            "heightPx": 498,
+            "topPx": 456,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > div.w-full.overflow-clip"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.article-summary",
+            "variant": "standard",
+            "heightPx": 723,
+            "topPx": 954,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > div.flex.w-full",
+              "article.flex.w-full > div.flex.w-full"
+            ],
+            "h1Count": 0,
+            "note": "summary block + key takeaways block"
+          },
+          {
+            "section": "content.article-chapter-index",
+            "variant": "standard",
+            "heightPx": 346,
+            "topPx": 1677,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > div.flex.w-full"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.transcript-chapter",
+            "variant": "standard",
+            "heightPx": 608,
+            "topPx": 2023,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > div.flex.w-full ~part0"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.transcript-chapter",
+            "variant": "standard",
+            "heightPx": 346,
+            "topPx": 2631,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > div.flex.w-full ~part1"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.transcript-chapter",
+            "variant": "standard",
+            "heightPx": 672,
+            "topPx": 2977,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > div.flex.w-full ~part2"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.transcript-chapter",
+            "variant": "standard",
+            "heightPx": 385,
+            "topPx": 3649,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > div.flex.w-full ~part3"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.transcript-chapter",
+            "variant": "standard",
+            "heightPx": 576,
+            "topPx": 4034,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > div.flex.w-full ~part4"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.transcript-chapter",
+            "variant": "standard",
+            "heightPx": 423,
+            "topPx": 4610,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > div.flex.w-full ~part5"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.transcript-chapter",
+            "variant": "standard",
+            "heightPx": 366,
+            "topPx": 5033,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > div.flex.w-full ~part6"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.transcript-chapter",
+            "variant": "standard",
+            "heightPx": 884,
+            "topPx": 5399,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > div.flex.w-full ~part7"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.transcript-chapter",
+            "variant": "standard",
+            "heightPx": 540,
+            "topPx": 6283,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > div.flex.w-full ~part8"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.transcript-chapter",
+            "variant": "standard",
+            "heightPx": 308,
+            "topPx": 6823,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > div.flex.w-full ~part9"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.transcript-chapter",
+            "variant": "standard",
+            "heightPx": 1194,
+            "topPx": 7131,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > div.flex.w-full ~part10"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.transcript-chapter",
+            "variant": "standard",
+            "heightPx": 1202,
+            "topPx": 8325,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > div.flex.w-full ~part11"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.article-faq",
+            "variant": "standard",
+            "heightPx": 860,
+            "topPx": 9527,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > div.flex.w-full"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "cta.newsletter",
+            "variant": "conversations",
+            "heightPx": 604,
+            "topPx": 10387,
+            "inFlow": true,
+            "blocks": [
+              "section.relative.flex"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "shell.footer",
+            "variant": "standard",
+            "heightPx": 434,
+            "topPx": 10991,
+            "inFlow": true,
+            "blocks": [
+              "footer(global)"
+            ],
+            "h1Count": 0
+          }
+        ]
+      },
+      "/conversations/spanx-kylah-field-real-work-ai-customer-experience": {
+        "documentHeightPx": 10443,
+        "inFlowHeightPx": 10443,
+        "unattributedPx": 0,
+        "h1Total": 1,
+        "nodes": [
+          {
+            "section": "shell.navbar",
+            "variant": "standard",
+            "heightPx": 0,
+            "topPx": null,
+            "inFlow": false,
+            "blocks": [],
+            "h1Count": 0
+          },
+          {
+            "section": "content.article-header",
+            "variant": "standard",
+            "heightPx": 520,
+            "topPx": 0,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > header.flex.w-full"
+            ],
+            "h1Count": 1
+          },
+          {
+            "section": "media.video-embed",
+            "variant": "standard",
+            "heightPx": 498,
+            "topPx": 520,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > div.w-full.overflow-clip"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.article-summary",
+            "variant": "standard",
+            "heightPx": 761,
+            "topPx": 1018,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > div.flex.w-full",
+              "article.flex.w-full > div.flex.w-full"
+            ],
+            "h1Count": 0,
+            "note": "summary block + key takeaways block"
+          },
+          {
+            "section": "content.article-chapter-index",
+            "variant": "standard",
+            "heightPx": 270,
+            "topPx": 1779,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > div.flex.w-full"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.transcript-chapter",
+            "variant": "standard",
+            "heightPx": 725,
+            "topPx": 2049,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > div.flex.w-full ~part0"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.transcript-chapter",
+            "variant": "standard",
+            "heightPx": 424,
+            "topPx": 2774,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > div.flex.w-full ~part1"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.transcript-chapter",
+            "variant": "standard",
+            "heightPx": 653,
+            "topPx": 3198,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > div.flex.w-full ~part2"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.transcript-chapter",
+            "variant": "standard",
+            "heightPx": 540,
+            "topPx": 3851,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > div.flex.w-full ~part3"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.transcript-chapter",
+            "variant": "standard",
+            "heightPx": 501,
+            "topPx": 4391,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > div.flex.w-full ~part4"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.transcript-chapter",
+            "variant": "standard",
+            "heightPx": 850,
+            "topPx": 4892,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > div.flex.w-full ~part5"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.transcript-chapter",
+            "variant": "standard",
+            "heightPx": 887,
+            "topPx": 5742,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > div.flex.w-full ~part6"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.transcript-chapter",
+            "variant": "standard",
+            "heightPx": 1825,
+            "topPx": 6629,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > div.flex.w-full ~part7"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.article-faq",
+            "variant": "standard",
+            "heightPx": 951,
+            "topPx": 8454,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > div.flex.w-full"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "cta.newsletter",
+            "variant": "conversations",
+            "heightPx": 604,
+            "topPx": 9405,
+            "inFlow": true,
+            "blocks": [
+              "section.relative.flex"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "shell.footer",
+            "variant": "standard",
+            "heightPx": 434,
+            "topPx": 10009,
+            "inFlow": true,
+            "blocks": [
+              "footer(global)"
+            ],
+            "h1Count": 0
+          }
+        ]
+      },
+      "/conversations/thrive-causemetics-ai-customer-service-automation": {
+        "documentHeightPx": 14337,
+        "inFlowHeightPx": 14336,
+        "unattributedPx": 1,
+        "h1Total": 1,
+        "nodes": [
+          {
+            "section": "shell.navbar",
+            "variant": "standard",
+            "heightPx": 0,
+            "topPx": null,
+            "inFlow": false,
+            "blocks": [],
+            "h1Count": 0
+          },
+          {
+            "section": "content.article-header",
+            "variant": "standard",
+            "heightPx": 584,
+            "topPx": 0,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > header.flex.w-full"
+            ],
+            "h1Count": 1
+          },
+          {
+            "section": "media.video-embed",
+            "variant": "standard",
+            "heightPx": 498,
+            "topPx": 584,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > div.w-full.overflow-clip"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.article-summary",
+            "variant": "standard",
+            "heightPx": 684,
+            "topPx": 1082,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > div.flex.w-full",
+              "article.flex.w-full > div.flex.w-full"
+            ],
+            "h1Count": 0,
+            "note": "summary block + key takeaways block"
+          },
+          {
+            "section": "content.article-chapter-index",
+            "variant": "standard",
+            "heightPx": 327,
+            "topPx": 1766,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > div.flex.w-full"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.transcript-chapter",
+            "variant": "standard",
+            "heightPx": 664,
+            "topPx": 2094,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > div.flex.w-full ~part0"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.transcript-chapter",
+            "variant": "standard",
+            "heightPx": 1468,
+            "topPx": 2758,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > div.flex.w-full ~part1"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.transcript-chapter",
+            "variant": "standard",
+            "heightPx": 576,
+            "topPx": 4226,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > div.flex.w-full ~part2"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.transcript-chapter",
+            "variant": "standard",
+            "heightPx": 772,
+            "topPx": 4802,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > div.flex.w-full ~part3"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.transcript-chapter",
+            "variant": "standard",
+            "heightPx": 888,
+            "topPx": 5574,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > div.flex.w-full ~part4"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.transcript-chapter",
+            "variant": "standard",
+            "heightPx": 851,
+            "topPx": 6462,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > div.flex.w-full ~part5"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.transcript-chapter",
+            "variant": "standard",
+            "heightPx": 1352,
+            "topPx": 7313,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > div.flex.w-full ~part6"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.transcript-chapter",
+            "variant": "standard",
+            "heightPx": 463,
+            "topPx": 8665,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > div.flex.w-full ~part7"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.transcript-chapter",
+            "variant": "standard",
+            "heightPx": 1816,
+            "topPx": 9128,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > div.flex.w-full ~part8"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.transcript-chapter",
+            "variant": "standard",
+            "heightPx": 889,
+            "topPx": 10944,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > div.flex.w-full ~part9"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.transcript-chapter",
+            "variant": "standard",
+            "heightPx": 568,
+            "topPx": 11833,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > div.flex.w-full ~part10"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.article-faq",
+            "variant": "standard",
+            "heightPx": 898,
+            "topPx": 12401,
+            "inFlow": true,
+            "blocks": [
+              "article.flex.w-full > div.flex.w-full"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "cta.newsletter",
+            "variant": "conversations",
+            "heightPx": 604,
+            "topPx": 13299,
+            "inFlow": true,
+            "blocks": [
+              "section.relative.flex"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "shell.footer",
+            "variant": "standard",
+            "heightPx": 434,
+            "topPx": 13903,
+            "inFlow": true,
+            "blocks": [
+              "footer(global)"
+            ],
+            "h1Count": 0
+          }
+        ]
+      },
+      "/customers": {
+        "documentHeightPx": 4786,
+        "inFlowHeightPx": 4786,
+        "unattributedPx": 0,
+        "h1Total": 1,
+        "nodes": [
+          {
+            "section": "shell.navbar",
+            "variant": "standard",
+            "heightPx": 0,
+            "topPx": null,
+            "inFlow": false,
+            "blocks": [],
+            "h1Count": 0
+          },
+          {
+            "section": "hero.title-underline",
+            "variant": "customers",
+            "heightPx": 356,
+            "topPx": 0,
+            "inFlow": true,
+            "blocks": [
+              "div.ut.ut--customers"
+            ],
+            "h1Count": 1
+          },
+          {
+            "section": "stories.filter-grid",
+            "variant": "customers",
+            "heightPx": 2333,
+            "topPx": 356,
+            "inFlow": true,
+            "blocks": [
+              "section.sg-section"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "testimonials.wall-of-love",
+            "variant": "customers",
+            "heightPx": 972,
+            "topPx": 2689,
+            "inFlow": true,
+            "blocks": [
+              "section.wl-section"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "cta.main",
+            "variant": "no-fade",
+            "heightPx": 691,
+            "topPx": 3661,
+            "inFlow": true,
+            "blocks": [
+              "section.co-cta.co-cta--brands"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "shell.footer",
+            "variant": "standard",
+            "heightPx": 434,
+            "topPx": 4352,
+            "inFlow": true,
+            "blocks": [
+              "footer(global)"
+            ],
+            "h1Count": 0
+          }
+        ]
+      },
+      "/events": {
+        "documentHeightPx": 2120,
+        "inFlowHeightPx": 2120,
+        "unattributedPx": 0,
+        "h1Total": 1,
+        "nodes": [
+          {
+            "section": "shell.navbar",
+            "variant": "standard",
+            "heightPx": 0,
+            "topPx": null,
+            "inFlow": false,
+            "blocks": [],
+            "h1Count": 0
+          },
+          {
+            "section": "hero.title-underline",
+            "variant": "events",
+            "heightPx": 346,
+            "topPx": 0,
+            "inFlow": true,
+            "blocks": [
+              "div.ev-page > div.ut.ut--events"
+            ],
+            "h1Count": 1
+          },
+          {
+            "section": "events.empty-list",
+            "variant": "events",
+            "heightPx": 736,
+            "topPx": 346,
+            "inFlow": true,
+            "blocks": [
+              "div.ev-page > div.ev-list-wrap"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "cta.newsletter",
+            "variant": "events",
+            "heightPx": 604,
+            "topPx": 1082,
+            "inFlow": true,
+            "blocks": [
+              "section.ev-news"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "shell.footer",
+            "variant": "standard",
+            "heightPx": 434,
+            "topPx": 1686,
+            "inFlow": true,
+            "blocks": [
+              "footer(global)"
+            ],
+            "h1Count": 0
+          }
+        ]
+      },
+      "/insights": {
+        "documentHeightPx": 7942,
+        "inFlowHeightPx": 7941,
+        "unattributedPx": 1,
+        "h1Total": 1,
+        "nodes": [
+          {
+            "section": "shell.navbar",
+            "variant": "standard",
+            "heightPx": 0,
+            "topPx": null,
+            "inFlow": false,
+            "blocks": [],
+            "h1Count": 0
+          },
+          {
+            "section": "hero.insights",
+            "variant": "landing",
+            "heightPx": 658,
+            "topPx": 0,
+            "inFlow": true,
+            "blocks": [
+              "section.ins-hero.flex"
+            ],
+            "h1Count": 1
+          },
+          {
+            "section": "banner.announcement-strip",
+            "variant": "standard",
+            "heightPx": 177,
+            "topPx": 658,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "logos.static-row",
+            "variant": "standard",
+            "heightPx": 206,
+            "topPx": 835,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "feature.media-row",
+            "variant": "insights",
+            "heightPx": 672,
+            "topPx": 1041,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "feature.media-row",
+            "variant": "insights",
+            "heightPx": 672,
+            "topPx": 1713,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "feature.media-row",
+            "variant": "insights",
+            "heightPx": 672,
+            "topPx": 2385,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "feature.media-row",
+            "variant": "insights",
+            "heightPx": 672,
+            "topPx": 3057,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "feature.media-row",
+            "variant": "insights",
+            "heightPx": 672,
+            "topPx": 3729,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "integrations.logo-grid",
+            "variant": "insights",
+            "heightPx": 708,
+            "topPx": 4401,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "testimonial.centered-quote",
+            "variant": "standard",
+            "heightPx": 436,
+            "topPx": 5110,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "cta.agent-promo",
+            "variant": "insights",
+            "heightPx": 970,
+            "topPx": 5546,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "cta.demo-form",
+            "variant": "insights",
+            "heightPx": 992,
+            "topPx": 6516,
+            "inFlow": true,
+            "blocks": [
+              "section#book-a-demo.relative.flex"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "shell.footer",
+            "variant": "standard",
+            "heightPx": 434,
+            "topPx": 7508,
+            "inFlow": true,
+            "blocks": [
+              "footer(global)"
+            ],
+            "h1Count": 0
+          }
+        ]
+      },
+      "/insights/customer-feedback-analytics-software": {
+        "documentHeightPx": 7421,
+        "inFlowHeightPx": 7421,
+        "unattributedPx": 0,
+        "h1Total": 1,
+        "nodes": [
+          {
+            "section": "shell.navbar",
+            "variant": "standard",
+            "heightPx": 0,
+            "topPx": null,
+            "inFlow": false,
+            "blocks": [],
+            "h1Count": 0
+          },
+          {
+            "section": "hero.insights",
+            "variant": "subpage",
+            "heightPx": 610,
+            "topPx": 0,
+            "inFlow": true,
+            "blocks": [
+              "section.ins-hero.flex"
+            ],
+            "h1Count": 1
+          },
+          {
+            "section": "banner.announcement-strip",
+            "variant": "standard",
+            "heightPx": 177,
+            "topPx": 610,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "logos.static-row",
+            "variant": "standard",
+            "heightPx": 206,
+            "topPx": 787,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "feature.media-row",
+            "variant": "insights",
+            "heightPx": 672,
+            "topPx": 993,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "feature.media-row",
+            "variant": "insights",
+            "heightPx": 672,
+            "topPx": 1665,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "feature.media-row",
+            "variant": "insights",
+            "heightPx": 672,
+            "topPx": 2337,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "feature.media-row",
+            "variant": "insights",
+            "heightPx": 672,
+            "topPx": 3009,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "feature.media-row",
+            "variant": "insights",
+            "heightPx": 672,
+            "topPx": 3681,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "feature.media-row",
+            "variant": "insights",
+            "heightPx": 672,
+            "topPx": 4353,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "cta.agent-promo",
+            "variant": "insights",
+            "heightPx": 970,
+            "topPx": 5025,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "cta.demo-form",
+            "variant": "insights",
+            "heightPx": 992,
+            "topPx": 5995,
+            "inFlow": true,
+            "blocks": [
+              "section#book-a-demo.relative.flex"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "shell.footer",
+            "variant": "standard",
+            "heightPx": 434,
+            "topPx": 6986,
+            "inFlow": true,
+            "blocks": [
+              "footer(global)"
+            ],
+            "h1Count": 0
+          }
+        ]
+      },
+      "/insights/sentiment-analysis-online": {
+        "documentHeightPx": 6634,
+        "inFlowHeightPx": 6633,
+        "unattributedPx": 1,
+        "h1Total": 1,
+        "nodes": [
+          {
+            "section": "shell.navbar",
+            "variant": "standard",
+            "heightPx": 0,
+            "topPx": null,
+            "inFlow": false,
+            "blocks": [],
+            "h1Count": 0
+          },
+          {
+            "section": "hero.insights",
+            "variant": "subpage",
+            "heightPx": 694,
+            "topPx": 0,
+            "inFlow": true,
+            "blocks": [
+              "section.ins-hero.flex"
+            ],
+            "h1Count": 1
+          },
+          {
+            "section": "banner.announcement-strip",
+            "variant": "standard",
+            "heightPx": 177,
+            "topPx": 694,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "logos.static-row",
+            "variant": "standard",
+            "heightPx": 206,
+            "topPx": 871,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "feature.media-row",
+            "variant": "insights",
+            "heightPx": 672,
+            "topPx": 1077,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "feature.media-row",
+            "variant": "insights",
+            "heightPx": 672,
+            "topPx": 1749,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "feature.media-row",
+            "variant": "insights",
+            "heightPx": 672,
+            "topPx": 2421,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "integrations.logo-grid",
+            "variant": "insights",
+            "heightPx": 708,
+            "topPx": 3093,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "testimonial.centered-quote",
+            "variant": "standard",
+            "heightPx": 436,
+            "topPx": 3802,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "cta.agent-promo",
+            "variant": "insights",
+            "heightPx": 970,
+            "topPx": 4238,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "cta.demo-form",
+            "variant": "insights",
+            "heightPx": 992,
+            "topPx": 5208,
+            "inFlow": true,
+            "blocks": [
+              "section#book-a-demo.relative.flex"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "shell.footer",
+            "variant": "standard",
+            "heightPx": 434,
+            "topPx": 6200,
+            "inFlow": true,
+            "blocks": [
+              "footer(global)"
+            ],
+            "h1Count": 0
+          }
+        ]
+      },
+      "/insights/voice-of-customer-software": {
+        "documentHeightPx": 7234,
+        "inFlowHeightPx": 7233,
+        "unattributedPx": 1,
+        "h1Total": 1,
+        "nodes": [
+          {
+            "section": "shell.navbar",
+            "variant": "standard",
+            "heightPx": 0,
+            "topPx": null,
+            "inFlow": false,
+            "blocks": [],
+            "h1Count": 0
+          },
+          {
+            "section": "hero.insights",
+            "variant": "subpage",
+            "heightPx": 622,
+            "topPx": 0,
+            "inFlow": true,
+            "blocks": [
+              "section.ins-hero.flex"
+            ],
+            "h1Count": 1
+          },
+          {
+            "section": "banner.announcement-strip",
+            "variant": "standard",
+            "heightPx": 177,
+            "topPx": 622,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "logos.static-row",
+            "variant": "standard",
+            "heightPx": 206,
+            "topPx": 799,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "feature.media-row",
+            "variant": "insights",
+            "heightPx": 672,
+            "topPx": 1005,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "feature.media-row",
+            "variant": "insights",
+            "heightPx": 672,
+            "topPx": 1677,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "feature.media-row",
+            "variant": "insights",
+            "heightPx": 672,
+            "topPx": 2349,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "feature.media-row",
+            "variant": "insights",
+            "heightPx": 672,
+            "topPx": 3021,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "integrations.logo-grid",
+            "variant": "insights",
+            "heightPx": 708,
+            "topPx": 3693,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "testimonial.centered-quote",
+            "variant": "standard",
+            "heightPx": 436,
+            "topPx": 4401,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "cta.agent-promo",
+            "variant": "insights",
+            "heightPx": 970,
+            "topPx": 4838,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "cta.demo-form",
+            "variant": "insights",
+            "heightPx": 992,
+            "topPx": 5808,
+            "inFlow": true,
+            "blocks": [
+              "section#book-a-demo.relative.flex"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "shell.footer",
+            "variant": "standard",
+            "heightPx": 434,
+            "topPx": 6799,
+            "inFlow": true,
+            "blocks": [
+              "footer(global)"
+            ],
+            "h1Count": 0
+          }
+        ]
+      },
+      "/memory": {
+        "documentHeightPx": 6096,
+        "inFlowHeightPx": 6096,
+        "unattributedPx": 0,
+        "h1Total": 1,
+        "nodes": [
+          {
+            "section": "shell.navbar",
+            "variant": "standard",
+            "heightPx": 0,
+            "topPx": null,
+            "inFlow": false,
+            "blocks": [],
+            "h1Count": 0
+          },
+          {
+            "section": "hero.product-photo",
+            "variant": "memory",
+            "heightPx": 900,
+            "topPx": 0,
+            "inFlow": true,
+            "blocks": [
+              "section.mh-hero"
+            ],
+            "h1Count": 1
+          },
+          {
+            "section": "feature.media-row",
+            "variant": "memory",
+            "heightPx": 828,
+            "topPx": 900,
+            "inFlow": true,
+            "blocks": [
+              "section.mf-section"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "feature.media-row",
+            "variant": "memory",
+            "heightPx": 828,
+            "topPx": 1728,
+            "inFlow": true,
+            "blocks": [
+              "section.mf-section.mf-section--2"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "steps.how-it-works",
+            "variant": "memory",
+            "heightPx": 733,
+            "topPx": 2556,
+            "inFlow": true,
+            "blocks": [
+              "section.mw-section"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "carousel.memory-in-action",
+            "variant": "memory",
+            "heightPx": 1682,
+            "topPx": 3289,
+            "inFlow": true,
+            "blocks": [
+              "section.ma-section"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "cta.main",
+            "variant": "sand-fade",
+            "heightPx": 691,
+            "topPx": 4971,
+            "inFlow": true,
+            "blocks": [
+              "section.pb-cta.pb-cta--compact"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "shell.footer",
+            "variant": "standard",
+            "heightPx": 434,
+            "topPx": 5661,
+            "inFlow": true,
+            "blocks": [
+              "footer(global)"
+            ],
+            "h1Count": 0
+          }
+        ]
+      },
+      "/order-tracking": {
+        "documentHeightPx": 5949,
+        "inFlowHeightPx": 5789,
+        "unattributedPx": 160,
+        "h1Total": 1,
+        "nodes": [
+          {
+            "section": "shell.navbar",
+            "variant": "standard",
+            "heightPx": 0,
+            "topPx": null,
+            "inFlow": false,
+            "blocks": [],
+            "h1Count": 0
+          },
+          {
+            "section": "hero.order-orbits",
+            "variant": "order-tracking",
+            "heightPx": 1250,
+            "topPx": 0,
+            "inFlow": true,
+            "blocks": [
+              "section.oh-hero"
+            ],
+            "h1Count": 1
+          },
+          {
+            "section": "logos.ticker-block",
+            "variant": "single-row",
+            "heightPx": 44,
+            "topPx": 1250,
+            "inFlow": true,
+            "blocks": [
+              "section.pb-ticker.pb-ticker--plain"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "feature.sticky-scroll",
+            "variant": "product",
+            "heightPx": 1920,
+            "topPx": 1454,
+            "inFlow": true,
+            "blocks": [
+              "div.vf-title.ot-ftitle",
+              "section.ss-section.ot-ss"
+            ],
+            "h1Count": 0,
+            "note": "title block + sticky scroll area"
+          },
+          {
+            "section": "feature.pipeline",
+            "variant": "order-tracking",
+            "heightPx": 549,
+            "topPx": 3374,
+            "inFlow": true,
+            "blocks": [
+              "section.op-section"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "faq.accordion",
+            "variant": "product",
+            "heightPx": 837,
+            "topPx": 3923,
+            "inFlow": true,
+            "blocks": [
+              "section.pb-faq.ot-faq"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "cta.main",
+            "variant": "white-fade",
+            "heightPx": 755,
+            "topPx": 4760,
+            "inFlow": true,
+            "blocks": [
+              "section.pb-cta"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "shell.footer",
+            "variant": "standard",
+            "heightPx": 434,
+            "topPx": 5514,
+            "inFlow": true,
+            "blocks": [
+              "footer(global)"
+            ],
+            "h1Count": 0
+          }
+        ]
+      },
+      "/partner-with-siena": {
+        "documentHeightPx": 5092,
+        "inFlowHeightPx": 5091,
+        "unattributedPx": 1,
+        "h1Total": 1,
+        "nodes": [
+          {
+            "section": "shell.navbar",
+            "variant": "standard",
+            "heightPx": 0,
+            "topPx": null,
+            "inFlow": false,
+            "blocks": [],
+            "h1Count": 0
+          },
+          {
+            "section": "hero.partner",
+            "variant": "partner",
+            "heightPx": 1552,
+            "topPx": 0,
+            "inFlow": true,
+            "blocks": [
+              "section.pw-hero"
+            ],
+            "h1Count": 1
+          },
+          {
+            "section": "integrations.logo-grid",
+            "variant": "partner-groups",
+            "heightPx": 1241,
+            "topPx": 1552,
+            "inFlow": true,
+            "blocks": [
+              "section.pw-partners"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "testimonials.slider",
+            "variant": "panel",
+            "heightPx": 1174,
+            "topPx": 2793,
+            "inFlow": true,
+            "blocks": [
+              "section.cs.cs--partner"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "cta.main",
+            "variant": "metrics-image",
+            "heightPx": 690,
+            "topPx": 3967,
+            "inFlow": true,
+            "blocks": [
+              "section.co-cta.co-cta--partner"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "overlay.partner-modal",
+            "variant": "partner",
+            "heightPx": 0,
+            "topPx": null,
+            "inFlow": false,
+            "blocks": [],
+            "h1Count": 0,
+            "note": "portal modal: fixed overlay, opened by a button, no in-flow height"
+          },
+          {
+            "section": "shell.footer",
+            "variant": "standard",
+            "heightPx": 434,
+            "topPx": 4657,
+            "inFlow": true,
+            "blocks": [
+              "footer(global)"
+            ],
+            "h1Count": 0
+          }
+        ]
+      },
+      "/pricing": {
+        "documentHeightPx": 2925,
+        "inFlowHeightPx": 2925,
+        "unattributedPx": 0,
+        "h1Total": 1,
+        "nodes": [
+          {
+            "section": "shell.lead-header",
+            "variant": "standard",
+            "heightPx": 0,
+            "topPx": null,
+            "inFlow": false,
+            "blocks": [],
+            "h1Count": 0,
+            "note": "absolutely positioned over the hero (scrolls away): no in-flow height"
+          },
+          {
+            "section": "hero.lead-form",
+            "variant": "pricing",
+            "heightPx": 708,
+            "topPx": 0,
+            "inFlow": true,
+            "blocks": [
+              "section.cv-lead-hero.cv-lead-hero--pricing"
+            ],
+            "h1Count": 1
+          },
+          {
+            "section": "features.icon-grid",
+            "variant": "pricing",
+            "heightPx": 540,
+            "topPx": 708,
+            "inFlow": true,
+            "blocks": [
+              "section.cv-how"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "testimonials.slider",
+            "variant": "panel",
+            "heightPx": 820,
+            "topPx": 1248,
+            "inFlow": true,
+            "blocks": [
+              "section.cvt.cvt--pricing"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "trust.enterprise",
+            "variant": "pricing",
+            "heightPx": 760,
+            "topPx": 2068,
+            "inFlow": true,
+            "blocks": [
+              "section.cv-ent"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "shell.legal-row",
+            "variant": "standard",
+            "heightPx": 97,
+            "topPx": 2828,
+            "inFlow": true,
+            "blocks": [
+              "footer.cv-legal"
+            ],
+            "h1Count": 0
+          }
+        ]
+      },
+      "/privacy-policy": {
+        "documentHeightPx": 14231,
+        "inFlowHeightPx": 14231,
+        "unattributedPx": 0,
+        "h1Total": 1,
+        "nodes": [
+          {
+            "section": "shell.navbar",
+            "variant": "standard",
+            "heightPx": 0,
+            "topPx": null,
+            "inFlow": false,
+            "blocks": [],
+            "h1Count": 0
+          },
+          {
+            "section": "content.legal-header",
+            "variant": "standard",
+            "heightPx": 392,
+            "topPx": 0,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full > div.flex.w-full"
+            ],
+            "h1Count": 1
+          },
+          {
+            "section": "content.legal-section",
+            "variant": "privacy",
+            "heightPx": 224,
+            "topPx": 392,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full > div.lg-rt ~part0"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.legal-section",
+            "variant": "privacy",
+            "heightPx": 1112,
+            "topPx": 616,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full > div.lg-rt ~part1"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.legal-section",
+            "variant": "privacy",
+            "heightPx": 2343,
+            "topPx": 1728,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full > div.lg-rt ~part2"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.legal-section",
+            "variant": "privacy",
+            "heightPx": 658,
+            "topPx": 4071,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full > div.lg-rt ~part3"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.legal-section",
+            "variant": "privacy",
+            "heightPx": 1232,
+            "topPx": 4729,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full > div.lg-rt ~part4"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.legal-section",
+            "variant": "privacy",
+            "heightPx": 829,
+            "topPx": 5961,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full > div.lg-rt ~part5"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.legal-section",
+            "variant": "privacy",
+            "heightPx": 1333,
+            "topPx": 6790,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full > div.lg-rt ~part6"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.legal-section",
+            "variant": "privacy",
+            "heightPx": 1072,
+            "topPx": 8123,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full > div.lg-rt ~part7"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.legal-section",
+            "variant": "privacy",
+            "heightPx": 1620,
+            "topPx": 9195,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full > div.lg-rt ~part8"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.legal-section",
+            "variant": "privacy",
+            "heightPx": 197,
+            "topPx": 10815,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full > div.lg-rt ~part9"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.legal-section",
+            "variant": "privacy",
+            "heightPx": 197,
+            "topPx": 11012,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full > div.lg-rt ~part10"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.legal-section",
+            "variant": "privacy",
+            "heightPx": 174,
+            "topPx": 11209,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full > div.lg-rt ~part11"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.legal-section",
+            "variant": "privacy",
+            "heightPx": 1767,
+            "topPx": 11383,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full > div.lg-rt ~part12"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.legal-section",
+            "variant": "privacy",
+            "heightPx": 197,
+            "topPx": 13150,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full > div.lg-rt ~part13"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.legal-section",
+            "variant": "privacy",
+            "heightPx": 193,
+            "topPx": 13347,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full > div.lg-rt ~part14"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.legal-section",
+            "variant": "privacy",
+            "heightPx": 257,
+            "topPx": 13540,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full > div.lg-rt ~part15"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "shell.footer",
+            "variant": "standard",
+            "heightPx": 434,
+            "topPx": 13797,
+            "inFlow": true,
+            "blocks": [
+              "footer(global)"
+            ],
+            "h1Count": 0
+          }
+        ]
+      },
+      "/products/docs": {
+        "documentHeightPx": 7325,
+        "inFlowHeightPx": 7325,
+        "unattributedPx": 0,
+        "h1Total": 1,
+        "nodes": [
+          {
+            "section": "shell.navbar",
+            "variant": "standard",
+            "heightPx": 0,
+            "topPx": null,
+            "inFlow": false,
+            "blocks": [],
+            "h1Count": 0
+          },
+          {
+            "section": "hero.docs",
+            "variant": "docs",
+            "heightPx": 1016,
+            "topPx": 0,
+            "inFlow": true,
+            "blocks": [
+              "section.dh-hero"
+            ],
+            "h1Count": 1
+          },
+          {
+            "section": "feature.sticky-scroll",
+            "variant": "docs-single",
+            "heightPx": 900,
+            "topPx": 1016,
+            "inFlow": true,
+            "blocks": [
+              "section.do-section"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "feature.change-once",
+            "variant": "docs",
+            "heightPx": 676,
+            "topPx": 1916,
+            "inFlow": true,
+            "blocks": [
+              "section.dcc-section"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "bento.grid",
+            "variant": "docs",
+            "heightPx": 1085,
+            "topPx": 2592,
+            "inFlow": true,
+            "blocks": [
+              "section.db-section"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "comparison.before-after",
+            "variant": "docs",
+            "heightPx": 779,
+            "topPx": 3677,
+            "inFlow": true,
+            "blocks": [
+              "section.dbw-section"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "testimonials.slider",
+            "variant": "panel-static",
+            "heightPx": 804,
+            "topPx": 4456,
+            "inFlow": true,
+            "blocks": [
+              "section.dtm-section"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "faq.accordion",
+            "variant": "product",
+            "heightPx": 876,
+            "topPx": 5260,
+            "inFlow": true,
+            "blocks": [
+              "section.pb-faq.docs-faq"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "cta.main",
+            "variant": "white-fade",
+            "heightPx": 755,
+            "topPx": 6136,
+            "inFlow": true,
+            "blocks": [
+              "section.pb-cta"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "shell.footer",
+            "variant": "standard",
+            "heightPx": 434,
+            "topPx": 6891,
+            "inFlow": true,
+            "blocks": [
+              "footer(global)"
+            ],
+            "h1Count": 0
+          }
+        ]
+      },
+      "/qa-agent": {
+        "documentHeightPx": 8400,
+        "inFlowHeightPx": 8399,
+        "unattributedPx": 1,
+        "h1Total": 1,
+        "nodes": [
+          {
+            "section": "shell.navbar",
+            "variant": "standard",
+            "heightPx": 0,
+            "topPx": null,
+            "inFlow": false,
+            "blocks": [],
+            "h1Count": 0
+          },
+          {
+            "section": "hero.product-split",
+            "variant": "qa",
+            "heightPx": 744,
+            "topPx": 0,
+            "inFlow": true,
+            "blocks": [
+              "section.ph-hero.ph--qa"
+            ],
+            "h1Count": 1
+          },
+          {
+            "section": "logos.ticker-block",
+            "variant": "two-row",
+            "heightPx": 96,
+            "topPx": 744,
+            "inFlow": true,
+            "blocks": [
+              "div.pa-logos"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "coverage.criteria",
+            "variant": "qa",
+            "heightPx": 864,
+            "topPx": 840,
+            "inFlow": true,
+            "blocks": [
+              "section.qc-section"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "testimonials.slider",
+            "variant": "panel-static",
+            "heightPx": 804,
+            "topPx": 1704,
+            "inFlow": true,
+            "blocks": [
+              "section.pt-section.pt--qaA"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "leaderboard.static",
+            "variant": "qa",
+            "heightPx": 951,
+            "topPx": 2508,
+            "inFlow": true,
+            "blocks": [
+              "section.ql-section"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "cards.hover-media",
+            "variant": "qa",
+            "heightPx": 758,
+            "topPx": 3459,
+            "inFlow": true,
+            "blocks": [
+              "section.qa-act"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "mockup.ask-siena",
+            "variant": "qa",
+            "heightPx": 746,
+            "topPx": 4218,
+            "inFlow": true,
+            "blocks": [
+              "section.qm-section.qm--qa"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "comparison.before-after",
+            "variant": "qa",
+            "heightPx": 686,
+            "topPx": 4964,
+            "inFlow": true,
+            "blocks": [
+              "section.pa-ba.pa-ba--qa"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "testimonials.slider",
+            "variant": "panel-static",
+            "heightPx": 804,
+            "topPx": 5650,
+            "inFlow": true,
+            "blocks": [
+              "section.pt-section.pt--qaB"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "faq.accordion",
+            "variant": "product",
+            "heightPx": 757,
+            "topPx": 6454,
+            "inFlow": true,
+            "blocks": [
+              "section.pa-faq.pa-faq--qa"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "cta.main",
+            "variant": "white-fade",
+            "heightPx": 755,
+            "topPx": 7211,
+            "inFlow": true,
+            "blocks": [
+              "section.pa-cta.pa-cta--qa"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "shell.footer",
+            "variant": "standard",
+            "heightPx": 434,
+            "topPx": 7965,
+            "inFlow": true,
+            "blocks": [
+              "footer(global)"
+            ],
+            "h1Count": 0
+          }
+        ]
+      },
+      "/refer-a-friend": {
+        "documentHeightPx": 3703,
+        "inFlowHeightPx": 3703,
+        "unattributedPx": 0,
+        "h1Total": 1,
+        "nodes": [
+          {
+            "section": "shell.navbar",
+            "variant": "standard",
+            "heightPx": 0,
+            "topPx": null,
+            "inFlow": false,
+            "blocks": [],
+            "h1Count": 0
+          },
+          {
+            "section": "hero.referral",
+            "variant": "refer",
+            "heightPx": 865,
+            "topPx": 0,
+            "inFlow": true,
+            "blocks": [
+              "section.rf-hero"
+            ],
+            "h1Count": 1
+          },
+          {
+            "section": "features.icon-grid",
+            "variant": "refer",
+            "heightPx": 539,
+            "topPx": 865,
+            "inFlow": true,
+            "blocks": [
+              "section.rf-criteria"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "testimonials.slider",
+            "variant": "panel",
+            "heightPx": 1174,
+            "topPx": 1404,
+            "inFlow": true,
+            "blocks": [
+              "section.cs.cs--refer"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "cta.main",
+            "variant": "no-fade",
+            "heightPx": 691,
+            "topPx": 2578,
+            "inFlow": true,
+            "blocks": [
+              "section.co-cta.co-cta--brands"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "shell.footer",
+            "variant": "standard",
+            "heightPx": 434,
+            "topPx": 3269,
+            "inFlow": true,
+            "blocks": [
+              "footer(global)"
+            ],
+            "h1Count": 0
+          }
+        ]
+      },
+      "/roi-calculator": {
+        "documentHeightPx": 3480,
+        "inFlowHeightPx": 3480,
+        "unattributedPx": 0,
+        "h1Total": 1,
+        "nodes": [
+          {
+            "section": "shell.navbar",
+            "variant": "standard",
+            "heightPx": 0,
+            "topPx": null,
+            "inFlow": false,
+            "blocks": [],
+            "h1Count": 0
+          },
+          {
+            "section": "hero.roi",
+            "variant": "roi",
+            "heightPx": 1013,
+            "topPx": 0,
+            "inFlow": true,
+            "blocks": [
+              "section.rh-hero"
+            ],
+            "h1Count": 1
+          },
+          {
+            "section": "testimonials.slider",
+            "variant": "titled",
+            "heightPx": 1342,
+            "topPx": 1013,
+            "inFlow": true,
+            "blocks": [
+              "section.rt-section"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "cta.main",
+            "variant": "no-fade",
+            "heightPx": 691,
+            "topPx": 2355,
+            "inFlow": true,
+            "blocks": [
+              "section.pb-cta"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "shell.footer",
+            "variant": "standard",
+            "heightPx": 434,
+            "topPx": 3046,
+            "inFlow": true,
+            "blocks": [
+              "footer(global)"
+            ],
+            "h1Count": 0
+          }
+        ]
+      },
+      "/shopping-agent": {
+        "documentHeightPx": 9150,
+        "inFlowHeightPx": 9150,
+        "unattributedPx": 0,
+        "h1Total": 1,
+        "nodes": [
+          {
+            "section": "shell.navbar",
+            "variant": "standard",
+            "heightPx": 0,
+            "topPx": null,
+            "inFlow": false,
+            "blocks": [],
+            "h1Count": 0
+          },
+          {
+            "section": "hero.product-split",
+            "variant": "shopping",
+            "heightPx": 1026,
+            "topPx": 0,
+            "inFlow": true,
+            "blocks": [
+              "section.sh-hero"
+            ],
+            "h1Count": 1
+          },
+          {
+            "section": "testimonials.slider",
+            "variant": "panel",
+            "heightPx": 868,
+            "topPx": 1026,
+            "inFlow": true,
+            "blocks": [
+              "section.pt-section.pt--shopping"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "heading.section-title",
+            "variant": "product",
+            "heightPx": 190,
+            "topPx": 1894,
+            "inFlow": true,
+            "blocks": [
+              "div.sa-title-block"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "feature.sticky-scroll",
+            "variant": "shopping-steps",
+            "heightPx": 2600,
+            "topPx": 2084,
+            "inFlow": true,
+            "blocks": [
+              "section.ss-section"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "agents.expert-team",
+            "variant": "shopping",
+            "heightPx": 1265,
+            "topPx": 4684,
+            "inFlow": true,
+            "blocks": [
+              "section.ea-section"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "media.reveal-pair",
+            "variant": "shopping",
+            "heightPx": 2076,
+            "topPx": 5949,
+            "inFlow": true,
+            "blocks": [
+              "section.ct-section"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "cta.main",
+            "variant": "no-fade",
+            "heightPx": 691,
+            "topPx": 8025,
+            "inFlow": true,
+            "blocks": [
+              "section.pa-cta.pa-cta--shopping"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "shell.footer",
+            "variant": "standard",
+            "heightPx": 434,
+            "topPx": 8716,
+            "inFlow": true,
+            "blocks": [
+              "footer(global)"
+            ],
+            "h1Count": 0
+          }
+        ]
+      },
+      "/social-agent": {
+        "documentHeightPx": 14079,
+        "inFlowHeightPx": 14078,
+        "unattributedPx": 1,
+        "h1Total": 1,
+        "nodes": [
+          {
+            "section": "shell.navbar",
+            "variant": "forced-scrolled",
+            "heightPx": 0,
+            "topPx": null,
+            "inFlow": false,
+            "blocks": [],
+            "h1Count": 0
+          },
+          {
+            "section": "hero.product-split",
+            "variant": "social",
+            "heightPx": 752,
+            "topPx": 0,
+            "inFlow": true,
+            "blocks": [
+              "section.ph-hero.ph--social"
+            ],
+            "h1Count": 1
+          },
+          {
+            "section": "logos.ticker-block",
+            "variant": "two-row",
+            "heightPx": 96,
+            "topPx": 752,
+            "inFlow": true,
+            "blocks": [
+              "div.pa-logos"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "feature.pill-nav-blocks",
+            "variant": "social",
+            "heightPx": 8291,
+            "topPx": 848,
+            "inFlow": true,
+            "blocks": [
+              "section.sf-section"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "bento.grid",
+            "variant": "social",
+            "heightPx": 1317,
+            "topPx": 9139,
+            "inFlow": true,
+            "blocks": [
+              "section.mb-section"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "faq.accordion",
+            "variant": "product",
+            "heightPx": 915,
+            "topPx": 10457,
+            "inFlow": true,
+            "blocks": [
+              "section.pa-faq.pa-faq--social"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "integrations.logo-grid",
+            "variant": "product",
+            "heightPx": 758,
+            "topPx": 11372,
+            "inFlow": true,
+            "blocks": [
+              "section.pa-int.pa-int--social"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "trust.enterprise",
+            "variant": "product",
+            "heightPx": 760,
+            "topPx": 12130,
+            "inFlow": true,
+            "blocks": [
+              "section.pa-ent.pa-ent--social"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "cta.main",
+            "variant": "dark-fade",
+            "heightPx": 755,
+            "topPx": 12890,
+            "inFlow": true,
+            "blocks": [
+              "section.pa-cta.pa-cta--social"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "shell.footer",
+            "variant": "standard",
+            "heightPx": 434,
+            "topPx": 13644,
+            "inFlow": true,
+            "blocks": [
+              "footer(global)"
+            ],
+            "h1Count": 0
+          }
+        ]
+      },
+      "/terms-of-service": {
+        "documentHeightPx": 16613,
+        "inFlowHeightPx": 16612,
+        "unattributedPx": 1,
+        "h1Total": 1,
+        "nodes": [
+          {
+            "section": "shell.navbar",
+            "variant": "standard",
+            "heightPx": 0,
+            "topPx": null,
+            "inFlow": false,
+            "blocks": [],
+            "h1Count": 0
+          },
+          {
+            "section": "content.legal-header",
+            "variant": "standard",
+            "heightPx": 392,
+            "topPx": 0,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full > div.flex.w-full"
+            ],
+            "h1Count": 1
+          },
+          {
+            "section": "content.legal-section",
+            "variant": "terms",
+            "heightPx": 635,
+            "topPx": 392,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full > div.lg-rt ~part0"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.legal-section",
+            "variant": "terms",
+            "heightPx": 140,
+            "topPx": 1027,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full > div.lg-rt ~part1"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.legal-section",
+            "variant": "terms",
+            "heightPx": 732,
+            "topPx": 1167,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full > div.lg-rt ~part2"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.legal-section",
+            "variant": "terms",
+            "heightPx": 846,
+            "topPx": 1899,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full > div.lg-rt ~part3"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.legal-section",
+            "variant": "terms",
+            "heightPx": 388,
+            "topPx": 2745,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full > div.lg-rt ~part4"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.legal-section",
+            "variant": "terms",
+            "heightPx": 621,
+            "topPx": 3133,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full > div.lg-rt ~part5"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.legal-section",
+            "variant": "terms",
+            "heightPx": 966,
+            "topPx": 3754,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full > div.lg-rt ~part6"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.legal-section",
+            "variant": "terms",
+            "heightPx": 719,
+            "topPx": 4720,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full > div.lg-rt ~part7"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.legal-section",
+            "variant": "terms",
+            "heightPx": 735,
+            "topPx": 5439,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full > div.lg-rt ~part8"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.legal-section",
+            "variant": "terms",
+            "heightPx": 211,
+            "topPx": 6174,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full > div.lg-rt ~part9"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.legal-section",
+            "variant": "terms",
+            "heightPx": 548,
+            "topPx": 6385,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full > div.lg-rt ~part10"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.legal-section",
+            "variant": "terms",
+            "heightPx": 418,
+            "topPx": 6933,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full > div.lg-rt ~part11"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.legal-section",
+            "variant": "terms",
+            "heightPx": 485,
+            "topPx": 7351,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full > div.lg-rt ~part12"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.legal-section",
+            "variant": "terms",
+            "heightPx": 210,
+            "topPx": 7836,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full > div.lg-rt ~part13"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.legal-section",
+            "variant": "terms",
+            "heightPx": 281,
+            "topPx": 8046,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full > div.lg-rt ~part14"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.legal-section",
+            "variant": "terms",
+            "heightPx": 187,
+            "topPx": 8327,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full > div.lg-rt ~part15"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.legal-section",
+            "variant": "terms",
+            "heightPx": 254,
+            "topPx": 8514,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full > div.lg-rt ~part16"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.legal-section",
+            "variant": "terms",
+            "heightPx": 208,
+            "topPx": 8768,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full > div.lg-rt ~part17"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.legal-section",
+            "variant": "terms",
+            "heightPx": 461,
+            "topPx": 8976,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full > div.lg-rt ~part18"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.legal-section",
+            "variant": "terms",
+            "heightPx": 357,
+            "topPx": 9437,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full > div.lg-rt ~part19"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.legal-section",
+            "variant": "terms",
+            "heightPx": 2765,
+            "topPx": 9794,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full > div.lg-rt ~part20"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.legal-section",
+            "variant": "terms",
+            "heightPx": 1677,
+            "topPx": 12559,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full > div.lg-rt ~part21"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "content.legal-section",
+            "variant": "terms",
+            "heightPx": 1942,
+            "topPx": 14236,
+            "inFlow": true,
+            "blocks": [
+              "section.flex.w-full > div.lg-rt ~part22"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "shell.footer",
+            "variant": "standard",
+            "heightPx": 434,
+            "topPx": 16178,
+            "inFlow": true,
+            "blocks": [
+              "footer(global)"
+            ],
+            "h1Count": 0
+          }
+        ]
+      },
+      "/topics-explorer": {
+        "documentHeightPx": 8165,
+        "inFlowHeightPx": 8164,
+        "unattributedPx": 1,
+        "h1Total": 1,
+        "nodes": [
+          {
+            "section": "shell.navbar",
+            "variant": "standard",
+            "heightPx": 0,
+            "topPx": null,
+            "inFlow": false,
+            "blocks": [],
+            "h1Count": 0
+          },
+          {
+            "section": "hero.product-split",
+            "variant": "topics",
+            "heightPx": 760,
+            "topPx": 0,
+            "inFlow": true,
+            "blocks": [
+              "section.ph-hero.ph--topics"
+            ],
+            "h1Count": 1
+          },
+          {
+            "section": "logos.ticker-block",
+            "variant": "two-row",
+            "heightPx": 96,
+            "topPx": 760,
+            "inFlow": true,
+            "blocks": [
+              "div.pa-logos"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "heading.section-title",
+            "variant": "product",
+            "heightPx": 414,
+            "topPx": 856,
+            "inFlow": true,
+            "blocks": [
+              "section.tf-section > div.pa-title.pa-title--center"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "feature.media-row",
+            "variant": "topics",
+            "heightPx": 944,
+            "topPx": 1270,
+            "inFlow": true,
+            "blocks": [
+              "section.tf-section > div.tf-scroll ~part0"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "feature.media-row",
+            "variant": "topics",
+            "heightPx": 800,
+            "topPx": 2214,
+            "inFlow": true,
+            "blocks": [
+              "section.tf-section > div.tf-scroll ~part1"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "testimonials.slider",
+            "variant": "panel-static",
+            "heightPx": 804,
+            "topPx": 3014,
+            "inFlow": true,
+            "blocks": [
+              "section.pt-section.pt--topics"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "mockup.ask-siena",
+            "variant": "topics",
+            "heightPx": 765,
+            "topPx": 3818,
+            "inFlow": true,
+            "blocks": [
+              "section.qm-section.qm--topics"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "cards.hover-media",
+            "variant": "topics",
+            "heightPx": 746,
+            "topPx": 4583,
+            "inFlow": true,
+            "blocks": [
+              "section.ta-section"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "comparison.before-after",
+            "variant": "topics",
+            "heightPx": 790,
+            "topPx": 5330,
+            "inFlow": true,
+            "blocks": [
+              "section.pa-ba.pa-ba--topics"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "faq.accordion",
+            "variant": "product",
+            "heightPx": 856,
+            "topPx": 6120,
+            "inFlow": true,
+            "blocks": [
+              "section.pa-faq.pa-faq--topics"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "cta.main",
+            "variant": "white-fade",
+            "heightPx": 755,
+            "topPx": 6976,
+            "inFlow": true,
+            "blocks": [
+              "section.pa-cta.pa-cta--topics"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "shell.footer",
+            "variant": "standard",
+            "heightPx": 434,
+            "topPx": 7730,
+            "inFlow": true,
+            "blocks": [
+              "footer(global)"
+            ],
+            "h1Count": 0
+          }
+        ]
+      },
+      "/video": {
+        "documentHeightPx": 6332,
+        "inFlowHeightPx": 6252,
+        "unattributedPx": 80,
+        "h1Total": 1,
+        "nodes": [
+          {
+            "section": "shell.navbar",
+            "variant": "standard",
+            "heightPx": 0,
+            "topPx": null,
+            "inFlow": false,
+            "blocks": [],
+            "h1Count": 0
+          },
+          {
+            "section": "hero.video-mock",
+            "variant": "video",
+            "heightPx": 1216,
+            "topPx": 0,
+            "inFlow": true,
+            "blocks": [
+              "section.vh-hero"
+            ],
+            "h1Count": 1
+          },
+          {
+            "section": "feature.sticky-scroll",
+            "variant": "product",
+            "heightPx": 2830,
+            "topPx": 1296,
+            "inFlow": true,
+            "blocks": [
+              "div.vf-title",
+              "section.ss-section"
+            ],
+            "h1Count": 0,
+            "note": "title block + sticky scroll area"
+          },
+          {
+            "section": "steps.how-it-works",
+            "variant": "video",
+            "heightPx": 1017,
+            "topPx": 4126,
+            "inFlow": true,
+            "blocks": [
+              "section.vw-section"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "quirk.phone-empty-block",
+            "variant": "video",
+            "heightPx": 0,
+            "topPx": null,
+            "inFlow": false,
+            "blocks": [],
+            "h1Count": 0,
+            "note": "phone-only block: display none at 1440 (replicates the live empty block at phone width only)"
+          },
+          {
+            "section": "cta.main",
+            "variant": "no-fade",
+            "heightPx": 755,
+            "topPx": 5143,
+            "inFlow": true,
+            "blocks": [
+              "section.pb-cta.vc-cta"
+            ],
+            "h1Count": 0
+          },
+          {
+            "section": "shell.footer",
+            "variant": "standard",
+            "heightPx": 434,
+            "topPx": 5898,
+            "inFlow": true,
+            "blocks": [
+              "footer(global)"
+            ],
+            "h1Count": 0
+          }
+        ]
+      }
+    },
+    "gate": {
+      "heroWarnPx": 1800,
+      "heroFailPx": 3000,
+      "shareWarn": 0.5,
+      "minJaccard": 0.6,
+      "note": "Pinned in extraction/wrapper_gate.py; the data may not weaken them."
+    },
+    "heroWhitelist": [],
+    "shareReviewed": [
+      {
+        "route": "/about-us",
+        "section": "story.horizontal-scroll",
+        "maxSharePct": 70,
+        "reviewedBy": "Claude (revision 1.1.0 pass; agent attestation, not a human sign-off)",
+        "justification": "7500px is the scroll runway of a pinned 100vh sticky stage whose 5321px track translates horizontally with scroll; the visible stage is one viewport tall. It is one scroll-jacked story by design, not a page wrapper."
+      },
+      {
+        "route": "/social-agent",
+        "section": "feature.pill-nav-blocks",
+        "maxSharePct": 62,
+        "reviewedBy": "Claude (revision 1.1.0 pass; agent attestation, not a human sign-off)",
+        "justification": "One section by construction: a single sticky pill nav whose highlight follows six feature blocks (each about 1300px). Splitting it would separate the nav from the blocks it tracks; the page has no other long-form section."
+      },
+      {
+        "route": "/community",
+        "section": "hero.community-invite",
+        "maxSharePct": 72,
+        "reviewedBy": "Claude (revision 1.1.0 pass; agent attestation, not a human sign-off)",
+        "justification": "The live /community page is a single hero (H1, bullets, invite form, logo ticker) plus the global footer; 977px of a 1412px document. It is not a wrapper around other sections and measures well under the 1800px hero warning."
+      },
+      {
+        "route": "/book-a-demo",
+        "section": "testimonials.slider",
+        "maxSharePct": 57,
+        "reviewedBy": "Claude (revision 1.1.0 pass; agent attestation, not a human sign-off)",
+        "justification": "A three-section lead page (hero 708px, testimonial panel 945px, legal row 97px) with own chrome; the panel is a single quote slider at 945px, so its share is high only because the page is tiny (1750px)."
+      }
+    ]
+  }
 }

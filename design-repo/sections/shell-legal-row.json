@@ -2,8 +2,20 @@
   "id": "section.shell.legal-row",
   "registryId": "section.shell.legal-row",
   "typeId": "shell.legal-row",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "shell",
+  "semantic": {
+    "id": "semantic.shell.legal-row",
+    "category": "shell"
+  },
+  "source": {
+    "id": "source.jsx.conv.ui",
+    "tag": "clone-component",
+    "citation": "jsx.conv.ui",
+    "file": "src/components/conversion/ui.jsx",
+    "lines": "6-37"
+  },
+  "retrievalEligible": true,
   "purpose": "Minimal legal row closing the lead-gen pages (replaces Footer).",
   "evidenceLevel": "measured",
   "variants": {

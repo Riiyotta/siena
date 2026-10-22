@@ -2,8 +2,20 @@
   "id": "section.shell.navbar",
   "registryId": "section.shell.navbar",
   "typeId": "shell.navbar",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "shell",
+  "semantic": {
+    "id": "semantic.shell.navbar",
+    "category": "shell"
+  },
+  "source": {
+    "id": "source.jsx.nav.scroll",
+    "tag": "clone-component",
+    "citation": "jsx.nav.scroll",
+    "file": "src/components/Nav.jsx",
+    "lines": "10-29"
+  },
+  "retrievalEligible": true,
   "purpose": "Global fixed navigation: announcement bar + pill (desktop >= 768) or the banner bar (phone). One instance per page, first node. Route-specific behaviour (forced scrolled state, careers CTA) comes from the route override table, never from page copy.",
   "evidenceLevel": "measured",
   "variants": {

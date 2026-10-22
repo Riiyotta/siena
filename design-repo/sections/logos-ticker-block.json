@@ -2,8 +2,20 @@
   "id": "section.logos.ticker-block",
   "registryId": "section.logos.ticker-block",
   "typeId": "logos.ticker-block",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "social-proof",
+  "semantic": {
+    "id": "semantic.logos.ticker-block",
+    "category": "social-proof"
+  },
+  "source": {
+    "id": "source.spec.pa.2.2",
+    "tag": "measured-spec",
+    "citation": "spec.pa.2.2",
+    "file": "specs/product-a.md",
+    "lines": "186-188"
+  },
+  "retrievalEligible": true,
   "purpose": "Standalone full-bleed customer-logo ticker block under a product hero (identical rows/speeds to the homepage ticker).",
   "evidenceLevel": "spec-measured",
   "variants": {

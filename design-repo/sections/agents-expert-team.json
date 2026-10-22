@@ -2,8 +2,20 @@
   "id": "section.agents.expert-team",
   "registryId": "section.agents.expert-team",
   "typeId": "agents.expert-team",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "feature",
+  "semantic": {
+    "id": "semantic.agents.expert-team",
+    "category": "feature"
+  },
+  "source": {
+    "id": "source.spec.pa.1.5",
+    "tag": "measured-spec",
+    "citation": "spec.pa.1.5",
+    "file": "specs/product-a.md",
+    "lines": "123-141"
+  },
+  "retrievalEligible": true,
   "purpose": "'Your team of expert agents': title block, glass panel with a 2-state card carousel of specialist agents, then 4 benefit columns.",
   "evidenceLevel": "spec-measured",
   "variants": {

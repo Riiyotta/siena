@@ -161,7 +161,7 @@
     },
     "template.insights-landing": {
       "id": "template.insights-landing",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "name": "Insights product landing",
       "routes": [
         "/insights",
@@ -232,7 +232,7 @@
           "repeatable": false
         },
         {
-          "section": "feature.agent-promo",
+          "section": "cta.agent-promo",
           "variants": [
             "insights"
           ],
@@ -313,7 +313,7 @@
     },
     "template.conversations-index": {
       "id": "template.conversations-index",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "name": "Conversations index",
       "routes": [
         "/conversations"
@@ -321,7 +321,7 @@
       "routeKind": "static",
       "evidence": "measured",
       "sourceStatusAtExtraction": "built",
-      "description": "Index of CX-leader conversations (card grid) + newsletter.",
+      "description": "Index of CX-leader conversations: page header, 2-column card grid, newsletter.",
       "nodes": [
         {
           "section": "shell.navbar",
@@ -332,7 +332,15 @@
           "repeatable": false
         },
         {
-          "section": "content.conversation-index",
+          "section": "content.index-header",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.conversation-grid",
           "variants": [
             "standard"
           ],
@@ -367,7 +375,7 @@
     },
     "template.conversation-detail": {
       "id": "template.conversation-detail",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "name": "Conversation detail (transcript)",
       "routes": [
         "/conversations/thrive-causemetics-ai-customer-service-automation",
@@ -377,7 +385,7 @@
       "routeKind": "static",
       "evidence": "measured",
       "sourceStatusAtExtraction": "built",
-      "description": "Interview page: header, YouTube embed (the only external request), summary/takeaways/chapters/transcript/FAQ (prose placeholder).",
+      "description": "Interview page decomposed at real content boundaries: article header, YouTube embed (the only external request), summary + takeaways, chapters index, one transcript-chapter per chapter H2, FAQ (prose placeholder).",
       "nodes": [
         {
           "section": "shell.navbar",
@@ -388,7 +396,47 @@
           "repeatable": false
         },
         {
-          "section": "content.conversation-article",
+          "section": "content.article-header",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "media.video-embed",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.article-summary",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.article-chapter-index",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.transcript-chapter",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": true
+        },
+        {
+          "section": "content.article-faq",
           "variants": [
             "standard"
           ],
@@ -412,7 +460,14 @@
           "repeatable": false
         }
       ],
-      "constraints": {},
+      "constraints": {
+        "repeatCounts": {
+          "content.transcript-chapter": [
+            3,
+            20
+          ]
+        }
+      },
       "cite": [
         "spec.t3",
         "src.page.convdetail",
@@ -421,7 +476,7 @@
     },
     "template.legal": {
       "id": "template.legal",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "name": "Legal document",
       "routes": [
         "/terms-of-service",
@@ -430,7 +485,7 @@
       "routeKind": "static",
       "evidence": "measured",
       "sourceStatusAtExtraction": "built",
-      "description": "Terms / privacy: title, last-updated row, rich-text body (structure real, body placeholder).",
+      "description": "Terms / privacy: title + last-updated header, then one legal-section per heading-bounded part of the document (structure real, body placeholder).",
       "nodes": [
         {
           "section": "shell.navbar",
@@ -441,13 +496,21 @@
           "repeatable": false
         },
         {
-          "section": "content.legal-document",
+          "section": "content.legal-header",
+          "variants": [
+            "standard"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.legal-section",
           "variants": [
             "terms",
             "privacy"
           ],
           "required": true,
-          "repeatable": false
+          "repeatable": true
         },
         {
           "section": "shell.footer",
@@ -459,12 +522,18 @@
         }
       ],
       "constraints": {
+        "repeatCounts": {
+          "content.legal-section": [
+            3,
+            30
+          ]
+        },
         "routeVariants": {
           "/terms-of-service": {
-            "content.legal-document": "terms"
+            "content.legal-section": "terms"
           },
           "/privacy-policy": {
-            "content.legal-document": "privacy"
+            "content.legal-section": "privacy"
           }
         }
       },

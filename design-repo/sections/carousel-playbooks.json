@@ -2,8 +2,20 @@
   "id": "section.carousel.playbooks",
   "registryId": "section.carousel.playbooks",
   "typeId": "carousel.playbooks",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "feature",
+  "semantic": {
+    "id": "semantic.carousel.playbooks",
+    "category": "feature"
+  },
+  "source": {
+    "id": "source.spec.pa.6.7",
+    "tag": "measured-spec",
+    "citation": "spec.pa.6.7",
+    "file": "specs/product-a.md",
+    "lines": "508-518"
+  },
+  "retrievalEligible": true,
   "purpose": "Playbooks carousel: 3 cards per page (icon, title, text, brand logo), crossfade paging, 4 pages.",
   "evidenceLevel": "spec-measured",
   "variants": {

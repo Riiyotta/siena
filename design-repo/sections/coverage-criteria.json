@@ -2,8 +2,20 @@
   "id": "section.coverage.criteria",
   "registryId": "section.coverage.criteria",
   "typeId": "coverage.criteria",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "feature",
+  "semantic": {
+    "id": "semantic.coverage.criteria",
+    "category": "feature"
+  },
+  "source": {
+    "id": "source.spec.pa.4.3",
+    "tag": "measured-spec",
+    "citation": "spec.pa.4.3",
+    "file": "specs/product-a.md",
+    "lines": "352-359"
+  },
+  "retrievalEligible": true,
   "purpose": "QA 'Complete Coverage': left title block, right card with person photo and a criteria gallery ticker (5 cards, 35 px/s).",
   "evidenceLevel": "spec-measured",
   "variants": {

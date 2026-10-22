@@ -1,0 +1,114 @@
+{
+  "id": "section.content.article-summary",
+  "registryId": "section.content.article-summary",
+  "typeId": "content.article-summary",
+  "version": "1.1.0",
+  "category": "content",
+  "semantic": {
+    "id": "semantic.content.article-summary",
+    "category": "content"
+  },
+  "source": {
+    "id": "source.jsx.conv.article",
+    "tag": "clone-component",
+    "citation": "jsx.conv.article",
+    "file": "src/components/content/ConversationArticle.jsx",
+    "lines": "71-110"
+  },
+  "retrievalEligible": true,
+  "purpose": "Conversation article summary block and 'Key takeaways' list (two adjacent 800-column blocks). Prose is placeholder in the clone.",
+  "evidenceLevel": "measured",
+  "variants": {
+    "standard": "Two stacked blocks, gap 20; second block carries a block H2."
+  },
+  "composes": [
+    "primitive.text",
+    "primitive.link"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "summary": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "text": {
+              "type": "string",
+              "maxWords": 120
+            },
+            "copySource": {
+              "enum": [
+                "placeholder"
+              ]
+            }
+          },
+          "required": [
+            "text",
+            "copySource"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 1,
+        "maxItems": 4
+      },
+      "takeaways": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "text": {
+              "type": "string",
+              "maxWords": 40
+            },
+            "copySource": {
+              "enum": [
+                "placeholder"
+              ]
+            }
+          },
+          "required": [
+            "text",
+            "copySource"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 3,
+        "maxItems": 8
+      }
+    },
+    "required": [
+      "summary",
+      "takeaways"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Block H2 24/28.8."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "spec.t3",
+    "jsx.conv.article",
+    "jsx.placeholder.lorem"
+  ],
+  "copyPolicy": {
+    "summary/takeaways": "placeholder in the clone (lorem); generation must not invent what a real named guest said"
+  }
+}

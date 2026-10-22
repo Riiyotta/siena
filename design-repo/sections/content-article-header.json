@@ -1,0 +1,95 @@
+{
+  "id": "section.content.article-header",
+  "registryId": "section.content.article-header",
+  "typeId": "content.article-header",
+  "version": "1.1.0",
+  "category": "content",
+  "semantic": {
+    "id": "semantic.content.article-header",
+    "category": "content"
+  },
+  "source": {
+    "id": "source.jsx.conv.article",
+    "tag": "clone-component",
+    "citation": "jsx.conv.article",
+    "file": "src/components/content/ConversationArticle.jsx",
+    "lines": "71-110"
+  },
+  "retrievalEligible": true,
+  "purpose": "Conversation article header: kicker link to the index + date, H1, guest line (name, role, brand) and a hairline. The page has no hero; this H1 is the article title.",
+  "evidenceLevel": "measured",
+  "variants": {
+    "standard": "Max-width 800 column, gap 24; H1 48/64."
+  },
+  "composes": [
+    "primitive.text",
+    "primitive.link"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "date": {
+        "type": "string",
+        "maxWords": 4
+      },
+      "headline": {
+        "type": "string",
+        "maxWords": 16
+      },
+      "guest": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "maxWords": 4
+          },
+          "role": {
+            "type": "string",
+            "maxWords": 8
+          },
+          "brand": {
+            "type": "string",
+            "maxWords": 4
+          }
+        },
+        "required": [
+          "name",
+          "role",
+          "brand"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "required": [
+      "date",
+      "headline",
+      "guest"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Padding 100 20 0; H1 48/48; guest line 12/14."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustFollowNav": true
+  },
+  "measuredFrom": [
+    "spec.t3",
+    "jsx.conv.article"
+  ]
+}

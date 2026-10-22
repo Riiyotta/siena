@@ -2,8 +2,21 @@
   "id": "section.quirk.phone-empty-block",
   "registryId": "section.quirk.phone-empty-block",
   "typeId": "quirk.phone-empty-block",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "quirk",
+  "semantic": {
+    "id": "semantic.quirk.phone-empty-block",
+    "category": "quirk"
+  },
+  "source": {
+    "id": "source.jsx.addons",
+    "tag": "clone-component",
+    "citation": "jsx.addons",
+    "file": "src/pages/AiNativeVsAddOns.jsx",
+    "lines": "45-57"
+  },
+  "retrievalEligible": false,
+  "retrievalIneligibleReason": "Deliberately replicated live-site defect: an empty block with no content that renders only at phone width (zero in-flow height at desktop width, see sectionHeights in extraction/measured-values.json). Retrieving it as a design exemplar would teach a generator to emit blank blocks.",
   "purpose": "Deliberately replicated live phone quirk: an empty 1000px white block between Metrics and Features on the add-ons page (a Framer component that renders nothing at phone width). Hidden on desktop. Allowed ONLY where registered in templates.json quirks.",
   "evidenceLevel": "measured",
   "variants": {

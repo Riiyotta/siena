@@ -2,8 +2,20 @@
   "id": "section.hero.product-split",
   "registryId": "section.hero.product-split",
   "typeId": "hero.product-split",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "hero",
+  "semantic": {
+    "id": "semantic.hero.product-split",
+    "category": "hero"
+  },
+  "source": {
+    "id": "source.spec.pa.1.1",
+    "tag": "measured-spec",
+    "citation": "spec.pa.1.1",
+    "file": "specs/product-a.md",
+    "lines": "66-88"
+  },
+  "retrievalEligible": true,
   "purpose": "Product hero: copy (H1 with optional italic word + swash, subtitle, demo CTA) left, layered product mock visual right.",
   "evidenceLevel": "spec-measured",
   "variants": {

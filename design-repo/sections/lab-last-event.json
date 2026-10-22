@@ -2,8 +2,20 @@
   "id": "section.lab.last-event",
   "registryId": "section.lab.last-event",
   "typeId": "lab.last-event",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "content",
+  "semantic": {
+    "id": "semantic.lab.last-event",
+    "category": "content"
+  },
+  "source": {
+    "id": "source.spec.pb.5.7",
+    "tag": "measured-spec",
+    "citation": "spec.pb.5.7",
+    "file": "specs/product-b.md",
+    "lines": "465-469"
+  },
+  "retrievalEligible": true,
   "purpose": "'From our last LAB': rule, eyebrow, H2 and one past-event card among photo tiles.",
   "evidenceLevel": "spec-measured",
   "variants": {

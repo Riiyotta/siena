@@ -2,8 +2,20 @@
   "id": "section.feature.change-once",
   "registryId": "section.feature.change-once",
   "typeId": "feature.change-once",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "feature",
+  "semantic": {
+    "id": "semantic.feature.change-once",
+    "category": "feature"
+  },
+  "source": {
+    "id": "source.spec.pb.4.3",
+    "tag": "measured-spec",
+    "citation": "spec.pb.4.3",
+    "file": "specs/product-b.md",
+    "lines": "344-355"
+  },
+  "retrievalEligible": true,
   "purpose": "'Change it once': title column + gallery card (person cutout, request card, three diff cards old-struck/new-green) with staggered springs.",
   "evidenceLevel": "spec-measured",
   "variants": {

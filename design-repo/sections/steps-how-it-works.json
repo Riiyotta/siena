@@ -2,8 +2,20 @@
   "id": "section.steps.how-it-works",
   "registryId": "section.steps.how-it-works",
   "typeId": "steps.how-it-works",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "feature",
+  "semantic": {
+    "id": "semantic.steps.how-it-works",
+    "category": "feature"
+  },
+  "source": {
+    "id": "source.spec.pb.1.4",
+    "tag": "measured-spec",
+    "citation": "spec.pb.1.4",
+    "file": "specs/product-b.md",
+    "lines": "75-86"
+  },
+  "retrievalEligible": true,
   "purpose": "'How it works' three columns (icon/eyebrow, title, body with top hairline).",
   "evidenceLevel": "spec-measured",
   "variants": {

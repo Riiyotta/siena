@@ -2,8 +2,20 @@
   "id": "section.hero.lead-form",
   "registryId": "section.hero.lead-form",
   "typeId": "hero.lead-form",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "hero",
+  "semantic": {
+    "id": "semantic.hero.lead-form",
+    "category": "hero"
+  },
+  "source": {
+    "id": "source.jsx.leadhero",
+    "tag": "clone-component",
+    "citation": "jsx.leadhero",
+    "file": "src/components/conversion/LeadSections.jsx",
+    "lines": "15-44"
+  },
+  "retrievalEligible": true,
   "purpose": "Lead-gen hero: H1 + dimmed sub + 3x2 customer logo grid left; multi-step static form (floating labels, dropdowns, page 1 -> page 2) in a rainbow ring right. No load motion. Never submits.",
   "evidenceLevel": "measured",
   "variants": {

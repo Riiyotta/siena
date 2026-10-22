@@ -2,8 +2,20 @@
   "id": "section.nav.chip-anchor",
   "registryId": "section.nav.chip-anchor",
   "typeId": "nav.chip-anchor",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "navigation",
+  "semantic": {
+    "id": "semantic.nav.chip-anchor",
+    "category": "navigation"
+  },
+  "source": {
+    "id": "source.spec.pa.6.3",
+    "tag": "measured-spec",
+    "citation": "spec.pa.6.3",
+    "file": "specs/product-a.md",
+    "lines": "473-477"
+  },
+  "retrievalEligible": true,
   "purpose": "Small sticky chip nav (top 88) with in-page anchors; active link highlights by scroll position.",
   "evidenceLevel": "spec-measured",
   "variants": {

@@ -2,8 +2,21 @@
   "id": "section.overlay.partner-modal",
   "registryId": "section.overlay.partner-modal",
   "typeId": "overlay.partner-modal",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "conversion",
+  "semantic": {
+    "id": "semantic.overlay.partner-modal",
+    "category": "conversion"
+  },
+  "source": {
+    "id": "source.jsx.partnermodal",
+    "tag": "clone-component",
+    "citation": "jsx.partnermodal",
+    "file": "src/components/company/PartnerModal.jsx",
+    "lines": "53-92"
+  },
+  "retrievalEligible": false,
+  "retrievalIneligibleReason": "Runtime UI, not a page section: a portal modal opened by a button, rendered fixed over the page with no in-flow height (zero in-flow height at desktop width, see sectionHeights in extraction/measured-values.json). It is a behaviour of hero.partner / cta.main and must not be retrieved as a layout exemplar.",
   "purpose": "'Join our partner program' modal: backdrop rgba black 0.8, ring panel springs in from x 150, scrollable static form; closes on backdrop click. Never submits.",
   "evidenceLevel": "measured",
   "variants": {

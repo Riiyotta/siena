@@ -2,8 +2,20 @@
   "id": "section.hero.title-underline",
   "registryId": "section.hero.title-underline",
   "typeId": "hero.title-underline",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "hero",
+  "semantic": {
+    "id": "semantic.hero.title-underline",
+    "category": "hero"
+  },
+  "source": {
+    "id": "source.spec.u1",
+    "tag": "measured-spec",
+    "citation": "spec.u1",
+    "file": "specs/company.md",
+    "lines": "200-207"
+  },
+  "retrievalEligible": true,
   "purpose": "Centered H1 with an italic word and a hand-drawn rainbow underline, plus a dimmed subtitle.",
   "evidenceLevel": "measured",
   "variants": {

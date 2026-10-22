@@ -2,8 +2,20 @@
   "id": "section.shell.lab-nav",
   "registryId": "section.shell.lab-nav",
   "typeId": "shell.lab-nav",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "shell",
+  "semantic": {
+    "id": "semantic.shell.lab-nav",
+    "category": "shell"
+  },
+  "source": {
+    "id": "source.src.routes.overrides",
+    "tag": "clone-config",
+    "citation": "src.routes.overrides",
+    "file": "src/routes.js",
+    "lines": "46-54"
+  },
+  "retrievalEligible": true,
   "purpose": "AI Lab's own nav: full-width dark 72px bar (white wordmark, white links with simple dark dropdowns, md CTA); phone: cream bar without banner. Replaces the global Nav on /ai-lab only.",
   "evidenceLevel": "spec-measured",
   "variants": {

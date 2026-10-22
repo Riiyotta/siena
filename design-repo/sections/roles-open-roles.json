@@ -2,8 +2,20 @@
   "id": "section.roles.open-roles",
   "registryId": "section.roles.open-roles",
   "typeId": "roles.open-roles",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "company",
+  "semantic": {
+    "id": "semantic.roles.open-roles",
+    "category": "company"
+  },
+  "source": {
+    "id": "source.jsx.co.roles",
+    "tag": "clone-component",
+    "citation": "jsx.co.roles",
+    "file": "src/components/company/RolesList.jsx",
+    "lines": "59-98"
+  },
+  "retrievalEligible": true,
   "purpose": "Open roles accordion (anchor #open-roles): H2 + total count, CORS-fallback status note, departments (one open at a time) with role rows to Ashby.",
   "evidenceLevel": "measured",
   "variants": {

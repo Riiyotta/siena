@@ -2,8 +2,20 @@
   "id": "section.cta.demo-form",
   "registryId": "section.cta.demo-form",
   "typeId": "cta.demo-form",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "conversion",
+  "semantic": {
+    "id": "semantic.cta.demo-form",
+    "category": "conversion"
+  },
+  "source": {
+    "id": "source.jsx.demoform",
+    "tag": "clone-component",
+    "citation": "jsx.demoform",
+    "file": "src/components/content/DemoFormCta.jsx",
+    "lines": "35-74"
+  },
+  "retrievalEligible": true,
   "purpose": "Demo-request card with a static look-alike form (anchor #book-a-demo) over the metrics image. Never submits.",
   "evidenceLevel": "measured",
   "variants": {

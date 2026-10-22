@@ -2,8 +2,20 @@
   "id": "section.carousel.memory-in-action",
   "registryId": "section.carousel.memory-in-action",
   "typeId": "carousel.memory-in-action",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "social-proof",
+  "semantic": {
+    "id": "semantic.carousel.memory-in-action",
+    "category": "social-proof"
+  },
+  "source": {
+    "id": "source.spec.pb.1.5",
+    "tag": "measured-spec",
+    "citation": "spec.pb.1.5",
+    "file": "specs/product-b.md",
+    "lines": "86-122"
+  },
+  "retrievalEligible": true,
   "purpose": "'Memory in action': autoplaying 4-up memory-category carousel (1.5s interval, drag, loops) + a 4-slide testimonial slider in the same sand section.",
   "evidenceLevel": "spec-measured",
   "variants": {

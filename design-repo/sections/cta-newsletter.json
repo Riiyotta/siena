@@ -2,8 +2,20 @@
   "id": "section.cta.newsletter",
   "registryId": "section.cta.newsletter",
   "typeId": "cta.newsletter",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "conversion",
+  "semantic": {
+    "id": "semantic.cta.newsletter",
+    "category": "conversion"
+  },
+  "source": {
+    "id": "source.jsx.newsletter",
+    "tag": "clone-component",
+    "citation": "jsx.newsletter",
+    "file": "src/components/content/NewsletterCta.jsx",
+    "lines": "3-5"
+  },
+  "retrievalEligible": true,
   "purpose": "Newsletter signup card ('Be the first to know what's happening') over the metrics image; static form, never submits.",
   "evidenceLevel": "measured",
   "variants": {

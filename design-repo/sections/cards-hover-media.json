@@ -2,8 +2,20 @@
   "id": "section.cards.hover-media",
   "registryId": "section.cards.hover-media",
   "typeId": "cards.hover-media",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "feature",
+  "semantic": {
+    "id": "semantic.cards.hover-media",
+    "category": "feature"
+  },
+  "source": {
+    "id": "source.spec.pa.4.6",
+    "tag": "measured-spec",
+    "citation": "spec.pa.4.6",
+    "file": "specs/product-a.md",
+    "lines": "368-376"
+  },
+  "retrievalEligible": true,
   "purpose": "Three gradient cards (title + text + graphic); hover fades in a masked looping video or animates the graphic.",
   "evidenceLevel": "spec-measured",
   "variants": {

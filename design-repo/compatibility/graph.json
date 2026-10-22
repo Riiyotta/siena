@@ -50,24 +50,59 @@
         "heading.section-title"
       ]
     },
-    "content.conversation-article": {
+    "content.article-chapter-index": {
+      "canPrecede": [
+        "content.transcript-chapter"
+      ]
+    },
+    "content.article-faq": {
       "canPrecede": [
         "cta.newsletter"
       ]
     },
-    "content.conversation-index": {
+    "content.article-header": {
+      "canPrecede": [
+        "media.video-embed"
+      ]
+    },
+    "content.article-summary": {
+      "canPrecede": [
+        "content.article-chapter-index"
+      ]
+    },
+    "content.conversation-grid": {
       "canPrecede": [
         "cta.newsletter"
       ]
     },
-    "content.legal-document": {
+    "content.index-header": {
+      "canPrecede": [
+        "content.conversation-grid"
+      ]
+    },
+    "content.legal-header": {
+      "canPrecede": [
+        "content.legal-section"
+      ]
+    },
+    "content.legal-section": {
       "canPrecede": [
         "shell.footer"
+      ]
+    },
+    "content.transcript-chapter": {
+      "canPrecede": [
+        "content.article-faq"
       ]
     },
     "coverage.criteria": {
       "canPrecede": [
         "testimonials.slider"
+      ]
+    },
+    "cta.agent-promo": {
+      "canPrecede": [
+        "cta.demo-form"
       ]
     },
     "cta.demo-form": {
@@ -100,11 +135,6 @@
       "canPrecede": [
         "cta.main",
         "integrations.logo-grid"
-      ]
-    },
-    "feature.agent-promo": {
-      "canPrecede": [
-        "cta.demo-form"
       ]
     },
     "feature.change-once": {
@@ -315,6 +345,11 @@
         "cta.main"
       ]
     },
+    "media.video-embed": {
+      "canPrecede": [
+        "content.article-summary"
+      ]
+    },
     "mockup.ask-siena": {
       "canPrecede": [
         "cards.hover-media",
@@ -359,9 +394,9 @@
     },
     "shell.navbar": {
       "canPrecede": [
-        "content.conversation-article",
-        "content.conversation-index",
-        "content.legal-document",
+        "content.article-header",
+        "content.index-header",
+        "content.legal-header",
         "hero.careers",
         "hero.community-invite",
         "hero.compare",
@@ -420,7 +455,7 @@
     },
     "testimonial.centered-quote": {
       "canPrecede": [
-        "feature.agent-promo"
+        "cta.agent-promo"
       ]
     },
     "testimonials.slider": {
@@ -492,7 +527,7 @@
     {
       "id": "NO_ADJACENT_SAME_SECTION",
       "severity": "error",
-      "text": "A section type never directly follows itself. Named exceptions: feature.media-row (alternating rows) and lab.statement (intro then what-is on /ai-lab)."
+      "text": "A section type never directly follows itself. Named exceptions: feature.media-row (alternating rows), lab.statement (intro then what-is on /ai-lab), content.transcript-chapter (one per transcript chapter) and content.legal-section (one per legal-document part)."
     },
     {
       "id": "CTA_CLOSES_PAGE",
@@ -522,7 +557,7 @@
     {
       "id": "EMBED_ALLOWLIST",
       "severity": "error",
-      "text": "At most one external embed per page, YouTube only, only in content.conversation-article."
+      "text": "At most one external embed per page, YouTube only, only in media.video-embed."
     },
     {
       "id": "QUOTE_PROVENANCE",
@@ -583,6 +618,11 @@
       "id": "MODAL_OPENER",
       "severity": "error",
       "text": "overlay.partner-modal is only present with a hero.partner whose CTA opens it."
+    },
+    {
+      "id": "CHAPTER_PARITY",
+      "severity": "error",
+      "text": "The content.article-chapter-index lists exactly the content.transcript-chapter nodes on the page, same titles in the same order (each index link targets a chapter H2)."
     }
   ]
 }

@@ -4,6 +4,10 @@
 Usage:  python3 schema/semantic_validate.py page.json [more.json ...]
 Exit 0 when there are no error-severity findings. Warnings never fail the run.
 
+Section CONTRACTS (not PageSpecs) are checked by validate_section_contract(): meta schema
+(schema/section-contract.schema.json), pinned retrieval eligibility, provenance-vs-taxonomy
+(source vs semantic), and the classification policy (schema/section-classification.json).
+
 Layers, in order:
   1. Draft-07 schema (schema/pagespec.schema.json). If it fails, later layers are skipped.
   2. Template cross-reference: the declared template's REAL node list, keyed on
@@ -30,14 +34,20 @@ IMPLEMENTED_RULES = {
     "ONE_PER_PAGE", "MAX_PER_PAGE", "NO_ADJACENT_SAME_SECTION", "CTA_CLOSES_PAGE", "QUIRK_REGISTERED",
     "OUT_OF_SCOPE_ROUTE", "LINK_TARGETS", "FORMS_STATIC", "EMBED_ALLOWLIST", "QUOTE_PROVENANCE",
     "PLACEHOLDER_MARKED", "TESTIMONIAL_SET", "TESTIMONIAL_SET_COUNT", "ROUTE_VARIANT", "ROUTE_NODE_RULES",
-    "VARIANT_RULES", "REPEAT_COUNTS", "MOTION_BUDGET", "ASSET_ROLE_USAGE", "UNIQUE_IDS", "MODAL_OPENER",
+    "VARIANT_RULES", "REPEAT_COUNTS", "MOTION_BUDGET", "ASSET_ROLE_USAGE", "UNIQUE_IDS", "MODAL_OPENER", "CHAPTER_PARITY",
 }
+
+# Utility/runtime UI that a retrieval index must skip. Pinned HERE (and, independently, as a
+# second literal in extraction/verify_all.py) so flipping the flag in a contract, the allowlist
+# or the registry cannot silently re-admit a modal or a blank-block quirk.
+RETRIEVAL_INELIGIBLE = {"overlay.partner-modal", "quirk.phone-empty-block"}
+SOURCE_TAGS = {".jsx": "clone-component", ".css": "clone-stylesheet", ".md": "measured-spec"}
 
 CHROME_HEAD = ("shell.navbar", "shell.lead-header", "shell.lab-nav")
 CHROME_TAIL = ("shell.footer", "shell.legal-row")
 CLOSERS = ("cta.main", "cta.demo-form", "cta.newsletter", "cta.lab-newsletter")
 NO_HERO_TEMPLATES = {"template.conversations-index", "template.conversation-detail", "template.legal"}
-ADJACENT_OK = {"feature.media-row", "lab.statement"}
+ADJACENT_OK = {"feature.media-row", "lab.statement", "content.transcript-chapter", "content.legal-section"}
 SCROLL_JACKING = {"sticky-step-switch", "hscroll-scrub"}
 LOREM = re.compile(r"\b(lorem|ipsum|dolor|consectetur|adipiscing|eiusmod|tempor|incididunt)\b", re.I)
 PLACEHOLDER_START = re.compile(r"^\s*(placeholder|lorem)\b", re.I)
@@ -67,6 +77,9 @@ def load_repo():
         "sections": sections,
         "allRoutes": {r for t in tpls["templates"].values() for r in t["routes"]},
         "quirks": mv["quirks"],
+        "citations": mv["citations"],
+        "classification": _load("schema/section-classification.json"),
+        "contractSchema": _load("schema/section-contract.schema.json"),
     }
 
 
@@ -254,8 +267,8 @@ def check_graph_rules(doc, repo, tpl, out):
         walk(n.get("content", {}), fn, f"nodes[{n.get('id')}]")
     for n in nodes:
         visit_node(n)
-    if len(embeds) > 1 or any(t != "content.conversation-article" for t, _ in embeds):
-        add("EMBED_ALLOWLIST", f"external embeds allowed only once, in content.conversation-article; found {embeds}")
+    if len(embeds) > 1 or any(t != "media.video-embed" for t, _ in embeds):
+        add("EMBED_ALLOWLIST", f"external embeds allowed only once, in media.video-embed; found {embeds}")
     # QUOTE_PROVENANCE / PLACEHOLDER_MARKED
     for n in nodes:
         def fn(d, path, parent):
@@ -319,6 +332,12 @@ def check_graph_rules(doc, repo, tpl, out):
     ids = [n.get("id") for n in nodes]
     if len(set(ids)) != len(ids):
         add("UNIQUE_IDS", f"duplicate node ids {sorted({i for i in ids if ids.count(i) > 1})}")
+    # CHAPTER_PARITY: the chapters index lists exactly the transcript chapters that follow it
+    for ci in [n for n in nodes if n.get("type") == "content.article-chapter-index"]:
+        listed = [c.get("title") for c in ci.get("content", {}).get("chapters", [])]
+        got = [n.get("content", {}).get("chapter") for n in nodes if n.get("type") == "content.transcript-chapter"]
+        if listed != got:
+            add("CHAPTER_PARITY", f"chapters index lists {len(listed)} chapter(s) {listed[:3]}... but the page has {len(got)} transcript chapter(s) {got[:3]}...; titles and order must match")
     # MODAL_OPENER
     if "overlay.partner-modal" in types:
         openers = [n for n in nodes if n.get("type") == "hero.partner" and n.get("content", {}).get("cta", {}).get("action") == "open-modal"]
@@ -405,6 +424,91 @@ def validate_pagespec(doc, repo=None):
     for n in doc["nodes"]:
         walk_maxwords(repo["sections"][n["type"]]["contentModel"], n["content"], f"nodes[{n['id']}]", out)
     walk_maxwords(repo["schema"]["definitions"]["head"], doc["head"], "head", out)
+    return out
+
+
+# ------------------------------------------------------------------ section contracts
+def _source_tag(file):
+    if file == "src/routes.js":
+        return "clone-config"
+    for ext, tag in SOURCE_TAGS.items():
+        if file.endswith(ext):
+            return tag
+    return "clone-data" if file.endswith(".js") else None
+
+
+def _names(x, out):
+    if isinstance(x, dict):
+        for k, v in x.items():
+            if k == "properties" and isinstance(v, dict):
+                for kk, vv in v.items():
+                    out.add(kk)
+                    _names(vv, out)
+            else:
+                _names(v, out)
+    elif isinstance(x, list):
+        for v in x:
+            _names(v, out)
+
+
+def validate_section_contract(c, repo=None):
+    """Meta-layer findings for ONE section contract: (severity, rule, message) tuples."""
+    repo = repo or load_repo()
+    out = []
+    t = c.get("typeId", "?")
+    pol = repo["classification"]
+    for e in sorted(jsonschema.Draft7Validator(repo["contractSchema"]).iter_errors(c), key=lambda e: [str(p) for p in e.path]):
+        out.append(("error", "CONTRACT_SCHEMA", f"{t}: {'/'.join(str(p) for p in e.path) or '<root>'}: {e.message[:160]}"))
+    if out:
+        return out
+    # retrieval eligibility: pinned per section, independent of the flag a contract carries
+    want = t not in RETRIEVAL_INELIGIBLE
+    if c["retrievalEligible"] is not want:
+        out.append(("error", "RETRIEVAL_PINNED", f"{t}: retrievalEligible is {c['retrievalEligible']} but the validator pins it to {want} (RETRIEVAL_INELIGIBLE = {sorted(RETRIEVAL_INELIGIBLE)})"))
+    segs = set(t.replace("-", ".").split("."))
+    hit = sorted(segs & set(pol["utilityIdSegments"]))
+    if hit and c["retrievalEligible"]:
+        out.append(("error", "RETRIEVAL_PINNED", f"{t}: id segment(s) {hit} mark a utility/runtime section (cookie/consent/dialog/modal/overlay...), which must be retrievalEligible false"))
+    # provenance (source) and taxonomy (semantic) are distinct closed objects
+    sem, src = c["semantic"], c["source"]
+    if sem["id"] != "semantic." + t:
+        out.append(("error", "SOURCE_SEMANTIC", f"{t}: semantic.id {sem['id']!r} must be 'semantic.{t}'"))
+    if sem["category"] != c["category"]:
+        out.append(("error", "SOURCE_SEMANTIC", f"{t}: semantic.category {sem['category']!r} != category {c['category']!r}"))
+    if src["id"] == sem["id"] or src["id"].split(".", 1)[1] == sem["id"].split(".", 1)[1]:
+        out.append(("error", "SOURCE_SEMANTIC", f"{t}: source.id and semantic.id must be different identities (provenance vs taxonomy)"))
+    if src["id"] != "source." + src["citation"]:
+        out.append(("error", "SOURCE_SEMANTIC", f"{t}: source.id {src['id']!r} must be 'source.{src['citation']}'"))
+    if src["citation"] not in c["measuredFrom"]:
+        out.append(("error", "SOURCE_SEMANTIC", f"{t}: source.citation {src['citation']!r} is not one of the contract's measuredFrom ids"))
+    cit = repo["citations"].get(src["citation"])
+    if cit is None:
+        out.append(("error", "SOURCE_SEMANTIC", f"{t}: source.citation {src['citation']!r} is not defined in extraction/measured-values.json"))
+    else:
+        if (cit["file"], cit["lines"]) != (src["file"], src["lines"]):
+            out.append(("error", "SOURCE_SEMANTIC", f"{t}: source file/lines {src['file']}:{src['lines']} differ from the citation's {cit['file']}:{cit['lines']}"))
+        if _source_tag(src["file"]) != src["tag"]:
+            out.append(("error", "SOURCE_SEMANTIC", f"{t}: source.tag {src['tag']!r} does not match the cited file {src['file']} ({_source_tag(src['file'])!r})"))
+    # classification policy
+    prefix = t.split(".", 1)[0]
+    cat = c["category"]
+    want_cat = pol["idPrefixCategory"].get(prefix)
+    if want_cat and cat not in want_cat:
+        out.append(("error", "CLASS_POLICY", f"{t}: id prefix {prefix!r} requires category {want_cat}, got {cat!r}"))
+    if cat == "hero" and prefix != "hero":
+        out.append(("error", "CLASS_POLICY", f"{t}: category hero is only for hero.* sections"))
+    if cat == "conversion" and prefix not in pol["conversionCategoryOnlyForPrefixes"]:
+        out.append(("error", "CLASS_POLICY", f"{t}: conversion blocks must be cta.* / overlay.* (got prefix {prefix!r})"))
+    if cat == "feature" and prefix in pol["editorialPrefixesNeverFeature"]:
+        out.append(("error", "CLASS_POLICY", f"{t}: editorial/news/proof prefix {prefix!r} must not be classed feature"))
+    if cat not in ("conversion", "hero", "shell"):
+        names = set()
+        _names(c["contentModel"], names)
+        ctas = sorted(names & set(pol["ctaPropertyNames"]))
+        if ctas:
+            why = pol["inlineCtaReviewed"].get(t)
+            if not why or len(why) < 30:
+                out.append(("error", "CLASS_POLICY", f"{t}: CTA-like field(s) {ctas} in a {cat} section; class it cta.*/conversion or add a reviewed entry (>= 30 chars) to inlineCtaReviewed"))
     return out
 
 

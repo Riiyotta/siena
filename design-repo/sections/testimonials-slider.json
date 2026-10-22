@@ -2,8 +2,20 @@
   "id": "section.testimonials.slider",
   "registryId": "section.testimonials.slider",
   "typeId": "testimonials.slider",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "social-proof",
+  "semantic": {
+    "id": "semantic.testimonials.slider",
+    "category": "social-proof"
+  },
+  "source": {
+    "id": "source.jsx.testimonials",
+    "tag": "clone-component",
+    "citation": "jsx.testimonials",
+    "file": "src/components/Testimonials.jsx",
+    "lines": "17-46"
+  },
+  "retrievalEligible": true,
   "purpose": "Customer proof: manual prev/next slider of quote slides (no autoplay, 300ms slide). Homepage-set routes reuse the verified 11 slides exactly; other routes carry their own slides, and quotes not in the verified set are length-matched placeholders in the clone.",
   "evidenceLevel": "measured",
   "variants": {

@@ -7,14 +7,16 @@ DR (the repo root) is derived from this file's location, never a machine path.
 Exit 0 = every check passed (warnings allowed); 1 = at least one error; 2 = not a design-repo.
 
 Checks (numbers match the printed output):
-  0 self-containment sentinel           7 asset roles (pinned policies, usedBy, wiring)
-  1 JSON parse                          8 templates / routes / graph / overrides / quirks
-  2 allowlist <-> contract parity       9 schema freshness, Draft-07, examples
-  3 tokens: refs, catalog, policy,     10 citations (range + content), source drift,
-    histogram evidence                     histogram + verified-quote rebuild drift
-  4 contract references resolve        11 manifest counts, versions, entryPoints, docs, machine paths
-  5 raw-value lint                     12 adversarial suite
-  6 graph rules <-> validator code
+  0 self-containment sentinel           8 templates / routes / graph / overrides / quirks
+  1 JSON parse                          9 schema freshness, Draft-07, examples
+  2 allowlist <-> contract parity      10 citations (range + content), source drift,
+  3 tokens: refs, catalog, policy,        histogram + verified-quote rebuild drift
+    histogram evidence                 11 manifest counts, versions, entryPoints, docs, machine paths
+  4 contract references resolve        12 section contracts: meta schema, pinned retrievalEligible,
+  5 raw-value lint                        source vs semantic, classification policy, source lines
+  6 graph rules <-> validator code     13 whole-page-wrapper gate (extraction/wrapper_gate.py)
+  7 asset roles (pinned policies,      14 IA parity (ia.json / IA.md / matrix.csv beside the repo)
+    usedBy, wiring)                    15 adversarial suite
 When the clone's source tree (src/, specs/, recon/) is not beside design-repo/ (a standalone
 copy), every check that needs it is SKIPPED with a warning; nothing fails because of it.
 """
@@ -454,6 +456,8 @@ counts = {
     "tokens": cat["counts"]["tokens"], "typographyRoles": cat["counts"]["typographyRoles"], "motionRecipes": cat["counts"]["motionRecipes"],
     "assetRoles": len(assets["roles"]), "graphRules": len(graph["rules"]), "examplePageSpecs": len(ex_files), "citations": len(cites),
     "verifiedQuotes": len(jload("assets/verified-quotes.json")["quotes"]), "registeredQuirks": len(mv["quirks"]),
+    "retrievalIneligibleSections": len(allow.get("retrievalIneligibleSections", [])),
+    "measuredRoutes": len(mv.get("sectionHeights", {}).get("routes", {})), "measuredSectionInstances": sum(len(r.get("nodes", [])) for r in mv.get("sectionHeights", {}).get("routes", {}).values()),
 }
 if man.get("counts") != counts:
     err("manifest-counts", f"counts block {man.get('counts')} != recomputed {counts}")
@@ -482,7 +486,7 @@ if not m:
     err("readme-counts", "README.md lacks the <!-- counts: {...} --> marker")
 elif json.loads(m.group(1)) != counts:
     err("readme-counts", f"README counts marker {m.group(1)} != recomputed {counts}")
-for pth in ("schema/tests/adversarial_test.py", "extraction/prove_drift.py", "extraction/verify_all.py", "extraction/build_histogram.py", "extraction/build_verified_quotes.py", "schema/build_schema.py", "tokens/build_catalog.py"):
+for pth in ("schema/tests/adversarial_test.py", "extraction/prove_drift.py", "extraction/verify_all.py", "extraction/wrapper_gate.py", "extraction/measure_heights.mjs", "extraction/height-probes.json", "schema/section-contract.schema.json", "schema/section-classification.json", "extraction/build_histogram.py", "extraction/build_verified_quotes.py", "schema/build_schema.py", "tokens/build_catalog.py"):
     if not os.path.exists(os.path.join(DR, pth)):
         err("docs", f"{pth} is referenced by the docs but does not exist")
 MACHINE = ["/Us" + "ers/", "/ho" + "me/", "C:" + "\\\\Us" + "ers", "C:" + "\\Us" + "ers"]
@@ -502,15 +506,170 @@ for root, dirs, fs in os.walk(DR):
                 break
 print(f"11) Manifest: counts recomputed, versions matched, entryPoints inside repo, docs scripts exist, no machine paths; {len(errors) - c11} errors")
 
-# 12 ---------------------------------------------------------------------------------
+# 12 section contracts: meta schema, retrieval eligibility, provenance vs taxonomy -----------------
+import jsonschema as _js  # noqa: E402
+
+# Second, independent literal of the retrieval-ineligible utility/runtime sections. The validator
+# (semantic_validate.RETRIEVAL_INELIGIBLE), the contracts, the allowlist and this literal must all agree.
+PINNED_RETRIEVAL_INELIGIBLE = {"overlay.partner-modal", "quirk.phone-empty-block"}
+c12 = len(errors)
+repo_sv = SV.load_repo()
+TAGS = {"overlay": "retrieval", "RETRIEVAL_PINNED": "retrieval", "CLASS_POLICY": "class-policy"}
+try:
+    _js.Draft7Validator.check_schema(repo_sv["contractSchema"])
+except _js.SchemaError as e:
+    err("section-contract", f"schema/section-contract.schema.json is not valid Draft-07: {e.message}")
+n_src = 0
+for rid, (rel, j) in sorted(secs.items()):
+    for sev, rule, msg in SV.validate_section_contract(j, repo_sv):
+        err(TAGS.get(rule, "section-contract"), f"{rel}: {rule}: {msg}")
+    src = j.get("source", {})
+    if HAVE_SRC and src.get("file"):
+        fp = os.path.join(PROJECT, src["file"])
+        if not os.path.exists(fp):
+            err("section-contract", f"{rel}: source file {src['file']} does not exist")
+        else:
+            lines_ = open(fp, encoding="utf-8", errors="replace").read().split("\n")
+            a_, _, b_ = src["lines"].partition("-")
+            a_, b_ = int(a_), int(b_ or a_)
+            if a_ < 1 or b_ > len(lines_) or a_ > b_:
+                err("section-contract", f"{rel}: source lines {src['lines']} fall outside {src['file']} ({len(lines_)} lines)")
+            else:
+                seg_ = "\n".join(lines_[a_ - 1:b_])
+                miss_ = [q for q in cites.get(src["citation"], {}).get("mustContain", []) if q not in seg_]
+                if miss_:
+                    err("section-contract", f"{rel}: source {src['file']}:{src['lines']} does not contain {miss_} (in-range but wrong)")
+                n_src += 1
+flagged = {j["typeId"] for _, j in secs.values() if j.get("retrievalEligible") is False}
+if SV.RETRIEVAL_INELIGIBLE != PINNED_RETRIEVAL_INELIGIBLE:
+    err("retrieval", f"semantic_validate.RETRIEVAL_INELIGIBLE {sorted(SV.RETRIEVAL_INELIGIBLE)} != verify_all pin {sorted(PINNED_RETRIEVAL_INELIGIBLE)}")
+if flagged != PINNED_RETRIEVAL_INELIGIBLE:
+    err("retrieval", f"contracts with retrievalEligible false {sorted(flagged)} != pinned {sorted(PINNED_RETRIEVAL_INELIGIBLE)}")
+if sorted(allow.get("retrievalIneligibleSections", [])) != sorted("section." + t for t in PINNED_RETRIEVAL_INELIGIBLE):
+    err("retrieval", f"allowlist retrievalIneligibleSections {allow.get('retrievalIneligibleSections')} != pinned section ids")
+pol12 = repo_sv["classification"]
+cats_used = {j["category"] for _, j in secs.values()}
+if sorted(allow.get("semanticCategories", [])) != sorted(pol12["semanticCategories"]) or sorted(pol12["semanticCategories"]) != sorted(repo_sv["contractSchema"]["properties"]["category"]["enum"]):
+    err("class-policy", "semanticCategories differ between the allowlist, schema/section-classification.json and schema/section-contract.schema.json")
+if cats_used != set(pol12["semanticCategories"]):
+    err("class-policy", f"categories used {sorted(cats_used)} != closed taxonomy {sorted(pol12['semanticCategories'])}")
+for tid_ in pol12["inlineCtaReviewed"]:
+    if tid_ not in sec_by_type:
+        err("class-policy", f"inlineCtaReviewed names {tid_}, which is not a section")
+    else:
+        nm_ = set()
+        SV._names(sec_by_type[tid_]["contentModel"], nm_)
+        if not nm_ & set(pol12["ctaPropertyNames"]):
+            err("class-policy", f"inlineCtaReviewed entry {tid_} no longer carries a CTA-like field (stale review)")
+print(f"12) Section contracts: {len(secs)} validated (meta schema, retrievalEligible pinned to {sorted(PINNED_RETRIEVAL_INELIGIBLE)} in contracts + allowlist + validator + this check, source vs semantic, class policy); "
+      + (f"{n_src} source ranges re-read from the real files; " if HAVE_SRC else "source range re-read SKIPPED (no sibling source); ") + f"{len(errors) - c12} errors")
+
+# 13 whole-page-wrapper gate -------------------------------------------------------------------
+import wrapper_gate as WG  # noqa: E402
+
+c13 = len(errors)
+g_err, g_warn, g_info = WG.evaluate(mv, repo_sv)
+errors.extend(g_err)
+warnings.extend(g_warn)
+hm = next(i for i in g_info if i and i[0] == "hero-max")[1]
+n_meas = sum(len(r.get("nodes", [])) for r in mv.get("sectionHeights", {}).get("routes", {}).values())
+print(f"13) Wrapper gate: {len(mv.get('sectionHeights', {}).get('routes', {}))} routes / {n_meas} measured section instances at 1440px; tallest hero {hm[0]}px (warn >{WG.HERO_WARN_PX}, fail >{WG.HERO_FAIL_PX}); {len(g_warn)} warning(s); {len(errors) - c13} errors")
+
+# 14 IA parity -----------------------------------------------------------------------------------
+IA_SECTION_MAP = {
+    "content.index-header": "content.conversations-header", "content.conversation-grid": "content.conversations-grid",
+    "content.article-header": "content.article-header", "media.video-embed": "content.article-video",
+    "content.article-summary": "content.article-summary", "content.article-chapter-index": "content.article-chapters",
+    "content.transcript-chapter": "content.article-transcript-chapter", "content.article-faq": "content.article-faq",
+    "content.legal-header": "content.legal-header", "content.legal-section": "content.legal-section",
+    "cta.agent-promo": "convert.insights-agent-promo",
+}
+IA_TEMPLATE_MAP = {"template.conversations-index": ["template.conversations-index"], "template.conversation-detail": ["template.conversation-detail"],
+                   "template.legal": ["template.legal"], "template.insights-landing": ["template.insights-landing", "template.insights-landing-short"]}
+IA_GONE = {"content.conversations-index", "content.conversation-article", "content.legal-document", "product.insights-agent-promo"}
+c14 = len(errors)
+ia_path = os.path.join(PROJECT, "ia.json")
+if os.path.exists(ia_path):
+    import csv  # noqa: E402
+
+    ia = json.load(open(ia_path, encoding="utf-8"))
+    ia_routes = {r for t in ia["templates"] for r in t["routes"]}
+    if ia_routes != set(route_owner):
+        err("ia-parity", f"ia.json routes differ from templates: only in ia {sorted(ia_routes - set(route_owner))}, only in templates {sorted(set(route_owner) - ia_routes)}")
+    if ia["meta"]["totalRoutes"] != len(route_owner) or sum(t["routeCount"] for t in ia["templates"]) != len(route_owner):
+        err("ia-parity", f"ia.json meta.totalRoutes {ia['meta']['totalRoutes']} / routeCount sum {sum(t['routeCount'] for t in ia['templates'])} != {len(route_owner)} routes")
+    if ia["meta"]["totalTemplates"] != len(ia["templates"]):
+        err("ia-parity", "ia.json meta.totalTemplates != number of IA templates")
+    for t in ia["templates"]:
+        owners = {route_owner.get(r) for r in t["routes"]}
+        if len(owners) != 1:
+            err("ia-parity", f"IA template {t['id']} spans design-repo templates {sorted(map(str, owners))}: unrelated page types sharing one template")
+        if t["routeCount"] != len(t["routes"]):
+            err("ia-parity", f"IA template {t['id']} routeCount {t['routeCount']} != {len(t['routes'])} routes")
+    for g in sorted(IA_GONE & set(ia["sections"])):
+        err("ia-parity", f"ia.json still defines the superseded section {g}")
+    ia_tpl = {t["id"]: t for t in ia["templates"]}
+    ded = lambda xs: [x for i, x in enumerate(xs) if i == 0 or x != xs[i - 1]]  # noqa: E731
+    mapped_ids = set(IA_SECTION_MAP.values())
+    for dsec, isec in IA_SECTION_MAP.items():
+        if isec not in ia["sections"]:
+            err("ia-parity", f"design section {dsec} maps to IA section {isec}, which ia.json does not define")
+        elif dsec not in sec_by_type:
+            err("ia-parity", f"IA_SECTION_MAP names {dsec}, which is not a design-repo section")
+        else:
+            want_cat = {"conversion": "CONVERT", "content": "CONTENT"}.get(sec_by_type[dsec]["category"], "?" + sec_by_type[dsec]["category"])
+            if ia["sections"][isec]["category"] != want_cat:
+                err("ia-parity", f"IA section {isec} is {ia['sections'][isec]['category']} but design section {dsec} is {sec_by_type[dsec]['category']} (expected {want_cat})")
+    for dt, its in IA_TEMPLATE_MAP.items():
+        dmap = [IA_SECTION_MAP[n["section"]] for n in templates[dt]["nodes"] if n["section"] in IA_SECTION_MAP]
+        for it in its:
+            got = [x for x in ia_tpl[it]["sections"] if x in mapped_ids]
+            if ded(got) != ded(dmap):
+                err("ia-parity", f"{it} sections {ded(got)} != the design-repo {dt} nodes mapped to IA ids {ded(dmap)}")
+            if set(ia_tpl[it]["routes"]) - set(templates[dt]["routes"]):
+                err("ia-parity", f"{it} routes are not all routes of {dt}")
+    mpath, hpath = os.path.join(PROJECT, "matrix.csv"), os.path.join(PROJECT, "IA.md")
+    if os.path.exists(mpath):
+        rows = list(csv.reader(open(mpath, encoding="utf-8")))
+        head, body = rows[0], rows[1:]
+        tot = [r for r in body if r[0] == "ROUTE COUNT"]
+        body = [r for r in body if r[0] != "ROUTE COUNT"]
+        if not tot or [int(x) for x in tot[0][4:]] != [t["routeCount"] for t in ia["templates"]]:
+            err("ia-parity", "matrix.csv ROUTE COUNT row disagrees with ia.json routeCount per template (stale; run node build.mjs)")
+        if {r[0] for r in body} != set(ia["sections"]):
+            err("ia-parity", f"matrix.csv sections differ from ia.json (stale; run node build.mjs): only csv {sorted({r[0] for r in body} - set(ia['sections']))[:4]}, only ia {sorted(set(ia['sections']) - {r[0] for r in body})[:4]}")
+        if head[4:] != [t["name"] for t in ia["templates"]]:
+            err("ia-parity", "matrix.csv template columns differ from ia.json templates (stale; run node build.mjs)")
+        else:
+            for r in body:
+                uses = [t for t in ia["templates"] if r[0] in t["sections"]]
+                if r[0] in ia["sections"] and (int(r[2]) != len(uses) or int(r[3]) != sum(t["routeCount"] for t in uses) or r[4:].count("x") != len(uses)):
+                    err("ia-parity", f"matrix.csv row {r[0]} templates/routes/x-marks disagree with ia.json (stale; run node build.mjs)")
+    if os.path.exists(hpath):
+        md = open(hpath, encoding="utf-8").read()
+        want_line = f"{ia['meta']['totalRoutes']} routes · {ia['meta']['totalTemplates']} templates · {len(ia['sections'])} unique sections"
+        if want_line not in md:
+            err("ia-parity", f"IA.md does not state {want_line!r} (stale; run node build.mjs)")
+        for sid in ia["sections"]:
+            if f"`{sid}`" not in md:
+                err("ia-parity", f"IA.md does not mention section {sid} (stale; run node build.mjs)")
+        for g in IA_GONE:
+            if f"`{g}`" in md:
+                err("ia-parity", f"IA.md still mentions the superseded section {g} (stale; run node build.mjs)")
+    print(f"14) IA parity: ia.json ({len(ia['templates'])} templates, {len(ia['sections'])} sections) vs design-repo: routes 1:1, no IA template spans two design templates, {len(IA_SECTION_MAP)} split/renamed sections mapped in order, matrix.csv + IA.md current; {len(errors) - c14} errors")
+else:
+    warn("ia-parity", "ia.json not beside design-repo/: IA parity SKIPPED (standalone copy)")
+    print("14) IA parity: SKIPPED (no sibling ia.json; standalone copy)")
+
+# 15 ---------------------------------------------------------------------------------
 if "--skip-adversarial" in sys.argv:
-    print("12) Adversarial suite: SKIPPED by --skip-adversarial (drift-injection runs only)")
+    print("15) Adversarial suite: SKIPPED by --skip-adversarial (drift-injection runs only)")
 else:
     r = subprocess.run([sys.executable, os.path.join(DR, "schema", "tests", "adversarial_test.py")], capture_output=True, text=True)
     tail = [ln for ln in r.stdout.strip().split("\n") if ln][-1:] or [""]
     if r.returncode != 0:
         err("adversarial", "adversarial suite failed:\n" + r.stdout[-1500:] + r.stderr[-800:])
-    print(f"12) Adversarial suite: {'PASS' if r.returncode == 0 else 'FAIL'} ({tail[0]})")
+    print(f"15) Adversarial suite: {'PASS' if r.returncode == 0 else 'FAIL'} ({tail[0]})")
 
 print("\n" + "=" * 72)
 for w in warnings:

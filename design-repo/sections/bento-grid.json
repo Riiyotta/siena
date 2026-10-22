@@ -2,8 +2,20 @@
   "id": "section.bento.grid",
   "registryId": "section.bento.grid",
   "typeId": "bento.grid",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "feature",
+  "semantic": {
+    "id": "semantic.bento.grid",
+    "category": "feature"
+  },
+  "source": {
+    "id": "source.spec.pa.2.4",
+    "tag": "measured-spec",
+    "citation": "spec.pa.2.4",
+    "file": "specs/product-a.md",
+    "lines": "224-233"
+  },
+  "retrievalEligible": true,
   "purpose": "Bento of large white cards + 3-column icon tiles.",
   "evidenceLevel": "spec-measured",
   "variants": {

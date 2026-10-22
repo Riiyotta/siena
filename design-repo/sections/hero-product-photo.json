@@ -2,8 +2,20 @@
   "id": "section.hero.product-photo",
   "registryId": "section.hero.product-photo",
   "typeId": "hero.product-photo",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "hero",
+  "semantic": {
+    "id": "semantic.hero.product-photo",
+    "category": "hero"
+  },
+  "source": {
+    "id": "source.spec.pb.1.1",
+    "tag": "measured-spec",
+    "citation": "spec.pb.1.1",
+    "file": "specs/product-b.md",
+    "lines": "34-45"
+  },
+  "retrievalEligible": true,
   "purpose": "Memory hero: left-aligned H1 (hard break) + dimmed subtitle + CTA over a full-bleed soft photo; single masked product ticker at the bottom.",
   "evidenceLevel": "spec-measured",
   "variants": {

@@ -554,17 +554,23 @@
             "carousel.playbooks",
             "comparison.before-after",
             "comparison.table",
-            "content.conversation-article",
-            "content.conversation-index",
-            "content.legal-document",
+            "content.article-chapter-index",
+            "content.article-faq",
+            "content.article-header",
+            "content.article-summary",
+            "content.conversation-grid",
+            "content.index-header",
+            "content.legal-header",
+            "content.legal-section",
+            "content.transcript-chapter",
             "coverage.criteria",
+            "cta.agent-promo",
             "cta.demo-form",
             "cta.lab-newsletter",
             "cta.main",
             "cta.newsletter",
             "events.empty-list",
             "faq.accordion",
-            "feature.agent-promo",
             "feature.change-once",
             "feature.media-row",
             "feature.pill-nav-blocks",
@@ -602,6 +608,7 @@
             "logos.static-row",
             "logos.ticker-block",
             "media.reveal-pair",
+            "media.video-embed",
             "mockup.ask-siena",
             "nav.chip-anchor",
             "overlay.partner-modal",
@@ -1718,7 +1725,147 @@
           "if": {
             "properties": {
               "type": {
-                "const": "content.conversation-article"
+                "const": "content.article-chapter-index"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "variant": {
+                "enum": [
+                  "standard"
+                ]
+              },
+              "content": {
+                "type": "object",
+                "properties": {
+                  "chapters": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "time": {
+                          "type": "string",
+                          "maxWords": 1,
+                          "pattern": "^[0-9]{1,2}:[0-5][0-9]$"
+                        },
+                        "title": {
+                          "type": "string",
+                          "maxWords": 12
+                        }
+                      },
+                      "required": [
+                        "time",
+                        "title"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "minItems": 3,
+                    "maxItems": 20
+                  }
+                },
+                "required": [
+                  "chapters"
+                ],
+                "additionalProperties": false
+              },
+              "motion": {
+                "properties": {
+                  "pattern": {
+                    "enum": [
+                      "none"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "content.article-faq"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "variant": {
+                "enum": [
+                  "standard"
+                ]
+              },
+              "content": {
+                "type": "object",
+                "properties": {
+                  "faq": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "question": {
+                          "type": "string",
+                          "maxWords": 16
+                        },
+                        "answer": {
+                          "type": "object",
+                          "properties": {
+                            "text": {
+                              "type": "string",
+                              "maxWords": 90
+                            },
+                            "copySource": {
+                              "enum": [
+                                "placeholder"
+                              ]
+                            }
+                          },
+                          "required": [
+                            "text",
+                            "copySource"
+                          ],
+                          "additionalProperties": false
+                        }
+                      },
+                      "required": [
+                        "question",
+                        "answer"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "minItems": 2,
+                    "maxItems": 8
+                  }
+                },
+                "required": [
+                  "faq"
+                ],
+                "additionalProperties": false
+              },
+              "motion": {
+                "properties": {
+                  "pattern": {
+                    "enum": [
+                      "none"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "content.article-header"
               }
             },
             "required": [
@@ -1765,25 +1912,48 @@
                       "brand"
                     ],
                     "additionalProperties": false
-                  },
-                  "video": {
-                    "type": "object",
-                    "properties": {
-                      "assetRole": {
-                        "const": "embed.youtube"
-                      },
-                      "videoId": {
-                        "type": "string",
-                        "maxWords": 1,
-                        "pattern": "^[A-Za-z0-9_-]{11}$"
-                      }
-                    },
-                    "required": [
-                      "assetRole",
-                      "videoId"
-                    ],
-                    "additionalProperties": false
-                  },
+                  }
+                },
+                "required": [
+                  "date",
+                  "headline",
+                  "guest"
+                ],
+                "additionalProperties": false
+              },
+              "motion": {
+                "properties": {
+                  "pattern": {
+                    "enum": [
+                      "none"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "content.article-summary"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "variant": {
+                "enum": [
+                  "standard"
+                ]
+              },
+              "content": {
+                "type": "object",
+                "properties": {
                   "summary": {
                     "type": "array",
                     "items": {
@@ -1831,147 +2001,11 @@
                     },
                     "minItems": 3,
                     "maxItems": 8
-                  },
-                  "chapters": {
-                    "type": "array",
-                    "items": {
-                      "type": "object",
-                      "properties": {
-                        "time": {
-                          "type": "string",
-                          "maxWords": 1,
-                          "pattern": "^[0-9]{1,2}:[0-5][0-9]$"
-                        },
-                        "title": {
-                          "type": "string",
-                          "maxWords": 12
-                        }
-                      },
-                      "required": [
-                        "time",
-                        "title"
-                      ],
-                      "additionalProperties": false
-                    },
-                    "minItems": 3,
-                    "maxItems": 20
-                  },
-                  "transcript": {
-                    "type": "array",
-                    "items": {
-                      "type": "object",
-                      "properties": {
-                        "chapter": {
-                          "type": "string",
-                          "maxWords": 12
-                        },
-                        "turns": {
-                          "type": "array",
-                          "items": {
-                            "type": "object",
-                            "properties": {
-                              "speaker": {
-                                "type": "string",
-                                "maxWords": 3
-                              },
-                              "seconds": {
-                                "type": "integer",
-                                "minimum": 0
-                              },
-                              "paragraphs": {
-                                "type": "array",
-                                "items": {
-                                  "type": "object",
-                                  "properties": {
-                                    "text": {
-                                      "type": "string",
-                                      "maxWords": 150
-                                    },
-                                    "copySource": {
-                                      "enum": [
-                                        "placeholder"
-                                      ]
-                                    }
-                                  },
-                                  "required": [
-                                    "text",
-                                    "copySource"
-                                  ],
-                                  "additionalProperties": false
-                                },
-                                "minItems": 1,
-                                "maxItems": 6
-                              }
-                            },
-                            "required": [
-                              "speaker",
-                              "seconds",
-                              "paragraphs"
-                            ],
-                            "additionalProperties": false
-                          },
-                          "minItems": 1,
-                          "maxItems": 40
-                        }
-                      },
-                      "required": [
-                        "chapter",
-                        "turns"
-                      ],
-                      "additionalProperties": false
-                    },
-                    "minItems": 3,
-                    "maxItems": 20
-                  },
-                  "faq": {
-                    "type": "array",
-                    "items": {
-                      "type": "object",
-                      "properties": {
-                        "question": {
-                          "type": "string",
-                          "maxWords": 16
-                        },
-                        "answer": {
-                          "type": "object",
-                          "properties": {
-                            "text": {
-                              "type": "string",
-                              "maxWords": 90
-                            },
-                            "copySource": {
-                              "enum": [
-                                "placeholder"
-                              ]
-                            }
-                          },
-                          "required": [
-                            "text",
-                            "copySource"
-                          ],
-                          "additionalProperties": false
-                        }
-                      },
-                      "required": [
-                        "question",
-                        "answer"
-                      ],
-                      "additionalProperties": false
-                    },
-                    "minItems": 2,
-                    "maxItems": 8
                   }
                 },
                 "required": [
-                  "date",
-                  "headline",
-                  "guest",
-                  "video",
                   "summary",
-                  "takeaways",
-                  "chapters",
-                  "transcript",
-                  "faq"
+                  "takeaways"
                 ],
                 "additionalProperties": false
               },
@@ -1991,7 +2025,7 @@
           "if": {
             "properties": {
               "type": {
-                "const": "content.conversation-index"
+                "const": "content.conversation-grid"
               }
             },
             "required": [
@@ -2008,18 +2042,6 @@
               "content": {
                 "type": "object",
                 "properties": {
-                  "kicker": {
-                    "type": "string",
-                    "maxWords": 2
-                  },
-                  "headline": {
-                    "type": "string",
-                    "maxWords": 10
-                  },
-                  "intro": {
-                    "type": "string",
-                    "maxWords": 40
-                  },
                   "cards": {
                     "type": "array",
                     "items": {
@@ -2083,9 +2105,6 @@
                   }
                 },
                 "required": [
-                  "kicker",
-                  "headline",
-                  "intro",
                   "cards",
                   "phoneGrid"
                 ],
@@ -2107,7 +2126,108 @@
           "if": {
             "properties": {
               "type": {
-                "const": "content.legal-document"
+                "const": "content.index-header"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "variant": {
+                "enum": [
+                  "standard"
+                ]
+              },
+              "content": {
+                "type": "object",
+                "properties": {
+                  "kicker": {
+                    "type": "string",
+                    "maxWords": 2
+                  },
+                  "headline": {
+                    "type": "string",
+                    "maxWords": 10
+                  },
+                  "intro": {
+                    "type": "string",
+                    "maxWords": 40
+                  }
+                },
+                "required": [
+                  "kicker",
+                  "headline",
+                  "intro"
+                ],
+                "additionalProperties": false
+              },
+              "motion": {
+                "properties": {
+                  "pattern": {
+                    "enum": [
+                      "none"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "content.legal-header"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "variant": {
+                "enum": [
+                  "standard"
+                ]
+              },
+              "content": {
+                "type": "object",
+                "properties": {
+                  "headline": {
+                    "type": "string",
+                    "maxWords": 4
+                  },
+                  "lastUpdated": {
+                    "type": "string",
+                    "maxWords": 4
+                  }
+                },
+                "required": [
+                  "headline",
+                  "lastUpdated"
+                ],
+                "additionalProperties": false
+              },
+              "motion": {
+                "properties": {
+                  "pattern": {
+                    "enum": [
+                      "none"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "content.legal-section"
               }
             },
             "required": [
@@ -2125,13 +2245,9 @@
               "content": {
                 "type": "object",
                 "properties": {
-                  "headline": {
+                  "heading": {
                     "type": "string",
-                    "maxWords": 4
-                  },
-                  "lastUpdated": {
-                    "type": "string",
-                    "maxWords": 4
+                    "maxWords": 12
                   },
                   "blocks": {
                     "type": "array",
@@ -2198,8 +2314,8 @@
                       ],
                       "additionalProperties": false
                     },
-                    "minItems": 10,
-                    "maxItems": 400
+                    "minItems": 1,
+                    "maxItems": 60
                   },
                   "previousVersions": {
                     "type": "array",
@@ -2226,9 +2342,99 @@
                   }
                 },
                 "required": [
-                  "headline",
-                  "lastUpdated",
                   "blocks"
+                ],
+                "additionalProperties": false
+              },
+              "motion": {
+                "properties": {
+                  "pattern": {
+                    "enum": [
+                      "none"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "content.transcript-chapter"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "variant": {
+                "enum": [
+                  "standard"
+                ]
+              },
+              "content": {
+                "type": "object",
+                "properties": {
+                  "chapter": {
+                    "type": "string",
+                    "maxWords": 12
+                  },
+                  "turns": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "speaker": {
+                          "type": "string",
+                          "maxWords": 3
+                        },
+                        "seconds": {
+                          "type": "integer",
+                          "minimum": 0
+                        },
+                        "paragraphs": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "text": {
+                                "type": "string",
+                                "maxWords": 150
+                              },
+                              "copySource": {
+                                "enum": [
+                                  "placeholder"
+                                ]
+                              }
+                            },
+                            "required": [
+                              "text",
+                              "copySource"
+                            ],
+                            "additionalProperties": false
+                          },
+                          "minItems": 1,
+                          "maxItems": 6
+                        }
+                      },
+                      "required": [
+                        "speaker",
+                        "seconds",
+                        "paragraphs"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "minItems": 1,
+                    "maxItems": 40
+                  }
+                },
+                "required": [
+                  "chapter",
+                  "turns"
                 ],
                 "additionalProperties": false
               },
@@ -2338,6 +2544,132 @@
                   "pattern": {
                     "enum": [
                       "scroll-reveal-spring"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "cta.agent-promo"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "variant": {
+                "enum": [
+                  "insights"
+                ]
+              },
+              "content": {
+                "type": "object",
+                "properties": {
+                  "eyebrow": {
+                    "type": "string",
+                    "maxWords": 4
+                  },
+                  "heading": {
+                    "type": "string",
+                    "maxWords": 8
+                  },
+                  "body": {
+                    "type": "string",
+                    "maxWords": 25
+                  },
+                  "cta": {
+                    "type": "object",
+                    "properties": {
+                      "label": {
+                        "type": "string",
+                        "maxWords": 4
+                      },
+                      "href": {
+                        "type": "string",
+                        "pattern": "^(/[a-z0-9/#-]*|#[a-z0-9-]+|https://[a-zA-Z0-9.-]+(/[^\\s]*)?|mailto:[a-z.]+@siena\\.cx)$"
+                      },
+                      "style": {
+                        "enum": [
+                          "xlg-dark"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "label",
+                      "href",
+                      "style"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "chat": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "speaker": {
+                          "enum": [
+                            "customer",
+                            "siena"
+                          ]
+                        },
+                        "text": {
+                          "type": "string",
+                          "maxWords": 35
+                        }
+                      },
+                      "required": [
+                        "speaker",
+                        "text"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "minItems": 3,
+                    "maxItems": 7
+                  },
+                  "background": {
+                    "type": "object",
+                    "properties": {
+                      "assetRole": {
+                        "const": "image.card-background"
+                      },
+                      "assetRef": {
+                        "type": "string",
+                        "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
+                      },
+                      "alt": {
+                        "type": "string",
+                        "maxWords": 24
+                      }
+                    },
+                    "required": [
+                      "assetRole",
+                      "assetRef"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "eyebrow",
+                  "heading",
+                  "body",
+                  "cta",
+                  "chat",
+                  "background"
+                ],
+                "additionalProperties": false
+              },
+              "motion": {
+                "properties": {
+                  "pattern": {
+                    "enum": [
+                      "chat-stagger"
                     ]
                   }
                 }
@@ -2745,132 +3077,6 @@
                   "pattern": {
                     "enum": [
                       "accordion"
-                    ]
-                  }
-                }
-              }
-            }
-          }
-        },
-        {
-          "if": {
-            "properties": {
-              "type": {
-                "const": "feature.agent-promo"
-              }
-            },
-            "required": [
-              "type"
-            ]
-          },
-          "then": {
-            "properties": {
-              "variant": {
-                "enum": [
-                  "insights"
-                ]
-              },
-              "content": {
-                "type": "object",
-                "properties": {
-                  "eyebrow": {
-                    "type": "string",
-                    "maxWords": 4
-                  },
-                  "heading": {
-                    "type": "string",
-                    "maxWords": 8
-                  },
-                  "body": {
-                    "type": "string",
-                    "maxWords": 25
-                  },
-                  "cta": {
-                    "type": "object",
-                    "properties": {
-                      "label": {
-                        "type": "string",
-                        "maxWords": 4
-                      },
-                      "href": {
-                        "type": "string",
-                        "pattern": "^(/[a-z0-9/#-]*|#[a-z0-9-]+|https://[a-zA-Z0-9.-]+(/[^\\s]*)?|mailto:[a-z.]+@siena\\.cx)$"
-                      },
-                      "style": {
-                        "enum": [
-                          "xlg-dark"
-                        ]
-                      }
-                    },
-                    "required": [
-                      "label",
-                      "href",
-                      "style"
-                    ],
-                    "additionalProperties": false
-                  },
-                  "chat": {
-                    "type": "array",
-                    "items": {
-                      "type": "object",
-                      "properties": {
-                        "speaker": {
-                          "enum": [
-                            "customer",
-                            "siena"
-                          ]
-                        },
-                        "text": {
-                          "type": "string",
-                          "maxWords": 35
-                        }
-                      },
-                      "required": [
-                        "speaker",
-                        "text"
-                      ],
-                      "additionalProperties": false
-                    },
-                    "minItems": 3,
-                    "maxItems": 7
-                  },
-                  "background": {
-                    "type": "object",
-                    "properties": {
-                      "assetRole": {
-                        "const": "image.card-background"
-                      },
-                      "assetRef": {
-                        "type": "string",
-                        "pattern": "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$"
-                      },
-                      "alt": {
-                        "type": "string",
-                        "maxWords": 24
-                      }
-                    },
-                    "required": [
-                      "assetRole",
-                      "assetRef"
-                    ],
-                    "additionalProperties": false
-                  }
-                },
-                "required": [
-                  "eyebrow",
-                  "heading",
-                  "body",
-                  "cta",
-                  "chat",
-                  "background"
-                ],
-                "additionalProperties": false
-              },
-              "motion": {
-                "properties": {
-                  "pattern": {
-                    "enum": [
-                      "chat-stagger"
                     ]
                   }
                 }
@@ -7127,6 +7333,63 @@
                   "pattern": {
                     "enum": [
                       "scroll-reveal-spring"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "media.video-embed"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "variant": {
+                "enum": [
+                  "standard"
+                ]
+              },
+              "content": {
+                "type": "object",
+                "properties": {
+                  "video": {
+                    "type": "object",
+                    "properties": {
+                      "assetRole": {
+                        "const": "embed.youtube"
+                      },
+                      "videoId": {
+                        "type": "string",
+                        "maxWords": 1,
+                        "pattern": "^[A-Za-z0-9_-]{11}$"
+                      }
+                    },
+                    "required": [
+                      "assetRole",
+                      "videoId"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "video"
+                ],
+                "additionalProperties": false
+              },
+              "motion": {
+                "properties": {
+                  "pattern": {
+                    "enum": [
+                      "none"
                     ]
                   }
                 }

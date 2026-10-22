@@ -2,8 +2,20 @@
   "id": "section.comparison.before-after",
   "registryId": "section.comparison.before-after",
   "typeId": "comparison.before-after",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "comparison",
+  "semantic": {
+    "id": "semantic.comparison.before-after",
+    "category": "comparison"
+  },
+  "source": {
+    "id": "source.spec.pa.4.8",
+    "tag": "measured-spec",
+    "citation": "spec.pa.4.8",
+    "file": "specs/product-a.md",
+    "lines": "383-390"
+  },
+  "retrievalEligible": true,
   "purpose": "'Before' vs 'With Siena' two-card comparison (xmark vs sparkles rows).",
   "evidenceLevel": "spec-measured",
   "variants": {

@@ -2,8 +2,20 @@
   "id": "section.hero.partner",
   "registryId": "section.hero.partner",
   "typeId": "hero.partner",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "hero",
+  "semantic": {
+    "id": "semantic.hero.partner",
+    "category": "hero"
+  },
+  "source": {
+    "id": "source.jsx.partner",
+    "tag": "clone-component",
+    "citation": "jsx.partner",
+    "file": "src/pages/PartnerWithSiena.jsx",
+    "lines": "44-102"
+  },
+  "retrievalEligible": true,
   "purpose": "Partner hero (H1, sub, 'Become a partner' opens the modal) + white benefits card with six feature items.",
   "evidenceLevel": "measured",
   "variants": {

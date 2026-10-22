@@ -2,8 +2,20 @@
   "id": "section.team.founders",
   "registryId": "section.team.founders",
   "typeId": "team.founders",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "company",
+  "semantic": {
+    "id": "semantic.team.founders",
+    "category": "company"
+  },
+  "source": {
+    "id": "source.jsx.ourteam",
+    "tag": "clone-component",
+    "citation": "jsx.ourteam",
+    "file": "src/components/company/OurTeam.jsx",
+    "lines": "4-11"
+  },
+  "retrievalEligible": true,
   "purpose": "'Our team' letter + founders portrait with names and LinkedIn/X buttons; links to careers.",
   "evidenceLevel": "measured",
   "variants": {

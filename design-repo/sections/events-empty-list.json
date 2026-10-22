@@ -2,8 +2,20 @@
   "id": "section.events.empty-list",
   "registryId": "section.events.empty-list",
   "typeId": "events.empty-list",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "content",
+  "semantic": {
+    "id": "semantic.events.empty-list",
+    "category": "content"
+  },
+  "source": {
+    "id": "source.jsx.events",
+    "tag": "clone-component",
+    "citation": "jsx.events",
+    "file": "src/pages/Events.jsx",
+    "lines": "7-45"
+  },
+  "retrievalEligible": true,
   "purpose": "Events list in its only reachable state: the empty-state card (CMS empty; no event card design is measurable).",
   "evidenceLevel": "measured",
   "variants": {

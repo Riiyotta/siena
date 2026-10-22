@@ -1,13 +1,25 @@
 {
-  "id": "section.content.conversation-index",
-  "registryId": "section.content.conversation-index",
-  "typeId": "content.conversation-index",
-  "version": "1.0.0",
+  "id": "section.content.conversation-grid",
+  "registryId": "section.content.conversation-grid",
+  "typeId": "content.conversation-grid",
+  "version": "1.1.0",
   "category": "content",
-  "purpose": "Conversations index: kicker, H1, serif intro, hairline, then a 2-column card grid (no motion, no hover).",
+  "semantic": {
+    "id": "semantic.content.conversation-grid",
+    "category": "content"
+  },
+  "source": {
+    "id": "source.jsx.conv.index",
+    "tag": "clone-component",
+    "citation": "jsx.conv.index",
+    "file": "src/pages/Conversations.jsx",
+    "lines": "7"
+  },
+  "retrievalEligible": true,
+  "purpose": "Conversations index card grid: 2-column grid of interview cards (photo, guest, brand, excerpt). Measured as the block that follows the index header; no motion, no hover.",
   "evidenceLevel": "measured",
   "variants": {
-    "standard": "Grid repeat(2, 519px); phone replicates the live 2x340 overflow bug."
+    "standard": "Grid repeat(2, 519px) gap 24; phone replicates the live 2x340 overflow bug."
   },
   "composes": [
     "component.conversation-card"
@@ -15,18 +27,6 @@
   "contentModel": {
     "type": "object",
     "properties": {
-      "kicker": {
-        "type": "string",
-        "maxWords": 2
-      },
-      "headline": {
-        "type": "string",
-        "maxWords": 10
-      },
-      "intro": {
-        "type": "string",
-        "maxWords": 40
-      },
       "cards": {
         "type": "array",
         "items": {
@@ -90,9 +90,6 @@
       }
     },
     "required": [
-      "kicker",
-      "headline",
-      "intro",
       "cards",
       "phoneGrid"
     ],
@@ -112,12 +109,11 @@
   "responsive": [
     {
       "at": "{foundation.breakpoint.phone-max}",
-      "change": "Padding 100 20 80; H1 48/48; grid stays 2x340 inside 350 (cards overflow and clip) when phoneGrid is the quirk; single-column is the recommended fix."
+      "change": "Grid stays 2x340 inside 350 (cards overflow and clip) when phoneGrid is the quirk; single-column is the recommended fix."
     }
   ],
   "constraints": {
-    "onePerPage": true,
-    "mustFollowNav": true
+    "onePerPage": true
   },
   "measuredFrom": [
     "spec.t2",

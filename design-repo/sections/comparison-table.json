@@ -2,8 +2,20 @@
   "id": "section.comparison.table",
   "registryId": "section.comparison.table",
   "typeId": "comparison.table",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "comparison",
+  "semantic": {
+    "id": "semantic.comparison.table",
+    "category": "comparison"
+  },
+  "source": {
+    "id": "source.jsx.conv.table",
+    "tag": "clone-component",
+    "citation": "jsx.conv.table",
+    "file": "src/components/conversion/CompareTable.jsx",
+    "lines": "7-56"
+  },
+  "retrievalEligible": true,
   "purpose": "'How is Siena different from X?' 3-column table (label / Siena with check badge / competitor); stacked cards on phone.",
   "evidenceLevel": "measured",
   "variants": {

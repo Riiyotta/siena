@@ -2,8 +2,20 @@
   "id": "section.letter.founders",
   "registryId": "section.letter.founders",
   "typeId": "letter.founders",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "company",
+  "semantic": {
+    "id": "semantic.letter.founders",
+    "category": "company"
+  },
+  "source": {
+    "id": "source.jsx.careers.letter",
+    "tag": "clone-component",
+    "citation": "jsx.careers.letter",
+    "file": "src/pages/Careers.jsx",
+    "lines": "9-13"
+  },
+  "retrievalEligible": true,
   "purpose": "Founders letter in the metrics shell (image bg + sand card): H2, three paragraphs, signature, founders photo (opacity-only appear).",
   "evidenceLevel": "measured",
   "variants": {

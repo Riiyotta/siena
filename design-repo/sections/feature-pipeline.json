@@ -2,8 +2,20 @@
   "id": "section.feature.pipeline",
   "registryId": "section.feature.pipeline",
   "typeId": "feature.pipeline",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "feature",
+  "semantic": {
+    "id": "semantic.feature.pipeline",
+    "category": "feature"
+  },
+  "source": {
+    "id": "source.spec.pb.3.4",
+    "tag": "measured-spec",
+    "citation": "spec.pb.3.4",
+    "file": "specs/product-b.md",
+    "lines": "269-282"
+  },
+  "retrievalEligible": true,
   "purpose": "'Simplify your stack': H3 + paragraph + bullets left, animated tracking pipeline (capsule, agent note, pulsing dot) right.",
   "evidenceLevel": "spec-measured",
   "variants": {

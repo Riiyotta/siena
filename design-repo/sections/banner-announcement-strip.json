@@ -2,8 +2,20 @@
   "id": "section.banner.announcement-strip",
   "registryId": "section.banner.announcement-strip",
   "typeId": "banner.announcement-strip",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "content",
+  "semantic": {
+    "id": "semantic.banner.announcement-strip",
+    "category": "content"
+  },
+  "source": {
+    "id": "source.spec.t1.announce",
+    "tag": "measured-spec",
+    "citation": "spec.t1.announce",
+    "file": "specs/content.md",
+    "lines": "51-52"
+  },
+  "retrievalEligible": true,
   "purpose": "One-line uppercase announcement under the insights hero.",
   "evidenceLevel": "measured",
   "variants": {

@@ -2,8 +2,20 @@
   "id": "section.people.quote-grid",
   "registryId": "section.people.quote-grid",
   "typeId": "people.quote-grid",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "company",
+  "semantic": {
+    "id": "semantic.people.quote-grid",
+    "category": "company"
+  },
+  "source": {
+    "id": "source.jsx.careers",
+    "tag": "clone-component",
+    "citation": "jsx.careers",
+    "file": "src/pages/Careers.jsx",
+    "lines": "57-139"
+  },
+  "retrievalEligible": true,
   "purpose": "'Why people build here': 4 employee cards (photo, name, role, location, quote) on cream.",
   "evidenceLevel": "measured",
   "variants": {

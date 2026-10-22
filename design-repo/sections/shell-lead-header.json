@@ -2,8 +2,20 @@
   "id": "section.shell.lead-header",
   "registryId": "section.shell.lead-header",
   "typeId": "shell.lead-header",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "shell",
+  "semantic": {
+    "id": "semantic.shell.lead-header",
+    "category": "shell"
+  },
+  "source": {
+    "id": "source.jsx.conv.ui",
+    "tag": "clone-component",
+    "citation": "jsx.conv.ui",
+    "file": "src/components/conversion/ui.jsx",
+    "lines": "6-37"
+  },
+  "retrievalEligible": true,
   "purpose": "Logo-only header on the lead-gen pages (replaces Nav; absolutely positioned, scrolls away).",
   "evidenceLevel": "measured",
   "variants": {

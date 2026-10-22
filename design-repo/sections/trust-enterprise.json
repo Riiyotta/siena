@@ -2,8 +2,20 @@
   "id": "section.trust.enterprise",
   "registryId": "section.trust.enterprise",
   "typeId": "trust.enterprise",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "trust",
+  "semantic": {
+    "id": "semantic.trust.enterprise",
+    "category": "trust"
+  },
+  "source": {
+    "id": "source.jsx.enterprise",
+    "tag": "clone-component",
+    "citation": "jsx.enterprise",
+    "file": "src/components/conversion/LeadSections.jsx",
+    "lines": "85-108"
+  },
+  "retrievalEligible": true,
   "purpose": "Dark 'Enterprise-grade safety' section: white H2 + paragraph and four white cards (guardrails, SSO, SOC 2, support).",
   "evidenceLevel": "measured",
   "variants": {

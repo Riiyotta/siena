@@ -2,8 +2,20 @@
   "id": "section.cta.lab-newsletter",
   "registryId": "section.cta.lab-newsletter",
   "typeId": "cta.lab-newsletter",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "conversion",
+  "semantic": {
+    "id": "semantic.cta.lab-newsletter",
+    "category": "conversion"
+  },
+  "source": {
+    "id": "source.spec.pb.5.9",
+    "tag": "measured-spec",
+    "citation": "spec.pb.5.9",
+    "file": "specs/product-b.md",
+    "lines": "476-485"
+  },
+  "retrievalEligible": true,
   "purpose": "AI Lab newsletter CTA on the peach gradient: square white card, H2, email + 'Sign me up!'. Static: never submits (the live Framer form endpoint must not be called); the success heading swap may be simulated locally.",
   "evidenceLevel": "spec-measured",
   "variants": {

@@ -1,0 +1,71 @@
+{
+  "id": "section.content.legal-header",
+  "registryId": "section.content.legal-header",
+  "typeId": "content.legal-header",
+  "version": "1.1.0",
+  "category": "content",
+  "semantic": {
+    "id": "semantic.content.legal-header",
+    "category": "content"
+  },
+  "source": {
+    "id": "source.jsx.legal",
+    "tag": "clone-component",
+    "citation": "jsx.legal",
+    "file": "src/components/content/LegalPage.jsx",
+    "lines": "86-113"
+  },
+  "retrievalEligible": true,
+  "purpose": "Legal page header: H1 with hairline and the 'Last Updated' row (calendar glyph). The page has no hero; this H1 is the document title.",
+  "evidenceLevel": "measured",
+  "variants": {
+    "standard": "Max-width 1120 column; H1 64/64 with hairline; update row 14/21."
+  },
+  "composes": [
+    "primitive.text",
+    "primitive.icon"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "headline": {
+        "type": "string",
+        "maxWords": 4
+      },
+      "lastUpdated": {
+        "type": "string",
+        "maxWords": 4
+      }
+    },
+    "required": [
+      "headline",
+      "lastUpdated"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Padding 96 24 0; H1 48/48."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustFollowNav": true
+  },
+  "measuredFrom": [
+    "spec.t4",
+    "jsx.legal"
+  ]
+}

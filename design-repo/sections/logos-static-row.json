@@ -2,8 +2,20 @@
   "id": "section.logos.static-row",
   "registryId": "section.logos.static-row",
   "typeId": "logos.static-row",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "social-proof",
+  "semantic": {
+    "id": "semantic.logos.static-row",
+    "category": "social-proof"
+  },
+  "source": {
+    "id": "source.spec.t1.logos",
+    "tag": "measured-spec",
+    "citation": "spec.t1.logos",
+    "file": "specs/content.md",
+    "lines": "54-55"
+  },
+  "retrievalEligible": true,
   "purpose": "Static row of 4 customer logos (136x46 contain); no ticker.",
   "evidenceLevel": "measured",
   "variants": {

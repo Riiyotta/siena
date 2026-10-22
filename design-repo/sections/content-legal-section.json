@@ -1,30 +1,37 @@
 {
-  "id": "section.content.legal-document",
-  "registryId": "section.content.legal-document",
-  "typeId": "content.legal-document",
-  "version": "1.0.0",
+  "id": "section.content.legal-section",
+  "registryId": "section.content.legal-section",
+  "typeId": "content.legal-section",
+  "version": "1.1.0",
   "category": "content",
-  "purpose": "Legal page: H1 with hairline, 'Last Updated' row (calendar glyph), then the rich-text body. Headings real; ALL body prose is placeholder (structure + word counts only) and must never be generated as legal text.",
+  "semantic": {
+    "id": "semantic.content.legal-section",
+    "category": "content"
+  },
+  "source": {
+    "id": "source.jsx.legal",
+    "tag": "clone-component",
+    "citation": "jsx.legal",
+    "file": "src/components/content/LegalPage.jsx",
+    "lines": "86-113"
+  },
+  "retrievalEligible": true,
+  "purpose": "One heading-bounded part of a legal document: an optional heading (absent only for the unheaded preamble) and its rich-text blocks. Repeated once per top-level heading of the document. Headings are real; ALL body prose is placeholder (structure + word counts only) and must never be generated as legal text.",
   "evidenceLevel": "measured",
   "variants": {
-    "terms": "Numbered ol>li>h2 headings + Feature Deck h2s; ends with 'Previous terms' live links.",
+    "terms": "Numbered ol>li>h2 headings + Feature Deck h2s; the Data Processing Agreement and appendices are their own parts; the last part ends with 'Previous terms' live links.",
     "privacy": "Instrument Sans 700 36/43.2 h2s, Feature Deck h3s, blue privacy@ mail link."
   },
   "composes": [
     "primitive.text",
-    "primitive.icon",
     "primitive.link"
   ],
   "contentModel": {
     "type": "object",
     "properties": {
-      "headline": {
+      "heading": {
         "type": "string",
-        "maxWords": 4
-      },
-      "lastUpdated": {
-        "type": "string",
-        "maxWords": 4
+        "maxWords": 12
       },
       "blocks": {
         "type": "array",
@@ -91,8 +98,8 @@
           ],
           "additionalProperties": false
         },
-        "minItems": 10,
-        "maxItems": 400
+        "minItems": 1,
+        "maxItems": 60
       },
       "previousVersions": {
         "type": "array",
@@ -119,8 +126,6 @@
       }
     },
     "required": [
-      "headline",
-      "lastUpdated",
       "blocks"
     ],
     "additionalProperties": false
@@ -139,16 +144,16 @@
   "responsive": [
     {
       "at": "{foundation.breakpoint.phone-max}",
-      "change": "Padding 96 24 80; H1 48/48; body Tiempos 14/21; spacing 18."
+      "change": "Padding 96 24 80; body Tiempos 14/21; spacing 18."
     }
   ],
   "constraints": {
-    "onePerPage": true,
-    "mustFollowNav": true
+    "maxPerPage": 30
   },
   "measuredFrom": [
     "spec.t4",
     "jsx.legal",
+    "jsx.legal.body",
     "jsx.legaldata",
     "spec.content.legaltype"
   ],

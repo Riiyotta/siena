@@ -2,8 +2,20 @@
   "id": "section.shell.footer",
   "registryId": "section.shell.footer",
   "typeId": "shell.footer",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "shell",
+  "semantic": {
+    "id": "semantic.shell.footer",
+    "category": "shell"
+  },
+  "source": {
+    "id": "source.jsx.footer",
+    "tag": "clone-component",
+    "citation": "jsx.footer",
+    "file": "src/components/Footer.jsx",
+    "lines": "28-39"
+  },
+  "retrievalEligible": true,
   "purpose": "Global dark footer with the single global link set. Out-of-scope destinations (blog, integrations, webinars, product updates, customer stories) are live siena.cx links, never local routes.",
   "evidenceLevel": "measured",
   "variants": {

@@ -2,8 +2,20 @@
   "id": "section.hero.referral",
   "registryId": "section.hero.referral",
   "typeId": "hero.referral",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "hero",
+  "semantic": {
+    "id": "semantic.hero.referral",
+    "category": "hero"
+  },
+  "source": {
+    "id": "source.jsx.refer",
+    "tag": "clone-component",
+    "citation": "jsx.refer",
+    "file": "src/pages/ReferAFriend.jsx",
+    "lines": "23-97"
+  },
+  "retrievalEligible": true,
   "purpose": "Refer-a-friend hero: H1 with italic word + 3 numbered steps with gradient connectors; 'Submit a referral' static form in a rainbow ring.",
   "evidenceLevel": "measured",
   "variants": {

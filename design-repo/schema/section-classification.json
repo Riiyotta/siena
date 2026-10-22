@@ -1,0 +1,76 @@
+{
+  "$description": "Closed section-classification policy. schema/semantic_validate.validate_section_contract enforces it on every section contract and extraction/verify_all.py (check 12) asserts it. It exists so that a block cannot be classed by accident: provenance (section.source: where the evidence came from) is kept apart from taxonomy (section.semantic: what the section IS).",
+  "version": "1.0.0",
+  "semanticCategories": [
+    "company",
+    "comparison",
+    "content",
+    "conversion",
+    "feature",
+    "heading",
+    "hero",
+    "integration",
+    "narrative",
+    "navigation",
+    "proof",
+    "quirk",
+    "shell",
+    "social-proof",
+    "support",
+    "trust"
+  ],
+  "idPrefixCategory": {
+    "hero": [
+      "hero"
+    ],
+    "cta": [
+      "conversion"
+    ],
+    "overlay": [
+      "conversion"
+    ],
+    "shell": [
+      "shell"
+    ]
+  },
+  "conversionCategoryOnlyForPrefixes": [
+    "cta",
+    "overlay"
+  ],
+  "editorialPrefixesNeverFeature": [
+    "banner",
+    "content",
+    "events",
+    "lab",
+    "letter",
+    "logos",
+    "people",
+    "roles",
+    "stories",
+    "story",
+    "team",
+    "testimonial",
+    "testimonials"
+  ],
+  "ctaPropertyNames": [
+    "cta",
+    "button",
+    "form"
+  ],
+  "inlineCtaReviewed": {
+    "feature.media-row": "An optional secondary text link per alternating media row; the row's job is to explain one capability, so it stays a feature and the conversion block that closes the page carries the primary CTA.",
+    "feature.sticky-scroll": "The signature scroll story: a block may end in one xlg button (home, compare, add-ons variants) that belongs to the explained capability; the page-closing conversion block is a separate cta.* section.",
+    "integrations.logo-grid": "Carries only the optional 'Explore all integrations' link to the live siena.cx page (home/compare variants); the grid itself is an integrations proof block, not a conversion block.",
+    "team.founders": "A secondary link from the team letter to the careers page; the section's content is the founders letter and portrait, and the page-closing conversion block is a separate cta.* section."
+  },
+  "utilityIdSegments": [
+    "cookie",
+    "consent",
+    "dialog",
+    "modal",
+    "popup",
+    "toast",
+    "overlay",
+    "utility"
+  ]
+}

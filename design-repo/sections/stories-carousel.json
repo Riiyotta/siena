@@ -2,8 +2,20 @@
   "id": "section.stories.carousel",
   "registryId": "section.stories.carousel",
   "typeId": "stories.carousel",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "social-proof",
+  "semantic": {
+    "id": "semantic.stories.carousel",
+    "category": "social-proof"
+  },
+  "source": {
+    "id": "source.jsx.stories",
+    "tag": "clone-component",
+    "citation": "jsx.stories",
+    "file": "src/components/CustomerStories.jsx",
+    "lines": "10-29"
+  },
+  "retrievalEligible": true,
   "purpose": "Homepage customer stories: 14 cards, 2 per page (1 on phone), crossfade paging, hover drops the logo. Cards link to live siena.cx customer stories (out of scope).",
   "evidenceLevel": "measured",
   "variants": {

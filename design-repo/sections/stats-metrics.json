@@ -2,8 +2,20 @@
   "id": "section.stats.metrics",
   "registryId": "section.stats.metrics",
   "typeId": "stats.metrics",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "proof",
+  "semantic": {
+    "id": "semantic.stats.metrics",
+    "category": "proof"
+  },
+  "source": {
+    "id": "source.jsx.metrics",
+    "tag": "clone-component",
+    "citation": "jsx.metrics",
+    "file": "src/components/Metrics.jsx",
+    "lines": "4-33"
+  },
+  "retrievalEligible": true,
   "purpose": "Proof-of-scale card over a full-bleed image: big condensed count-up (25 to 80%), headline, swash, three static stats.",
   "evidenceLevel": "measured",
   "variants": {

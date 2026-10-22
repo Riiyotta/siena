@@ -56,9 +56,9 @@
     "embed.youtube": {
       "policy": "external-embed-allowlisted",
       "description": "YouTube iframe on conversation detail pages: the ONLY deliberate external request in the clone.",
-      "guidance": "Only www.youtube.com/embed/<11-char id> with autoplay=0; only inside content.conversation-article; never add other third-party embeds, trackers or form endpoints.",
+      "guidance": "Only www.youtube.com/embed/<11-char id> with autoplay=0; only inside media.video-embed; never add other third-party embeds, trackers or form endpoints.",
       "usedBy": [
-        "content.conversation-article"
+        "media.video-embed"
       ]
     },
     "icon.glyph": {
@@ -119,7 +119,7 @@
       "description": "Photographic/blurred backgrounds behind chat-mock cards.",
       "guidance": "Reuse exact; several contain blurred real people.",
       "usedBy": [
-        "feature.agent-promo",
+        "cta.agent-promo",
         "feature.media-row",
         "feature.sticky-scroll"
       ]
@@ -176,7 +176,7 @@
       "guidance": "Reuse exact; do not generate look-alike photos of people.",
       "usedBy": [
         "agents.expert-team",
-        "content.conversation-index",
+        "content.conversation-grid",
         "coverage.criteria",
         "hero.lab",
         "hero.product-split",

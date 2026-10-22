@@ -2,8 +2,20 @@
   "id": "section.faq.accordion",
   "registryId": "section.faq.accordion",
   "typeId": "faq.accordion",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "support",
+  "semantic": {
+    "id": "semantic.faq.accordion",
+    "category": "support"
+  },
+  "source": {
+    "id": "source.jsx.conv.faq",
+    "tag": "clone-component",
+    "citation": "jsx.conv.faq",
+    "file": "src/components/conversion/Faq.jsx",
+    "lines": "5-45"
+  },
+  "retrievalEligible": true,
   "purpose": "FAQ: centered 'FAQ' H2 + sand panel of single-open accordion items (first open by default, ~100ms).",
   "evidenceLevel": "measured",
   "variants": {

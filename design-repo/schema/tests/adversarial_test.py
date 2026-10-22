@@ -17,6 +17,7 @@ import sys
 
 DR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.path.insert(0, os.path.join(DR, "schema"))
+sys.path.insert(0, os.path.join(DR, "extraction"))
 import semantic_validate as SV  # noqa: E402
 
 REPO = SV.load_repo()
@@ -258,13 +259,24 @@ MUTATIONS = [
     ("verified quote attributed to another person", HOME, lambda d: node(d, TESTI)["content"]["slides"][0].__setitem__("name", "Paige Zachs"), "QUOTE_PROVENANCE"),
     ("invented quote passed off as placeholder", C["template.partner"], lambda d: node(d, TESTI)["content"]["slides"][0]["quote"].__setitem__("text", "Siena is the best partner we ever had."), "QUOTE_PROVENANCE"),
     ("placeholder quote on a homepage-set template", HOME, lambda d: node(d, TESTI)["content"]["slides"][0].__setitem__("quote", {"text": "Placeholder quote copy", "source": "placeholder"}), "TESTIMONIAL_SET"),
-    ("placeholder prose not marked", C["template.legal"], lambda d: node(d, "content.legal-document")["content"]["blocks"][0].__setitem__("body", {"text": "You agree to these terms.", "copySource": "placeholder"}), "PLACEHOLDER_MARKED"),
+    ("placeholder prose not marked", C["template.legal"], lambda d: node(d, "content.legal-section")["content"]["blocks"][0].__setitem__("body", {"text": "You agree to these terms.", "copySource": "placeholder"}), "PLACEHOLDER_MARKED"),
     ("lorem filler passed off as real copy", INSIGHTS, lambda d: node(d, "hero.insights")["content"]["subtitle"].__setitem__("copySource", "real"), "PLACEHOLDER_MARKED"),
     # ---- route bindings inside shared templates
     ("insights landing route with the subpage hero", INSIGHTS, setp("hero.insights", ["variant"], "subpage"), "ROUTE_VARIANT"),
     ("customer-feedback route with integrations", INSIGHTS, lambda d: d.__setitem__("route", "/insights/customer-feedback-analytics-software"), "ROUTE_NODE_RULES"),
     ("pricing without the how-pricing block", C["template.lead-gen"], drop("features.icon-grid"), "ROUTE_NODE_RULES"),
     ("insights with two media rows", INSIGHTS, lambda d: d.__setitem__("nodes", [n for n in d["nodes"] if n["id"] not in ("row-3", "row-4", "row-5")]), "REPEAT_COUNTS"),
+    # ---- decomposed long-form pages (article / legal / index)
+    ("chapters index lists a chapter the transcript lacks", C["template.conversation-detail"], lambda d: node(d, "content.article-chapter-index")["content"]["chapters"].__setitem__(0, {"time": "1:05", "title": "A chapter that has no transcript part"}), "CHAPTER_PARITY"),
+    ("extra transcript chapter the index does not list", C["template.conversation-detail"], lambda d: d["nodes"].insert(max(i for i, n in enumerate(d["nodes"]) if n["type"] == "content.transcript-chapter") + 1, dict(copy.deepcopy(node(C["template.conversation-detail"], "content.transcript-chapter")), id="extra-chapter", content=dict(copy.deepcopy(node(C["template.conversation-detail"], "content.transcript-chapter")["content"]), chapter="Not listed in the index"))), "CHAPTER_PARITY"),
+    ("fewer than three transcript chapters", C["template.conversation-detail"], lambda d: d.__setitem__("nodes", [n for n in d["nodes"] if n["id"] != "n5-2"]), "REPEAT_COUNTS"),
+    ("whole article collapsed into one chapter-less body (transcript removed)", C["template.conversation-detail"], drop("content.transcript-chapter"), "TEMPLATE_NODES"),
+    ("article header on the legal template", C["template.legal"], insert(1, node(C["template.conversation-detail"], "content.article-header")), "TEMPLATE_NODES"),
+    ("legal part rendered with the other document's variant", C["template.legal"], setp("content.legal-section", ["variant"], "privacy"), "ROUTE_VARIANT"),
+    ("legal document without its header", C["template.legal"], drop("content.legal-header"), "TEMPLATE_NODES"),
+    ("index grid before its header", C["template.conversations-index"], swap("content.index-header", "content.conversation-grid"), "TEMPLATE_ORDER"),
+    ("agent promo (conversion) moved after the demo form", INSIGHTS, swap("cta.agent-promo", "cta.demo-form"), "TEMPLATE_ORDER"),
+    ("legal placeholder prose not marked (per-part body)", C["template.legal"], lambda d: node(d, "content.legal-section")["content"]["blocks"][0].__setitem__("body", {"text": "You agree to these terms.", "copySource": "placeholder"}), "PLACEHOLDER_MARKED"),
     # ---- variant rules
     ("titled slider without its title", HOME, delp(TESTI, ["content", "title"]), "VARIANT_RULES"),
     ("home sticky block without its CTA", HOME, lambda d: node(d, STICKY)["content"]["blocks"][1].__delitem__("cta"), "VARIANT_RULES"),
@@ -320,6 +332,164 @@ def direct_cases():
     return results
 
 
+# ------------------------------------------------------------------ section-contract layer
+# Contracts are not PageSpecs, so these mutate an in-memory copy of one contract and run
+# semantic_validate.validate_section_contract(); each must be rejected with the named rule.
+def contract(t):
+    return copy.deepcopy(REPO["sections"][t])
+
+
+def cset(path, value):
+    def f(c):
+        for p in path[:-1]:
+            c = c[p]
+        c[path[-1]] = value
+    return f
+
+
+def cdel(path):
+    def f(c):
+        for p in path[:-1]:
+            c = c[p]
+        del c[path[-1]]
+    return f
+
+
+def cutility_clone(c):
+    c["typeId"] = "cta.cookie-consent"
+    c["id"] = c["registryId"] = "section.cta.cookie-consent"
+    c["semantic"]["id"] = "semantic.cta.cookie-consent"
+
+
+def cinline_cta(c):
+    c["contentModel"]["properties"]["cta"] = {"type": "object"}
+
+
+CONTRACT_MUTATIONS = [
+    ("partner modal flagged retrievalEligible true", "overlay.partner-modal", lambda c: [c.__setitem__("retrievalEligible", True), c.pop("retrievalIneligibleReason")], "RETRIEVAL_PINNED"),
+    ("phone-empty-block quirk flagged retrievalEligible true", "quirk.phone-empty-block", lambda c: [c.__setitem__("retrievalEligible", True), c.pop("retrievalIneligibleReason")], "RETRIEVAL_PINNED"),
+    ("an ordinary hero flagged ineligible (not in the pinned set)", "hero.home", lambda c: [c.__setitem__("retrievalEligible", False), c.__setitem__("retrievalIneligibleReason", "Pretend this hero is a utility block so retrieval skips it.")], "RETRIEVAL_PINNED"),
+    ("a cookie-consent style utility section left eligible", "cta.main", cutility_clone, "RETRIEVAL_PINNED"),
+    ("retrievalEligible as the string 'false'", "overlay.partner-modal", cset(["retrievalEligible"], "false"), "CONTRACT_SCHEMA"),
+    ("ineligible without a reason", "overlay.partner-modal", cdel(["retrievalIneligibleReason"]), "CONTRACT_SCHEMA"),
+    ("reason too short to be a reason", "overlay.partner-modal", cset(["retrievalIneligibleReason"], "utility"), "CONTRACT_SCHEMA"),
+    ("eligible section carrying a stale reason", "hero.home", cset(["retrievalIneligibleReason"], "This reason should not exist on an eligible section at all."), "CONTRACT_SCHEMA"),
+    ("retrievalEligible missing", "hero.home", cdel(["retrievalEligible"]), "CONTRACT_SCHEMA"),
+    ("extra field invented on source", "hero.home", cset(["source", "license"], "mit"), "CONTRACT_SCHEMA"),
+    ("extra field invented on semantic", "hero.home", cset(["semantic", "citation"], "jsx.hero"), "CONTRACT_SCHEMA"),
+    ("source object missing", "hero.home", cdel(["source"]), "CONTRACT_SCHEMA"),
+    ("category outside the closed taxonomy", "hero.home", cset(["category"], "marketing"), "CONTRACT_SCHEMA"),
+    ("semantic.id not derived from the typeId", "hero.home", cset(["semantic", "id"], "semantic.hero.other"), "SOURCE_SEMANTIC"),
+    ("semantic.category differs from the section category", "hero.home", cset(["semantic", "category"], "feature"), "SOURCE_SEMANTIC"),
+    ("source.id not derived from its citation", "hero.home", cset(["source", "id"], "source.jsx.other"), "SOURCE_SEMANTIC"),
+    ("source citation not among measuredFrom", "hero.home", lambda c: c["measuredFrom"].remove(c["source"]["citation"]), "SOURCE_SEMANTIC"),
+    ("source citation undefined in the evidence ledger", "hero.home", lambda c: [c["source"].__setitem__("citation", "jsx.ghost"), c["source"].__setitem__("id", "source.jsx.ghost"), c["measuredFrom"].append("jsx.ghost")], "SOURCE_SEMANTIC"),
+    ("source lines differ from the cited lines", "hero.home", cset(["source", "lines"], "1-2"), "SOURCE_SEMANTIC"),
+    ("source file differs from the cited file", "hero.home", cset(["source", "file"], "src/pages/Home.jsx"), "SOURCE_SEMANTIC"),
+    ("source tag wrong for the cited file", "hero.home", cset(["source", "tag"], "measured-spec"), "SOURCE_SEMANTIC"),
+    ("cta.* section classed as a feature", "cta.demo-form", cset(["category"], "feature"), "CLASS_POLICY"),
+    ("conversion promo classed back as a feature", "cta.agent-promo", cset(["category"], "feature"), "CLASS_POLICY"),
+    ("conversion category on a non-cta id", "feature.pipeline", cset(["category"], "conversion"), "CLASS_POLICY"),
+    ("editorial stories classed as features", "stories.carousel", cset(["category"], "feature"), "CLASS_POLICY"),
+    ("article header classed as a hero", "content.article-header", cset(["category"], "hero"), "CLASS_POLICY"),
+    ("hero.* classed as content", "hero.home", cset(["category"], "content"), "CLASS_POLICY"),
+    ("unreviewed CTA field inside a feature section", "features.icon-grid", cinline_cta, "CLASS_POLICY"),
+]
+
+
+def contract_cases():
+    results = []
+    for name, t, fn, rule in CONTRACT_MUTATIONS:
+        c = contract(t)
+        # keep the mutated contract's derived fields consistent unless the mutation is about them
+        fn(c)
+        # semantic.category follows category unless the case is about the mismatch
+        if rule == "CLASS_POLICY" and "semantic" in c and c["semantic"]["category"] != c["category"]:
+            c["semantic"]["category"] = c["category"]
+        errs = [r for r in SV.validate_section_contract(c, REPO) if r[0] == "error"]
+        results.append((name, bool(errs) and any(r[1] == rule for r in errs), rule, errs))
+    clean = [(t, SV.validate_section_contract(c, REPO)) for t, c in sorted(REPO["sections"].items())]
+    return results, clean
+
+
+# ------------------------------------------------------------------ whole-page-wrapper gate
+import wrapper_gate as WG  # noqa: E402,E501
+
+MV = J("extraction/measured-values.json")
+R_ABOUT, R_HOME, R_INS = "/about-us", "/", "/insights"
+
+
+def gmut(fn):
+    d = copy.deepcopy(MV)
+    fn(d["sectionHeights"])
+    return d
+
+
+def grow(route, section, new_h, k=0):
+    """Change one measured node and keep the page accounting self-consistent (so only the intended rule trips)."""
+    def f(sh):
+        rec = sh["routes"][route]
+        n = [x for x in rec["nodes"] if x["section"] == section][k]
+        delta = new_h - n["heightPx"]
+        n["heightPx"] = new_h
+        rec["inFlowHeightPx"] += delta
+        rec["documentHeightPx"] += delta
+        rec["unattributedPx"] = rec["documentHeightPx"] - rec["inFlowHeightPx"]
+    return f
+
+
+def both(*fs):
+    return lambda sh: [f(sh) for f in fs]
+
+
+WHO = "Reviewer (adversarial fixture)"
+WL = lambda route, section, mx, just="A long enough justification that explains why this hero is legitimately this tall.": lambda sh: sh["heroWhitelist"].append({"route": route, "section": section, "reviewedBy": WHO, "justification": just, "maxHeightPx": mx})  # noqa: E731
+GATE_ERRORS = [
+    ("hero measured at 3500px with no review", gmut(grow(R_HOME, "hero.home", 3500)), "whole-page wrapper"),
+    ("whitelisted hero with a 12-character justification", gmut(both(grow(R_HOME, "hero.home", 3500), WL(R_HOME, "hero.home", 4000, "too short..."))), "justification must be"),
+    ("whitelisted hero whose maxHeightPx is below the measurement", gmut(both(grow(R_HOME, "hero.home", 3500), WL(R_HOME, "hero.home", 3400))), "must be above the measured height"),
+    ("whitelist entry without reviewedBy", gmut(both(grow(R_HOME, "hero.home", 3500), lambda sh: sh["heroWhitelist"].append({"route": R_HOME, "section": "hero.home", "justification": "A long enough justification that explains why this hero is legitimately tall.", "maxHeightPx": 4000}))), "missing reviewedBy"),
+    ("a whole route's measurement removed", gmut(lambda sh: sh["routes"].pop("/pricing")), "no measurement recorded"),
+    ("sectionHeights block removed entirely", None, "never recorded"),
+    ("one node's heightPx deleted", gmut(lambda sh: sh["routes"][R_HOME]["nodes"][2].pop("heightPx")), "no numeric heightPx"),
+    ("one node's heightPx null", gmut(lambda sh: sh["routes"][R_HOME]["nodes"][2].__setitem__("heightPx", None)), "no numeric heightPx"),
+    ("an in-flow section recorded with zero height", gmut(grow(R_HOME, "stats.metrics", 0)), "no in-flow height"),
+    ("a node dropped from a route's measurements", gmut(lambda sh: sh["routes"][R_HOME]["nodes"].pop(3)), "not a valid"),
+    ("measured sequence out of template order", gmut(lambda sh: sh["routes"][R_HOME]["nodes"].insert(2, sh["routes"][R_HOME]["nodes"].pop(4))), "not a valid"),
+    ("a second hero measured on a page", gmut(lambda sh: sh["routes"][R_HOME]["nodes"].insert(2, copy.deepcopy(sh["routes"][R_HOME]["nodes"][1]))), "hero.* sections measured"),
+    ("page H1 sits in a non-hero block", gmut(lambda sh: [sh["routes"][R_HOME]["nodes"][1].__setitem__("h1Count", 0), sh["routes"][R_HOME]["nodes"][2].__setitem__("h1Count", 1)]), "hero-like block"),
+    ("two H1 on one page", gmut(lambda sh: sh["routes"][R_HOME].__setitem__("h1Total", 2)), "exactly one"),
+    ("hero-less legal page whose H1 is in the body part", gmut(lambda sh: [sh["routes"]["/privacy-policy"]["nodes"][1].__setitem__("h1Count", 0), sh["routes"]["/privacy-policy"]["nodes"][2].__setitem__("h1Count", 1)]), "hero-less page"),
+    ("inFlowHeightPx does not equal the node sum", gmut(lambda sh: sh["routes"][R_HOME].__setitem__("inFlowHeightPx", 5)), "!= sum of node heights"),
+    ("nodes cover far less than the document", gmut(lambda sh: sh["routes"][R_HOME].__setitem__("documentHeightPx", 30000)), "unattributed"),
+    ("gate threshold weakened in the data", gmut(lambda sh: sh["gate"].__setitem__("heroFailPx", 9000)), "may not be weakened"),
+    ("reviewed section grew past its reviewed share", gmut(grow(R_ABOUT, "story.horizontal-scroll", 20000)), "re-review"),
+    ("two routes sharing one template with unrelated sections", gmut(lambda sh: sh["routes"]["/book-a-demo"].update(nodes=[n for n in sh["routes"]["/book-a-demo"]["nodes"] if n["section"] != "testimonials.slider"])), "not one page type"),
+    ("reviewed-share entry with a short justification", gmut(lambda sh: sh["shareReviewed"][0].__setitem__("justification", "fine")), "justification must be"),
+]
+GATE_WARNS = [
+    ("hero at 2000px only warns", gmut(grow(R_HOME, "hero.home", 2000)), "> 1800px"),
+    ("hero at 3500px with a real whitelist entry warns, never errors", gmut(both(grow(R_HOME, "hero.home", 3500), WL(R_HOME, "hero.home", 4000))), "whitelisted by"),
+    ("unreviewed section holding over half a page warns", gmut(grow("/events", "events.empty-list", 4000)), "unreviewed"),
+]
+
+
+def gate_cases():
+    out = []
+    for name, mv, expect in GATE_ERRORS:
+        if mv is None:
+            mv = copy.deepcopy(MV)
+            mv.pop("sectionHeights")
+        errs, warns, _ = WG.evaluate(mv, REPO)
+        out.append((name, any(expect in e for e in errs), "error " + repr(expect)))
+    for name, mv, expect in GATE_WARNS:
+        errs, warns, _ = WG.evaluate(mv, REPO)
+        out.append((name, any(expect in w for w in warns) and not errs, "warn " + repr(expect)))
+    errs, warns, _ = WG.evaluate(copy.deepcopy(MV), REPO)
+    out.append(("the real recorded measurements pass with zero errors", not errs, "control"))
+    return out
+
+
 def main():
     fails = rejected = 0
     for name, base, fn, rule in MUTATIONS:
@@ -337,6 +507,26 @@ def main():
     for name, ok, what in direct_cases():
         print(f"{'CAUGHT' if ok else 'MISSED':12} {name:62} expects {what}")
         fails += not ok
+    c_res, c_clean = contract_cases()
+    c_rej = 0
+    for name, ok, rule, errs in c_res:
+        c_rej += ok
+        print(f"{'REJECTED' if ok else 'NOT REJECTED':12} contract: {name:56} expects {rule}" + ("" if ok else f"  got {[r[1] for r in errs][:4]}"))
+        fails += not ok
+    c_ok = 0
+    for t, res in c_clean:
+        ok = not res
+        c_ok += ok
+        if not ok:
+            print(f"CONTRACT FAIL  {t}: {res[:2]}")
+        fails += not ok
+    print(f"{'CONTROL PASS' if c_ok == len(c_clean) else 'CONTROL FAIL':12} all {len(c_clean)} real section contracts pass the contract layer with zero findings")
+    g_res = gate_cases()
+    g_ok = 0
+    for name, ok, what in g_res:
+        g_ok += ok
+        print(f"{'CAUGHT' if ok else 'MISSED':12} wrapper gate: {name:58} expects {what}")
+        fails += not ok
     controls = [("homepage example (real copy)", HOME), ("insights example (real copy)", INSIGHTS)] + [(f"synthesized control {tid} ({c['route']})", c) for tid, c in sorted(CONTROLS.items())]
     passed = 0
     for name, doc in controls:
@@ -350,7 +540,7 @@ def main():
     if missing:
         print("CONTROL GAP: templates without a control:", missing)
         fails += 1
-    print(f"adversarial: {rejected}/{len(MUTATIONS)} mutations rejected, {len(WARN_CASES)} warn-case(s), {len(direct_cases())} direct graph-layer case(s), {passed}/{len(controls)} controls pass with zero findings, {len(covered)}/{len(REPO['templates'])} templates covered")
+    print(f"adversarial: {rejected}/{len(MUTATIONS)} PageSpec mutations rejected, {c_rej}/{len(c_res)} contract mutations rejected, {g_ok}/{len(g_res)} wrapper-gate cases caught, {len(WARN_CASES)} warn-case(s), {len(direct_cases())} direct graph-layer case(s), {passed}/{len(controls)} controls pass with zero findings, {c_ok}/{len(c_clean)} real contracts clean, {len(covered)}/{len(REPO['templates'])} templates covered")
     return 1 if fails else 0
 
 

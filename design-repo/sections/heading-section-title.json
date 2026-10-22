@@ -2,8 +2,20 @@
   "id": "section.heading.section-title",
   "registryId": "section.heading.section-title",
   "typeId": "heading.section-title",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "heading",
+  "semantic": {
+    "id": "semantic.heading.section-title",
+    "category": "heading"
+  },
+  "source": {
+    "id": "source.spec.cv.3.4",
+    "tag": "measured-spec",
+    "citation": "spec.cv.3.4",
+    "file": "specs/conversion.md",
+    "lines": "213-215"
+  },
+  "retrievalEligible": true,
   "purpose": "Standalone centered title block (eyebrow? + H2/H1-size display + optional subtitle) introducing the next section.",
   "evidenceLevel": "measured",
   "variants": {

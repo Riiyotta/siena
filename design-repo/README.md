@@ -2,11 +2,11 @@
 
 AI-ready design contract extracted from the local clone of **siena.cx** (a real, live
 company). It tells a generator **what may be used** (tokens, primitives, components,
-79 section contracts), **how it may be combined** (27 page templates, a compatibility
+86 section contracts), **how it may be combined** (27 page templates, a compatibility
 graph) and **how it must behave** (motion recipes with reduced-motion fallbacks, per-section
 responsive notes), and it proves every rule with a validator and an adversarial suite.
 
-<!-- counts: {"primitives": 12, "components": 24, "sections": 79, "templates": 27, "routes": 35, "tokens": 298, "typographyRoles": 22, "motionRecipes": 20, "assetRoles": 17, "graphRules": 27, "examplePageSpecs": 2, "citations": 354, "verifiedQuotes": 24, "registeredQuirks": 10} -->
+<!-- counts: {"primitives": 12, "components": 24, "sections": 86, "templates": 27, "routes": 35, "tokens": 298, "typographyRoles": 22, "motionRecipes": 20, "assetRoles": 17, "graphRules": 28, "examplePageSpecs": 2, "citations": 356, "verifiedQuotes": 24, "registeredQuirks": 10, "retrievalIneligibleSections": 2, "measuredRoutes": 35, "measuredSectionInstances": 364} -->
 
 Status: `design-review-pending`, `productionApproved: false`, **local reference only**.
 
@@ -55,13 +55,71 @@ tokens/00-foundation  colour (histogram-backed), gradient, typography, radius, s
 tokens/10-semantic    colour roles, 22 typography roles, 20 motion recipes, shape
 tokens/20-component   component tokens          tokens/30-layout  containers, section padding
 tokens/themes         light (only theme)        tokens/llm        token-catalog, token-policy, component-allowlist
-primitives/ components/ sections/   contracts (content models with maxWords, variants, motion, responsive, constraints, citations)
-templates/templates.json            27 page shapes, nodes keyed on (section, variants), routing + overrides
-compatibility/graph.json            adjacency (derived) + 27 rules with severity
+primitives/ components/ sections/   contracts (content models with maxWords, variants, motion, responsive, constraints, citations;
+                                    sections also carry semantic{}, source{} and retrievalEligible)
+templates/templates.json            27 page shapes, nodes keyed on (section, variants), routing + overrides; long-form pages decomposed at real content boundaries
+compatibility/graph.json            adjacency (derived) + 28 rules with severity
 assets/asset-roles.json             closed asset-role vocabulary + licensing; assets/verified-quotes.json
-schema/                             pagespec.schema.json (generated, Draft-07), semantic_validate.py, examples, tests/adversarial_test.py
-extraction/                         measured-values.json (citations, snapshot, quirks), style-histogram.json, verify_all.py, prove_drift.py, builders
+schema/                             pagespec.schema.json (generated, Draft-07), section-contract.schema.json + section-classification.json (hand-authored),
+                                    semantic_validate.py, examples, tests/adversarial_test.py
+extraction/                         measured-values.json (citations, snapshot, quirks, sectionHeights), height-probes.json, measure_heights.mjs,
+                                    wrapper_gate.py, style-histogram.json, verify_all.py, prove_drift.py, builders
 ```
+
+## Page decomposition and the whole-page-wrapper gate (1.1.0)
+
+A "section" must never be a whole page or article wrapped in one box. The real rendered
+height of every template node was measured on the built clone at 1440px
+(`extraction/measure_heights.mjs` + `extraction/height-probes.json` write
+`measured-values.json` `sectionHeights`: 35 routes, 364 section instances, `unattributedPx` per page)
+and `extraction/wrapper_gate.py` (verify_all check 13) enforces, with the thresholds pinned in code:
+
+- a `hero.*` section over 1800px warns; over 3000px fails unless it has a reviewed `heroWhitelist` entry
+  (`reviewedBy`, justification of at least 30 characters, `maxHeightPx` above the measurement). Measured: 29 heroes,
+  346px (`/events`) to 1552px (`/partner-with-siena`); none over 1800px, so the whitelist is empty;
+- one section holding more than half of a page's in-flow height warns; the four that do are listed with a
+  justification in `shareReviewed` (the pinned 7500px `story.horizontal-scroll`, the `/social-agent`
+  `feature.pill-nav-blocks`, the single-hero `/community`, and the tiny `/book-a-demo` lead page) and fail if they grow;
+- exactly one visible H1 per page, inside the `hero.*` node, or inside a `content.*-header` on the three hero-less
+  templates; a missing measurement for any route or node is an error, never a skip;
+- routes that share a template must share at least 60% of their section types (no unrelated page types behind one
+  template); each IA template must lie inside one design-repo template.
+
+The three long-form suspects were decomposed at content boundaries that exist in the render, not guessed:
+
+| was one section | now | boundary evidence (1440px) |
+|---|---|---|
+| `content.conversation-article` (7455-10259px transcript inside an 10-14k page) | `content.article-header`, `media.video-embed`, `content.article-summary`, `content.article-chapter-index`, one `content.transcript-chapter` per chapter H2 (the anchor target of the chapter index), `content.article-faq` | sibling blocks of one `<article>`; chapters cut at `h2.ct-rt-ch`; largest part is 1825px (17% of its page) |
+| `content.legal-document` (15706px body = 94% of `/terms-of-service`) | `content.legal-header` + one `content.legal-section` per heading-bounded part (23 for terms, 16 for privacy, preamble included) | cut at each `h2`, the privacy `p.lg-is` heading and the DPA appendix headings; largest part is 2765px (17%) |
+| `content.conversation-index` | `content.index-header` + `content.conversation-grid` | two sibling blocks (395px header, 836px grid) |
+
+`CHAPTER_PARITY` (graph rule 28) requires the chapter index to list exactly the transcript chapters on the page.
+Nothing long-form remains a single prose block. `feature.agent-promo` was a conversion row classed as a feature and is
+now `cta.agent-promo` (category conversion).
+
+Template coherence was checked with measurements, not names: `lead-gen` (pricing + book-a-demo, Jaccard 0.67 on
+section types), `insights-landing` (one `InsightsPage` component, 0.8 to 1.0), `compare`, `conversation-detail` and
+`legal` all clear the 0.6 bar; the check is repeated on every run.
+
+## Retrieval eligibility, provenance vs taxonomy, classification
+
+- `retrievalEligible` (closed boolean, explicit on every section contract) is `false` for the utility/runtime
+  sections `overlay.partner-modal` and `quirk.phone-empty-block`, each with a required `retrievalIneligibleReason`
+  (30+ characters); a retrieval index must skip them, a template may still require them. It is pinned five ways:
+  the contract, `schema/section-contract.schema.json`, `tokens/llm/component-allowlist.json`
+  (`retrievalIneligibleSections`), `semantic_validate.RETRIEVAL_INELIGIBLE` and a second literal in `verify_all.py`;
+  any id with a cookie/consent/dialog/modal/popup/toast/overlay/utility segment must also be ineligible.
+- `source` (provenance: `{id, tag, citation, file, lines}`, resolved against the evidence ledger and re-read from the
+  real file lines) and `semantic` (taxonomy: `{id, category}`, a closed 16-category enum) are different closed objects with
+  different id namespaces; `semantic.category` must equal `category`.
+- `schema/section-classification.json` pins: `hero.*` is the only hero; `cta.*`/`overlay.*` is the only conversion;
+  editorial/news/proof prefixes (`stories`, `content`, `banner`, `lab`, ...) are never `feature`; a CTA-like field
+  (`cta`, `button`, `form`) in a non-conversion/hero/shell section needs a reviewed `inlineCtaReviewed` entry.
+
+## Not measured
+
+The visual-parity gate (clone vs the live siena.cx render) could not be measured: there was no live-site capture in
+this environment, so no parity number is claimed anywhere in this repo. Tablet 810-1199.98px is still unmeasured.
 
 ## Templates (27 for 35 routes)
 
@@ -103,7 +161,8 @@ re-checked against the current `src/` before release.
 
 ```
 python3 -m pip install jsonschema
-python3 extraction/verify_all.py          # 13 numbered checks incl. the adversarial suite
+python3 extraction/verify_all.py          # 16 numbered checks (0-15) incl. wrapper gate, IA parity, adversarial suite
+python3 extraction/wrapper_gate.py        # the whole-page-wrapper gate on its own
 python3 schema/tests/adversarial_test.py  # mutations rejected, controls pass
 python3 extraction/prove_drift.py         # proves the drift checks fail on injected defects
 python3 schema/semantic_validate.py schema/example.pagespec.json

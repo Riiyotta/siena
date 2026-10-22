@@ -2,8 +2,20 @@
   "id": "section.testimonials.wall-of-love",
   "registryId": "section.testimonials.wall-of-love",
   "typeId": "testimonials.wall-of-love",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "social-proof",
+  "semantic": {
+    "id": "semantic.testimonials.wall-of-love",
+    "category": "social-proof"
+  },
+  "source": {
+    "id": "source.jsx.co.vticker",
+    "tag": "clone-component",
+    "citation": "jsx.co.vticker",
+    "file": "src/components/company/VerticalTicker.jsx",
+    "lines": "6-25"
+  },
+  "retrievalEligible": true,
   "purpose": "'Love around the world': three masked vertical tickers of social quotes (up/down/up, ~10 px/s). Quotes are placeholders in the clone.",
   "evidenceLevel": "measured",
   "variants": {

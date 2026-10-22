@@ -2,8 +2,20 @@
   "id": "section.feature.sticky-scroll",
   "registryId": "section.feature.sticky-scroll",
   "typeId": "feature.sticky-scroll",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "feature",
+  "semantic": {
+    "id": "semantic.feature.sticky-scroll",
+    "category": "feature"
+  },
+  "source": {
+    "id": "source.jsx.scrollarea",
+    "tag": "clone-component",
+    "citation": "jsx.scrollarea",
+    "file": "src/components/ScrollArea.jsx",
+    "lines": "28-67"
+  },
+  "retrievalEligible": true,
   "purpose": "Signature scroll story: left column of 900px-tall text blocks; a sticky 512x647 visual on the right swaps variant as each block crosses mid-viewport. Static stacked column on phone.",
   "evidenceLevel": "measured",
   "variants": {

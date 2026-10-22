@@ -2,8 +2,20 @@
   "id": "section.lab.practitioner",
   "registryId": "section.lab.practitioner",
   "typeId": "lab.practitioner",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "content",
+  "semantic": {
+    "id": "semantic.lab.practitioner",
+    "category": "content"
+  },
+  "source": {
+    "id": "source.spec.pb.5.6",
+    "tag": "measured-spec",
+    "citation": "spec.pb.5.6",
+    "file": "specs/product-b.md",
+    "lines": "454-465"
+  },
+  "retrievalEligible": true,
   "purpose": "Dark 'Become an AI practitioner' block: white rule/eyebrow/H2 + statement, four numbered columns, then the #next-lab heading (empty below).",
   "evidenceLevel": "spec-measured",
   "variants": {

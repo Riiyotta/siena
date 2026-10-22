@@ -2,8 +2,20 @@
   "id": "section.hero.order-orbits",
   "registryId": "section.hero.order-orbits",
   "typeId": "hero.order-orbits",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "hero",
+  "semantic": {
+    "id": "semantic.hero.order-orbits",
+    "category": "hero"
+  },
+  "source": {
+    "id": "source.spec.pb.3.1",
+    "tag": "measured-spec",
+    "citation": "spec.pb.3.1",
+    "file": "specs/product-b.md",
+    "lines": "222-247"
+  },
+  "retrievalEligible": true,
   "purpose": "Order-tracking hero: centered H1/sub/CTA above rotating carrier-logo orbits (outer cw, inner ccw at 18 deg/s) and a customer/Siena chat row.",
   "evidenceLevel": "spec-measured",
   "variants": {

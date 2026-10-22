@@ -2,8 +2,20 @@
   "id": "section.hero.insights",
   "registryId": "section.hero.insights",
   "typeId": "hero.insights",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "hero",
+  "semantic": {
+    "id": "semantic.hero.insights",
+    "category": "hero"
+  },
+  "source": {
+    "id": "source.jsx.insights",
+    "tag": "clone-component",
+    "citation": "jsx.insights",
+    "file": "src/components/content/InsightsPage.jsx",
+    "lines": "14-41"
+  },
+  "retrievalEligible": true,
   "purpose": "Insights product-landing hero: eyebrow, H1, subtitle and demo/login buttons left; product illustration right.",
   "evidenceLevel": "measured",
   "variants": {

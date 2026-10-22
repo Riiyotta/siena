@@ -311,7 +311,7 @@
     },
     {
       "id": "promo",
-      "type": "feature.agent-promo",
+      "type": "cta.agent-promo",
       "variant": "insights",
       "motion": {
         "pattern": "chat-stagger",

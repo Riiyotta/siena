@@ -1,0 +1,76 @@
+{
+  "id": "section.content.index-header",
+  "registryId": "section.content.index-header",
+  "typeId": "content.index-header",
+  "version": "1.1.0",
+  "category": "content",
+  "semantic": {
+    "id": "semantic.content.index-header",
+    "category": "content"
+  },
+  "source": {
+    "id": "source.jsx.conv.index",
+    "tag": "clone-component",
+    "citation": "jsx.conv.index",
+    "file": "src/pages/Conversations.jsx",
+    "lines": "7"
+  },
+  "retrievalEligible": true,
+  "purpose": "Conversations index page header: kicker, H1, serif intro and a hairline. Measured as its own block above the card grid (the page has no hero; this H1 is a content header, not a hero).",
+  "evidenceLevel": "measured",
+  "variants": {
+    "standard": "Kicker + H1 48/64 + serif intro, max-width column, hairline below; no motion."
+  },
+  "composes": [
+    "primitive.text",
+    "primitive.link"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "kicker": {
+        "type": "string",
+        "maxWords": 2
+      },
+      "headline": {
+        "type": "string",
+        "maxWords": 10
+      },
+      "intro": {
+        "type": "string",
+        "maxWords": 40
+      }
+    },
+    "required": [
+      "kicker",
+      "headline",
+      "intro"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Padding 100 20 0; H1 48/48; intro 14/21."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustFollowNav": true
+  },
+  "measuredFrom": [
+    "spec.t2",
+    "jsx.conv.index"
+  ]
+}

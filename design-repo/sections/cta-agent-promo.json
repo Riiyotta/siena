@@ -1,10 +1,22 @@
 {
-  "id": "section.feature.agent-promo",
-  "registryId": "section.feature.agent-promo",
-  "typeId": "feature.agent-promo",
-  "version": "1.0.0",
-  "category": "feature",
-  "purpose": "Cross-sell row: eyebrow/H2/body + 'Learn more' left, chat card (homepage v1 copy, lowercase) right; rows reveal individually on scroll.",
+  "id": "section.cta.agent-promo",
+  "registryId": "section.cta.agent-promo",
+  "typeId": "cta.agent-promo",
+  "version": "1.1.0",
+  "category": "conversion",
+  "semantic": {
+    "id": "semantic.cta.agent-promo",
+    "category": "conversion"
+  },
+  "source": {
+    "id": "source.spec.t1.promo",
+    "tag": "measured-spec",
+    "citation": "spec.t1.promo",
+    "file": "specs/content.md",
+    "lines": "85-100"
+  },
+  "retrievalEligible": true,
+  "purpose": "Cross-sell conversion row: eyebrow/H2/body + 'Learn more' CTA left, chat card (homepage v1 copy, lowercase) right; rows reveal individually on scroll. Classed as conversion (it exists to send the visitor to the agent product), not as a feature.",
   "evidenceLevel": "measured",
   "variants": {
     "insights": "Text 544 + card 640x810."

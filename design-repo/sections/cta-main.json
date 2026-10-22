@@ -2,8 +2,20 @@
   "id": "section.cta.main",
   "registryId": "section.cta.main",
   "typeId": "cta.main",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "conversion",
+  "semantic": {
+    "id": "semantic.cta.main",
+    "category": "conversion"
+  },
+  "source": {
+    "id": "source.jsx.maincta",
+    "tag": "clone-component",
+    "citation": "jsx.maincta",
+    "file": "src/components/MainCta.jsx",
+    "lines": "6-25"
+  },
+  "retrievalEligible": true,
   "purpose": "Closing conversion card over a full-bleed image: H2 + one xlg button (demo, email or partner modal). Optional top fade blending from the previous section.",
   "evidenceLevel": "measured",
   "variants": {

@@ -2,8 +2,20 @@
   "id": "section.features.icon-grid",
   "registryId": "section.features.icon-grid",
   "typeId": "features.icon-grid",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "feature",
+  "semantic": {
+    "id": "semantic.features.icon-grid",
+    "category": "feature"
+  },
+  "source": {
+    "id": "source.jsx.howpricing",
+    "tag": "clone-component",
+    "citation": "jsx.howpricing",
+    "file": "src/components/conversion/LeadSections.jsx",
+    "lines": "55-74"
+  },
+  "retrievalEligible": true,
   "purpose": "Grid of icon + title + body items with top hairlines.",
   "evidenceLevel": "measured",
   "variants": {

@@ -2,8 +2,20 @@
   "id": "section.lab.who-attend",
   "registryId": "section.lab.who-attend",
   "typeId": "lab.who-attend",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "content",
+  "semantic": {
+    "id": "semantic.lab.who-attend",
+    "category": "content"
+  },
+  "source": {
+    "id": "source.spec.pb.5.8",
+    "tag": "measured-spec",
+    "citation": "spec.pb.5.8",
+    "file": "specs/product-b.md",
+    "lines": "469-476"
+  },
+  "retrievalEligible": true,
   "purpose": "'Who should attend?': rule/eyebrow/H2 left, three H3 groups with disc bullet lists right.",
   "evidenceLevel": "spec-measured",
   "variants": {

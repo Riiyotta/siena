@@ -2,8 +2,20 @@
   "id": "section.features.lottie-grid",
   "registryId": "section.features.lottie-grid",
   "typeId": "features.lottie-grid",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "feature",
+  "semantic": {
+    "id": "semantic.features.lottie-grid",
+    "category": "feature"
+  },
+  "source": {
+    "id": "source.jsx.features",
+    "tag": "clone-component",
+    "citation": "jsx.features",
+    "file": "src/components/Features.jsx",
+    "lines": "6-23"
+  },
+  "retrievalEligible": true,
   "purpose": "Six-card platform grid (3 rows x 2) with looping Lottie animations.",
   "evidenceLevel": "measured",
   "variants": {

@@ -2,8 +2,20 @@
   "id": "section.hero.careers",
   "registryId": "section.hero.careers",
   "typeId": "hero.careers",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "hero",
+  "semantic": {
+    "id": "semantic.hero.careers",
+    "category": "hero"
+  },
+  "source": {
+    "id": "source.jsx.careers",
+    "tag": "clone-component",
+    "citation": "jsx.careers",
+    "file": "src/pages/Careers.jsx",
+    "lines": "57-139"
+  },
+  "retrievalEligible": true,
   "purpose": "Careers hero: two-line strong H1, subtitle, 'See open roles' button on hero sand. No images, no motion.",
   "evidenceLevel": "measured",
   "variants": {

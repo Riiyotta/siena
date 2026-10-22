@@ -1,7 +1,7 @@
 {
   "repositoryId": "siena-cx-clone",
   "designFamily": "siena",
-  "repositoryVersion": "1.0.0",
+  "repositoryVersion": "1.1.0",
   "status": "design-review-pending",
   "productionApproved": false,
   "localReferenceOnly": true,
@@ -15,15 +15,15 @@
   "generationApprovedThemes": [
     "light"
   ],
-  "pageSpecVersion": "1.0.0",
+  "pageSpecVersion": "1.1.0",
   "tokenVersion": "1.0.0",
   "tokenCatalogVersion": "1.0.0",
   "tokenPolicyVersion": "1.0.0",
-  "sectionRegistryVersion": "1.0.0",
+  "sectionRegistryVersion": "1.1.0",
   "componentRegistryVersion": "1.0.0",
   "assetRegistryVersion": "1.0.0",
-  "allowlistVersion": "1.0.0",
-  "versionFieldNote": "Machine-checked by extraction/verify_all.py: allowlistVersion (must equal tokens/llm/component-allowlist.json version), tokenCatalogVersion, tokenPolicyVersion, assetRegistryVersion and the whole counts block (recomputed from disk; the README counts marker too). Documentation-only, hand-maintained, nothing verifies them: repositoryVersion, pageSpecVersion, tokenVersion, sectionRegistryVersion, componentRegistryVersion.",
+  "allowlistVersion": "1.1.0",
+  "versionFieldNote": "Machine-checked by extraction/verify_all.py: allowlistVersion (must equal tokens/llm/component-allowlist.json version), tokenCatalogVersion, tokenPolicyVersion, assetRegistryVersion, the retrievalIneligibleSections list (contracts + allowlist + two pinned literals), the measured-height gate (extraction/wrapper_gate.py) and the whole counts block (recomputed from disk; the README counts marker too). Documentation-only, hand-maintained, nothing verifies them: repositoryVersion, pageSpecVersion, tokenVersion, sectionRegistryVersion, componentRegistryVersion.",
   "sourceStack": {
     "note": "DOCUMENTATION ONLY. Recorded so a reader knows where the evidence came from; nothing in token names, section ids, schema fields or validator logic depends on it.",
     "liveOrigin": "https://www.siena.cx/ (originally a Framer site)",
@@ -37,7 +37,7 @@
       390
     ],
     "unmeasuredBreakpoints": "Tablet 810-1199.98px was never measured on any route (fluid desktop).",
-    "evidenceLedger": "extraction/measured-values.json"
+    "evidenceLedger": "extraction/measured-values.json (citations, quirks, routeInventory, sectionHeights)"
   },
   "scope": {
     "modelledTemplates": [
@@ -126,18 +126,21 @@
   "counts": {
     "primitives": 12,
     "components": 24,
-    "sections": 79,
+    "sections": 86,
     "templates": 27,
     "routes": 35,
     "tokens": 298,
     "typographyRoles": 22,
     "motionRecipes": 20,
     "assetRoles": 17,
-    "graphRules": 27,
+    "graphRules": 28,
     "examplePageSpecs": 2,
-    "citations": 354,
+    "citations": 356,
     "verifiedQuotes": 24,
-    "registeredQuirks": 10
+    "registeredQuirks": 10,
+    "retrievalIneligibleSections": 2,
+    "measuredRoutes": 35,
+    "measuredSectionInstances": 364
   },
   "entryPoints": {
     "generation": [
@@ -147,10 +150,13 @@
       "assets/asset-roles.json",
       "schema/pagespec.schema.json",
       "templates/templates.json",
-      "compatibility/graph.json"
+      "compatibility/graph.json",
+      "schema/section-contract.schema.json",
+      "schema/section-classification.json"
     ],
     "validation": [
       "schema/semantic_validate.py",
+      "extraction/wrapper_gate.py",
       "extraction/verify_all.py",
       "extraction/prove_drift.py",
       "schema/tests/adversarial_test.py"
@@ -162,13 +168,15 @@
     "evidence": [
       "extraction/measured-values.json",
       "extraction/style-histogram.json",
-      "assets/verified-quotes.json"
+      "assets/verified-quotes.json",
+      "extraction/height-probes.json"
     ],
     "build": [
       "tokens/build_catalog.py",
       "schema/build_schema.py",
       "extraction/build_histogram.py",
-      "extraction/build_verified_quotes.py"
+      "extraction/build_verified_quotes.py",
+      "extraction/measure_heights.mjs"
     ],
     "humanOnboarding": "README.md",
     "changeHistory": "CHANGELOG.md"
@@ -189,13 +197,16 @@
       "sections/*.json",
       "templates/templates.json",
       "compatibility/graph.json",
-      "assets/asset-roles.json"
+      "assets/asset-roles.json",
+      "schema/section-contract.schema.json",
+      "schema/section-classification.json"
     ],
     "generatedFiles": [
       "tokens/llm/token-catalog.json (tokens/build_catalog.py)",
       "schema/pagespec.schema.json (schema/build_schema.py)",
       "extraction/style-histogram.json (extraction/build_histogram.py, needs sibling recon/)",
-      "assets/verified-quotes.json (extraction/build_verified_quotes.py, needs sibling src/)"
+      "assets/verified-quotes.json (extraction/build_verified_quotes.py, needs sibling src/)",
+      "extraction/measured-values.json sectionHeights (extraction/measure_heights.mjs + extraction/height-probes.json, needs the built clone served locally, Node and Playwright)"
     ]
   },
   "excludedFromPackage": [
@@ -209,6 +220,6 @@
     "packages": [
       "jsonschema>=4"
     ],
-    "note": "No node tooling needed for this repo. Install with: python3 -m pip install jsonschema"
+    "note": "Python tooling only for verification: python3 -m pip install jsonschema. Node + Playwright are needed ONLY to re-measure section heights (extraction/measure_heights.mjs) against the built clone; the recorded heights are verified without them."
   }
 }

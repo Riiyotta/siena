@@ -2,8 +2,20 @@
   "id": "section.leaderboard.static",
   "registryId": "section.leaderboard.static",
   "typeId": "leaderboard.static",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "feature",
+  "semantic": {
+    "id": "semantic.leaderboard.static",
+    "category": "feature"
+  },
+  "source": {
+    "id": "source.spec.pa.4.5",
+    "tag": "measured-spec",
+    "citation": "spec.pa.4.5",
+    "file": "specs/product-a.md",
+    "lines": "361-368"
+  },
+  "retrievalEligible": true,
   "purpose": "QA leaderboard mock (static; tabs do not switch): agent performance rows + recent conversations panel.",
   "evidenceLevel": "spec-measured",
   "variants": {

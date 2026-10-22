@@ -2,8 +2,20 @@
   "id": "section.integrations.logo-grid",
   "registryId": "section.integrations.logo-grid",
   "typeId": "integrations.logo-grid",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "integration",
+  "semantic": {
+    "id": "semantic.integrations.logo-grid",
+    "category": "integration"
+  },
+  "source": {
+    "id": "source.jsx.integrations",
+    "tag": "clone-component",
+    "citation": "jsx.integrations",
+    "file": "src/components/Integrations.jsx",
+    "lines": "8-37"
+  },
+  "retrievalEligible": true,
   "purpose": "Logo-tile grid (4 x N, gap 4) of integration/partner/investor marks, optionally with an 'Explore all integrations' CTA (live siena.cx).",
   "evidenceLevel": "measured",
   "variants": {

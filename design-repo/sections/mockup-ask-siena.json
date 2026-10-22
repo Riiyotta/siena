@@ -2,8 +2,20 @@
   "id": "section.mockup.ask-siena",
   "registryId": "section.mockup.ask-siena",
   "typeId": "mockup.ask-siena",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "feature",
+  "semantic": {
+    "id": "semantic.mockup.ask-siena",
+    "category": "feature"
+  },
+  "source": {
+    "id": "source.spec.pa.4.7",
+    "tag": "measured-spec",
+    "citation": "spec.pa.4.7",
+    "file": "specs/product-a.md",
+    "lines": "376-383"
+  },
+  "retrievalEligible": true,
   "purpose": "Ask Siena mock card: title inside the card, 4 example question cards, answer composer.",
   "evidenceLevel": "spec-measured",
   "variants": {

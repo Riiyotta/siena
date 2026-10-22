@@ -2,8 +2,20 @@
   "id": "section.testimonial.centered-quote",
   "registryId": "section.testimonial.centered-quote",
   "typeId": "testimonial.centered-quote",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "social-proof",
+  "semantic": {
+    "id": "semantic.testimonial.centered-quote",
+    "category": "social-proof"
+  },
+  "source": {
+    "id": "source.spec.t1.testimonial",
+    "tag": "measured-spec",
+    "citation": "spec.t1.testimonial",
+    "file": "specs/content.md",
+    "lines": "81-83"
+  },
+  "retrievalEligible": true,
   "purpose": "Single static centered quote (insights 'What our customers say').",
   "evidenceLevel": "measured",
   "variants": {

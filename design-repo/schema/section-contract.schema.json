@@ -1,0 +1,219 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "section-contract.schema.json",
+  "$comment": "Hand-authored. Validates the META layer of every sections/*.json (identity, taxonomy, provenance, retrieval eligibility). The content model itself is validated by the generated schema/pagespec.schema.json; constraints/motion/responsive keep their own shapes checked by verify_all.py. semantic = what the section IS (closed taxonomy); source = where the evidence came from (closed provenance). They are different objects with different id namespaces and must never be merged.",
+  "title": "Siena section contract (meta layer)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "registryId",
+    "typeId",
+    "version",
+    "category",
+    "semantic",
+    "source",
+    "retrievalEligible",
+    "purpose",
+    "evidenceLevel",
+    "variants",
+    "composes",
+    "contentModel",
+    "motion",
+    "responsive",
+    "constraints",
+    "measuredFrom"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^section\\.[a-z0-9]+(\\.[a-z0-9-]+)+$"
+    },
+    "registryId": {
+      "type": "string",
+      "pattern": "^section\\.[a-z0-9]+(\\.[a-z0-9-]+)+$"
+    },
+    "typeId": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(\\.[a-z0-9-]+)+$"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "category": {
+      "enum": [
+        "company",
+        "comparison",
+        "content",
+        "conversion",
+        "feature",
+        "heading",
+        "hero",
+        "integration",
+        "narrative",
+        "navigation",
+        "proof",
+        "quirk",
+        "shell",
+        "social-proof",
+        "support",
+        "trust"
+      ]
+    },
+    "semantic": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "category"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^semantic\\.[a-z0-9]+(\\.[a-z0-9-]+)+$"
+        },
+        "category": {
+          "enum": [
+            "company",
+            "comparison",
+            "content",
+            "conversion",
+            "feature",
+            "heading",
+            "hero",
+            "integration",
+            "narrative",
+            "navigation",
+            "proof",
+            "quirk",
+            "shell",
+            "social-proof",
+            "support",
+            "trust"
+          ]
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "tag",
+        "citation",
+        "file",
+        "lines"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^source\\.[A-Za-z0-9.-]+$"
+        },
+        "tag": {
+          "enum": [
+            "clone-component",
+            "clone-data",
+            "clone-config",
+            "clone-stylesheet",
+            "measured-spec"
+          ]
+        },
+        "citation": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9.-]+$"
+        },
+        "file": {
+          "type": "string",
+          "pattern": "^(src|specs)/[A-Za-z0-9_./-]+$|^CLONE_SPEC\\.md$"
+        },
+        "lines": {
+          "type": "string",
+          "pattern": "^[0-9]+(-[0-9]+)?$"
+        }
+      }
+    },
+    "retrievalEligible": {
+      "type": "boolean"
+    },
+    "retrievalIneligibleReason": {
+      "type": "string",
+      "minLength": 30
+    },
+    "purpose": {
+      "type": "string",
+      "minLength": 20
+    },
+    "evidenceLevel": {
+      "enum": [
+        "measured",
+        "spec-measured"
+      ]
+    },
+    "variants": {
+      "type": "object",
+      "minProperties": 1
+    },
+    "composes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "contentModel": {
+      "type": "object"
+    },
+    "motion": {
+      "type": "object"
+    },
+    "responsive": {
+      "type": "array"
+    },
+    "constraints": {
+      "type": "object"
+    },
+    "measuredFrom": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "copyPolicy": {
+      "type": "object"
+    },
+    "knownQuirks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "notes": {}
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "retrievalEligible": {
+            "const": false
+          }
+        },
+        "required": [
+          "retrievalEligible"
+        ]
+      },
+      "then": {
+        "required": [
+          "retrievalIneligibleReason"
+        ]
+      },
+      "else": {
+        "not": {
+          "required": [
+            "retrievalIneligibleReason"
+          ]
+        }
+      }
+    }
+  ]
+}

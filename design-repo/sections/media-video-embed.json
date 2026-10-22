@@ -1,0 +1,78 @@
+{
+  "id": "section.media.video-embed",
+  "registryId": "section.media.video-embed",
+  "typeId": "media.video-embed",
+  "version": "1.1.0",
+  "category": "content",
+  "semantic": {
+    "id": "semantic.media.video-embed",
+    "category": "content"
+  },
+  "source": {
+    "id": "source.jsx.conv.article",
+    "tag": "clone-component",
+    "citation": "jsx.conv.article",
+    "file": "src/components/content/ConversationArticle.jsx",
+    "lines": "71-110"
+  },
+  "retrievalEligible": true,
+  "purpose": "Conversation article video: the one external embed in the clone (YouTube iframe, muted, lazy), 16:9 in the 800 column.",
+  "evidenceLevel": "measured",
+  "variants": {
+    "standard": "16:9 inside the 800 column, radius 16; phone 200 tall."
+  },
+  "composes": [
+    "primitive.image"
+  ],
+  "contentModel": {
+    "type": "object",
+    "properties": {
+      "video": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "const": "embed.youtube"
+          },
+          "videoId": {
+            "type": "string",
+            "maxWords": 1,
+            "pattern": "^[A-Za-z0-9_-]{11}$"
+          }
+        },
+        "required": [
+          "assetRole",
+          "videoId"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "required": [
+      "video"
+    ],
+    "additionalProperties": false
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallbackRequired": true,
+    "allowedFields": [
+      "pattern",
+      "reducedMotionFallback",
+      "delayMs"
+    ]
+  },
+  "responsive": [
+    {
+      "at": "{foundation.breakpoint.phone-max}",
+      "change": "Video 350x200."
+    }
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "measuredFrom": [
+    "spec.t3",
+    "jsx.conv.article"
+  ]
+}

@@ -2,8 +2,20 @@
   "id": "section.stories.filter-grid",
   "registryId": "section.stories.filter-grid",
   "typeId": "stories.filter-grid",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "social-proof",
+  "semantic": {
+    "id": "semantic.stories.filter-grid",
+    "category": "social-proof"
+  },
+  "source": {
+    "id": "source.jsx.co.storycard",
+    "tag": "clone-component",
+    "citation": "jsx.co.storycard",
+    "file": "src/components/company/StoryGrid.jsx",
+    "lines": "8-29"
+  },
+  "retrievalEligible": true,
   "purpose": "Customer-story grid with category chip filter (select on phone) and Load more (20 then 36). Cards link to live siena.cx customer stories.",
   "evidenceLevel": "measured",
   "variants": {

@@ -2,8 +2,20 @@
   "id": "section.hero.video-mock",
   "registryId": "section.hero.video-mock",
   "typeId": "hero.video-mock",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "hero",
+  "semantic": {
+    "id": "semantic.hero.video-mock",
+    "category": "hero"
+  },
+  "source": {
+    "id": "source.spec.pb.2.1",
+    "tag": "measured-spec",
+    "citation": "spec.pb.2.1",
+    "file": "specs/product-b.md",
+    "lines": "146-163"
+  },
+  "retrievalEligible": true,
   "purpose": "Video hero: centered H1/sub/CTA, animated video mock (video card, progress bar, play badge, customer + Siena bubbles, agent note) and a masked product ticker.",
   "evidenceLevel": "spec-measured",
   "variants": {

@@ -2,8 +2,20 @@
   "id": "section.feature.pill-nav-blocks",
   "registryId": "section.feature.pill-nav-blocks",
   "typeId": "feature.pill-nav-blocks",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "feature",
+  "semantic": {
+    "id": "semantic.feature.pill-nav-blocks",
+    "category": "feature"
+  },
+  "source": {
+    "id": "source.spec.pa.2.3",
+    "tag": "measured-spec",
+    "citation": "spec.pa.2.3",
+    "file": "specs/product-a.md",
+    "lines": "190-224"
+  },
+  "retrievalEligible": true,
   "purpose": "Social features: title, sticky pill nav (6 anchors, highlight follows the active block), six centered feature blocks (H3 + text + mock visual + bold-lead bullets) with one static testimonial between blocks 1 and 2.",
   "evidenceLevel": "spec-measured",
   "variants": {

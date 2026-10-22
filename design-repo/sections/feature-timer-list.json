@@ -2,8 +2,20 @@
   "id": "section.feature.timer-list",
   "registryId": "section.feature.timer-list",
   "typeId": "feature.timer-list",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "feature",
+  "semantic": {
+    "id": "semantic.feature.timer-list",
+    "category": "feature"
+  },
+  "source": {
+    "id": "source.spec.pa.3.5",
+    "tag": "measured-spec",
+    "citation": "spec.pa.3.5",
+    "file": "specs/product-a.md",
+    "lines": "306-321"
+  },
+  "retrievalEligible": true,
   "purpose": "Reviews intelligence: visual (swaps per item) + list of 3 items with 1px progress tracks; auto-advances every ~9s, loops.",
   "evidenceLevel": "spec-measured",
   "variants": {

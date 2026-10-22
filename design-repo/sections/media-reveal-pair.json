@@ -2,8 +2,20 @@
   "id": "section.media.reveal-pair",
   "registryId": "section.media.reveal-pair",
   "typeId": "media.reveal-pair",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "feature",
+  "semantic": {
+    "id": "semantic.media.reveal-pair",
+    "category": "feature"
+  },
+  "source": {
+    "id": "source.spec.pa.1.6",
+    "tag": "measured-spec",
+    "citation": "spec.pa.1.6",
+    "file": "specs/product-a.md",
+    "lines": "141-152"
+  },
+  "retrievalEligible": true,
   "purpose": "Sticky row of two image cards that reveal (image grows from 1px, text rises) as markers pass, joined by a scroll-linked gradient progress line.",
   "evidenceLevel": "spec-measured",
   "variants": {
