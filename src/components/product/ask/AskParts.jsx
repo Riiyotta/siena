@@ -111,6 +111,11 @@ const AK_LIST = 'cubic-bezier(0.44, 0, 0, 0.94)' // options list: y -150, 1.1s d
 const AK_TAG = 'cubic-bezier(0.98, -0.04, 0, 0.79)' // tag x 150 (0.8s/0.4s); plan rows + Accept y 100
 const AK_BARS = 'cubic-bezier(0.44, 0, 0, 0.78)' // plan wrapper y 370, 0.4s delay, 0.4s
 const AK_SPRING = 'var(--ak-spring)' // Framer spring {duration 1, bounce 0.2}; linear() + bezier fallback in product-a.css
+// Keyframe entrance (.ak-in in product-a.css): starts on the first frame after mount, like Framer's appear,
+// with no rAF gate. The to-state is the element's own style (opacity 1, transform none).
+function AkIn({ as: Tag = 'div', x = 0, y = 0, from = 0.001, dur, delay, ease, className = '', children }) {
+  return <Tag className={`ak-in ${className}`} style={{ '--ak-x': `${x}px`, '--ak-y': `${y}px`, '--ak-from': from, '--ak-dur': `${dur}s`, '--ak-delay': `${delay}s`, '--ak-ease': ease }}>{children}</Tag>
+}
 const PLAN_ROWS = [['Warranty coverage scope policy', 0.5, 0.4], ['Helpdesk routing tag', 0.6, 0.6], ['Warranty portal URL + support email', 0.8, 0.8], ['Loyalty tier check', 1.0, 0.4]]
 function AskCard({ variant }) {
   return (
@@ -139,7 +144,7 @@ function AskCard({ variant }) {
           </div>
           <UserMsg />
           {/* live: Siena reply block fades in from opacity 0 / y +80 on the {1, 0.2} spring, ~0.5s after the switch */}
-          <Appear from={0} y={80} dur={1} delay={0.5} ease={AK_SPRING} className="ak-siena">
+          <AkIn from={0} y={80} dur={1} delay={0.5} ease={AK_SPRING} className="ak-siena">
             <p className="ak-meta">Read 4 pages • 1 Question</p>
             <div className="flex items-start gap-[8px]">
               <GradBorder r={16} w={1} className="flex-1" innerClassName="p-[12px]">
@@ -147,31 +152,31 @@ function AskCard({ variant }) {
               </GradBorder>
               <img src="/assets/14aPLwywC9q4flBvXM0s1rLqA8.png" alt="" className="h-[32px] w-[32px] flex-none rounded-full" />
             </div>
-            <Appear y={-150} dur={0.6} delay={1.1} ease={AK_LIST} className="ak-options">
+            <AkIn y={-150} dur={0.6} delay={1.1} ease={AK_LIST} className="ak-options">
               {['Orders over $150', 'Loyalty tier only', 'Something else…'].map((o, i) => (
                 <span key={o} className="ak-option">
-                  {i < 2 ? <b>{i + 1}</b> : <Appear as="b" x={150} dur={0.4} delay={0.8} ease={AK_TAG}><Fa code={0xf303} size={10} /></Appear>}
+                  {i < 2 ? <b>{i + 1}</b> : <AkIn as="b" x={150} dur={0.4} delay={0.8} ease={AK_TAG}><Fa code={0xf303} size={10} /></AkIn>}
                   <span className="pa-tiempos so-t12">{o}</span>
                 </span>
               ))}
-            </Appear>
-          </Appear>
+            </AkIn>
+          </AkIn>
         </>
       )}
       {variant === 2 && (
-        <Appear y={370} dur={0.4} delay={0.4} ease={AK_BARS} className="ak-plan">
+        <AkIn y={370} dur={0.4} delay={0.4} ease={AK_BARS} className="ak-plan">
           <p className="pa-tiempos so-t12">Create the journey?</p>
           <div className="ak-plan-card">
             <p className="ak-meta">in review • warranty</p>
             {PLAN_ROWS.map(([r, d, dur], i) => (
-              <Appear key={r} y={100} dur={dur} delay={d} ease={AK_TAG} className="ak-plan-row"><b>{i + 1}</b><span className="pa-tiempos so-t12">{r}</span></Appear>
+              <AkIn key={r} y={100} dur={dur} delay={d} ease={AK_TAG} className="ak-plan-row"><b>{i + 1}</b><span className="pa-tiempos so-t12">{r}</span></AkIn>
             ))}
           </div>
           <div className="flex items-center justify-between">
             <span className="pa-tiempos so-t12">Create the journey?</span>
-            <Appear as="span" y={100} dur={0.4} delay={1.3} ease={AK_TAG} className="ak-accept">Accept <Fa code={0xf00c} size={10} color="#FFFFFF" /></Appear>
+            <AkIn as="span" y={100} dur={0.4} delay={1.3} ease={AK_TAG} className="ak-accept">Accept <Fa code={0xf00c} size={10} color="#FFFFFF" /></AkIn>
           </div>
-        </Appear>
+        </AkIn>
       )}
     </div>
   )
