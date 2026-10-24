@@ -219,6 +219,13 @@
     ],
     "additionalProperties": false
   },
+  "generatedAssetRoles": [
+    "avatar.placeholder",
+    "icon.generated",
+    "logo.placeholder",
+    "logo.user-supplied",
+    "photo.user-supplied"
+  ],
   "motion": {
     "allowedPatterns": [
       "autoplay-carousel"

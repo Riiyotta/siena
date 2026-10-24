@@ -211,6 +211,16 @@
     ],
     "additionalProperties": false
   },
+  "generatedAssetRoles": [
+    "animation.generated",
+    "illustration.abstract-glow",
+    "illustration.generated",
+    "logo.placeholder",
+    "logo.user-supplied",
+    "photo.user-supplied",
+    "product.ui-generated",
+    "video.user-supplied"
+  ],
   "motion": {
     "allowedPatterns": [
       "appear-rise",

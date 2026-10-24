@@ -19,16 +19,22 @@ DR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(DR, "schema"))
 sys.path.insert(0, os.path.join(DR, "extraction"))
 import semantic_validate as SV  # noqa: E402
+import build_schema as BS  # noqa: E402
 
 REPO = SV.load_repo()
 J = lambda rel: json.load(open(os.path.join(DR, rel), encoding="utf-8"))  # noqa: E731
 HOME = J("schema/example.pagespec.json")
 INSIGHTS = J("schema/examples/insights.pagespec.json")
+GHOME = J("schema/examples/generated.template.home.pagespec.json")
+GPROD = J("schema/examples/generated.template.product.pagespec.json")
+GART = J("schema/examples/generated.template.conversation-detail.pagespec.json")
+GLEG = J("schema/examples/generated.template.legal.pagespec.json")
 VERIFIED_SLIDES = next(n for n in HOME["nodes"] if n["type"] == "testimonials.slider")["content"]["slides"]
 
 # ------------------------------------------------------------------ synthesizer
 PATTERN_SAMPLES = {
     "^(assets|svg|lottie|video)/[A-Za-z0-9._-]+$": "assets/example.webp",
+    "^(placeholder|generated|user-supplied)/[A-Za-z0-9._-]+$": "placeholder/example.webp",
     "^U\\+[0-9A-F]{4}$": "U+F890",
     "^[0-9]{1,2}:[0-5][0-9]$": "1:05",
     "^[A-Za-z0-9_-]{11}$": "AbCdEfGhIjK",
@@ -71,7 +77,9 @@ def M(pattern):
     return {"pattern": pattern, "reducedMotionFallback": REPO["recipes"][pattern]["reducedMotionFallback"]}
 
 
-def fix_node(nd, tpl, route):
+def fix_node(nd, tpl, route, mode="reference"):
+    gen = mode == "generated"
+    ext_href = "https://docs.example/integrations" if gen else "https://www.siena.cx/integrations"
     t, v, c = nd["type"], nd["variant"], nd["content"]
     ovr = REPO["routing"]["navOverrides"].get(route, {})
     if t == "shell.navbar":
@@ -83,7 +91,7 @@ def fix_node(nd, tpl, route):
             c["eyebrow"], c["title"] = "Example", "Example copy"
         if v == "panel-static":
             nd["motion"] = M("none")
-        if tpl["constraints"].get("testimonialSet"):
+        if tpl["constraints"].get("testimonialSet") and not gen:
             c["slides"] = copy.deepcopy(VERIFIED_SLIDES)
             nd["motion"] = M("slide-horizontal")
     if t == "feature.sticky-scroll":
@@ -97,7 +105,7 @@ def fix_node(nd, tpl, route):
                 b["bullets"] = [{"lead": "Example", "text": "Example copy"}]
     if t == "integrations.logo-grid":
         if v in ("home", "compare"):
-            c["cta"] = {"label": "Explore all integrations", "href": "https://www.siena.cx/integrations"}
+            c["cta"] = {"label": "Explore all integrations", "href": ext_href}
         if v == "partner-groups":
             g = c["groups"][0]
             c["groups"] = [dict(copy.deepcopy(g), label="Example"), dict(copy.deepcopy(g), label="Example")]
@@ -113,8 +121,14 @@ def fix_node(nd, tpl, route):
         c["cta"] = {"label": "Become a partner", "action": "open-modal"}
 
 
-def synth_control(tpl):
+def synth_control(tpl, mode="reference"):
     route = tpl["routes"][0]
+    gen = mode == "generated"
+    probe = [] if not gen else []
+    if gen:
+        SV.check_generated({"id": "page.probe", "route": route, "head": {}, "nodes": []}, REPO, probe)
+    if gen and any(r[0] == "error" for r in probe):
+        route = "/generated-" + tpl["id"].split(".", 1)[1].replace("siena", "agent")
     cons = tpl["constraints"]
     rv = cons.get("routeVariants", {}).get(route, {})
     rr = cons.get("routeNodeRules", {}).get(route, {})
@@ -127,15 +141,18 @@ def synth_control(tpl):
             continue
         reps = cons.get("repeatCounts", {}).get(sec, [1])[0] if tn["repeatable"] else 1
         contract = REPO["sections"][sec]
+        model = BS.generated_model(contract, REPO["assets"]) if gen else contract["contentModel"]
         for r in range(reps):
             var = rv.get(sec, tn["variants"][0])
-            nd = {"id": f"n{i}-{r}", "type": sec, "variant": var, "content": synth(contract["contentModel"]), "motion": M(contract["motion"]["allowedPatterns"][0])}
-            fix_node(nd, tpl, route)
+            nd = {"id": f"n{i}-{r}", "type": sec, "variant": var, "content": synth(model), "motion": M(contract["motion"]["allowedPatterns"][0])}
+            fix_node(nd, tpl, route if not gen else SV.constraint_route({"mode": mode, "route": route}, tpl), mode)
             nodes.append(nd)
-    return {"id": "page." + tpl["id"].split(".", 1)[1], "route": route, "template": tpl["id"], "theme": "light", "head": {"title": "Example page"}, "nodes": nodes}
+    pid = "page." + ("generated-" if gen else "") + tpl["id"].split(".", 1)[1].replace("siena", "agent" if gen else "siena")
+    return {"id": pid, "mode": mode, "route": route, "template": tpl["id"], "theme": "light", "head": {"title": "Example page"}, "nodes": nodes}
 
 
 CONTROLS = {tid: synth_control(t) for tid, t in REPO["templates"].items()}
+GEN_CONTROLS = {tid: synth_control(t, "generated") for tid, t in REPO["templates"].items()}
 
 
 # ------------------------------------------------------------------ mutation helpers
@@ -300,9 +317,131 @@ MUTATIONS += [
 ]
 MUTATIONS = [m for m in MUTATIONS if m[3] is not None]
 
+# ---- mode: reference | generated. Mutations of the generated examples; each must be rejected with the named rule.
+SRC_PHRASE = "Our mission is to humanize the internet by turning customer interactions into meaningful relationships."  # pinned in verify_all.COPY_PROBES (shorter form)
+GN = lambda t, k=0: node(GHOME, t, k)  # noqa: E731
+
+
+def gnav(d, k, v):
+    node(d, "shell.navbar")["content"]["brand"][k] = v
+
+
+def gslide(d, k, v, typ=TESTI):
+    node(d, typ)["content"]["slides"][0][k] = v
+
+
+GEN_MUTATIONS = [
+    # ---- mode field
+    ("PageSpec without mode", HOME, lambda d: d.pop("mode"), "SCHEMA"),
+    ("generated PageSpec without mode", GHOME, lambda d: d.pop("mode"), "SCHEMA"),
+    ("mode outside the enum (wrong case)", GHOME, lambda d: d.__setitem__("mode", "Generated"), "SCHEMA"),
+    ("mode null", HOME, lambda d: d.__setitem__("mode", None), "SCHEMA"),
+    ("mode invented value 'hybrid'", GHOME, lambda d: d.__setitem__("mode", "hybrid"), "SCHEMA"),
+    ("reference example flipped to generated", HOME, lambda d: d.__setitem__("mode", "generated"), "SCHEMA"),
+    ("insights reference example flipped to generated", INSIGHTS, lambda d: d.__setitem__("mode", "generated"), "SCHEMA"),
+    ("generated example flipped to reference", GHOME, lambda d: d.__setitem__("mode", "reference"), "SCHEMA"),
+    ("reference page using a generation-safe-only role", HOME, lambda d: node(d, HERO)["content"]["tickerRows"][0][0].__setitem__("assetRole", "logo.placeholder"), "SCHEMA"),
+    ("reference page with a generated assetRef", HOME, lambda d: node(d, HERO)["content"]["images"][0].__setitem__("assetRef", "generated/scene-1.webp"), "SCHEMA"),
+    # ---- logo / brand leakage
+    ("Siena wordmark role in the navbar brand", GHOME, lambda d: gnav(d, "assetRole", "brand.siena-wordmark"), "SCHEMA"),
+    ("Siena glyph role in the navbar brand", GHOME, lambda d: gnav(d, "assetRole", "brand.siena-glyph"), "SCHEMA"),
+    ("Siena name as the brand name", GHOME, lambda d: gnav(d, "name", "Siena"), "GENERATED_MODE_SOURCE_BRAND"),
+    ("brand alt text names Siena", GHOME, lambda d: gnav(d, "alt", "Siena wordmark"), "GENERATED_MODE_SOURCE_BRAND"),
+    ("footer brand name 'Siena AI'", GHOME, lambda d: node(d, "shell.footer")["content"]["brand"].__setitem__("name", "Siena AI"), "GENERATED_MODE_SOURCE_BRAND"),
+    ("SOC 2 compliance badge in a generated footer", GHOME, lambda d: node(d, "shell.footer")["content"].__setitem__("complianceBadge", {"assetRole": "badge.compliance", "assetRef": "placeholder/badge.svg"}), "SCHEMA"),
+    ("footer without a brand mark (implicit Siena wordmark)", GHOME, lambda d: node(d, "shell.footer")["content"].pop("brand"), "SCHEMA"),
+    ("footer link set 'global' (the Siena link set)", GHOME, lambda d: node(d, "shell.footer")["content"].__setitem__("linkSet", "global"), "SCHEMA"),
+    ("navbar link set 'global'", GHOME, lambda d: node(d, "shell.navbar")["content"].__setitem__("linkSet", "global"), "SCHEMA"),
+    ("page id names Siena", GHOME, lambda d: d.__setitem__("id", "page.siena-landing"), "GENERATED_MODE_SOURCE_BRAND"),
+    ("route names Siena", GPROD, lambda d: d.__setitem__("route", "/ask-siena"), "GENERATED_MODE_SOURCE_BRAND"),
+    ("head title names Siena", GHOME, lambda d: d["head"].__setitem__("title", "Support that scales | Siena AI"), "GENERATED_MODE_SOURCE_BRAND"),
+    ("head description names Siena", GHOME, lambda d: d["head"].__setitem__("description", "Built by the team behind siena.cx"), "GENERATED_MODE_SOURCE_BRAND"),
+    ("heading names Siena", GHOME, setp(HERO, ["content", "headline"], "Why teams choose Siena"), "GENERATED_MODE_SOURCE_BRAND"),
+    ("CTA label names Siena", GHOME, setp(CTA, ["content", "button", "label"], "Try Siena"), "GENERATED_MODE_SOURCE_BRAND"),
+    ("body text names Siena", GHOME, lambda d: node(d, FEAT)["content"]["cards"][0].__setitem__("body", "Siena handles every question."), "GENERATED_MODE_SOURCE_BRAND"),
+    ("alt text names Siena", GHOME, lambda d: node(d, HERO)["content"]["images"][0].__setitem__("alt", "Siena hero illustration"), "GENERATED_MODE_SOURCE_BRAND"),
+    ("node id names Siena", GHOME, setp(METRICS, ["id"], "siena-metrics"), "GENERATED_MODE_SOURCE_BRAND"),
+    ("lower-case source name in a label", GHOME, lambda d: node(d, STICKY)["content"]["blocks"][0]["bullets"][0].__setitem__("text", "works like sienaai does"), "GENERATED_MODE_SOURCE_BRAND"),
+    # ---- source marketing copy
+    ("source sentence reused as the hero subtitle", GHOME, setp(HERO, ["content", "subtitle"], SRC_PHRASE), "GENERATED_MODE_SOURCE_COPY"),
+    ("source 5-word run hidden inside a longer sentence", GHOME, setp(HERO, ["content", "subtitle"], "Our answers help teams to humanize the internet by turning customer interactions into loyal buyers."), "GENERATED_MODE_SOURCE_COPY"),
+    ("source phrase in a metrics headline", GHOME, setp(METRICS, ["content", "headline"], "Teams grow by turning customer interactions into meaningful relationships every day"), "GENERATED_MODE_SOURCE_COPY"),
+    ("source phrase in a transcript paragraph", GART, lambda d: node(d, "content.transcript-chapter")["content"]["turns"][0]["paragraphs"][0].__setitem__("text", "Brands that win on CX run on Siena, she said."), "GENERATED_MODE_SOURCE_COPY"),
+    ("source phrase in a chapter title", GART, lambda d: node(d, "content.transcript-chapter")["content"].__setitem__("chapter", "Our mission is to humanize the internet"), "GENERATED_MODE_SOURCE_COPY"),
+    ("lorem filler passed off as generated copy", GLEG, lambda d: node(d, "content.legal-section")["content"]["blocks"][0]["body"].__setitem__("text", "Lorem ipsum dolor sit amet consectetur adipiscing elit."), "GENERATED_MODE_PLACEHOLDER_COPY"),
+    ("placeholder copySource in a generated page", GLEG, lambda d: node(d, "content.legal-section")["content"]["blocks"][0]["body"].__setitem__("copySource", "placeholder"), "SCHEMA"),
+    ("'real' copySource in a generated page", GART, lambda d: node(d, "content.article-summary")["content"]["summary"][0].__setitem__("copySource", "real"), "SCHEMA"),
+    ("verified quote source in a generated page", GHOME, lambda d: node(d, TESTI)["content"]["slides"][0]["quote"].__setitem__("source", "verified"), "SCHEMA"),
+    ("placeholder quote source in a generated page", GHOME, lambda d: node(d, TESTI)["content"]["slides"][0]["quote"].__setitem__("source", "placeholder"), "SCHEMA"),
+    ("homepage testimonial set (reference-only) pasted into a generated page", GHOME, lambda d: node(d, TESTI)["content"].__setitem__("slides", copy.deepcopy(VERIFIED_SLIDES)), "SCHEMA"),
+    # ---- screenshot / media reuse
+    ("source asset file name as a generated ref", GHOME, lambda d: node(d, HERO)["content"]["images"][0].__setitem__("assetRef", "generated/jBdT2KuAbfPtfHNsxcWh0L50xk.webp"), "GENERATED_MODE_ASSET_REF"),
+    ("same stem, other extension", GHOME, lambda d: node(d, HERO)["content"]["images"][0].__setitem__("assetRef", "user-supplied/jBdT2KuAbfPtfHNsxcWh0L50xk.png"), "GENERATED_MODE_ASSET_REF"),
+    ("source customer logo file reused as a placeholder logo", GHOME, lambda d: node(d, HERO)["content"]["tickerRows"][0][0].__setitem__("assetRef", "placeholder/L2fbLFnO4rG3Y9WhTn2Zmg90Q.png"), "GENERATED_MODE_ASSET_REF"),
+    ("clone asset path (assets/...) as a ref", GHOME, lambda d: node(d, HERO)["content"]["images"][0].__setitem__("assetRef", "assets/jBdT2KuAbfPtfHNsxcWh0L50xk.webp"), "SCHEMA"),
+    ("clone svg path (svg/...) as a ref", GHOME, lambda d: node(d, HERO)["content"]["tickerRows"][0][0].__setitem__("assetRef", "svg/ticker1-equip.svg"), "SCHEMA"),
+    ("remote source URL as a ref", GHOME, lambda d: node(d, HERO)["content"]["images"][0].__setitem__("assetRef", "https://framerusercontent.com/images/jBdT2KuAbfPtfHNsxcWh0L50xk.webp"), "SCHEMA"),
+    ("source product screenshot role (ui-mock-image)", GHOME, lambda d: node(d, STICKY)["content"]["blocks"][0]["visual"]["background"].__setitem__("assetRole", "product.ui-mock-image"), "SCHEMA"),
+    ("editorial scene photo role", GPROD, lambda d: node(d, "agents.expert-team")["content"]["cards"][0]["image"].__setitem__("assetRole", "photo.editorial-scene"), "SCHEMA"),
+    ("source editorial illustration role", GHOME, lambda d: node(d, HERO)["content"]["images"][0].__setitem__("assetRole", "illustration.editorial"), "SCHEMA"),
+    ("source card background role", GHOME, lambda d: node(d, STICKY)["content"]["blocks"][0]["visual"]["background"].__setitem__("assetRole", "image.card-background"), "SCHEMA"),
+    ("source lottie animation role", GHOME, lambda d: node(d, FEAT)["content"]["cards"][0]["animation"].__setitem__("assetRole", "animation.lottie"), "SCHEMA"),
+    ("source decorative video loop role", GHOME, lambda d: node(d, STICKY)["content"]["blocks"][0]["visual"]["background"].__setitem__("assetRole", "video.decorative-loop"), "SCHEMA"),
+    ("source YouTube embed with the source's video id", GART, lambda d: node(d, "media.video-embed")["content"].__setitem__("video", {"assetRole": "embed.youtube", "videoId": "8SEXP6zopwo"}), "SCHEMA"),
+    ("licensed Font Awesome icon glyph", GPROD, lambda d: node(d, "agents.expert-team")["content"]["benefits"][0].__setitem__("icon", {"assetRole": "icon.glyph", "codepoint": "U+F890"}), "SCHEMA"),
+    ("generation-safe role that this section does not list", GHOME, lambda d: node(d, HERO)["content"]["images"][0].__setitem__("assetRole", "video.user-supplied"), "SCHEMA"),
+    ("invented role in a generated page", GHOME, lambda d: node(d, HERO)["content"]["images"][0].__setitem__("assetRole", "illustration.stock-photo"), "SCHEMA"),
+    # ---- customer logos / people photos
+    ("real customer logo role in the hero ticker", GHOME, lambda d: node(d, HERO)["content"]["tickerRows"][0][0].__setitem__("assetRole", "logo.customer"), "SCHEMA"),
+    ("real investor logo role in a logo grid", GHOME, lambda d: node(d, INTEG)["content"]["groups"][0]["tiles"][0]["logo"].__setitem__("assetRole", "logo.partner-investor"), "SCHEMA"),
+    ("real integration logo role in a logo grid", GHOME, lambda d: node(d, INTEG)["content"]["groups"][0]["tiles"][0]["logo"].__setitem__("assetRole", "logo.integration"), "SCHEMA"),
+    ("real person photo role on a testimonial", GHOME, lambda d: node(d, TESTI)["content"]["slides"][0]["photo"].__setitem__("assetRole", "photo.person-real"), "SCHEMA"),
+    ("real customer logo role on a testimonial", GHOME, lambda d: node(d, TESTI)["content"]["slides"][0]["logo"].__setitem__("assetRole", "logo.customer"), "SCHEMA"),
+    ("customer logo role on a story card", GHOME, lambda d: node(d, STORIES)["content"]["cards"][0]["logo"].__setitem__("assetRole", "logo.customer"), "SCHEMA"),
+    # ---- source URLs
+    ("source site URL as a CTA href", GHOME, lambda d: node(d, "shell.navbar")["content"]["cta"].__setitem__("href", "https://www.siena.cx/book-a-demo"), "SCHEMA"),
+    ("real external host as a CTA href", GHOME, setp(CTA, ["content", "button", "href"], "https://acme.com/start"), "SCHEMA"),
+    ("example.com (not a .example host) as an href", GHOME, setp(CTA, ["content", "button", "href"], "https://example.com/start"), "SCHEMA"),
+    ("mailto to the source's domain", GHOME, setp(CTA, ["content", "button", "href"], "mailto:careers@siena.cx"), "SCHEMA"),
+    ("mailto to a real mail provider", GHOME, setp(CTA, ["content", "button", "href"], "mailto:someone@gmail.com"), "SCHEMA"),
+    ("source URL typed into body text", GHOME, lambda d: node(d, FEAT)["content"]["cards"][0].__setitem__("body", "Read more at https://www.siena.cx/blog today."), "GENERATED_MODE_SOURCE_URL"),
+    ("source security-portal host in text", GART, lambda d: node(d, "content.article-faq")["content"]["faq"][0]["answer"].__setitem__("text", "Visit sienaai.trust.site for details."), "GENERATED_MODE_SOURCE_URL"),
+    ("source social handle in text", GART, lambda d: node(d, "content.article-faq")["content"]["faq"][0]["answer"].__setitem__("text", "Follow x.com/lisapopovici for updates."), "GENERATED_MODE_SOURCE_URL"),
+    ("source LinkedIn profile in text", GART, lambda d: node(d, "content.article-faq")["content"]["faq"][0]["answer"].__setitem__("text", "See linkedin.com/in/negrau for the profile."), "GENERATED_MODE_SOURCE_URL"),
+    ("source event link in text", GART, lambda d: node(d, "content.article-faq")["content"]["faq"][0]["answer"].__setitem__("text", "Register at https://luma.com/qspvr322 now."), "GENERATED_MODE_SOURCE_URL"),
+    ("real third-party URL in text", GART, lambda d: node(d, "content.article-faq")["content"]["faq"][0]["answer"].__setitem__("text", "Details live at https://acme-support.com/help for now."), "GENERATED_MODE_EXTERNAL_URL"),
+    ("route is a source customer's story slug", GART, lambda d: d.__setitem__("route", "/conversations/spanx-kylah-field-real-work"), "GENERATED_MODE_SOURCE_CUSTOMER"),
+    # ---- people and customer identities
+    ("testimonial author is a real customer (Kylah Field)", GHOME, lambda d: gslide(d, "name", "Kylah Field"), "GENERATED_MODE_SOURCE_PERSON"),
+    ("testimonial author is a real customer (Paige Zachs)", GHOME, lambda d: gslide(d, "name", "Paige Zachs"), "GENERATED_MODE_SOURCE_PERSON"),
+    ("testimonial author lower-cased real name", GHOME, lambda d: gslide(d, "name", "kylah field"), "GENERATED_MODE_SOURCE_PERSON"),
+    ("founder named in a role line", GHOME, lambda d: gslide(d, "role", "Advisor, with Lisa Popovici"), "GENERATED_MODE_SOURCE_PERSON"),
+    ("founder as the article guest", GART, lambda d: node(d, "content.article-header")["content"]["guest"].__setitem__("name", "Andrei Negrau"), "GENERATED_MODE_SOURCE_PERSON"),
+    ("team member in the article headline", GART, lambda d: node(d, "content.article-header")["content"].__setitem__("headline", "Hudson Lofchie on calmer support"), "GENERATED_MODE_SOURCE_PERSON"),
+    ("person photo alt names a real person", GHOME, lambda d: node(d, TESTI)["content"]["slides"][0]["photo"].__setitem__("alt", "Photo of Jeremy Thurswell"), "GENERATED_MODE_SOURCE_PERSON"),
+    ("case-study customer as the article guest brand", GART, lambda d: node(d, "content.article-header")["content"]["guest"].__setitem__("brand", "Thrive Causemetics"), "GENERATED_MODE_SOURCE_CUSTOMER"),
+    ("real customer in a testimonial role", GHOME, lambda d: gslide(d, "role", "VP of Global CX at Spanx"), "GENERATED_MODE_SOURCE_CUSTOMER"),
+    ("real customer in a story card title", GHOME, lambda d: node(d, STORIES)["content"]["cards"][0].__setitem__("title", "How Terra Kaffe cut handle time"), "GENERATED_MODE_SOURCE_CUSTOMER"),
+    ("real customer logo alt text", GHOME, lambda d: node(d, HERO)["content"]["tickerRows"][0][0].__setitem__("alt", "Simple Modern logo"), "GENERATED_MODE_SOURCE_CUSTOMER"),
+    ("real investor named in a heading", GHOME, setp(CTA, ["content", "heading"], "Backed by Sierra Ventures"), "GENERATED_MODE_SOURCE_CUSTOMER"),
+    ("rare-word customer in its own capitalisation", GHOME, setp(CTA, ["content", "heading"], "Why Coterie switched"), "GENERATED_MODE_SOURCE_CUSTOMER"),
+    ("ALL-CAPS source customer", GHOME, setp(CTA, ["content", "heading"], "Trusted by FIGS and others"), "GENERATED_MODE_SOURCE_CUSTOMER"),
+]
+GEN_WARN_CASES = [
+    ("third-party product named in generated copy only warns", GHOME, lambda d: node(d, FEAT)["content"]["cards"][0].__setitem__("body", "Connects to Shopify and Zendesk out of the box."), "GENERATED_MODE_THIRD_PARTY"),
+]
+GEN_CONTROL_EDITS = [
+    ("ordinary English words that are also source customer names (create, hero, true) are allowed", GHOME, setp(CTA, ["content", "heading"], "Create a true hero moment"), None),
+    ("an unrelated fictional person and company", GHOME, lambda d: [gslide(d, "name", "Imelda Voss"), gslide(d, "role", "Director at Harrow Lane")], None),
+    ("a reserved .example host in an href", GHOME, setp(CTA, ["content", "button", "href"], "https://shop.example/start"), None),
+    ("a reserved .invalid mailto", GHOME, setp(CTA, ["content", "button", "href"], "mailto:care@brightloop.invalid"), None),
+    ("a user-supplied logo and photo", GHOME, lambda d: [node(d, TESTI)["content"]["slides"][0]["photo"].update(assetRole="photo.user-supplied", assetRef="user-supplied/team-photo.webp"), node(d, TESTI)["content"]["slides"][0]["logo"].update(assetRole="logo.user-supplied", assetRef="user-supplied/customer-logo.svg")], None),
+]
+MUTATIONS += GEN_MUTATIONS
+
 WARN_CASES = [
     ("homepage-set template showing fewer than 11 slides", HOME, lambda d: node(d, TESTI)["content"]["slides"].pop(), "TESTIMONIAL_SET_COUNT"),
-]
+] + GEN_WARN_CASES
 
 
 def direct_cases():
@@ -329,6 +468,47 @@ def direct_cases():
     out = []
     SV.check_graph_rules(d, REPO, REPO["templates"]["template.insights-landing"], out)
     results.append(("role not registered for the section (graph layer)", any(r[1] == "ASSET_ROLE_USAGE" for r in out), "error ASSET_ROLE_USAGE"))
+    # ---- generated layer, directly: rules the schema blocks first are exercised on schema-invalid input so their code path is proven too
+    def gen_out(doc, repo=None):
+        out = []
+        SV.check_generated(doc, repo or REPO, out)
+        return out
+
+    def has(out, rule, sev="error"):
+        return any(r[1] == rule and r[0] == sev for r in out)
+
+    d = copy.deepcopy(GHOME)
+    node(d, HERO)["content"]["tickerRows"][0][0]["assetRole"] = "logo.customer"
+    results.append(("blocked role logo.customer (generated layer)", has(gen_out(d), "GENERATED_MODE_REFERENCE_ASSET"), "error GENERATED_MODE_REFERENCE_ASSET"))
+    d = copy.deepcopy(GHOME)
+    node(d, "shell.footer")["content"]["brand"]["assetRole"] = "brand.siena-wordmark"
+    results.append(("reference-only role brand.siena-wordmark (generated layer)", has(gen_out(d), "GENERATED_MODE_REFERENCE_ASSET"), "error GENERATED_MODE_REFERENCE_ASSET"))
+    d = copy.deepcopy(GHOME)
+    node(d, HERO)["content"]["images"][0]["assetRole"] = "video.user-supplied"
+    results.append(("generation-safe role not listed for the section (generated layer)", has(gen_out(d), "GENERATED_MODE_ROLE"), "error GENERATED_MODE_ROLE"))
+    d = copy.deepcopy(GHOME)
+    node(d, "shell.navbar")["content"]["cta"]["href"] = "https://www.siena.cx/book-a-demo"
+    results.append(("source URL in an href (generated layer)", has(gen_out(d), "GENERATED_MODE_SOURCE_URL"), "error GENERATED_MODE_SOURCE_URL"))
+    d = copy.deepcopy(GHOME)
+    node(d, "shell.navbar")["content"]["cta"]["href"] = "https://acme.com/x"
+    results.append(("real external URL in an href (generated layer)", has(gen_out(d), "GENERATED_MODE_EXTERNAL_URL"), "error GENERATED_MODE_EXTERNAL_URL"))
+    d = copy.deepcopy(GHOME)
+    node(d, HERO)["content"]["images"][0]["assetRef"] = "assets/hero.webp"
+    results.append(("clone-relative assetRef (generated layer)", has(gen_out(d), "GENERATED_MODE_ASSET_REF"), "error GENERATED_MODE_ASSET_REF"))
+    d = copy.deepcopy(GHOME)
+    node(d, TESTI)["content"]["slides"][0]["quote"]["source"] = "verified"
+    results.append(("verified quote source (generated layer)", has(gen_out(d), "GENERATED_MODE_QUOTE"), "error GENERATED_MODE_QUOTE"))
+    invented = "A control sentence that stands in for a verified quote of a real person."
+    patched = dict(REPO, quotes=dict(REPO["quotes"], **{SV.hashlib.sha256(SV.norm_quote(invented).encode("utf-8")).hexdigest(): {"person": "Nobody"}}))
+    d = copy.deepcopy(GHOME)
+    node(d, TESTI)["content"]["slides"][0]["quote"]["text"] = invented
+    results.append(("quote equal to a registered verified quote (hash match)", has(gen_out(d, patched), "GENERATED_MODE_QUOTE") and not has(gen_out(d), "GENERATED_MODE_QUOTE"), "error GENERATED_MODE_QUOTE (patched registry only)"))
+    phrase = "violet lanterns drift above quiet"
+    patched2 = dict(REPO, sourceHashes=dict(REPO["sourceHashes"], copyShingles=REPO["sourceHashes"]["copyShingles"] | {SV._h16(phrase)}))
+    d = copy.deepcopy(GHOME)
+    node(d, HERO)["content"]["subtitle"] = "We say violet lanterns drift above quiet harbour towns twice."
+    results.append(("5-word run equal to a registered source shingle (hash match)", has(gen_out(d, patched2), "GENERATED_MODE_SOURCE_COPY") and not has(gen_out(d), "GENERATED_MODE_SOURCE_COPY"), "error GENERATED_MODE_SOURCE_COPY (patched registry only)"))
+    results.append(("empty source registry accepts a leaking page (the registry is what enforces)", not has(gen_out(copy.deepcopy(GHOME) | {"route": "/x"}, dict(REPO, _res={k: None for k in SV._brand_res(REPO)})), "GENERATED_MODE_SOURCE_BRAND"), "control: pins in verify_all.py catch an emptied registry"))
     return results
 
 
@@ -394,6 +574,17 @@ CONTRACT_MUTATIONS = [
     ("article header classed as a hero", "content.article-header", cset(["category"], "hero"), "CLASS_POLICY"),
     ("hero.* classed as content", "hero.home", cset(["category"], "content"), "CLASS_POLICY"),
     ("unreviewed CTA field inside a feature section", "features.icon-grid", cinline_cta, "CLASS_POLICY"),
+    # ---- generated-mode asset roles of a section
+    ("generatedAssetRoles lists a blocked role (logo.customer)", "hero.home", lambda c: c["generatedAssetRoles"].append("logo.customer"), "GENERATED_ROLES"),
+    ("generatedAssetRoles lists a reference-only role (illustration.editorial)", "hero.home", lambda c: c["generatedAssetRoles"].append("illustration.editorial"), "GENERATED_ROLES"),
+    ("generatedAssetRoles lists the Siena wordmark", "shell.lead-header", lambda c: c["generatedAssetRoles"].append("brand.siena-wordmark"), "GENERATED_ROLES"),
+    ("generatedAssetRoles lists an unknown role", "hero.home", lambda c: c["generatedAssetRoles"].append("logo.invented"), "GENERATED_ROLES"),
+    ("generatedAssetRoles drops a derived role", "hero.home", lambda c: c["generatedAssetRoles"].pop(), "GENERATED_ROLES"),
+    ("generatedAssetRoles widened with a generation-safe role the slots do not derive", "hero.home", lambda c: c["generatedAssetRoles"].append("icon.generated"), "GENERATED_ROLES"),
+    ("generatedAssetRoles missing", "hero.home", cdel(["generatedAssetRoles"]), "CONTRACT_SCHEMA"),
+    ("generatedAssetRoles not a list", "hero.home", cset(["generatedAssetRoles"], "logo.placeholder"), "CONTRACT_SCHEMA"),
+    ("footer generatedOverrides no longer removes the compliance badge", "shell.footer", lambda c: c["generatedOverrides"].pop("removeProperties"), "GENERATED_ROLES"),
+    ("generatedOverrides with an invented key", "shell.navbar", lambda c: c["generatedOverrides"].__setitem__("allowSourceBrand", True), "CONTRACT_SCHEMA"),
 ]
 
 
@@ -527,7 +718,15 @@ def main():
         g_ok += ok
         print(f"{'CAUGHT' if ok else 'MISSED':12} wrapper gate: {name:58} expects {what}")
         fails += not ok
-    controls = [("homepage example (real copy)", HOME), ("insights example (real copy)", INSIGHTS)] + [(f"synthesized control {tid} ({c['route']})", c) for tid, c in sorted(CONTROLS.items())]
+    gen_edit_controls = []
+    for nm, base, fn, _ in GEN_CONTROL_EDITS:
+        gd = mut(base, fn)
+        gen_edit_controls.append(("generated control: " + nm, gd))
+    controls = ([("homepage example (reference mode, real copy)", HOME), ("insights example (reference mode, real copy)", INSIGHTS),
+                 ("generated home example (fictional brand)", GHOME), ("generated product-page example", GPROD), ("generated conversation example", GART), ("generated legal example", GLEG)]
+                + gen_edit_controls
+                + [(f"synthesized control {tid} ({c['route']})", c) for tid, c in sorted(CONTROLS.items())]
+                + [(f"synthesized GENERATED control {tid} ({c['route']})", c) for tid, c in sorted(GEN_CONTROLS.items())])
     passed = 0
     for name, doc in controls:
         res = SV.validate_pagespec(doc, REPO)
@@ -535,12 +734,16 @@ def main():
         passed += ok
         print(f"{'CONTROL PASS' if ok else 'CONTROL FAIL':12} {name}" + ("" if ok else f"  {res[:3]}"))
         fails += not ok
-    covered = {d["template"] for _, d in controls}
+    covered = {d["template"] for _, d in controls if d["mode"] == "reference"}
+    gen_covered = {d["template"] for _, d in controls if d["mode"] == "generated"}
+    if set(REPO["templates"]) - gen_covered:
+        print("GENERATED CONTROL GAP: templates without a generated control:", sorted(set(REPO["templates"]) - gen_covered))
+        fails += 1
     missing = sorted(set(REPO["templates"]) - covered)
     if missing:
         print("CONTROL GAP: templates without a control:", missing)
         fails += 1
-    print(f"adversarial: {rejected}/{len(MUTATIONS)} PageSpec mutations rejected, {c_rej}/{len(c_res)} contract mutations rejected, {g_ok}/{len(g_res)} wrapper-gate cases caught, {len(WARN_CASES)} warn-case(s), {len(direct_cases())} direct graph-layer case(s), {passed}/{len(controls)} controls pass with zero findings, {c_ok}/{len(c_clean)} real contracts clean, {len(covered)}/{len(REPO['templates'])} templates covered")
+    print(f"adversarial: {rejected}/{len(MUTATIONS)} PageSpec mutations rejected, {c_rej}/{len(c_res)} contract mutations rejected, {g_ok}/{len(g_res)} wrapper-gate cases caught, {len(WARN_CASES)} warn-case(s), {len(direct_cases())} direct graph-layer case(s), {passed}/{len(controls)} controls pass with zero findings, {c_ok}/{len(c_clean)} real contracts clean, {len(covered)}/{len(REPO['templates'])} templates covered (reference), {len(gen_covered)}/{len(REPO['templates'])} (generated)")
     return 1 if fails else 0
 
 

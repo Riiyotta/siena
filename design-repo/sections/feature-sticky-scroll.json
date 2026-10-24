@@ -167,6 +167,13 @@
     ],
     "additionalProperties": false
   },
+  "generatedAssetRoles": [
+    "animation.generated",
+    "illustration.generated",
+    "photo.user-supplied",
+    "product.ui-generated",
+    "video.user-supplied"
+  ],
   "motion": {
     "allowedPatterns": [
       "sticky-step-switch",

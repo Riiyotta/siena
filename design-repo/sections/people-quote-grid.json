@@ -110,6 +110,10 @@
     ],
     "additionalProperties": false
   },
+  "generatedAssetRoles": [
+    "avatar.placeholder",
+    "photo.user-supplied"
+  ],
   "motion": {
     "allowedPatterns": [
       "none"

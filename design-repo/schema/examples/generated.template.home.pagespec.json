@@ -1,0 +1,589 @@
+{
+  "id": "page.generated-home",
+  "mode": "generated",
+  "route": "/",
+  "template": "template.home",
+  "theme": "light",
+  "head": {
+    "title": "Brightloop | Calm, accurate support for retail teams",
+    "description": "A fictional product page used to test generation-safe PageSpecs."
+  },
+  "nodes": [
+    {
+      "id": "n0-0",
+      "type": "shell.navbar",
+      "variant": "standard",
+      "content": {
+        "state": "auto",
+        "cta": {
+          "label": "Request a walkthrough",
+          "href": "/book-a-demo"
+        },
+        "brand": {
+          "name": "Brightloop",
+          "assetRole": "logo.placeholder",
+          "assetRef": "placeholder/brightloop-wordmark.svg",
+          "alt": "Brightloop placeholder wordmark"
+        },
+        "linkSet": "placeholder"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "id": "n1-0",
+      "type": "hero.home",
+      "variant": "home",
+      "content": {
+        "headline": "Support that feels like your best shop assistant",
+        "subtitle": "Brightloop answers order, product and policy questions in your voice, and hands the hard ones to your team.",
+        "cta": {
+          "label": "Request a walkthrough",
+          "href": "/book-a-demo",
+          "style": "xlg-dark"
+        },
+        "images": [
+          {
+            "assetRole": "illustration.abstract-glow",
+            "assetRef": "generated/glow-2.webp"
+          }
+        ],
+        "tickerRows": [
+          [
+            {
+              "assetRole": "logo.placeholder",
+              "assetRef": "placeholder/customer-logo-1.svg",
+              "alt": "Kestrel Goods placeholder logo"
+            },
+            {
+              "assetRole": "logo.placeholder",
+              "assetRef": "placeholder/customer-logo-2.svg",
+              "alt": "Fernwick Foods placeholder logo"
+            },
+            {
+              "assetRole": "logo.placeholder",
+              "assetRef": "placeholder/customer-logo-3.svg",
+              "alt": "Alder and Pine placeholder logo"
+            },
+            {
+              "assetRole": "logo.placeholder",
+              "assetRef": "placeholder/customer-logo-4.svg",
+              "alt": "Tidewell Outfitters placeholder logo"
+            },
+            {
+              "assetRole": "logo.placeholder",
+              "assetRef": "placeholder/customer-logo-5.svg",
+              "alt": "Marlow and Finch placeholder logo"
+            },
+            {
+              "assetRole": "logo.placeholder",
+              "assetRef": "placeholder/customer-logo-6.svg",
+              "alt": "Quillstone Home placeholder logo"
+            },
+            {
+              "assetRole": "logo.placeholder",
+              "assetRef": "placeholder/customer-logo-7.svg",
+              "alt": "Kestrel Goods placeholder logo"
+            },
+            {
+              "assetRole": "logo.placeholder",
+              "assetRef": "placeholder/customer-logo-8.svg",
+              "alt": "Fernwick Foods placeholder logo"
+            },
+            {
+              "assetRole": "logo.placeholder",
+              "assetRef": "placeholder/customer-logo-9.svg",
+              "alt": "Alder and Pine placeholder logo"
+            },
+            {
+              "assetRole": "logo.placeholder",
+              "assetRef": "placeholder/customer-logo-10.svg",
+              "alt": "Tidewell Outfitters placeholder logo"
+            }
+          ],
+          [
+            {
+              "assetRole": "logo.placeholder",
+              "assetRef": "placeholder/customer-logo-11.svg",
+              "alt": "Kestrel Goods placeholder logo"
+            },
+            {
+              "assetRole": "logo.placeholder",
+              "assetRef": "placeholder/customer-logo-12.svg",
+              "alt": "Fernwick Foods placeholder logo"
+            },
+            {
+              "assetRole": "logo.placeholder",
+              "assetRef": "placeholder/customer-logo-13.svg",
+              "alt": "Alder and Pine placeholder logo"
+            },
+            {
+              "assetRole": "logo.placeholder",
+              "assetRef": "placeholder/customer-logo-14.svg",
+              "alt": "Tidewell Outfitters placeholder logo"
+            },
+            {
+              "assetRole": "logo.placeholder",
+              "assetRef": "placeholder/customer-logo-15.svg",
+              "alt": "Marlow and Finch placeholder logo"
+            },
+            {
+              "assetRole": "logo.placeholder",
+              "assetRef": "placeholder/customer-logo-16.svg",
+              "alt": "Quillstone Home placeholder logo"
+            },
+            {
+              "assetRole": "logo.placeholder",
+              "assetRef": "placeholder/customer-logo-17.svg",
+              "alt": "Kestrel Goods placeholder logo"
+            },
+            {
+              "assetRole": "logo.placeholder",
+              "assetRef": "placeholder/customer-logo-18.svg",
+              "alt": "Fernwick Foods placeholder logo"
+            },
+            {
+              "assetRole": "logo.placeholder",
+              "assetRef": "placeholder/customer-logo-19.svg",
+              "alt": "Alder and Pine placeholder logo"
+            },
+            {
+              "assetRole": "logo.placeholder",
+              "assetRef": "placeholder/customer-logo-20.svg",
+              "alt": "Tidewell Outfitters placeholder logo"
+            }
+          ]
+        ],
+        "phoneHeadline": "Support that feels like a shop assistant"
+      },
+      "motion": {
+        "pattern": "appear-rise",
+        "reducedMotionFallback": "static"
+      }
+    },
+    {
+      "id": "n2-0",
+      "type": "testimonials.slider",
+      "variant": "titled",
+      "content": {
+        "slides": [
+          {
+            "quote": {
+              "text": "Our regulars stopped waiting a day for answers. Brightloop handles the repeat questions and the team finally has time for the tricky ones.",
+              "source": "generated"
+            },
+            "name": "Marisol Quade",
+            "role": "Head of Care at Kestrel Goods",
+            "logo": {
+              "assetRole": "logo.placeholder",
+              "assetRef": "placeholder/customer-logo-1.svg",
+              "alt": "Kestrel Goods placeholder logo"
+            },
+            "photo": {
+              "assetRole": "avatar.placeholder",
+              "assetRef": "placeholder/avatar-1.svg",
+              "alt": "Placeholder avatar for Marisol Quade"
+            }
+          },
+          {
+            "quote": {
+              "text": "We wrote our returns policy in three sentences and the assistant applied it consistently, even on the busiest weekend of the year.",
+              "source": "generated"
+            },
+            "name": "Tobias Renner",
+            "role": "Founder at Fernwick Foods",
+            "logo": {
+              "assetRole": "logo.placeholder",
+              "assetRef": "placeholder/customer-logo-2.svg",
+              "alt": "Fernwick Foods placeholder logo"
+            },
+            "photo": {
+              "assetRole": "avatar.placeholder",
+              "assetRef": "placeholder/avatar-2.svg",
+              "alt": "Placeholder avatar for Tobias Renner"
+            }
+          },
+          {
+            "quote": {
+              "text": "What surprised me was the weekly digest. It told us which product page was causing confusion before anyone filed a complaint.",
+              "source": "generated"
+            },
+            "name": "Priya Valdecasas",
+            "role": "Operations Lead at Alder and Pine",
+            "logo": {
+              "assetRole": "logo.placeholder",
+              "assetRef": "placeholder/customer-logo-3.svg",
+              "alt": "Alder and Pine placeholder logo"
+            },
+            "photo": {
+              "assetRole": "avatar.placeholder",
+              "assetRef": "placeholder/avatar-3.svg",
+              "alt": "Placeholder avatar for Priya Valdecasas"
+            }
+          }
+        ],
+        "eyebrow": "RETAIL TEAMS",
+        "title": "Calmer support for busy retail teams"
+      },
+      "motion": {
+        "pattern": "slide-horizontal",
+        "reducedMotionFallback": "instant-swap"
+      }
+    },
+    {
+      "id": "n3-0",
+      "type": "feature.sticky-scroll",
+      "variant": "home",
+      "content": {
+        "blocks": [
+          {
+            "heading": "One assistant for every channel",
+            "bullets": [
+              {
+                "text": "Answers order and policy questions"
+              },
+              {
+                "text": "Finishes refunds and address changes"
+              },
+              {
+                "text": "Hands over with the full thread"
+              }
+            ],
+            "visual": {
+              "variant": "chat-v1",
+              "background": {
+                "assetRole": "product.ui-generated",
+                "assetRef": "generated/product-ui-home-1.webp",
+                "alt": "Generated product visual with fictional data"
+              }
+            },
+            "cta": {
+              "label": "Request a walkthrough",
+              "href": "/book-a-demo",
+              "style": "xlg-dark"
+            }
+          },
+          {
+            "heading": "Insight that shows what shoppers need",
+            "bullets": [
+              {
+                "text": "Weekly digests of rising questions"
+              },
+              {
+                "text": "Flags confusing product pages"
+              },
+              {
+                "text": "Shows which replies worked best"
+              }
+            ],
+            "visual": {
+              "variant": "chat-v1",
+              "background": {
+                "assetRole": "product.ui-generated",
+                "assetRef": "generated/product-ui-home-2.webp",
+                "alt": "Generated product visual with fictional data"
+              }
+            },
+            "cta": {
+              "label": "Request a walkthrough",
+              "href": "/book-a-demo",
+              "style": "xlg-dark"
+            }
+          },
+          {
+            "heading": "Your voice, kept consistent",
+            "bullets": [
+              {
+                "text": "Write guardrails in plain language"
+              },
+              {
+                "text": "Reuse them across chat and email"
+              },
+              {
+                "text": "Review changes before they go live"
+              }
+            ],
+            "visual": {
+              "variant": "chat-v1",
+              "background": {
+                "assetRole": "product.ui-generated",
+                "assetRef": "generated/product-ui-home-3.webp",
+                "alt": "Generated product visual with fictional data"
+              }
+            },
+            "cta": {
+              "label": "Request a walkthrough",
+              "href": "/book-a-demo",
+              "style": "xlg-dark"
+            }
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "sticky-step-switch",
+        "reducedMotionFallback": "static"
+      }
+    },
+    {
+      "id": "n4-0",
+      "type": "stats.metrics",
+      "variant": "home",
+      "content": {
+        "counterTo": 80,
+        "headline": "Teams using Brightloop report quicker replies and steadier satisfaction across their busiest weeks.",
+        "stats": [
+          {
+            "value": "94%",
+            "label": "FASTER FIRST REPLY"
+          },
+          {
+            "value": "3x",
+            "label": "MORE REPEAT QUESTIONS SOLVED"
+          },
+          {
+            "value": "+4.6",
+            "label": "AVERAGE RATING"
+          }
+        ],
+        "background": {
+          "assetRole": "illustration.abstract-glow",
+          "assetRef": "generated/glow-24.webp"
+        }
+      },
+      "motion": {
+        "pattern": "count-up",
+        "reducedMotionFallback": "static"
+      }
+    },
+    {
+      "id": "n5-0",
+      "type": "stories.carousel",
+      "variant": "home",
+      "content": {
+        "eyebrow": "CUSTOMER STORIES",
+        "title": "Fictional teams, steadier support",
+        "cards": [
+          {
+            "title": "How Kestrel Goods cut repeat tickets by half",
+            "href": "/stories/example-1",
+            "logo": {
+              "assetRole": "logo.placeholder",
+              "assetRef": "placeholder/customer-logo-1.svg",
+              "alt": "Kestrel Goods placeholder logo"
+            },
+            "texture": {
+              "assetRole": "illustration.abstract-glow",
+              "assetRef": "generated/glow-story-1.webp"
+            }
+          },
+          {
+            "title": "Fernwick Foods keeps its voice at midnight",
+            "href": "/stories/example-2",
+            "logo": {
+              "assetRole": "logo.placeholder",
+              "assetRef": "placeholder/customer-logo-2.svg",
+              "alt": "Fernwick Foods placeholder logo"
+            },
+            "texture": {
+              "assetRole": "illustration.abstract-glow",
+              "assetRef": "generated/glow-story-2.webp"
+            }
+          },
+          {
+            "title": "Alder and Pine answers sizing questions in seconds",
+            "href": "/stories/example-3",
+            "logo": {
+              "assetRole": "logo.placeholder",
+              "assetRef": "placeholder/customer-logo-3.svg",
+              "alt": "Alder and Pine placeholder logo"
+            },
+            "texture": {
+              "assetRole": "illustration.abstract-glow",
+              "assetRef": "generated/glow-story-3.webp"
+            }
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "crossfade-page",
+        "reducedMotionFallback": "instant-swap"
+      }
+    },
+    {
+      "id": "n6-0",
+      "type": "features.lottie-grid",
+      "variant": "home",
+      "content": {
+        "title": "Everything a shop team needs",
+        "cards": [
+          {
+            "title": "Recommend products with context",
+            "body": "Brightloop reads the order, the policy and the shopper history before it replies, so customers get a straight answer instead of a form.",
+            "layout": "padded",
+            "animation": {
+              "assetRole": "animation.generated",
+              "assetRef": "generated/motion-feature-1.json"
+            }
+          },
+          {
+            "title": "Answer questions on social channels",
+            "body": "Hand any conversation to a person in one click and the whole thread, tone notes and next step travel with it.",
+            "layout": "flush",
+            "animation": {
+              "assetRole": "animation.generated",
+              "assetRef": "generated/motion-feature-2.json"
+            }
+          },
+          {
+            "title": "Resolve post-purchase requests",
+            "body": "Set your guardrails once in plain language and every channel follows them, from chat to email to the help centre.",
+            "layout": "padded",
+            "animation": {
+              "assetRole": "animation.generated",
+              "assetRef": "generated/motion-feature-3.json"
+            }
+          },
+          {
+            "title": "Summarise what shoppers ask",
+            "body": "Weekly summaries show what shoppers keep asking, which answers worked and where a policy needs a rewrite.",
+            "layout": "flush",
+            "animation": {
+              "assetRole": "animation.generated",
+              "assetRef": "generated/motion-feature-4.json"
+            }
+          },
+          {
+            "title": "Route sensitive topics to people",
+            "body": "Refunds, address changes and replacements finish inside the conversation, with a clear note for your finance team.",
+            "layout": "padded",
+            "animation": {
+              "assetRole": "animation.generated",
+              "assetRef": "generated/motion-feature-5.json"
+            }
+          },
+          {
+            "title": "Keep policies consistent",
+            "body": "Teams start with the five questions that fill the inbox, then widen coverage as confidence grows.",
+            "layout": "flush",
+            "animation": {
+              "assetRole": "animation.generated",
+              "assetRef": "generated/motion-feature-6.json"
+            }
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "id": "n7-0",
+      "type": "integrations.logo-grid",
+      "variant": "home",
+      "content": {
+        "title": "Works with the tools you already use",
+        "groups": [
+          {
+            "tiles": [
+              {
+                "logo": {
+                  "assetRole": "logo.placeholder",
+                  "assetRef": "placeholder/integration-1.svg",
+                  "alt": "Integration 1 placeholder logo"
+                }
+              },
+              {
+                "logo": {
+                  "assetRole": "logo.placeholder",
+                  "assetRef": "placeholder/integration-2.svg",
+                  "alt": "Integration 2 placeholder logo"
+                }
+              },
+              {
+                "logo": {
+                  "assetRole": "logo.placeholder",
+                  "assetRef": "placeholder/integration-3.svg",
+                  "alt": "Integration 3 placeholder logo"
+                }
+              },
+              {
+                "logo": {
+                  "assetRole": "logo.placeholder",
+                  "assetRef": "placeholder/integration-4.svg",
+                  "alt": "Integration 4 placeholder logo"
+                }
+              },
+              {
+                "logo": {
+                  "assetRole": "logo.placeholder",
+                  "assetRef": "placeholder/integration-5.svg",
+                  "alt": "Integration 5 placeholder logo"
+                }
+              },
+              {
+                "logo": {
+                  "assetRole": "logo.placeholder",
+                  "assetRef": "placeholder/integration-6.svg",
+                  "alt": "Integration 6 placeholder logo"
+                }
+              },
+              {
+                "label": "Helpdesks"
+              },
+              {
+                "label": "Custom Apps"
+              }
+            ]
+          }
+        ],
+        "cta": {
+          "label": "Explore all integrations",
+          "href": "https://docs.example/integrations"
+        }
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "id": "n8-0",
+      "type": "cta.main",
+      "variant": "cream-fade",
+      "content": {
+        "heading": "See how a calmer inbox feels",
+        "button": {
+          "label": "Request a walkthrough",
+          "href": "/book-a-demo",
+          "action": "navigate"
+        },
+        "phoneLayout": "standard"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "id": "n9-0",
+      "type": "shell.footer",
+      "variant": "standard",
+      "content": {
+        "linkSet": "placeholder",
+        "brand": {
+          "name": "Brightloop",
+          "assetRole": "logo.placeholder",
+          "assetRef": "placeholder/brightloop-wordmark.svg",
+          "alt": "Brightloop placeholder wordmark"
+        }
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    }
+  ]
+}

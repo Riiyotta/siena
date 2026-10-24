@@ -1,0 +1,313 @@
+{
+  "id": "page.generated-product",
+  "mode": "generated",
+  "route": "/shopping-agent",
+  "template": "template.shopping-agent",
+  "theme": "light",
+  "head": {
+    "title": "Brightloop Shopper Assistant | Product page",
+    "description": "A fictional product page for a generation-safe PageSpec."
+  },
+  "nodes": [
+    {
+      "id": "n0-0",
+      "type": "shell.navbar",
+      "variant": "standard",
+      "content": {
+        "state": "auto",
+        "cta": {
+          "label": "Request a walkthrough",
+          "href": "/book-a-demo"
+        },
+        "brand": {
+          "name": "Brightloop",
+          "assetRole": "logo.placeholder",
+          "assetRef": "placeholder/brightloop-wordmark.svg",
+          "alt": "Brightloop placeholder wordmark"
+        },
+        "linkSet": "placeholder"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "id": "n1-0",
+      "type": "hero.product-split",
+      "variant": "shopping",
+      "content": {
+        "headline": "A shopping assistant that knows the catalogue",
+        "subtitle": "Help shoppers choose with confidence: Brightloop compares products, checks stock and suggests what completes the order.",
+        "cta": {
+          "label": "Request a walkthrough",
+          "href": "/book-a-demo",
+          "style": "xlg-dark"
+        },
+        "visual": {
+          "variant": "shopping",
+          "assets": [
+            {
+              "assetRole": "product.ui-generated",
+              "assetRef": "generated/product-ui-shopper-1.webp",
+              "alt": "Generated shopping chat with fictional products"
+            }
+          ]
+        }
+      },
+      "motion": {
+        "pattern": "appear-rise",
+        "reducedMotionFallback": "static"
+      }
+    },
+    {
+      "id": "n2-0",
+      "type": "testimonials.slider",
+      "variant": "panel",
+      "content": {
+        "slides": [
+          {
+            "quote": {
+              "text": "We wrote our returns policy in three sentences and the assistant applied it consistently, even on the busiest weekend of the year.",
+              "source": "generated"
+            },
+            "name": "Priya Valdecasas",
+            "role": "Operations Lead at Alder and Pine",
+            "photo": {
+              "assetRole": "avatar.placeholder",
+              "assetRef": "placeholder/avatar-prod-1.svg",
+              "alt": "Placeholder avatar"
+            }
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "slide-horizontal",
+        "reducedMotionFallback": "instant-swap"
+      }
+    },
+    {
+      "id": "n3-0",
+      "type": "heading.section-title",
+      "variant": "product",
+      "content": {
+        "title": "From first question to confident checkout"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "id": "n4-0",
+      "type": "feature.sticky-scroll",
+      "variant": "shopping-steps",
+      "content": {
+        "blocks": [
+          {
+            "heading": "Shoppers ask in their own words",
+            "bullets": [
+              {
+                "text": "Understands sizes, budgets and occasions"
+              },
+              {
+                "text": "Checks live stock before recommending"
+              }
+            ],
+            "visual": {
+              "variant": "chat-v1",
+              "background": {
+                "assetRole": "product.ui-generated",
+                "assetRef": "generated/product-ui-step-1.webp",
+                "alt": "Generated product visual"
+              }
+            }
+          },
+          {
+            "heading": "Options are compared side by side",
+            "bullets": [
+              {
+                "text": "Understands sizes, budgets and occasions"
+              },
+              {
+                "text": "Checks live stock before recommending"
+              }
+            ],
+            "visual": {
+              "variant": "chat-v1",
+              "background": {
+                "assetRole": "product.ui-generated",
+                "assetRef": "generated/product-ui-step-2.webp",
+                "alt": "Generated product visual"
+              }
+            }
+          },
+          {
+            "heading": "The assistant suggests the best fit",
+            "bullets": [
+              {
+                "text": "Understands sizes, budgets and occasions"
+              },
+              {
+                "text": "Checks live stock before recommending"
+              }
+            ],
+            "visual": {
+              "variant": "chat-v1",
+              "background": {
+                "assetRole": "product.ui-generated",
+                "assetRef": "generated/product-ui-step-3.webp",
+                "alt": "Generated product visual"
+              }
+            }
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "sticky-step-switch",
+        "reducedMotionFallback": "static"
+      }
+    },
+    {
+      "id": "n5-0",
+      "type": "agents.expert-team",
+      "variant": "shopping",
+      "content": {
+        "eyebrow": "SPECIALISTS",
+        "title": "A team of focused shopping specialists",
+        "subtitle": "Each specialist handles one part of the buying journey.",
+        "panelLabel": "Fictional team preview",
+        "cards": [
+          {
+            "title": "Style advisor",
+            "text": "Suggests outfits and sizes from a short chat.",
+            "image": {
+              "assetRole": "illustration.generated",
+              "assetRef": "generated/scene-39.webp"
+            }
+          },
+          {
+            "title": "Gift finder",
+            "text": "Builds gift ideas around a budget.",
+            "image": {
+              "assetRole": "illustration.generated",
+              "assetRef": "generated/scene-40.webp"
+            }
+          },
+          {
+            "title": "Stock checker",
+            "text": "Confirms availability before checkout.",
+            "image": {
+              "assetRole": "illustration.generated",
+              "assetRef": "generated/scene-41.webp"
+            }
+          }
+        ],
+        "benefits": [
+          {
+            "icon": {
+              "assetRole": "icon.generated",
+              "assetRef": "generated/icon-42.svg"
+            },
+            "title": "Fewer returns",
+            "text": "Better fit advice up front."
+          },
+          {
+            "icon": {
+              "assetRole": "icon.generated",
+              "assetRef": "generated/icon-43.svg"
+            },
+            "title": "Higher basket value",
+            "text": "Natural add-on suggestions."
+          },
+          {
+            "icon": {
+              "assetRole": "icon.generated",
+              "assetRef": "generated/icon-44.svg"
+            },
+            "title": "Quicker decisions",
+            "text": "Less scrolling for shoppers."
+          },
+          {
+            "icon": {
+              "assetRole": "icon.generated",
+              "assetRef": "generated/icon-45.svg"
+            },
+            "title": "Warmer first contact",
+            "text": "Replies that match your tone."
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "id": "n6-0",
+      "type": "media.reveal-pair",
+      "variant": "shopping",
+      "content": {
+        "eyebrow": "IN CONTEXT",
+        "title": "Recommendations that fit the moment",
+        "subtitle": "See how suggestions adapt to what shoppers say.",
+        "cards": [
+          {
+            "image": {
+              "assetRole": "illustration.generated",
+              "assetRef": "generated/scene-46.webp"
+            },
+            "text": "Gift ideas under a set budget"
+          },
+          {
+            "image": {
+              "assetRole": "illustration.generated",
+              "assetRef": "generated/scene-47.webp"
+            },
+            "text": "Outfit suggestions for a weekend trip"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "scroll-reveal-spring",
+        "reducedMotionFallback": "static"
+      }
+    },
+    {
+      "id": "n7-0",
+      "type": "cta.main",
+      "variant": "no-fade",
+      "content": {
+        "heading": "Try the assistant on your own catalogue",
+        "button": {
+          "label": "Request a walkthrough",
+          "href": "/book-a-demo",
+          "action": "navigate"
+        },
+        "phoneLayout": "standard"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "id": "n8-0",
+      "type": "shell.footer",
+      "variant": "standard",
+      "content": {
+        "linkSet": "placeholder",
+        "brand": {
+          "name": "Brightloop",
+          "assetRole": "logo.placeholder",
+          "assetRef": "placeholder/brightloop-wordmark.svg",
+          "alt": "Brightloop placeholder wordmark"
+        }
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    }
+  ]
+}

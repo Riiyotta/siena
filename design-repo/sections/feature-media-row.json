@@ -137,6 +137,11 @@
     ],
     "additionalProperties": false
   },
+  "generatedAssetRoles": [
+    "illustration.generated",
+    "photo.user-supplied",
+    "product.ui-generated"
+  ],
   "motion": {
     "allowedPatterns": [
       "none",

@@ -159,6 +159,11 @@
     ],
     "additionalProperties": false
   },
+  "generatedAssetRoles": [
+    "animation.generated",
+    "icon.generated",
+    "video.user-supplied"
+  ],
   "motion": {
     "allowedPatterns": [
       "none",

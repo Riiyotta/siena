@@ -32,6 +32,16 @@ def scratch():
             if os.path.exists(s):
                 os.makedirs(os.path.dirname(os.path.join(tmp, rel)), exist_ok=True)
                 shutil.copy2(s, os.path.join(tmp, rel))
+        # the source-brand registry is re-derived from the WHOLE of src/ and specs/ and from the FILE NAMES of public/, recon/ and the mirrored *_files folder:
+        # copy the text sources, and create empty files for the media (only their names matter), so a clean scratch copy re-derives identically
+        for d in ("src", "specs"):
+            shutil.copytree(os.path.join(PARENT, d), os.path.join(tmp, d), dirs_exist_ok=True)
+        media = ["public", "recon"] + [d for d in os.listdir(PARENT) if d.endswith("_files") and os.path.isdir(os.path.join(PARENT, d))]
+        for base in media:
+            for root, _, fs in os.walk(os.path.join(PARENT, base)):
+                os.makedirs(os.path.join(tmp, os.path.relpath(root, PARENT)), exist_ok=True)
+                for fn in fs:
+                    open(os.path.join(tmp, os.path.relpath(os.path.join(root, fn), PARENT)), "w").close()
     return tmp, dst
 
 
@@ -75,6 +85,25 @@ def ia_text(rel, fn):
         text = open(p, encoding="utf-8").read()
         open(p, "w", encoding="utf-8").write(fn(text))
     return edit_ia
+
+
+def edit_text(rel, fn, sibling=False):
+    """Replace text in a design-repo file (or, with sibling=True, in a file beside design-repo/) of the scratch tree."""
+    def f(dst):
+        p = os.path.join(os.path.dirname(dst) if sibling else dst, rel)
+        t = open(p, encoding="utf-8").read()
+        new = fn(t)
+        assert new != t, f"edit_text did not change {rel}"
+        open(p, "w", encoding="utf-8").write(new)
+    return f
+
+
+def sb_edit(fn):
+    return lambda d: edit(d, "assets/asset-roles.json", lambda j: fn(j["sourceBrand"]))
+
+
+def role_edit(role, fn):
+    return lambda d: edit(d, "assets/asset-roles.json", lambda j: fn(j["roles"][role]))
 
 
 def grow_hero(sh, new_h=3500):
@@ -147,22 +176,50 @@ CASES = [
     ("matrix.csv stale (a section row removed)", "ia-parity", ia_text("matrix.csv", lambda t: "\n".join(l for l in t.split("\n") if not l.startswith("content.legal-section,")))),
     ("IA.md stale (section no longer mentioned)", "ia-parity", ia_text("IA.md", lambda t: t.replace("`content.article-faq`", "`content.article-faqq`"))),
     ("machine path in the docs", "abs-path", lambda d: append(d, "README.md", "\n/Us" + "ers/someone/design-repo\n")),
+    # ---- reference / generated modes (every pin proven to fail when its input drifts)
+    ("logo.customer availability relaxed to generation-safe", "asset-availability", role_edit("logo.customer", lambda r: r.__setitem__("availability", "generation-safe"))),
+    ("photo.person-real availability changed to a different VALID value (reference-only)", "asset-availability", role_edit("photo.person-real", lambda r: r.__setitem__("availability", "reference-only"))),
+    ("brand.siena-wordmark availability relaxed to generation-safe", "asset-availability", role_edit("brand.siena-wordmark", lambda r: r.__setitem__("availability", "generation-safe"))),
+    ("badge.compliance availability relaxed to generation-safe", "asset-availability", role_edit("badge.compliance", lambda r: r.__setitem__("availability", "generation-safe"))),
+    ("generation-safe role flipped to blocked-for-generation (logo.placeholder)", "asset-availability", role_edit("logo.placeholder", lambda r: r.__setitem__("availability", "blocked-for-generation"))),
+    ("availability outside the closed set", "asset-role", role_edit("logo.customer", lambda r: r.__setitem__("availability", "allowed"))),
+    ("blocked role without its generationSafeSubstitutes", "asset-role", role_edit("logo.customer", lambda r: r.pop("generationSafeSubstitutes"))),
+    ("substitute that is not itself generation-safe", "asset-role", role_edit("logo.customer", lambda r: r.__setitem__("generationSafeSubstitutes", ["logo.integration"]))),
+    ("role missing generatedModeGuidance", "asset-role", role_edit("logo.customer", lambda r: r.pop("generatedModeGuidance"))),
+    ("section lists a blocked role in generatedAssetRoles", "section-contract", lambda d: edit(d, "sections/hero-home.json", lambda j: j["generatedAssetRoles"].append("logo.customer"))),
+    ("section's generatedAssetRoles no longer match its slots", "asset-role", lambda d: edit(d, "sections/hero-home.json", lambda j: j["generatedAssetRoles"].pop())),
+    ("footer override stops removing the compliance badge", "section-contract", lambda d: edit(d, "sections/shell-footer.json", lambda j: j["generatedOverrides"].pop("removeProperties"))),
+    ("allowlist forgets a role", "allowlist-parity", lambda d: edit(d, "tokens/llm/component-allowlist.json", lambda j: j["assetRoles"].remove("logo.placeholder"))),
+    ("allowlist settable page properties lose mode", "allowlist-parity", lambda d: edit(d, "tokens/llm/component-allowlist.json", lambda j: j["settablePageProperties"].remove("mode"))),
+    ("source-brand registry loses the brand pattern", "generated-mode", sb_edit(lambda sb: sb["brand"].__setitem__("patterns", []))),
+    ("source-brand registry loses a founder", "generated-mode", sb_edit(lambda sb: sb["people"].__setitem__("patterns", [p for p in sb["people"]["patterns"] if "Popovici" not in p]))),
+    ("source-brand registry loses every customer", "generated-mode", sb_edit(lambda sb: sb["customers"].__setitem__("patterns", []))),
+    ("source-brand registry loses the source hosts", "generated-mode", sb_edit(lambda sb: sb["urls"].__setitem__("hostPatterns", []))),
+    ("source copy hashes emptied", "generated-mode", lambda d: edit(d, "assets/source-copy-hashes.json", lambda j: j.__setitem__("copyShingles", []))),
+    ("source asset stems emptied", "generated-mode", lambda d: edit(d, "assets/source-copy-hashes.json", lambda j: j.__setitem__("assetStems", []))),
+    ("allowed generated assetRef prefixes widened to assets/", "generated-mode", sb_edit(lambda sb: sb["assets"]["allowedRefPrefixes"].append("assets"))),
+    ("a new customer appears in the source (registry stale)", "generated-mode", edit_text("src/components/hero/tickerData.js", lambda t: t.replace("export const ROW_1 = [", "export const ROW_1 = [\n  { name: 'Quillfeather Provisions', src: a('zz.png'), w: 100, h: 24 },", 1), sibling=True)),
+    ("schema no longer requires mode", "generated-mode", lambda d: edit(d, "schema/pagespec.schema.json", lambda j: j["required"].remove("mode"))),
+    ("schema generated href pattern widened (build_schema)", "generated-mode", edit_text("schema/build_schema.py", lambda t: t.replace("(example|invalid)(/[^", "(example|invalid|com)(/[^", 1))),
+    ("the validator stops enforcing generated mode", "generated-mode", edit_text("schema/semantic_validate.py", lambda t: t.replace("    if gen:\n        check_generated(doc, repo, out)", "    if False:\n        check_generated(doc, repo, out)", 1))),
+    ("the validator stops checking source brand text", "generated-mode", edit_text("schema/semantic_validate.py", lambda t: t.replace('for rule in ("GENERATED_MODE_SOURCE_BRAND", "GENERATED_MODE_SOURCE_URL"', 'for rule in ("GENERATED_MODE_SOURCE_URL"', 1))),
+    ("generated example loses its mode", "example", lambda d: edit(d, "schema/examples/generated.template.home.pagespec.json", lambda j: j.pop("mode"))),
+    ("generated example leaks the source brand", "example", lambda d: edit(d, "schema/examples/generated.template.home.pagespec.json", lambda j: j["head"].__setitem__("title", "Siena for retail teams"))),
+    ("generated legal example removed (page-type coverage)", "generated-mode", lambda d: os.remove(os.path.join(d, "schema", "examples", "generated.template.legal.pagespec.json"))),
+    ("wrong generatedExamplePageSpecs count", "manifest-counts", lambda d: edit(d, "registry.manifest.json", lambda j: j["counts"].__setitem__("generatedExamplePageSpecs", 9))),
 ]
 
 
 def main():
     bad = skipped = 0
     for name, tag, fn in CASES:
-        if tag in ("citation", "nav-overrides", "ia-parity") and not HAVE_SRC:
+        if (tag in ("citation", "nav-overrides", "ia-parity") or "src/components" in name or "a new customer" in name) and not HAVE_SRC:
             print(f"SKIPPED {name:52} needs the clone source beside design-repo/")
             skipped += 1
             continue
         tmp, dst = scratch()
         try:
-            if tag == "catalog":
-                fn(dst)
-            else:
-                fn(dst)
+            fn(dst)
             code, out = run(dst)
             ok = code != 0 and f"[{tag}]" in out
             print(f"{'CAUGHT' if ok else 'MISSED':7} {name:52} expects [{tag}]" + ("" if ok else "\n" + out[-900:]))

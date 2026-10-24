@@ -121,6 +121,9 @@
     ],
     "additionalProperties": false
   },
+  "generatedAssetRoles": [
+    "icon.generated"
+  ],
   "motion": {
     "allowedPatterns": [
       "scroll-reveal-spring",

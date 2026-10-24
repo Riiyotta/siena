@@ -90,6 +90,7 @@
     ],
     "additionalProperties": false
   },
+  "generatedAssetRoles": [],
   "motion": {
     "allowedPatterns": [
       "accordion"

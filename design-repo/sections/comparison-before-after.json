@@ -65,6 +65,7 @@
     ],
     "additionalProperties": false
   },
+  "generatedAssetRoles": [],
   "motion": {
     "allowedPatterns": [
       "appear-fade",

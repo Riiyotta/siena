@@ -101,6 +101,9 @@
     ],
     "additionalProperties": false
   },
+  "generatedAssetRoles": [
+    "illustration.generated"
+  ],
   "motion": {
     "allowedPatterns": [
       "appear-rise"

@@ -110,6 +110,7 @@
     ],
     "additionalProperties": false
   },
+  "generatedAssetRoles": [],
   "motion": {
     "allowedPatterns": [
       "appear-rise",

@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "section-contract.schema.json",
-  "$comment": "Hand-authored. Validates the META layer of every sections/*.json (identity, taxonomy, provenance, retrieval eligibility). The content model itself is validated by the generated schema/pagespec.schema.json; constraints/motion/responsive keep their own shapes checked by verify_all.py. semantic = what the section IS (closed taxonomy); source = where the evidence came from (closed provenance). They are different objects with different id namespaces and must never be merged.",
+  "$comment": "Hand-authored. Validates the META layer of every sections/*.json (identity, taxonomy, provenance, retrieval eligibility). The content model itself is validated by the generated schema/pagespec.schema.json; constraints/motion/responsive keep their own shapes checked by verify_all.py. semantic = what the section IS (closed taxonomy); source = where the evidence came from (closed provenance). They are different objects with different id namespaces and must never be merged. generatedAssetRoles / generatedOverrides describe the section in PageSpec mode generated.",
   "title": "Siena section contract (meta layer)",
   "type": "object",
   "additionalProperties": false,
@@ -19,6 +19,7 @@
     "variants",
     "composes",
     "contentModel",
+    "generatedAssetRoles",
     "motion",
     "responsive",
     "constraints",
@@ -162,6 +163,39 @@
     },
     "contentModel": {
       "type": "object"
+    },
+    "generatedOverrides": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "removeProperties": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "addProperties": {
+          "type": "object"
+        },
+        "required": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        }
+      },
+      "description": "Additions to / removals from the reference content model that apply only in PageSpec mode generated (the section's implicit source identity: brand mark, link set, certification badge). Applied by schema/build_schema.py generated_model()."
+    },
+    "generatedAssetRoles": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z]+(\\.[a-z-]+)+$"
+      },
+      "uniqueItems": true,
+      "description": "The generation-safe assetRoles this section accepts in mode generated, derived from the reference slots through assets/asset-roles.json generationSafeSubstitutes (+ generatedOverrides). Checked against the derivation by semantic_validate.validate_section_contract (GENERATED_ROLES)."
     },
     "motion": {
       "type": "object"

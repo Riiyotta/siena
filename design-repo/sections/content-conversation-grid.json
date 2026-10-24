@@ -95,6 +95,10 @@
     ],
     "additionalProperties": false
   },
+  "generatedAssetRoles": [
+    "illustration.generated",
+    "photo.user-supplied"
+  ],
   "motion": {
     "allowedPatterns": [
       "none"

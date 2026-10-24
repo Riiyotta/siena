@@ -119,6 +119,10 @@
     ],
     "additionalProperties": false
   },
+  "generatedAssetRoles": [
+    "photo.user-supplied",
+    "product.ui-generated"
+  ],
   "motion": {
     "allowedPatterns": [
       "appear-rise",

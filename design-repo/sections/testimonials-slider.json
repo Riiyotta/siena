@@ -156,6 +156,12 @@
     ],
     "additionalProperties": false
   },
+  "generatedAssetRoles": [
+    "avatar.placeholder",
+    "logo.placeholder",
+    "logo.user-supplied",
+    "photo.user-supplied"
+  ],
   "motion": {
     "allowedPatterns": [
       "slide-horizontal",

@@ -85,6 +85,7 @@
     ],
     "additionalProperties": false
   },
+  "generatedAssetRoles": [],
   "motion": {
     "allowedPatterns": [
       "appear-spring-x"

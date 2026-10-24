@@ -58,6 +58,7 @@
     ],
     "additionalProperties": false
   },
+  "generatedAssetRoles": [],
   "motion": {
     "allowedPatterns": [
       "scroll-reveal-spring"

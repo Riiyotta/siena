@@ -1,7 +1,7 @@
 {
   "repositoryId": "siena-cx-clone",
   "designFamily": "siena",
-  "repositoryVersion": "1.1.0",
+  "repositoryVersion": "1.2.0",
   "status": "design-review-pending",
   "productionApproved": false,
   "localReferenceOnly": true,
@@ -15,15 +15,15 @@
   "generationApprovedThemes": [
     "light"
   ],
-  "pageSpecVersion": "1.1.0",
+  "pageSpecVersion": "2.0.0",
   "tokenVersion": "1.0.0",
   "tokenCatalogVersion": "1.0.0",
   "tokenPolicyVersion": "1.0.0",
-  "sectionRegistryVersion": "1.1.0",
+  "sectionRegistryVersion": "1.2.0",
   "componentRegistryVersion": "1.0.0",
-  "assetRegistryVersion": "1.0.0",
-  "allowlistVersion": "1.1.0",
-  "versionFieldNote": "Machine-checked by extraction/verify_all.py: allowlistVersion (must equal tokens/llm/component-allowlist.json version), tokenCatalogVersion, tokenPolicyVersion, assetRegistryVersion, the retrievalIneligibleSections list (contracts + allowlist + two pinned literals), the measured-height gate (extraction/wrapper_gate.py) and the whole counts block (recomputed from disk; the README counts marker too). Documentation-only, hand-maintained, nothing verifies them: repositoryVersion, pageSpecVersion, tokenVersion, sectionRegistryVersion, componentRegistryVersion.",
+  "assetRegistryVersion": "1.1.0",
+  "allowlistVersion": "1.2.0",
+  "versionFieldNote": "Machine-checked by extraction/verify_all.py: allowlistVersion (must equal tokens/llm/component-allowlist.json version), tokenCatalogVersion, tokenPolicyVersion, assetRegistryVersion, the pinned asset availability (PINNED_AVAILABILITY in verify_all.py, independent of the registry), the derived generatedAssetRoles of every section, the source-brand registry minimum + its re-derivation from src/, the retrievalIneligibleSections list (contracts + allowlist + two pinned literals), the measured-height gate (extraction/wrapper_gate.py) and the whole counts block (recomputed from disk; the README counts marker too). Documentation-only, hand-maintained, nothing verifies them: repositoryVersion, pageSpecVersion, tokenVersion, sectionRegistryVersion, componentRegistryVersion.",
   "sourceStack": {
     "note": "DOCUMENTATION ONLY. Recorded so a reader knows where the evidence came from; nothing in token names, section ids, schema fields or validator logic depends on it.",
     "liveOrigin": "https://www.siena.cx/ (originally a Framer site)",
@@ -31,7 +31,7 @@
   },
   "sourceProject": {
     "name": "Siena clone (local reference copy of siena.cx)",
-    "description": "Study clone of a REAL, live company's marketing site. Logos, customer logos, people photos, fonts (Feature Deck, Tiempos are commercially licensed to Siena) and long-form content are not licensed for reuse; see assets/asset-roles.json. Local reference only: do not deploy the clone publicly and do not publish this repository.",
+    "description": "Study clone of a REAL, live company's marketing site. Logos, customer logos, people photos, fonts (Feature Deck, Tiempos are commercially licensed to Siena) and long-form content are not licensed for reuse; see assets/asset-roles.json. Local reference only: do not deploy the clone publicly and do not publish this repository. PageSpec `mode` separates reference pages (clones of the source brand) from generated pages (a new brand: no Siena identity, content, media or people); see README 'Reference and generated modes'.",
     "measuredBreakpoints": [
       1440,
       390
@@ -132,13 +132,15 @@
     "tokens": 298,
     "typographyRoles": 22,
     "motionRecipes": 20,
-    "assetRoles": 17,
+    "assetRoles": 26,
     "graphRules": 28,
-    "examplePageSpecs": 2,
+    "examplePageSpecs": 6,
     "citations": 356,
     "verifiedQuotes": 24,
     "registeredQuirks": 10,
     "retrievalIneligibleSections": 2,
+    "generatedExamplePageSpecs": 4,
+    "generatedModeRules": 12,
     "measuredRoutes": 35,
     "measuredSectionInstances": 364
   },
@@ -152,18 +154,24 @@
       "templates/templates.json",
       "compatibility/graph.json",
       "schema/section-contract.schema.json",
-      "schema/section-classification.json"
+      "schema/section-classification.json",
+      "assets/source-copy-hashes.json"
     ],
     "validation": [
       "schema/semantic_validate.py",
       "extraction/wrapper_gate.py",
       "extraction/verify_all.py",
       "extraction/prove_drift.py",
-      "schema/tests/adversarial_test.py"
+      "schema/tests/adversarial_test.py",
+      "extraction/build_source_brand.py"
     ],
     "examples": [
       "schema/example.pagespec.json",
-      "schema/examples/insights.pagespec.json"
+      "schema/examples/insights.pagespec.json",
+      "schema/examples/generated.template.home.pagespec.json",
+      "schema/examples/generated.template.product.pagespec.json",
+      "schema/examples/generated.template.conversation-detail.pagespec.json",
+      "schema/examples/generated.template.legal.pagespec.json"
     ],
     "evidence": [
       "extraction/measured-values.json",
@@ -206,7 +214,8 @@
       "schema/pagespec.schema.json (schema/build_schema.py)",
       "extraction/style-histogram.json (extraction/build_histogram.py, needs sibling recon/)",
       "assets/verified-quotes.json (extraction/build_verified_quotes.py, needs sibling src/)",
-      "extraction/measured-values.json sectionHeights (extraction/measure_heights.mjs + extraction/height-probes.json, needs the built clone served locally, Node and Playwright)"
+      "extraction/measured-values.json sectionHeights (extraction/measure_heights.mjs + extraction/height-probes.json, needs the built clone served locally, Node and Playwright)",
+      "assets/source-copy-hashes.json + assets/asset-roles.json sourceBrand (extraction/build_source_brand.py, needs sibling src/)"
     ]
   },
   "excludedFromPackage": [

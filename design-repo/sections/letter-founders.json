@@ -112,6 +112,11 @@
     ],
     "additionalProperties": false
   },
+  "generatedAssetRoles": [
+    "avatar.placeholder",
+    "illustration.abstract-glow",
+    "photo.user-supplied"
+  ],
   "motion": {
     "allowedPatterns": [
       "appear-fade"

@@ -171,6 +171,12 @@
     ],
     "additionalProperties": false
   },
+  "generatedAssetRoles": [
+    "animation.generated",
+    "logo.placeholder",
+    "logo.user-supplied",
+    "video.user-supplied"
+  ],
   "motion": {
     "allowedPatterns": [
       "appear-rise"

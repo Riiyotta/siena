@@ -85,6 +85,9 @@
     ],
     "additionalProperties": false
   },
+  "generatedAssetRoles": [
+    "icon.generated"
+  ],
   "motion": {
     "allowedPatterns": [
       "none"

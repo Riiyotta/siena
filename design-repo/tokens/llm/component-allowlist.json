@@ -1,6 +1,6 @@
 {
-  "version": "1.1.0",
-  "description": "Closed list of what an AI generation pipeline may reference or set. extraction/verify_all.py checks parity with the real contract files (no phantom entries, no orphans), with the schema's settable properties, and that this version equals registry.manifest.json allowlistVersion. retrievalIneligibleSections lists the utility/runtime sections a retrieval index must skip; semanticCategories is the closed taxonomy for section.semantic.category.",
+  "version": "1.2.0",
+  "description": "Closed list of what an AI generation pipeline may reference or set. extraction/verify_all.py checks parity with the real contract files (no phantom entries, no orphans), with the schema's settable properties, and that this version equals registry.manifest.json allowlistVersion. retrievalIneligibleSections lists the utility/runtime sections a retrieval index must skip; semanticCategories is the closed taxonomy for section.semantic.category. modes lists the closed PageSpec.mode values; generated-mode asset availability lives in assets/asset-roles.json.",
   "primitives": [
     "primitive.avatar",
     "primitive.badge",
@@ -161,6 +161,7 @@
   "settablePageProperties": [
     "head",
     "id",
+    "mode",
     "nodes",
     "route",
     "template",
@@ -205,23 +206,32 @@
     "typewriter-loop"
   ],
   "assetRoles": [
+    "animation.generated",
     "animation.lottie",
+    "avatar.placeholder",
     "badge.compliance",
     "brand.siena-glyph",
     "brand.siena-wordmark",
     "embed.youtube",
+    "icon.generated",
     "icon.glyph",
     "illustration.abstract-glow",
     "illustration.editorial",
+    "illustration.generated",
     "illustration.swash",
     "image.card-background",
     "logo.customer",
     "logo.integration",
     "logo.partner-investor",
+    "logo.placeholder",
+    "logo.user-supplied",
     "photo.editorial-scene",
     "photo.person-real",
+    "photo.user-supplied",
+    "product.ui-generated",
     "product.ui-mock-image",
-    "video.decorative-loop"
+    "video.decorative-loop",
+    "video.user-supplied"
   ],
   "semanticCategories": [
     "company",
@@ -244,5 +254,9 @@
   "retrievalIneligibleSections": [
     "section.overlay.partner-modal",
     "section.quirk.phone-empty-block"
+  ],
+  "modes": [
+    "reference",
+    "generated"
   ]
 }

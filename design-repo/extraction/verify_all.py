@@ -15,8 +15,10 @@ Checks (numbers match the printed output):
   4 contract references resolve        12 section contracts: meta schema, pinned retrievalEligible,
   5 raw-value lint                        source vs semantic, classification policy, source lines
   6 graph rules <-> validator code     13 whole-page-wrapper gate (extraction/wrapper_gate.py)
-  7 asset roles (pinned policies,      14 IA parity (ia.json / IA.md / matrix.csv beside the repo)
-    usedBy, wiring)                    15 adversarial suite
+  7 asset roles (pinned policies +      14 IA parity (ia.json / IA.md / matrix.csv beside the repo)
+    pinned availability, usedBy,       15 generated mode (pinned source-identity probes, registry re-derived
+    substitutes, wiring)                  from src/, canary mutations, examples)
+                                       16 adversarial suite
 When the clone's source tree (src/, specs/, recon/) is not beside design-repo/ (a standalone
 copy), every check that needs it is SKIPPED with a warning; nothing fails because of it.
 """
@@ -258,8 +260,25 @@ PINNED = {
     "logo.integration": "must-reuse-exact", "photo.person-real": "must-not-fabricate", "photo.editorial-scene": "must-reuse-exact", "illustration.editorial": "must-reuse-exact",
     "illustration.abstract-glow": "may-generate-new", "illustration.swash": "must-reuse-exact", "image.card-background": "must-reuse-exact", "product.ui-mock-image": "must-not-fabricate",
     "animation.lottie": "must-reuse-exact", "video.decorative-loop": "must-reuse-exact", "embed.youtube": "external-embed-allowlisted", "badge.compliance": "must-not-fabricate", "icon.glyph": "must-reuse-exact",
+    "logo.placeholder": "may-generate-new", "logo.user-supplied": "must-reuse-exact", "avatar.placeholder": "may-generate-new", "photo.user-supplied": "must-reuse-exact",
+    "illustration.generated": "may-generate-new", "product.ui-generated": "may-generate-new", "animation.generated": "may-generate-new", "video.user-supplied": "must-reuse-exact",
+    "icon.generated": "may-generate-new",
+}
+# Availability in PageSpec mode "generated", pinned HERE, independent of assets/asset-roles.json (flipping a role to generation-safe in the registry fails check 7):
+# the source's own brand / artwork / media / live endpoints are reference-only; third-party identity and licensed material is blocked-for-generation.
+PINNED_AVAILABILITY = {
+    "brand.siena-wordmark": "reference-only", "brand.siena-glyph": "reference-only", "embed.youtube": "reference-only", "animation.lottie": "reference-only",
+    "illustration.editorial": "reference-only", "illustration.swash": "reference-only", "image.card-background": "reference-only", "photo.editorial-scene": "reference-only",
+    "product.ui-mock-image": "reference-only", "video.decorative-loop": "reference-only",
+    "logo.customer": "blocked-for-generation", "logo.integration": "blocked-for-generation", "logo.partner-investor": "blocked-for-generation", "photo.person-real": "blocked-for-generation",
+    "badge.compliance": "blocked-for-generation", "icon.glyph": "blocked-for-generation",
+    "illustration.abstract-glow": "generation-safe", "logo.placeholder": "generation-safe", "logo.user-supplied": "generation-safe", "avatar.placeholder": "generation-safe",
+    "photo.user-supplied": "generation-safe", "illustration.generated": "generation-safe", "product.ui-generated": "generation-safe", "animation.generated": "generation-safe",
+    "video.user-supplied": "generation-safe", "icon.generated": "generation-safe",
 }
 c7 = len(errors)
+if set(PINNED_AVAILABILITY) != set(PINNED):
+    err("asset-role", "PINNED_AVAILABILITY and PINNED name different roles")
 for role, spec in assets["roles"].items():
     if spec["policy"] not in assets["policyEnum"]:
         err("asset-role", f"{role}: policy {spec['policy']!r} not in policyEnum")
@@ -269,6 +288,25 @@ for role, spec in assets["roles"].items():
         err("asset-role", f"{role}: policy {spec['policy']!r} differs from pinned {PINNED[role]!r} (compliance-critical)")
     if not spec.get("guidance"):
         err("asset-role", f"{role}: missing guidance")
+    av = spec.get("availability")
+    if av not in assets.get("availabilityValues", []):
+        err("asset-role", f"{role}: availability {av!r} is not in the closed availabilityValues {assets.get('availabilityValues')}")
+    if role in PINNED_AVAILABILITY and av != PINNED_AVAILABILITY[role]:
+        err("asset-availability", f"{role}: availability {av!r} differs from pinned {PINNED_AVAILABILITY[role]!r} (generated-mode compliance: a different-but-valid value is a failure)")
+    if not spec.get("generatedModeGuidance"):
+        err("asset-role", f"{role}: missing generatedModeGuidance")
+    subs = spec.get("generationSafeSubstitutes")
+    if av == "generation-safe":
+        if subs is not None:
+            err("asset-role", f"{role}: a generation-safe role has no substitutes (found {subs})")
+    else:
+        if subs is None:
+            err("asset-role", f"{role}: {av} role must name generationSafeSubstitutes (an empty list = omit the slot)")
+        for sr in subs or []:
+            if sr not in assets["roles"] or assets["roles"][sr].get("availability") != "generation-safe":
+                err("asset-role", f"{role}: substitute {sr!r} is not a generation-safe role")
+        if not subs and role != "badge.compliance":
+            err("asset-role", f"{role}: only badge.compliance (a certification mark) may have no substitute; the others need one")
 for role in PINNED:
     if role not in assets["roles"]:
         err("asset-role", f"pinned role {role} missing from asset-roles.json")
@@ -290,6 +328,19 @@ def collect_roles(tid, x):
 
 for tid, j in sec_by_type.items():
     collect_roles(tid, j["contentModel"])
+import build_schema as BS_  # noqa: E402
+
+gen_used = {}
+for tid, j in sec_by_type.items():
+    try:
+        derived_ = BS_.derived_generated_roles(j, assets["roles"])
+    except (ValueError, KeyError) as e_:
+        err("asset-role", f"{tid}: the generated content model cannot be derived: {e_}")
+        continue
+    for r_ in derived_:
+        gen_used.setdefault(r_, set()).add(tid)
+    if sorted(j.get("generatedAssetRoles", [])) != derived_:
+        err("asset-role", f"{tid}: generatedAssetRoles {j.get('generatedAssetRoles')} != derived {derived_}")
 for role, tids in used.items():
     if role not in assets["roles"]:
         err("asset-role", f"section contracts use unknown assetRole {role!r}")
@@ -297,12 +348,17 @@ for role, tids in used.items():
         err("asset-role", f"{role}: usedBy {assets['roles'][role]['usedBy']} != sections that wire it {sorted(tids)}")
 for role in assets["roles"]:
     if role not in used:
-        err("asset-role", f"role {role} is not wired into any section contract (schema)")
+        # a generation-safe-only role is wired through generatedAssetRoles; its usedBy is exactly those sections
+        if assets["roles"][role]["availability"] != "generation-safe" or role not in gen_used:
+            err("asset-role", f"role {role} is not wired into any section contract (schema)")
+        elif sorted(gen_used[role]) != assets["roles"][role]["usedBy"]:
+            err("asset-role", f"{role}: usedBy {assets['roles'][role]['usedBy']} != sections whose generatedAssetRoles list it {sorted(gen_used[role])}")
 lic = " ".join(assets.get("licensing", []) + assets.get("globalRules", [])).lower()
 for must in ("local reference only", "never reproduce", "likeness", "never invent a quote"):
     if must not in lic:
         err("asset-role", f"licensing/globalRules lack the required clause {must!r}")
-print(f"7) Asset roles: {len(assets['roles'])} roles pinned, {len(used)} wired into section contracts; {len(errors) - c7} errors")
+n_av = {k: sum(1 for v in assets["roles"].values() if v.get("availability") == k) for k in assets.get("availabilityValues", [])}
+print(f"7) Asset roles: {len(assets['roles'])} roles pinned (policy + availability {n_av}), {len(used)} wired into reference content models, {len(gen_used)} into generated ones; {len(errors) - c7} errors")
 
 # 8 templates / routes / graph -----------------------------------------------------------
 c8 = len(errors)
@@ -377,8 +433,11 @@ try:
     jsonschema.Draft7Validator.check_schema(sch)
 except jsonschema.SchemaError as e:
     err("schema", f"not valid Draft-07: {e.message}")
-if open(BS.OUT, encoding="utf-8").read() != json.dumps(BS.build(), indent=2, ensure_ascii=False) + "\n":
-    err("schema", "pagespec.schema.json is out of date versus sections/templates/motion; run schema/build_schema.py")
+try:
+    if open(BS.OUT, encoding="utf-8").read() != json.dumps(BS.build(), indent=2, ensure_ascii=False) + "\n":
+        err("schema", "pagespec.schema.json is out of date versus sections/templates/motion/asset roles; run schema/build_schema.py")
+except (ValueError, KeyError) as e_:
+    err("schema", f"the schema cannot be rebuilt from the contracts: {e_}")
 repo = SV.load_repo()
 ex_files = ["schema/example.pagespec.json"] + sorted(os.path.relpath(f, DR) for f in glob.glob(os.path.join(DR, "schema", "examples", "*.json")))
 for rel in ex_files:
@@ -457,6 +516,7 @@ counts = {
     "assetRoles": len(assets["roles"]), "graphRules": len(graph["rules"]), "examplePageSpecs": len(ex_files), "citations": len(cites),
     "verifiedQuotes": len(jload("assets/verified-quotes.json")["quotes"]), "registeredQuirks": len(mv["quirks"]),
     "retrievalIneligibleSections": len(allow.get("retrievalIneligibleSections", [])),
+    "generatedExamplePageSpecs": sum(1 for r_ in ex_files if parsed[r_].get("mode") == "generated"), "generatedModeRules": len(SV.GENERATED_MODE_RULES),
     "measuredRoutes": len(mv.get("sectionHeights", {}).get("routes", {})), "measuredSectionInstances": sum(len(r.get("nodes", [])) for r in mv.get("sectionHeights", {}).get("routes", {}).values()),
 }
 if man.get("counts") != counts:
@@ -486,7 +546,7 @@ if not m:
     err("readme-counts", "README.md lacks the <!-- counts: {...} --> marker")
 elif json.loads(m.group(1)) != counts:
     err("readme-counts", f"README counts marker {m.group(1)} != recomputed {counts}")
-for pth in ("schema/tests/adversarial_test.py", "extraction/prove_drift.py", "extraction/verify_all.py", "extraction/wrapper_gate.py", "extraction/measure_heights.mjs", "extraction/height-probes.json", "schema/section-contract.schema.json", "schema/section-classification.json", "extraction/build_histogram.py", "extraction/build_verified_quotes.py", "schema/build_schema.py", "tokens/build_catalog.py"):
+for pth in ("schema/tests/adversarial_test.py", "extraction/prove_drift.py", "extraction/verify_all.py", "extraction/wrapper_gate.py", "extraction/measure_heights.mjs", "extraction/height-probes.json", "schema/section-contract.schema.json", "schema/section-classification.json", "extraction/build_histogram.py", "extraction/build_verified_quotes.py", "extraction/build_source_brand.py", "assets/source-copy-hashes.json", "schema/build_schema.py", "tokens/build_catalog.py"):
     if not os.path.exists(os.path.join(DR, pth)):
         err("docs", f"{pth} is referenced by the docs but does not exist")
 MACHINE = ["/Us" + "ers/", "/ho" + "me/", "C:" + "\\\\Us" + "ers", "C:" + "\\Us" + "ers"]
@@ -661,15 +721,131 @@ else:
     warn("ia-parity", "ia.json not beside design-repo/: IA parity SKIPPED (standalone copy)")
     print("14) IA parity: SKIPPED (no sibling ia.json; standalone copy)")
 
-# 15 ---------------------------------------------------------------------------------
+# 15 generated mode -------------------------------------------------------------------------------
+# PageSpec mode "generated" = a new page for ANY OTHER brand. Everything below is pinned HERE as literals, independent of
+# assets/asset-roles.json sourceBrand, so emptying or weakening the registry (or the validator) fails this check.
+PROBES = {
+    "GENERATED_MODE_SOURCE_BRAND": ["Siena", "siena.cx", "Ask Siena", "SienaLogo", "/ask-siena", "page.siena-home"],
+    "GENERATED_MODE_SOURCE_URL": ["https://www.siena.cx/pricing", "see sienaai.trust.site for security", "x.com/lisapopovici", "https://www.linkedin.com/in/negrau", "https://luma.com/qspvr322"],
+    "GENERATED_MODE_SOURCE_PERSON": ["Lisa Popovici", "Andrei Negrau", "Kylah Field", "Jeremy Thurswell", "Paige Zachs", "Hudson Lofchie"],
+    "GENERATED_MODE_SOURCE_CUSTOMER": ["Spanx", "Thrive Causemetics", "Terra Kaffe", "Grüns", "Sierra Ventures", "Simple Modern", "Everyday Dose"],
+}
+COPY_PROBES = ["Brands that win on CX run on Siena", "Our mission is to humanize the internet by turning customer interactions into meaningful relationships", "Backed by great partners"]
+ASSET_PROBES = ["jBdT2KuAbfPtfHNsxcWh0L50xk", "rYyvabwLjN7jv9XBL68Sm664", "L2fbLFnO4rG3Y9WhTn2Zmg90Q"]  # hero image, hero image, a customer logo (file stems in the clone's public/assets)
+c15 = len(errors)
+sb15 = assets.get("sourceBrand")
+if not sb15:
+    err("generated-mode", "assets/asset-roles.json has no sourceBrand registry")
+else:
+    res15 = SV._brand_res(repo)
+    for rule_, probes_ in PROBES.items():
+        for pr in probes_:
+            txt_ = re.sub(r"[-_/.]+", " ", pr) + " " + pr if re.fullmatch(r"[a-z0-9/#._:-]+", pr) else pr
+            if not (res15[rule_] and res15[rule_].search(txt_)):
+                err("generated-mode", f"{rule_}: the source-brand registry no longer matches the pinned probe {pr!r}")
+    hashes15 = repo["sourceHashes"]
+    for pr in COPY_PROBES:
+        w_ = SV._norm_words(pr)
+        if len(w_) >= sb15["copy"]["shingleWords"] and not any(SV._h16(" ".join(w_[i:i + sb15["copy"]["shingleWords"]])) in hashes15["copyShingles"] for i in range(len(w_) - sb15["copy"]["shingleWords"] + 1)):
+            err("generated-mode", f"GENERATED_MODE_SOURCE_COPY: assets/source-copy-hashes.json no longer contains the pinned source phrase {pr!r}")
+    for st in ASSET_PROBES:
+        if SV._h16(st.lower()) not in hashes15["assetStems"]:
+            err("generated-mode", f"GENERATED_MODE_ASSET_REF: assets/source-copy-hashes.json no longer lists the source asset stem {st!r}")
+    if sb15["counts"]["copyShingles"] != len(hashes15["copyShingles"]) or sb15["counts"]["assetStems"] != len(hashes15["assetStems"]):
+        err("generated-mode", "sourceBrand.counts disagree with assets/source-copy-hashes.json")
+    if set(sb15["assets"]["allowedRefPrefixes"]) != {"placeholder", "generated", "user-supplied"}:
+        err("generated-mode", f"allowedRefPrefixes {sb15['assets']['allowedRefPrefixes']} != the pinned placeholder/generated/user-supplied")
+    if set(assets.get("availabilityValues", [])) != {"reference-only", "generation-safe", "blocked-for-generation"}:
+        err("generated-mode", f"availabilityValues {assets.get('availabilityValues')} is not the pinned closed set")
+    # the schema's closed mode enum and the generated-ref / generated-href shapes
+    if sch["properties"]["mode"]["enum"] != ["reference", "generated"] or "mode" not in sch["required"]:
+        err("generated-mode", "pagespec.schema.json must require a closed mode enum [reference, generated]")
+    if BS_.GEN_REF != "^(placeholder|generated|user-supplied)/[A-Za-z0-9._-]+$":
+        err("generated-mode", "build_schema.GEN_REF drifted from the pinned placeholder/generated/user-supplied prefixes")
+    PINNED_GEN_HREF = ("^(/[a-z0-9/#-]*|#[a-z0-9-]+|https://[a-z0-9-]+(\\.[a-z0-9-]+)*\\.(example|invalid)(/[^\\s]*)?"
+                       "|mailto:[a-z.]+@[a-z0-9-]+(\\.[a-z0-9-]+)*\\.(example|invalid))$")
+    if BS_.GEN_HREF != PINNED_GEN_HREF:
+        err("generated-mode", "build_schema.GEN_HREF drifted from the pinned shape: internal paths and reserved .example/.invalid hosts only")
+    # registry re-derived from the clone's own files (when the sibling source tree is present)
+    if HAVE_SRC:
+        import build_source_brand as BSB  # noqa: E402
+
+        if not os.path.exists(BSB.DICT):
+            warn("generated-mode", "system word list absent: source-brand re-derivation SKIPPED")
+        else:
+            reg_, hs_ = BSB.build()
+            if reg_ != sb15 or BSB.dump(hs_) != open(BSB.HASHES, encoding="utf-8").read():
+                err("generated-mode", "assets/asset-roles.json sourceBrand / assets/source-copy-hashes.json differ from what extraction/build_source_brand.py derives from src/ (re-run it)")
+    else:
+        warn("generated-mode", "src/ not beside design-repo/: source-brand re-derivation SKIPPED (the pinned probes above still ran)")
+# examples: closed mode per example, generated ones cover the required page types
+gen_ex = {r_: parsed[r_] for r_ in ex_files if parsed[r_].get("mode") == "generated"}
+for r_ in ex_files:
+    if parsed[r_].get("mode") not in ("reference", "generated"):
+        err("generated-mode", f"{r_}: example PageSpec lacks a closed mode")
+need_tpl = {"template.home", "template.conversation-detail", "template.legal"}
+if not need_tpl <= {d_["template"] for d_ in gen_ex.values()} or not any(d_["template"] in ("template.shopping-agent", "template.social-agent", "template.reviews-agent", "template.qa-agent", "template.topics-explorer", "template.ask-siena", "template.memory", "template.order-tracking", "template.video", "template.docs") for d_ in gen_ex.values()):
+    err("generated-mode", f"generated examples must cover home, a product page, the conversation article and legal; have {sorted(d_['template'] for d_ in gen_ex.values())}")
+# canary: the validator must still reject a leaking generated page and a mode mix-up (a validator that stops enforcing generated mode fails here)
+if any(d_["template"] == "template.home" for d_ in gen_ex.values()):
+    base_ = gen_ex[sorted(gen_ex)[0]]
+    nav_ = lambda d_: next(n_ for n_ in d_["nodes"] if n_["type"] == "shell.navbar")  # noqa: E731
+    hero_ = lambda d_: next(n_ for n_ in d_["nodes"] if n_["type"] == "hero.home")  # noqa: E731
+    homeg = next((d_ for d_ in gen_ex.values() if d_["template"] == "template.home"), base_)
+    import copy as _cp  # noqa: E402
+
+    def leak(fn):
+        d_ = _cp.deepcopy(homeg)
+        fn(d_)
+        return [f"{r_[1]}" for r_ in SV.validate_pagespec(d_, repo) if r_[0] == "error"]
+
+    canaries = [
+        ("source brand in a heading", lambda d_: hero_(d_)["content"].__setitem__("headline", "Why teams choose Siena"), "GENERATED_MODE_SOURCE_BRAND"),
+        ("source URL in an href", lambda d_: nav_(d_)["content"]["cta"].__setitem__("href", "https://www.siena.cx/book-a-demo"), {"SCHEMA"}),
+        ("source person as a testimonial author", lambda d_: next(n_ for n_ in d_["nodes"] if n_["type"] == "testimonials.slider")["content"]["slides"][0].__setitem__("name", "Kylah Field"), "GENERATED_MODE_SOURCE_PERSON"),
+        ("source customer in a role line", lambda d_: next(n_ for n_ in d_["nodes"] if n_["type"] == "testimonials.slider")["content"]["slides"][0].__setitem__("role", "VP at Spanx"), "GENERATED_MODE_SOURCE_CUSTOMER"),
+        ("source marketing copy", lambda d_: hero_(d_)["content"].__setitem__("subtitle", "Brands that win on CX run on Siena"), "GENERATED_MODE_SOURCE_COPY"),
+        ("source asset file", lambda d_: hero_(d_)["content"]["images"][0].__setitem__("assetRef", "generated/jBdT2KuAbfPtfHNsxcWh0L50xk.webp"), "GENERATED_MODE_ASSET_REF"),
+        ("blocked role in a generated page", lambda d_: hero_(d_)["content"]["tickerRows"][0][0].__setitem__("assetRole", "logo.customer"), {"SCHEMA"}),
+        ("a reference page flipped to generated", lambda d_: d_.update(mode="reference"), {"SCHEMA"}),
+    ]
+    for nm_, fn_, want_ in canaries:
+        try:
+            got_ = leak(fn_)
+        except Exception as e_:  # noqa: BLE001
+            err("generated-mode", f"canary '{nm_}' crashed: {e_!r}")
+            continue
+        want_s = want_ if isinstance(want_, set) else {want_}
+        if not (set(got_) & want_s):
+            err("generated-mode", f"canary '{nm_}' was not rejected with {sorted(want_s)} (got {sorted(set(got_)) or 'no errors'}): the validator stopped enforcing generated mode")
+    # and the reverse: flipping a reference example to generated must fail
+    refx = parsed["schema/example.pagespec.json"]
+    flip = _cp.deepcopy(refx)
+    flip["mode"] = "generated"
+    if not any(r_[0] == "error" for r_ in SV.validate_pagespec(flip, repo)):
+        err("generated-mode", "canary 'reference example flipped to generated' passed validation")
+    if any(r_[0] == "error" for r_ in SV.validate_pagespec(refx, repo)):
+        err("generated-mode", "the reference example no longer validates in mode reference")
+# every GENERATED_MODE_* rule id is implemented in code and exercised by the adversarial suite
+code15 = open(os.path.join(DR, "schema", "semantic_validate.py"), encoding="utf-8").read().split("def check_generated")[1].split("# ----", 1)[0]
+adv15 = open(os.path.join(DR, "schema", "tests", "adversarial_test.py"), encoding="utf-8").read()
+for rid_ in sorted(SV.GENERATED_MODE_RULES):
+    if f'"{rid_}"' not in code15:
+        err("generated-mode", f"{rid_} is declared in GENERATED_MODE_RULES but never raised in check_generated()")
+    if f'"{rid_}"' not in adv15:
+        err("generated-mode", f"{rid_} has no adversarial test")
+print(f"15) Generated mode: {len(gen_ex)} generated + {len(ex_files) - len(gen_ex)} reference example PageSpecs, {len(SV.GENERATED_MODE_RULES)} GENERATED_MODE_* rules implemented and tested, "
+      f"{sum(len(v) for v in PROBES.values()) + len(COPY_PROBES) + len(ASSET_PROBES)} pinned source-identity probes, 8 canary mutations rejected, registry {'re-derived from src/' if HAVE_SRC else 'derivation skipped (no src)'}; {len(errors) - c15} errors")
+
+# 16 ---------------------------------------------------------------------------------
 if "--skip-adversarial" in sys.argv:
-    print("15) Adversarial suite: SKIPPED by --skip-adversarial (drift-injection runs only)")
+    print("16) Adversarial suite: SKIPPED by --skip-adversarial (drift-injection runs only)")
 else:
     r = subprocess.run([sys.executable, os.path.join(DR, "schema", "tests", "adversarial_test.py")], capture_output=True, text=True)
     tail = [ln for ln in r.stdout.strip().split("\n") if ln][-1:] or [""]
     if r.returncode != 0:
         err("adversarial", "adversarial suite failed:\n" + r.stdout[-1500:] + r.stderr[-800:])
-    print(f"15) Adversarial suite: {'PASS' if r.returncode == 0 else 'FAIL'} ({tail[0]})")
+    print(f"16) Adversarial suite: {'PASS' if r.returncode == 0 else 'FAIL'} ({tail[0]})")
 
 print("\n" + "=" * 72)
 for w in warnings:

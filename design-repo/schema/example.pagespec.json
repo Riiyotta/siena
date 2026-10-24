@@ -1,5 +1,6 @@
 {
   "id": "page.home",
+  "mode": "reference",
   "route": "/",
   "template": "template.home",
   "theme": "light",

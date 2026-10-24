@@ -135,6 +135,13 @@
     ],
     "additionalProperties": false
   },
+  "generatedAssetRoles": [
+    "illustration.abstract-glow",
+    "illustration.generated",
+    "logo.placeholder",
+    "logo.user-supplied",
+    "photo.user-supplied"
+  ],
   "motion": {
     "allowedPatterns": [
       "appear-rise"

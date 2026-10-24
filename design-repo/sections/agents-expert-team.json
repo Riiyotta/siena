@@ -144,6 +144,11 @@
     ],
     "additionalProperties": false
   },
+  "generatedAssetRoles": [
+    "icon.generated",
+    "illustration.generated",
+    "photo.user-supplied"
+  ],
   "motion": {
     "allowedPatterns": [
       "none"

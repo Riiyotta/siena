@@ -77,6 +77,48 @@
     ],
     "additionalProperties": false
   },
+  "generatedOverrides": {
+    "addProperties": {
+      "brand": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "maxWords": 4
+          },
+          "assetRole": {
+            "enum": [
+              "logo.placeholder",
+              "logo.user-supplied"
+            ]
+          },
+          "assetRef": {
+            "type": "string",
+            "pattern": "^(placeholder|generated|user-supplied)/[A-Za-z0-9._-]+$"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 24
+          }
+        },
+        "required": [
+          "name",
+          "assetRole",
+          "assetRef"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "required": [
+      "links",
+      "cta",
+      "brand"
+    ]
+  },
+  "generatedAssetRoles": [
+    "logo.placeholder",
+    "logo.user-supplied"
+  ],
   "motion": {
     "allowedPatterns": [
       "none"

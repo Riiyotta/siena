@@ -84,6 +84,11 @@
     ],
     "additionalProperties": false
   },
+  "generatedAssetRoles": [
+    "illustration.abstract-glow",
+    "illustration.generated",
+    "photo.user-supplied"
+  ],
   "motion": {
     "allowedPatterns": [
       "hscroll-scrub"

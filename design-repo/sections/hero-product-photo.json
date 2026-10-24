@@ -118,6 +118,12 @@
     ],
     "additionalProperties": false
   },
+  "generatedAssetRoles": [
+    "illustration.generated",
+    "logo.placeholder",
+    "logo.user-supplied",
+    "photo.user-supplied"
+  ],
   "motion": {
     "allowedPatterns": [
       "appear-rise"

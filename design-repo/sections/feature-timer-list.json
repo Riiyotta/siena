@@ -98,6 +98,9 @@
     ],
     "additionalProperties": false
   },
+  "generatedAssetRoles": [
+    "icon.generated"
+  ],
   "motion": {
     "allowedPatterns": [
       "timer-progress"

@@ -146,6 +146,10 @@
     ],
     "additionalProperties": false
   },
+  "generatedAssetRoles": [
+    "icon.generated",
+    "illustration.abstract-glow"
+  ],
   "motion": {
     "allowedPatterns": [
       "appear-rise"

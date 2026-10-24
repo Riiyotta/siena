@@ -15,6 +15,9 @@ Layers, in order:
   3. Graph rules from compatibility/graph.json (every rule id is implemented below;
      extraction/verify_all.py asserts the two sets are identical).
   4. Per-instance maxWords budgets from the section contracts (+ head).
+  5. mode "generated" (a new page for ANY OTHER brand), GENERATED_MODE_* rules: no reference-only / blocked asset role,
+     only the roles the section lists in generatedAssetRoles, no source brand / URL / customer / person / marketing copy /
+     asset file, quotes and copy of `generated` provenance. Mode "reference" keeps every rule above unchanged.
 Findings are (severity, rule, message) tuples.
 """
 import glob
@@ -27,6 +30,9 @@ from urllib.parse import urlparse
 
 import jsonschema
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import build_schema as BS  # noqa: E402
+
 DR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 IMPLEMENTED_RULES = {
@@ -36,6 +42,17 @@ IMPLEMENTED_RULES = {
     "PLACEHOLDER_MARKED", "TESTIMONIAL_SET", "TESTIMONIAL_SET_COUNT", "ROUTE_VARIANT", "ROUTE_NODE_RULES",
     "VARIANT_RULES", "REPEAT_COUNTS", "MOTION_BUDGET", "ASSET_ROLE_USAGE", "UNIQUE_IDS", "MODAL_OPENER", "CHAPTER_PARITY",
 }
+
+# mode "generated": every rule id raised by check_generated() (verify_all asserts each is raised in code and proven by a test)
+GENERATED_MODE_RULES = {
+    "GENERATED_MODE_REFERENCE_ASSET", "GENERATED_MODE_ROLE", "GENERATED_MODE_ASSET_REF", "GENERATED_MODE_SOURCE_BRAND",
+    "GENERATED_MODE_SOURCE_URL", "GENERATED_MODE_EXTERNAL_URL", "GENERATED_MODE_SOURCE_PERSON", "GENERATED_MODE_SOURCE_CUSTOMER",
+    "GENERATED_MODE_SOURCE_COPY", "GENERATED_MODE_QUOTE", "GENERATED_MODE_PLACEHOLDER_COPY", "GENERATED_MODE_THIRD_PARTY",
+}
+# Keys whose string values are the contract's own vocabulary (enum members, ids of the closed registries), not rendered text.
+STRUCTURAL_KEYS = {"type", "variant", "template", "theme", "mode", "assetRole", "assetRef", "style", "action", "state", "speaker", "control",
+                   "source", "copySource", "kind", "layout", "mediaSide", "network", "visual", "submitBehavior", "linkSet", "phoneLayout",
+                   "phoneGrid", "visibleAt", "formula", "anchorId", "codepoint", "pattern", "reducedMotionFallback"}
 
 # Utility/runtime UI that a retrieval index must skip. Pinned HERE (and, independently, as a
 # second literal in extraction/verify_all.py) so flipping the flag in a contract, the allowlist
@@ -80,6 +97,8 @@ def load_repo():
         "citations": mv["citations"],
         "classification": _load("schema/section-classification.json"),
         "contractSchema": _load("schema/section-contract.schema.json"),
+        "sourceBrand": _load("assets/asset-roles.json")["sourceBrand"],
+        "sourceHashes": {k: set(v) for k, v in _load("assets/source-copy-hashes.json").items() if isinstance(v, list)},
     }
 
 
@@ -92,12 +111,21 @@ def norm_quote(s):
 
 
 # ------------------------------------------------------------------ layer 2
+def constraint_route(doc, tpl):
+    """Route whose per-route constraints (nav override, route variants / node rules) apply. A reference page is bound to its real route;
+    a generated page may live at any non-brand route and then inherits the template's first (canonical) route's constraints."""
+    r = doc.get("route")
+    if doc.get("mode") == "generated" and tpl and r not in tpl["routes"]:
+        return tpl["routes"][0]
+    return r
+
+
 def check_template(doc, repo, out):
     tpl = repo["templates"].get(doc.get("template"))
     if tpl is None:
         out.append(("error", "TEMPLATE", f"unknown template {doc.get('template')!r}"))
         return None
-    if doc.get("route") not in tpl["routes"]:
+    if doc.get("mode") != "generated" and doc.get("route") not in tpl["routes"]:
         out.append(("error", "ROUTE", f"route {doc.get('route')!r} is not served by {tpl['id']} (routes: {tpl['routes']})"))
     tnodes = tpl["nodes"]
     used = [0] * len(tnodes)
@@ -159,7 +187,8 @@ def hrefs(x, path=""):
 def check_graph_rules(doc, repo, tpl, out):
     nodes = doc.get("nodes", [])
     types = [n.get("type") for n in nodes]
-    route = doc.get("route")
+    gen = doc.get("mode") == "generated"
+    route = constraint_route(doc, tpl)
     tid = doc.get("template")
     cons = (tpl or {}).get("constraints", {})
     routing = repo["routing"]
@@ -190,7 +219,7 @@ def check_graph_rules(doc, repo, tpl, out):
         want_var = "careers-cta" if "ctaLabel" in ovr else "forced-scrolled" if ovr.get("forceScrolled") else "standard"
         if c.get("state") != want_state:
             add("NAV_OVERRIDE", f"navbar state {c.get('state')!r} but route {route} requires {want_state!r}")
-        if c.get("cta") != want_cta:
+        if c.get("cta") != want_cta and not gen:
             add("NAV_OVERRIDE", f"navbar cta {c.get('cta')} but route {route} requires {want_cta}")
         if n.get("variant") != want_var:
             add("NAV_OVERRIDE", f"navbar variant {n.get('variant')!r} but route {route} requires {want_var!r}")
@@ -233,11 +262,13 @@ def check_graph_rules(doc, repo, tpl, out):
             add("QUIRK_REGISTERED", f"{t} is a registered live-site quirk allowed only on {allowed}, not {tid}")
     # OUT_OF_SCOPE_ROUTE / LINK_TARGETS
     oos = routing["outOfScopePrefixes"]
-    if any(route == p or (route or "").startswith(p + "/") for p in oos):
+    if not gen and any(route == p or (route or "").startswith(p + "/") for p in oos):
         add("OUT_OF_SCOPE_ROUTE", f"route {route} is deliberately out of scope (must not be recreated; link to live siena.cx)")
     allowed_hosts = set(routing["externalHostAllowlist"])
     for n in nodes:
         for path, h in hrefs(n.get("content", {}), f"nodes[{n.get('id')}]"):
+            if gen:
+                continue  # generated hrefs are restricted by the schema (internal or reserved hosts) and scanned by GENERATED_MODE_SOURCE_URL
             if h.startswith("/"):
                 p = h.split("#", 1)[0]
                 if any(p == o or p.startswith(o + "/") for o in oos):
@@ -269,8 +300,8 @@ def check_graph_rules(doc, repo, tpl, out):
         visit_node(n)
     if len(embeds) > 1 or any(t != "media.video-embed" for t, _ in embeds):
         add("EMBED_ALLOWLIST", f"external embeds allowed only once, in media.video-embed; found {embeds}")
-    # QUOTE_PROVENANCE / PLACEHOLDER_MARKED
-    for n in nodes:
+    # QUOTE_PROVENANCE / PLACEHOLDER_MARKED (reference pages: verified-vs-placeholder; generated pages: GENERATED_MODE_QUOTE / _PLACEHOLDER_COPY)
+    for n in ([] if gen else nodes):
         def fn(d, path, parent):
             if set(d) == {"text", "source"} and d.get("source") in ("verified", "placeholder"):
                 text = d["text"]
@@ -294,7 +325,7 @@ def check_graph_rules(doc, repo, tpl, out):
                     add("PLACEHOLDER_MARKED", f"{path}: copySource real but the text contains placeholder vocabulary")
         walk(n.get("content", {}), fn, f"nodes[{n.get('id')}]")
     # TESTIMONIAL_SET / TESTIMONIAL_SET_COUNT
-    tset = cons.get("testimonialSet")
+    tset = None if gen else cons.get("testimonialSet")  # the homepage set is the source's verified quotes: meaningless for a generated page
     if tset:
         for n in nodes:
             if n.get("type") == "testimonials.slider":
@@ -421,10 +452,122 @@ def validate_pagespec(doc, repo=None):
         return out
     tpl = check_template(doc, repo, out)
     check_graph_rules(doc, repo, tpl, out)
+    gen = doc["mode"] == "generated"
     for n in doc["nodes"]:
-        walk_maxwords(repo["sections"][n["type"]]["contentModel"], n["content"], f"nodes[{n['id']}]", out)
+        try:
+            model = BS.generated_model(repo["sections"][n["type"]], repo["assets"]) if gen else repo["sections"][n["type"]]["contentModel"]
+        except (ValueError, KeyError) as e:
+            out.append(("error", "GENERATED_ROLES", f"{n['type']}: the generated content model cannot be derived: {e}"))
+            continue
+        walk_maxwords(model, n["content"], f"nodes[{n['id']}]", out)
     walk_maxwords(repo["schema"]["definitions"]["head"], doc["head"], "head", out)
+    if gen:
+        check_generated(doc, repo, out)
     return out
+
+
+# ------------------------------------------------------------------ mode "generated"
+def _brand_res(repo):
+    """Compiled source-identity patterns (cached on the repo dict). Matching is case-insensitive; a pattern may scope (?-i:...)."""
+    if "_res" not in repo:
+        sb = repo["sourceBrand"]
+        comp = lambda pats: re.compile("|".join(f"(?:{p})" for p in pats), re.I) if pats else None  # noqa: E731
+        repo["_res"] = {
+            "GENERATED_MODE_SOURCE_BRAND": comp(sb["brand"]["patterns"]),
+            "GENERATED_MODE_SOURCE_URL": comp(sb["urls"]["hostPatterns"] + sb["urls"]["personalHandlePatterns"]),
+            "GENERATED_MODE_SOURCE_PERSON": comp(sb["people"]["patterns"]),
+            "GENERATED_MODE_SOURCE_CUSTOMER": comp(sb["customers"]["patterns"]),
+            "GENERATED_MODE_THIRD_PARTY": comp(sb["thirdPartyPlatforms"]["patterns"]),
+        }
+    return repo["_res"]
+
+
+COPY_WORDS = re.compile(r"[a-z0-9]+(?:'[a-z]+)?")
+URL_ANY = re.compile(r"https?://([A-Za-z0-9.-]+)", re.I)
+
+
+def _norm_words(s):
+    s = s.lower().replace("\u2019", "'").replace("\u2018", "'")
+    return COPY_WORDS.findall(re.sub(r"\*|_|`", " ", s))
+
+
+def _h16(s):
+    return hashlib.sha256(s.encode("utf-8")).hexdigest()[:16]
+
+
+def text_leaves(x, path="", skip=STRUCTURAL_KEYS):
+    """Every human-readable string of a PageSpec subtree: (path, text). Structural vocabulary keys and motion are skipped."""
+    if isinstance(x, dict):
+        for k, v in x.items():
+            if k in skip or k == "motion":
+                continue
+            yield from text_leaves(v, f"{path}.{k}", skip)
+    elif isinstance(x, list):
+        for i, v in enumerate(x):
+            yield from text_leaves(v, f"{path}[{i}]", skip)
+    elif isinstance(x, str):
+        yield path, x
+
+
+def check_generated(doc, repo, out):
+    """GENERATED_MODE_* rules: a generated page is a different brand and must carry nothing of the source."""
+    res = _brand_res(repo)
+    sb = repo["sourceBrand"]
+    hashes = repo["sourceHashes"]
+    add = lambda rule, msg, sev="error": out.append((sev, rule, msg))  # noqa: E731
+    leaves = [("id", doc.get("id", "")), ("route", doc.get("route", ""))]
+    leaves += [(f"head.{k}", v) for k, v in doc.get("head", {}).items() if isinstance(v, str)]
+    for n in doc.get("nodes", []):
+        leaves.append((f"nodes[{n.get('id')}].id", n.get("id", "")))
+        leaves += list(text_leaves(n.get("content", {}), f"nodes[{n.get('id')}]"))
+    reserved = tuple(sb["urls"]["reservedHostSuffixes"])
+    for path, raw in leaves:
+        text = raw if not re.fullmatch(r"[a-z0-9/#._:-]+", raw) else re.sub(r"[-_/.]+", " ", raw) + " " + raw  # slugs, routes and ids: hyphens are word breaks
+        for rule in ("GENERATED_MODE_SOURCE_BRAND", "GENERATED_MODE_SOURCE_URL", "GENERATED_MODE_SOURCE_PERSON", "GENERATED_MODE_SOURCE_CUSTOMER"):
+            m = res[rule].search(text) if res[rule] else None
+            if m:
+                add(rule, f"{path}: names the source ({m.group(0)!r}); a generated page is a different brand")
+        m = res["GENERATED_MODE_THIRD_PARTY"].search(text) if res["GENERATED_MODE_THIRD_PARTY"] else None
+        if m:
+            add("GENERATED_MODE_THIRD_PARTY", f"{path}: names {m.group(0)!r}, a third-party product the source mentions (allowed, but check it is intended)", "warn")
+        for host in URL_ANY.findall(text):
+            host = host.lower().rstrip(".")
+            if not host.endswith(reserved) and not res["GENERATED_MODE_SOURCE_URL"].search(host):
+                add("GENERATED_MODE_EXTERNAL_URL", f"{path}: real URL host {host!r}; use a reserved .example/.invalid host")
+        w = _norm_words(text)
+        if len(w) >= sb["copy"]["shingleWords"]:
+            hit = next((" ".join(w[i:i + sb["copy"]["shingleWords"]]) for i in range(len(w) - sb["copy"]["shingleWords"] + 1) if _h16(" ".join(w[i:i + sb["copy"]["shingleWords"]])) in hashes["copyShingles"]), None)
+            if hit:
+                add("GENERATED_MODE_SOURCE_COPY", f"{path}: reproduces source marketing copy (5-word run {hit!r}); write original copy")
+        if LOREM.search(text):
+            add("GENERATED_MODE_PLACEHOLDER_COPY", f"{path}: lorem filler is not original copy; generated pages carry generated copy")
+    # asset roles: availability, per-section list, asset file
+    for n in doc.get("nodes", []):
+        sec = repo["sections"].get(n.get("type"))
+        allowed = (sec or {}).get("generatedAssetRoles", [])
+
+        def fn(d, path, parent):
+            r = d.get("assetRole")
+            if isinstance(r, str):
+                spec = repo["assets"].get(r)
+                if spec is not None and spec.get("availability") != "generation-safe":
+                    subs = ", ".join(spec.get("generationSafeSubstitutes", [])) or "none: omit the slot"
+                    add("GENERATED_MODE_REFERENCE_ASSET", f"{path}: role {r!r} is {spec.get('availability')} and cannot appear in a generated page (use: {subs})")
+                elif r not in allowed:
+                    add("GENERATED_MODE_ROLE", f"{path}: role {r!r} is not a generated-mode role of {n.get('type')} (allowed: {', '.join(allowed) or 'none'})")
+            ref = d.get("assetRef")
+            if isinstance(ref, str):
+                stem = os.path.splitext(ref.rsplit("/", 1)[-1])[0].lower()
+                if _h16(stem) in hashes["assetStems"]:
+                    add("GENERATED_MODE_ASSET_REF", f"{path}: assetRef {ref!r} is a file of the source (screenshot / media reuse)")
+                if ref.split("/", 1)[0] not in sb["assets"]["allowedRefPrefixes"]:
+                    add("GENERATED_MODE_ASSET_REF", f"{path}: assetRef {ref!r} must be under {sb['assets']['allowedRefPrefixes']}")
+            if set(d) == {"text", "source"}:
+                if d["source"] != "generated":
+                    add("GENERATED_MODE_QUOTE", f"{path}: quote source {d['source']!r}; a generated page carries only generated quotes")
+                if hashlib.sha256(norm_quote(d["text"]).encode("utf-8")).hexdigest() in repo["quotes"]:
+                    add("GENERATED_MODE_QUOTE", f"{path}: reproduces a verified quote of a real person")
+        walk(n.get("content", {}), fn, f"nodes[{n.get('id')}]")
 
 
 # ------------------------------------------------------------------ section contracts
@@ -489,6 +632,21 @@ def validate_section_contract(c, repo=None):
             out.append(("error", "SOURCE_SEMANTIC", f"{t}: source file/lines {src['file']}:{src['lines']} differ from the citation's {cit['file']}:{cit['lines']}"))
         if _source_tag(src["file"]) != src["tag"]:
             out.append(("error", "SOURCE_SEMANTIC", f"{t}: source.tag {src['tag']!r} does not match the cited file {src['file']} ({_source_tag(src['file'])!r})"))
+    # generated-mode asset roles: closed, generation-safe, and exactly what the generated content model derives
+    gen_roles = c["generatedAssetRoles"]
+    for r in gen_roles:
+        spec = repo["assets"].get(r)
+        if spec is None:
+            out.append(("error", "GENERATED_ROLES", f"{t}: generatedAssetRoles names unknown role {r!r}"))
+        elif spec["availability"] != "generation-safe":
+            out.append(("error", "GENERATED_ROLES", f"{t}: generatedAssetRoles lists {r!r}, which is {spec['availability']}"))
+    try:
+        derived = BS.derived_generated_roles(c, repo["assets"])
+    except (ValueError, KeyError) as e:
+        out.append(("error", "GENERATED_ROLES", f"{t}: the generated content model cannot be derived: {e}"))
+    else:
+        if sorted(gen_roles) != derived:
+            out.append(("error", "GENERATED_ROLES", f"{t}: generatedAssetRoles {sorted(gen_roles)} != the roles its generated content model derives {derived}"))
     # classification policy
     prefix = t.split(".", 1)[0]
     cat = c["category"]

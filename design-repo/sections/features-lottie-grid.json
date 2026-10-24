@@ -93,6 +93,9 @@
     ],
     "additionalProperties": false
   },
+  "generatedAssetRoles": [
+    "animation.generated"
+  ],
   "motion": {
     "allowedPatterns": [
       "none"

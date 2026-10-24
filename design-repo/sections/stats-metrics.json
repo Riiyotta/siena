@@ -88,6 +88,9 @@
     ],
     "additionalProperties": false
   },
+  "generatedAssetRoles": [
+    "illustration.abstract-glow"
+  ],
   "motion": {
     "allowedPatterns": [
       "count-up"

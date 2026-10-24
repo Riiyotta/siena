@@ -141,6 +141,11 @@
     ],
     "additionalProperties": false
   },
+  "generatedAssetRoles": [
+    "illustration.abstract-glow",
+    "logo.placeholder",
+    "logo.user-supplied"
+  ],
   "motion": {
     "allowedPatterns": [
       "none"

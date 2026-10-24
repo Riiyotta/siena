@@ -1,0 +1,287 @@
+{
+  "id": "page.generated-conversation",
+  "mode": "generated",
+  "route": "/conversations/generated-interview",
+  "template": "template.conversation-detail",
+  "theme": "light",
+  "head": {
+    "title": "A fictional conversation about calmer support",
+    "description": "A generation-safe conversation page."
+  },
+  "nodes": [
+    {
+      "id": "n0-0",
+      "type": "shell.navbar",
+      "variant": "standard",
+      "content": {
+        "state": "auto",
+        "cta": {
+          "label": "Request a walkthrough",
+          "href": "/book-a-demo"
+        },
+        "brand": {
+          "name": "Brightloop",
+          "assetRole": "logo.placeholder",
+          "assetRef": "placeholder/brightloop-wordmark.svg",
+          "alt": "Brightloop placeholder wordmark"
+        },
+        "linkSet": "placeholder"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "id": "n1-0",
+      "type": "content.article-header",
+      "variant": "standard",
+      "content": {
+        "date": "Jan 12, 2027",
+        "headline": "Marisol Quade of Kestrel Goods on keeping support calm",
+        "guest": {
+          "name": "Marisol Quade",
+          "role": "Head of Care",
+          "brand": "Kestrel Goods"
+        }
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "id": "n2-0",
+      "type": "media.video-embed",
+      "variant": "standard",
+      "content": {
+        "video": {
+          "assetRole": "video.user-supplied",
+          "assetRef": "user-supplied/interview.mp4"
+        }
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "id": "n3-0",
+      "type": "content.article-summary",
+      "variant": "standard",
+      "content": {
+        "summary": [
+          {
+            "text": "Marisol explains how a small care team handled seasonal peaks by writing its policies down once and letting an assistant apply them.",
+            "copySource": "generated"
+          }
+        ],
+        "takeaways": [
+          {
+            "text": "Write each policy in two sentences before automating it.",
+            "copySource": "generated"
+          },
+          {
+            "text": "Review the weekly digest to find confusing pages.",
+            "copySource": "generated"
+          },
+          {
+            "text": "Keep a person one click away from every conversation.",
+            "copySource": "generated"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "id": "n4-0",
+      "type": "content.article-chapter-index",
+      "variant": "standard",
+      "content": {
+        "chapters": [
+          {
+            "time": "0:00",
+            "title": "Why repeat questions pile up"
+          },
+          {
+            "time": "4:10",
+            "title": "Writing guardrails in plain language"
+          },
+          {
+            "time": "9:35",
+            "title": "Measuring a calmer inbox"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "id": "n5-0",
+      "type": "content.transcript-chapter",
+      "variant": "standard",
+      "content": {
+        "chapter": "Why repeat questions pile up",
+        "turns": [
+          {
+            "speaker": "Host",
+            "seconds": 0,
+            "paragraphs": [
+              {
+                "text": "Let us start with the questions that fill your inbox every week.",
+                "copySource": "generated"
+              }
+            ]
+          },
+          {
+            "speaker": "Marisol",
+            "seconds": 24,
+            "paragraphs": [
+              {
+                "text": "Brightloop reads the order, the policy and the shopper history before it replies, so customers get a straight answer instead of a form.",
+                "copySource": "generated"
+              }
+            ]
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "id": "n5-1",
+      "type": "content.transcript-chapter",
+      "variant": "standard",
+      "content": {
+        "chapter": "Writing guardrails in plain language",
+        "turns": [
+          {
+            "speaker": "Host",
+            "seconds": 0,
+            "paragraphs": [
+              {
+                "text": "Let us start with the questions that fill your inbox every week.",
+                "copySource": "generated"
+              }
+            ]
+          },
+          {
+            "speaker": "Marisol",
+            "seconds": 24,
+            "paragraphs": [
+              {
+                "text": "Hand any conversation to a person in one click and the whole thread, tone notes and next step travel with it.",
+                "copySource": "generated"
+              }
+            ]
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "id": "n5-2",
+      "type": "content.transcript-chapter",
+      "variant": "standard",
+      "content": {
+        "chapter": "Measuring a calmer inbox",
+        "turns": [
+          {
+            "speaker": "Host",
+            "seconds": 0,
+            "paragraphs": [
+              {
+                "text": "Let us start with the questions that fill your inbox every week.",
+                "copySource": "generated"
+              }
+            ]
+          },
+          {
+            "speaker": "Marisol",
+            "seconds": 24,
+            "paragraphs": [
+              {
+                "text": "Set your guardrails once in plain language and every channel follows them, from chat to email to the help centre.",
+                "copySource": "generated"
+              }
+            ]
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "id": "n6-0",
+      "type": "content.article-faq",
+      "variant": "standard",
+      "content": {
+        "faq": [
+          {
+            "question": "How long does setup take?",
+            "answer": {
+              "text": "Most teams are live on their first five topics within a week.",
+              "copySource": "generated"
+            }
+          },
+          {
+            "question": "Can a person take over a chat?",
+            "answer": {
+              "text": "Yes, every conversation can be taken over with the whole thread attached.",
+              "copySource": "generated"
+            }
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "id": "n7-0",
+      "type": "cta.newsletter",
+      "variant": "conversations",
+      "content": {
+        "heading": "Get new conversations by email",
+        "placeholder": "Email",
+        "submitLabel": "Subscribe",
+        "submitBehavior": "none"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "id": "n8-0",
+      "type": "shell.footer",
+      "variant": "standard",
+      "content": {
+        "linkSet": "placeholder",
+        "brand": {
+          "name": "Brightloop",
+          "assetRole": "logo.placeholder",
+          "assetRef": "placeholder/brightloop-wordmark.svg",
+          "alt": "Brightloop placeholder wordmark"
+        }
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    }
+  ]
+}

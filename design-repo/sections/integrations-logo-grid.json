@@ -126,6 +126,10 @@
     ],
     "additionalProperties": false
   },
+  "generatedAssetRoles": [
+    "logo.placeholder",
+    "logo.user-supplied"
+  ],
   "motion": {
     "allowedPatterns": [
       "none"

@@ -1,0 +1,173 @@
+{
+  "id": "page.generated-legal",
+  "mode": "generated",
+  "route": "/terms-of-service",
+  "template": "template.legal",
+  "theme": "light",
+  "head": {
+    "title": "Terms of Service | Brightloop",
+    "description": "Generated sample terms for a fictional product."
+  },
+  "nodes": [
+    {
+      "id": "n0-0",
+      "type": "shell.navbar",
+      "variant": "standard",
+      "content": {
+        "state": "auto",
+        "cta": {
+          "label": "Request a walkthrough",
+          "href": "/book-a-demo"
+        },
+        "brand": {
+          "name": "Brightloop",
+          "assetRole": "logo.placeholder",
+          "assetRef": "placeholder/brightloop-wordmark.svg",
+          "alt": "Brightloop placeholder wordmark"
+        },
+        "linkSet": "placeholder"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "id": "n1-0",
+      "type": "content.legal-header",
+      "variant": "standard",
+      "content": {
+        "headline": "Terms of Service",
+        "lastUpdated": "Updated January 12, 2027"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "id": "n2-0",
+      "type": "content.legal-section",
+      "variant": "terms",
+      "content": {
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "body": {
+              "text": "These sample terms describe how a fictional company called Brightloop offers its support assistant to retail teams. By creating a workspace you agree to use the service lawfully and to keep your sign-in details private.",
+              "copySource": "generated"
+            }
+          },
+          {
+            "kind": "list",
+            "items": [
+              {
+                "text": "You are responsible for the content your team uploads.",
+                "copySource": "generated"
+              },
+              {
+                "text": "You must not use the service to send unsolicited messages.",
+                "copySource": "generated"
+              },
+              {
+                "text": "You may close your workspace at any time from the settings page.",
+                "copySource": "generated"
+              }
+            ]
+          }
+        ],
+        "heading": "1. Using the service"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "id": "n2-1",
+      "type": "content.legal-section",
+      "variant": "terms",
+      "content": {
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "body": {
+              "text": "Your conversations, policies and product catalogue remain yours. Brightloop processes them only to answer your customers on your behalf and to produce the summaries you request. This sample text is invented for testing and describes no real company.",
+              "copySource": "generated"
+            }
+          },
+          {
+            "kind": "list",
+            "items": [
+              {
+                "text": "Exports are available as spreadsheets on request.",
+                "copySource": "generated"
+              },
+              {
+                "text": "Deleted workspaces are removed from active systems within a set period.",
+                "copySource": "generated"
+              }
+            ]
+          }
+        ],
+        "heading": "2. Your content and data"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "id": "n2-2",
+      "type": "content.legal-section",
+      "variant": "terms",
+      "content": {
+        "blocks": [
+          {
+            "kind": "paragraph",
+            "body": {
+              "text": "We may update these terms when the service changes. When we do, we will post the new version on this page and change the date at the top so you can see what is new.",
+              "copySource": "generated"
+            }
+          },
+          {
+            "kind": "list",
+            "items": [
+              {
+                "text": "Continued use after an update means you accept the new version.",
+                "copySource": "generated"
+              },
+              {
+                "text": "Questions about these terms can be sent to the contact address on the help page.",
+                "copySource": "generated"
+              }
+            ]
+          }
+        ],
+        "heading": "3. Changes to these terms"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "id": "n3-0",
+      "type": "shell.footer",
+      "variant": "standard",
+      "content": {
+        "linkSet": "placeholder",
+        "brand": {
+          "name": "Brightloop",
+          "assetRole": "logo.placeholder",
+          "assetRef": "placeholder/brightloop-wordmark.svg",
+          "alt": "Brightloop placeholder wordmark"
+        }
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    }
+  ]
+}

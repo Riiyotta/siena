@@ -6,7 +6,7 @@ company). It tells a generator **what may be used** (tokens, primitives, compone
 graph) and **how it must behave** (motion recipes with reduced-motion fallbacks, per-section
 responsive notes), and it proves every rule with a validator and an adversarial suite.
 
-<!-- counts: {"primitives": 12, "components": 24, "sections": 86, "templates": 27, "routes": 35, "tokens": 298, "typographyRoles": 22, "motionRecipes": 20, "assetRoles": 17, "graphRules": 28, "examplePageSpecs": 2, "citations": 356, "verifiedQuotes": 24, "registeredQuirks": 10, "retrievalIneligibleSections": 2, "measuredRoutes": 35, "measuredSectionInstances": 364} -->
+<!-- counts: {"primitives": 12, "components": 24, "sections": 86, "templates": 27, "routes": 35, "tokens": 298, "typographyRoles": 22, "motionRecipes": 20, "assetRoles": 26, "graphRules": 28, "examplePageSpecs": 6, "citations": 356, "verifiedQuotes": 24, "registeredQuirks": 10, "retrievalIneligibleSections": 2, "generatedExamplePageSpecs": 4, "generatedModeRules": 12, "measuredRoutes": 35, "measuredSectionInstances": 364} -->
 
 Status: `design-review-pending`, `productionApproved: false`, **local reference only**.
 
@@ -16,9 +16,10 @@ Status: `design-review-pending`, `productionApproved: false`, **local reference 
    every person photo and name, and the Feature Deck / Tiempos fonts (commercially licensed
    to Siena) are not licensed for reuse. `assets/asset-roles.json` pins an AI-generation
    policy per asset role (`must-reuse-exact`, `must-not-fabricate`, `may-generate-new`,
-   `external-embed-allowlisted`); only abstract glows/gradients may be generated new. Never
-   AI-generate or redraw a real logo, never create a likeness of a real person, never
-   publish this repository or deploy the clone publicly.
+   `external-embed-allowlisted`) and, since 1.2.0, an `availability` per role for generated
+   pages (see "Reference and generated modes"). Never AI-generate or redraw a real logo,
+   never create a likeness of a real person, never publish this repository or deploy the
+   clone publicly.
 2. **Placeholder-content policy.** The clone keeps real headings, labels and short marketing
    copy, but renders long prose as length-matched placeholder text: conversation summaries /
    transcripts / FAQ answers, legal body text, the careers founders letter, about-us team
@@ -48,6 +49,64 @@ Status: `design-review-pending`, `productionApproved: false`, **local reference 
    /about-us + /social-agent forced-scrolled nav, /pricing + /book-a-demo own logo header and
    legal row, /ai-lab own dark nav.
 
+## Reference and generated modes (1.2.0, PageSpec `pageSpecVersion` 2.0.0)
+
+Every PageSpec carries a required, closed `mode`: `reference` or `generated`. Before 1.2.0 a generator could
+reuse the source's own brand: `brand.siena-wordmark`, customer logos, real people's photos, the commissioned
+artwork, the source's screenshots and video, the real YouTube id and the footer's SOC 2 badge were all legal roles, and a
+generated page for another brand had no way to say "not Siena" and no check that it was not.
+
+- **`reference`**: a clone or fidelity page for Siena itself. Every role, URL and quote is available exactly as before
+  (the two real examples are `mode: reference`).
+- **`generated`**: a new page for ANY OTHER brand. The schema swaps in a generated-mode twin of every section's content
+  model (`schema/build_schema.py` `generated_model()`): only generation-safe roles, `assetRef` under `placeholder/`,
+  `generated/` or `user-supplied/`, hrefs only internal or reserved `.example`/`.invalid` hosts, quotes and copy of
+  `generated` provenance. `shell.navbar`, `shell.footer` and `shell.lab-nav` carry no brand slot in reference mode (the
+  wordmark, link set and mega menu are implicit chrome), so `generatedOverrides` add a required `brand` (placeholder or
+  user-supplied mark + name) and `linkSet: placeholder`, and the footer drops the compliance badge.
+
+`assets/asset-roles.json` gives every role a closed `availability`:
+
+| availability | roles | meaning in a generated page |
+|---|---|---|
+| `reference-only` (10) | `brand.siena-wordmark`, `brand.siena-glyph`, `embed.youtube`, `animation.lottie`, `illustration.editorial`, `illustration.swash`, `image.card-background`, `photo.editorial-scene`, `product.ui-mock-image`, `video.decorative-loop` | the source's own brand, artwork, screenshots, media: not allowed; use a listed `generationSafeSubstitutes` role |
+| `blocked-for-generation` (6) | `logo.customer`, `logo.integration`, `logo.partner-investor`, `photo.person-real`, `badge.compliance`, `icon.glyph` | third-party identity or licensed material: never in any form; fictional/user-supplied substitute or, for `badge.compliance` (a certification mark), omit |
+| `generation-safe` (10) | `illustration.abstract-glow` + nine new roles: `logo.placeholder`, `logo.user-supplied`, `avatar.placeholder`, `photo.user-supplied`, `illustration.generated`, `product.ui-generated`, `animation.generated`, `video.user-supplied`, `icon.generated` | allowed, in the sections whose contract lists them in `generatedAssetRoles` (derived from the reference slots via the substitutes and checked against the derivation) |
+
+The availability of every role is **pinned in `extraction/verify_all.py` (`PINNED_AVAILABILITY`), independent of the registry**,
+so flipping `logo.customer` to generation-safe fails check 7 even though the registry would still be self-consistent.
+
+`sourceBrand` (in `assets/asset-roles.json`, with hashes in `assets/source-copy-hashes.json`) is generated by
+`extraction/build_source_brand.py` from the clone's own files, never typed in: the brand token (`siena`), source hosts and
+social handles, customer / partner / investor names (hero tickers, logo arrays, `logoAlt`, testimonial role lines, case-study
+slugs), people (testimonial authors, conversation guests, founders, team, partner testimonial subjects), third-party
+platforms (warn only), SHA-256 prefixes of every 5-word run of the source's marketing copy (10,109 shingles from 1,776
+strings of `src/`, `CLONE_SPEC.md`, `specs/`), and the file stems of 1,130 media files of `public/`, `recon/` and the mirrored
+page folder. Copy and file names are stored as hashes so this repository is not a second copy of the source.
+`schema/semantic_validate.py` raises, for `mode: generated` only: `GENERATED_MODE_REFERENCE_ASSET`, `_ROLE`, `_ASSET_REF`,
+`_SOURCE_BRAND`, `_SOURCE_URL`, `_EXTERNAL_URL`, `_SOURCE_PERSON`, `_SOURCE_CUSTOMER`, `_SOURCE_COPY`, `_QUOTE`,
+`_PLACEHOLDER_COPY` and (warning) `_THIRD_PARTY`. A generated page may sit at any non-brand route (it inherits the
+template's first route's constraints); its testimonial set, nav CTA text and link targets are not tied to Siena's.
+
+Four fictional-brand examples ("Brightloop", invented people and customers, placeholder assets, `.example` links) validate with
+zero findings: `schema/examples/generated.template.{home,product,conversation-detail,legal}.pagespec.json`.
+
+Limits, stated plainly:
+
+- **No human has reviewed the pinned patterns.** They are heuristics over the clone's data, pinned by probes in `verify_all.py`
+  and re-derived by it from `src/` (and `/usr/share/dict/words`, which classifies single-word customer names that are English
+  words: rare ones match only in the source's capitalisation, ones the source's own copy also uses in lower case, such as Hero,
+  Create, True, Thrive, Fresh, Simple, Bad, Immi and the lower-case styled brands, are not matched in text; they are still blocked
+  as logos and asset files).
+- Copy under 5 words (labels, "Book a demo", short headings) is not checked: too generic to attribute. Paraphrase is not detected.
+- Template ids, section ids, variant names and a few enum/key names still contain `siena` (`template.ask-siena`, `mockup.ask-siena`,
+  `comparison.table` rows' `siena` key, `brand.siena-*` role ids): contract vocabulary, exempt from the text scan; a generated
+  `speaker` value is `agent`, not `siena`. A renderer must not print them.
+- `stats.metrics` keeps `counterTo: 80` (a measured layout constant of the source's figure).
+- A PageSpec carries roles and refs, not files: a renderer is still responsible for what it draws for a role.
+- Real third-party platforms the source names (Shopify, Zendesk, Gorgias, Kustomer ...) only warn; the check cannot tell a
+  legitimate integration mention from copying.
+
 ## Layout
 
 ```
@@ -59,7 +118,8 @@ primitives/ components/ sections/   contracts (content models with maxWords, var
                                     sections also carry semantic{}, source{} and retrievalEligible)
 templates/templates.json            27 page shapes, nodes keyed on (section, variants), routing + overrides; long-form pages decomposed at real content boundaries
 compatibility/graph.json            adjacency (derived) + 28 rules with severity
-assets/asset-roles.json             closed asset-role vocabulary + licensing; assets/verified-quotes.json
+assets/asset-roles.json             closed asset-role vocabulary + licensing + per-role availability for generated mode + sourceBrand registry;
+                                    assets/source-copy-hashes.json (hashes of source copy and media stems); assets/verified-quotes.json
 schema/                             pagespec.schema.json (generated, Draft-07), section-contract.schema.json + section-classification.json (hand-authored),
                                     semantic_validate.py, examples, tests/adversarial_test.py
 extraction/                         measured-values.json (citations, snapshot, quirks, sectionHeights), height-probes.json, measure_heights.mjs,
@@ -161,11 +221,11 @@ re-checked against the current `src/` before release.
 
 ```
 python3 -m pip install jsonschema
-python3 extraction/verify_all.py          # 16 numbered checks (0-15) incl. wrapper gate, IA parity, adversarial suite
+python3 extraction/verify_all.py          # 17 numbered checks (0-16) incl. wrapper gate, IA parity, generated mode, adversarial suite
 python3 extraction/wrapper_gate.py        # the whole-page-wrapper gate on its own
 python3 schema/tests/adversarial_test.py  # mutations rejected, controls pass
 python3 extraction/prove_drift.py         # proves the drift checks fail on injected defects
-python3 schema/semantic_validate.py schema/example.pagespec.json
+python3 schema/semantic_validate.py schema/example.pagespec.json schema/examples/generated.template.home.pagespec.json
 ```
 
 All scripts derive their root from their own location. With the clone's `src/`, `specs/`
@@ -176,7 +236,7 @@ standalone copy those checks are skipped with a warning (never a failure).
 
 `python3 tokens/build_catalog.py`, `python3 schema/build_schema.py`,
 `python3 extraction/build_histogram.py` (needs `recon/`), `python3 extraction/build_verified_quotes.py`
-(needs `src/`). `verify_all.py` fails if the catalog or schema is stale and warns if the
+(needs `src/`), `python3 extraction/build_source_brand.py` (needs `src/`, `specs/`, `public/`, `recon/`; `--check` to compare). `verify_all.py` fails if the catalog or schema is stale and warns if the
 histogram or quote registry drifted from the source.
 
 ## Packaging
